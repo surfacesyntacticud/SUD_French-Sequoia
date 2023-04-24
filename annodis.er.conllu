@@ -548,7 +548,7 @@
 29	de	de	ADP	_	_	28	udep	_	_
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	lavoir	lavoir	NOUN	_	Gender=Masc|Number=Sing	29	comp:obj	_	_
-32	pourront	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	2|26	comp:cleft|comp:obj	_	_
+32	pourront	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	26	comp:obj	_	_
 33	découvrir	découvrir	VERB	_	VerbForm=Inf	32	comp:obj	_	Subject=SubjRaising
 34	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -2326,14 +2326,14 @@
 7	autour	autour	ADV	_	_	6	comp:pred	_	_
 8	de	de	ADP	_	_	7	comp:obl	_	_
 9	1950	1950	NUM	_	NumType=Card	8	comp:obj	_	_
-10	que	que	SCONJ	_	_	_	_	_	_
+10	que	que	SCONJ	_	_	6	comp:cleft	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	société	société	NOUN	_	Gender=Fem|Number=Sing	17	subj	_	_
 13	d'	de	ADP	_	_	12	udep	_	_
 14	aviculture	aviculture	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 15	de	de	ADP	_	_	14	udep	_	_
 16	Belfort	Belfort	PROPN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
-17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6|10	comp:cleft|comp:obj	_	_
+17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
 18	vraiment	vraiment	ADV	_	_	17	mod	_	_
 19	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	17	comp:aux@tense	_	_
 20	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes	22	det	_	_
@@ -2680,7 +2680,7 @@
 10	de	de	ADP	_	_	9	udep	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	véhicule	véhicule	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
-13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2|7	comp:cleft|comp:obj	_	_
+13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
 14	pu	pouvoir	VERB	_	Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
 15	passer	passer	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising
 16	entre	entre	ADP	_	_	15	comp:obl	_	_
@@ -3944,11 +3944,11 @@
 5	aisance	aisance	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	toute	toute	ADV	_	_	7	mod	_	_
 7	naturelle	naturel	ADJ	_	Gender=Fem|Number=Sing	5	mod	_	_
-8	que	que	SCONJ	_	_	_	_	_	_
+8	que	que	SCONJ	_	_	2	comp:cleft	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	élèves	élève	NOUN	_	Number=Plur	12	subj	_	_
 11	apprentis-acteurs	apprenti-acteur	NOUN	_	Gender=Masc|Number=Plur	10	mod	_	_
-12	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2|8	comp:cleft|comp:obj	_	_
+12	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	_
 13	joué	jouer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@tense	_	_
 14	.	.	PUNCT	_	_	2	punct	_	_
 

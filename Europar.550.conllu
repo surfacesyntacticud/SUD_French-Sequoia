@@ -10970,7 +10970,7 @@
 17	souffre	souffrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	mod@relcl	_	_
 18	que	que	SCONJ	_	_	9	comp:cleft	_	_
 19	nous	il	PRON	_	Number=Plur|Person=1	20	subj	_	_
-20	devons	devoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9|18	comp:cleft|comp:obj	_	_
+20	devons	devoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	comp:obj	_	_
 21	entendre	entendre	VERB	_	VerbForm=Inf	20	comp:obj	_	Subject=SubjRaising
 22	.	.	PUNCT	_	_	9	punct	_	_
 

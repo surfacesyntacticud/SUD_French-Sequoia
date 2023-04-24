@@ -8368,9 +8368,9 @@
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 16	politique	politique	ADJ	_	Number=Sing	15	mod	_	_
-17	que	que	SCONJ	_	_	_	_	_	_
+17	que	que	SCONJ	_	_	12	comp:cleft	_	_
 18	se	se	PRON	_	Person=3|Reflex=Yes	19	comp@expl	_	_
-19	situe	situer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12|17	comp:cleft|comp:obj	_	_
+19	situe	situer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
 20	ici	ici	ADV	_	_	19	mod	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	crise	crise	NOUN	_	Gender=Fem|Number=Sing	19	subj	_	_
@@ -18705,9 +18705,9 @@
 8	de	de	ADP	_	_	7	udep	_	_
 9	Jacques	Jacques	PROPN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 10	Chirac	Chirac	PROPN	_	Gender=Masc|Number=Sing	9	flat:name	_	_
-11	que	que	SCONJ	_	_	_	_	_	_
+11	que	que	SCONJ	_	_	3	comp:cleft	_	_
 12	nous	il	PRON	_	Number=Plur|Person=1	13	subj	_	_
-13	travaillions	travailler	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	3|11	comp:cleft|comp:obj	_	_
+13	travaillions	travailler	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	11	comp:obj	_	_
 14	"	"	PUNCT	_	_	3	punct	_	_
 15	,	,	PUNCT	_	_	3	punct	_	_
 16	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis:insert	_	_
@@ -24044,7 +24044,7 @@
 12	Chirac	Chirac	PROPN	_	Gender=Masc|Number=Sing	11	comp:pred	_	_
 13	que	que	SCONJ	_	_	11	comp:cleft	_	_
 14	l'on	il	PRON	_	Number=Sing	15	subj	_	wordform=on
-15	cherche	chercher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11|13	comp:cleft|comp:obj	_	_
+15	cherche	chercher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	comp:obj	_	_
 16	à	à	ADP	_	_	15	comp:obj	_	_
 17	atteindre	atteindre	VERB	_	VerbForm=Inf	16	comp:obj	_	Subject=SubjRaising
 18-19	au	_	_	_	_	_	_	_	_
