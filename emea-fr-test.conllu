@@ -851,7 +851,7 @@
 11	d'	de	ADP	_	_	10	comp:obl	_	_
 12	ostéoporose	ostéoporose	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
 13	,	,	PUNCT	_	Shared=Yes	14	punct	_	_
-14	âgés	âgé	ADJ	_	Gender=Masc|Number=Plur|Shared=Yes	9|10	mod|conj	_	_
+14	âgés	âgé	ADJ	_	Gender=Masc|Number=Plur|Shared=Yes	10	conj	_	_
 15	de	de	ADP	_	_	14	comp:obl	_	_
 16	plus	plus	ADV	_	_	15	comp:obj	_	ExtPos=PRON
 17	de	de	ADP	_	_	16	comp:obl	_	_
