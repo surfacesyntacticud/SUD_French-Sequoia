@@ -5269,7 +5269,7 @@
 
 # sent_id = frwiki_50.1000_00212
 # text = .. /..
-1	..	..	PUNCT	_	_	2	root	_	_
+1	..	..	PUNCT	_	_	2	punct	_	_
 2	/	/	SYM	_	_	0	root	_	SpaceAfter=No
 3	..	..	PUNCT	_	_	2	punct	_	_
 
