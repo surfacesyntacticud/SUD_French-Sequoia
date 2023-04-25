@@ -8,7 +8,7 @@
 # sent_id = emea-fr-dev_00002
 # text = EMEA / H/C/562
 1	EMEA	EMEA	PROPN	_	_	0	root	_	_
-2	/	/	SYM	_	_	1	punct	_	_
+2	/	/	SYM	_	_	1	unk	_	_
 3	H/C/562	H/C/562	PROPN	_	_	1	flat@name	_	_
 
 # sent_id = emea-fr-dev_00003
@@ -1698,7 +1698,7 @@
 # sent_id = emea-fr-dev_00073
 # text = EU / 1/04/289/001
 1	EU	EU	NOUN	_	_	0	root	_	_
-2	/	/	SYM	_	_	1	punct	_	_
+2	/	/	SYM	_	_	1	unk	_	_
 3	1/04/289/001	1/04/289/001	NOUN	_	NumType=Card	1	mod	_	_
 
 # sent_id = emea-fr-dev_00074
@@ -1744,7 +1744,7 @@
 # sent_id = emea-fr-dev_00080
 # text = EU / 1/04/289/002
 1	EU	EU	NOUN	_	_	0	root	_	_
-2	/	/	SYM	_	_	1	punct	_	_
+2	/	/	SYM	_	_	1	unk	_	_
 3	1/04/289/002	1/04/289/002	NOUN	_	NumType=Card	1	mod	_	_
 
 # sent_id = emea-fr-dev_00081
@@ -6384,8 +6384,8 @@
 75	thrombose	thrombose	NOUN	_	Gender=Fem|Number=Sing	74	comp:obj	_	_
 76	(	(	PUNCT	_	_	75	punct	_	SpaceAfter=No
 77	TIH	TIH	NOUN	_	_	75	conj:appos	_	SpaceAfter=No
-78	/	/	SYM	_	_	77	punct	_	SpaceAfter=No
-79	STIHT	STIHT	NOUN	_	_	77	mod	_	SpaceAfter=No
+78	/	/	SYM	_	_	79	cc	_	SpaceAfter=No
+79	STIHT	STIHT	NOUN	_	_	77	conj	_	SpaceAfter=No
 80	)	)	PUNCT	_	_	75	punct	_	SpaceAfter=No
 81	.	.	PUNCT	_	_	5	punct	_	_
 

@@ -2,7 +2,7 @@
 # sent_id = emea-fr-test_00001
 # text = EMEA / H/C/595
 1	EMEA	EMEA	PROPN	_	_	0	root	_	_
-2	/	/	SYM	_	_	1	punct	_	_
+2	/	/	SYM	_	_	1	unk	_	_
 3	H/C/595	H/C/595	X	_	_	1	flat@name	_	_
 
 # sent_id = emea-fr-test_00002
@@ -3585,8 +3585,8 @@
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	_
 27	bénéfice	bénéfice	NOUN	_	Gender=Masc|Number=Sing	26	mod	_	SpaceAfter=No
-28	/	/	SYM	_	_	27	punct	_	SpaceAfter=No
-29	risque	risque	NOUN	_	Gender=Masc|Number=Sing	27	mod	_	SpaceAfter=No
+28	/	/	SYM	_	_	29	cc	_	SpaceAfter=No
+29	risque	risque	NOUN	_	Gender=Masc|Number=Sing	27	conj	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = emea-fr-test_00135
