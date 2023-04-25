@@ -1945,7 +1945,7 @@
 10	de	de	ADP	_	_	9	udep	_	_
 11	Mme	monsieur	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 12	Charlotte	Charlotte	PROPN	_	Gender=Fem|Number=Sing	11	mod	_	_
-13	Cederschiöld	Cederschiöld	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+13	Cederschiöld	Cederschiöld	PROPN	_	_	12	flat@name	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	qui	qui	PRON	_	PronType=Rel	16	subj	_	_
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
@@ -3185,7 +3185,7 @@
 # sent_id = Europar.550_00105
 # text = Flora Brovina, la docteur albanaise condamnée le 13 janvier à Nis, est maintenant gravement malade et mise sous surveillance dans une clinique de la même ville.
 1	Flora	Flora	PROPN	_	Gender=Fem|Number=Sing	14	subj	_	_
-2	Brovina	Brovina	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+2	Brovina	Brovina	PROPN	_	_	1	flat@name	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	docteur	docteur	NOUN	_	Gender=Fem|Number=Sing	1	conj:appos	_	_
@@ -7635,7 +7635,7 @@
 # text = M. Eric Rouleau, ex-ambassadeur de France, parle, lui, d'un génocide au ralenti.
 1	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	9	subj	_	_
 2	Eric	Eric	PROPN	_	Gender=Masc|Number=Sing	1	mod	_	_
-3	Rouleau	Rouleau	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+3	Rouleau	Rouleau	PROPN	_	_	2	flat@name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	ex-ambassadeur	ex-ambassadeur	NOUN	_	Gender=Masc|Number=Sing	1	conj:appos	_	_
 6	de	de	ADP	_	_	5	udep	_	_
@@ -7788,7 +7788,7 @@
 38	dictatorial	dictatorial	ADJ	_	Gender=Masc|Number=Sing	37	mod	_	_
 39	de	de	ADP	_	_	37	udep	_	_
 40	Saddam	Saddam	PROPN	_	Gender=Masc|Number=Sing	39	comp:obj	_	_
-41	Hussein	Hussein	PROPN	_	Gender=Masc|Number=Sing	40	flat:name	_	SpaceAfter=No
+41	Hussein	Hussein	PROPN	_	Gender=Masc|Number=Sing	40	flat@name	_	SpaceAfter=No
 42	.	.	PUNCT	_	Shared=Yes	24	punct	_	_
 
 # sent_id = Europar.550_00250
@@ -8532,7 +8532,7 @@
 10	que	que	SCONJ	_	_	7	comp:obj	_	_
 11	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	30	subj@pass	_	_
 12	Akim	Akim	PROPN	_	Gender=Masc|Number=Sing	11	mod	_	_
-13	Birdal	Birdal	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+13	Birdal	Birdal	PROPN	_	_	12	flat@name	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 16	ancien	ancien	ADJ	_	Gender=Masc|Number=Sing	17	mod	_	_
@@ -9914,7 +9914,7 @@
 15	à	à	ADP	_	_	7	conj	_	_
 16	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
 17	Da	Da	PROPN	_	Gender=Masc|Number=Sing	16	mod	_	_
-18	Costa	Costa	PROPN	_	Gender=Masc|Number=Sing	17	flat:name	_	_
+18	Costa	Costa	PROPN	_	Gender=Masc|Number=Sing	17	flat@name	_	_
 19	pour	pour	ADP	_	_	15	orphan	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	collaboration	collaboration	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	_
@@ -12611,7 +12611,7 @@
 # sent_id = Europar.550_00386
 # text = John Kenneth Galbraith a dénoncé l'illusion selon laquelle argent et intelligence seraient des facteurs liés.
 1	John	John	PROPN	_	Gender=Masc|Number=Sing	4	subj	_	_
-2	Kenneth	Kenneth	PROPN	_	Gender=Masc|Number=Sing	1	flat:name	_	_
+2	Kenneth	Kenneth	PROPN	_	Gender=Masc|Number=Sing	1	flat@name	_	_
 3	Galbraith	Galbraith	PROPN	_	_	1	mod	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	dénoncé	dénoncer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
@@ -12953,7 +12953,7 @@
 8	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 9	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	6	mod	_	_
 10	Barón	Barón	PROPN	_	_	9	mod	_	_
-11	Crespo	Crespo	PROPN	_	_	10	flat:name	_	_
+11	Crespo	Crespo	PROPN	_	_	10	flat@name	_	_
 12	s'	se	PRON	_	Person=3|Reflex=Yes	15	comp@expl	_	SpaceAfter=No
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	aussi	aussi	ADV	_	_	13	mod	_	_
@@ -15188,7 +15188,7 @@
 7	je	il	PRON	_	Number=Sing|Person=1	8	subj	_	_
 8	félicite	féliciter	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
 9	Konstantinos	Konstantinos	PROPN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
-10	Alyssandrakis	Alyssandrakis	PROPN	_	_	9	flat:name	_	_
+10	Alyssandrakis	Alyssandrakis	PROPN	_	_	9	flat@name	_	_
 11	pour	pour	ADP	_	_	8	comp:obl	_	_
 12	son	son	DET	_	Number=Sing|Poss=Yes	13	det	_	_
 13	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
@@ -15461,7 +15461,7 @@
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	astronaute	astronaute	NOUN	_	Number=Sing	6	conj:appos	_	_
 11	John	John	PROPN	_	Gender=Masc|Number=Sing	10	mod	_	_
-12	Glenn	Glenn	PROPN	_	Gender=Masc|Number=Sing	11	flat:name	_	SpaceAfter=No
+12	Glenn	Glenn	PROPN	_	Gender=Masc|Number=Sing	11	flat@name	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	10	punct	_	_
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	parti	partir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	_
@@ -15558,7 +15558,7 @@
 9	déclaration	déclaration	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 10	de	de	ADP	_	_	9	udep	_	_
 11	Robert	Robert	PROPN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
-12	Schuman	Schuman	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+12	Schuman	Schuman	PROPN	_	_	11	flat@name	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	17	punct	_	_
 14	que	que	PRON	_	PronType=Rel	20	comp:obj	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -15678,14 +15678,14 @@
 39	mes	son	DET	_	Number=Plur|Poss=Yes	40	det	_	_
 40	prédécesseurs	prédécesseur	NOUN	_	Gender=Masc|Number=Plur	38	comp:obj	_	_
 41	Enrique	Enrique	PROPN	_	Gender=Masc|Number=Sing	40	mod	_	_
-42	Barón	Barón	PROPN	_	_	41	flat:name	_	_
+42	Barón	Barón	PROPN	_	_	41	flat@name	_	_
 43	Crespo	Crespo	PROPN	_	_	41	mod	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	45	punct	_	_
 45	Klaus	Klaus	PROPN	_	Gender=Masc|Number=Sing	41	conj	_	_
-46	Hänsch	Hänsch	PROPN	_	_	45	flat:name	_	_
+46	Hänsch	Hänsch	PROPN	_	_	45	flat@name	_	_
 47	et	et	CCONJ	_	_	48	cc	_	_
 48	José	José	PROPN	_	Gender=Masc|Number=Sing	45	conj	_	_
-49	Maria	Maria	PROPN	_	Gender=Fem|Number=Sing	48	flat:name	_	_
+49	Maria	Maria	PROPN	_	Gender=Fem|Number=Sing	48	flat@name	_	_
 50	Gil	Gil	PROPN	_	Gender=Masc|Number=Sing	48	mod	_	_
 51	Robles	Robles	PROPN	_	_	48	mod	_	SpaceAfter=No
 52	.	.	PUNCT	_	_	4	punct	_	_
@@ -16869,7 +16869,7 @@
 8	député	député	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 9	d'	de	ADP	_	_	8	udep	_	SpaceAfter=No
 10	Euskal	Euskal	PROPN	_	_	9	comp:obj	_	_
-11	Herritarrok	Herritarrok	PROPN	_	_	10	flat:name	_	_
+11	Herritarrok	Herritarrok	PROPN	_	_	10	flat@name	_	_
 12	me	le	PRON	_	Number=Sing|Person=1	13	comp:obl	_	_
 13	semblent	sembler	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	indécents	indécent	ADJ	_	Gender=Masc|Number=Plur	13	comp:pred	_	SpaceAfter=No
@@ -16903,7 +16903,7 @@
 2	devons	devoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	à	à	ADP	_	_	2	comp:obl	_	_
 4	Nelson	Nelson	PROPN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
-5	Mandela	Mandela	PROPN	_	_	4	flat:name	_	_
+5	Mandela	Mandela	PROPN	_	_	4	flat@name	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	respect	respect	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 8	tout	tout	ADV	_	_	9	mod	_	_
@@ -16917,7 +16917,7 @@
 3	pu	pouvoir	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	écouter	écouter	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=SubjRaising
 5	Nelson	Nelson	PROPN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
-6	Mandela	Mandela	PROPN	_	_	5	flat:name	_	_
+6	Mandela	Mandela	PROPN	_	_	5	flat@name	_	_
 7-8	au	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	4	mod	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -16980,7 +16980,7 @@
 12	de	de	ADP	_	_	11	udep	_	_
 13	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 14	Barón	Barón	PROPN	_	_	13	mod	_	_
-15	Crespo	Crespo	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+15	Crespo	Crespo	PROPN	_	_	14	flat@name	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	9	punct	_	_
 17	que	que	SCONJ	_	_	4	comp:obj	_	_
 18	s'	si	SCONJ	_	_	46	mod	_	SpaceAfter=No
@@ -17033,7 +17033,7 @@
 13	conclues	conclure	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	mod	_	_
 14	avec	avec	ADP	_	_	13	mod	_	_
 15	Euskal	Euskal	PROPN	_	_	14	comp:obj	_	_
-16	Herritarrok	Herritarrok	PROPN	_	_	15	flat:name	_	_
+16	Herritarrok	Herritarrok	PROPN	_	_	15	flat@name	_	_
 17	dans	dans	ADP	_	_	13	mod	_	_
 18	certaines	certain	DET	_	Gender=Fem|Number=Plur	19	det	_	_
 19	municipalités	municipalité	NOUN	_	Gender=Fem|Number=Plur	17	comp:obj	_	_
@@ -17119,7 +17119,7 @@
 26	de	de	ADP	_	_	25	udep	_	_
 27	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	26	comp:obj	_	_
 28	André	André	PROPN	_	Gender=Masc|Number=Sing	27	mod	_	_
-29	Brie	Brie	PROPN	_	Gender=Masc|Number=Sing	28	flat:name	_	SpaceAfter=No
+29	Brie	Brie	PROPN	_	Gender=Masc|Number=Sing	28	flat@name	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	32	punct	_	_
 31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	membre	membre	NOUN	_	Gender=Masc|Number=Sing	27	conj:appos	_	_

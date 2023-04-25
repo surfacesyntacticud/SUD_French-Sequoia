@@ -45,7 +45,7 @@
 12	imprimerie	imprimerie	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	4	punct	_	_
 14	Gillet	Gillet	PROPN	_	_	16	subj	_	_
-15	Bonnemire	Bonnemire	PROPN	_	_	14	flat:name	_	_
+15	Bonnemire	Bonnemire	PROPN	_	_	14	flat@name	_	_
 16	créait	créer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 17	en	en	ADP	_	_	16	mod	_	_
 18	1450	1450	NUM	_	NumType=Card	17	comp:obj	_	_
@@ -104,7 +104,7 @@
 14	,	,	PUNCT	_	_	32	punct	_	_
 15	puis	puis	CCONJ	_	_	32	cc	_	_
 16	Jean	Jean	PROPN	_	Gender=Masc|Number=Sing	32	subj	_	_
-17	Baudesson	Baudesson	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+17	Baudesson	Baudesson	PROPN	_	_	16	flat@name	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	maire	maire	NOUN	_	Gender=Masc|Number=Sing	16	conj:appos	_	_
 20	échevin	échevin	NOUN	_	Gender=Masc|Number=Sing	19	mod	_	_
@@ -366,7 +366,7 @@
 15	inaugurée	inaugurer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	comp:aux@pass	_	_
 16	par	par	ADP	_	_	15	comp:obl@agent	_	_
 17	Roger	Roger	PROPN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
-18	Thiriot	Thiriot	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+18	Thiriot	Thiriot	PROPN	_	_	17	flat@name	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	président	président	NOUN	_	Gender=Masc|Number=Sing	17	conj:appos	_	_
 21	de	de	ADP	_	_	20	udep	_	_
@@ -452,7 +452,7 @@
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis:insert	_	_
 7	précisé	préciser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
 8	Roger	Roger	PROPN	_	Gender=Masc|Number=Sing	6	subj	_	_
-9	Thiriot	Thiriot	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+9	Thiriot	Thiriot	PROPN	_	_	8	flat@name	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	6	punct	_	_
 11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=parce_que
@@ -636,7 +636,7 @@
 5	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	comp:obj	_	_
 6	conclure	conclure	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=SubjRaising
 7	Roger	Roger	PROPN	_	Gender=Masc|Number=Sing	5	subj	_	_
-8	Thiriot	Thiriot	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+8	Thiriot	Thiriot	PROPN	_	_	7	flat@name	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	4	punct	_	_
 10	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
 11	n'	ne	ADV	_	Polarity=Neg	12	mod	_	SpaceAfter=No
@@ -1211,7 +1211,7 @@
 10	CM2	CM2	NOUN	_	Number=Sing	9	comp:obj	_	_
 11	de	de	ADP	_	_	8	udep	_	_
 12	Jacky	Jacky	PROPN	_	_	11	comp:obj	_	_
-13	Hedin	Hedin	PROPN	_	_	12	flat:name	_	_
+13	Hedin	Hedin	PROPN	_	_	12	flat@name	_	_
 14	qui	qui	PRON	_	PronType=Rel	15	subj	_	_
 15	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	comp:cleft	_	_
 16	venus	venir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	comp:aux@tense	_	_
@@ -1889,7 +1889,7 @@
 1	Décès	décès	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	1	udep	_	_
 3	Guy	Guy	PROPN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
-4	Hosneld	Hosneld	PROPN	_	_	3	flat:name	_	_
+4	Hosneld	Hosneld	PROPN	_	_	3	flat@name	_	_
 
 # sent_id = annodis.er_00070
 # text = M. Hosneld avait 44 ans.
@@ -1913,7 +1913,7 @@
 9	décès	décès	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 10	de	de	ADP	_	_	9	udep	_	_
 11	Guy	Guy	PROPN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
-12	Hosneld	Hosneld	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+12	Hosneld	Hosneld	PROPN	_	_	11	flat@name	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	suite	suite	NOUN	_	Gender=Fem|Number=Sing	9	udep	_	ExtPos=ADV
 15	à	à	ADP	_	_	14	comp:obl	_	_
@@ -1959,7 +1959,7 @@
 2	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	épousé	épouser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	Denise	Denise	PROPN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
-5	Pierrejean	Pierrejean	PROPN	_	_	4	flat:name	_	_
+5	Pierrejean	Pierrejean	PROPN	_	_	4	flat@name	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	26	26	NUM	_	NumType=Card	2	mod	_	_
 8	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	7	udep	_	_
@@ -2022,7 +2022,7 @@
 # sent_id = annodis.er_00075
 # text = Guy Hosneld était une personne très connue dans la commune et aux alentours, pour son grand dévouement aux autres et sa participation à la vie associative du village ;
 1	Guy	Guy	PROPN	_	Gender=Masc|Number=Sing	3	subj	_	_
-2	Hosneld	Hosneld	PROPN	_	_	1	flat:name	_	_
+2	Hosneld	Hosneld	PROPN	_	_	1	flat@name	_	_
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	personne	personne	NOUN	_	Gender=Fem|Number=Sing	3	comp:pred	_	_
@@ -2236,7 +2236,7 @@
 # text = Photos Jacques FISSIER
 1	Photos	photo	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	Jacques	Jacques	PROPN	_	Gender=Masc|Number=Sing	1	mod	_	_
-3	FISSIER	FISSIER	PROPN	_	_	2	flat:name	_	_
+3	FISSIER	FISSIER	PROPN	_	_	2	flat@name	_	_
 
 # sent_id = annodis.er_00085
 # text = La première exposition avicole de Belfort date de 1922.
@@ -2345,7 +2345,7 @@
 26	présidence	présidence	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
 27	de	de	ADP	_	_	26	udep	_	_
 28	Claude	Claude	PROPN	_	Number=Sing	27	comp:obj	_	_
-29	Simon	Simon	PROPN	_	Gender=Masc|Number=Sing	28	flat:name	_	SpaceAfter=No
+29	Simon	Simon	PROPN	_	Gender=Masc|Number=Sing	28	flat@name	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = annodis.er_00089
@@ -2400,7 +2400,7 @@
 6	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
 7	brave	brave	ADJ	_	Number=Sing	8	mod	_	_
 8	Joseph	Joseph	PROPN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
-9	Bari	Bari	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+9	Bari	Bari	PROPN	_	_	8	flat@name	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	toujours	toujours	ADV	_	_	12	mod	_	_
 12	présent	présent	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	_
@@ -2492,7 +2492,7 @@
 # sent_id = annodis.er_00092
 # text = Joseph Bari n'a plus rien chez lui, que des souvenirs.
 1	Joseph	Joseph	PROPN	_	Gender=Masc|Number=Sing	4	subj	_	_
-2	Bari	Bari	PROPN	_	_	1	flat:name	_	_
+2	Bari	Bari	PROPN	_	_	1	flat@name	_	_
 3	n'	ne	ADV	_	Polarity=Neg	4	mod	_	SpaceAfter=No
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	plus	plus	ADV	_	Polarity=Neg	4	mod	_	_
@@ -2515,7 +2515,7 @@
 6	amis	ami	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
 7	de	de	ADP	_	_	6	udep	_	_
 8	Claude	Claude	PROPN	_	Number=Sing	7	comp:obj	_	_
-9	Simon	Simon	PROPN	_	Gender=Masc|Number=Sing	8	flat:name	_	SpaceAfter=No
+9	Simon	Simon	PROPN	_	Gender=Masc|Number=Sing	8	flat@name	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	3	punct	_	_
 11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	12	subj	_	_
 12	adore	adorer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2590,7 +2590,7 @@
 14	fallu	falloir	VERB	_	Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
 15	à	à	ADP	_	_	14	comp:obl	_	_
 16	Thierry	Thierry	PROPN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
-17	Guerry	Guerry	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+17	Guerry	Guerry	PROPN	_	_	16	flat@name	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	chauffeur-routier	chauffeur-routier	NOUN	_	Gender=Masc|Number=Sing	16	conj:appos	_	_
 20	chez	chez	ADP	_	_	19	udep	_	_
@@ -3539,7 +3539,7 @@
 4	soirée	soirée	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	François	François	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-7	Puel	Puel	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+7	Puel	Puel	PROPN	_	_	6	flat@name	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	chercheur	chercheur	NOUN	_	Gender=Masc|Number=Sing	6	conj:appos	_	_
 10-11	du	_	_	_	_	_	_	_	_
@@ -3706,7 +3706,7 @@
 3	Prince	Prince	PROPN	_	Gender=Masc|Number=Sing	7	subj	_	_
 4	de	de	ADP	_	_	3	udep	_	_
 5	Saint	Saint	PROPN	_	_	4	comp:obj	_	_
-6	Exupéry	Exupéry	PROPN	_	_	5	flat:name	_	_
+6	Exupéry	Exupéry	PROPN	_	_	5	flat@name	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	entré	entrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
 9	à	à	ADP	_	_	8	comp:obl	_	_
@@ -3789,7 +3789,7 @@
 26	intervenant	intervenant	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	Julien	Julien	PROPN	_	Gender=Masc|Number=Sing	26	conj:appos	_	_
-29	Georges	Georges	PROPN	_	Gender=Masc|Number=Sing	28	flat:name	_	SpaceAfter=No
+29	Georges	Georges	PROPN	_	Gender=Masc|Number=Sing	28	flat@name	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	_
 31	maître	maître	NOUN	_	Gender=Masc|Number=Sing	28	conj	_	_
 32	de	de	ADP	_	_	31	udep	_	_
@@ -4006,13 +4006,13 @@
 29	"	"	PUNCT	_	_	24	punct	_	_
 30	de	de	ADP	_	_	24	udep	_	_
 31	Marcel	Marcel	PROPN	_	Gender=Masc|Number=Sing	30	comp:obj	_	_
-32	Aimé	Aimé	PROPN	_	Gender=Masc|Number=Sing	31	flat:name	_	SpaceAfter=No
+32	Aimé	Aimé	PROPN	_	Gender=Masc|Number=Sing	31	flat@name	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = annodis.er_00147
 # text = Julien Georges souligne : "Le théâtre doit être léger, populaire.
 1	Julien	Julien	PROPN	_	Gender=Masc|Number=Sing	3	subj	_	_
-2	Georges	Georges	PROPN	_	Gender=Masc|Number=Sing	1	flat:name	_	_
+2	Georges	Georges	PROPN	_	Gender=Masc|Number=Sing	1	flat@name	_	_
 3	souligne	souligner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	:	:	PUNCT	_	_	5	punct	_	_
 5	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
@@ -4186,7 +4186,7 @@
 50	présidence	présidence	NOUN	_	Gender=Fem|Number=Sing	48	comp:obj	_	_
 51	d'	de	ADP	_	_	50	udep	_	SpaceAfter=No
 52	Edmond	Edmond	PROPN	_	Gender=Masc|Number=Sing	51	comp:obj	_	_
-53	Maire	Maire	PROPN	_	Gender=Masc|Number=Sing	52	flat:name	_	SpaceAfter=No
+53	Maire	Maire	PROPN	_	Gender=Masc|Number=Sing	52	flat@name	_	SpaceAfter=No
 54	,	,	PUNCT	_	_	55	punct	_	_
 55	à	à	ADP	_	_	43	mod	_	_
 56	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
@@ -4254,7 +4254,7 @@
 11	Jeanine	Jeanine	PROPN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 12	et	et	CCONJ	_	_	13	cc	_	_
 13	Willy	Willy	PROPN	_	Gender=Masc|Number=Sing	11	conj	_	_
-14	Schaer	Schaer	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+14	Schaer	Schaer	PROPN	_	_	13	flat@name	_	SpaceAfter=No
 15	,	,	PUNCT	_	Shared=Yes	17	punct	_	_
 16	jeune	jeune	ADJ	_	Number=Sing	17	mod	_	_
 17	couple	couple	NOUN	_	Number=Sing|Shared=Yes	13	conj:appos	_	_
@@ -4359,7 +4359,7 @@
 # sent_id = annodis.er_00160
 # text = Suzanne Sequin n'est plus.
 1	Suzanne	Suzanne	PROPN	_	Gender=Fem|Number=Sing	4	subj	_	_
-2	Sequin	Sequin	PROPN	_	_	1	flat:name	_	_
+2	Sequin	Sequin	PROPN	_	_	1	flat@name	_	_
 3	n'	ne	ADV	_	Polarity=Neg	4	mod	_	SpaceAfter=No
 4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	plus	plus	ADV	_	Polarity=Neg	4	mod	_	SpaceAfter=No
@@ -4376,7 +4376,7 @@
 7	maladie	maladie	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	Suzanne	Suzanne	PROPN	_	Gender=Fem|Number=Sing	12	subj	_	_
-10	Sequin	Sequin	PROPN	_	_	9	flat:name	_	_
+10	Sequin	Sequin	PROPN	_	_	9	flat@name	_	_
 11	s'	se	PRON	_	Person=3|Reflex=Yes	13	comp@expl	_	SpaceAfter=No
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	éteinte	éteindre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@tense	_	_
@@ -4414,7 +4414,7 @@
 # sent_id = annodis.er_00163
 # text = Suzanne Collin était née à Brauvilliers dans la Meuse, le 21 janvier 1924, issue d'une famille de cinq enfants.
 1	Suzanne	Suzanne	PROPN	_	Gender=Fem|Number=Sing	3	subj	_	_
-2	Collin	Collin	PROPN	_	_	1	flat:name	_	_
+2	Collin	Collin	PROPN	_	_	1	flat@name	_	_
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	née	naître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	à	à	ADP	_	_	3	mod	_	_
@@ -4503,7 +4503,7 @@
 10	puis	puis	CCONJ	_	_	11	cc	_	_
 11	épousa	épouser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
 12	Gaston	Gaston	PROPN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
-13	Sequin	Sequin	PROPN	_	_	12	flat:name	_	_
+13	Sequin	Sequin	PROPN	_	_	12	flat@name	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	15	15	NUM	_	NumType=Card	11	mod	_	_
 16	juin	juin	NOUN	_	Gender=Masc|Number=Sing	15	udep	_	_
@@ -4812,7 +4812,7 @@
 6	chef	chef	NOUN	_	Gender=Masc|Number=Sing	20	subj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	Gérard	Gérard	PROPN	_	Gender=Masc|Number=Sing	6	conj:appos	_	_
-9	Pizzetti	Pizzetti	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+9	Pizzetti	Pizzetti	PROPN	_	_	8	flat@name	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	8	punct	_	_
 11	en	en	ADP	_	_	20	mod	_	_
 12	désaccord	désaccord	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
@@ -5075,11 +5075,11 @@
 29	soulignent	souligner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	mod@relcl	_	_
 30	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	29	subj	_	_
 31	Christian	Christian	PROPN	_	Gender=Masc|Number=Sing	30	mod	_	_
-32	Langlois	Langlois	PROPN	_	_	31	flat:name	_	_
+32	Langlois	Langlois	PROPN	_	_	31	flat@name	_	_
 33	et	et	CCONJ	_	_	34	cc	_	_
 34	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	30	conj	_	_
 35	Patrice	Patrice	PROPN	_	Gender=Masc|Number=Sing	34	mod	_	_
-36	Lanini	Lanini	PROPN	_	_	35	flat:name	_	SpaceAfter=No
+36	Lanini	Lanini	PROPN	_	_	35	flat@name	_	SpaceAfter=No
 37	,	,	PUNCT	_	Shared=Yes	38	punct	_	_
 38	délégués	délégué	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	34	conj:appos	_	_
 39	syndicaux	syndical	ADJ	_	Gender=Masc|Number=Plur	38	mod	_	_
@@ -5531,7 +5531,7 @@
 17	venir	venir	VERB	_	VerbForm=Inf	16	comp:obj	_	Subject=Instantiated
 18	écouter	écouter	VERB	_	VerbForm=Inf	17	comp:obl	_	Subject=SubjRaising
 19	Sylvain	Sylvain	PROPN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
-20	Breda	Breda	PROPN	_	Gender=Fem|Number=Sing	19	flat:name	_	_
+20	Breda	Breda	PROPN	_	Gender=Fem|Number=Sing	19	flat@name	_	_
 21	présenter	présenter	VERB	_	VerbForm=Inf	18	comp:pred	_	Subject=ObjRaising
 22	son	son	DET	_	Number=Sing|Poss=Yes	23	det	_	_
 23	panel	panel	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_
@@ -5695,7 +5695,7 @@
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	souligne	souligner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis:insert	_	_
 19	Dominique	Dominique	PROPN	_	Number=Sing	18	subj	_	_
-20	Richard	Richard	PROPN	_	Gender=Masc|Number=Sing	19	flat:name	_	SpaceAfter=No
+20	Richard	Richard	PROPN	_	Gender=Masc|Number=Sing	19	flat@name	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	responsable	responsable	NOUN	_	Number=Sing	19	conj:appos	_	_
 23-24	des	_	_	_	_	_	_	_	_
@@ -5797,7 +5797,7 @@
 # text = L'Effort Basket de Mirecourt participait ce dimanche au tournoi international de Soleuvre au Luxembourg où étaient présentées des équipes de haut niveau telle Utrecht (N1 hollandaise).
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	Effort	Effort	PROPN	_	Number=Sing	6	subj	_	_
-3	Basket	Basket	PROPN	_	_	2	flat:name	_	_
+3	Basket	Basket	PROPN	_	_	2	flat@name	_	_
 4	de	de	ADP	_	_	2	udep	_	_
 5	Mirecourt	Mirecourt	PROPN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 6	participait	participer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -5871,7 +5871,7 @@
 4	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	13	subj	_	_
 5	de	de	ADP	_	_	4	udep	_	_
 6	Franck	Franck	PROPN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
-7	Renard	Renard	PROPN	_	Gender=Masc|Number=Sing	6	flat:name	_	SpaceAfter=No
+7	Renard	Renard	PROPN	_	Gender=Masc|Number=Sing	6	flat@name	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	bien	bien	ADV	_	_	10	mod	_	_
 10	en	en	ADP	_	_	4	udep	_	_
@@ -6645,7 +6645,7 @@
 8	président	président	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	Luc	Luc	PROPN	_	Gender=Masc|Number=Sing	8	conj:appos	_	_
-11	Stéfann	Stéfann	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+11	Stéfann	Stéfann	PROPN	_	_	10	flat@name	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	qui	qui	PRON	_	PronType=Rel	14	subj	_	_
 14	rappelle	rappeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
@@ -6721,7 +6721,7 @@
 1	président	président	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	:	:	PUNCT	_	_	3	punct	_	_
 3	Luc	Luc	PROPN	_	Gender=Masc|Number=Sing	1	conj:appos	_	_
-4	Stéfann	Stéfann	PROPN	_	_	3	flat:name	_	_
+4	Stéfann	Stéfann	PROPN	_	_	3	flat@name	_	_
 5	;	;	PUNCT	_	_	1	punct	_	_
 
 # sent_id = annodis.er_00258
@@ -6729,7 +6729,7 @@
 1	vice-président	vice-président	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	:	:	PUNCT	_	_	3	punct	_	_
 3	André	André	PROPN	_	Gender=Masc|Number=Sing	1	mod	_	_
-4	Ménétrez	Ménétrez	PROPN	_	_	3	flat:name	_	_
+4	Ménétrez	Ménétrez	PROPN	_	_	3	flat@name	_	_
 5	;	;	PUNCT	_	_	1	punct	_	_
 
 # sent_id = annodis.er_00259
@@ -6737,7 +6737,7 @@
 1	trésorière	trésorier	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	:	:	PUNCT	_	_	3	punct	_	_
 3	Marie-Thérèse	Marie-Thérèse	PROPN	_	_	1	conj:appos	_	_
-4	Joyot	Joyot	PROPN	_	_	3	flat:name	_	_
+4	Joyot	Joyot	PROPN	_	_	3	flat@name	_	_
 5	;	;	PUNCT	_	_	1	punct	_	_
 
 # sent_id = annodis.er_00260
@@ -6745,7 +6745,7 @@
 1	secrétaire	secrétaire	NOUN	_	Number=Sing	0	root	_	_
 2	:	:	PUNCT	_	_	3	punct	_	_
 3	Colette	Colette	PROPN	_	Gender=Fem|Number=Sing	1	conj:appos	_	_
-4	Mermet	Mermet	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+4	Mermet	Mermet	PROPN	_	_	3	flat@name	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = annodis.er_00261
@@ -6864,7 +6864,7 @@
 43	d'	de	ADP	_	_	42	udep	_	SpaceAfter=No
 44	EFI	EFI	PROPN	_	_	43	comp:obj	_	_
 45	Michel	Michel	PROPN	_	Gender=Masc|Number=Sing	42	mod	_	_
-46	Balandier	Balandier	PROPN	_	_	45	flat:name	_	SpaceAfter=No
+46	Balandier	Balandier	PROPN	_	_	45	flat@name	_	SpaceAfter=No
 47	.	.	PUNCT	_	Shared=Yes	32	punct	_	_
 
 # sent_id = annodis.er_00267
@@ -7191,7 +7191,7 @@
 14	anciens	ancien	ADJ	_	Gender=Masc|Number=Plur	15	mod	_	_
 15	combattants	combattant	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	_
 16	Jacques	Jacques	PROPN	_	Gender=Masc|Number=Sing	9	mod	_	_
-17	Floch	Floch	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+17	Floch	Floch	PROPN	_	_	16	flat@name	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	s'	se	PRON	_	Person=3|Reflex=Yes	21	comp@expl	_	SpaceAfter=No
 20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7263,7 +7263,7 @@
 18	que	que	PRON	_	PronType=Rel	19	comp:obj	_	_
 19	préside	présider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	_
 20	Arsène	Arsène	PROPN	_	_	19	subj	_	_
-21	Vauthier	Vauthier	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+21	Vauthier	Vauthier	PROPN	_	_	20	flat@name	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	19	punct	_	_
 23	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 24	multiplié	multiplier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	comp:aux@tense	_	_
@@ -7286,7 +7286,7 @@
 9	passage	passage	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	de	de	ADP	_	_	9	udep	_	_
 11	Lionel	Lionel	PROPN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
-12	Jospin	Jospin	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+12	Jospin	Jospin	PROPN	_	_	11	flat@name	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	lors	lors	ADV	_	_	2	mod	_	ExtPos=ADV
 15	de	de	ADP	_	_	14	comp:obl	_	_
@@ -7317,7 +7317,7 @@
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	député	député	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 16	Claude	Claude	PROPN	_	Number=Sing	15	mod	_	_
-17	Jacquot	Jacquot	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+17	Jacquot	Jacquot	PROPN	_	_	16	flat@name	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	21	punct	_	_
 19	qui	qui	PRON	_	PronType=Rel	21	subj	_	_
 20	lui	lui	PRON	_	Number=Sing|Person=3	22	comp:obl	_	_
@@ -7342,7 +7342,7 @@
 # sent_id = annodis.er_00283
 # text = Lionel Jospin répond -il faut le souligner- sur son papier à en-tête de candidat à la présidentielle, et ne signe pas "le premier ministre".
 1	Lionel	Lionel	PROPN	_	Gender=Masc|Number=Sing	3	subj	_	_
-2	Jospin	Jospin	PROPN	_	_	1	flat:name	_	_
+2	Jospin	Jospin	PROPN	_	_	1	flat@name	_	_
 3	répond	répondre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	6	subj@expl	_	_
@@ -7416,7 +7416,7 @@
 # sent_id = annodis.er_00285
 # text = Lionel Jospin note que la mission de ce groupe est "de ne pas méconnaître les justes revendications des autres orphelins de victimes du nazisme" et de "trouver collectivement la meilleure façon de faire reconnaître par la Nation l'ampleur des souffrances subies".
 1	Lionel	Lionel	PROPN	_	Gender=Masc|Number=Sing	3	subj	_	_
-2	Jospin	Jospin	PROPN	_	_	1	flat:name	_	_
+2	Jospin	Jospin	PROPN	_	_	1	flat@name	_	_
 3	note	noter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -7498,7 +7498,7 @@
 # sent_id = annodis.er_00287
 # text = Lionel Jospin écrit : "Il m'a été donné de dire à plusieurs reprises combien les persécutions antisémites et les actes qui en ont découlé revêtaient un caractère particulier aux yeux de l'histoire et de la morale".
 1	Lionel	Lionel	PROPN	_	Gender=Masc|Number=Sing	3	subj	_	_
-2	Jospin	Jospin	PROPN	_	_	1	flat:name	_	_
+2	Jospin	Jospin	PROPN	_	_	1	flat@name	_	_
 3	écrit	écrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	:	:	PUNCT	_	_	5	punct	_	_
 5	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
@@ -7910,7 +7910,7 @@
 5	dirigé	diriger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	mod	_	_
 6	par	par	ADP	_	_	5	comp:obl@agent	_	_
 7	Frédéric	Frédéric	PROPN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
-8	Pierlot	Pierlot	PROPN	_	_	7	flat:name	_	_
+8	Pierlot	Pierlot	PROPN	_	_	7	flat@name	_	_
 9	de	de	ADP	_	_	7	udep	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	OFP	OFP	PROPN	_	Number=Sing	9	comp:obj	_	SpaceAfter=No
@@ -8094,7 +8094,7 @@
 3	photographique	photographique	ADJ	_	Number=Sing	2	mod	_	_
 4	de	de	ADP	_	_	2	udep	_	_
 5	Fabrice	Fabrice	PROPN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
-6	Gillant	Gillant	PROPN	_	_	5	flat:name	_	_
+6	Gillant	Gillant	PROPN	_	_	5	flat@name	_	_
 7	tente	tenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	de	de	ADP	_	_	7	comp:obj	_	_
 9	percer	percer	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=SubjRaising
@@ -8146,7 +8146,7 @@
 33	commentée	commenter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	31	conj	_	_
 34	de	de	ADP	_	_	30	udep	_	_
 35	Fabrice	Fabrice	PROPN	_	Gender=Masc|Number=Sing	34	comp:obj	_	_
-36	Gillant	Gillant	PROPN	_	_	35	flat:name	_	SpaceAfter=No
+36	Gillant	Gillant	PROPN	_	_	35	flat@name	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	19	punct	_	_
 
 # sent_id = annodis.er_00312
@@ -8350,7 +8350,7 @@
 4	ludique	ludique	ADJ	_	Number=Sing	2	mod	_	_
 5	avec	avec	ADP	_	_	2	udep	_	_
 6	Maggie	Maggie	PROPN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
-7	Jankowski	Jankowski	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+7	Jankowski	Jankowski	PROPN	_	_	6	flat@name	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = annodis.er_00321
@@ -8436,7 +8436,7 @@
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	maire	maire	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
 14	Martial	Martial	PROPN	_	_	13	mod	_	_
-15	Bourquin	Bourquin	PROPN	_	_	14	flat:name	_	_
+15	Bourquin	Bourquin	PROPN	_	_	14	flat@name	_	_
 16	à	à	ADP	_	_	11	comp:obl	_	_
 17	envisager	envisager	VERB	_	VerbForm=Inf	16	comp:obj	_	Subject=ObjRaising
 18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -8673,7 +8673,7 @@
 15	"	"	PUNCT	_	Shared=Yes	10	punct	_	_
 16	constatait	constater	VERB	_	Mood=Ind|Number=Sing|Person=3|Shared=Yes|Tense=Imp|VerbForm=Fin	10	parataxis:insert	_	_
 17	Martial	Martial	PROPN	_	_	16	subj	_	_
-18	Bourquin	Bourquin	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+18	Bourquin	Bourquin	PROPN	_	_	17	flat@name	_	SpaceAfter=No
 19	.	.	PUNCT	_	Shared=Yes	10	punct	_	_
 
 # sent_id = annodis.er_00337
@@ -8731,7 +8731,7 @@
 4	de	de	ADP	_	_	3	udep	_	_
 5	Serbie	Serbie	PROPN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 6	Milan	Milan	PROPN	_	Gender=Masc|Number=Sing	3	mod	_	_
-7	Milutinovic	Milutinovic	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+7	Milutinovic	Milutinovic	PROPN	_	_	6	flat@name	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	inculpé	inculper	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	mod	_	_
 10-11	aux	_	_	_	_	_	_	_	_
@@ -8745,7 +8745,7 @@
 17	Etat	état	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 18	yougoslave	yougoslave	ADJ	_	Number=Sing	15	mod	_	_
 19	Slobodan	Slobodan	PROPN	_	_	15	mod	_	_
-20	Milosevic	Milosevic	PROPN	_	_	19	flat:name	_	_
+20	Milosevic	Milosevic	PROPN	_	_	19	flat@name	_	_
 21	pour	pour	ADP	_	_	9	comp:obl	_	_
 22	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	21	comp:obj	_	_
 23	de	de	ADP	_	_	22	udep	_	_
@@ -8865,7 +8865,7 @@
 10	collaborateurs	collaborateur	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	_
 11	de	de	ADP	_	_	10	udep	_	_
 12	Slobodan	Slobodan	PROPN	_	_	11	comp:obj	_	_
-13	Milosevic	Milosevic	PROPN	_	_	12	flat:name	_	_
+13	Milosevic	Milosevic	PROPN	_	_	12	flat@name	_	_
 14	inculpés	inculper	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	mod	_	_
 15	par	par	ADP	_	_	14	comp:obl@agent	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -8886,7 +8886,7 @@
 31	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	comp:obj	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	33	punct	_	_
 33	Vlajko	Vlajko	PROPN	_	_	28	conj:appos	_	_
-34	Stojiljkovic	Stojiljkovic	PROPN	_	_	33	flat:name	_	SpaceAfter=No
+34	Stojiljkovic	Stojiljkovic	PROPN	_	_	33	flat@name	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	38	punct	_	_
 36	qui	qui	PRON	_	PronType=Rel	38	subj	_	_
 37	s'	se	PRON	_	Person=3|Reflex=Yes	39	comp@expl	_	SpaceAfter=No
@@ -9014,7 +9014,7 @@
 42	étrangères	étranger	ADJ	_	Gender=Fem|Number=Plur	41	mod	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	44	punct	_	_
 44	François	François	PROPN	_	Gender=Masc|Number=Sing	34	conj:appos	_	_
-45	Rivasseau	Rivasseau	PROPN	_	_	44	flat:name	_	SpaceAfter=No
+45	Rivasseau	Rivasseau	PROPN	_	_	44	flat@name	_	SpaceAfter=No
 46	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = annodis.er_00347
@@ -9138,7 +9138,7 @@
 14	nationale	national	ADJ	_	Gender=Fem|Number=Sing	13	mod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	1	punct	_	_
 16	Marie-Jo	Marie-Jo	PROPN	_	_	18	subj	_	_
-17	Zimmermann	Zimmermann	PROPN	_	_	16	flat:name	_	_
+17	Zimmermann	Zimmermann	PROPN	_	_	16	flat@name	_	_
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 19	inquiète	inquiet	ADJ	_	Gender=Fem|Number=Sing	18	comp:pred	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	18	punct	_	_
@@ -9222,7 +9222,7 @@
 9	mené	mener	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	mod	_	_
 10	par	par	ADP	_	_	9	comp:obl@agent	_	_
 11	Françoise	Françoise	PROPN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
-12	Giroud	Giroud	PROPN	_	_	11	flat:name	_	SpaceAfter=No
+12	Giroud	Giroud	PROPN	_	_	11	flat@name	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	6	punct	_	_
 14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	15	subj@expl	_	_
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9297,7 +9297,7 @@
 34	gouvernement	gouvernement	NOUN	_	Gender=Masc|Number=Sing	32	comp:obj	_	_
 35	et	et	CCONJ	_	_	36	cc	_	_
 36	Alain	Alain	PROPN	_	Gender=Masc|Number=Sing	34	conj	_	_
-37	Juppé	Juppé	PROPN	_	_	36	flat:name	_	_
+37	Juppé	Juppé	PROPN	_	_	36	flat@name	_	_
 38	dès	dès	ADP	_	_	31	mod	_	_
 39	qu'	que	SCONJ	_	_	38	comp:obj	_	SpaceAfter=No
 40	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	41	subj@expl	_	_
@@ -9722,7 +9722,7 @@
 22	,	,	PUNCT	_	_	10	punct	_	_
 23	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis:insert	_	_
 24	Marie-Jo	Marie-Jo	PROPN	_	_	23	subj	_	_
-25	Zimmermann	Zimmermann	PROPN	_	_	24	flat:name	_	SpaceAfter=No
+25	Zimmermann	Zimmermann	PROPN	_	_	24	flat@name	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = annodis.er_00370
@@ -9832,7 +9832,7 @@
 # sent_id = annodis.er_00374
 # text = Chantal DIDIER
 1	Chantal	Chantal	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	DIDIER	DIDIER	PROPN	_	_	1	flat:name	_	_
+2	DIDIER	DIDIER	PROPN	_	_	1	flat@name	_	_
 
 # sent_id = annodis.er_00375
 # text = COURCELLES-LES-MONTBELIARD
@@ -10115,7 +10115,7 @@
 # sent_id = annodis.er_00389
 # text = Denise Jacquin n'est plus
 1	Denise	Denise	PROPN	_	Gender=Fem|Number=Sing	4	subj	_	_
-2	Jacquin	Jacquin	PROPN	_	_	1	flat:name	_	_
+2	Jacquin	Jacquin	PROPN	_	_	1	flat@name	_	_
 3	n'	ne	ADV	_	Polarity=Neg	4	mod	_	SpaceAfter=No
 4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	plus	plus	ADV	_	Polarity=Neg	4	mod	_	_
@@ -10123,7 +10123,7 @@
 # sent_id = annodis.er_00390
 # text = Denise Jacquin s'est éteinte mercredi, à l'âge de 73 ans, à l'hôpital, des suites d'une pénible maladie contre laquelle elle a lutté courageusement.
 1	Denise	Denise	PROPN	_	Gender=Fem|Number=Sing	4	subj	_	_
-2	Jacquin	Jacquin	PROPN	_	_	1	flat:name	_	_
+2	Jacquin	Jacquin	PROPN	_	_	1	flat@name	_	_
 3	s'	se	PRON	_	Person=3|Reflex=Yes	5	comp@expl	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	éteinte	éteindre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
@@ -10159,7 +10159,7 @@
 # sent_id = annodis.er_00391
 # text = Denise Fachinetti est née à Mancenans au sein d'une famille de huit enfants.
 1	Denise	Denise	PROPN	_	Gender=Fem|Number=Sing	3	subj	_	_
-2	Fachinetti	Fachinetti	PROPN	_	_	1	flat:name	_	_
+2	Fachinetti	Fachinetti	PROPN	_	_	1	flat@name	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	née	naître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	à	à	ADP	_	_	3	mod	_	_
@@ -10232,7 +10232,7 @@
 7	défunte	défunt	ADJ	_	Gender=Fem|Number=Sing	8	subj	_	_
 8	épouse	épouser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	René	René	PROPN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
-10	Jacquin	Jacquin	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+10	Jacquin	Jacquin	PROPN	_	_	9	flat@name	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	originaire	originaire	ADJ	_	Number=Sing	9	mod	_	_
 13	de	de	ADP	_	_	12	comp:obl	_	_
@@ -10479,7 +10479,7 @@
 2	obsèques	obsèque	NOUN	_	Gender=Fem|Number=Plur	6	subj@pass	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	Denise	Denise	PROPN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
-5	Jacquin	Jacquin	PROPN	_	_	4	flat:name	_	_
+5	Jacquin	Jacquin	PROPN	_	_	4	flat@name	_	_
 6	seront	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 7	célébrées	célébrer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	comp:aux@pass	_	_
 8	vendredi	vendredi	NOUN	_	Gender=Masc|Number=Sing	6	mod	_	_
@@ -10591,7 +10591,7 @@
 43	également	également	ADV	_	_	42	mod	_	_
 44	pour	pour	ADP	_	_	42	udep	_	_
 45	J.-P.	J.-P.	PROPN	_	_	44	comp:obj	_	_
-46	Bruneau	Bruneau	PROPN	_	_	45	flat:name	_	SpaceAfter=No
+46	Bruneau	Bruneau	PROPN	_	_	45	flat@name	_	SpaceAfter=No
 47	,	,	PUNCT	_	_	49	punct	_	_
 48	son	son	DET	_	Number=Sing|Poss=Yes	49	det	_	_
 49	président	président	NOUN	_	Gender=Masc|Number=Sing	45	conj:appos	_	SpaceAfter=No
@@ -10623,7 +10623,7 @@
 11	initiative	initiative	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 12	de	de	ADP	_	_	11	udep	_	_
 13	J.-P.	J.-P.	PROPN	_	_	12	comp:obj	_	_
-14	Bruneau	Bruneau	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+14	Bruneau	Bruneau	PROPN	_	_	13	flat@name	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	passionné	passionner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	mod	_	_
 17	de	de	ADP	_	_	16	comp:obl@agent	_	_
@@ -10858,7 +10858,7 @@
 5	jardin	jardin	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 6	de	de	ADP	_	_	5	udep	_	_
 7	J.-P.	J.-P.	PROPN	_	_	6	comp:obj	_	_
-8	Bruneau	Bruneau	PROPN	_	_	7	flat:name	_	_
+8	Bruneau	Bruneau	PROPN	_	_	7	flat@name	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	également	également	ADV	_	_	9	mod	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -11021,7 +11021,7 @@
 17	classe	classe	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 18	de	de	ADP	_	_	17	udep	_	_
 19	Chantal	Chantal	PROPN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
-20	Hetzel	Hetzel	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+20	Hetzel	Hetzel	PROPN	_	_	19	flat@name	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	directrice	directrice	NOUN	_	Gender=Fem|Number=Sing	19	conj:appos	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
@@ -11344,7 +11344,7 @@
 10	vendredi	vendredi	NOUN	_	Gender=Masc|Number=Sing	9	mod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	1	punct	_	_
 12	Claude	Claude	PROPN	_	Number=Sing	17	subj	_	_
-13	Manet	Manet	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+13	Manet	Manet	PROPN	_	_	12	flat@name	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	maire	maire	NOUN	_	Gender=Masc|Number=Sing	12	conj:appos	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
@@ -11992,7 +11992,7 @@
 # text = Mme Michèle Demange, adjoint au maire, conduira les opérations.
 1	Mme	monsieur	NOUN	_	Gender=Fem|Number=Sing	10	subj	_	_
 2	Michèle	Michèle	PROPN	_	Gender=Fem|Number=Sing	1	mod	_	_
-3	Demange	Demange	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+3	Demange	Demange	PROPN	_	_	2	flat@name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	adjoint	adjoint	NOUN	_	Gender=Masc|Number=Sing	1	conj:appos	_	_
 6-7	au	_	_	_	_	_	_	_	_
@@ -12040,7 +12040,7 @@
 # sent_id = annodis.er_00469
 # text = Pablo Correa portera encore le maillot de l'ASNL la saison prochaine.
 1	Pablo	Pablo	PROPN	_	Gender=Masc|Number=Sing	3	subj	_	_
-2	Correa	Correa	PROPN	_	_	1	flat:name	_	_
+2	Correa	Correa	PROPN	_	_	1	flat@name	_	_
 3	portera	porter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	encore	encore	ADV	_	_	3	mod	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -12077,7 +12077,7 @@
 20	propositions	proposition	NOUN	_	Gender=Fem|Number=Plur	17	comp:obj	_	_
 21	de	de	ADP	_	_	20	udep	_	_
 22	Jacques	Jacques	PROPN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_
-23	Rousselot	Rousselot	PROPN	_	_	22	flat:name	_	SpaceAfter=No
+23	Rousselot	Rousselot	PROPN	_	_	22	flat@name	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = annodis.er_00471
@@ -12207,7 +12207,7 @@
 # sent_id = annodis.er_00475
 # text = Jacques Rousselot qui tenait à conserver Correa repassa à l'offensive et après une première proposition d'un an, il se rangea au souhait du joueur qui en souhaitait deux : "Notre objectif reste le maintien.
 1	Jacques	Jacques	PROPN	_	Gender=Masc|Number=Sing	8	subj	_	_
-2	Rousselot	Rousselot	PROPN	_	_	1	flat:name	_	_
+2	Rousselot	Rousselot	PROPN	_	_	1	flat@name	_	_
 3	qui	qui	PRON	_	PronType=Rel	4	subj	_	_
 4	tenait	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	mod@relcl	_	_
 5	à	à	ADP	_	_	4	comp:obl	_	_
@@ -12325,7 +12325,7 @@
 2	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	Pablo	Pablo	PROPN	_	Gender=Masc|Number=Sing	7	subj	_	_
-5	Correa	Correa	PROPN	_	_	4	flat:name	_	_
+5	Correa	Correa	PROPN	_	_	4	flat@name	_	_
 6	n'	ne	ADV	_	Polarity=Neg	7	mod	_	SpaceAfter=No
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	obtenu	obtenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
@@ -12431,7 +12431,7 @@
 15	années	année	NOUN	_	Gender=Fem|Number=Plur	12	comp:obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	9	punct	_	_
 17	Pablo	Pablo	PROPN	_	Gender=Masc|Number=Sing	19	subj	_	_
-18	Correa	Correa	PROPN	_	_	17	flat:name	_	_
+18	Correa	Correa	PROPN	_	_	17	flat@name	_	_
 19	intégrera	intégrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	comp:obj	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	staff	staff	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
@@ -12602,7 +12602,7 @@
 2	conducteur	conducteur	NOUN	_	Gender=Masc|Number=Sing	38	subj@pass	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	Benattia	Benattia	PROPN	_	_	2	conj:appos	_	_
-5	Grabis	Grabis	PROPN	_	_	4	flat:name	_	SpaceAfter=No
+5	Grabis	Grabis	PROPN	_	_	4	flat@name	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	24	24	NUM	_	NumType=Card	8	det	_	_
 8	ans	an	NOUN	_	Gender=Masc|Number=Plur	2	mod	_	SpaceAfter=No
@@ -12617,7 +12617,7 @@
 17	occupants	occupant	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	Abdel	Abdel	PROPN	_	_	17	conj:appos	_	_
-20	Rhazza	Rhazza	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+20	Rhazza	Rhazza	PROPN	_	_	19	flat@name	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	22	22	NUM	_	NumType=Card	23	det	_	_
 23	ans	an	NOUN	_	Gender=Masc|Number=Plur	19	mod	_	SpaceAfter=No
@@ -12627,7 +12627,7 @@
 27	,	,	PUNCT	_	_	29	punct	_	_
 28	et	et	CCONJ	_	_	29	cc	_	_
 29	Lionel	Lionel	PROPN	_	Gender=Masc|Number=Sing	19	conj	_	_
-30	Ledoucin	Ledoucin	PROPN	_	_	29	flat:name	_	SpaceAfter=No
+30	Ledoucin	Ledoucin	PROPN	_	_	29	flat@name	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	33	punct	_	_
 32	30	30	NUM	_	NumType=Card	33	det	_	_
 33	ans	an	NOUN	_	Gender=Masc|Number=Plur	29	mod	_	SpaceAfter=No
@@ -13308,38 +13308,38 @@
 17	suivantes	suivant	ADJ	_	Gender=Fem|Number=Plur	16	mod	_	_
 18	:	:	PUNCT	_	_	19	punct	_	_
 19	Paulette	Paulette	PROPN	_	Gender=Fem|Number=Sing	16	conj:appos	_	_
-20	Bertrand	Bertrand	PROPN	_	_	19	flat:name	_	SpaceAfter=No
+20	Bertrand	Bertrand	PROPN	_	_	19	flat@name	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	née	naître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	mod	_	_
 23	en	en	ADP	_	_	22	mod	_	_
 24	1926	1926	NUM	_	NumType=Card	23	comp:obj	_	_
 25	;	;	PUNCT	_	_	26	punct	_	_
 26	Lucien	Lucien	PROPN	_	Gender=Masc|Number=Sing	19	conj	_	_
-27	Carillon	Carillon	PROPN	_	_	26	flat:name	_	_
+27	Carillon	Carillon	PROPN	_	_	26	flat@name	_	_
 28	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
 29	1928	1928	NUM	_	NumType=Card	26	mod	_	SpaceAfter=No
 30	)	)	PUNCT	_	_	26	punct	_	_
 31	;	;	PUNCT	_	_	32	punct	_	_
 32	Anita	Anita	PROPN	_	Gender=Fem|Number=Sing	26	conj	_	_
-33	Dachaud	Dachaud	PROPN	_	_	32	flat:name	_	_
+33	Dachaud	Dachaud	PROPN	_	_	32	flat@name	_	_
 34	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
 35	1921	1921	NUM	_	NumType=Card	32	mod	_	SpaceAfter=No
 36	)	)	PUNCT	_	_	32	punct	_	_
 37	;	;	PUNCT	_	_	38	punct	_	_
 38	Suzanne	Suzanne	PROPN	_	Gender=Fem|Number=Sing	32	conj	_	_
-39	Grim	Grim	PROPN	_	_	38	flat:name	_	_
+39	Grim	Grim	PROPN	_	_	38	flat@name	_	_
 40	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
 41	1903	1903	NUM	_	NumType=Card	38	mod	_	SpaceAfter=No
 42	)	)	PUNCT	_	_	38	punct	_	_
 43	;	;	PUNCT	_	_	44	punct	_	_
 44	Joséphine	Joséphine	PROPN	_	Gender=Fem|Number=Sing	38	conj	_	_
-45	Conte	Conte	PROPN	_	_	44	flat:name	_	_
+45	Conte	Conte	PROPN	_	_	44	flat@name	_	_
 46	(	(	PUNCT	_	_	44	punct	_	SpaceAfter=No
 47	1912	1912	NUM	_	NumType=Card	44	mod	_	SpaceAfter=No
 48	)	)	PUNCT	_	_	44	punct	_	_
 49	;	;	PUNCT	_	_	50	punct	_	_
 50	Jeanne	Jeanne	PROPN	_	Gender=Fem|Number=Sing	44	conj	_	_
-51	Fosse	Fosse	PROPN	_	_	50	flat:name	_	_
+51	Fosse	Fosse	PROPN	_	_	50	flat@name	_	_
 52	(	(	PUNCT	_	_	50	punct	_	SpaceAfter=No
 53	1907	1907	NUM	_	NumType=Card	50	mod	_	SpaceAfter=No
 54	)	)	PUNCT	_	_	50	punct	_	_
@@ -13359,7 +13359,7 @@
 4	passé	passé	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	Lucien	Lucien	PROPN	_	Gender=Masc|Number=Sing	9	subj	_	_
-7	Carillon	Carillon	PROPN	_	_	6	flat:name	_	_
+7	Carillon	Carillon	PROPN	_	_	6	flat@name	_	_
 8	s'	se	PRON	_	Person=3|Reflex=Yes	10	comp@expl	_	SpaceAfter=No
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	exécuté	exécuter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
@@ -13497,13 +13497,13 @@
 18	son	son	DET	_	Number=Sing|Poss=Yes	19	det	_	_
 19	copain	copain	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
 20	Pierre	Pierre	PROPN	_	Gender=Masc|Number=Sing	19	mod	_	_
-21	Brungard	Brungard	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+21	Brungard	Brungard	PROPN	_	_	20	flat@name	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = annodis.er_00520
 # text = Anita Dachaud est quant à elle arrivée en famille, et très jeune, de sa chère Italie (Cesano).
 1	Anita	Anita	PROPN	_	Gender=Fem|Number=Sing	3	subj	_	_
-2	Dachaud	Dachaud	PROPN	_	_	1	flat:name	_	_
+2	Dachaud	Dachaud	PROPN	_	_	1	flat@name	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	quant	quant	ADV	_	_	3	mod	_	ExtPos=ADV
 5	à	à	ADP	_	_	4	comp:obl	_	_

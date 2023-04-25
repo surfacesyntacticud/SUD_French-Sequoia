@@ -8884,7 +8884,7 @@
 # sent_id = emea-fr-dev_00405
 # text = Hälsa Pharma GmbH, Immermannstraße 9, 33619 Bielefeld, Allemagne
 1	Hälsa	Hälsa	PROPN	_	_	0	root	_	_
-2	Pharma	Pharma	PROPN	_	_	1	flat:name	_	_
+2	Pharma	Pharma	PROPN	_	_	1	flat@name	_	_
 3	GmbH	GmbH	PROPN	_	_	1	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	Immermannstraße	Immermannstraße	PROPN	_	_	1	mod	_	_
@@ -11585,7 +11585,7 @@
 # sent_id = emea-fr-dev_00573
 # text = Hälsa Pharma GmbH Immermannstraße 9 33619 Bielefeld Allemagne
 1	Hälsa	Hälsa	PROPN	_	_	0	root	_	_
-2	Pharma	Pharma	PROPN	_	_	1	flat:name	_	_
+2	Pharma	Pharma	PROPN	_	_	1	flat@name	_	_
 3	GmbH	GmbH	PROPN	_	_	1	mod	_	_
 4	Immermannstraße	Immermannstraße	PROPN	_	_	1	mod	_	_
 5	9	9	NUM	_	NumType=Card	4	mod	_	_
