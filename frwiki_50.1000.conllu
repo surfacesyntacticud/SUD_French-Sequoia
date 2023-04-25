@@ -2642,9 +2642,9 @@
 30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 31	jeune	jeune	ADJ	_	Number=Sing	32	mod	_	_
 32	femme	femme	NOUN	_	Gender=Fem|Number=Sing	29	comp:obj	_	_
-33	[	[	PUNCT	_	_	3	punct	_	SpaceAfter=No
+33	[	[	PUNCT	_	_	34	punct	_	SpaceAfter=No
 34	2	2	NUM	_	NumType=Card	3	mod	_	SpaceAfter=No
-35	]	]	PUNCT	_	_	3	punct	_	SpaceAfter=No
+35	]	]	PUNCT	_	_	34	punct	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = frwiki_50.1000_00104
@@ -2664,9 +2664,9 @@
 13	de	de	ADP	_	_	12	udep	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
 15	Information	information	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
-16	[	[	PUNCT	_	_	3	punct	_	SpaceAfter=No
+16	[	[	PUNCT	_	_	17	punct	_	SpaceAfter=No
 17	3	3	NUM	_	NumType=Card	3	mod	_	SpaceAfter=No
-18	]	]	PUNCT	_	_	3	punct	_	SpaceAfter=No
+18	]	]	PUNCT	_	_	17	punct	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = frwiki_50.1000_00105
@@ -2681,9 +2681,9 @@
 8	selon	selon	ADP	_	_	7	mod	_	_
 9	plusieurs	plusieurs	DET	_	Number=Plur	10	det	_	_
 10	sources	source	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	_
-11	[	[	PUNCT	_	_	10	punct	_	SpaceAfter=No
+11	[	[	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	4	4	NUM	_	NumType=Card	10	mod	_	SpaceAfter=No
-13	]	]	PUNCT	_	_	10	punct	_	_
+13	]	]	PUNCT	_	_	12	punct	_	_
 14	payé	payer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
 15	14	14	NUM	_	NumType=Card	16	det	_	_
 16	millions	million	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	14	comp:obj	_	_
@@ -2813,9 +2813,9 @@
 8	11	11	NUM	_	NumType=Card	3	mod	_	_
 9	mars	mars	NOUN	_	Gender=Masc|Number=Sing	8	udep	_	_
 10	1991	1991	NUM	_	NumType=Card	9	mod	_	_
-11	[	[	PUNCT	_	_	3	punct	_	SpaceAfter=No
+11	[	[	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	1	1	NUM	_	NumType=Card	3	mod	_	SpaceAfter=No
-13	]	]	PUNCT	_	_	3	punct	_	_
+13	]	]	PUNCT	_	_	12	punct	_	_
 
 # sent_id = frwiki_50.1000_00114
 # text = - (fr) L'Humanité, 10 juin 1993, analyse de l'impact médiatique [2]
@@ -2835,9 +2835,9 @@
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
 15	impact	impact	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 16	médiatique	médiatique	ADJ	_	Number=Sing	15	mod	_	_
-17	[	[	PUNCT	_	_	3	punct	_	SpaceAfter=No
+17	[	[	PUNCT	_	_	18	punct	_	SpaceAfter=No
 18	2	2	NUM	_	NumType=Card	3	mod	_	SpaceAfter=No
-19	]	]	PUNCT	_	_	3	punct	_	_
+19	]	]	PUNCT	_	_	18	punct	_	_
 
 # sent_id = frwiki_50.1000_00115
 # text = - (en) Ameen Izzadeen, Lies, damn lies and war, Daily Mirror of Sri Lanka, 2001 (no more precise date provided), accessed 27 Feb 2006..
@@ -3109,9 +3109,9 @@
 22	Giscard	Giscard	PROPN	_	_	21	flat@name	_	_
 23	d'	de	ADP	_	_	21	udep	_	SpaceAfter=No
 24	Estaing	Estaing	PROPN	_	Gender=Masc|Number=Sing	23	comp:obj	_	_
-25	[	[	PUNCT	_	_	21	punct	_	SpaceAfter=No
+25	[	[	PUNCT	_	_	26	punct	_	SpaceAfter=No
 26	1	1	NUM	_	NumType=Card	21	mod	_	SpaceAfter=No
-27	]	]	PUNCT	_	_	21	punct	_	_
+27	]	]	PUNCT	_	_	26	punct	_	_
 28	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	mod@relcl	_	_
 29	été	être	AUX	_	Tense=Past|VerbForm=Part	28	comp:aux@tense	_	_
 30	estimé	estimer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	29	comp:aux@pass	_	_
@@ -3137,9 +3137,9 @@
 4	de	de	ADP	_	_	3	udep	_	_
 5	F.L.	F.L.	PROPN	_	_	4	comp:obj	_	_
 6	Copperman	Copperman	PROPN	_	_	5	flat@name	_	_
-7	[	[	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	[	[	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	2	2	NUM	_	NumType=Card	5	mod	_	SpaceAfter=No
-9	]	]	PUNCT	_	_	5	punct	_	SpaceAfter=No
+9	]	]	PUNCT	_	_	8	punct	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	ancien	ancien	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	_
 12	consul	consul	NOUN	_	Gender=Masc|Number=Sing	5	conj:appos	_	_
@@ -3615,9 +3615,9 @@
 66	de	de	ADP	_	_	65	udep	_	_
 67	Libye	Libye	PROPN	_	Gender=Fem|Number=Sing	66	comp:obj	_	SpaceAfter=No
 68	)	)	PUNCT	_	_	55	punct	_	_
-69	[	[	PUNCT	_	_	8	punct	_	SpaceAfter=No
+69	[	[	PUNCT	_	_	70	punct	_	SpaceAfter=No
 70	3	3	NUM	_	NumType=Card	8	mod	_	SpaceAfter=No
-71	]	]	PUNCT	_	_	8	punct	_	SpaceAfter=No
+71	]	]	PUNCT	_	_	70	punct	_	SpaceAfter=No
 72	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = frwiki_50.1000_00138
@@ -4723,9 +4723,9 @@
 11	Gérard	Gérard	PROPN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 12	Vergez	Vergez	PROPN	_	_	11	flat@name	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	10	punct	_	_
-14	[	[	PUNCT	_	_	3	punct	_	SpaceAfter=No
+14	[	[	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	1	1	NUM	_	NumType=Card	3	mod	_	SpaceAfter=No
-16	]	]	PUNCT	_	_	3	punct	_	_
+16	]	]	PUNCT	_	_	15	punct	_	_
 
 # sent_id = frwiki_50.1000_00190
 # text = Opéra
@@ -22245,9 +22245,9 @@
 28	et	et	CCONJ	_	_	30	cc	_	_
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	Fiorentina	Fiorentina	PROPN	_	Gender=Fem|Number=Sing	25	conj	_	_
-31	[	[	PUNCT	_	_	3	punct	_	SpaceAfter=No
+31	[	[	PUNCT	_	_	32	punct	_	SpaceAfter=No
 32	1	1	NUM	_	NumType=Card	3	mod	_	SpaceAfter=No
-33	]	]	PUNCT	_	_	3	punct	_	SpaceAfter=No
+33	]	]	PUNCT	_	_	32	punct	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = frwiki_50.1000_00805
@@ -22324,9 +22324,9 @@
 20	11	11	NUM	_	NumType=Card	18	mod	_	_
 21	mai	mai	NOUN	_	Gender=Masc|Number=Sing	20	udep	_	_
 22	2006	2006	NUM	_	NumType=Card	21	mod	_	_
-23	[	[	PUNCT	_	_	18	punct	_	SpaceAfter=No
+23	[	[	PUNCT	_	_	24	punct	_	SpaceAfter=No
 24	2	2	NUM	_	NumType=Card	18	mod	_	SpaceAfter=No
-25	]	]	PUNCT	_	_	18	punct	_	SpaceAfter=No
+25	]	]	PUNCT	_	_	24	punct	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	18	punct	_	_
 
 # sent_id = frwiki_50.1000_00807
@@ -22425,9 +22425,9 @@
 31	de	de	ADP	_	_	30	udep	_	_
 32	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	33	det	_	_
 33	champions	champion	NOUN	_	Gender=Masc|Number=Plur	31	comp:obj	_	_
-34	[	[	PUNCT	_	Shared=Yes	21	punct	_	SpaceAfter=No
+34	[	[	PUNCT	_	Shared=Yes	35	punct	_	SpaceAfter=No
 35	3	3	NUM	_	NumType=Card|Shared=Yes	21	mod	_	SpaceAfter=No
-36	]	]	PUNCT	_	Shared=Yes	21	punct	_	SpaceAfter=No
+36	]	]	PUNCT	_	Shared=Yes	35	punct	_	SpaceAfter=No
 37	.	.	PUNCT	_	Shared=Yes	21	punct	_	_
 
 # sent_id = frwiki_50.1000_00810
@@ -24819,9 +24819,9 @@
 15	à	à	ADP	_	_	5	mod	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Proche-Orient	Proche-Orient	PROPN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
-18	[	[	PUNCT	_	_	5	punct	_	SpaceAfter=No
+18	[	[	PUNCT	_	_	19	punct	_	SpaceAfter=No
 19	1	1	NUM	_	NumType=Card	5	mod	_	SpaceAfter=No
-20	]	]	PUNCT	_	_	5	punct	_	SpaceAfter=No
+20	]	]	PUNCT	_	_	19	punct	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = frwiki_50.1000_00903
@@ -24885,9 +24885,9 @@
 27	mises	mise	NOUN	_	Gender=Fem|Number=Plur	24	conj	_	_
 28	en	en	ADP	_	_	27	udep	_	_
 29	scène	scène	NOUN	_	Gender=Fem|Number=Sing	28	comp:obj	_	_
-30	[	[	PUNCT	_	_	6	punct	_	SpaceAfter=No
+30	[	[	PUNCT	_	_	31	punct	_	SpaceAfter=No
 31	2	2	NUM	_	NumType=Card	6	mod	_	SpaceAfter=No
-32	]	]	PUNCT	_	_	6	punct	_	SpaceAfter=No
+32	]	]	PUNCT	_	_	31	punct	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = frwiki_50.1000_00906
@@ -24950,9 +24950,9 @@
 53	raid	raid	NOUN	_	Gender=Masc|Number=Sing	51	comp:obj	_	_
 54	israélien	israélien	ADJ	_	Gender=Masc|Number=Sing	53	mod	_	SpaceAfter=No
 55	"	"	PUNCT	_	_	44	punct	_	_
-56	[	[	PUNCT	_	_	15	punct	_	SpaceAfter=No
+56	[	[	PUNCT	_	_	57	punct	_	SpaceAfter=No
 57	3	3	NUM	_	NumType=Card	15	mod	_	SpaceAfter=No
-58	]	]	PUNCT	_	_	15	punct	_	SpaceAfter=No
+58	]	]	PUNCT	_	_	57	punct	_	SpaceAfter=No
 59	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = frwiki_50.1000_00907
@@ -25209,9 +25209,9 @@
 50	de	de	ADP	_	_	49	udep	_	_
 51	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	52	det	_	_
 52	photos	photo	NOUN	_	Gender=Fem|Number=Plur	50	comp:obj	_	_
-53	[	[	PUNCT	_	_	6	punct	_	SpaceAfter=No
+53	[	[	PUNCT	_	_	54	punct	_	SpaceAfter=No
 54	7	7	NUM	_	NumType=Card	6	mod	_	SpaceAfter=No
-55	]	]	PUNCT	_	_	6	punct	_	SpaceAfter=No
+55	]	]	PUNCT	_	_	54	punct	_	SpaceAfter=No
 56	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = frwiki_50.1000_00915
@@ -25236,9 +25236,9 @@
 18	données	donnée	NOUN	_	Gender=Fem|Number=Plur	17	comp:obj	_	_
 19	de	de	ADP	_	_	16	udep	_	_
 20	Reuters	Reuters	PROPN	_	_	19	comp:obj	_	_
-21	[	[	PUNCT	_	_	12	punct	_	SpaceAfter=No
+21	[	[	PUNCT	_	_	22	punct	_	SpaceAfter=No
 22	8	8	NUM	_	NumType=Card	12	mod	_	SpaceAfter=No
-23	]	]	PUNCT	_	_	12	punct	_	SpaceAfter=No
+23	]	]	PUNCT	_	_	22	punct	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = frwiki_50.1000_00916
