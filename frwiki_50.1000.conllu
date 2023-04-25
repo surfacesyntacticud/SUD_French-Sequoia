@@ -3352,7 +3352,7 @@
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	cours	cours	NOUN	_	Gender=Masc	30	comp:obj	_	_
 33-34	duquel	_	_	_	_	_	_	_	_
-33	de	de	ADP	_	_	30	comp:obj	_	_
+33	de	de	ADP	_	_	32	comp:obl	_	_
 34	lequel	lequel	PRON	_	Gender=Masc|Number=Sing	33	comp:obj	_	_
 35	celui-ci	celui-ci	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	36	subj	_	_
 36	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	mod@relcl	_	_
@@ -16962,7 +16962,7 @@
 16	vite	vite	ADV	_	_	15	mod	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	conviction	conviction	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
-19	que	que	SCONJ	_	_	15	comp:obj	_	_
+19	que	que	SCONJ	_	_	18	mod	_	_
 20	Jean-Claude	Jean-Claude	PROPN	_	_	22	subj	_	_
 21	Méry	Méry	PROPN	_	_	20	flat@name	_	_
 22	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	comp:obj	_	_

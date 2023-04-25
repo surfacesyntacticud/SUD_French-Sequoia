@@ -5868,7 +5868,7 @@
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	comme	comme	SCONJ	_	_	2	mod	_	_
 27	nous	le	PRON	_	Number=Plur|Person=1	29	comp:obl	_	_
-28	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3	29	comp:obj	_	_
+28	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3	31	comp:obj	_	_
 29	laisse	laisser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	comp:obj	_	_
 30	à	à	ADP	_	_	29	comp:obj	_	_
 31	penser	penser	VERB	_	VerbForm=Inf	30	comp:obj	_	Subject=OblRaising

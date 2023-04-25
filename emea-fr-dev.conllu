@@ -9967,7 +9967,7 @@
 23	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
 24	voir	voir	VERB	_	VerbForm=Inf	19	parataxis	_	Subject=Generic
 25	liste	liste	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
-26	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
+26	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	25	mod	_	_
 27	6	6	NUM	_	NumType=Card	26	mod	_	SpaceAfter=No
 28	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	2	punct	_	_
