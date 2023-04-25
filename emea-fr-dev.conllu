@@ -2525,7 +2525,7 @@
 13	moyenne	moyenne	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
 14	365	365	NUM	_	NumType=Card	17	det	_	_
 15	+/-	+/-	CCONJ	_	_	16	cc	_	_
-16	100	100	NUM	_	NumType=Card	14	comj	_	_
+16	100	100	NUM	_	NumType=Card	14	conj	_	_
 17	secondes	seconde	NOUN	_	Gender=Fem|Number=Plur	11	comp:obj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	11	punct	_	_
 
