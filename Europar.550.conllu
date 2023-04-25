@@ -16565,8 +16565,8 @@
 28	d'	de	ADP	_	_	22	conj	_	_
 29	enfants	enfant	NOUN	_	Number=Plur	28	comp:obj	_	_
 30	,	,	PUNCT	_	_	31	punct	_	_
-31	d'	de	ADP	_	_	28	orphan	_	_
-32	individus	individu	NOUN	_	Gender=Masc|Number=Plur	29|31	conj|comp:obj	_	_
+31	d'	de	ADP	_	_	28	conj	_	_
+32	individus	individu	NOUN	_	Gender=Masc|Number=Plur	31	comp:obj	_	_
 33	très	très	ADV	_	_	36	mod	_	_
 34	,	,	PUNCT	_	_	35	punct	_	_
 35	très	très	ADV	_	_	36	mod	_	_
