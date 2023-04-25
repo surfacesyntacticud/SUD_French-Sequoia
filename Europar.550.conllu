@@ -2214,9 +2214,9 @@
 
 # sent_id = Europar.550_00065
 # text = (EN) J'ai voté en faveur du rapport de Mme Stenzel sur l'initiative EQUAL car je pense qu'il est essentiel de poursuivre le travail qui a été entamé avec les précédentes composantes NOW, Horizon, Youthstart et Integra des initiatives ADAPT et Employment.
-1	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	EN	EN	NOUN	_	_	5	mod	_	SpaceAfter=No
-3	)	)	PUNCT	_	_	5	punct	_	_
+3	)	)	PUNCT	_	_	2	punct	_	_
 4	J'	il	PRON	_	Number=Sing|Person=1	5	subj	_	SpaceAfter=No
 5	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	voté	voter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
@@ -17249,9 +17249,9 @@
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	article	article	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 12	26	26	NUM	_	NumType=Card	11	mod	_	_
-13	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	2	2	NUM	_	NumType=Card	12	mod	_	SpaceAfter=No
-15	)	)	PUNCT	_	_	12	punct	_	_
+15	)	)	PUNCT	_	_	14	punct	_	_
 16	de	de	ADP	_	_	11	udep	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	loi	loi	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
@@ -17343,9 +17343,9 @@
 2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
 3	article	article	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 4	46	46	NUM	_	NumType=Card	3	mod	_	_
-5	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	2	2	NUM	_	NumType=Card	4	mod	_	SpaceAfter=No
-7	)	)	PUNCT	_	_	4	punct	_	_
+7	)	)	PUNCT	_	_	6	punct	_	_
 8	de	de	ADP	_	_	3	udep	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	loi	loi	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_

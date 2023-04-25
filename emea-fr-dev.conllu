@@ -18,9 +18,9 @@
 3	PUBLIC	public	ADJ	_	Gender=Masc|Number=Sing	1	mod	_	_
 4	D'	de	ADP	_	_	1	udep	_	SpaceAfter=No
 5	ÉVALUATION	évaluation	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
-6	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	EPAR	épar	NOUN	_	Gender=Masc|Number=Sing	1	conj:appos	_	SpaceAfter=No
-8	)	)	PUNCT	_	_	1	punct	_	_
+8	)	)	PUNCT	_	_	7	punct	_	_
 
 # sent_id = emea-fr-dev_00004
 # text = ANGIOX
@@ -53,9 +53,9 @@
 10	public	public	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	_
 11	d'	de	ADP	_	_	8	udep	_	SpaceAfter=No
 12	évaluation	évaluation	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
-13	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	EPAR	épar	NOUN	_	Gender=Masc|Number=Sing	8	conj:appos	_	SpaceAfter=No
-15	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-dev_00007
@@ -72,9 +72,9 @@
 9	à	à	ADP	_	_	8	udep	_	_
 10	usage	usage	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 11	humain	humain	ADJ	_	Gender=Masc|Number=Sing	10	mod	_	_
-12	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	CHMP	CHMP	PROPN	_	_	5	conj:appos	_	SpaceAfter=No
-14	)	)	PUNCT	_	_	5	punct	_	_
+14	)	)	PUNCT	_	_	13	punct	_	_
 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 16	évalué	évaluer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	comp:aux@tense	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
@@ -116,13 +116,13 @@
 13	consulter	consulter	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=SubjRaising
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	notice	notice	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
-16	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+16	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 17	également	également	ADV	_	_	18	mod	_	_
 18	comprise	comprendre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	mod	_	_
 19	dans	dans	ADP	_	_	18	comp:obl	_	_
 20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
 21	EPAR	épar	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	SpaceAfter=No
-22	)	)	PUNCT	_	_	15	punct	_	_
+22	)	)	PUNCT	_	_	18	punct	_	_
 23	ou	ou	CCONJ	_	_	24	cc	_	_
 24	contacter	contacter	VERB	_	VerbForm=Inf	13	conj	_	Subject=Generic
 25	votre	son	DET	_	Number=Sing|Poss=Yes	26	det	_	_
@@ -157,13 +157,13 @@
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	discussion	discussion	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
 21	scientifique	scientifique	ADJ	_	Number=Sing	20	mod	_	_
-22	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
 23	également	également	ADV	_	_	24	mod	_	_
 24	comprise	comprendre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	mod	_	_
 25	dans	dans	ADP	_	_	24	comp:obl	_	_
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
 27	EPAR	épar	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	SpaceAfter=No
-28	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = emea-fr-dev_00010
@@ -190,14 +190,14 @@
 11	ou	ou	CCONJ	_	_	12	cc	_	_
 12	pour	pour	ADP	_	_	10	conj	_	_
 13	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
-14	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	goutte	goutte	NOUN	_	Gender=Fem|Number=Sing	13	conj:appos	_	_
 16	à	à	ADP	_	_	15	udep	_	_
 17	goutte	goutte	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
 18	dans	dans	ADP	_	_	15	udep	_	_
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	veine	veine	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	SpaceAfter=No
-21	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = emea-fr-dev_00012
@@ -238,7 +238,7 @@
 13	coronaire	coronaire	ADJ	_	Number=Sing	12	mod	_	_
 14	aigu	aigu	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	SpaceAfter=No
 15	"	"	PUNCT	_	_	12	punct	_	_
-16	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
 17	SCA	SCA	NOUN	_	_	12	conj:appos	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	réduction	réduction	NOUN	_	Gender=Fem|Number=Sing	17	conj:appos	_	_
@@ -250,19 +250,19 @@
 24	vers	vers	ADP	_	_	22	udep	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	coeur	coeur	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	SpaceAfter=No
-27	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	_
 29	comme	comme	ADP	_	_	12	udep	_	_
 30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	angor	angor	NOUN	_	Gender=Masc|Number=Sing	29	comp:obj	_	_
 32	instable	instable	ADJ	_	Number=Sing	31	mod	_	_
-33	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
 34	douleurs	douleur	NOUN	_	Gender=Fem|Number=Plur	31	conj:appos	_	_
 35	thoraciques	thoracique	ADJ	_	Number=Plur	34	mod	_	_
 36	de	de	ADP	_	_	34	udep	_	_
 37	gravité	gravité	NOUN	_	Gender=Fem|Number=Sing	36	comp:obj	_	_
 38	variable	variable	ADJ	_	Number=Sing	37	mod	_	SpaceAfter=No
-39	)	)	PUNCT	_	_	31	punct	_	_
+39	)	)	PUNCT	_	_	34	punct	_	_
 40	ou	ou	CCONJ	_	_	42	cc	_	_
 41	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	infarctus	infarctus	NOUN	_	Gender=Masc|Number=Sing	31	conj	_	_
@@ -270,10 +270,10 @@
 43	de	de	ADP	_	_	42	udep	_	_
 44	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
 45	myocarde	myocarde	NOUN	_	Gender=Masc|Number=Sing	43	comp:obj	_	_
-46	(	(	PUNCT	_	_	42	punct	_	SpaceAfter=No
+46	(	(	PUNCT	_	_	47	punct	_	SpaceAfter=No
 47	crise	crise	NOUN	_	Gender=Fem|Number=Sing	42	conj:appos	_	_
 48	cardiaque	cardiaque	ADJ	_	Number=Sing	47	mod	_	SpaceAfter=No
-49	)	)	PUNCT	_	_	42	punct	_	_
+49	)	)	PUNCT	_	_	47	punct	_	_
 50	sans	sans	ADP	_	_	12	udep	_	_
 51	"	"	PUNCT	_	_	52	punct	_	SpaceAfter=No
 52	sus-décalage	sus-décalage	NOUN	_	Gender=Masc|Number=Sing	50	comp:obj	_	_
@@ -283,7 +283,7 @@
 55	segment	segment	NOUN	_	Gender=Masc|Number=Sing	53	comp:obj	_	_
 56	ST	ST	NOUN	_	_	55	mod	_	SpaceAfter=No
 57	"	"	PUNCT	_	_	52	punct	_	_
-58	(	(	PUNCT	_	_	52	punct	_	SpaceAfter=No
+58	(	(	PUNCT	_	_	59	punct	_	SpaceAfter=No
 59	relevé	relevé	NOUN	_	Gender=Masc|Number=Sing	52	conj:appos	_	_
 60	anormal	anormal	ADJ	_	Gender=Masc|Number=Sing	59	mod	_	_
 61	à	à	ADP	_	_	59	udep	_	_
@@ -291,7 +291,7 @@
 63	électrocardiogramme	électrocardiogramme	NOUN	_	Gender=Masc|Number=Sing	61	comp:obj	_	_
 64	ou	ou	CCONJ	_	_	65	cc	_	_
 65	ECG	ECG	NOUN	_	Number=Sing	63	conj	_	SpaceAfter=No
-66	)	)	PUNCT	_	_	52	punct	_	SpaceAfter=No
+66	)	)	PUNCT	_	_	59	punct	_	SpaceAfter=No
 67	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = emea-fr-dev_00015
@@ -308,7 +308,7 @@
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	du	du	DET	_	Gender=Masc|Number=Sing	12	det	_	_
 12	clopidogel	clopidogel	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
-13	(	(	PUNCT	_	Shared=Yes	12	punct	_	SpaceAfter=No
+13	(	(	PUNCT	_	Shared=Yes	14	punct	_	SpaceAfter=No
 14	médicaments	médicament	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	12	conj:appos	_	_
 15	contribuant	contribuer	VERB	_	Tense=Pres|VerbForm=Part	14	mod	_	_
 16	à	à	ADP	_	_	15	comp:obl	_	_
@@ -316,7 +316,7 @@
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 19	caillots	caillot	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	_
 20	sanguins	sanguin	ADJ	_	Gender=Masc|Number=Plur	19	mod	_	SpaceAfter=No
-21	)	)	PUNCT	_	Shared=Yes	12	punct	_	_
+21	)	)	PUNCT	_	Shared=Yes	14	punct	_	_
 22	chez	chez	ADP	_	_	2	mod	_	_
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
 24	patients	patient	NOUN	_	Gender=Masc|Number=Plur	22	comp:obj	_	_
@@ -356,9 +356,9 @@
 7	coronaire	coronaire	ADJ	_	Number=Sing	6	mod	_	_
 8	percutanée	percutané	ADJ	_	Gender=Fem|Number=Sing	6	mod	_	SpaceAfter=No
 9	"	"	PUNCT	_	_	6	punct	_	_
-10	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 11	ICP	ICP	NOUN	_	_	6	conj:appos	_	SpaceAfter=No
-12	)	)	PUNCT	_	_	6	punct	_	_
+12	)	)	PUNCT	_	_	11	punct	_	_
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	opération	opération	NOUN	_	Gender=Fem|Number=Sing	13	comp:pred	_	_
@@ -429,11 +429,11 @@
 7	par	par	ADP	_	_	6	udep	_	_
 8	voie	voie	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 9	intraveineuse	intraveineux	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	_
-10	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 11	dans	dans	ADP	_	_	7	mod	_	_
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	veine	veine	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	SpaceAfter=No
-14	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = emea-fr-dev_00021
@@ -656,13 +656,13 @@
 12	de	de	ADP	_	_	11	udep	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	produit	produit	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
-15	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+15	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
 16	également	également	ADV	_	_	17	mod	_	_
 17	inclus	inclure	VERB	_	Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	mod	_	_
 18	dans	dans	ADP	_	_	17	comp:obl	_	_
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
 20	EPAR	épar	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	SpaceAfter=No
-21	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = emea-fr-dev_00029
@@ -709,11 +709,11 @@
 4	sang	sang	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 5	de	de	ADP	_	_	2	comp:obl	_	_
 6	coaguler	coaguler	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=ObjRaising
-7	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	formation	formation	NOUN	_	Gender=Fem|Number=Sing	6	mod	_	_
 9	de	de	ADP	_	_	8	udep	_	_
 10	caillots	caillot	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	SpaceAfter=No
-11	)	)	PUNCT	_	_	6	punct	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = emea-fr-dev_00033
@@ -906,7 +906,7 @@
 33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	glycoprotéine	glycoprotéine	NOUN	_	Gender=Fem|Number=Sing	32	comp:obj	_	_
 35	IIb/IIIa	IIb/IIIa	PROPN	_	_	34	mod	_	_
-36	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
+36	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
 37	inhibiteur	inhibiteur	NOUN	_	Gender=Masc|Number=Sing	31	conj:appos	_	_
 38	de	de	ADP	_	_	37	udep	_	_
 39	GP	GP	NOUN	_	_	38	comp:obj	_	SpaceAfter=No
@@ -923,7 +923,7 @@
 50	formation	formation	NOUN	_	Gender=Fem|Number=Sing	48	comp:obj	_	_
 51	de	de	ADP	_	_	50	udep	_	_
 52	caillots	caillot	NOUN	_	Gender=Masc|Number=Plur	51	comp:obj	_	SpaceAfter=No
-53	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
+53	)	)	PUNCT	_	_	37	punct	_	SpaceAfter=No
 54	,	,	PUNCT	_	_	20	punct	_	_
 55	avec	avec	ADP	_	_	20	comp:obl	_	_
 56	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
@@ -935,11 +935,11 @@
 62	de	de	ADP	_	_	64	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
 63	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	62	unk	_	InIdiom=Yes|SpaceAfter=No
 64	héparine	héparine	NOUN	_	Gender=Fem|Number=Sing	61	comp:obj	_	_
-65	(	(	PUNCT	_	_	64	punct	_	SpaceAfter=No
+65	(	(	PUNCT	_	_	68	punct	_	SpaceAfter=No
 66	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	68	det	_	_
 67	autre	autre	ADJ	_	Number=Sing	68	mod	_	_
 68	anticoagulant	anticoagulant	NOUN	_	Gender=Masc|Number=Sing	64	conj:appos	_	SpaceAfter=No
-69	)	)	PUNCT	_	_	64	punct	_	_
+69	)	)	PUNCT	_	_	68	punct	_	_
 70	et	et	CCONJ	_	_	72	cc	_	_
 71	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	72	det	_	_
 72	inhibiteur	inhibiteur	NOUN	_	Gender=Masc|Number=Sing	64	conj	_	_
@@ -1008,7 +1008,7 @@
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	stent	stent	NOUN	_	Gender=Masc|Number=Sing	22	subj@pass	_	_
-7	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+7	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
 8	petit	petit	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	_
 9	tube	tube	NOUN	_	Gender=Masc|Number=Sing	6	conj:appos	_	_
 10	qui	qui	PRON	_	PronType=Rel	11	subj	_	_
@@ -1022,7 +1022,7 @@
 18	empêcher	empêcher	VERB	_	VerbForm=Inf	16	comp:obj	_	Subject=Instantiated
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	fermeture	fermeture	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	SpaceAfter=No
-21	)	)	PUNCT	_	_	6	punct	_	_
+21	)	)	PUNCT	_	_	9	punct	_	_
 22	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 23	souvent	souvent	ADV	_	_	22	mod	_	_
 24	posé	poser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	comp:aux@pass	_	_
@@ -1070,7 +1070,7 @@
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	revascularisation	revascularisation	NOUN	_	Gender=Fem|Number=Sing	19	conj	_	_
 23	urgente	urgent	ADJ	_	Gender=Fem|Number=Sing	22	mod	_	_
-24	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
 25	rétablissement	rétablissement	NOUN	_	Gender=Masc|Number=Sing	22	conj:appos	_	_
 26-27	du	_	_	_	_	_	_	_	_
 26	de	de	ADP	_	_	25	udep	_	_
@@ -1080,13 +1080,13 @@
 30	vers	vers	ADP	_	_	28	udep	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	coeur	coeur	NOUN	_	Gender=Masc|Number=Sing	30	comp:obj	_	SpaceAfter=No
-33	)	)	PUNCT	_	_	22	punct	_	_
+33	)	)	PUNCT	_	_	25	punct	_	_
 34	et	et	CCONJ	_	_	35	cc	_	_
 35	hémorragie	hémorragie	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	_
 36	importante	important	ADJ	_	Gender=Fem|Number=Sing	35	mod	_	_
-37	(	(	PUNCT	_	_	35	punct	_	SpaceAfter=No
+37	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
 38	saignement	saignement	NOUN	_	Gender=Masc|Number=Sing	35	conj:appos	_	SpaceAfter=No
-39	)	)	PUNCT	_	_	35	punct	_	SpaceAfter=No
+39	)	)	PUNCT	_	_	38	punct	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = emea-fr-dev_00046
@@ -1167,14 +1167,14 @@
 35	de	de	ADP	_	_	33	udep	_	_
 36	nouveaux	nouveau	ADJ	_	Gender=Masc|Number=Plur	37	mod	_	_
 37	événements	événement	NOUN	_	Gender=Masc|Number=Plur	35	comp:obj	_	_
-38	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
+38	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
 39	décès	décès	NOUN	_	Gender=Masc|Number=Plur	37	conj:appos	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	41	punct	_	_
 41	crises	crise	NOUN	_	Gender=Fem|Number=Plur	39	conj	_	_
 42	cardiaques	cardiaque	ADJ	_	Number=Plur	41	mod	_	_
 43	ou	ou	CCONJ	_	_	44	cc	_	_
 44	revascularisations	revascularisation	NOUN	_	Gender=Fem|Number=Plur	41	conj	_	SpaceAfter=No
-45	)	)	PUNCT	_	_	37	punct	_	_
+45	)	)	PUNCT	_	_	39	punct	_	_
 46	après	après	ADP	_	_	33	udep	_	_
 47	30	30	NUM	_	NumType=Card	48	det	_	_
 48	jours	jour	NOUN	_	Gender=Masc|Number=Plur	46	comp:obj	_	_
@@ -1274,12 +1274,12 @@
 36	révélé	révéler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	comp:aux@tense	_	_
 37	nettement	nettement	ADV	_	_	38	mod	_	_
 38	meilleur	meilleur	ADJ	_	Gender=Masc|Number=Sing	36	comp:pred	_	_
-39	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
+39	(	(	PUNCT	_	_	40	punct	_	SpaceAfter=No
 40	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	38	mod	_	_
 41	de	de	ADP	_	_	40	udep	_	_
 42	saignement	saignement	NOUN	_	Gender=Masc|Number=Sing	41	comp:obj	_	_
 43	inférieur	inférieur	ADJ	_	Gender=Masc|Number=Sing	40	mod	_	SpaceAfter=No
-44	)	)	PUNCT	_	_	38	punct	_	_
+44	)	)	PUNCT	_	_	40	punct	_	_
 45	que	que	SCONJ	_	_	38	unk	_	_
 46	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	47	det	_	SpaceAfter=No
 47	héparine	héparine	NOUN	_	Gender=Fem|Number=Sing	45	comp:obj	_	SpaceAfter=No
@@ -1309,7 +1309,7 @@
 6	fréquent	fréquent	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
 7	avec	avec	ADP	_	_	2	udep	_	_
 8	Angiox	Angiox	PROPN	_	_	7	comp:obj	_	_
-9	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	observé	observer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	mod	_	_
 11	chez	chez	ADP	_	_	10	mod	_	_
 12	plus	plus	ADV	_	_	11	comp:obj	_	ExtPos=PRON
@@ -1318,7 +1318,7 @@
 15	patient	patient	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 16	sur	sur	ADP	_	_	15	udep	_	_
 17	10	10	PRON	_	NumType=Card	16	comp:obj	_	SpaceAfter=No
-18	)	)	PUNCT	_	_	2	punct	_	_
+18	)	)	PUNCT	_	_	10	punct	_	_
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	saignement	saignement	NOUN	_	Gender=Masc|Number=Sing	19	comp:pred	_	_
@@ -1364,9 +1364,9 @@
 11	présenter	présenter	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=SubjRaising
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	hypersensibilité	hypersensibilité	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
-14	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	allergie	allergie	NOUN	_	Gender=Fem|Number=Sing	13	conj:appos	_	SpaceAfter=No
-16	)	)	PUNCT	_	_	13	punct	_	_
+16	)	)	PUNCT	_	_	15	punct	_	_
 17	à	à	ADP	_	_	13	udep	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	bivalirudine	bivalirudine	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	SpaceAfter=No
@@ -1472,9 +1472,9 @@
 6	à	à	ADP	_	_	5	udep	_	_
 7	usage	usage	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 8	humain	humain	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
-9	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	CHMP	CHMP	PROPN	_	_	2	conj:appos	_	SpaceAfter=No
-11	)	)	PUNCT	_	_	2	punct	_	_
+11	)	)	PUNCT	_	_	10	punct	_	_
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	estimé	estimer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@tense	_	_
 14	que	que	SCONJ	_	_	13	comp:obj	_	_
@@ -1562,9 +1562,9 @@
 53	intervention	intervention	NOUN	_	Gender=Fem|Number=Sing	51	comp:obj	_	_
 54	coronaire	coronaire	ADJ	_	Number=Sing	53	mod	_	_
 55	percutanée	percutané	ADJ	_	Gender=Fem|Number=Sing	53	mod	_	_
-56	(	(	PUNCT	_	_	53	punct	_	SpaceAfter=No
+56	(	(	PUNCT	_	_	57	punct	_	SpaceAfter=No
 57	ICP	ICP	NOUN	_	_	53	conj:appos	_	SpaceAfter=No
-58	)	)	PUNCT	_	_	53	punct	_	SpaceAfter=No
+58	)	)	PUNCT	_	_	57	punct	_	SpaceAfter=No
 59	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-dev_00061
@@ -1732,9 +1732,9 @@
 # sent_id = emea-fr-dev_00078
 # text = Flacon (verre)
 1	Flacon	flacon	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	verre	verre	NOUN	_	Gender=Masc|Number=Sing	1	mod	_	SpaceAfter=No
-4	)	)	PUNCT	_	_	1	punct	_	_
+4	)	)	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-dev_00079
 # text = 10 flacons
@@ -1970,9 +1970,9 @@
 7	intervention	intervention	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 8	coronaire	coronaire	ADJ	_	Number=Sing	7	mod	_	_
 9	percutanée	percutané	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	_
-10	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 11	ICP	ICP	NOUN	_	_	7	conj:appos	_	SpaceAfter=No
-12	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = emea-fr-dev_00099
@@ -1992,9 +1992,9 @@
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	voie	voie	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 7	intraveineuse	intraveineux	ADJ	_	Gender=Fem|Number=Sing	6	mod	_	_
-8	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
 9	IV	IV	NOUN	_	_	6	conj:appos	_	SpaceAfter=No
-10	)	)	PUNCT	_	_	6	punct	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = emea-fr-dev_00101
@@ -2039,9 +2039,9 @@
 1	Syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	coronarien	coronarien	ADJ	_	Gender=Masc|Number=Sing	1	mod	_	_
 3	aigu	aigu	ADJ	_	Gender=Masc|Number=Sing	1	mod	_	_
-4	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	SCA	SCA	NOUN	_	_	1	conj:appos	_	SpaceAfter=No
-6	)	)	PUNCT	_	_	1	punct	_	_
+6	)	)	PUNCT	_	_	5	punct	_	_
 
 # sent_id = emea-fr-dev_00104
 # text = Pour les patients atteints d'un SCA, la dose initiale recommandée est un bolus intraveineux de 0,1 mg/kg suivi d'une perfusion de 0,25 mg/kg/h.
@@ -2493,9 +2493,9 @@
 3	de	de	ADP	_	_	2	udep	_	_
 4	coagulation	coagulation	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 5	activée	activer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	mod	_	_
-6	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	ACT	ACT	NOUN	_	_	2	conj:appos	_	SpaceAfter=No
-8	)	)	PUNCT	_	_	2	punct	_	_
+8	)	)	PUNCT	_	_	7	punct	_	_
 9	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	être	être	AUX	_	VerbForm=Inf	9	comp:obj	_	Subject=SubjRaising
 11	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	comp:aux@pass	_	_
@@ -2677,7 +2677,7 @@
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	dose	dose	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 18	SCA	SCA	NOUN	_	Gender=Masc|Number=Sing	17	mod	_	_
-19	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 20	bolus	bolus	NOUN	_	Gender=Masc|Number=Sing	17	conj:appos	_	_
 21	de	de	ADP	_	_	20	udep	_	_
 22	0.1	0.1	NUM	_	NumType=Card	23	det	_	_
@@ -2693,7 +2693,7 @@
 32	kg	kg	NOUN	_	_	31	comp:obj	_	SpaceAfter=No
 33	/	/	ADP	_	_	30	udep	_	SpaceAfter=No
 34	h	h	NOUN	_	_	33	comp:obj	_	SpaceAfter=No
-35	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+35	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = emea-fr-dev_00127
@@ -2706,18 +2706,18 @@
 6	insuffisance	insuffisance	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 7	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	6	mod	_	_
 8	modérée	modéré	ADJ	_	Gender=Fem|Number=Sing	6	mod	_	_
-9	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	TFG	TFG	NOUN	_	_	6	conj:appos	_	_
 11	30-59	30-59	NUM	_	NumType=Card	12	det	_	_
 12	ml	ml	NOUN	_	Gender=Masc	10	mod	_	SpaceAfter=No
 13	/	/	ADP	_	_	12	udep	_	SpaceAfter=No
 14	min	min	NOUN	_	Gender=Masc	13	comp:obj	_	SpaceAfter=No
-15	)	)	PUNCT	_	_	6	punct	_	_
+15	)	)	PUNCT	_	_	10	punct	_	_
 16	bénéficiant	bénéficier	VERB	_	Tense=Pres|VerbForm=Part	3	mod	_	_
 17	d'	de	ADP	_	_	16	comp:obl	_	SpaceAfter=No
 18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	ICP	ICP	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
-20	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
 21	qu'	que	SCONJ	_	_	3	mod	_	SpaceAfter=No
 22	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3	23	subj@pass	_	_
 23	soient	être	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	comp:obj	_	_
@@ -2729,7 +2729,7 @@
 29	SCA	SCA	NOUN	_	_	28	comp:obj	_	_
 30	ou	ou	CCONJ	_	_	31	cc	_	_
 31	non	non	ADV	_	Polarity=Neg	21	conj	_	SpaceAfter=No
-32	)	)	PUNCT	_	_	3	punct	_	_
+32	)	)	PUNCT	_	_	21	punct	_	_
 33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	vitesse	vitesse	NOUN	_	Gender=Fem|Number=Sing	37	subj	_	_
 35	de	de	ADP	_	_	34	udep	_	_
@@ -2861,9 +2861,9 @@
 17	sur	sur	ADP	_	_	12	udep	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 19	angioplastie	angioplastie	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
-20	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
 21	REPLACE-2	REPLACE-2	PROPN	_	_	12	conj:appos	_	SpaceAfter=No
-22	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	1	punct	_	_
 24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
 25	valeurs	valeur	NOUN	_	Gender=Fem|Number=Plur	35	subj	_	_
@@ -2931,14 +2931,14 @@
 9	insuffisance	insuffisance	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 10	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	9	mod	_	_
 11	sévère	sévère	ADJ	_	Number=Sing	9	mod	_	_
-12	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+12	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 13	TFG	TFG	PROPN	_	_	14	subj	_	_
 14	<	<	VERB	_	Mood=Ind|Person=3|VerbForm=Fin	9	parataxis:insert	_	_
 15	30	30	NUM	_	NumType=Card	16	det	_	_
 16	ml	ml	NOUN	_	Gender=Masc	14	comp:obj	_	SpaceAfter=No
 17	/	/	ADP	_	_	16	udep	_	SpaceAfter=No
 18	min	min	NOUN	_	Gender=Masc	17	comp:obj	_	SpaceAfter=No
-19	)	)	PUNCT	_	_	9	punct	_	_
+19	)	)	PUNCT	_	_	14	punct	_	_
 20	ainsi	ainsi	ADV	_	_	22	cc	_	ExtPos=CCONJ|Idiom=Yes|mwelemma=ainsi_que
 21	que	que	SCONJ	_	_	20	unk	_	InIdiom=Yes
 22	chez	chez	ADP	_	_	4	conj	_	_
@@ -3253,14 +3253,14 @@
 3	insuffisance	insuffisance	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
 4	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	3	mod	_	_
 5	sévère	sévère	ADJ	_	Number=Sing	3	mod	_	_
-6	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+6	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 7	TFG	TFG	PROPN	_	_	8	subj	_	_
 8	<	<	VERB	_	Mood=Ind|Person=3|VerbForm=Fin	3	parataxis:insert	_	_
 9	30	30	NUM	_	NumType=Card	10	det	_	_
 10	ml	ml	NOUN	_	Gender=Masc	8	comp:obj	_	SpaceAfter=No
 11	/	/	ADP	_	_	10	udep	_	SpaceAfter=No
 12	min	min	NOUN	_	Gender=Masc	11	comp:obj	_	SpaceAfter=No
-13	)	)	PUNCT	_	_	3	punct	_	_
+13	)	)	PUNCT	_	_	8	punct	_	_
 14	ainsi	ainsi	ADV	_	_	16	cc	_	ExtPos=CCONJ|Idiom=Yes|mwelemma=ainsi_que
 15	que	que	SCONJ	_	_	14	unk	_	InIdiom=Yes
 16	chez	chez	ADP	_	_	1	conj	_	_
@@ -3457,13 +3457,13 @@
 14	effet	effet	NOUN	_	Gender=Masc|Number=Sing	15	subj	_	_
 15	disparaît	disparaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 16	rapidement	rapidement	ADV	_	_	15	mod	_	_
-17	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 18	T½	T½	NOUN	_	_	15	mod	_	_
 19	35	35	NUM	_	NumType=Card	22	det	_	_
 20	à	à	ADP	_	_	19	comp:obl	_	_
 21	40	40	NUM	_	NumType=Card	20	comp:obj	_	_
 22	minutes	minute	NOUN	_	Gender=Fem|Number=Plur	18	mod	_	SpaceAfter=No
-23	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
 24	.	.	PUNCT	_	Shared=Yes	15	punct	_	_
 
 # sent_id = emea-fr-dev_00161
@@ -3490,11 +3490,11 @@
 19	risque	risque	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
 20	de	de	ADP	_	_	19	udep	_	_
 21	saignement	saignement	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
-22	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
 23	voir	voir	VERB	_	VerbForm=Inf	13	parataxis:insert	_	Subject=Generic
 24	Section	section	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
 25	4.5	4.5	NUM	_	NumType=Card	24	mod	_	SpaceAfter=No
-26	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = emea-fr-dev_00162
@@ -3900,7 +3900,7 @@
 20	de	de	ADP	_	_	18	udep	_	_
 21	médicaments	médicament	NOUN	_	Gender=Masc|Number=Plur	20	comp:obj	_	_
 22	anticoagulants	anticoagulant	ADJ	_	Gender=Masc|Number=Plur	21	mod	_	_
-23	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
 24	héparine	héparine	NOUN	_	Gender=Fem|Number=Sing	21	conj:appos	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	warfarine	warfarine	NOUN	_	Gender=Masc|Number=Sing	24	conj	_	SpaceAfter=No
@@ -3909,7 +3909,7 @@
 29	ou	ou	CCONJ	_	_	30	cc	_	_
 30	agents	agent	NOUN	_	Gender=Masc|Number=Plur	28	conj	_	_
 31	antiplaquettaires	antiplaquettaire	ADJ	_	Gender=Masc|Number=Plur	30	mod	_	SpaceAfter=No
-32	)	)	PUNCT	_	_	21	punct	_	_
+32	)	)	PUNCT	_	_	24	punct	_	_
 33	augmente	augmenter	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	_
 34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	risque	risque	NOUN	_	Gender=Masc|Number=Sing	33	comp:obj	_	_
@@ -4014,11 +4014,11 @@
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	développement	développement	NOUN	_	Gender=Masc|Number=Sing	27	conj	_	_
 31	post-natal	post-natal	ADJ	_	Gender=Masc|Number=Sing	30	mod	_	_
-32	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+32	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
 33	voir	voir	VERB	_	VerbForm=Inf	5	parataxis:insert	_	Subject=Generic
 34	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	33	comp:obj	_	_
 35	5.3	5.3	NUM	_	NumType=Card	34	mod	_	SpaceAfter=No
-36	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	33	punct	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = emea-fr-dev_00182
@@ -4142,9 +4142,9 @@
 2	étude	étude	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	clinique	clinique	ADJ	_	Number=Sing	2	mod	_	_
 4	ACUITY	ACUITY	PROPN	_	_	2	mod	_	_
-5	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	SCA	SCA	NOUN	_	_	2	conj:appos	_	SpaceAfter=No
-7	)	)	PUNCT	_	_	2	punct	_	_
+7	)	)	PUNCT	_	_	6	punct	_	_
 
 # sent_id = emea-fr-dev_00190
 # text = Les données suivantes relatives aux réactions indésirables sont basées sur une étude clinique menée avec la bivalirudine chez 13 819 patients atteints de SCA ;
@@ -4424,9 +4424,9 @@
 8	façon	façon	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 9	très	très	ADV	_	_	10	mod	_	_
 10	fréquente	fréquent	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	_
-11	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	1/10	1/10	NOUN	_	NumType=Card	10	parataxis:insert	_	SpaceAfter=No
-13	)	)	PUNCT	_	_	10	punct	_	_
+13	)	)	PUNCT	_	_	12	punct	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 16	saignements	saignement	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	_
@@ -4434,12 +4434,12 @@
 18	de	de	ADP	_	_	16	orphan	_	_
 19	façon	façon	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
 20	fréquente	fréquent	ADJ	_	Gender=Fem|Number=Sing	19	mod	_	_
-21	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
 22	1/100	1/100	NOUN	_	NumType=Card	20	parataxis:insert	_	_
 23	et	et	CCONJ	_	_	24	cc	_	_
 24	<	<	ADP	_	_	22	conj	_	_
 25	1/10	1/10	NOUN	_	NumType=Card	24	comp:obj	_	SpaceAfter=No
-26	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
 27	.	.	PUNCT	_	Shared=Yes	16	punct	_	_
 
 # sent_id = emea-fr-dev_00200
@@ -4581,28 +4581,28 @@
 # text = Très fréquent (1/10)
 1	Très	très	ADV	_	_	2	mod	_	_
 2	fréquent	fréquent	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
-3	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	1/10	1/10	NOUN	_	NumType=Card	2	parataxis:insert	_	SpaceAfter=No
-5	)	)	PUNCT	_	_	2	punct	_	_
+5	)	)	PUNCT	_	_	4	punct	_	_
 
 # sent_id = emea-fr-dev_00207
 # text = Fréquent (1/100 à < 1/10)
 1	Fréquent	fréquent	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
-2	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	1/100	1/100	NOUN	_	NumType=Card	1	parataxis:insert	_	_
 4	à	à	ADP	_	_	3	udep	_	_
 5	<	<	ADP	_	_	4	comp:obj	_	_
 6	1/10	1/10	NOUN	_	NumType=Card	5	comp:obj	_	SpaceAfter=No
-7	)	)	PUNCT	_	_	1	punct	_	_
+7	)	)	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-dev_00208
 # text = Rare (1/10000 à 1/1000)
 1	Rare	rare	ADJ	_	Number=Sing	0	root	_	_
-2	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	1/10000	1/10000	NOUN	_	NumType=Card	1	parataxis:insert	_	_
 4	à	à	ADP	_	_	3	udep	_	_
 5	1/1000	1/1000	NOUN	_	NumType=Card	4	comp:obj	_	SpaceAfter=No
-6	)	)	PUNCT	_	_	1	punct	_	_
+6	)	)	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-dev_00209
 # text = Troubles du système immunitaire
@@ -4887,11 +4887,11 @@
 12	site	site	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	de	de	ADP	_	_	12	udep	_	_
 14	ponction	ponction	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
-15	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
 16	voir	voir	VERB	_	VerbForm=Inf	6	parataxis:insert	_	Subject=Generic
 17	Tableau	tableau	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 18	3	3	NUM	_	NumType=Card	17	mod	_	SpaceAfter=No
-19	)	)	PUNCT	_	_	6	punct	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = emea-fr-dev_00229
@@ -4913,10 +4913,10 @@
 15	%	%	NOUN	_	Gender=Masc	13	comp:obj	_	_
 16	de	de	ADP	_	_	15	udep	_	_
 17	saignements	saignement	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	_
-18	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+18	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 19	peu	peu	ADV	_	_	20	mod	_	_
 20	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	15	mod	_	SpaceAfter=No
-21	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
@@ -4962,10 +4962,10 @@
 17	à	à	ADP	_	_	16	mod	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	bivalirudine	bivalirudine	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
-20	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+20	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
 21	0,1	0,1	NUM	_	NumType=Card	22	det	_	SpaceAfter=No
 22	%	%	NOUN	_	Gender=Masc	15	conj:appos	_	SpaceAfter=No
-23	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = emea-fr-dev_00231
@@ -5020,9 +5020,9 @@
 2	étude	étude	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	clinique	clinique	ADJ	_	Number=Sing	2	mod	_	_
 4	REPLACE-2	REPLACE-2	PROPN	_	_	2	mod	_	_
-5	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	ICP	ICP	NOUN	_	_	2	conj:appos	_	SpaceAfter=No
-7	)	)	PUNCT	_	_	2	punct	_	_
+7	)	)	PUNCT	_	_	6	punct	_	_
 
 # sent_id = emea-fr-dev_00234
 # text = Les données suivantes relatives aux réactions indésirables sont basées sur une étude clinique (REPLACE 2) menée avec la bivalirudine chez 6000 patients subissant une ICP, dont la moitié ont été traités par bivalirudine.
@@ -5041,10 +5041,10 @@
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	étude	étude	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
 14	clinique	clinique	ADJ	_	Number=Sing	13	mod	_	_
-15	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
 16	REPLACE	REPLACE	PROPN	_	_	13	conj:appos	_	_
 17	2	2	NUM	_	NumType=Card	16	mod	_	SpaceAfter=No
-18	)	)	PUNCT	_	_	13	punct	_	_
+18	)	)	PUNCT	_	_	16	punct	_	_
 19	menée	mener	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	mod	_	_
 20	avec	avec	ADP	_	_	19	mod	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
@@ -5189,11 +5189,11 @@
 # text = Peu fréquent (1/1000 à 1/100)
 1	Peu	peu	ADV	_	_	2	mod	_	_
 2	fréquent	fréquent	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
-3	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	1/1000	1/1000	NOUN	_	NumType=Card	2	parataxis:insert	_	_
 5	à	à	ADP	_	_	4	udep	_	_
 6	1/100	1/100	NOUN	_	NumType=Card	5	comp:obj	_	SpaceAfter=No
-7	)	)	PUNCT	_	_	2	punct	_	_
+7	)	)	PUNCT	_	_	4	punct	_	_
 
 # sent_id = emea-fr-dev_00241
 # text = Thrombocytopénie, anémie
@@ -5453,9 +5453,9 @@
 8	façon	façon	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 9	très	très	ADV	_	_	10	mod	_	_
 10	fréquente	fréquent	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	_
-11	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	1/10	1/10	NOUN	_	NumType=Card	10	parataxis:insert	_	SpaceAfter=No
-13	)	)	PUNCT	_	_	10	punct	_	_
+13	)	)	PUNCT	_	_	12	punct	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 16	saignements	saignement	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	_
@@ -5463,12 +5463,12 @@
 18	de	de	ADP	_	_	16	orphan	_	_
 19	façon	façon	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
 20	fréquente	fréquent	ADJ	_	Gender=Fem|Number=Sing	19	mod	_	_
-21	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
 22	1/100	1/100	NOUN	_	NumType=Card	20	parataxis:insert	_	_
 23	et	et	CCONJ	_	_	24	cc	_	_
 24	<	<	ADP	_	_	22	conj	_	_
 25	1/10	1/10	NOUN	_	NumType=Card	24	comp:obj	_	SpaceAfter=No
-26	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
 27	.	.	PUNCT	_	Shared=Yes	16	punct	_	_
 
 # sent_id = emea-fr-dev_00257
@@ -5521,11 +5521,11 @@
 12	site	site	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	de	de	ADP	_	_	12	udep	_	_
 14	ponction	ponction	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
-15	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
 16	voir	voir	VERB	_	VerbForm=Inf	6	parataxis:insert	_	Subject=Generic
 17	Tableau	tableau	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 18	5	5	NUM	_	NumType=Card	17	mod	_	SpaceAfter=No
-19	)	)	PUNCT	_	_	6	punct	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = emea-fr-dev_00259
@@ -5549,10 +5549,10 @@
 17	%	%	NOUN	_	Gender=Masc	15	comp:obj	_	_
 18	de	de	ADP	_	_	17	udep	_	_
 19	saignements	saignement	NOUN	_	Gender=Masc|Number=Plur	18	comp:obj	_	_
-20	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+20	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
 21	peu	peu	ADV	_	_	22	mod	_	_
 22	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	12	mod	_	SpaceAfter=No
-23	)	)	PUNCT	_	_	12	punct	_	_
+23	)	)	PUNCT	_	_	22	punct	_	_
 24	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
 26	suivants	suivant	ADJ	_	Gender=Masc|Number=Plur	24	comp:pred	_	_
@@ -5611,7 +5611,7 @@
 12	étude	étude	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 13	REPLACE	REPLACE	PROPN	_	_	12	mod	_	_
 14	2	2	NUM	_	NumType=Card	12	mod	_	_
-15	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
 16	bivalirudine	bivalirudine	NOUN	_	Gender=Fem|Number=Sing	12	conj:appos	_	_
 17	comparée	comparer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	mod	_	_
 18	à	à	ADP	_	_	17	comp:obl	_	_
@@ -5622,7 +5622,7 @@
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	GP	GP	NOUN	_	Gender=Fem|Number=Sing	22	comp:obj	_	_
 25	IIb/IIIa	IIb/IIIa	PROPN	_	_	24	mod	_	SpaceAfter=No
-26	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = emea-fr-dev_00262
@@ -6269,9 +6269,9 @@
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	thrombine	thrombine	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 16	soluble	soluble	ADJ	_	Number=Sing	15	mod	_	_
-17	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 18	libre	libre	ADJ	_	Number=Sing	16	mod	_	SpaceAfter=No
-19	)	)	PUNCT	_	_	16	punct	_	_
+19	)	)	PUNCT	_	_	18	punct	_	_
 20	et	et	CCONJ	_	_	22	cc	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	thrombine	thrombine	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	_
@@ -6329,25 +6329,25 @@
 20	thromboplastine	thromboplastine	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	_
 21	partielle	partiel	ADJ	_	Gender=Fem|Number=Sing	20	mod	_	_
 22	activée	activer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	mod	_	_
-23	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
 24	aPTT	aPTT	NOUN	_	_	18	conj:appos	_	SpaceAfter=No
-25	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	28	punct	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	temps	temps	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	_
 29	de	de	ADP	_	_	28	udep	_	_
 30	thrombine	thrombine	NOUN	_	Gender=Fem|Number=Sing	29	comp:obj	_	_
-31	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
 32	TT	TT	NOUN	_	_	28	conj:appos	_	SpaceAfter=No
-33	)	)	PUNCT	_	_	28	punct	_	_
+33	)	)	PUNCT	_	_	32	punct	_	_
 34	et	et	CCONJ	_	_	36	cc	_	_
 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	taux	taux	NOUN	_	Gender=Masc|Number=Sing	28	conj	_	_
 37	de	de	ADP	_	_	36	udep	_	_
 38	prothrombine	prothrombine	NOUN	_	Gender=Fem|Number=Sing	37	comp:obj	_	_
-39	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
+39	(	(	PUNCT	_	_	40	punct	_	SpaceAfter=No
 40	TP	TP	NOUN	_	_	36	conj:appos	_	SpaceAfter=No
-41	)	)	PUNCT	_	_	36	punct	_	_
+41	)	)	PUNCT	_	_	40	punct	_	_
 42	d'	de	ADP	_	Shared=Yes	36	udep	_	SpaceAfter=No
 43	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 44	plasma	plasma	NOUN	_	Gender=Masc|Number=Sing	42	comp:obj	_	_
@@ -6382,11 +6382,11 @@
 73	héparine	héparine	NOUN	_	Gender=Fem|Number=Sing	71	comp:obj	_	_
 74	avec	avec	ADP	_	_	73	udep	_	_
 75	thrombose	thrombose	NOUN	_	Gender=Fem|Number=Sing	74	comp:obj	_	_
-76	(	(	PUNCT	_	_	75	punct	_	SpaceAfter=No
+76	(	(	PUNCT	_	_	77	punct	_	SpaceAfter=No
 77	TIH	TIH	NOUN	_	_	75	conj:appos	_	SpaceAfter=No
 78	/	/	SYM	_	_	79	cc	_	SpaceAfter=No
 79	STIHT	STIHT	NOUN	_	_	77	conj	_	SpaceAfter=No
-80	)	)	PUNCT	_	_	75	punct	_	SpaceAfter=No
+80	)	)	PUNCT	_	_	77	punct	_	SpaceAfter=No
 81	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = emea-fr-dev_00302
@@ -6589,13 +6589,13 @@
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	GP	GP	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
 26	IIb/IIIa	IIb/IIIa	PROPN	_	_	25	mod	_	_
-27	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+27	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
 28	respectivement	respectivement	ADV	_	_	29	mod	_	_
 29	bras	bras	NOUN	_	Gender=Masc|Number=Sing	16	conj:appos	_	_
 30	B	B	NOUN	_	_	29	mod	_	_
 31	et	et	CCONJ	_	_	32	cc	_	_
 32	C	C	NOUN	_	_	30	conj	_	SpaceAfter=No
-33	)	)	PUNCT	_	_	16	punct	_	_
+33	)	)	PUNCT	_	_	29	punct	_	_
 34	et	et	CCONJ	_	_	36	cc	_	_
 35	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
 36	enoxaparine	enoxaparine	NOUN	_	Number=Sing	16	conj	_	_
@@ -6604,9 +6604,9 @@
 39	héparine	héparine	NOUN	_	Gender=Fem|Number=Sing	36	conj@emb	_	_
 40	non	non	ADV	_	Polarity=Neg	41	mod	_	_
 41	fractionnée	fractionner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	39	mod	_	_
-42	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
+42	(	(	PUNCT	_	_	43	punct	_	SpaceAfter=No
 43	HNF	HNF	NOUN	_	_	39	conj:appos	_	SpaceAfter=No
-44	)	)	PUNCT	_	_	39	punct	_	_
+44	)	)	PUNCT	_	_	43	punct	_	_
 45	associée	associer	VERB	_	Gender=Fem|Number=Sing|Shared=Yes|Tense=Past|VerbForm=Part|Voice=Pass	39	mod	_	_
 46	à	à	ADP	_	_	45	comp:obl	_	_
 47	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
@@ -6615,10 +6615,10 @@
 50	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
 51	GP	GP	NOUN	_	Gender=Fem|Number=Sing	49	comp:obj	_	_
 52	IIb/IIIa	IIb/IIIa	PROPN	_	_	51	mod	_	_
-53	(	(	PUNCT	_	Shared=Yes	39	punct	_	SpaceAfter=No
+53	(	(	PUNCT	_	Shared=Yes	54	punct	_	SpaceAfter=No
 54	bras	bras	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	39	conj:appos	_	_
 55	A	A	NOUN	_	_	54	mod	_	SpaceAfter=No
-56	)	)	PUNCT	_	Shared=Yes	39	punct	_	SpaceAfter=No
+56	)	)	PUNCT	_	Shared=Yes	54	punct	_	SpaceAfter=No
 57	,	,	PUNCT	_	_	58	punct	_	_
 58	chez	chez	ADP	_	_	14	mod	_	_
 59	plus	plus	ADV	_	_	58	comp:obj	_	ExtPos=PRON
@@ -6631,9 +6631,9 @@
 66	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	64	comp:obj	_	_
 67	coronarien	coronarien	ADJ	_	Gender=Masc|Number=Sing	66	mod	_	_
 68	aigu	aigu	ADJ	_	Gender=Masc|Number=Sing	66	mod	_	_
-69	(	(	PUNCT	_	_	66	punct	_	SpaceAfter=No
+69	(	(	PUNCT	_	_	70	punct	_	SpaceAfter=No
 70	SCA	SCA	NOUN	_	_	66	conj:appos	_	SpaceAfter=No
-71	)	)	PUNCT	_	_	66	punct	_	_
+71	)	)	PUNCT	_	_	70	punct	_	_
 72	et	et	CCONJ	_	_	73	cc	_	_
 73	considérés	considérer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	63	conj	_	_
 74	à	à	ADP	_	_	73	comp:pred	_	_
@@ -6652,12 +6652,12 @@
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	étude	étude	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 9	ACUITY	ACUITY	PROPN	_	_	8	mod	_	_
-10	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 11	bras	bras	NOUN	_	Gender=Masc|Number=Sing	8	conj:appos	_	_
 12	B	B	NOUN	_	_	11	mod	_	_
 13	et	et	CCONJ	_	_	14	cc	_	_
 14	C	C	NOUN	_	_	12	conj	_	SpaceAfter=No
-15	)	)	PUNCT	_	_	8	punct	_	_
+15	)	)	PUNCT	_	_	11	punct	_	_
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	bolus	bolus	NOUN	_	Gender=Masc|Number=Sing	16	comp:pred	_	_
@@ -6817,10 +6817,10 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	total	total	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 4	356	356	NUM	_	NumType=Card	9	det	_	_
-5	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+5	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 6	7,7	7,7	NUM	_	NumType=Card	7	det	_	SpaceAfter=No
 7	%	%	NOUN	_	Gender=Masc	4	conj:appos	_	SpaceAfter=No
-8	)	)	PUNCT	_	_	4	punct	_	_
+8	)	)	PUNCT	_	_	7	punct	_	_
 9	patients	patient	NOUN	_	Gender=Masc|Number=Plur	15	subj	_	_
 10	randomisés	randomiser	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	9	mod	_	_
 11	dans	dans	ADP	_	_	10	mod	_	_
@@ -6947,19 +6947,19 @@
 18	d'	de	ADP	_	_	17	comp:obl	_	SpaceAfter=No
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	angioplastie	angioplastie	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
-21	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+21	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
 22	56	56	NUM	_	NumType=Card	23	det	_	SpaceAfter=No
 23	%	%	NOUN	_	Gender=Masc	20	parataxis:insert	_	SpaceAfter=No
-24	)	)	PUNCT	_	_	20	punct	_	_
+24	)	)	PUNCT	_	_	23	punct	_	_
 25	ou	ou	CCONJ	_	_	26	cc	_	_
 26	d'	de	ADP	_	_	18	conj	_	SpaceAfter=No
 27	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	pontage	pontage	NOUN	_	Gender=Masc|Number=Sing	26	comp:obj	_	_
 29	aorto-coronaire	aorto-coronaire	ADJ	_	Number=Sing	28	mod	_	_
-30	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
 31	11	11	NUM	_	NumType=Card	32	det	_	SpaceAfter=No
 32	%	%	NOUN	_	Gender=Masc	28	parataxis:insert	_	SpaceAfter=No
-33	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
 34	.	.	PUNCT	_	Shared=Yes	17	punct	_	_
 
 # sent_id = emea-fr-dev_00318
@@ -7004,9 +7004,9 @@
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	population	population	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
 21	11	11	NUM	_	NumType=Card	20	mod	_	_
-22	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
 23	ITT	ITT	NOUN	_	_	17	conj:appos	_	SpaceAfter=No
-24	)	)	PUNCT	_	_	17	punct	_	_
+24	)	)	PUNCT	_	_	23	punct	_	_
 25	et	et	CCONJ	_	_	26	cc	_	_
 26	pour	pour	ADP	_	_	15	conj	_	_
 27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	_
@@ -7024,10 +7024,10 @@
 39	ou	ou	CCONJ	_	_	40	cc	_	_
 40	avant	avant	ADP	_	_	37	conj	_	_
 41	ICP	ICP	NOUN	_	_	40	comp:obj	_	_
-42	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+42	(	(	PUNCT	_	_	43	punct	_	SpaceAfter=No
 43	per	per	ADP	_	_	28	udep	_	_
 44	protocole	protocole	NOUN	_	Gender=Masc|Number=Sing	43	comp:obj	_	SpaceAfter=No
-45	)	)	PUNCT	_	_	28	punct	_	_
+45	)	)	PUNCT	_	_	43	punct	_	_
 46	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 47	présentés	présenter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	46	comp:aux@pass	_	_
 48	dans	dans	ADP	_	_	47	comp:obl	_	_
@@ -7058,9 +7058,9 @@
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	population	population	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 18	totale	total	ADJ	_	Gender=Fem|Number=Sing	17	mod	_	_
-19	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 20	ITT	ITT	NOUN	_	_	17	conj:appos	_	SpaceAfter=No
-21	)	)	PUNCT	_	_	17	punct	_	_
+21	)	)	PUNCT	_	_	20	punct	_	_
 22	et	et	CCONJ	_	_	24	cc	_	_
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
 24	patients	patient	NOUN	_	Gender=Masc|Number=Plur	17	conj	_	_
@@ -7257,9 +7257,9 @@
 29	subissant	subir	VERB	_	Tense=Pres|VerbForm=Part	28	mod	_	_
 30	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	ICP	ICP	NOUN	_	Gender=Fem|Number=Sing	29	comp:obj	_	_
-32	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+32	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
 33	REPLACE-2	REPLACE-2	PROPN	_	_	18	conj:appos	_	SpaceAfter=No
-34	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+34	)	)	PUNCT	_	_	33	punct	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	7	punct	_	_
 36	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 37	présentés	présenter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	36	comp:aux@pass	_	_
@@ -7432,12 +7432,12 @@
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	protéines	protéine	NOUN	_	Gender=Fem|Number=Plur	7	comp:obj	_	_
 10	plasmatiques	plasmatique	ADJ	_	Number=Plur	9	mod	_	_
-11	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	autres	autre	ADJ	_	Number=Plur	9	mod	_	_
 13	que	que	SCONJ	_	_	12	unk	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	thrombine	thrombine	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	SpaceAfter=No
-16	)	)	PUNCT	_	_	9	punct	_	_
+16	)	)	PUNCT	_	_	12	punct	_	_
 17	ni	ni	CCONJ	_	_	18	cc	_	_
 18-19	aux	_	_	_	_	_	_	_	_
 18	à	à	ADP	_	_	7	conj	_	_
@@ -7720,9 +7720,9 @@
 11	de	de	ADP	_	_	10	udep	_	_
 12	filtration	filtration	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
 13	glomérulaire	glomérulaire	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	_
-14	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	TFG	TFG	NOUN	_	_	10	conj:appos	_	SpaceAfter=No
-16	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = emea-fr-dev_00347
@@ -7782,10 +7782,10 @@
 26	de	de	ADP	_	_	25	comp:obl	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	dialyse	dialyse	NOUN	_	Gender=Fem|Number=Sing	26	comp:obj	_	_
-29	(	(	PUNCT	_	Shared=Yes	19	punct	_	SpaceAfter=No
+29	(	(	PUNCT	_	Shared=Yes	30	punct	_	SpaceAfter=No
 30	Tableau	tableau	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	19	parataxis:insert	_	_
 31	11	11	NUM	_	NumType=Card	30	mod	_	SpaceAfter=No
-32	)	)	PUNCT	_	Shared=Yes	19	punct	_	SpaceAfter=No
+32	)	)	PUNCT	_	Shared=Yes	30	punct	_	SpaceAfter=No
 33	.	.	PUNCT	_	Shared=Yes	19	punct	_	_
 
 # sent_id = emea-fr-dev_00349
@@ -7980,7 +7980,7 @@
 9	répétées	répéter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	mod	_	_
 10	ou	ou	CCONJ	_	_	11	cc	_	_
 11	continues	continu	ADJ	_	Gender=Fem|Number=Plur	9	conj	_	_
-12	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+12	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 13	1	1	NUM	_	NumType=Card	14	det	_	_
 14	jour	jour	NOUN	_	Gender=Masc|Number=Sing	18	mod	_	_
 15	à	à	ADP	_	_	14	udep	_	_
@@ -8005,7 +8005,7 @@
 34	état	état	NOUN	_	Gender=Masc|Number=Sing	32	comp:obj	_	_
 35	d'	de	ADP	_	_	34	udep	_	SpaceAfter=No
 36	équilibre	équilibre	NOUN	_	Gender=Masc|Number=Sing	35	comp:obj	_	SpaceAfter=No
-37	)	)	PUNCT	_	_	8	punct	_	_
+37	)	)	PUNCT	_	_	18	punct	_	_
 38	s'	se	PRON	_	Person=3|Reflex=Yes	40	comp@pass	_	SpaceAfter=No
 39	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 40	limitée	limiter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	39	comp:aux@tense	_	_
@@ -8197,7 +8197,7 @@
 5	sodium	sodium	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 6	2	2	NUM	_	NumType=Card	7	det	_	SpaceAfter=No
 7	%	%	NOUN	_	Gender=Masc	5	mod	_	_
-8	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
 9	pour	pour	ADP	_	_	1	udep	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	ajustement	ajustement	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
@@ -8205,7 +8205,7 @@
 12	de	de	ADP	_	_	11	udep	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	pH	pH	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	SpaceAfter=No
-15	)	)	PUNCT	_	_	1	punct	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = emea-fr-dev_00368
@@ -8460,14 +8460,14 @@
 3	à	à	ADP	_	_	2	mod	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	réfrigérateur	réfrigérateur	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
-6	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	entre	entre	ADP	_	_	2	mod	_	_
 8	2	2	NUM	_	NumType=Card	9	det	_	_
 9	°C	°C	NOUN	_	_	7	comp:obj	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	8	8	NUM	_	NumType=Card	12	det	_	_
 12	°C	°C	NOUN	_	_	9	conj	_	SpaceAfter=No
-13	)	)	PUNCT	_	_	2	punct	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = emea-fr-dev_00382
@@ -8501,10 +8501,10 @@
 10	flacons	flacon	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	9	comp:obj	_	_
 11	en	en	ADP	_	_	10	udep	_	_
 12	verre	verre	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
-13	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	Type	type	NOUN	_	Gender=Masc|Number=Sing	12	conj:appos	_	_
 15	1	1	NUM	_	NumType=Card	14	mod	_	SpaceAfter=No
-16	)	)	PUNCT	_	_	12	punct	_	_
+16	)	)	PUNCT	_	_	14	punct	_	_
 17	de	de	ADP	_	_	10	udep	_	_
 18	10	10	NUM	_	NumType=Card	19	det	_	_
 19	ml	ml	NOUN	_	Gender=Masc	17	comp:obj	_	_
@@ -8660,10 +8660,10 @@
 36	mg	mg	NOUN	_	Gender=Masc	34	comp:obj	_	SpaceAfter=No
 37	/	/	ADP	_	_	36	udep	_	SpaceAfter=No
 38	ml	ml	NOUN	_	Gender=Masc	37	comp:obj	_	_
-39	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
+39	(	(	PUNCT	_	_	41	punct	_	SpaceAfter=No
 40	0,9	0,9	NUM	_	NumType=Card	41	det	_	SpaceAfter=No
 41	%	%	NOUN	_	Gender=Masc	36	conj:appos	_	SpaceAfter=No
-42	)	)	PUNCT	_	_	36	punct	_	_
+42	)	)	PUNCT	_	_	41	punct	_	_
 43	pour	pour	ADP	_	_	29	udep	_	_
 44	injection	injection	NOUN	_	Gender=Fem|Number=Sing	43	comp:obj	_	SpaceAfter=No
 45	,	,	PUNCT	_	Shared=Yes	46	punct	_	_
@@ -8927,7 +8927,7 @@
 4	prescription	prescription	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 5	médicale	médical	ADJ	_	Gender=Fem|Number=Sing	4	mod	_	_
 6	restreinte	restreint	ADJ	_	Gender=Fem|Number=Sing	4	mod	_	_
-7	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	voir	voir	VERB	_	VerbForm=Inf	1	parataxis	_	Subject=Generic
 9	Annexe	annexe	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 10	I	I	ADJ	_	_	9	mod	_	_
@@ -8943,7 +8943,7 @@
 18	Produit	produit	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	4.2	4.2	NUM	_	NumType=Card	9	mod	_	SpaceAfter=No
-21	)	)	PUNCT	_	_	1	punct	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = emea-fr-dev_00408
@@ -9003,9 +9003,9 @@
 36	de	de	ADP	_	_	35	udep	_	_
 37	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	38	det	_	_
 38	risques	risque	NOUN	_	Gender=Masc|Number=Plur	36	comp:obj	_	_
-39	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
+39	(	(	PUNCT	_	_	40	punct	_	SpaceAfter=No
 40	PGR	PGR	NOUN	_	_	33	conj:appos	_	SpaceAfter=No
-41	)	)	PUNCT	_	_	33	punct	_	_
+41	)	)	PUNCT	_	_	40	punct	_	_
 42	présenté	présenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	33	mod	_	_
 43	dans	dans	ADP	_	_	42	mod	_	_
 44	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
@@ -9133,7 +9133,7 @@
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 7	importante	important	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	_
 8	étape	étape	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
-9	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	pharmacovigilance	pharmacovigilance	NOUN	_	Gender=Fem|Number=Sing	8	conj:appos	_	_
 11	ou	ou	CCONJ	_	_	12	cc	_	_
 12	minimisation	minimisation	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
@@ -9141,7 +9141,7 @@
 13	de	de	ADP	_	_	12	udep	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	risque	risque	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	SpaceAfter=No
-16	)	)	PUNCT	_	_	8	punct	_	_
+16	)	)	PUNCT	_	_	10	punct	_	_
 17	Selon	selon	ADP	_	_	1	mod	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	réglementation	réglementation	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
@@ -9353,10 +9353,10 @@
 3	à	à	ADP	_	_	2	comp:obl	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	réfrigérateur	réfrigérateur	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
-6	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+6	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 7	2-8	2-8	NUM	_	NumType=Card	8	det	_	_
 8	°C	°C	NOUN	_	_	5	mod	_	SpaceAfter=No
-9	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = emea-fr-dev_00435
@@ -9482,12 +9482,12 @@
 # text = Emballage extérieur (emballage de 10 flacons)
 1	Emballage	emballage	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	extérieur	extérieur	ADJ	_	Gender=Masc|Number=Sing	1	mod	_	_
-3	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	emballage	emballage	NOUN	_	Gender=Masc|Number=Sing	1	conj:appos	_	_
 5	de	de	ADP	_	_	4	udep	_	_
 6	10	10	NUM	_	NumType=Card	7	det	_	_
 7	flacons	flacon	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	SpaceAfter=No
-8	)	)	PUNCT	_	_	1	punct	_	_
+8	)	)	PUNCT	_	_	4	punct	_	_
 
 # sent_id = emea-fr-dev_00446
 # text = Angiox 250 mg poudre pour solution à diluer pour solution injectable ou pour perfusion Bivalirudine
@@ -9667,9 +9667,9 @@
 16	ou	ou	CCONJ	_	_	17	cc	_	_
 17	pour	pour	ADP	_	_	13	conj	_	_
 18	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
-19	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 20	Bivalirudine	Bivalirudine	NOUN	_	Gender=Fem|Number=Sing	5	conj:appos	_	SpaceAfter=No
-21	)	)	PUNCT	_	_	5	punct	_	_
+21	)	)	PUNCT	_	_	20	punct	_	_
 
 # sent_id = emea-fr-dev_00462
 # text = Veuillez lire attentivement l'intégralité de cette notice avant d'utiliser ce médicament.
@@ -9870,9 +9870,9 @@
 10	de	de	ADP	_	_	9	udep	_	_
 11	caillots	caillot	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 12	sanguins	sanguin	ADJ	_	Gender=Masc|Number=Plur	11	mod	_	_
-13	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	thrombose	thrombose	NOUN	_	Gender=Fem|Number=Sing	11	conj:appos	_	SpaceAfter=No
-15	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-dev_00476
@@ -9893,12 +9893,12 @@
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	affection	affection	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 16	cardiaque	cardiaque	ADJ	_	Number=Sing	15	mod	_	_
-17	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 18	syndromes	syndrome	NOUN	_	Gender=Masc|Number=Plur	15	conj:appos	_	_
 19	coronariens	coronarien	ADJ	_	Gender=Masc|Number=Plur	18	mod	_	_
 20	aigus	aigu	ADJ	_	Gender=Masc|Number=Plur	18	mod	_	_
 21	SCA	SCA	NOUN	_	_	18	mod	_	SpaceAfter=No
-22	)	)	PUNCT	_	_	15	punct	_	_
+22	)	)	PUNCT	_	_	18	punct	_	_
 
 # sent_id = emea-fr-dev_00477
 # text = - Chez les patients qui bénéficient d'une intervention chirurgicale destinée à traiter des obstructions
@@ -9946,9 +9946,9 @@
 3	vous	il	PRON	_	Number=Plur|Person=2	4	subj	_	_
 4	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 5	hypersensible	hypersensible	ADJ	_	Number=Sing	4	comp:pred	_	_
-6	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	allergique	allergique	ADJ	_	Number=Sing	5	mod	_	SpaceAfter=No
-8	)	)	PUNCT	_	_	5	punct	_	_
+8	)	)	PUNCT	_	_	7	punct	_	_
 9	à	à	ADP	_	_	5	comp:obl	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	bivalirudine	bivalirudine	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
@@ -9964,12 +9964,12 @@
 20	contenus	contenir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	19	mod	_	_
 21	dans	dans	ADP	_	_	20	comp:obl	_	_
 22	Angiox	Angiox	PROPN	_	_	21	comp:obj	_	_
-23	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
 24	voir	voir	VERB	_	VerbForm=Inf	19	parataxis	_	Subject=Generic
 25	liste	liste	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
 26	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	25	mod	_	_
 27	6	6	NUM	_	NumType=Card	26	mod	_	SpaceAfter=No
-28	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = emea-fr-dev_00481
@@ -10019,12 +10019,12 @@
 41	ou	ou	CCONJ	_	_	43	cc	_	_
 42	vos	son	DET	_	Number=Plur|Poss=Yes	43	det	_	_
 43	urines	urine	NOUN	_	Gender=Fem|Number=Plur	40	conj	_	_
-44	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
+44	(	(	PUNCT	_	_	45	punct	_	SpaceAfter=No
 45	excepté	excepté	ADP	_	_	34	mod	_	_
 46	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
 47	saignement	saignement	NOUN	_	Gender=Masc|Number=Sing	45	comp:obj	_	_
 48	menstruel	menstruel	ADJ	_	Gender=Masc|Number=Sing	47	mod	_	SpaceAfter=No
-49	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
+49	)	)	PUNCT	_	_	45	punct	_	SpaceAfter=No
 50	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = emea-fr-dev_00482
@@ -10058,11 +10058,11 @@
 7	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	hypertension	hypertension	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	7	comp:obj	_	_
-10	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 11	tension	tension	NOUN	_	Gender=Fem|Number=Sing	9	conj:appos	_	_
 12	artérielle	artériel	ADJ	_	Gender=Fem|Number=Sing	11	mod	_	_
 13	élevée	élevé	ADJ	_	Gender=Fem|Number=Sing	11	mod	_	SpaceAfter=No
-14	)	)	PUNCT	_	_	9	punct	_	_
+14	)	)	PUNCT	_	_	11	punct	_	_
 15	sévère	sévère	ADJ	_	Number=Sing	9	mod	_	_
 16	non	non	ADV	_	Polarity=Neg	17	mod	_	_
 17	contrôlée	contrôler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	mod	_	SpaceAfter=No
@@ -10143,11 +10143,11 @@
 10	similaires	similaire	ADJ	_	Number=Plur	9	mod	_	_
 11	à	à	ADP	_	_	10	comp:obl	_	_
 12	Angiox	Angiox	PROPN	_	_	11	comp:obj	_	_
-13	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+13	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
 14	par	par	ADP	_	_	16	mod	_	_
 15	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
 16	lépirudine	lépirudine	NOUN	_	Gender=Fem|Number=Sing	9	conj:appos	_	SpaceAfter=No
-17	)	)	PUNCT	_	_	9	punct	_	_
+17	)	)	PUNCT	_	_	16	punct	_	_
 
 # sent_id = emea-fr-dev_00489
 # text = En effet, ces médicaments peuvent augmenter le risque de saignement s'ils sont administrés en même temps qu'Angiox.
@@ -10423,9 +10423,9 @@
 16	de	de	ADP	_	_	15	udep	_	_
 17	réaction	réaction	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
 18	allergique	allergique	ADJ	_	Number=Sing	17	mod	_	_
-19	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 20	hypersensibilité	hypersensibilité	NOUN	_	Gender=Fem|Number=Sing	17	conj:appos	_	SpaceAfter=No
-21	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = emea-fr-dev_00506
@@ -10435,14 +10435,14 @@
 3	se	se	PRON	_	Person=3|Reflex=Yes	4	comp@expl	_	_
 4	produisent	produire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	rarement	rarement	ADV	_	_	4	mod	_	_
-6	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 7	environ	environ	ADV	_	_	8	mod	_	_
 8	1	1	PRON	_	NumType=Card	4	parataxis:insert	_	_
 9	pour	pour	ADP	_	_	8	udep	_	_
 10	1000	1000	NUM	_	NumType=Card	11	det	_	_
 11	patients	patient	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	_
 12	traités	traiter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	mod	_	SpaceAfter=No
-13	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = emea-fr-dev_00507
@@ -10600,9 +10600,9 @@
 11	intervention	intervention	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 12	coronaire	coronaire	ADJ	_	Number=Sing	11	mod	_	_
 13	percutanée	percutané	ADJ	_	Gender=Fem|Number=Sing	11	mod	_	_
-14	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	ICP	ICP	NOUN	_	_	11	conj:appos	_	SpaceAfter=No
-16	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	20	subj@expl	_	_
 19	vous	le	PRON	_	Number=Plur|Person=2	21	comp:obl	_	_
@@ -10666,9 +10666,9 @@
 7	intervention	intervention	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 8	coronaire	coronaire	ADJ	_	Number=Sing	7	mod	_	_
 9	percutanée	percutané	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	_
-10	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 11	ICP	ICP	NOUN	_	_	7	conj:appos	_	SpaceAfter=No
-12	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	1	punct	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	dose	dose	NOUN	_	Gender=Fem|Number=Sing	17	subj	_	_
@@ -10692,13 +10692,13 @@
 12	d'	de	ADP	_	_	11	comp:obl@agent	_	SpaceAfter=No
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
-15	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
 16	solution	solution	NOUN	_	Gender=Fem|Number=Sing	14	conj:appos	_	_
 17	en	en	ADP	_	_	16	udep	_	_
 18	goutte	goutte	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
 19	à	à	ADP	_	_	18	udep	_	_
 20	goutte	goutte	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	SpaceAfter=No
-21	)	)	PUNCT	_	_	14	punct	_	_
+21	)	)	PUNCT	_	_	16	punct	_	_
 22	de	de	ADP	_	_	14	udep	_	_
 23	1,75	1,75	NUM	_	NumType=Card	24	det	_	_
 24	mg	mg	NOUN	_	Gender=Masc	22	comp:obj	_	SpaceAfter=No
@@ -10706,7 +10706,7 @@
 26	kg	kg	NOUN	_	_	25	comp:obj	_	SpaceAfter=No
 27	/	/	ADP	_	_	24	udep	_	SpaceAfter=No
 28	heure	heure	NOUN	_	Gender=Fem|Number=Sing	27	comp:obj	_	_
-29	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+29	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
 30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	32	subj	_	_
 32	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis:insert	_	_
@@ -10720,7 +10720,7 @@
 40	à	à	ADP	_	_	39	comp:obj	_	_
 41	4	4	NUM	_	NumType=Card	42	det	_	_
 42	heures	heure	NOUN	_	Gender=Fem|Number=Plur	40	comp:obj	_	SpaceAfter=No
-43	)	)	PUNCT	_	_	3	punct	_	SpaceAfter=No
+43	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
 44	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-dev_00519
@@ -10908,14 +10908,14 @@
 9	entraîner	entraîner	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=SubjRaising
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	mort	mort	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
-12	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	moins	moins	ADV	_	_	8	parataxis:insert	_	ExtPos=PRON
 14	de	de	ADP	_	_	13	comp:obl	_	_
 15	1	1	NUM	_	NumType=Card	16	det	_	_
 16	patient	patient	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
 17	sur	sur	ADP	_	_	16	udep	_	_
 18	10 000	10 000	PRON	_	_	17	comp:obj	_	SpaceAfter=No
-19	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = emea-fr-dev_00531
@@ -10938,7 +10938,7 @@
 16	anticoagulant	anticoagulant	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 17	ou	ou	CCONJ	_	_	18	cc	_	_
 18	antithrombotique	antithrombotique	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	_
-19	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 20	voir	voir	VERB	_	VerbForm=Inf	3	parataxis:insert	_	Subject=Generic
 21	section	section	NOUN	_	Gender=Fem|Number=Sing	20	comp:obj	_	_
 22	2	2	NUM	_	NumType=Card	21	mod	_	_
@@ -10948,7 +10948,7 @@
 26	autres	autre	ADJ	_	Number=Plur	27	mod	_	_
 27	médicaments	médicament	NOUN	_	Gender=Masc|Number=Plur	25	comp:obj	_	SpaceAfter=No
 28	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
-29	)	)	PUNCT	_	_	3	punct	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-dev_00532
@@ -11023,7 +11023,7 @@
 5	effet	effet	NOUN	_	Gender=Masc|Number=Sing	3	conj:appos	_	_
 6	indésirable	indésirable	ADJ	_	Number=Sing	5	mod	_	_
 7	fréquent	fréquent	ADJ	_	Gender=Masc|Number=Sing	5	mod	_	_
-8	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+8	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 9	moins	moins	ADV	_	_	11	mod	_	_
 10	de	de	ADP	_	_	11	udep	_	_
 11	1	1	PRON	_	NumType=Card	7	parataxis:insert	_	_
@@ -11031,7 +11031,7 @@
 13	10	10	NUM	_	NumType=Card	14	det	_	_
 14	patients	patient	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	_
 15	traités	traiter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	14	mod	_	SpaceAfter=No
-16	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-dev_00536
@@ -11045,18 +11045,18 @@
 7	de	de	ADP	_	_	6	udep	_	_
 8	type	type	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 9	anémie	anémie	NOUN	_	Gender=Fem|Number=Sing	8	mod	_	_
-10	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+10	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	déficit	déficit	NOUN	_	Gender=Masc|Number=Sing	9	conj:appos	_	_
 13	en	en	ADP	_	_	12	udep	_	_
 14	globules	globule	NOUN	_	Gender=Masc|Number=Plur	13	comp:obj	_	_
 15	rouges	rouge	ADJ	_	Number=Plur	14	mod	_	SpaceAfter=No
-16	)	)	PUNCT	_	_	9	punct	_	_
+16	)	)	PUNCT	_	_	12	punct	_	_
 17	ou	ou	CCONJ	_	_	18	cc	_	_
 18	hématome	hématome	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
-19	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 20	hémorragie	hémorragie	NOUN	_	Gender=Fem|Number=Sing	18	conj:appos	_	SpaceAfter=No
-21	)	)	PUNCT	_	_	18	punct	_	_
+21	)	)	PUNCT	_	_	20	punct	_	_
 
 # sent_id = emea-fr-dev_00537
 # text = - Des réactions allergiques ou d'hypersensibilité à Angiox, telles que des réactions urticariennes,
@@ -11082,9 +11082,9 @@
 1	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	det	_	_
 2	démangeaisons	démangeaison	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 3	généralisées	généralisé	ADJ	_	Gender=Fem|Number=Plur	2	mod	_	_
-4	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	urticaire	urticaire	NOUN	_	Gender=Fem|Number=Sing	2	conj:appos	_	SpaceAfter=No
-6	)	)	PUNCT	_	_	2	punct	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	sensation	sensation	NOUN	_	Gender=Fem|Number=Sing	2	mod	_	_
@@ -11102,7 +11102,7 @@
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	peu	peu	ADV	_	_	5	mod	_	_
 5	fréquentes	fréquent	ADJ	_	Gender=Fem|Number=Plur	3	comp:pred	_	_
-6	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+6	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
 7	moins	moins	ADV	_	_	9	mod	_	_
 8	de	de	ADP	_	_	9	udep	_	_
 9	1	1	PRON	_	NumType=Card	5	parataxis:insert	_	_
@@ -11110,7 +11110,7 @@
 11	100	100	NUM	_	NumType=Card	12	det	_	_
 12	patients	patient	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 13	traités	traiter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	mod	_	SpaceAfter=No
-14	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-dev_00540
@@ -11118,10 +11118,10 @@
 1	-	-	PUNCT	_	_	3	punct	_	_
 2	Des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
 3	thromboses	thrombose	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
-4	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	caillots	caillot	NOUN	_	Gender=Masc|Number=Plur	3	conj:appos	_	_
 6	sanguins	sanguin	ADJ	_	Gender=Masc|Number=Plur	5	mod	_	SpaceAfter=No
-7	)	)	PUNCT	_	_	3	punct	_	_
+7	)	)	PUNCT	_	_	5	punct	_	_
 8	qui	qui	PRON	_	PronType=Rel	9	subj	_	_
 9	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	_
 10	entraîner	entraîner	VERB	_	VerbForm=Inf	9	comp:obj	_	Subject=SubjRaising
@@ -11143,7 +11143,7 @@
 5	indésirables	indésirable	ADJ	_	Number=Plur	4	mod	_	_
 6	peu	peu	ADV	_	_	7	mod	_	_
 7	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	4	mod	_	_
-8	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+8	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 9	moins	moins	ADV	_	_	11	mod	_	_
 10	de	de	ADP	_	_	11	udep	_	_
 11	1	1	PRON	_	NumType=Card	7	parataxis:insert	_	_
@@ -11151,7 +11151,7 @@
 13	100	100	NUM	_	NumType=Card	14	det	_	_
 14	patients	patient	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	_
 15	traités	traiter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	14	mod	_	SpaceAfter=No
-16	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = emea-fr-dev_00542
@@ -11174,7 +11174,7 @@
 15	effets	effet	NOUN	_	Gender=Masc|Number=Plur	13	comp:pred	_	_
 16	indésirables	indésirable	ADJ	_	Number=Plur	15	mod	_	_
 17	rares	rare	ADJ	_	Number=Plur	15	mod	_	_
-18	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+18	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
 19	moins	moins	ADV	_	_	21	mod	_	_
 20	de	de	ADP	_	_	21	udep	_	_
 21	1	1	PRON	_	NumType=Card	17	parataxis:insert	_	_
@@ -11182,7 +11182,7 @@
 23	1000	1000	NUM	_	NumType=Card	24	det	_	_
 24	patients	patient	NOUN	_	Gender=Masc|Number=Plur	22	comp:obj	_	_
 25	traités	traiter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	24	mod	_	SpaceAfter=No
-26	)	)	PUNCT	_	_	17	punct	_	_
+26	)	)	PUNCT	_	_	21	punct	_	_
 
 # sent_id = emea-fr-dev_00543
 # text = Si vous remarquez un des effets iindésirables, potentiellement moins sévères, suivants :
@@ -11208,7 +11208,7 @@
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	Hémorragie	hémorragie	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	grave	grave	ADJ	_	Number=Sing	2	mod	_	_
-4	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	ce	ce	PRON	_	Shared=Yes	2	conj:appos	_	_
 6	qui	qui	PRON	_	PronType=Rel	7	subj	_	_
 7	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	_
@@ -11230,7 +11230,7 @@
 23	de	de	ADP	_	_	21	udep	_	_
 24	votre	son	DET	_	Number=Sing|Poss=Yes	25	det	_	_
 25	sang	sang	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	SpaceAfter=No
-26	)	)	PUNCT	_	_	2	punct	_	_
+26	)	)	PUNCT	_	_	5	punct	_	_
 
 # sent_id = emea-fr-dev_00545
 # text = - Maux de tête
@@ -11297,7 +11297,7 @@
 4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	peu	peu	ADV	_	_	6	mod	_	_
 6	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	4	comp:pred	_	_
-7	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+7	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 8	moins	moins	ADV	_	_	10	mod	_	_
 9	de	de	ADP	_	_	10	udep	_	_
 10	1	1	PRON	_	NumType=Card	6	parataxis:insert	_	_
@@ -11305,7 +11305,7 @@
 12	100	100	NUM	_	NumType=Card	13	det	_	_
 13	patients	patient	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	_
 14	traités	traiter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	mod	_	SpaceAfter=No
-15	)	)	PUNCT	_	_	6	punct	_	_
+15	)	)	PUNCT	_	_	10	punct	_	_
 
 # sent_id = emea-fr-dev_00554
 # text = Si vous remarquez des effets indésirables non mentionnés dans cette notice, ou si certains effets indésirables deviennent graves, veuillez en informer votre médecin.
@@ -11412,14 +11412,14 @@
 3	à	à	ADP	_	_	2	mod	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	réfrigérateur	réfrigérateur	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
-6	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	entre	entre	ADP	_	_	2	mod	_	_
 8	2	2	NUM	_	NumType=Card	9	det	_	_
 9	°C	°C	NOUN	_	_	7	comp:obj	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	8	8	NUM	_	NumType=Card	12	det	_	_
 12	°C	°C	NOUN	_	_	9	conj	_	SpaceAfter=No
-13	)	)	PUNCT	_	_	2	punct	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = emea-fr-dev_00560
