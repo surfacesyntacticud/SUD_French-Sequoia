@@ -2333,7 +2333,7 @@
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	pharmacies	pharmacie	NOUN	_	Gender=Fem|Number=Plur	3	conj	_	_
-11	de	de	ADP	_	_	11	orphan	_	_
+11	de	de	ADP	_	_	10	orphan	_	_
 12	médicaments	médicament	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
