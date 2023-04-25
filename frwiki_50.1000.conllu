@@ -2568,7 +2568,7 @@
 37	de	de	ADP	_	_	36	udep	_	_
 38	dollars	dollar	NOUN	_	Gender=Masc|Number=Plur	37	comp:obj	_	_
 39	[	[	PUNCT	_	_	17	punct	_	SpaceAfter=No
-40	1	1	NUM	_	NumType=Card	17	mod	_	SpaceAfter=No
+40	1	1	NUM	_	NumType=Card	31	mod	_	SpaceAfter=No
 41	]	]	PUNCT	_	_	17	punct	_	SpaceAfter=No
 42	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
 43	.	.	PUNCT	_	_	17	punct	_	_
@@ -3212,7 +3212,7 @@
 26	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
 27	en	en	ADP	_	_	25	udep	_	_
 28	exil	exil	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj	_	_
-29	en	en	ADP	_	_	25	udep	_	_
+29	en	en	ADP	_	_	27	udep	_	_
 30	Côte	côte	NOUN	_	Gender=Fem|Number=Sing	29	comp:obj	_	_
 31	d'	de	ADP	_	_	30	udep	_	SpaceAfter=No
 32	Ivoire	Ivoire	PROPN	_	_	31	comp:obj	_	SpaceAfter=No
@@ -9319,7 +9319,7 @@
 5	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	12	subj	_	_
 6	Thomson-CSF	Thomson-CSF	PROPN	_	_	5	mod	_	_
 7	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
-8	aujourd'hui	aujourd'hui	ADV	_	_	5	mod	_	_
+8	aujourd'hui	aujourd'hui	ADV	_	_	9	mod	_	_
 9	Groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	5	conj:appos	_	_
 10	Thales	Thales	PROPN	_	Gender=Masc|Number=Sing	9	mod	_	SpaceAfter=No
 11	)	)	PUNCT	_	_	5	punct	_	_
@@ -12487,11 +12487,11 @@
 49	mars	mars	NOUN	_	Gender=Masc|Number=Sing	48	udep	_	_
 50	2001	2001	NUM	_	NumType=Card	49	mod	_	_
 51	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
-52	Volume	volume	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
+52	Volume	volume	NOUN	_	Gender=Masc|Number=Sing	57	parataxis	_	_
 53	5	5	NUM	_	NumType=Card	52	parataxis:insert	_	SpaceAfter=No
 54	-	-	PUNCT	_	_	2	punct	_	_
 55	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
-56	Grand	grand	ADJ	_	Gender=Masc|Number=Sing	57	mod	_	_
+56	Grand	grand	ADJ	_	Gender=Masc|Number=Sing	52	mod	_	_
 57	Duché	duché	NOUN	_	Gender=Masc|Number=Sing	2	parataxis:insert	_	_
 58-59	du	_	_	_	_	_	_	_	_
 58	de	de	ADP	_	_	57	udep	_	_
@@ -16405,7 +16405,7 @@
 27	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 28	mystérieux	mystérieux	ADJ	_	Gender=Masc	29	mod	_	_
 29	corbeau	corbeau	NOUN	_	Gender=Masc|Number=Sing	26	comp:obj	_	SpaceAfter=No
-30	...	...	PUNCT	_	_	10	punct	_	SpaceAfter=No
+30	...	...	PUNCT	_	_	25	punct	_	SpaceAfter=No
 31	)	)	PUNCT	_	_	10	punct	_	_
 32	et	et	CCONJ	_	_	33	cc	_	_
 33	bifurcations	bifurcation	NOUN	_	Gender=Fem|Number=Plur	10	conj	_	_
@@ -19751,7 +19751,7 @@
 29	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
 30	CGE	CGE	PROPN	_	_	24	conj:appos	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	_
-32	devenue	devenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	24	mod	_	_
+32	devenue	devenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	mod	_	_
 33	Vivendi	Vivendi	PROPN	_	_	32	comp:pred	_	SpaceAfter=No
 34	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
 35	,	,	PUNCT	_	Shared=Yes	21	punct	_	_
@@ -25434,7 +25434,7 @@
 10	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	_
 12	Ynetnews	Ynetnews	PROPN	_	_	4	parataxis	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	4	punct	_	_
+13	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = frwiki_50.1000_00935
 # text = Dernier accès à l'URL : 2006-08-07.

@@ -2684,8 +2684,8 @@
 23	mg	mg	NOUN	_	Gender=Masc	21	comp:obj	_	SpaceAfter=No
 24	/	/	ADP	_	_	23	udep	_	SpaceAfter=No
 25	kg	kg	NOUN	_	_	24	comp:obj	_	_
-26	;	;	PUNCT	_	_	20	punct	_	_
-27	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	17	conj:appos	_	_
+26	;	;	PUNCT	_	_	27	punct	_	_
+27	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	20	conj	_	_
 28	de	de	ADP	_	_	27	udep	_	_
 29	0.25	0.25	NUM	_	NumType=Card	30	det	_	_
 30	mg	mg	NOUN	_	Gender=Masc	28	comp:obj	_	SpaceAfter=No
@@ -7982,7 +7982,7 @@
 11	continues	continu	ADJ	_	Gender=Fem|Number=Plur	9	conj	_	_
 12	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 13	1	1	NUM	_	NumType=Card	14	det	_	_
-14	jour	jour	NOUN	_	Gender=Masc|Number=Sing	8	parataxis:insert	_	_
+14	jour	jour	NOUN	_	Gender=Masc|Number=Sing	18	mod	_	_
 15	à	à	ADP	_	_	14	udep	_	_
 16	4	4	NUM	_	NumType=Card	17	det	_	_
 17	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	15	comp:obj	_	_

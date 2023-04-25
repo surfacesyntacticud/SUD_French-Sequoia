@@ -2317,12 +2317,12 @@
 1	Aclasta	Aclasta	PROPN	_	_	17	subj@pass	_	_
 2	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	5	5	NUM	_	NumType=Card	4	det	_	_
-4	mg	mg	NOUN	_	Gender=Masc	1	mod	_	_
+4	mg	mg	NOUN	_	Gender=Masc	1	parataxis	_	_
 5	/	/	ADP	_	_	4	udep	_	_
 6	100	100	NUM	_	NumType=Card	7	det	_	_
 7	ml	ml	NOUN	_	Gender=Masc	5	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	solution	solution	NOUN	_	Gender=Fem|Number=Sing	1	conj:appos	_	_
+9	solution	solution	NOUN	_	Gender=Fem|Number=Sing	4	parataxis	_	_
 10	pour	pour	ADP	_	_	9	udep	_	_
 11	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 12	prête	prêt	ADJ	_	Gender=Fem|Number=Sing	9	mod	_	_
@@ -2951,7 +2951,7 @@
 22	fonction	fonction	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
 23	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	22	mod	_	_
 24	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
-25	par	par	ADP	_	_	14	mod	_	_
+25	par	par	ADP	_	_	28	udep	_	_
 26	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	aminosides	aminoside	NOUN	_	Gender=Masc|Number=Plur	14	conj:appos	_	_
@@ -3024,11 +3024,11 @@
 15	manière	manière	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
 16	efficace	efficace	ADJ	_	Number=Sing	15	mod	_	_
 17	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
-18	par	par	ADP	_	_	10	mod	_	_
+18	par	par	ADP	_	_	20	udep	_	_
 19	ex.	ex.	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
 20	hypoparathyroïdie	hypoparathyroïdie	NOUN	_	Gender=Fem|Number=Sing	10	mod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
-22	malabsorption	malabsorption	NOUN	_	Gender=Fem|Number=Sing	10	mod	_	_
+22	malabsorption	malabsorption	NOUN	_	Gender=Fem|Number=Sing	20	conj	_	_
 23	intestinale	intestinal	ADJ	_	Gender=Fem|Number=Sing	22	mod	_	_
 24-25	du	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	22	udep	_	_
@@ -3442,9 +3442,9 @@
 30	risque	risque	NOUN	_	Gender=Masc|Number=Sing	29	comp:obj	_	_
 31	associés	associé	ADJ	_	Gender=Masc|Number=Plur	28	mod	_	_
 32	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
-33	par	par	ADP	_	_	28	mod	_	_
+33	par	par	ADP	_	_	36	udep	_	_
 34	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	33	comp:obj	_	_
-35	:	:	PUNCT	_	_	36	punct	_	_
+35	:	:	PUNCT	_	_	33	punct	_	_
 36	cancer	cancer	NOUN	_	Gender=Masc|Number=Sing	28	conj:appos	_	SpaceAfter=No
 37	,	,	PUNCT	_	_	38	punct	_	_
 38	chimiothérapie	chimiothérapie	NOUN	_	Gender=Fem|Number=Sing	36	conj	_	SpaceAfter=No
@@ -3726,7 +3726,7 @@
 22	fonction	fonction	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
 23	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	22	mod	_	_
 24	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
-25	par	par	ADP	_	_	14	mod	_	_
+25	par	par	ADP	_	_	27	mod	_	_
 26	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	_
 27	aminosides	aminoside	NOUN	_	Gender=Masc|Number=Plur	14	conj:appos	_	_
 28	ou	ou	CCONJ	_	_	29	cc	_	_
@@ -4565,7 +4565,7 @@
 28	risque	risque	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj	_	_
 29	supplémentaires	supplémentaire	ADJ	_	Number=Plur	28	mod	_	_
 30	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
-31	par	par	ADP	_	_	26	mod	_	_
+31	par	par	ADP	_	_	34	mod	_	_
 32	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	31	comp:obj	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	34	punct	_	_
 34	chimiothérapie	chimiothérapie	NOUN	_	Gender=Fem|Number=Sing	26	conj:appos	_	_
@@ -4577,8 +4577,8 @@
 40	,	,	PUNCT	_	_	41	punct	_	_
 41	déshydratation	déshydratation	NOUN	_	Gender=Fem|Number=Sing	37	conj	_	_
 42	sévère	sévère	ADJ	_	Number=Sing	41	mod	_	SpaceAfter=No
-43	,	,	PUNCT	_	_	41	punct	_	_
-44	etc.	etc.	ADV	_	_	26	mod	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	44	punct	_	_
+44	etc.	etc.	ADV	_	_	41	conj	_	SpaceAfter=No
 45	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
 46	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -5190,9 +5190,9 @@
 22	traitements	traitement	NOUN	_	Gender=Masc|Number=Plur	16	conj	_	_
 23	associés	associé	ADJ	_	Gender=Masc|Number=Plur	22	mod	_	_
 24	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
-25	par	par	ADP	_	_	22	mod	_	_
+25	par	par	ADP	_	_	28	mod	_	_
 26	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	_
-27	:	:	PUNCT	_	_	28	punct	_	_
+27	:	:	PUNCT	_	_	25	punct	_	_
 28	chimiothérapie	chimiothérapie	NOUN	_	Gender=Fem|Number=Sing	22	conj:appos	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	_
 30	radiothérapie	radiothérapie	NOUN	_	Gender=Fem|Number=Sing	28	conj	_	SpaceAfter=No
@@ -5970,13 +5970,13 @@
 23	3	3	NUM	_	NumType=Card	24	det	_	_
 24	ans	an	NOUN	_	Gender=Masc|Number=Plur	22	comp:obj	_	_
 25	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
-26	IC	IC	PROPN	_	_	14	mod	_	_
+26	IC	IC	PROPN	_	_	14	parataxis:insert	_	_
 27	à	à	ADP	_	_	26	udep	_	_
 28	95	95	NUM	_	NumType=Card	29	det	_	SpaceAfter=No
 29	%	%	NOUN	_	Gender=Masc	27	comp:obj	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	32	punct	_	_
 31	17	17	NUM	_	NumType=Card	32	det	_	SpaceAfter=No
-32	%	%	NOUN	_	Gender=Masc	14	mod	_	_
+32	%	%	NOUN	_	Gender=Masc	26	parataxis	_	_
 33	à	à	ADP	_	_	32	udep	_	_
 34	58	58	NUM	_	NumType=Card	35	det	_	SpaceAfter=No
 35	%	%	NOUN	_	Gender=Masc	33	comp:obj	_	SpaceAfter=No
@@ -11213,9 +11213,9 @@
 19	fonction	fonction	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
 20	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	19	mod	_	_
 21	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
-22	par	par	ADP	_	_	11	mod	_	_
+22	par	par	ADP	_	_	25	mod	_	_
 23	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	25	punct	_	_
+24	,	,	PUNCT	_	_	22	punct	_	_
 25	aminoglucosides	aminoglucoside	NOUN	_	Gender=Masc|Number=Sing	11	conj:appos	_	_
 26	ou	ou	CCONJ	_	_	27	cc	_	_
 27	diurétiques	diurétique	NOUN	_	Gender=Masc|Number=Plur	25	conj	_	_
@@ -11270,7 +11270,7 @@
 11	efficacement	efficacement	ADV	_	_	10	mod	_	_
 12	traités	traiter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	comp:aux@pass	_	_
 13	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
-14	par	par	ADP	_	_	8	mod	_	_
+14	par	par	ADP	_	_	16	mod	_	_
 15	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
 16	réduction	réduction	NOUN	_	Gender=Fem|Number=Sing	8	mod	_	_
 17	de	de	ADP	_	_	16	udep	_	_
@@ -11278,7 +11278,7 @@
 19	réserve	réserve	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
 20	parathyroïde	parathyroïd	ADJ	_	Gender=Fem|Number=Sing	19	mod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
-22	malabsorption	malabsorption	NOUN	_	Gender=Fem|Number=Sing	8	mod	_	_
+22	malabsorption	malabsorption	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	_
 23	intestinale	intestinal	ADJ	_	Gender=Fem|Number=Sing	22	mod	_	_
 24	de	de	ADP	_	_	22	udep	_	_
 25	calcium	calcium	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	SpaceAfter=No
