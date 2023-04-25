@@ -9,7 +9,7 @@
 # text = EMEA / H/C/562
 1	EMEA	EMEA	PROPN	_	_	0	root	_	_
 2	/	/	SYM	_	_	1	punct	_	_
-3	H/C/562	H/C/562	NOUN	_	_	1	mod	_	_
+3	H/C/562	H/C/562	PROPN	_	_	1	flat@name	_	_
 
 # sent_id = emea-fr-dev_00003
 # text = RAPPORT EUROPÉEN PUBLIC D'ÉVALUATION (EPAR)
@@ -1910,7 +1910,7 @@
 8	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 9	coronarien	coronarien	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	_
 10	aigu	aigu	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	_
-11	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	angor	angor	NOUN	_	Gender=Masc|Number=Sing	8	conj:appos	_	_
 13	instable	instable	ADJ	_	Number=Sing	12	mod	_	_
 14	/	ou	CCONJ	_	_	15	cc	_	_
@@ -1927,13 +1927,13 @@
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	segment	segment	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
 25	ST	ST	NOUN	_	_	24	mod	_	_
-26	(	(	PUNCT	_	Shared=Yes	15	punct	_	SpaceAfter=No
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
 27	AI	AI	NOUN	_	Shared=Yes	15	conj:appos	_	_
-28	/	/	SYM	_	_	27	punct	_	_
-29	IDM	IDM	NOUN	_	_	27	mod	_	_
-30	ST-	ST-	ADJ	_	_	27	mod	_	SpaceAfter=No
-31	)	)	PUNCT	_	Shared=Yes	15	punct	_	SpaceAfter=No
-32	)	)	PUNCT	_	_	8	punct	_	_
+28	/	/	SYM	_	_	29	cc	_	_
+29	IDM	IDM	X	_	_	27	conj	_	_
+30	ST-	ST-	X	_	_	29	flat@name	_	SpaceAfter=No
+31	)	)	PUNCT	_	Shared=Yes	29	punct	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	15	punct	_	_
 33	devant	devoir	VERB	_	Tense=Pres|VerbForm=Part	4	mod	_	_
 34	bénéficier	bénéficier	VERB	_	VerbForm=Inf	33	comp:obj	_	Subject=SubjRaising
 35	d'	de	ADP	_	_	34	comp:obl	_	SpaceAfter=No
@@ -2524,8 +2524,8 @@
 12	en	en	ADP	_	_	11	mod	_	_
 13	moyenne	moyenne	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
 14	365	365	NUM	_	NumType=Card	17	det	_	_
-15	+/-	+/-	ADP	_	_	14	udep	_	_
-16	100	100	NUM	_	NumType=Card	15	comp:obj	_	_
+15	+/-	+/-	CCONJ	_	_	16	cc	_	_
+16	100	100	NUM	_	NumType=Card	14	comj	_	_
 17	secondes	seconde	NOUN	_	Gender=Fem|Number=Plur	11	comp:obj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -2881,8 +2881,8 @@
 37	moyenne	moyenne	NOUN	_	Gender=Fem|Number=Sing	36	comp:obj	_	_
 38	de	de	ADP	_	_	35	comp:pred	_	_
 39	366	366	NUM	_	NumType=Card	42	det	_	_
-40	+/-	+/-	ADP	_	_	39	udep	_	_
-41	89	89	NUM	_	NumType=Card	40	comp:obj	_	_
+40	+/-	+/-	CCONJ	_	_	41	cc	_	_
+41	89	89	NUM	_	NumType=Card	39	conj	_	_
 42	secondes	seconde	NOUN	_	Gender=Fem|Number=Plur	38	comp:obj	_	_
 43	sans	sans	ADP	_	_	35	mod	_	_
 44	ajustement	ajustement	NOUN	_	Gender=Masc|Number=Sing	43	comp:obj	_	_
@@ -2913,8 +2913,8 @@
 19	moyenne	moyenne	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
 20	de	de	ADP	_	_	17	comp:pred	_	_
 21	355	355	NUM	_	NumType=Card	24	det	_	_
-22	+/-	+/-	ADP	_	_	21	udep	_	_
-23	81	81	NUM	_	NumType=Card	22	comp:obj	_	_
+22	+/-	+/-	CCONJ	_	_	23	cc	_	_
+23	81	81	NUM	_	NumType=Card	21	conj	_	_
 24	secondes	seconde	NOUN	_	Gender=Fem|Number=Plur	20	comp:obj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	17	punct	_	_
 
@@ -4688,7 +4688,7 @@
 3	squelettiques	squelettique	ADJ	_	Number=Plur	2	goeswith	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5-6	du	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	2	conj	_	_
+5	de	de	ADP	_	_	1	udep	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	tissu	tissu	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 8	conjonctif	conjonctif	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_

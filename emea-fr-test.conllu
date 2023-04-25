@@ -3,7 +3,7 @@
 # text = EMEA / H/C/595
 1	EMEA	EMEA	PROPN	_	_	0	root	_	_
 2	/	/	SYM	_	_	1	punct	_	_
-3	H/C/595	H/C/595	NOUN	_	_	1	mod	_	_
+3	H/C/595	H/C/595	X	_	_	1	flat@name	_	_
 
 # sent_id = emea-fr-test_00002
 # text = RAPPORT EUROPEEN PUBLIC D'EVALUATION (EPAR)
@@ -396,7 +396,7 @@
 52	D	D	NOUN	_	_	51	mod	_	_
 53	(	(	PUNCT	_	_	49	punct	_	SpaceAfter=No
 54	50 000	50 000	DET	_	_	57	det	_	_
-55	à	à	ADP	_	_	54	dep	_	_
+55	à	à	ADP	_	_	54	comp:obl	_	_
 56	125 000	125 000	DET	_	_	55	comp:obj	_	_
 57	unités	unité	NOUN	_	Gender=Fem|Number=Plur	49	conj:appos	_	_
 58	internationales	international	ADJ	_	Gender=Fem|Number=Plur	57	mod	_	SpaceAfter=No
@@ -1801,12 +1801,12 @@
 20	Aclasta	Aclasta	PROPN	_	_	19	comp:obj	_	_
 21	à	à	ADP	_	_	5	comp:obl	_	_
 22	Novartis	Novartis	PROPN	_	_	21	comp:obj	_	_
-23	Europharm	Europharm	PROPN	_	_	22	flat:name	_	_
-24	Limited	Limited	X	_	Foreign=Yes	22	dep	_	SpaceAfter=No
+23	Europharm	Europharm	PROPN	_	_	22	flat@name	_	_
+24	Limited	Limited	X	_	Foreign=Yes	2	flat@name	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	27	punct	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	15	15	NUM	_	NumType=Card	4	mod	_	_
-28	avril	avril	NOUN	_	Gender=Masc|Number=Sing	27	udep	_	_
+28	avril	avril	NOUN	_	Gender=Masc|Number=Sing	27	mod	_	_
 29	2005	2005	NUM	_	NumType=Card	28	mod	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -2090,7 +2090,7 @@
 4	ostéoporose	ostéoporose	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
 5	post-ménopausique	post-ménopausique	ADJ	_	Gender=Fem|Number=Sing	4	mod	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
-7	ostéoporose	ostéoporose	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
+7	ostéoporose	ostéoporose	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
 8	masculine	masculin	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	_
 9	chez	chez	ADP	_	_	1	udep	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
@@ -2102,7 +2102,7 @@
 16	fractures	fracture	NOUN	_	Gender=Fem|Number=Plur	15	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
 18	notamment	notamment	ADV	_	_	19	mod	_	_
-19	chez	chez	ADP	_	_	1	udep	_	_
+19	chez	chez	ADP	_	_	9	conj	_	_
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
 21	patients	patient	NOUN	_	Gender=Masc|Number=Plur	19	comp:obj	_	_
 22	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	21	mod	_	_
@@ -2535,7 +2535,7 @@
 25	charge	charge	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
 26	de	de	ADP	_	_	23	udep	_	_
 27	50 000	50 000	DET	_	_	30	det	_	_
-28	à	à	ADP	_	_	27	dep	_	_
+28	à	à	ADP	_	_	27	comp:obl	_	_
 29	125 000	125 000	DET	_	_	28	comp:obj	_	_
 30	UI	UI	NOUN	_	_	26	comp:obj	_	_
 31	de	de	ADP	_	_	30	udep	_	_
@@ -4320,40 +4320,40 @@
 3	indésirables	indésirable	ADJ	_	Number=Plur	2	mod	_	_
 4	très	très	ADV	_	_	5	mod	_	_
 5	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	2	mod	_	_
-6	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	1/10	1/10	PRON	_	NumType=Card	5	parataxis:insert	_	SpaceAfter=No
-8	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	5	conj	_	_
-11	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	1/100	1/100	PRON	_	NumType=Card	10	parataxis:insert	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
-14	<	<	ADP	_	_	12	udep	_	_
+14	<	<	ADP	_	_	12	conj	_	_
 15	1/10	1/10	PRON	_	NumType=Card	14	comp:obj	_	SpaceAfter=No
-16	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
 18	peu	peu	ADV	_	_	19	mod	_	_
 19	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	10	conj	_	_
-20	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
 21	1/1000	1/1000	PRON	_	NumType=Card	19	parataxis:insert	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
-23	<	<	ADP	_	_	21	udep	_	_
+23	<	<	ADP	_	_	21	conj	_	_
 24	1/100	1/100	PRON	_	NumType=Card	23	comp:obj	_	SpaceAfter=No
-25	)	)	PUNCT	_	_	19	punct	_	_
+25	)	)	PUNCT	_	_	23	punct	_	_
 26	et	et	CCONJ	_	_	27	cc	_	_
 27	rares	rare	ADJ	_	Number=Plur	19	conj	_	_
-28	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
 29	1	1	PRON	_	_	27	parataxis:insert	_	SpaceAfter=No
 30	/	/	SYM	_	_	29	unk	_	InIdiom=Yes|SpaceAfter=No
 31	10	10	PRON	_	_	30	unk	_	InIdiom=Yes
 32	000	000	PRON	_	_	31	unk	_	InIdiom=Yes|SpaceAfter=No
 33	,	,	PUNCT	_	_	34	punct	_	_
-34	<	<	ADP	_	_	29	udep	_	_
+34	<	<	ADP	_	_	29	conj	_	_
 35	1	1	PRON	_	_	34	comp:obj	_	SpaceAfter=No
 36	/	/	SYM	_	_	35	unk	_	InIdiom=Yes|SpaceAfter=No
 37	1	1	PRON	_	_	36	unk	_	InIdiom=Yes
 38	000	000	PRON	_	_	37	unk	_	InIdiom=Yes|SpaceAfter=No
-39	)	)	PUNCT	_	_	27	punct	_	_
+39	)	)	PUNCT	_	_	34	punct	_	_
 40	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 41	présentés	présenter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	40	comp:aux@pass	_	_
 42	dans	dans	ADP	_	_	40	mod	_	_
@@ -5762,7 +5762,7 @@
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	1 000	1 000	DET	_	_	9	det	_	_
-7	à	à	ADP	_	_	6	dep	_	_
+7	à	à	ADP	_	_	6	mod	_	_
 8	1 500	1 500	DET	_	_	7	comp:obj	_	_
 9	mg	mg	NOUN	_	Gender=Masc	5	comp:obj	_	_
 10	de	de	ADP	_	_	9	udep	_	_
@@ -5770,7 +5770,7 @@
 12	élément	élément	NOUN	_	Gender=Masc|Number=Sing	11	mod	_	_
 13	et	et	CCONJ	_	_	17	cc	_	_
 14	400	400	NUM	_	NumType=Card	17	det	_	_
-15	à	à	ADP	_	_	14	dep	_	_
+15	à	à	ADP	_	_	14	mod	_	_
 16	1 200	1 200	DET	_	_	15	comp:obj	_	_
 17	UI	UI	NOUN	_	_	9	conj	_	_
 18	de	de	ADP	_	_	17	udep	_	_
@@ -6127,9 +6127,9 @@
 # sent_id = emea-fr-test_00230
 # text = (1) A l'exclusion des fractures des doigts, des orteils et des os de la face
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	1	1	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+2	1	1	NUM	_	NumType=Card	4	parataxis	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
-4	A	à	ADP	_	_	2	dep	_	_
+4	A	à	ADP	_	_	0	root	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	exclusion	exclusion	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 7-8	des	_	_	_	_	_	_	_	_
@@ -6502,7 +6502,7 @@
 49	sous-groupes	sous-groupe	NOUN	_	Number=Plur	47	comp:obj	_	_
 50	incluant	inclure	VERB	_	Tense=Pres|VerbForm=Part	49	mod	_	_
 51	517	517	NUM	_	NumType=Card	54	det	_	_
-52	à	à	ADP	_	_	51	dep	_	_
+52	à	à	ADP	_	_	51	mod	_	_
 53	1 246	1 246	DET	_	_	52	comp:obj	_	_
 54	patientes	patient	NOUN	_	Gender=Fem|Number=Plur	50	comp:obj	_	SpaceAfter=No
 55	.	.	PUNCT	_	_	35	punct	_	_
@@ -7061,9 +7061,9 @@
 17	en	en	ADP	_	_	16	udep	_	_
 18	vitamine	vitamine	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
 19	D	D	NOUN	_	_	18	mod	_	_
-20	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+20	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
 21	50 000	50 000	DET	_	_	24	det	_	_
-22	à	à	ADP	_	_	21	dep	_	_
+22	à	à	ADP	_	_	21	mod	_	_
 23	125 000	125 000	DET	_	_	22	comp:obj	_	_
 24	UI	UI	NOUN	_	_	14	conj:appos	_	_
 25	par	par	ADP	_	_	24	udep	_	_
@@ -7071,7 +7071,7 @@
 27	orale	oral	ADJ	_	Gender=Fem|Number=Sing	26	mod	_	_
 28	ou	ou	CCONJ	_	_	29	cc	_	_
 29	intra-musculaire	intra-musculaire	ADJ	_	Gender=Fem|Number=Sing	27	conj	_	SpaceAfter=No
-30	)	)	PUNCT	_	_	14	punct	_	_
+30	)	)	PUNCT	_	_	24	punct	_	_
 31	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
 32	donnée	donner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	31	comp:aux@pass	_	_
 33	à	à	ADP	_	_	32	comp:obl	_	_
@@ -7096,14 +7096,14 @@
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	1 000	1 000	DET	_	_	9	det	_	_
-7	à	à	ADP	_	_	6	dep	_	_
+7	à	à	ADP	_	_	6	mod	_	_
 8	1 500	1 500	DET	_	_	7	comp:obj	_	_
 9	mg	mg	NOUN	_	Gender=Masc	5	comp:obj	_	_
 10	de	de	ADP	_	_	9	udep	_	_
 11	calcium-élément	calcium-élément	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 12	et	et	CCONJ	_	_	16	cc	_	_
 13	800	800	NUM	_	NumType=Card	16	det	_	_
-14	à	à	ADP	_	_	13	dep	_	_
+14	à	à	ADP	_	_	13	mod	_	_
 15	1 200	1 200	DET	_	_	14	comp:obj	_	_
 16	UI	UI	NOUN	_	_	9	conj	_	_
 17	de	de	ADP	_	_	16	udep	_	_
@@ -9261,16 +9261,16 @@
 3	de	de	ADP	_	_	1	comp:obl	_	_
 4	boire	boire	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=SubjRaising
 5	suffisamment	suffisamment	ADV	_	_	4	mod	_	_
-6	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7-8	au	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	13	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=au_moins
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	unk	_	InIdiom=Yes
 9	moins	moins	ADV	_	_	8	unk	_	InIdiom=Yes
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-11	à	à	ADP	_	_	10	dep	_	_
+11	à	à	ADP	_	_	10	mod	_	_
 12	deux	deux	NUM	_	NumType=Card	11	comp:obj	_	_
 13	verres	verres	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	SpaceAfter=No
-14	)	)	PUNCT	_	_	4	punct	_	_
+14	)	)	PUNCT	_	_	7	punct	_	_
 15	avant	avant	ADP	_	_	1	mod	_	_
 16	et	et	CCONJ	_	_	17	cc	_	_
 17	après	après	ADP	_	_	15	conj	_	_
@@ -11522,7 +11522,7 @@
 18	charge	charge	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
 19	de	de	ADP	_	_	18	udep	_	_
 20	50 000	50 000	DET	_	_	23	det	_	_
-21	à	à	ADP	_	_	20	dep	_	_
+21	à	à	ADP	_	_	20	mod	_	_
 22	125 000	125 000	DET	_	_	21	comp:obj	_	_
 23	UI	UI	NOUN	_	_	19	comp:obj	_	_
 24	de	de	ADP	_	_	23	udep	_	_

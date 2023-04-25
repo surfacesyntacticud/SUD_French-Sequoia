@@ -1199,7 +1199,7 @@
 
 # sent_id = annodis.er_00040
 # text = Ce sont finalement les élèves de la classe de CM2 de Jacky Hedin qui sont venus mettre la main au sac poubelle, dans la bonne humeur, comme s'ils étaient là pour participer à un jeu de plein-air, laissant au passage le soin à leurs aînés d'en tirer une morale.
-1	Ce	ce	PRON	_	Number=Sing|Person=3	2	subj	_	_
+1	Ce	ce	PRON	_	Number=Sing|Person=3	2	subj@expl	_	_
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	finalement	finalement	ADV	_	_	2	mod	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
@@ -2451,9 +2451,9 @@
 8	Jo	Jo	PROPN	_	Gender=Masc|Number=Sing	10	subj	_	SpaceAfter=No
 9	"	"	PUNCT	_	_	8	punct	_	_
 10	élevait	élever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-11	jusqu'	jusque	ADP	_	_	14	mod	_	SpaceAfter=No
+11	jusqu'	jusque	ADP	_	_	14	det	_	SpaceAfter=No
 12	à	à	ADP	_	_	11	comp:obj	_	_
-13	120	120	NUM	_	NumType=Card	14	det	_	_
+13	120	120	NUM	_	NumType=Card	12	comp:obj	_	_
 14	pigeons	pigeon	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 15	voyageurs	voyageur	ADJ	_	Gender=Masc|Number=Plur	14	mod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	21	punct	_	_
@@ -3062,25 +3062,25 @@
 13	gravi	gravir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@tense	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	talus	talus	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	13	punct	_	_
-17	basculé	basculer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	unk	_	_
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	basculé	basculer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
 18	de	de	ADP	_	_	17	comp:obl	_	_
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
 20	autre	autre	ADJ	_	Number=Sing	21	mod	_	_
 21	côté	côté	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	13	punct	_	_
-23	traversé	traverser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	unk	_	_
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	traversé	traverser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	conj	_	_
 24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	champ	champ	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	SpaceAfter=No
-26	,	,	PUNCT	_	_	13	punct	_	_
-27	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	unk	_	_
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
 28	entré	entrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	comp:aux@tense	_	_
 29	dans	dans	ADP	_	_	28	comp:obl	_	_
 30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	secteur	secteur	NOUN	_	Gender=Masc|Number=Sing	29	comp:obj	_	_
 32	boisé	boisé	ADJ	_	Gender=Masc|Number=Sing	31	mod	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	34	punct	_	_
-34	pour	pour	ADP	_	_	12	mod	_	_
+34	pour	pour	ADP	_	_	27	mod	_	_
 35	finalement	finalement	ADV	_	_	36	mod	_	_
 36	plonger	plonger	VERB	_	VerbForm=Inf	34	comp:obj	_	Subject=Instantiated
 37	vers	vers	ADP	_	_	36	comp:obl	_	_
@@ -3560,8 +3560,8 @@
 4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	manifestation	manifestation	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	se	se	PRON	_	Person=3|Reflex=Yes	7	comp@expl	_	_
-7	verront	voir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
-8	offrir	offrir	VERB	_	VerbForm=Inf	7	comp:pred	_	Subject=Generic
+7	verront	voir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	offrir	offrir	VERB	_	VerbForm=Inf	7	comp:aux	_	Subject=Generic
 9	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
 10	lunettes	lunette	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	_
 11	de	de	ADP	_	_	10	udep	_	_
@@ -6665,8 +6665,8 @@
 27	pour	pour	ADP	_	_	26	udep	_	_
 28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	paroisse	paroisse	NOUN	_	Gender=Fem|Number=Sing	27	comp:obj	_	SpaceAfter=No
-30	,	,	PUNCT	_	_	16	punct	_	_
-31	apporter	apporter	VERB	_	VerbForm=Inf	16	parataxis	_	Subject=Instantiated
+30	,	,	PUNCT	_	_	31	punct	_	_
+31	apporter	apporter	VERB	_	VerbForm=Inf	24	conj	_	Subject=Instantiated
 32	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 33	petite	petit	ADJ	_	Gender=Fem|Number=Sing	34	mod	_	_
 34	contribution	contribution	NOUN	_	Gender=Fem|Number=Sing	31	comp:obj	_	_
@@ -6685,8 +6685,8 @@
 44	à	à	ADP	_	_	39	conj	_	_
 45	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	46	det	_	_
 46	dons	don	NOUN	_	Gender=Masc|Number=Plur	44	comp:obj	_	SpaceAfter=No
-47	,	,	PUNCT	_	_	16	punct	_	_
-48	accomplir	accomplir	VERB	_	VerbForm=Inf	16	parataxis	_	Subject=Instantiated
+47	,	,	PUNCT	_	_	48	punct	_	_
+48	accomplir	accomplir	VERB	_	VerbForm=Inf	31	conj	_	Subject=Instantiated
 49	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	51	det	_	_
 50	multiples	multiple	ADJ	_	Number=Plur	51	mod	_	_
 51	tâches	tâche	NOUN	_	Gender=Fem|Number=Plur	48	comp:obj	_	_
@@ -6698,8 +6698,8 @@
 56	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	57	det	_	_
 57	bâtiment	bâtiment	NOUN	_	Gender=Masc|Number=Sing	55	comp:obj	_	_
 58	paroissiaux	paroissial	ADJ	_	Gender=Masc|Number=Plur	57	mod	_	SpaceAfter=No
-59	,	,	PUNCT	_	_	16	punct	_	_
-60	contribuer	contribuer	VERB	_	VerbForm=Inf	16	parataxis	_	Subject=Instantiated
+59	,	,	PUNCT	_	_	60	punct	_	_
+60	contribuer	contribuer	VERB	_	VerbForm=Inf	48	conj	_	Subject=Instantiated
 61	à	à	ADP	_	_	60	comp:obl	_	_
 62	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	63	det	_	_
 63	convivialité	convivialité	NOUN	_	Gender=Fem|Number=Sing	61	comp:obj	_	_
@@ -6822,8 +6822,8 @@
 2	Nous	il	PRON	_	Number=Plur|Person=1	3	subj	_	_
 3	avions	avoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	bon	bon	ADJ	_	Gender=Masc|Number=Sing	5	mod	_	_
-5	espoir	espoir	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
-6	d'	de	ADP	_	_	3	comp:obl	_	SpaceAfter=No
+5	espoir	espoir	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj@lvc	_	_
+6	d'	de	ADP	_	_	5	comp:obl	_	SpaceAfter=No
 7	obtenir	obtenir	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
 8	d'	de	ADP	_	_	7	comp:obl	_	SpaceAfter=No
 9	elle	soi	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	_
@@ -6982,11 +6982,11 @@
 33	à	à	ADP	_	_	29	mod	_	_
 34	Baume	Baume	PROPN	_	_	33	comp:obj	_	_
 35	n'	ne	ADV	_	Polarity=Neg	36	mod	_	SpaceAfter=No
-36	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+36	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
 37	soudainement	soudainement	ADV	_	_	36	mod	_	_
 38	plus	plus	ADV	_	Polarity=Neg	36	mod	_	_
 39	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	comp:aux@tense	_	_
-40	signe	signe	NOUN	_	Gender=Masc|Number=Sing	39	comp:obj	_	_
+40	signe	signe	NOUN	_	Gender=Masc|Number=Sing	39	comp:obj@lvc	_	_
 41	de	de	ADP	_	_	40	udep	_	_
 42	vie	vie	NOUN	_	Gender=Fem|Number=Sing	41	comp:obj	_	SpaceAfter=No
 43	.	.	PUNCT	_	_	2	punct	_	_

@@ -1551,7 +1551,7 @@
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	devoir	devoir	NOUN	_	Gender=Masc|Number=Sing	26	comp:obj	_	SpaceAfter=No
 30	,	,	PUNCT	_	Shared=Yes	26	punct	_	_
-31	de	de	ADP	_	Shared=Yes	26	comp:obl	_	_
+31	de	de	ADP	_	Shared=Yes	29	udep	_	_
 32	présenter	présenter	VERB	_	VerbForm=Inf	31	comp:obj	_	Subject=SubjRaising
 33	ses	son	DET	_	Number=Plur|Poss=Yes	35	det	_	_
 34	meilleurs	meilleur	ADJ	_	Gender=Masc|Number=Plur	35	mod	_	_
@@ -6895,9 +6895,9 @@
 8	davantage	davantage	ADV	_	_	7	comp:obj	_	ExtPos=PRON
 9	de	de	ADP	_	_	8	comp:obl	_	_
 10	cohérence	cohérence	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
-11	et	et	CCONJ	_	_	13	cc	_	_
-12	de	de	ADP	_	_	13	det	_	_
-13	transparence	transparence	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
+11	et	et	CCONJ	_	_	12	cc	_	_
+12	de	de	ADP	_	_	9	conj	_	_
+13	transparence	transparence	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
 14	dans	dans	ADP	_	_	7	mod	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	manière	manière	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
@@ -9006,7 +9006,7 @@
 17	Commissaire	commissaire	NOUN	_	Gender=Masc|Number=Sing	15	mod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	15	punct	_	_
 19	chers	cher	ADJ	_	Gender=Masc|Number=Plur	20	mod	_	_
-20	collègues	collègue	NOUN	_	Number=Plur	23	mod	_	SpaceAfter=No
+20	collègues	collègue	NOUN	_	Number=Plur	15	conj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	20	punct	_	_
 22	nous	il	PRON	_	Number=Plur|Person=1	23	subj	_	_
 23	voici	voici	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	_
@@ -14188,12 +14188,12 @@
 # sent_id = Europar.550_00437
 # text = Non, Madame van der Laan, vous devriez savoir qu'aux termes du règlement, cette demande aurait dû être introduite selon les formes et dans les temps, ce qui n'a pas été le cas.
 1	Non	non	ADV	_	Polarity=Neg	9	mod	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
 3	Madame	monsieur	NOUN	_	Gender=Fem|Number=Sing	9	vocative	_	_
-4	van	van	X	_	Foreign=Yes	3	dep	_	_
-5	der	der	X	_	Foreign=Yes	3	dep	_	_
-6	Laan	Laan	PROPN	_	_	3	mod	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	9	punct	_	_
+4	van	van	X	_	Foreign=Yes	3	mod	_	_
+5	der	der	X	_	Foreign=Yes	4	flat@name	_	_
+6	Laan	Laan	PROPN	_	_	5	flat@name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
 8	vous	il	PRON	_	Number=Plur|Person=2	9	subj	_	_
 9	devriez	devoir	VERB	_	Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	savoir	savoir	VERB	_	VerbForm=Inf	9	comp:obj	_	Subject=SubjRaising
@@ -15016,7 +15016,7 @@
 1	Voilà	voilà	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	_
 2	qui	qui	PRON	_	PronType=Rel	1	comp:obj	_	_
 3	n'	ne	ADV	_	Polarity=Neg	4	mod	_	SpaceAfter=No
-4	augure	augurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	dep	_	_
+4	augure	augurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	_
 5	rien	rien	PRON	_	Number=Sing|Polarity=Neg	4	comp:obj	_	_
 6	de	de	ADP	_	_	5	udep	_	_
 7	bon	bon	ADJ	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
