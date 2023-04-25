@@ -21371,7 +21371,7 @@
 10	de	de	ADP	_	_	8	udep	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 12	110	110	NUM	_	NumType=Card	13	mod	_	_
-13	mètres	mètre	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	InIdiom=Yes
+13	mètres	mètre	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 14	haies	haie	NOUN	_	Gender=Fem|Number=Plur	13	mod	_	_
 15	en	en	ADP	_	_	8	udep	_	_
 16	1976	1976	NUM	_	NumType=Card	15	comp:obj	_	_
