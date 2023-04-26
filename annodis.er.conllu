@@ -9489,7 +9489,7 @@
 7	effet	effet	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	notamment	notamment	ADV	_	_	3	mod	_	_
-10	auprès	auprès	ADP	_	_	3	mod	_	ExtPos=ADV
+10	auprès	auprès	ADV	_	_	3	mod	_	_
 11-12	des	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	10	comp:obl	_	_
 12	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -9959,7 +9959,7 @@
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	s'	se	PRON	_	Person=3|Reflex=Yes	12	comp@expl	_	SpaceAfter=No
 12	informaient	informer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
-13	auprès	auprès	ADP	_	_	12	mod	_	ExtPos=ADV
+13	auprès	auprès	ADV	_	_	12	mod	_	_
 14-15	des	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	13	comp:obl	_	_
 15	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
