@@ -1531,8 +1531,8 @@
 15	pétrir	pétrir	VERB	_	VerbForm=Inf	10	conj	_	Subject=Instantiated
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	pâte	pâte	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
-18	afin	afin	ADP	_	_	15	mod	_	ExtPos=ADV
-19	de	de	ADP	_	_	18	comp:obl	_	_
+18	afin	afin	ADV	_	_	15	mod	_	_
+19	de	de	ADP	_	_	18	comp:obj	_	_
 20	confectionner	confectionner	VERB	_	VerbForm=Inf	19	comp:obj	_	Subject=Instantiated
 21	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	23	det	_	_
 22	délicieux	délicieux	ADJ	_	Gender=Masc	23	mod	_	_
@@ -6265,8 +6265,8 @@
 12	police	police	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
 13	se	se	PRON	_	Person=3|Reflex=Yes	14	comp@pass	_	_
 14	poursuit	poursuivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-15	afin	afin	ADP	_	_	14	mod	_	ExtPos=ADV
-16	de	de	ADP	_	_	15	comp:obl	_	_
+15	afin	afin	ADV	_	_	14	mod	_	_
+16	de	de	ADP	_	_	15	comp:obj	_	_
 17	savoir	savoir	VERB	_	VerbForm=Inf	16	comp:obj	_	Subject=Generic
 18	qui	qui	PRON	_	PronType=Int	19	subj	_	_
 19	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
@@ -7983,8 +7983,8 @@
 17	maximum	maximum	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
 18	de	de	ADP	_	_	17	udep	_	_
 19	points	point	NOUN	_	Gender=Masc|Number=Plur	18	comp:obj	_	_
-20	afin	afin	ADP	_	_	4	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=afin_que
-21	qu'	que	SCONJ	_	_	20	unk	_	InIdiom=Yes|SpaceAfter=No
+20	afin	afin	ADV	_	_	4	mod	_	_
+21	qu'	que	SCONJ	_	_	20	comp:obj	_	SpaceAfter=No
 22	à	à	ADP	_	_	31	mod	_	_
 23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
 24	issue	issue	NOUN	_	Gender=Fem|Number=Sing	22	comp:obj	_	_
@@ -7995,7 +7995,7 @@
 28	jours	jour	NOUN	_	Gender=Masc|Number=Plur	25	comp:obj	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	22	punct	_	_
 30	chacun	chacun	PRON	_	Gender=Masc	31	subj	_	_
-31	puisse	pouvoir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
+31	puisse	pouvoir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	comp:obj	_	_
 32	remporter	remporter	VERB	_	VerbForm=Inf	31	comp:obj	_	Subject=SubjRaising
 33	soit	soit	CCONJ	_	_	35	cc	_	_
 34	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	35	det	_	SpaceAfter=No
@@ -8531,8 +8531,8 @@
 4	ouvert	ouvrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	enquête	enquête	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
-7	afin	afin	ADP	_	_	3	mod	_	ExtPos=ADV
-8	de	de	ADP	_	_	7	comp:obl	_	_
+7	afin	afin	ADV	_	_	3	mod	_	_
+8	de	de	ADP	_	_	7	comp:obj	_	_
 9	déterminer	déterminer	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=Instantiated
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	causes	cause	NOUN	_	Gender=Fem|Number=Plur	9	comp:obj	_	_
@@ -10575,8 +10575,8 @@
 27	de	de	ADP	_	_	21	udep	_	_
 28	Maxéville	Maxéville	PROPN	_	_	27	comp:obj	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	_
-30	afin	afin	ADP	_	_	6	mod	_	ExtPos=ADV
-31	de	de	ADP	_	_	30	comp:obl	_	_
+30	afin	afin	ADV	_	_	6	mod	_	_
+31	de	de	ADP	_	_	30	comp:obj	_	_
 32	revenir	revenir	VERB	_	VerbForm=Inf	31	comp:obj	_	Subject=Instantiated
 33	sur	sur	ADP	_	_	32	comp:obl	_	_
 34	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	35	det	_	_
@@ -11002,8 +11002,8 @@
 
 # sent_id = annodis.er_00423
 # text = Afin de raconter l'histoire qu'ils ont découverte, les petits et moyens de la classe de Chantal Hetzel, directrice, ont rédigé ce texte eux-mêmes.
-1	Afin	afin	ADP	_	_	24	mod	_	ExtPos=ADV
-2	de	de	ADP	_	_	1	comp:obl	_	_
+1	Afin	afin	ADV	_	_	24	mod	_	_
+2	de	de	ADP	_	_	1	comp:obj	_	_
 3	raconter	raconter	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=Instantiated
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	histoire	histoire	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_

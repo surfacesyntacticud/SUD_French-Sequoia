@@ -5829,8 +5829,8 @@
 23	résidaient	résider	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	mod@relcl	_	_
 24	pas	pas	ADV	_	Polarity=Neg	23	mod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
-26	afin	afin	ADP	_	_	5	mod	_	ExtPos=ADV
-27	d'	de	ADP	_	_	26	comp:obl	_	SpaceAfter=No
+26	afin	afin	ADV	_	_	5	mod	_	_
+27	d'	de	ADP	_	_	26	comp:obj	_	SpaceAfter=No
 28	assurer	assurer	VERB	_	VerbForm=Inf	27	comp:obj	_	Subject=Generic
 29	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	victoire	victoire	NOUN	_	Gender=Fem|Number=Sing	28	comp:obj	_	_
@@ -6374,8 +6374,8 @@
 36	familiaux	familial	ADJ	_	Gender=Masc|Number=Plur	34	conj	_	_
 37	ou	ou	CCONJ	_	_	38	cc	_	_
 38	professionnels	professionnel	ADJ	_	Gender=Masc|Number=Plur	36	conj	_	_
-39	afin	afin	ADP	_	_	30	mod	_	ExtPos=ADV
-40	d'	de	ADP	_	_	39	comp:obl	_	SpaceAfter=No
+39	afin	afin	ADV	_	_	30	mod	_	_
+40	d'	de	ADP	_	_	39	comp:obj	_	SpaceAfter=No
 41	inscrire	inscrire	VERB	_	VerbForm=Inf	40	comp:obj	_	Subject=Instantiated
 42	indûment	indûment	ADV	_	_	41	mod	_	_
 43	sur	sur	ADP	_	_	41	comp:obl	_	_
@@ -12957,8 +12957,8 @@
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	secret	secret	NOUN	_	Gender=Masc|Number=Sing	31	comp:obj	_	_
 34	défense	défense	NOUN	_	Gender=Fem|Number=Sing	33	mod	_	_
-35	afin	afin	ADP	_	_	16	mod	_	ExtPos=ADV
-36	d'	de	ADP	_	_	35	comp:obl	_	SpaceAfter=No
+35	afin	afin	ADV	_	_	16	mod	_	_
+36	d'	de	ADP	_	_	35	comp:obj	_	SpaceAfter=No
 37	obtenir	obtenir	VERB	_	VerbForm=Inf	36	comp:obj	_	Subject=Instantiated
 38	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 39	déclassification	déclassification	NOUN	_	Gender=Fem|Number=Sing	37	comp:obj	_	_
@@ -25882,9 +25882,9 @@
 20	franc	franc	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
 21	CFA	CFA	PROPN	_	_	20	mod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
-23	afin	afin	ADP	_	_	3	mod	_	SpaceAfter=No
+23	afin	afin	ADV	_	_	3	mod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
-25	théoriquement	théoriquement	ADV	_	_	23	mod	_	SpaceAfter=No
+25	théoriquement	théoriquement	ADV	_	_	27	mod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	_
 27	de	de	ADP	_	_	23	comp:obj	_	_
 28	décourager	décourager	VERB	_	VerbForm=Inf	27	comp:obj	_	Subject=Generic

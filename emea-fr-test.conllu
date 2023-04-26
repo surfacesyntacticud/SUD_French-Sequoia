@@ -1746,8 +1746,8 @@
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	patients	patient	NOUN	_	Gender=Masc|Number=Plur	6	comp:obj	_	_
-9	afin	afin	ADP	_	_	4	mod	_	ExtPos=ADV
-10	de	de	ADP	_	_	9	comp:obl	_	_
+9	afin	afin	ADV	_	_	4	mod	_	_
+10	de	de	ADP	_	_	9	comp:obj	_	_
 11	préciser	préciser	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=Generic
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	effets	effet	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	_
@@ -9287,8 +9287,8 @@
 28	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	26	comp:obj	_	_
 29	:	:	PUNCT	_	_	30	punct	_	_
 30	ceci	ceci	PRON	_	Number=Sing|PronType=Dem	1	mod	_	_
-31	afin	afin	ADP	_	_	30	udep	_	ExtPos=ADV
-32	d'	de	ADP	_	_	31	comp:obl	_	SpaceAfter=No
+31	afin	afin	ADV	_	_	30	udep	_	_
+32	d'	de	ADP	_	_	31	comp:obj	_	SpaceAfter=No
 33	éviter	éviter	VERB	_	VerbForm=Inf	32	comp:obj	_	Subject=Generic
 34	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	déshydratation	déshydratation	NOUN	_	Gender=Fem|Number=Sing	33	comp:obj	_	SpaceAfter=No
@@ -9701,8 +9701,8 @@
 6	attentivement	attentivement	ADV	_	_	5	mod	_	_
 7	son	son	DET	_	Number=Sing|Poss=Yes	8	det	_	_
 8	conseil	conseil	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
-9	afin	afin	ADP	_	_	5	mod	_	ExtPos=ADV
-10	de	de	ADP	_	_	9	comp:obl	_	_
+9	afin	afin	ADV	_	_	5	mod	_	_
+10	de	de	ADP	_	_	9	comp:obj	_	_
 11	prévenir	prévenir	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=Generic
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 13	trop	trop	ADV	_	_	14	mod	_	_
@@ -10055,8 +10055,8 @@
 17	ou	ou	CCONJ	_	_	19	cc	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	paracétamol	paracétamol	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	_
-20	afin	afin	ADP	_	_	7	mod	_	ExtPos=ADV
-21	de	de	ADP	_	_	20	comp:obl	_	_
+20	afin	afin	ADV	_	_	7	mod	_	_
+21	de	de	ADP	_	_	20	comp:obj	_	_
 22	réduire	réduire	VERB	_	VerbForm=Inf	21	comp:obj	_	Subject=Generic
 23	ces	ce	DET	_	Number=Plur|PronType=Dem	24	det	_	_
 24	effets	effet	NOUN	_	Gender=Masc|Number=Plur	22	comp:obj	_	_
@@ -10780,8 +10780,8 @@
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	produit	produit	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	immédiatement	immédiatement	ADV	_	_	10	mod	_	_
-14	afin	afin	ADP	_	_	10	mod	_	ExtPos=ADV
-15	d'	de	ADP	_	_	14	comp:obl	_	SpaceAfter=No
+14	afin	afin	ADV	_	_	10	mod	_	_
+15	d'	de	ADP	_	_	14	comp:obj	_	SpaceAfter=No
 16	éviter	éviter	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=Generic
 17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	contamination	contamination	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
@@ -11751,8 +11751,8 @@
 11	être	être	AUX	_	VerbForm=Inf	10	comp:obj	_	Subject=SubjRaising
 12	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	comp:aux@pass	_	_
 13	immédiatement	immédiatement	ADV	_	_	11	mod	_	_
-14	afin	afin	ADP	_	_	11	mod	_	ExtPos=ADV
-15	d'	de	ADP	_	_	14	comp:obl	_	SpaceAfter=No
+14	afin	afin	ADV	_	_	11	mod	_	_
+15	d'	de	ADP	_	_	14	comp:obj	_	SpaceAfter=No
 16	éviter	éviter	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=Generic
 17	toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	contamination	contamination	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
