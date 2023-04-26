@@ -5512,7 +5512,7 @@
 11	de	de	ADP	_	_	10	udep	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	valeurs	valeur	NOUN	_	Gender=Fem|Number=Plur	11	comp:obj	_	_
-14	pré-ménopausiques	pré-ménopausique	ADJ	_	Gender=Masc|Number=Plur	13	mod	_	SpaceAfter=No
+14	pré-ménopausiques	pré-ménopausique	ADJ	_	Gender=Fem|Number=Plur	13	mod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = emea-fr-test_00205
@@ -6347,7 +6347,7 @@
 # text = L'analyse histomorphométrique a révélé une réduction de 63% du remodellage osseux.
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	analyse	analyse	NOUN	_	Gender=Fem|Number=Sing	4	subj	_	_
-3	histomorphométrique	histomorphométrique	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
+3	histomorphométrique	histomorphométrique	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	révélé	révéler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -11667,7 +11667,7 @@
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	procédures	procédure	NOUN	_	Gender=Fem|Number=Plur	6	comp:obj	_	_
 9	médicales	médical	ADJ	_	Gender=Fem|Number=Plur	8	mod	_	_
-10	standards	standard	ADJ	_	Gender=Masc|Number=Plur	8	mod	_	SpaceAfter=No
+10	standards	standard	ADJ	_	Gender=Fem|Number=Plur	8	mod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-test_00538

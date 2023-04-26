@@ -1907,7 +1907,7 @@
 32	de	de	ADP	_	_	29	udep	_	_
 33	plus	plus	ADV	_	_	32	comp:obj	_	_
 34	de	de	ADP	_	_	33	comp:obj	_	_
-35	80	80	PRON	_	NumType=Card	36	det	_	_
+35	80	80	NUM	_	NumType=Card	36	det	_	_
 36	pour	pour	ADP	_	_	34	comp:obj	_	_
 37	cent	cent	PRON	_	NumType=Card	36	comp:obj	_	_
 38	dans	dans	ADP	_	_	26	mod	_	_

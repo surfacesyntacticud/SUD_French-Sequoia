@@ -7471,8 +7471,8 @@
 39	à	à	ADP	_	_	38	mod	_	_
 40	leur	son	DET	_	Number=Sing|Poss=Yes	41	det	_	_
 41	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	39	comp:obj	_	_
-42	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
-43	plus	plus	ADV	_	_	38	comp:obj	_	ExtPos=PRON
+42	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	InIdiom=Yes
+43	plus	plus	ADV	_	_	38	comp:obj	_	ExtPos=PRON|Idiom=Yes
 44	d'	de	ADP	_	_	43	comp:obl	_	SpaceAfter=No
 45	informations	information	NOUN	_	Gender=Fem|Number=Plur	44	comp:obj	_	_
 46	possibles	possible	ADJ	_	Number=Plur	45	mod	_	_
