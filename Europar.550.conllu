@@ -2492,7 +2492,7 @@
 16	amendements	amendement	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	_
 17	que	que	PRON	_	PronType=Rel	20	comp:obj	_	_
 18	j'	il	PRON	_	Number=Sing|Person=1	19	subj	_	SpaceAfter=No
-19	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	16	mod@relcl	_	_
+19	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	16	mod@relcl	_	_
 20	présentés	présenter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	comp:aux@tense	_	_
 21	concernant	concerner	VERB	_	Tense=Pres|VerbForm=Part	16	mod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
@@ -11540,7 +11540,7 @@
 5	face	face	NOUN	_	Gender=Fem|Number=Sing	2	mod	_	ExtPos=ADV
 6-7	aux	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	5	comp:obl	_	_
-7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	opinions	opinion	NOUN	_	Gender=Fem|Number=Plur	6	comp:obj	_	_
 9	de	de	ADP	_	_	13	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=de_plus_en_plus
 10	plus	plus	ADV	_	_	9	unk	_	InIdiom=Yes
@@ -12707,7 +12707,7 @@
 5	suite	suite	NOUN	_	Gender=Fem|Number=Sing	33	mod	_	ExtPos=ADV
 6-7	aux	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	5	comp:obl	_	_
-7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	fusions	fusion	NOUN	_	Gender=Fem|Number=Plur	6	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10-11	aux	_	_	_	_	_	_	_	_
@@ -13929,7 +13929,7 @@
 13	lors	lors	ADV	_	_	5	mod	_	ExtPos=ADV
 14-15	des	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	13	comp:obl	_	_
-15	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 16	lancements	lancement	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	_
 17	de	de	ADP	_	_	16	udep	_	_
 18	partenariats	partenariat	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	_
@@ -16794,7 +16794,7 @@
 30	auprès	auprès	ADV	_	_	21	mod	_	_
 31-32	des	_	_	_	_	_	_	_	_
 31	de	de	ADP	_	_	30	comp:obl	_	_
-32	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	33	det	_	_
 33	gouvernements	gouvernement	NOUN	_	Gender=Masc|Number=Plur	31	comp:obj	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	35	punct	_	_
 35-36	des	_	_	_	_	_	_	_	_

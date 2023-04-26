@@ -1388,7 +1388,7 @@
 27	lors	lors	ADV	_	_	24	mod	_	ExtPos=ADV
 28-29	des	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	27	comp:obl	_	_
-29	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	_
 30	perfusions	perfusion	NOUN	_	Gender=Fem|Number=Plur	28	comp:obj	_	_
 31	réitérées	réitérer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	30	mod	_	SpaceAfter=No
 32	.	.	PUNCT	_	Shared=Yes	24	punct	_	_
@@ -9968,7 +9968,7 @@
 27	lors	lors	ADV	_	_	24	mod	_	ExtPos=ADV
 28-29	des	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	27	comp:obl	_	_
-29	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	_
 30	perfusions	perfusion	NOUN	_	Gender=Fem|Number=Plur	28	comp:obj	_	_
 31	suivantes	suivant	ADJ	_	Gender=Fem|Number=Plur	30	mod	_	SpaceAfter=No
 32	.	.	PUNCT	_	Shared=Yes	24	punct	_	_
@@ -10004,7 +10004,7 @@
 26	lors	lors	ADV	_	_	25	mod	_	ExtPos=ADV
 27-28	des	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	_	26	comp:obl	_	_
-28	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	_
 29	trois	trois	NUM	_	NumType=Card	31	mod	_	_
 30	premiers	premier	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	31	mod	_	_
 31	jours	jour	NOUN	_	Gender=Masc|Number=Plur	27	comp:obj	_	_

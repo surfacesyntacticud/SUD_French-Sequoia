@@ -6678,7 +6678,7 @@
 39	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	31	mod	_	ExtPos=ADV
 40-41	aux	_	_	_	_	_	_	_	_
 40	à	à	ADP	_	_	39	comp:obl	_	_
-41	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+41	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	42	det	_	_
 42	manifestations	manifestation	NOUN	_	Gender=Fem|Number=Plur	40	comp:obj	_	_
 43	et	et	CCONJ	_	_	44	cc	_	_
 44-45	aux	_	_	_	_	_	_	_	_
@@ -9492,7 +9492,7 @@
 10	auprès	auprès	ADV	_	_	3	mod	_	_
 11-12	des	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	10	comp:obl	_	_
-12	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 13	grandes	grand	ADJ	_	Gender=Fem|Number=Plur	14	mod	_	_
 14	formations	formation	NOUN	_	Gender=Fem|Number=Plur	11	comp:obj	_	_
 15	susceptibles	susceptible	ADJ	_	Number=Plur	14	mod	_	_
@@ -9962,7 +9962,7 @@
 13	auprès	auprès	ADV	_	_	12	mod	_	_
 14-15	des	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	13	comp:obl	_	_
-15	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 16	hôpitaux	hôpital	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	_
 17	ou	ou	CCONJ	_	_	18	cc	_	_
 18	de	de	ADP	_	_	13	conj	_	_
@@ -10868,7 +10868,7 @@
 15	lors	lors	ADV	_	_	9	mod	_	ExtPos=ADV
 16-17	des	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	15	comp:obl	_	_
-17	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
 18	portes	porte	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	_
 19	ouvertes	ouvert	ADJ	_	Gender=Fem|Number=Plur	18	mod	_	_
 20	organisées	organiser	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	18	mod	_	_

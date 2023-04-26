@@ -2273,7 +2273,7 @@
 # sent_id = frwiki_50.1000_00088
 # text = J'étais horrifiée.
 1	J'	il	PRON	_	Number=Sing|Person=1	2	subj@pass	_	SpaceAfter=No
-2	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	horrifiée	horrifier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	comp:aux@pass	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -3625,7 +3625,7 @@
 1	Quant	quant	ADV	_	_	8	mod	_	ExtPos=ADV
 2-3	aux	_	_	_	_	_	_	_	_
 2	à	à	ADP	_	_	1	comp:obl	_	_
-3	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	diamants	diamant	NOUN	_	Gender=Masc|Number=Plur	2	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	leur	son	DET	_	Number=Sing|Poss=Yes	7	det	_	_
@@ -6662,7 +6662,7 @@
 9	lors	lors	ADV	_	_	6	udep	_	ExtPos=ADV
 10-11	des	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	9	comp:obl	_	_
-11	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	élections	élection	NOUN	_	Gender=Fem|Number=Plur	10	comp:obj	_	_
 13	municipales	municipal	ADJ	_	Gender=Fem|Number=Plur	12	mod	_	_
 14	de	de	ADP	_	_	12	udep	_	_
@@ -8019,7 +8019,7 @@
 48	suite	suite	NOUN	_	Gender=Fem|Number=Sing	37	udep	_	ExtPos=ADV
 49-50	aux	_	_	_	_	_	_	_	_
 49	à	à	ADP	_	_	48	comp:obl	_	_
-50	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+50	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	52	det	_	_
 51	malheureuses	malheureux	ADJ	_	Gender=Fem|Number=Plur	52	mod	_	_
 52	affaires	affaire	NOUN	_	Gender=Fem|Number=Plur	49	comp:obj	_	_
 53-54	des	_	_	_	_	_	_	_	_
@@ -8549,7 +8549,7 @@
 48	lors	lors	ADV	_	Shared=Yes	46	mod	_	ExtPos=ADV
 49-50	des	_	_	_	_	_	_	_	_
 49	de	de	ADP	_	_	48	comp:obl	_	_
-50	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+50	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	51	det	_	_
 51	élections	élection	NOUN	_	Gender=Fem|Number=Plur	49	comp:obj	_	_
 52	de	de	ADP	_	_	51	udep	_	_
 53	1906	1906	NUM	_	NumType=Card	52	comp:obj	_	_
@@ -16536,7 +16536,7 @@
 106	auprès	auprès	ADV	_	_	101	mod	_	_
 107-108	des	_	_	_	_	_	_	_	_
 107	de	de	ADP	_	_	106	comp:obl	_	_
-108	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	109	det	_	_
+108	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	109	det	_	_
 109	entreprises	entreprise	NOUN	_	Gender=Fem|Number=Plur	107	comp:obj	_	_
 110	fournisseurs	fournisseur	ADJ	_	Gender=Masc|Number=Plur	109	mod	_	_
 111	de	de	ADP	_	_	109	udep	_	_
@@ -16934,7 +16934,7 @@
 41	auprès	auprès	ADV	_	_	36	mod	_	_
 42-43	des	_	_	_	_	_	_	_	_
 42	de	de	ADP	_	_	41	comp:obl	_	_
-43	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+43	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	44	det	_	_
 44	entreprises	entreprise	NOUN	_	Gender=Fem|Number=Plur	42	comp:obj	_	_
 45-46	du	_	_	_	_	_	_	_	_
 45	de	de	ADP	_	_	44	udep	_	_
@@ -17141,7 +17141,7 @@
 8	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	4	mod	_	ExtPos=ADV
 9-10	aux	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	8	comp:obl	_	_
-10	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 11	fausses	faux	ADJ	_	Gender=Fem|Number=Plur	12	mod	_	_
 12	factures	facture	NOUN	_	Gender=Fem|Number=Plur	9	comp:obj	_	_
 13	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -17548,7 +17548,7 @@
 47	auprès	auprès	ADV	_	_	44	mod	_	_
 48-49	des	_	_	_	_	_	_	_	_
 48	de	de	ADP	_	_	47	comp:obl	_	_
-49	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+49	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	50	det	_	_
 50	HLM	HLM	NOUN	_	_	48	comp:obj	_	_
 51-52	des	_	_	_	_	_	_	_	_
 51	de	de	ADP	_	_	50	udep	_	_
@@ -22188,7 +22188,7 @@
 1	suite	suite	NOUN	_	Gender=Fem|Number=Sing	17	mod	_	ExtPos=ADV
 2-3	aux	_	_	_	_	_	_	_	_
 2	à	à	ADP	_	_	1	comp:obl	_	_
-3	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	publications	publication	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	_
 5-6	des	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	4	udep	_	_
@@ -22404,7 +22404,7 @@
 12	lors	lors	ADV	_	_	8	mod	_	ExtPos=ADV
 13-14	des	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	12	comp:obl	_	_
-14	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 15	saisons	saison	NOUN	_	Gender=Fem|Number=Plur	13	comp:obj	_	_
 16	2004-2005	2004-2005	NOUN	_	NumType=Card	15	mod	_	_
 17	et	et	CCONJ	_	_	18	cc	_	_
