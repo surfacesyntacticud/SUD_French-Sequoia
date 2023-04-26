@@ -1920,8 +1920,8 @@
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	myocarde	myocarde	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 19	sans	sans	ADP	_	_	15	udep	_	_
-20	sus	sus-décalage	NOUN	_	Typo=Yes	19	comp:obj	_	_
-21	décalage	_	X	_	Gender=Masc|Number=Sing	20	goeswith	_	_
+20	sus	sus-décalage	NOUN	_	Typo=Yes	19	comp:obj	_	CorrectForm=sus-décalage
+21	décalage	_	X	_	_	20	goeswith	_	_
 22-23	du	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	20	udep	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
@@ -4685,7 +4685,7 @@
 # text = Troubles musculo squelettiques, du tissu conjonctif et des os
 1	Troubles	trouble	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	musculo	musculo-squelettique	ADJ	_	Typo=Yes	1	mod	_	_
-3	squelettiques	_	X	_	Number=Plur	2	goeswith	_	SpaceAfter=No
+3	squelettiques	_	X	_	_	2	goeswith	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	1	udep	_	_
