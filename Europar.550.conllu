@@ -109,7 +109,7 @@
 27	commerce	commerce	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	_
 28	mondial	mondial	ADJ	_	Gender=Masc|Number=Sing	27	mod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	32	punct	_	_
-30	en	en	ADP	_	_	32	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=en_particulier
+30	en	en	ADP	_	_	32	mod	_	ExtPos=ADV|Idiom=Yes
 31	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	30	unk	_	InIdiom=Yes
 32	face	face	NOUN	_	Gender=Fem|Number=Sing	12	mod	_	ExtPos=ADV
 33	à	à	ADP	_	_	32	comp:obl	_	_
@@ -153,7 +153,7 @@
 70	et	et	CCONJ	_	_	86	cc	_	_
 71	où	où	PRON	_	PronType=Rel	86	mod	_	SpaceAfter=No
 72	,	,	PUNCT	_	_	73	punct	_	_
-73	bien	bien	ADV	_	_	86	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=bien_sûr
+73	bien	bien	ADV	_	_	86	mod	_	ExtPos=ADV|Idiom=Yes
 74	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	73	unk	_	InIdiom=Yes|SpaceAfter=No
 75	,	,	PUNCT	_	_	73	punct	_	_
 76	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	77	det	_	_
@@ -307,7 +307,7 @@
 26	commenceront	commencer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	comp:obj	_	_
 27	à	à	ADP	_	_	26	comp:obj	_	_
 28	consommer	consommer	VERB	_	VerbForm=Inf	27	comp:obj	_	Subject=SubjRaising
-29	de	de	ADP	_	_	28	comp:obj	_	ExtPos=PRON|Idiom=Yes|mwelemma=de_plus_en_plus
+29	de	de	ADP	_	_	28	comp:obj	_	ExtPos=PRON|Idiom=Yes
 30	plus	plus	ADV	_	_	29	unk	_	InIdiom=Yes
 31	en	en	ADP	_	_	30	unk	_	InIdiom=Yes
 32	plus	plus	ADV	_	_	31	unk	_	InIdiom=Yes
@@ -395,7 +395,7 @@
 2	présent	présent	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	_
 3	document	document	NOUN	_	Gender=Masc|Number=Sing	4	subj	_	_
 4	répond	répondre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	tout	tout	ADV	_	_	4	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=tout_à_fait
+5	tout	tout	ADV	_	_	4	mod	_	ExtPos=ADV|Idiom=Yes
 6	à	à	ADP	_	_	5	unk	_	InIdiom=Yes
 7	fait	fait	NOUN	_	Gender=Masc|Number=Sing	6	unk	_	InIdiom=Yes
 8	à	à	ADP	_	_	4	comp:obl	_	_
@@ -811,7 +811,7 @@
 17	qui	qui	PRON	_	PronType=Rel	19	subj	_	_
 18	me	le	PRON	_	Number=Sing|Person=1	19	comp:obl	_	_
 19	paraît	paraître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	mod@relcl	_	_
-20	tout	tout	ADV	_	_	23	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=tout_à_fait
+20	tout	tout	ADV	_	_	23	mod	_	ExtPos=ADV|Idiom=Yes
 21	à	à	ADP	_	_	20	unk	_	InIdiom=Yes
 22	fait	fait	NOUN	_	Gender=Masc|Number=Sing	21	unk	_	InIdiom=Yes
 23	essentielle	essentiel	ADJ	_	Gender=Fem|Number=Sing	19	comp:pred	_	_
@@ -899,7 +899,7 @@
 
 # sent_id = Europar.550_00028
 # text = Même si de nombreuses évolutions nous avaient permis d'en douter, nous avions considéré malgré tout que tel était le cas et, récemment encore, on faisait allusion, du bout des lèvres, il est vrai, au principe de subsidiarité.
-1	Même	même	ADV	_	_	14	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=même_si
+1	Même	même	ADV	_	_	14	mod	_	ExtPos=SCONJ|Idiom=Yes
 2	si	si	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
 4	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur	5	mod	_	_
@@ -939,7 +939,7 @@
 36	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	37	det	_	_
 37	lèvres	lèvre	NOUN	_	Gender=Fem|Number=Plur	35	comp:obj	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	39	punct	_	_
-39	il	il	PRON	_	Number=Sing|Person=3	29	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=il_est_vrai
+39	il	il	PRON	_	Number=Sing|Person=3	29	mod	_	ExtPos=ADV|Idiom=Yes
 40	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	unk	_	InIdiom=Yes
 41	vrai	vrai	ADJ	_	Gender=Masc|Number=Sing	40	unk	_	InIdiom=Yes|SpaceAfter=No
 42	,	,	PUNCT	_	_	39	punct	_	_
@@ -1102,7 +1102,7 @@
 3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	finalement	finalement	ADV	_	_	3	mod	_	_
 5	abstenue	abstenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
-6	en	en	ADP	_	_	3	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=en_ce_qui_concerne
+6	en	en	ADP	_	_	3	mod	_	ExtPos=ADP|Idiom=Yes
 7	ce	ce	PRON	_	_	6	unk	_	InIdiom=Yes
 8	qui	qui	PRON	_	_	7	unk	_	InIdiom=Yes
 9	concerne	concerner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	unk	_	InIdiom=Yes
@@ -1155,7 +1155,7 @@
 33	dû	devoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	comp:aux@tense	_	_
 34	m'	se	PRON	_	Number=Sing|Person=1|Reflex=Yes	35	comp@expl	_	SpaceAfter=No
 35	abstenir	abstenir	VERB	_	VerbForm=Inf	33	comp:obj	_	Subject=SubjRaising
-36	parce	parce	SCONJ	_	_	32	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=parce_que
+36	parce	parce	SCONJ	_	_	32	mod	_	ExtPos=SCONJ|Idiom=Yes
 37	que	que	SCONJ	_	_	36	unk	_	InIdiom=Yes
 38	cela	cela	PRON	_	Number=Sing|PronType=Dem	39	subj	_	_
 39	suivait	suivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	comp:obj	_	_
@@ -1333,7 +1333,7 @@
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	xénophobie	xénophobie	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	23	punct	_	_
-15	ainsi	ainsi	ADV	_	_	23	cc	_	ExtPos=CCONJ|Idiom=Yes|mwelemma=ainsi_que
+15	ainsi	ainsi	ADV	_	_	23	cc	_	ExtPos=CCONJ|Idiom=Yes
 16	que	que	SCONJ	_	_	15	unk	_	InIdiom=Yes
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
 18	partis	parti	NOUN	_	Gender=Masc|Number=Plur	23	subj	_	_
@@ -1525,7 +1525,7 @@
 2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
 3	Autriche	Autriche	PROPN	_	Gender=Fem|Number=Sing	4	subj	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	tout	tout	ADV	_	_	4	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=tout_à_fait
+5	tout	tout	ADV	_	_	4	mod	_	ExtPos=ADV|Idiom=Yes
 6	à	à	ADP	_	_	5	unk	_	InIdiom=Yes
 7	fait	fait	NOUN	_	Gender=Masc|Number=Sing	6	unk	_	InIdiom=Yes
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -1823,7 +1823,7 @@
 15	aberrante	aberrant	ADJ	_	Gender=Fem|Number=Sing	13	comp:pred	_	_
 16	et	et	CCONJ	_	_	22	cc	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
-18	de	de	ADP	_	_	22	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=de_plus
+18	de	de	ADP	_	_	22	mod	_	ExtPos=ADV|Idiom=Yes
 19	plus	plus	ADV	_	_	18	unk	_	InIdiom=Yes|SpaceAfter=No
 20	,	,	PUNCT	_	_	18	punct	_	_
 21	on	il	PRON	_	Number=Sing|Person=3	22	subj	_	_
@@ -1979,7 +1979,7 @@
 
 # sent_id = Europar.550_00057
 # text = En tant que remarque isolée, je voudrais donc remercier Mme Cederschiöld du fait qu'elle ait clarifié par exemple la notion desdites copies temporaires dans son avis.
-1	En	en	ADP	_	_	8	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=en_tant_que
+1	En	en	ADP	_	_	8	mod	_	ExtPos=ADP|Idiom=Yes
 2	tant	tant	ADV	_	_	1	unk	_	InIdiom=Yes
 3	que	que	SCONJ	_	_	2	unk	_	InIdiom=Yes
 4	remarque	remarque	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
@@ -2060,7 +2060,7 @@
 20	on	il	PRON	_	Number=Sing|Person=3	22	subj	_	_
 21	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3	22	comp:obj	_	_
 22	constate	constater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	comp:obj	_	_
-23	tout	tout	ADV	_	_	26	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=tout_à_fait
+23	tout	tout	ADV	_	_	26	mod	_	ExtPos=ADV|Idiom=Yes
 24	à	à	ADP	_	_	23	unk	_	InIdiom=Yes
 25	fait	fait	NOUN	_	Gender=Masc|Number=Sing	24	unk	_	InIdiom=Yes
 26	justement	justement	ADV	_	_	22	mod	_	_
@@ -2125,11 +2125,11 @@
 10	de	de	ADP	_	_	9	udep	_	_
 11	pouvoir	pouvoir	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=Generic
 12	transmettre	transmettre	VERB	_	VerbForm=Inf	11	comp:obj	_	Subject=Generic
-13	de	de	ADP	_	_	15	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+13	de	de	ADP	_	_	15	det	_	ExtPos=DET|Idiom=Yes
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	unk	_	InIdiom=Yes|SpaceAfter=No
 15	art	art	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 16	et	et	CCONJ	_	_	19	cc	_	_
-17	de	de	ADP	_	_	19	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+17	de	de	ADP	_	_	19	det	_	ExtPos=DET|Idiom=Yes
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	unk	_	InIdiom=Yes|SpaceAfter=No
 19	information	information	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
@@ -2171,7 +2171,7 @@
 13	et	et	CCONJ	_	_	14	cc	_	_
 14	de	de	ADP	_	_	11	conj	_	_
 15	diffuser	diffuser	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=Generic
-16	de	de	ADP	_	_	18	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+16	de	de	ADP	_	_	18	det	_	ExtPos=DET|Idiom=Yes
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	unk	_	InIdiom=Yes
 18	culture	culture	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 19	selon	selon	ADP	_	_	15	mod	_	_
@@ -2378,7 +2378,7 @@
 # text = Il faut de la flexibilité.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	2	subj@expl	_	_
 2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	de	de	ADP	_	_	5	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+3	de	de	ADP	_	_	5	det	_	ExtPos=DET|Idiom=Yes
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	unk	_	InIdiom=Yes
 5	flexibilité	flexibilité	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
@@ -2641,7 +2641,7 @@
 # text = Il faut de la flexibilité et la charge administrative doit être réduite, c'est là une priorité.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	2	subj@expl	_	_
 2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	de	de	ADP	_	_	5	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+3	de	de	ADP	_	_	5	det	_	ExtPos=DET|Idiom=Yes
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	unk	_	InIdiom=Yes
 5	flexibilité	flexibilité	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
 6	et	et	CCONJ	_	_	10	cc	_	_
@@ -2664,7 +2664,7 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	2	subj@expl	_	_
 2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	aussi	aussi	ADV	_	_	2	mod	_	_
-4	de	de	ADP	_	_	6	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+4	de	de	ADP	_	_	6	det	_	ExtPos=DET|Idiom=Yes
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	unk	_	InIdiom=Yes
 6	flexibilité	flexibilité	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
 7	pour	pour	ADP	_	_	2	mod	_	_
@@ -2679,7 +2679,7 @@
 
 # sent_id = Europar.550_00083
 # text = Bien que je pense que certains aspects du rapport pourraient être mieux traités d'une autre manière, je crois dans l'ensemble que ce rapport offre une approche flexible et censée et qu'il faut l'appuyer.
-1	Bien	bien	ADV	_	_	21	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=bien_que
+1	Bien	bien	ADV	_	_	21	mod	_	ExtPos=SCONJ|Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	je	il	PRON	_	Number=Sing|Person=1	4	subj	_	_
 4	pense	penser	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
@@ -2873,7 +2873,7 @@
 7	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
 9	pertinentes	pertinent	ADJ	_	Gender=Fem|Number=Plur	7	comp:pred	_	_
-10	non	non	ADV	_	Polarity=Neg	7	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=non_plus
+10	non	non	ADV	_	Polarity=Neg	7	mod	_	ExtPos=ADV|Idiom=Yes
 11	plus	plus	ADV	_	Polarity=Neg	10	unk	_	InIdiom=Yes|SpaceAfter=No
 12	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -3107,7 +3107,7 @@
 14	j'	il	PRON	_	Number=Sing|Person=1	15	subj	_	SpaceAfter=No
 15	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
 16	cherché	chercher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	comp:aux@tense	_	_
-17	en	en	ADP	_	_	16	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=en_vain
+17	en	en	ADP	_	_	16	mod	_	ExtPos=ADV|Idiom=Yes
 18	vain	vain	ADJ	_	Gender=Masc|Number=Sing	17	unk	_	InIdiom=Yes
 19	trois	trois	NUM	_	NumType=Card	20	det	_	_
 20	étudiants	étudiant	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	_
@@ -3220,9 +3220,9 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	été	être	AUX	_	Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	condamnée	condamner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	_
-5	parce	parce	SCONJ	_	_	2	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=parce_que
+5	parce	parce	SCONJ	_	_	2	mod	_	ExtPos=SCONJ|Idiom=Yes
 6	qu'	que	SCONJ	_	_	5	unk	_	InIdiom=Yes|SpaceAfter=No
-7	en	en	ADP	_	_	13	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=en_tant_que
+7	en	en	ADP	_	_	13	mod	_	ExtPos=ADP|Idiom=Yes
 8	tant	tant	ADV	_	_	7	unk	_	InIdiom=Yes
 9	que	que	SCONJ	_	_	8	unk	_	InIdiom=Yes
 10	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	SpaceAfter=No
@@ -3286,7 +3286,7 @@
 10	s'	se	PRON	_	Person=3|Reflex=Yes	11	comp@expl	_	SpaceAfter=No
 11	intéresse	intéresser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 12	pas	pas	ADV	_	Polarity=Neg	13	mod	_	_
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=le_moins_du_monde
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	mod	_	ExtPos=ADV|Idiom=Yes
 14	moins	moins	ADV	_	_	13	unk	_	InIdiom=Yes
 15-16	du	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	14	unk	_	InIdiom=Yes
@@ -3337,7 +3337,7 @@
 2	sanctions	sanction	NOUN	_	Gender=Fem|Number=Plur	4	subj@pass	_	_
 3	se	se	PRON	_	Person=3|Reflex=Yes	4	comp@pass	_	_
 4	desserrent	desserrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	petit	petit	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=petit-à-petit
+5	petit	petit	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	ExtPos=ADV|Idiom=Yes
 6	à	à	ADP	_	_	5	unk	_	InIdiom=Yes
 7	petit	petit	ADJ	_	Gender=Masc|Number=Sing	6	unk	_	InIdiom=Yes|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
@@ -3393,7 +3393,7 @@
 2	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ici	ici	ADV	_	_	2	mod	_	_
 4	entièrement	entièrement	ADV	_	_	5	mod	_	_
-5	d'	de	ADP	_	_	2	comp:pred	_	ExtPos=ADJ|Idiom=Yes|mwelemma=d'accord|SpaceAfter=No
+5	d'	de	ADP	_	_	2	comp:pred	_	ExtPos=ADJ|Idiom=Yes|SpaceAfter=No
 6	accord	accord	NOUN	_	Gender=Masc|Number=Sing	5	unk	_	InIdiom=Yes
 7	avec	avec	ADP	_	_	5	comp:obl	_	_
 8	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
@@ -3457,7 +3457,7 @@
 
 # sent_id = Europar.550_00120
 # text = C'est pourquoi je crois également que nous devons exiger que ceux que nous avons secourus se comportent réellement, eux aussi, correctement.
-1	C'	ce	PRON	_	Number=Sing|Person=3	5	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=c'est_pourquoi|SpaceAfter=No
+1	C'	ce	PRON	_	Number=Sing|Person=3	5	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	unk	_	InIdiom=Yes
 3	pourquoi	pourquoi	ADV	_	_	2	unk	_	InIdiom=Yes
 4	je	il	PRON	_	Number=Sing|Person=1	5	subj	_	_
@@ -3554,7 +3554,7 @@
 29	Serbes	serbe	NOUN	_	Number=Plur	26	conj@emb	_	SpaceAfter=No
 30	,	,	PUNCT	_	Shared=Yes	29	punct	_	_
 31	et	et	CCONJ	_	_	32	cc	_	_
-32	qui	qui	PRON	_	_	26	conj	_	ExtPos=PRON|Idiom=Yes|mwelemma=qui_que_ce_soit
+32	qui	qui	PRON	_	_	26	conj	_	ExtPos=PRON|Idiom=Yes
 33	que	que	SCONJ	_	_	32	unk	_	InIdiom=Yes
 34	ce	ce	PRON	_	Number=Sing|Person=3	33	unk	_	InIdiom=Yes
 35	soit	être	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	unk	_	InIdiom=Yes
@@ -3578,7 +3578,7 @@
 6	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
 7	être	être	AUX	_	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
 8	punis	punir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	comp:aux@pass	_	_
-9	parce	parce	SCONJ	_	_	7	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=parce_que
+9	parce	parce	SCONJ	_	_	7	mod	_	ExtPos=SCONJ|Idiom=Yes
 10	qu'	que	SCONJ	_	_	9	unk	_	InIdiom=Yes|SpaceAfter=No
 11	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3	12	subj	_	_
 12	viennent	venir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
@@ -3593,7 +3593,7 @@
 
 # sent_id = Europar.550_00126
 # text = C'est pourquoi j'attends de tout le monde, Albanais et Serbes, qu'ils laissent les troupes de la KFOR en paix.
-1	C'	ce	PRON	_	Number=Sing|Person=3	5	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=c'est_pourquoi|SpaceAfter=No
+1	C'	ce	PRON	_	Number=Sing|Person=3	5	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	unk	_	InIdiom=Yes
 3	pourquoi	pourquoi	ADV	_	_	2	unk	_	InIdiom=Yes
 4	j'	il	PRON	_	Number=Sing|Person=1	5	subj	_	SpaceAfter=No
@@ -3922,7 +3922,7 @@
 21	avec	avec	ADP	_	_	20	mod	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
 23	Russes	russe	NOUN	_	Number=Plur	21	comp:obj	_	_
-24	comme	comme	ADP	_	_	20	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=comme_si_de_rien_n'était
+24	comme	comme	ADP	_	_	20	mod	_	ExtPos=ADV|Idiom=Yes
 25	si	si	SCONJ	_	_	24	unk	_	InIdiom=Yes
 26	de	de	ADP	_	_	25	unk	_	InIdiom=Yes
 27	rien	rien	PRON	_	Number=Sing|Polarity=Neg	26	unk	_	InIdiom=Yes
@@ -4113,7 +4113,7 @@
 # text = Mais, pour ce faire, il faut tenir compte du fait qu'il existe une corrélation entre le rendement issu de l'activité de pêche et l'augmentation de l'effort de pêche.
 1	Mais	mais	CCONJ	_	_	8	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	pour	pour	ADP	_	_	8	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=pour_ce_faire
+3	pour	pour	ADP	_	_	8	mod	_	ExtPos=ADV|Idiom=Yes
 4	ce	ce	PRON	_	_	3	unk	_	InIdiom=Yes
 5	faire	faire	VERB	_	VerbForm=Inf	4	unk	_	InIdiom=Yes|SpaceAfter=No|Subject=Generic
 6	,	,	PUNCT	_	_	3	punct	_	_
@@ -4206,7 +4206,7 @@
 
 # sent_id = Europar.550_00147
 # text = D'où l'importance des propositions que nous présentons dans cet objectif.
-1	D'	de	ADP	_	_	0	root	_	ExtPos=ADP|Idiom=Yes|mwelemma=d'où|SpaceAfter=No
+1	D'	de	ADP	_	_	0	root	_	ExtPos=ADP|Idiom=Yes|SpaceAfter=No
 2	où	où	PRON	_	_	1	unk	_	InIdiom=Yes
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	importance	importance	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
@@ -4449,7 +4449,7 @@
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 5	mêmes	même	ADJ	_	Number=Plur	6	mod	_	_
 6	garanties	garantie	NOUN	_	Gender=Fem|Number=Plur	3	comp:obj	_	_
-7	en	en	ADP	_	_	3	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=en_ce_qui_concerne
+7	en	en	ADP	_	_	3	mod	_	ExtPos=ADP|Idiom=Yes
 8	ce	ce	PRON	_	_	7	unk	_	InIdiom=Yes
 9	qui	qui	PRON	_	_	8	unk	_	InIdiom=Yes
 10	concerne	concerner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	unk	_	InIdiom=Yes
@@ -4478,7 +4478,7 @@
 31	semaine	semaine	NOUN	_	Gender=Fem|Number=Sing	22	mod	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	34	punct	_	_
 33	et	et	CCONJ	_	_	34	cc	_	_
-34	en	en	ADP	_	_	7	conj	_	ExtPos=ADP|Idiom=Yes|mwelemma=en_ce_qui_concerne
+34	en	en	ADP	_	_	7	conj	_	ExtPos=ADP|Idiom=Yes
 35	ce	ce	PRON	_	_	34	unk	_	InIdiom=Yes
 36	qui	qui	PRON	_	_	35	unk	_	InIdiom=Yes
 37	concerne	concerner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	unk	_	InIdiom=Yes
@@ -4574,10 +4574,10 @@
 6	deux	deux	NUM	_	NumType=Card	7	det	_	_
 7	raisons	raison	NOUN	_	Gender=Fem|Number=Plur	5	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
-9	tout	tout	ADV	_	_	12	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=tout_d'abord
+9	tout	tout	ADV	_	_	12	mod	_	ExtPos=ADV|Idiom=Yes
 10	d'	de	ADP	_	_	9	unk	_	InIdiom=Yes|SpaceAfter=No
 11	abord	abord	ADV	_	_	10	unk	_	InIdiom=Yes
-12	parce	parce	SCONJ	_	_	4	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=parce_que
+12	parce	parce	SCONJ	_	_	4	mod	_	ExtPos=SCONJ|Idiom=Yes
 13	que	que	SCONJ	_	_	12	unk	_	InIdiom=Yes
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Commission	commission	NOUN	_	Gender=Fem|Number=Sing	16	subj	_	_
@@ -4614,7 +4614,7 @@
 45	-	-	PUNCT	_	Shared=Yes	30	punct	_	SpaceAfter=No
 46	,	,	PUNCT	_	_	48	punct	_	_
 47	ensuite	ensuite	ADV	_	_	48	mod	_	_
-48	parce	parce	SCONJ	_	_	4	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=parce_que
+48	parce	parce	SCONJ	_	_	4	mod	_	ExtPos=SCONJ|Idiom=Yes
 49	qu'	que	SCONJ	_	_	48	unk	_	InIdiom=Yes|SpaceAfter=No
 50	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	51	subj	_	_
 51	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	comp:obj	_	_
@@ -4627,7 +4627,7 @@
 
 # sent_id = Europar.550_00158
 # text = De plus, je suis très satisfait de la réponse de M. Lamy -il ne pouvait en être autrement étant donné que M. Lamy connaît bien ces sujets- de décentraliser la campagne d'information.
-1	De	de	ADP	_	_	5	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=de_plus
+1	De	de	ADP	_	_	5	mod	_	ExtPos=ADV|Idiom=Yes
 2	plus	plus	ADV	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	je	il	PRON	_	Number=Sing|Person=1	5	subj	_	_
@@ -4647,7 +4647,7 @@
 18	en	en	PRON	_	Person=3	19	comp@expl	_	_
 19	être	être	VERB	_	VerbForm=Inf	17	comp:obj	_	Subject=Generic
 20	autrement	autrement	ADV	_	_	19	mod	_	_
-21	étant	être	VERB	_	Tense=Pres|VerbForm=Part	17	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=étant_donné
+21	étant	être	VERB	_	Tense=Pres|VerbForm=Part	17	mod	_	ExtPos=ADP|Idiom=Yes
 22	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	unk	_	InIdiom=Yes
 23	que	que	SCONJ	_	_	21	comp:obj	_	_
 24	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	26	subj	_	_
@@ -4677,7 +4677,7 @@
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	objectif	objectif	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	important	important	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	_
-11	parce	parce	SCONJ	_	_	6	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=parce_que
+11	parce	parce	SCONJ	_	_	6	mod	_	ExtPos=SCONJ|Idiom=Yes
 12	que	que	SCONJ	_	_	11	unk	_	InIdiom=Yes
 13	si	si	SCONJ	_	_	22	mod	_	_
 14	nous	il	PRON	_	Number=Plur|Person=1	15	subj	_	_
@@ -4710,7 +4710,7 @@
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	campagne	campagne	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	dès	dès	ADP	_	_	6	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=dès_lors
+7	dès	dès	ADP	_	_	6	mod	_	ExtPos=ADV|Idiom=Yes
 8	lors	lors	ADV	_	_	7	unk	_	InIdiom=Yes
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	mission	mission	NOUN	_	Gender=Fem|Number=Sing	6	comp:pred	_	_
@@ -4782,7 +4782,7 @@
 12	,	,	PUNCT	_	_	9	punct	_	_
 13	je	il	PRON	_	Number=Sing|Person=1	14	subj	_	_
 14	voudrais	vouloir	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-15	tout	tout	ADV	_	_	14	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=tout_d'abord
+15	tout	tout	ADV	_	_	14	mod	_	ExtPos=ADV|Idiom=Yes
 16	d'	de	ADP	_	_	15	unk	_	InIdiom=Yes|SpaceAfter=No
 17	abord	abord	ADV	_	_	16	unk	_	InIdiom=Yes
 18	remercier	remercier	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising
@@ -4868,7 +4868,7 @@
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	ciment	ciment	NOUN	_	Gender=Masc|Number=Sing	29	comp:obj	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	33	punct	_	_
-33	bien	bien	ADV	_	_	28	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=bien_entendu
+33	bien	bien	ADV	_	_	28	mod	_	ExtPos=ADV|Idiom=Yes
 34	entendu	entendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	unk	_	InIdiom=Yes|SpaceAfter=No
 35	,	,	PUNCT	_	_	38	punct	_	_
 36	mais	mais	CCONJ	_	_	41	cc	_	_
@@ -4914,7 +4914,7 @@
 4	nous	il	PRON	_	Number=Plur|Person=1	5	subj	_	_
 5	devrions	devoir	VERB	_	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
 6	accorder	accorder	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=SubjRaising
-7	de	de	ADP	_	_	9	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+7	de	de	ADP	_	_	9	det	_	ExtPos=DET|Idiom=Yes
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	unk	_	InIdiom=Yes|SpaceAfter=No
 9	importance	importance	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 10-11	aux	_	_	_	_	_	_	_	_
@@ -4984,7 +4984,7 @@
 7	d'	de	ADP	_	_	6	udep	_	SpaceAfter=No
 8	amendement	amendement	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 9	-	-	PUNCT	_	_	24	punct	_	SpaceAfter=No
-10	quand	quand	ADV	_	_	24	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=quand_bien_même
+10	quand	quand	ADV	_	_	24	mod	_	ExtPos=SCONJ|Idiom=Yes
 11	bien	bien	ADV	_	_	10	unk	_	InIdiom=Yes
 12	même	même	ADV	_	_	11	unk	_	InIdiom=Yes
 13	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3	14	subj	_	_
@@ -5100,7 +5100,7 @@
 8	n'	ne	ADV	_	Polarity=Neg	9	mod	_	SpaceAfter=No
 9	atteindrons	atteindre	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
 10	pas	pas	ADV	_	Polarity=Neg	9	mod	_	_
-11	non	non	ADV	_	Polarity=Neg	9	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=non_plus
+11	non	non	ADV	_	Polarity=Neg	9	mod	_	ExtPos=ADV|Idiom=Yes
 12	plus	plus	ADV	_	Polarity=Neg	11	unk	_	InIdiom=Yes
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 14	bon	bon	ADJ	_	Gender=Masc|Number=Sing	15	mod	_	_
@@ -5128,7 +5128,7 @@
 13	amendement	amendement	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 14	qui	qui	PRON	_	PronType=Rel	15	subj@pass	_	_
 15	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	_
-16	à	à	ADP	_	_	15	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=à_nouveau
+16	à	à	ADP	_	_	15	mod	_	ExtPos=ADV|Idiom=Yes
 17	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	16	unk	_	InIdiom=Yes
 18	été	être	AUX	_	Tense=Past|VerbForm=Part	15	comp:aux@tense	_	_
 19	introduites	introduire	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	18	comp:aux@pass	_	_
@@ -5246,13 +5246,13 @@
 
 # sent_id = Europar.550_00176
 # text = C'est pourquoi nous devrions être un peu plus offensif sur ce point.
-1	C'	ce	PRON	_	Number=Sing|Person=3	5	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=c'est_pourquoi|SpaceAfter=No
+1	C'	ce	PRON	_	Number=Sing|Person=3	5	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	unk	_	InIdiom=Yes
 3	pourquoi	pourquoi	ADV	_	_	2	unk	_	InIdiom=Yes
 4	nous	il	PRON	_	Number=Plur|Person=1	5	subj	_	_
 5	devrions	devoir	VERB	_	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	être	être	AUX	_	VerbForm=Inf	5	comp:obj	_	Subject=SubjRaising
-7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=un_peu
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	mod	_	ExtPos=ADV|Idiom=Yes
 8	peu	peu	ADV	_	_	7	unk	_	InIdiom=Yes
 9	plus	plus	ADV	_	_	10	mod	_	_
 10	offensif	offensif	ADJ	_	Gender=Masc|Number=Sing	6	comp:pred	_	_
@@ -5443,7 +5443,7 @@
 18	de	de	ADP	_	_	17	udep	_	_
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
 20	homme	homme	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
-21	en	en	ADP	_	_	17	udep	_	ExtPos=ADP|Idiom=Yes|mwelemma=en_tant_que
+21	en	en	ADP	_	_	17	udep	_	ExtPos=ADP|Idiom=Yes
 22	tant	tant	ADV	_	_	21	unk	_	InIdiom=Yes
 23	qu'	que	SCONJ	_	_	22	unk	_	InIdiom=Yes|SpaceAfter=No
 24	élément	élément	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_
@@ -5608,7 +5608,7 @@
 
 # sent_id = Europar.550_00185
 # text = C'est pourquoi nous pensons qu'il est utile d'insérer dans cette résolution la demande à l'adresse des États membres de favoriser l'annulation de la dette des pays du tiers-monde.
-1	C'	ce	PRON	_	Number=Sing|Person=3	5	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=c'est_pourquoi|SpaceAfter=No
+1	C'	ce	PRON	_	Number=Sing|Person=3	5	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	unk	_	InIdiom=Yes
 3	pourquoi	pourquoi	ADV	_	_	2	unk	_	InIdiom=Yes
 4	nous	il	PRON	_	Number=Plur|Person=1	5	subj	_	_
@@ -5694,7 +5694,7 @@
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	5	subj@expl	_	_
 5	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	en	en	ADP	_	_	5	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=en_outre
+6	en	en	ADP	_	_	5	mod	_	ExtPos=ADV|Idiom=Yes
 7	outre	outre	ADP	_	_	6	unk	_	InIdiom=Yes
 8	envisager	envisager	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=Generic
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
@@ -5739,7 +5739,7 @@
 23	avec	avec	ADP	_	_	22	udep	_	_
 24	leur	son	DET	_	Number=Sing|Poss=Yes	25	det	_	_
 25	conscience	conscience	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
-26	parce	parce	SCONJ	_	_	20	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=parce_que
+26	parce	parce	SCONJ	_	_	20	mod	_	ExtPos=SCONJ|Idiom=Yes
 27	qu'	que	SCONJ	_	_	26	unk	_	InIdiom=Yes|SpaceAfter=No
 28	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3	30	subj	_	_
 29	se	se	PRON	_	Person=3|Reflex=Yes	31	comp@expl	_	_
@@ -5884,7 +5884,7 @@
 41	Assemblée	assemblée	NOUN	_	Gender=Fem|Number=Sing	43	subj	_	_
 42	se	se	PRON	_	Person=3|Reflex=Yes	43	comp@expl	_	_
 43	penchera	pencher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	33	mod@relcl	_	_
-44	sous	sous	ADP	_	_	43	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=sous_peu
+44	sous	sous	ADP	_	_	43	mod	_	ExtPos=ADV|Idiom=Yes
 45	peu	peu	ADV	_	_	44	unk	_	InIdiom=Yes|SpaceAfter=No
 46	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -5944,7 +5944,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	important	important	ADJ	_	Gender=Masc|Number=Sing	2	comp:pred	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
-5	non	non	ADV	_	Polarity=Neg	7	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=non_seulement
+5	non	non	ADV	_	Polarity=Neg	7	mod	_	ExtPos=ADV|Idiom=Yes
 6	seulement	seulement	ADV	_	_	5	unk	_	InIdiom=Yes
 7	sur	sur	ADP	_	_	2	mod	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -5953,7 +5953,7 @@
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	mais	mais	CCONJ	_	_	14	cc	_	_
 13	aussi	aussi	ADV	_	_	14	mod	_	_
-14	parce	parce	SCONJ	_	_	7	conj	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=parce_que
+14	parce	parce	SCONJ	_	_	7	conj	_	ExtPos=SCONJ|Idiom=Yes
 15	que	que	SCONJ	_	_	14	unk	_	InIdiom=Yes
 16	cela	cela	PRON	_	Number=Sing|PronType=Dem	17	subj	_	_
 17	réaffirme	réaffirmer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
@@ -5963,7 +5963,7 @@
 20	à	à	ADP	_	_	19	udep	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	souvenir	souvenir	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
-23	en	en	ADP	_	_	19	udep	_	ExtPos=ADP|Idiom=Yes|mwelemma=en_tant_que
+23	en	en	ADP	_	_	19	udep	_	ExtPos=ADP|Idiom=Yes
 24	tant	tant	ADV	_	_	23	unk	_	InIdiom=Yes
 25	que	que	SCONJ	_	_	24	unk	_	InIdiom=Yes
 26	droit	droit	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	_
@@ -6231,11 +6231,11 @@
 # text = Nous avons dès lors décidé, même si on ne nous avait pas demandé d'élaborer de nouvelle proposition, de fournir un travail supplémentaire pour clarifier les options politiques qui sont sur la table et de présenter une nouvelle proposition au Conseil.
 1	Nous	il	PRON	_	Number=Plur|Person=1	2	subj	_	_
 2	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	dès	dès	ADP	_	_	2	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=dès_lors
+3	dès	dès	ADP	_	_	2	mod	_	ExtPos=ADV|Idiom=Yes
 4	lors	lors	ADV	_	_	3	unk	_	InIdiom=Yes
 5	décidé	décider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	même	même	ADV	_	_	5	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=même_si
+7	même	même	ADV	_	_	5	mod	_	ExtPos=SCONJ|Idiom=Yes
 8	si	si	SCONJ	_	_	7	unk	_	InIdiom=Yes
 9	on	il	PRON	_	Number=Sing|Person=3	12	subj	_	_
 10	ne	ne	ADV	_	Polarity=Neg	14	mod	_	_
@@ -6293,7 +6293,7 @@
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Parlement	parlement	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	19	punct	_	_
-16	à	à	ADP	_	_	19	cc	_	ExtPos=CCONJ|Idiom=Yes|mwelemma=à_savoir
+16	à	à	ADP	_	_	19	cc	_	ExtPos=CCONJ|Idiom=Yes
 17	savoir	savoir	VERB	_	VerbForm=Inf	16	unk	_	InIdiom=Yes|Subject=Generic
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 19	effacement	effacement	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
@@ -6329,7 +6329,7 @@
 12	de	de	ADP	_	_	11	udep	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Parlement	parlement	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
-15	en	en	ADP	_	_	7	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=en_ce_qui_concerne
+15	en	en	ADP	_	_	7	mod	_	ExtPos=ADP|Idiom=Yes
 16	ce	ce	PRON	_	_	15	unk	_	InIdiom=Yes
 17	qui	qui	PRON	_	_	16	unk	_	InIdiom=Yes
 18	concerne	concerner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	unk	_	InIdiom=Yes
@@ -6447,7 +6447,7 @@
 21	criminels	criminel	NOUN	_	Gender=Masc|Number=Plur	19	comp:obj	_	_
 22	tout	tout	ADV	_	_	23	mod	_	_
 23	bonnement	bonnement	ADV	_	_	24	mod	_	_
-24	parce	parce	SCONJ	_	_	12	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=parce_que
+24	parce	parce	SCONJ	_	_	12	mod	_	ExtPos=SCONJ|Idiom=Yes
 25	qu'	que	SCONJ	_	_	24	unk	_	InIdiom=Yes|SpaceAfter=No
 26	on	il	PRON	_	Number=Sing|Person=3	27	subj	_	_
 27	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	comp:obj	_	_
@@ -6556,7 +6556,7 @@
 
 # sent_id = Europar.550_00210
 # text = C'est pourquoi nous considérons que certaines questions soulevées par la baronne Ludford et certains problèmes soulevés par Mme Boumediene-Thiery -qui sont très importants- doivent être envisagés dans le cadre du règlement sur la protection temporaire et la protection subsidiaire que la Commission prépare activement.
-1	C'	ce	PRON	_	Number=Sing|Person=3	5	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=c'est_pourquoi|SpaceAfter=No
+1	C'	ce	PRON	_	Number=Sing|Person=3	5	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	unk	_	InIdiom=Yes
 3	pourquoi	pourquoi	ADV	_	_	2	unk	_	InIdiom=Yes
 4	nous	il	PRON	_	Number=Plur|Person=1	5	subj	_	_
@@ -6657,7 +6657,7 @@
 3	lancer	lancer	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	débat	débat	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
-6	non	non	ADV	_	Polarity=Neg	8	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=non_seulement
+6	non	non	ADV	_	Polarity=Neg	8	mod	_	ExtPos=ADV|Idiom=Yes
 7	seulement	seulement	ADV	_	_	6	unk	_	InIdiom=Yes
 8	sur	sur	ADP	_	_	5	udep	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
@@ -6736,7 +6736,7 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Conseil	conseil	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	bien	bien	ADV	_	_	6	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=bien_sûr
+4	bien	bien	ADV	_	_	6	mod	_	ExtPos=ADV|Idiom=Yes
 5	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	4	unk	_	InIdiom=Yes
 6	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 7	preuve	preuve	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
@@ -6786,7 +6786,7 @@
 2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	_
 3	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
-5	d'	de	ADP	_	_	3	comp:pred	_	ExtPos=ADJ|Idiom=Yes|mwelemma=d'accord|SpaceAfter=No
+5	d'	de	ADP	_	_	3	comp:pred	_	ExtPos=ADJ|Idiom=Yes|SpaceAfter=No
 6	accord	accord	NOUN	_	Gender=Masc|Number=Sing	5	unk	_	InIdiom=Yes
 7	que	que	SCONJ	_	_	3	comp:obl	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -6887,7 +6887,7 @@
 # text = Nous sommes d'avis que cela apportera davantage de cohérence et de transparence dans la manière de gérer le système et de renforcer la capacité du Parlement à examiner la manière dont la Commission gère et développe le système Eurodac.
 1	Nous	il	PRON	_	Number=Plur|Person=1	2	subj	_	_
 2	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	d'	de	ADP	_	_	2	comp:pred	_	ExtPos=ADV|Idiom=Yes|mwelemma=d'avis|SpaceAfter=No
+3	d'	de	ADP	_	_	2	comp:pred	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
 4	avis	avis	NOUN	_	Gender=Masc|Number=Sing	3	unk	_	InIdiom=Yes
 5	que	que	SCONJ	_	_	2	comp:obl	_	_
 6	cela	cela	PRON	_	Number=Sing|PronType=Dem	7	subj	_	_
@@ -7349,7 +7349,7 @@
 
 # sent_id = Europar.550_00235
 # text = C'est pourquoi notre résolution demande la levée de cet embargo.
-1	C'	ce	PRON	_	Number=Sing|Person=3	6	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=c'est_pourquoi|SpaceAfter=No
+1	C'	ce	PRON	_	Number=Sing|Person=3	6	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	unk	_	InIdiom=Yes
 3	pourquoi	pourquoi	ADV	_	_	2	unk	_	InIdiom=Yes
 4	notre	son	DET	_	Number=Sing|Poss=Yes	5	det	_	_
@@ -7687,7 +7687,7 @@
 
 # sent_id = Europar.550_00246
 # text = C'est pourquoi nous ne soumettrons pas aujourd'hui cette résolution au vote.
-1	C'	ce	PRON	_	Number=Sing|Person=3	6	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=c'est_pourquoi|SpaceAfter=No
+1	C'	ce	PRON	_	Number=Sing|Person=3	6	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	unk	_	InIdiom=Yes
 3	pourquoi	pourquoi	ADV	_	_	2	unk	_	InIdiom=Yes
 4	nous	il	PRON	_	Number=Plur|Person=1	6	subj	_	_
@@ -7713,7 +7713,7 @@
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	nous	il	PRON	_	Number=Plur|Person=1	8	subj	_	_
 8	préférons	préférer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	d'	de	ADP	_	_	8	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=d'abord|SpaceAfter=No
+9	d'	de	ADP	_	_	8	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
 10	abord	abord	NOUN	_	Gender=Masc|Number=Sing	9	unk	_	InIdiom=Yes
 11	demander	demander	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=SubjRaising
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -8083,7 +8083,7 @@
 
 # sent_id = Europar.550_00258
 # text = À tout le moins, ceci engendre un manque de transparence.
-1	À	à	ADP	_	_	7	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=à_tout_le_moins
+1	À	à	ADP	_	_	7	mod	_	ExtPos=ADV|Idiom=Yes
 2	tout	tout	ADV	_	_	1	unk	_	InIdiom=Yes
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	unk	_	InIdiom=Yes
 4	moins	moins	ADV	_	_	3	unk	_	InIdiom=Yes|SpaceAfter=No
@@ -8139,7 +8139,7 @@
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
 13	pas	pas	ADV	_	Polarity=Neg	12	mod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	à	à	ADP	_	_	12	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=à_proprement_parler
+15	à	à	ADP	_	_	12	mod	_	ExtPos=ADV|Idiom=Yes
 16	proprement	proprement	ADV	_	_	15	unk	_	InIdiom=Yes
 17	parler	parler	VERB	_	VerbForm=Inf	16	unk	_	InIdiom=Yes|SpaceAfter=No|Subject=Generic
 18	,	,	PUNCT	_	_	15	punct	_	_
@@ -8206,7 +8206,7 @@
 
 # sent_id = Europar.550_00262
 # text = Bien que je sois originaire d'Écosse, je sais que ces problèmes ne sont pas uniquement des sujets de grande inquiétude pour mes collègues sociaux-démocrates d'autres régions du Royaume-Uni mais également pour les membres de l'ELDR qui représentent des régions de toute l'Union européenne.
-1	Bien	bien	ADV	_	_	10	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=bien_que
+1	Bien	bien	ADV	_	_	10	mod	_	ExtPos=SCONJ|Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	je	il	PRON	_	Number=Sing|Person=1	4	subj	_	_
 4	sois	être	AUX	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
@@ -8291,7 +8291,7 @@
 3	fort	fort	ADV	_	_	4	mod	_	_
 4	probable	probable	ADJ	_	Number=Sing	2	comp:pred	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
-6	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=vu_que
+6	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	mod	_	ExtPos=SCONJ|Idiom=Yes
 7	qu'	que	SCONJ	_	_	6	unk	_	InIdiom=Yes|SpaceAfter=No
 8	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3	9	subj@pass	_	_
 9	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
@@ -8449,7 +8449,7 @@
 49	et	et	CCONJ	_	_	50	cc	_	_
 50	aboutissants	aboutissants	NOUN	_	Gender=Masc|Number=Plur	48	conj	_	SpaceAfter=No
 51	,	,	PUNCT	_	_	52	punct	_	_
-52	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=vu_que
+52	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	mod	_	ExtPos=SCONJ|Idiom=Yes
 53	que	que	SCONJ	_	_	52	unk	_	InIdiom=Yes
 54	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	55	det	_	_
 55	Assemblée	assemblée	NOUN	_	Gender=Fem|Number=Sing	57	subj	_	_
@@ -8596,13 +8596,13 @@
 8	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
 9	en	en	ADP	_	_	8	comp:obl	_	_
 10	prison	prison	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
-11	parce	parce	SCONJ	_	_	8	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=parce_que
+11	parce	parce	SCONJ	_	_	8	mod	_	ExtPos=SCONJ|Idiom=Yes
 12	qu'	que	SCONJ	_	_	11	unk	_	InIdiom=Yes|SpaceAfter=No
 13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	14	subj	_	_
 14	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
 15	osé	oser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
-17	il	il	PRON	_	Number=Sing|Person=3	15	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=il_y_a
+17	il	il	PRON	_	Number=Sing|Person=3	15	mod	_	ExtPos=ADP|Idiom=Yes
 18	y	y	PRON	_	Person=3	17	unk	_	InIdiom=Yes
 19	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	unk	_	InIdiom=Yes
 20	quelque	quelque	DET	_	Definite=Ind|Number=Sing|PronType=Art	21	det	_	_
@@ -8634,7 +8634,7 @@
 8	si	si	SCONJ	_	_	5	dislocated	_	_
 9	vous-même	lui-même	PRON	_	_	21	subj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
-11	en	en	ADP	_	_	21	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=en_tant_que
+11	en	en	ADP	_	_	21	mod	_	ExtPos=ADP|Idiom=Yes
 12	tant	tant	ADV	_	_	11	unk	_	InIdiom=Yes
 13	que	que	SCONJ	_	_	12	unk	_	InIdiom=Yes
 14	Présidente	président	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
@@ -8706,7 +8706,7 @@
 32	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	34	det	_	SpaceAfter=No
 33	autres	autre	ADJ	_	Number=Plur	34	mod	_	_
 34	points	point	NOUN	_	Gender=Masc|Number=Plur	31	comp:obj	_	_
-35	parce	parce	SCONJ	_	_	26	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=parce_que
+35	parce	parce	SCONJ	_	_	26	mod	_	ExtPos=SCONJ|Idiom=Yes
 36	que	que	SCONJ	_	_	35	unk	_	InIdiom=Yes
 37	nous	il	PRON	_	Number=Plur|Person=1	38	subj	_	_
 38	avons	avoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	35	comp:obj	_	_
@@ -9034,7 +9034,7 @@
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	appelée	appeler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	comp:aux@pass	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	à	à	ADP	_	_	5	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=à_travers
+7	à	à	ADP	_	_	5	mod	_	ExtPos=ADP|Idiom=Yes
 8	travers	travers	NOUN	_	Gender=Masc	7	unk	_	InIdiom=Yes
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	procédures	procédure	NOUN	_	Gender=Fem|Number=Plur	7	comp:obj	_	_
@@ -9102,12 +9102,12 @@
 69	-nous	il	PRON	_	Number=Plur|Person=1	68	subj	_	_
 70	prêts	prêt	ADJ	_	Gender=Masc|Number=Plur	68	comp:pred	_	SpaceAfter=No
 71	,	,	PUNCT	_	_	72	punct	_	_
-72	en	en	ADP	_	_	70	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=en_tant_que
+72	en	en	ADP	_	_	70	mod	_	ExtPos=ADP|Idiom=Yes
 73	tant	tant	ADV	_	_	72	unk	_	InIdiom=Yes
 74	qu'	que	SCONJ	_	_	73	unk	_	InIdiom=Yes|SpaceAfter=No
 75	institution	institution	NOUN	_	Gender=Fem|Number=Sing	72	comp:obj	_	SpaceAfter=No
 76	,	,	PUNCT	_	_	77	punct	_	_
-77	en	en	ADP	_	_	70	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=en_tant_que
+77	en	en	ADP	_	_	70	mod	_	ExtPos=ADP|Idiom=Yes
 78	tant	tant	ADV	_	_	77	unk	_	InIdiom=Yes
 79	qu'	que	SCONJ	_	_	78	unk	_	InIdiom=Yes|SpaceAfter=No
 80	Union	Union	PROPN	_	_	77	comp:obj	_	_
@@ -9291,7 +9291,7 @@
 26	faisons	faire	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	comp:obj	_	_
 27	tous	tout	ADJ	_	Gender=Masc|Number=Plur	26	mod	_	_
 28	assurément	assurément	ADV	_	_	26	mod	_	_
-29	de	de	ADP	_	_	26	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=de_temps_à_autre
+29	de	de	ADP	_	_	26	mod	_	ExtPos=ADV|Idiom=Yes
 30	temps	temps	NOUN	_	Gender=Masc	29	unk	_	InIdiom=Yes
 31	à	à	ADP	_	_	30	unk	_	InIdiom=Yes
 32	autre	autre	PRON	_	Number=Sing	31	unk	_	InIdiom=Yes|SpaceAfter=No
@@ -9406,7 +9406,7 @@
 27	réussites	réussite	NOUN	_	Gender=Fem|Number=Plur	25	comp:obj	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	25	punct	_	_
 29	précisément	précisément	ADV	_	_	30	mod	_	_
-30	parce	parce	SCONJ	_	_	17	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=parce_que
+30	parce	parce	SCONJ	_	_	17	mod	_	ExtPos=SCONJ|Idiom=Yes
 31	qu'	que	SCONJ	_	_	30	unk	_	InIdiom=Yes|SpaceAfter=No
 32	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	33	subj	_	_
 33	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	comp:obj	_	_
@@ -9506,7 +9506,7 @@
 12	indispensable	indispensable	ADJ	_	Number=Sing	10	conj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	notamment	notamment	ADV	_	_	4	mod	_	_
-15	parce	parce	SCONJ	_	_	4	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=parce_que
+15	parce	parce	SCONJ	_	_	4	mod	_	ExtPos=SCONJ|Idiom=Yes
 16	qu'	que	SCONJ	_	_	15	unk	_	InIdiom=Yes|SpaceAfter=No
 17	avant	avant	ADP	_	_	37	mod	_	_
 18	tout	tout	ADV	_	_	17	comp:obj	_	SpaceAfter=No
@@ -9616,7 +9616,7 @@
 7	propositions	proposition	NOUN	_	Gender=Fem|Number=Plur	5	comp:obj	_	_
 8	nouvelles	nouveau	ADJ	_	Gender=Fem|Number=Plur	7	mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	bien	bien	ADV	_	_	4	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=bien_que
+10	bien	bien	ADV	_	_	4	mod	_	ExtPos=SCONJ|Idiom=Yes
 11	que	que	SCONJ	_	_	10	unk	_	InIdiom=Yes
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	questions	question	NOUN	_	Gender=Fem|Number=Plur	19	subj	_	_
@@ -9654,7 +9654,7 @@
 1	Celle-ci	celui-ci	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	12	subj	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	6	punct	_	_
 3-4	du	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	6	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=du_moins
+3	de	de	ADP	_	_	6	mod	_	ExtPos=ADV|Idiom=Yes
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	unk	_	InIdiom=Yes
 5	moins	moins	ADV	_	_	4	unk	_	InIdiom=Yes
 6	telle	tel	ADJ	_	Gender=Fem|Number=Sing	1	mod	_	_
@@ -9751,7 +9751,7 @@
 31	souhaitent	souhaiter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	comp:obj	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	36	punct	_	_
 33-34	du	_	_	_	_	_	_	_	_
-33	de	de	ADP	_	_	36	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=du_moins
+33	de	de	ADP	_	_	36	mod	_	ExtPos=ADV|Idiom=Yes
 34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	unk	_	InIdiom=Yes
 35	moins	moins	ADV	_	_	34	unk	_	InIdiom=Yes
 36	dans	dans	ADP	_	_	31	mod	_	_
@@ -9909,7 +9909,7 @@
 10	portugaise	portugais	ADJ	_	Gender=Fem|Number=Sing	9	mod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	15	punct	_	_
 12	et	et	CCONJ	_	_	15	cc	_	_
-13	en	en	ADP	_	_	15	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=en_particulier
+13	en	en	ADP	_	_	15	mod	_	ExtPos=ADV|Idiom=Yes
 14	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	13	unk	_	InIdiom=Yes
 15	à	à	ADP	_	_	7	conj	_	_
 16	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
@@ -9940,7 +9940,7 @@
 40	collègues	collègue	NOUN	_	Number=Plur	37	comp:obj	_	_
 41	et	et	CCONJ	_	_	46	cc	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	43	punct	_	_
-43	bien	bien	ADV	_	_	41	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=bien_sûr
+43	bien	bien	ADV	_	_	41	mod	_	ExtPos=ADV|Idiom=Yes
 44	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	43	unk	_	InIdiom=Yes|SpaceAfter=No
 45	,	,	PUNCT	_	_	43	punct	_	_
 46-47	au	_	_	_	_	_	_	_	_
@@ -9965,7 +9965,7 @@
 64	de	de	ADP	_	_	62	mod	_	_
 65	concert	concert	NOUN	_	Gender=Masc|Number=Sing	64	comp:obj	_	SpaceAfter=No
 66	,	,	PUNCT	_	_	69	punct	_	_
-67	ainsi	ainsi	ADV	_	_	69	cc	_	ExtPos=CCONJ|Idiom=Yes|mwelemma=ainsi_que
+67	ainsi	ainsi	ADV	_	_	69	cc	_	ExtPos=CCONJ|Idiom=Yes
 68	qu'	que	SCONJ	_	_	67	unk	_	InIdiom=Yes|SpaceAfter=No
 69-70	aux	_	_	_	_	_	_	_	_
 69	à	à	ADP	_	_	46	conj	_	_
@@ -10014,7 +10014,7 @@
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Présidente	président	NOUN	_	Gender=Fem|Number=Sing	1	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	en	en	ADP	_	_	20	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=en_tant_que
+5	en	en	ADP	_	_	20	mod	_	ExtPos=ADP|Idiom=Yes
 6	tant	tant	ADV	_	_	5	unk	_	InIdiom=Yes
 7	que	que	SCONJ	_	_	6	unk	_	InIdiom=Yes
 8	rapporteur	rapporteur	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
@@ -10051,7 +10051,7 @@
 # text = Mais, tout d'abord, je souhaiterais remercier vivement les deux rapporteurs pour leur énorme travail.
 1	Mais	mais	CCONJ	_	_	8	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	tout	tout	ADV	_	_	8	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=tout_d'abord
+3	tout	tout	ADV	_	_	8	mod	_	ExtPos=ADV|Idiom=Yes
 4	d'	de	ADP	_	_	3	unk	_	InIdiom=Yes|SpaceAfter=No
 5	abord	abord	ADV	_	_	4	unk	_	InIdiom=Yes|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
@@ -10090,7 +10090,7 @@
 17	collègue	collègue	NOUN	_	Number=Sing	15	comp:obj	_	_
 18	Vitorino	Vitorino	PROPN	_	_	17	mod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
-20	en	en	ADP	_	_	13	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=en_particulier
+20	en	en	ADP	_	_	13	mod	_	ExtPos=ADV|Idiom=Yes
 21	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	20	unk	_	InIdiom=Yes
 22	pour	pour	ADP	_	_	13	udep	_	_
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
@@ -10172,7 +10172,7 @@
 13	nous	il	PRON	_	Number=Plur|Person=1	14	subj	_	_
 14	exécutons	exécuter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	à	à	ADP	_	_	11	udep	_	ExtPos=ADP|Idiom=Yes|mwelemma=à_savoir
+16	à	à	ADP	_	_	11	udep	_	ExtPos=ADP|Idiom=Yes
 17	savoir	savoir	VERB	_	VerbForm=Inf	16	unk	_	InIdiom=Yes|Subject=Generic
 18	d'	de	ADP	_	_	22	mod	_	SpaceAfter=No
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -10259,7 +10259,7 @@
 19	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
 20	être	être	AUX	_	VerbForm=Inf	19	comp:obj	_	Subject=SubjRaising
 21	clôturés	clôturer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	20	comp:aux@pass	_	_
-22	même	même	ADV	_	_	19	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=même_si
+22	même	même	ADV	_	_	19	mod	_	ExtPos=SCONJ|Idiom=Yes
 23	si	si	SCONJ	_	_	22	unk	_	InIdiom=Yes
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 25	premier	premier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	26	mod	_	_
@@ -10329,7 +10329,7 @@
 
 # sent_id = Europar.550_00317
 # text = De plus, nous souhaiterions recevoir des informations directement des États membres, afin de pouvoir procéder à une meilleure évaluation de la gestion des crédits budgétaires.
-1	De	de	ADP	_	_	5	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=de_plus
+1	De	de	ADP	_	_	5	mod	_	ExtPos=ADV|Idiom=Yes
 2	plus	plus	ADV	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	nous	il	PRON	_	Number=Plur|Person=1	5	subj	_	_
@@ -10475,7 +10475,7 @@
 
 # sent_id = Europar.550_00322
 # text = C'est pourquoi nous avons besoin d'une coordination sur le plan européen, sans pour autant empiéter sur la compétence des tribunaux nationaux en ce qui concerne la conduite de la procédure.
-1	C'	ce	PRON	_	Number=Sing|Person=3	5	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=c'est_pourquoi|SpaceAfter=No
+1	C'	ce	PRON	_	Number=Sing|Person=3	5	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	unk	_	InIdiom=Yes
 3	pourquoi	pourquoi	ADV	_	_	2	unk	_	InIdiom=Yes
 4	nous	il	PRON	_	Number=Plur|Person=1	5	subj	_	_
@@ -10490,7 +10490,7 @@
 13	européen	européen	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	sans	sans	ADP	_	_	5	mod	_	_
-16	pour	pour	ADP	_	_	18	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=pour_autant
+16	pour	pour	ADP	_	_	18	mod	_	ExtPos=ADV|Idiom=Yes
 17	autant	autant	ADV	_	_	16	unk	_	InIdiom=Yes
 18	empiéter	empiéter	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=Instantiated
 19	sur	sur	ADP	_	_	18	comp:obl	_	_
@@ -10501,7 +10501,7 @@
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
 24	tribunaux	tribunal	NOUN	_	Gender=Masc|Number=Plur	22	comp:obj	_	_
 25	nationaux	national	ADJ	_	Gender=Masc|Number=Plur	24	mod	_	_
-26	en	en	ADP	_	_	18	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=en_ce_qui_concerne
+26	en	en	ADP	_	_	18	mod	_	ExtPos=ADP|Idiom=Yes
 27	ce	ce	PRON	_	_	26	unk	_	InIdiom=Yes
 28	qui	qui	PRON	_	_	27	unk	_	InIdiom=Yes
 29	concerne	concerner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	unk	_	InIdiom=Yes
@@ -10525,7 +10525,7 @@
 8	membres	membre	NOUN	_	Gender=Masc|Number=Plur	7	mod	_	_
 9	-	-	PUNCT	_	_	13	punct	_	SpaceAfter=No
 10	et	et	CCONJ	_	_	13	cc	_	_
-11	en	en	ADP	_	_	10	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=en_particulier
+11	en	en	ADP	_	_	10	mod	_	ExtPos=ADV|Idiom=Yes
 12	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	11	unk	_	InIdiom=Yes
 13	à	à	ADP	_	_	5	conj	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -10651,7 +10651,7 @@
 # text = Alors, bien sûr, nous devons réagir, et vite, et nous savons trop bien, hélas, que le prix de nos atermoiements et de nos retards se paie en vies humaines.
 1	Alors	alors	ADV	_	_	7	mod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	bien	bien	ADV	_	_	7	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=bien_sûr
+3	bien	bien	ADV	_	_	7	mod	_	ExtPos=ADV|Idiom=Yes
 4	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	3	unk	_	InIdiom=Yes|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	nous	il	PRON	_	Number=Plur|Person=1	7	subj	_	_
@@ -10713,7 +10713,7 @@
 23	nous	le	PRON	_	Number=Plur|Person=1	25	comp:obl	_	_
 24	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	_
 25	apportées	apporter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	24	comp:aux@tense	_	_
-26	tout	tout	ADV	_	_	24	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=tout_à_l'heure
+26	tout	tout	ADV	_	_	24	mod	_	ExtPos=ADV|Idiom=Yes
 27	à	à	ADP	_	_	26	unk	_	InIdiom=Yes
 28	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	unk	_	InIdiom=Yes|SpaceAfter=No
 29	heure	heure	NOUN	_	Gender=Fem|Number=Sing	28	unk	_	InIdiom=Yes|SpaceAfter=No
@@ -10721,7 +10721,7 @@
 
 # sent_id = Europar.550_00329
 # text = Bien sûr, les 800 000 tonnes d'aide d'urgence promises par la communauté internationale doivent être envoyées au plus vite.
-1	Bien	bien	ADV	_	_	16	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=bien_sûr
+1	Bien	bien	ADV	_	_	16	mod	_	ExtPos=ADV|Idiom=Yes
 2	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
@@ -10740,7 +10740,7 @@
 17	être	être	AUX	_	VerbForm=Inf	16	comp:obj	_	Subject=SubjRaising
 18	envoyées	envoyer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	17	comp:aux@pass	_	_
 19-20	au	_	_	_	_	_	_	_	_
-19	à	à	ADP	_	_	17	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=au_plus_vite
+19	à	à	ADP	_	_	17	mod	_	ExtPos=ADV|Idiom=Yes
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	unk	_	InIdiom=Yes
 21	plus	plus	ADV	_	_	20	unk	_	InIdiom=Yes
 22	vite	vite	ADV	_	_	21	unk	_	InIdiom=Yes|SpaceAfter=No
@@ -10899,7 +10899,7 @@
 
 # sent_id = Europar.550_00334
 # text = C'est pourquoi nous devons lancer un appel à la raison aux dirigeants éthiopiens et érythréens pour que cesse le conflit, pour que, dans le cadre du plan de paix de l'O.U.A., un accord rapide sur les arrangements techniques intervienne.
-1	C'	ce	PRON	_	Number=Sing|Person=3	5	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=c'est_pourquoi|SpaceAfter=No
+1	C'	ce	PRON	_	Number=Sing|Person=3	5	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	unk	_	InIdiom=Yes
 3	pourquoi	pourquoi	ADV	_	_	2	unk	_	InIdiom=Yes
 4	nous	il	PRON	_	Number=Plur|Person=1	5	subj	_	_
@@ -10951,7 +10951,7 @@
 
 # sent_id = Europar.550_00335
 # text = Bien sûr, pour l'heure, c'est simplement l'appel de la population qui souffre que nous devons entendre.
-1	Bien	bien	ADV	_	_	9	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=bien_sûr
+1	Bien	bien	ADV	_	_	9	mod	_	ExtPos=ADV|Idiom=Yes
 2	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	pour	pour	ADP	_	_	9	mod	_	_
@@ -11035,7 +11035,7 @@
 56	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	54	comp:obj	_	_
 57	qui	qui	PRON	_	PronType=Rel	58	subj@pass	_	_
 58	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	mod@relcl	_	_
-59	bien	bien	ADV	_	_	61	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=bien_sûr
+59	bien	bien	ADV	_	_	61	mod	_	ExtPos=ADV|Idiom=Yes
 60	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	59	unk	_	InIdiom=Yes
 61	été	être	AUX	_	Tense=Past|VerbForm=Part	58	comp:aux@tense	_	_
 62	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	61	comp:aux@pass	_	_
@@ -11204,7 +11204,7 @@
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	commissaire	commissaire	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	SpaceAfter=No
 18	,	,	PUNCT	_	Shared=Yes	19	punct	_	_
-19	parce	parce	SCONJ	_	Shared=Yes	11	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=parce_que
+19	parce	parce	SCONJ	_	Shared=Yes	11	mod	_	ExtPos=SCONJ|Idiom=Yes
 20	qu'	que	SCONJ	_	_	19	unk	_	InIdiom=Yes|SpaceAfter=No
 21	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	22	subj@expl	_	_
 22	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	comp:obj	_	_
@@ -11224,7 +11224,7 @@
 36	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	initiative	initiative	NOUN	_	Gender=Fem|Number=Sing	35	comp:obj	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	39	punct	_	_
-39	tandis	tandis	ADV	_	_	22	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=tandis_que
+39	tandis	tandis	ADV	_	_	22	mod	_	ExtPos=SCONJ|Idiom=Yes
 40	qu'	que	SCONJ	_	_	39	unk	_	InIdiom=Yes|SpaceAfter=No
 41	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	42	subj	_	_
 42	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	comp:obj	_	_
@@ -11336,7 +11336,7 @@
 20	50	50	NUM	_	NumType=Card	21	det	_	SpaceAfter=No
 21	%	%	NOUN	_	Gender=Masc	22	subj	_	_
 22	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	comp:obj	_	_
-23	de	de	ADP	_	_	25	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+23	de	de	ADP	_	_	25	det	_	ExtPos=DET|Idiom=Yes
 24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	unk	_	InIdiom=Yes|SpaceAfter=No
 25	argent	argent	NOUN	_	Gender=Masc|Number=Sing	22	comp:pred	_	_
 26	récupéré	récupérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	25	mod	_	_
@@ -11463,7 +11463,7 @@
 34	encore	encore	ADV	_	_	32	mod	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	39	punct	_	_
 36-37	du	_	_	_	_	_	_	_	_
-36	de	de	ADP	_	_	39	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=du_moins
+36	de	de	ADP	_	_	39	mod	_	ExtPos=ADV|Idiom=Yes
 37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	unk	_	InIdiom=Yes
 38	moins	moins	ADV	_	_	37	unk	_	InIdiom=Yes
 39	à	à	ADP	_	_	32	mod	_	_
@@ -11542,7 +11542,7 @@
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	opinions	opinion	NOUN	_	Gender=Fem|Number=Plur	6	comp:obj	_	_
-9	de	de	ADP	_	_	13	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=de_plus_en_plus
+9	de	de	ADP	_	_	13	mod	_	ExtPos=ADV|Idiom=Yes
 10	plus	plus	ADV	_	_	9	unk	_	InIdiom=Yes
 11	en	en	ADP	_	_	10	unk	_	InIdiom=Yes
 12	plus	plus	ADV	_	_	11	unk	_	InIdiom=Yes
@@ -11721,7 +11721,7 @@
 9	aligne	aligner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	chiffres	chiffre	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	_
-12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=une_fois
+12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	mod	_	ExtPos=ADV|Idiom=Yes
 13	fois	fois	NOUN	_	Gender=Fem	12	unk	_	InIdiom=Yes
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	conférence	conférence	NOUN	_	Gender=Fem|Number=Sing	16	subj@pass	_	_
@@ -11828,7 +11828,7 @@
 16	annonçait	annoncer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	mod@relcl	_	_
 17	que	que	SCONJ	_	_	16	comp:obj	_	_
 18	hier	hier	ADV	_	_	23	mod	_	_
-19	à	à	ADP	_	_	23	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=à_nouveau
+19	à	à	ADP	_	_	23	mod	_	ExtPos=ADV|Idiom=Yes
 20	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	19	unk	_	InIdiom=Yes
 21	trois	trois	NUM	_	NumType=Card	22	det	_	_
 22	enfants	enfant	NOUN	_	Number=Plur	23	subj	_	_
@@ -11985,7 +11985,7 @@
 15	d'	de	ADP	_	_	14	comp:obl	_	SpaceAfter=No
 16	attention	attention	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
-18	aussi	aussi	ADV	_	_	20	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=aussi_bien
+18	aussi	aussi	ADV	_	_	20	mod	_	ExtPos=ADV|Idiom=Yes
 19	bien	bien	ADV	_	_	18	unk	_	InIdiom=Yes
 20	dans	dans	ADP	_	_	12	mod	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
@@ -12011,7 +12011,7 @@
 38	ONG	ONG	NOUN	_	Gender=Fem|Number=Plur	36	comp:obj	_	_
 39	locales	local	ADJ	_	Gender=Fem|Number=Plur	38	mod	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	41	punct	_	_
-41	a	a	X	_	Foreign=Yes	12	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=a_fortiori
+41	a	a	X	_	Foreign=Yes	12	mod	_	ExtPos=ADV|Idiom=Yes
 42	fortiori	fortiori	X	_	Foreign=Yes	41	unk	_	InIdiom=Yes
 43	lorsque	lorsque	SCONJ	_	_	12	mod	_	_
 44	l'on	il	PRON	_	Number=Sing	45	subj	_	wordform=on
@@ -12175,7 +12175,7 @@
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	pied	pied	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	de	de	ADP	_	_	12	udep	_	_
-14	quelqu'	quelque	DET	_	Definite=Ind|Number=Sing|PronType=Art	13	comp:obj	_	ExtPos=PRON|Idiom=Yes|mwelemma=quelqu'un|SpaceAfter=No
+14	quelqu'	quelque	DET	_	Definite=Ind|Number=Sing|PronType=Art	13	comp:obj	_	ExtPos=PRON|Idiom=Yes|SpaceAfter=No
 15	un	un	PRON	_	Gender=Masc|Number=Sing	14	unk	_	InIdiom=Yes|SpaceAfter=No
 16	,	,	PUNCT	_	_	1	punct	_	_
 17	je	il	PRON	_	Number=Sing|Person=1	19	subj	_	_
@@ -12322,7 +12322,7 @@
 9	cloisonnement	cloisonnement	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	national	national	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	même	même	ADV	_	_	5	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=même_si
+12	même	même	ADV	_	_	5	mod	_	ExtPos=SCONJ|Idiom=Yes
 13	si	si	SCONJ	_	_	12	unk	_	InIdiom=Yes|SpaceAfter=No
 14	,	,	PUNCT	_	_	26	punct	_	_
 15	suite	suite	NOUN	_	Gender=Fem|Number=Sing	26	mod	_	ExtPos=ADV
@@ -12573,7 +12573,7 @@
 4	dans	dans	ADP	_	_	3	mod	_	_
 5	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
 6	contexte	contexte	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
-7	non	non	ADV	_	Polarity=Neg	10	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=non_seulement
+7	non	non	ADV	_	Polarity=Neg	10	mod	_	ExtPos=ADV|Idiom=Yes
 8	seulement	seulement	ADV	_	_	7	unk	_	InIdiom=Yes
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	problème	problème	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
@@ -12866,7 +12866,7 @@
 
 # sent_id = Europar.550_00394
 # text = En ce qui concerne le rapport Kuckelkorn, je dois féliciter son auteur pour la ténacité avec laquelle il plaide pour les retraites complémentaires, pour que celles-ci soient effectivement un second pilier de l'assurance vieillesse.
-1	En	en	ADP	_	_	10	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=en_ce_qui_concerne
+1	En	en	ADP	_	_	10	mod	_	ExtPos=ADP|Idiom=Yes
 2	ce	ce	PRON	_	_	1	unk	_	InIdiom=Yes
 3	qui	qui	PRON	_	_	2	unk	_	InIdiom=Yes
 4	concerne	concerner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	unk	_	InIdiom=Yes
@@ -12994,7 +12994,7 @@
 26	,	,	PUNCT	_	_	27	punct	_	_
 27	ou	ou	CCONJ	_	_	28	cc	_	_
 28	si	si	SCONJ	_	_	22	conj	_	_
-29	en	en	ADP	_	_	38	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=en_tant_que
+29	en	en	ADP	_	_	38	mod	_	ExtPos=ADP|Idiom=Yes
 30	tant	tant	ADV	_	_	29	unk	_	InIdiom=Yes
 31	que	que	SCONJ	_	_	30	unk	_	InIdiom=Yes
 32	présidente	président	NOUN	_	Gender=Fem|Number=Sing	29	comp:obj	_	_
@@ -13167,7 +13167,7 @@
 8	cohérence	cohérence	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	15	punct	_	_
 10	et	et	CCONJ	_	_	15	cc	_	_
-11	c'	ce	PRON	_	Number=Sing|Person=3	15	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=c'est_pourquoi|SpaceAfter=No
+11	c'	ce	PRON	_	Number=Sing|Person=3	15	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
 12	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	unk	_	InIdiom=Yes
 13	pourquoi	pourquoi	ADV	_	_	12	unk	_	InIdiom=Yes
 14	j'	il	PRON	_	Number=Sing|Person=1	15	subj	_	SpaceAfter=No
@@ -13256,7 +13256,7 @@
 4	donc	donc	ADV	_	_	2	mod	_	_
 5	ces	ce	DET	_	Number=Plur|PronType=Dem	6	det	_	_
 6	32	32	NUM	_	NumType=Card|Shared=Yes	2	subj	_	_
-7	et	et	CCONJ	_	_	6	mod	_	ExtPos=ADJ|Idiom=Yes|mwelemma=et_quelque
+7	et	et	CCONJ	_	_	6	mod	_	ExtPos=ADJ|Idiom=Yes
 8	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	unk	_	InIdiom=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	qui	qui	PRON	_	PronType=Rel	12	subj	_	_
@@ -13392,7 +13392,7 @@
 6	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 7	suffisante	suffisant	ADJ	_	Gender=Fem|Number=Sing	4	comp:pred	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	étant	être	VERB	_	Tense=Pres|VerbForm=Part	4	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=étant_donné
+9	étant	être	VERB	_	Tense=Pres|VerbForm=Part	4	mod	_	ExtPos=ADP|Idiom=Yes
 10	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	unk	_	InIdiom=Yes
 11	que	que	SCONJ	_	_	9	comp:obj	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
@@ -13416,7 +13416,7 @@
 7	telles	tel	DET	_	Gender=Fem|Number=Plur	8	det	_	_
 8	solutions	solution	NOUN	_	Gender=Fem|Number=Plur	6	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	tandis	tandis	ADV	_	_	3	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=tandis_que
+10	tandis	tandis	ADV	_	_	3	mod	_	ExtPos=SCONJ|Idiom=Yes
 11	qu'	que	SCONJ	_	_	10	unk	_	InIdiom=Yes|SpaceAfter=No
 12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	14	subj@expl	_	_
 13	en	en	PRON	_	Person=3	14	comp:obl	_	_
@@ -13425,7 +13425,7 @@
 16	effet	effet	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj@agent	_	_
 17	secondaire	secondaire	ADJ	_	Number=Sing	16	mod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	21	punct	_	_
-19	à	à	ADP	_	_	21	cc	_	ExtPos=CCONJ|Idiom=Yes|mwelemma=à_savoir
+19	à	à	ADP	_	_	21	cc	_	ExtPos=CCONJ|Idiom=Yes
 20	savoir	savoir	VERB	_	VerbForm=Inf	19	unk	_	InIdiom=Yes|Subject=Generic
 21	que	que	SCONJ	_	_	16	conj	_	_
 22	sur	sur	ADP	_	_	34	mod	_	_
@@ -13504,7 +13504,7 @@
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
 24	avions	avion	NOUN	_	Gender=Masc|Number=Plur	22	comp:obj	_	_
 25	d'	de	ADP	_	_	24	udep	_	SpaceAfter=No
-26	il	il	PRON	_	Number=Sing|Person=3	25	comp:obj	_	ExtPos=ADP|Idiom=Yes|mwelemma=il_y_a
+26	il	il	PRON	_	Number=Sing|Person=3	25	comp:obj	_	ExtPos=ADP|Idiom=Yes
 27	y	y	PRON	_	Person=3	26	unk	_	InIdiom=Yes
 28	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	unk	_	InIdiom=Yes
 29	quarante	quarante	NUM	_	NumType=Card	30	det	_	_
@@ -13513,7 +13513,7 @@
 
 # sent_id = Europar.550_00415
 # text = Étant donné que la durée de vie des avions est approximativement de trente ans, l'effet de ces améliorations techniques se fait attendre longtemps.
-1	Étant	être	VERB	_	Tense=Pres|VerbForm=Part	25	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=étant_donné
+1	Étant	être	VERB	_	Tense=Pres|VerbForm=Part	25	mod	_	ExtPos=ADP|Idiom=Yes
 2	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	unk	_	InIdiom=Yes
 3	que	que	SCONJ	_	_	1	comp:obj	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -13592,7 +13592,7 @@
 17	,	,	PUNCT	_	_	1	punct	_	_
 18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	19	subj@expl	_	_
 19	convient	convenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-20	dès	dès	ADP	_	_	19	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=dès_lors
+20	dès	dès	ADP	_	_	19	mod	_	ExtPos=ADV|Idiom=Yes
 21	lors	lors	ADV	_	_	20	unk	_	InIdiom=Yes
 22	que	que	SCONJ	_	_	19	comp:obj@agent	_	_
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
@@ -13654,7 +13654,7 @@
 14	transports	transport	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	_
 15	aériens	aérien	ADJ	_	Gender=Masc|Number=Plur	14	mod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	19	punct	_	_
-17	y	y	PRON	_	Person=3	19	cc	_	ExtPos=CCONJ|Idiom=Yes|mwelemma=y_compris
+17	y	y	PRON	_	Person=3	19	cc	_	ExtPos=CCONJ|Idiom=Yes
 18	compris	compris	ADJ	_	Gender=Masc	17	unk	_	InIdiom=Yes
 19	de	de	ADP	_	_	8	conj	_	_
 20	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	22	mod	_	_
@@ -13700,7 +13700,7 @@
 6	qui	qui	PRON	_	PronType=Rel	7	subj	_	_
 7	insiste	insister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	entre	entre	ADP	_	_	7	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=entre_autres
+9	entre	entre	ADP	_	_	7	mod	_	ExtPos=ADV|Idiom=Yes
 10	autres	autre	PRON	_	Number=Plur	9	unk	_	InIdiom=Yes|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	pour	pour	ADP	_	_	7	mod	_	_
@@ -13829,7 +13829,7 @@
 
 # sent_id = Europar.550_00426
 # text = C'est pourquoi nous soutenons le rapport Hatzidakis, et je tiens à féliciter le rapporteur pour sa clarté, malgré la technicité de ce dossier.
-1	C'	ce	PRON	_	Number=Sing|Person=3	5	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=c'est_pourquoi|SpaceAfter=No
+1	C'	ce	PRON	_	Number=Sing|Person=3	5	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	unk	_	InIdiom=Yes
 3	pourquoi	pourquoi	ADV	_	_	2	unk	_	InIdiom=Yes
 4	nous	il	PRON	_	Number=Plur|Person=1	5	subj	_	_
@@ -14065,7 +14065,7 @@
 
 # sent_id = Europar.550_00433
 # text = De plus, le financement communautaire du RTET représente un faible pourcentage des coûts totaux, la majeure partie des financements incombant aux États membres.
-1	De	de	ADP	_	_	10	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=de_plus
+1	De	de	ADP	_	_	10	mod	_	ExtPos=ADV|Idiom=Yes
 2	plus	plus	ADV	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -14161,7 +14161,7 @@
 12	pour	pour	ADP	_	_	4	mod	_	_
 13	promouvoir	promouvoir	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=Instantiated
 14-15	au	_	_	_	_	_	_	_	_
-14	à	à	ADP	_	_	13	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=au_plus_vite
+14	à	à	ADP	_	_	13	mod	_	ExtPos=ADV|Idiom=Yes
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	unk	_	InIdiom=Yes
 16	plus	plus	ADV	_	_	15	unk	_	InIdiom=Yes
 17	vite	vite	ADV	_	_	16	unk	_	InIdiom=Yes
@@ -14277,7 +14277,7 @@
 4	vous	soi	PRON	_	Number=Plur|Person=2|PronType=Prs	3	comp:obj	_	_
 5	tous	tout	ADJ	_	Gender=Masc|Number=Plur	4	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	ne	ne	ADV	_	Polarity=Neg	2	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=ne_serait-ce_que
+7	ne	ne	ADV	_	Polarity=Neg	2	mod	_	ExtPos=ADV|Idiom=Yes
 8	serait	être	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	unk	_	InIdiom=Yes|SpaceAfter=No
 9	-ce	ce	PRON	_	Number=Sing|Person=3	8	unk	_	InIdiom=Yes
 10	que	que	ADV	_	Polarity=Neg	9	unk	_	InIdiom=Yes
@@ -14496,7 +14496,7 @@
 5	nous	il	PRON	_	Number=Plur|Person=1	6	subj	_	_
 6	voulons	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
-8	en	en	ADP	_	_	6	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=en_tant_que
+8	en	en	ADP	_	_	6	mod	_	ExtPos=ADP|Idiom=Yes
 9	tant	tant	ADV	_	_	8	unk	_	InIdiom=Yes
 10	que	que	SCONJ	_	_	9	unk	_	InIdiom=Yes
 11	commission	commission	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
@@ -14937,7 +14937,7 @@
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Zimbabwe	Zimbabwe	PROPN	_	Gender=Masc|Number=Sing	9	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
-13	si	si	SCONJ	_	_	15	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=si_possible
+13	si	si	SCONJ	_	_	15	mod	_	ExtPos=ADV|Idiom=Yes
 14	possible	possible	ADJ	_	Number=Sing	13	unk	_	InIdiom=Yes
 15	aujourd'hui	aujourd'hui	ADV	_	_	4	mod	_	_
 16	plutôt	plutôt	ADV	_	_	15	mod	_	_
@@ -15028,7 +15028,7 @@
 # text = Je pense dès lors que, si les élections au Zimbabwe ne se déroulaient pas correctement, pour l'une ou l'autre raison, la Commission devrait continuer à suivre la ligne de conduite qu'elle vient de définir.
 1	Je	il	PRON	_	Number=Sing|Person=1	2	subj	_	_
 2	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	dès	dès	ADP	_	_	2	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=dès_lors
+3	dès	dès	ADP	_	_	2	mod	_	ExtPos=ADV|Idiom=Yes
 4	lors	lors	ADV	_	_	3	unk	_	InIdiom=Yes
 5	que	que	SCONJ	_	_	2	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	29	punct	_	_
@@ -15146,7 +15146,7 @@
 28	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	catastrophe	catastrophe	NOUN	_	Gender=Fem|Number=Sing	27	comp:obj	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	33	punct	_	_
-31	non	non	ADV	_	Polarity=Neg	33	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=non_seulement
+31	non	non	ADV	_	Polarity=Neg	33	mod	_	ExtPos=ADV|Idiom=Yes
 32	seulement	seulement	ADV	_	_	31	unk	_	InIdiom=Yes
 33	pour	pour	ADP	_	_	27	mod	_	_
 34	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	35	det	_	_
@@ -15183,7 +15183,7 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Président	président	NOUN	_	Gender=Masc|Number=Sing	1	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	bien	bien	ADV	_	_	17	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=bien_que
+5	bien	bien	ADV	_	_	17	mod	_	ExtPos=SCONJ|Idiom=Yes
 6	que	que	SCONJ	_	_	5	unk	_	InIdiom=Yes
 7	je	il	PRON	_	Number=Sing|Person=1	8	subj	_	_
 8	félicite	féliciter	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
@@ -15210,7 +15210,7 @@
 29	allés	aller	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	27	comp:aux@tense	_	_
 30	assez	assez	ADV	_	_	31	mod	_	_
 31	loin	loin	ADV	_	_	29	comp:obl	_	_
-32	en	en	ADP	_	_	27	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=en_ce_qui_concerne
+32	en	en	ADP	_	_	27	mod	_	ExtPos=ADP|Idiom=Yes
 33	ce	ce	PRON	_	_	32	unk	_	InIdiom=Yes
 34	qui	qui	PRON	_	_	33	unk	_	InIdiom=Yes
 35	concerne	concerner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	unk	_	InIdiom=Yes
@@ -15450,7 +15450,7 @@
 
 # sent_id = Europar.550_00487
 # text = Eh bien, un célèbre retraité américain, l'astronaute John Glenn, est parti dans l'espace à l'âge de 69 ans.
-1	Eh	eh	INTJ	_	_	14	mod	_	ExtPos=INTJ|Idiom=Yes|mwelemma=eh_bien
+1	Eh	eh	INTJ	_	_	14	mod	_	ExtPos=INTJ|Idiom=Yes
 2	bien	bien	ADV	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -15624,7 +15624,7 @@
 9	j'	il	PRON	_	Number=Sing|Person=1	10	subj	_	SpaceAfter=No
 10	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
 11	effectuée	effectuer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
-12	il	il	PRON	_	Number=Sing|Person=3	10	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=il_y_a
+12	il	il	PRON	_	Number=Sing|Person=3	10	mod	_	ExtPos=ADP|Idiom=Yes
 13	y	y	PRON	_	Person=3	12	unk	_	InIdiom=Yes
 14	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	unk	_	InIdiom=Yes
 15	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
@@ -15669,7 +15669,7 @@
 30	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	mod@relcl	_	_
 31	été	être	AUX	_	Tense=Past|VerbForm=Part	30	comp:aux@tense	_	_
 32	initiée	initier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	31	comp:aux@pass	_	_
-33	il	il	PRON	_	Number=Sing|Person=3	32	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=il_y_a
+33	il	il	PRON	_	Number=Sing|Person=3	32	mod	_	ExtPos=ADP|Idiom=Yes
 34	y	y	PRON	_	Person=3	33	unk	_	InIdiom=Yes
 35	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	unk	_	InIdiom=Yes
 36	plusieurs	plusieurs	DET	_	Number=Plur	37	det	_	_
@@ -15884,7 +15884,7 @@
 6	égard	égard	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	qu'	que	SCONJ	_	_	3	comp:obj	_	SpaceAfter=No
-9	il	il	PRON	_	Number=Sing|Person=3	24	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=il_y_a
+9	il	il	PRON	_	Number=Sing|Person=3	24	mod	_	ExtPos=ADP|Idiom=Yes
 10	y	y	PRON	_	Person=3	9	unk	_	InIdiom=Yes
 11	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	unk	_	InIdiom=Yes
 12	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
@@ -15961,7 +15961,7 @@
 19	n'	ne	ADV	_	Polarity=Neg	21	mod	_	SpaceAfter=No
 20	y	y	PRON	_	Person=3	21	comp@expl	_	_
 21	paraît	paraître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
-22	parce	parce	SCONJ	_	_	14	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=parce_que
+22	parce	parce	SCONJ	_	_	14	mod	_	ExtPos=SCONJ|Idiom=Yes
 23	que	que	SCONJ	_	_	22	unk	_	InIdiom=Yes
 24	cela	cela	PRON	_	Number=Sing|PronType=Dem	26	subj	_	_
 25	me	le	PRON	_	Number=Sing|Person=1	26	comp:obl	_	_
@@ -16067,7 +16067,7 @@
 3	souhaite	souhaiter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	5	mod	_	_
 5	chance	chance	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
-6	ainsi	ainsi	ADV	_	_	8	cc	_	ExtPos=CCONJ|Idiom=Yes|mwelemma=ainsi_que
+6	ainsi	ainsi	ADV	_	_	8	cc	_	ExtPos=CCONJ|Idiom=Yes
 7	qu'	que	SCONJ	_	_	6	unk	_	InIdiom=Yes|SpaceAfter=No
 8	à	à	ADP	_	_	3	conj	_	_
 9	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	11	mod	_	_
@@ -16251,7 +16251,7 @@
 13	,	,	PUNCT	_	_	8	punct	_	_
 14	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	présenté	présenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	_
-16	à	à	ADP	_	_	15	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=à_nouveau
+16	à	à	ADP	_	_	15	mod	_	ExtPos=ADV|Idiom=Yes
 17	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	16	unk	_	InIdiom=Yes
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	résolution	résolution	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
@@ -16348,7 +16348,7 @@
 
 # sent_id = Europar.550_00516
 # text = Parce que ce rapport indique à plusieurs reprises qu'il faut contrôler, qu'il faut réagir au vieillissement de la population -le nombre de personnes âgées ne cesse d'augmenter et cette situation rend difficile le soutien des systèmes de pension-, qu'il faut se montrer vigilants et inviter les États membres à dépenser toujours moins d'argent pour le paiement des pensions des personnes âgées.
-1	Parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=parce_que
+1	Parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
@@ -16546,7 +16546,7 @@
 9	commerce	commerce	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 10	existe	exister	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	d'	de	ADP	_	_	2	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=d'autant|SpaceAfter=No
+12	d'	de	ADP	_	_	2	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
 13	autant	autant	ADV	_	_	12	unk	_	InIdiom=Yes
 14	que	que	SCONJ	_	_	12	comp:obj	_	_
 15	bien	bien	ADV	_	_	16	mod	_	_
@@ -16717,7 +16717,7 @@
 20	pays	pays	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	25	punct	_	_
 22	et	et	CCONJ	_	_	25	cc	_	_
-23	en	en	ADP	_	_	22	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=en_particulier
+23	en	en	ADP	_	_	22	mod	_	ExtPos=ADV|Idiom=Yes
 24	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	23	unk	_	InIdiom=Yes
 25	d'	de	ADP	_	_	9	conj	_	SpaceAfter=No
 26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
@@ -16749,7 +16749,7 @@
 15	et	et	CCONJ	_	_	17	cc	_	_
 16	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	17	subj@expl	_	_
 17	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
-18	tout	tout	ADV	_	_	21	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=tout_à_fait
+18	tout	tout	ADV	_	_	21	mod	_	ExtPos=ADV|Idiom=Yes
 19	à	à	ADP	_	_	18	unk	_	InIdiom=Yes
 20	fait	fait	NOUN	_	Gender=Masc|Number=Sing	19	unk	_	InIdiom=Yes
 21	possible	possible	ADJ	_	Number=Sing	17	comp:pred	_	_
@@ -16841,7 +16841,7 @@
 28	espagnole	espagnol	ADJ	_	Gender=Fem|Number=Sing	26	mod	_	_
 29	et	et	CCONJ	_	_	34	cc	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	_
-31	en	en	ADP	_	_	29	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=en_particulier
+31	en	en	ADP	_	_	29	mod	_	ExtPos=ADV|Idiom=Yes
 32	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	31	unk	_	InIdiom=Yes|SpaceAfter=No
 33	,	,	PUNCT	_	_	31	punct	_	_
 34	basque	basque	ADJ	_	Number=Sing	28	conj	_	SpaceAfter=No
@@ -16999,7 +16999,7 @@
 30	assassinats	assassinat	NOUN	_	Gender=Masc|Number=Plur	28	comp:obj	_	_
 31	terroristes	terroriste	ADJ	_	Number=Plur	30	mod	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	33	punct	_	_
-33	parce	parce	SCONJ	_	_	20	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=parce_que
+33	parce	parce	SCONJ	_	_	20	mod	_	ExtPos=SCONJ|Idiom=Yes
 34	qu'	que	SCONJ	_	_	33	unk	_	InIdiom=Yes|SpaceAfter=No
 35	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	37	subj	_	_
 36	n'	ne	ADV	_	Polarity=Neg	37	mod	_	SpaceAfter=No
@@ -17037,7 +17037,7 @@
 17	dans	dans	ADP	_	_	13	mod	_	_
 18	certaines	certain	DET	_	Gender=Fem|Number=Plur	19	det	_	_
 19	municipalités	municipalité	NOUN	_	Gender=Fem|Number=Plur	17	comp:obj	_	_
-20	parce	parce	SCONJ	_	_	8	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=parce_que
+20	parce	parce	SCONJ	_	_	8	mod	_	ExtPos=SCONJ|Idiom=Yes
 21	qu'	que	SCONJ	_	_	20	unk	_	InIdiom=Yes|SpaceAfter=No
 22	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	23	subj@expl	_	_
 23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
@@ -17056,7 +17056,7 @@
 36	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	violence	violence	NOUN	_	Gender=Fem|Number=Sing	31	conj	_	_
 38	permanente	permanent	ADJ	_	Gender=Fem|Number=Sing	37	mod	_	_
-39	en	en	ADP	_	_	37	udep	_	ExtPos=ADP|Idiom=Yes|mwelemma=en_tant_que
+39	en	en	ADP	_	_	37	udep	_	ExtPos=ADP|Idiom=Yes
 40	tant	tant	ADV	_	_	39	unk	_	InIdiom=Yes
 41	que	que	SCONJ	_	_	40	unk	_	InIdiom=Yes
 42	stratégie	stratégie	NOUN	_	Gender=Fem|Number=Sing	39	comp:obj	_	_
@@ -17074,7 +17074,7 @@
 7	mots	mot	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
 8	pour	pour	ADP	_	_	4	mod	_	_
 9	condamner	condamner	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=Generic
-10	non	non	ADV	_	Polarity=Neg	13	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=non_seulement
+10	non	non	ADV	_	Polarity=Neg	13	mod	_	ExtPos=ADV|Idiom=Yes
 11	seulement	seulement	ADV	_	_	10	unk	_	InIdiom=Yes
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	assassins	assassin	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	_
@@ -17295,7 +17295,7 @@
 2	crée	créer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	problème	problème	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
-5	en	en	ADP	_	_	2	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=en_ce_qui_concerne
+5	en	en	ADP	_	_	2	mod	_	ExtPos=ADP|Idiom=Yes
 6	ce	ce	PRON	_	_	5	unk	_	InIdiom=Yes
 7	qui	qui	PRON	_	_	6	unk	_	InIdiom=Yes
 8	concerne	concerner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	unk	_	InIdiom=Yes
@@ -17384,7 +17384,7 @@
 42	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
 43	permission	permission	NOUN	_	Gender=Fem|Number=Sing	41	comp:obj	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	45	punct	_	_
-45	à	à	ADP	_	_	23	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=à_moins
+45	à	à	ADP	_	_	23	mod	_	ExtPos=ADV|Idiom=Yes
 46	moins	moins	ADV	_	_	45	unk	_	InIdiom=Yes
 47	qu'	que	SCONJ	_	_	45	comp:obj	_	SpaceAfter=No
 48	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3	50	subj@pass	_	_
@@ -17450,7 +17450,7 @@
 10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	11	subj	_	_
 11	jouit	jouir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	en	en	ADP	_	_	11	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=en_tant_que
+13	en	en	ADP	_	_	11	mod	_	ExtPos=ADP|Idiom=Yes
 14	tant	tant	ADV	_	_	13	unk	_	InIdiom=Yes
 15	que	que	SCONJ	_	_	14	unk	_	InIdiom=Yes
 16	membre	membre	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
@@ -17620,7 +17620,7 @@
 10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
 11	députés	député	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	_
 12	individuels	individuel	ADJ	_	Gender=Masc|Number=Plur	11	mod	_	_
-13	en	en	ADP	_	_	11	udep	_	ExtPos=ADP|Idiom=Yes|mwelemma=en_tant_que
+13	en	en	ADP	_	_	11	udep	_	ExtPos=ADP|Idiom=Yes
 14	tant	tant	ADV	_	_	13	unk	_	InIdiom=Yes
 15	que	que	SCONJ	_	_	14	unk	_	InIdiom=Yes
 16	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	13	comp:obj	_	_
@@ -17697,7 +17697,7 @@
 # text = Premièrement : pour ce qui est de la base légale, notre collègue Lechner a déjà suffisamment argumenté.
 1	Premièrement	premièrement	ADV	_	_	15	mod	_	_
 2	:	:	PUNCT	_	_	15	punct	_	_
-3	pour	pour	ADP	_	_	15	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=pour_ce_qui_est
+3	pour	pour	ADP	_	_	15	mod	_	ExtPos=ADP|Idiom=Yes
 4	ce	ce	PRON	_	_	3	unk	_	InIdiom=Yes
 5	qui	qui	PRON	_	PronType=Rel	4	unk	_	InIdiom=Yes
 6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	unk	_	InIdiom=Yes
@@ -17804,7 +17804,7 @@
 
 # sent_id = Europar.550_00561
 # text = Pour ce qui est des ingrédients, les mêmes valeurs devraient avoir cours pour les exportations de l'Europe vers les pays tiers.
-1	Pour	pour	ADP	_	_	12	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=pour_ce_qui_est
+1	Pour	pour	ADP	_	_	12	mod	_	ExtPos=ADP|Idiom=Yes
 2	ce	ce	PRON	_	_	1	unk	_	InIdiom=Yes
 3	qui	qui	PRON	_	PronType=Rel	2	unk	_	InIdiom=Yes
 4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	unk	_	InIdiom=Yes

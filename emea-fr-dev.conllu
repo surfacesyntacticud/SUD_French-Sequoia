@@ -302,7 +302,7 @@
 4	en	en	ADP	_	_	2	mod	_	_
 5	conjonction	conjonction	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 6	avec	avec	ADP	_	_	5	udep	_	_
-7	de	de	ADP	_	_	9	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+7	de	de	ADP	_	_	9	det	_	ExtPos=DET|Idiom=Yes
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	unk	_	InIdiom=Yes|SpaceAfter=No
 9	aspirine	aspirine	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
@@ -932,7 +932,7 @@
 59	en	en	ADP	_	_	57	udep	_	_
 60	combinaison	combinaison	NOUN	_	Gender=Fem|Number=Sing	59	comp:obj	_	_
 61	avec	avec	ADP	_	_	60	udep	_	_
-62	de	de	ADP	_	_	64	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+62	de	de	ADP	_	_	64	det	_	ExtPos=DET|Idiom=Yes
 63	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	62	unk	_	InIdiom=Yes|SpaceAfter=No
 64	héparine	héparine	NOUN	_	Gender=Fem|Number=Sing	61	comp:obj	_	_
 65	(	(	PUNCT	_	_	68	punct	_	SpaceAfter=No
@@ -955,7 +955,7 @@
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	également	également	ADV	_	_	4	mod	_	_
 6	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
-7	de	de	ADP	_	_	9	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+7	de	de	ADP	_	_	9	det	_	ExtPos=DET|Idiom=Yes
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	unk	_	InIdiom=Yes|SpaceAfter=No
 9	aspirine	aspirine	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
@@ -971,7 +971,7 @@
 2	efficacité	efficacité	NOUN	_	Gender=Fem|Number=Sing	13	subj@pass	_	_
 3	d'	de	ADP	_	_	2	udep	_	SpaceAfter=No
 4	Angiox	Angiox	PROPN	_	_	3	comp:obj	_	_
-5	en	en	ADP	_	_	4	udep	_	ExtPos=ADP|Idiom=Yes|mwelemma=en_tant_que
+5	en	en	ADP	_	_	4	udep	_	ExtPos=ADP|Idiom=Yes
 6	tant	tant	ADV	_	_	5	unk	_	InIdiom=Yes
 7	qu'	que	SCONJ	_	_	6	unk	_	InIdiom=Yes|SpaceAfter=No
 8	anticoagulant	anticoagulant	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
@@ -1198,7 +1198,7 @@
 10	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	9	mod	_	_
 11	également	également	ADV	_	_	10	mod	_	_
 12	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
-13	de	de	ADP	_	_	15	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+13	de	de	ADP	_	_	15	det	_	ExtPos=DET|Idiom=Yes
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	unk	_	InIdiom=Yes|SpaceAfter=No
 15	aspirine	aspirine	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
 16	et	et	CCONJ	_	_	18	cc	_	_
@@ -1258,7 +1258,7 @@
 20	mesures	mesure	NOUN	_	Gender=Fem|Number=Plur	17	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	17	punct	_	_
 22	excepté	excepté	ADP	_	_	10	mod	_	_
-23	en	en	ADP	_	_	22	comp:obj	_	ExtPos=ADP|Idiom=Yes|mwelemma=en_ce_qui_concerne
+23	en	en	ADP	_	_	22	comp:obj	_	ExtPos=ADP|Idiom=Yes
 24	ce	ce	PRON	_	_	23	unk	_	InIdiom=Yes
 25	qui	qui	PRON	_	_	24	unk	_	InIdiom=Yes
 26	concerne	concerner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	unk	_	InIdiom=Yes
@@ -1394,7 +1394,7 @@
 # text = Il convient en outre de ne pas l'utiliser chez les patients ayant eu une hémorragie récente, souffrant d'hypertension aiguë ou présentant des troubles graves des reins, ou encore chez les patients présentant une infection cardiaque.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	2	subj@expl	_	_
 2	convient	convenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	en	en	ADP	_	_	2	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=en_outre
+3	en	en	ADP	_	_	2	mod	_	ExtPos=ADV|Idiom=Yes
 4	outre	outre	ADP	_	_	3	unk	_	InIdiom=Yes
 5	de	de	ADP	_	_	2	comp:obj@agent	_	_
 6	ne	ne	ADV	_	Polarity=Neg	9	mod	_	_
@@ -1544,7 +1544,7 @@
 35	précoce	précoce	ADJ	_	Number=Sing	33	conj	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	37	punct	_	_
 37	avec	avec	ADP	_	_	30	mod	_	_
-38	de	de	ADP	_	_	40	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+38	de	de	ADP	_	_	40	det	_	ExtPos=DET|Idiom=Yes
 39	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	38	unk	_	InIdiom=Yes|SpaceAfter=No
 40	aspirine	aspirine	NOUN	_	Gender=Fem|Number=Sing	37	comp:obj	_	_
 41	et	et	CCONJ	_	_	43	cc	_	_
@@ -1951,7 +1951,7 @@
 3	être	être	AUX	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising
 4	administré	administrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	_
 5	avec	avec	ADP	_	_	3	mod	_	_
-6	de	de	ADP	_	_	8	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+6	de	de	ADP	_	_	8	det	_	ExtPos=DET|Idiom=Yes
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	unk	_	InIdiom=Yes|SpaceAfter=No
 8	aspirine	aspirine	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 9	et	et	CCONJ	_	_	11	cc	_	_
@@ -2282,7 +2282,7 @@
 36	patient	patient	NOUN	_	Gender=Masc|Number=Sing	37	subj@pass	_	_
 37	traité	traiter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	31	conj	_	_
 38	avec	avec	ADP	_	_	37	mod	_	_
-39	de	de	ADP	_	_	41	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+39	de	de	ADP	_	_	41	det	_	ExtPos=DET|Idiom=Yes
 40	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	39	unk	_	InIdiom=Yes|SpaceAfter=No
 41	héparine	héparine	NOUN	_	Gender=Fem|Number=Sing	38	comp:obj	_	_
 42	non	non	ADV	_	Polarity=Neg	43	mod	_	_
@@ -2338,7 +2338,7 @@
 41	heure	heure	NOUN	_	Gender=Fem|Number=Sing	40	comp:obj	_	_
 42	pendant	pendant	ADP	_	_	31	udep	_	_
 43-44	au	_	_	_	_	_	_	_	_
-43	à	à	ADP	_	_	47	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=au_moins
+43	à	à	ADP	_	_	47	mod	_	ExtPos=ADV|Idiom=Yes
 44	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	unk	_	InIdiom=Yes
 45	moins	moins	ADV	_	_	44	unk	_	InIdiom=Yes
 46	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
@@ -2589,7 +2589,7 @@
 
 # sent_id = emea-fr-dev_00123
 # text = Une fois que la valeur ACT est supérieure à 225 secondes, des contrôles supplémentaires ne sont pas nécessaires, à condition que la dose de perfusion de 1,75 mg/kg soit donnée correctement.
-1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=une_fois
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	mod	_	ExtPos=ADP|Idiom=Yes
 2	fois	fois	NOUN	_	Gender=Fem	1	unk	_	InIdiom=Yes
 3	que	que	SCONJ	_	_	1	comp:obj	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -2939,7 +2939,7 @@
 17	/	/	ADP	_	_	16	udep	_	SpaceAfter=No
 18	min	min	NOUN	_	Gender=Masc	17	comp:obj	_	SpaceAfter=No
 19	)	)	PUNCT	_	_	14	punct	_	_
-20	ainsi	ainsi	ADV	_	_	22	cc	_	ExtPos=CCONJ|Idiom=Yes|mwelemma=ainsi_que
+20	ainsi	ainsi	ADV	_	_	22	cc	_	ExtPos=CCONJ|Idiom=Yes
 21	que	que	SCONJ	_	_	20	unk	_	InIdiom=Yes
 22	chez	chez	ADP	_	_	4	conj	_	_
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
@@ -2989,7 +2989,7 @@
 
 # sent_id = emea-fr-dev_00138
 # text = dès lors, la sécurité et l'efficacité de la bivalirudine n'ont pas été étudiées de manière spécifique chez des patients atteints d'insuffisance hépatique.
-1	dès	dès	ADP	_	_	13	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=dès_lors
+1	dès	dès	ADP	_	_	13	mod	_	ExtPos=ADV|Idiom=Yes
 2	lors	lors	ADV	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -3045,13 +3045,13 @@
 # text = Utilisation avec de l'héparine non fractionnée et de l'héparine de bas poids moléculaire
 1	Utilisation	utilisation	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	avec	avec	ADP	_	_	1	udep	_	_
-3	de	de	ADP	_	_	5	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+3	de	de	ADP	_	_	5	det	_	ExtPos=DET|Idiom=Yes
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	unk	_	InIdiom=Yes|SpaceAfter=No
 5	héparine	héparine	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
 6	non	non	ADV	_	Polarity=Neg	7	mod	_	_
 7	fractionnée	fractionner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	mod	_	_
 8	et	et	CCONJ	_	_	11	cc	_	_
-9	de	de	ADP	_	_	11	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+9	de	de	ADP	_	_	11	det	_	ExtPos=DET|Idiom=Yes
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	unk	_	InIdiom=Yes|SpaceAfter=No
 11	héparine	héparine	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
 12	de	de	ADP	_	_	11	udep	_	_
@@ -3218,7 +3218,7 @@
 15	de	de	ADP	_	_	14	udep	_	_
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 17	hémostase	hémostase	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
-18	et	et	CCONJ	_	_	21	cc	_	ExtPos=CCONJ|Idiom=Yes|mwelemma=et_/_ou|SpaceAfter=No
+18	et	et	CCONJ	_	_	21	cc	_	ExtPos=CCONJ|Idiom=Yes|SpaceAfter=No
 19	/	/	SYM	_	_	18	unk	_	InIdiom=Yes|SpaceAfter=No
 20	ou	ou	CCONJ	_	_	19	unk	_	InIdiom=Yes
 21	de	de	ADP	_	_	13	conj	_	_
@@ -3237,7 +3237,7 @@
 4	sévère	sévère	ADJ	_	Number=Sing	3	mod	_	_
 5	non	non	ADV	_	Polarity=Neg	6	mod	_	_
 6	contrôlée	contrôler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	mod	_	_
-7	et	et	CCONJ	_	_	11	cc	_	ExtPos=CCONJ|Idiom=Yes|mwelemma=et_/_ou|SpaceAfter=No
+7	et	et	CCONJ	_	_	11	cc	_	ExtPos=CCONJ|Idiom=Yes|SpaceAfter=No
 8	/	/	SYM	_	_	7	unk	_	InIdiom=Yes|SpaceAfter=No
 9	ou	ou	CCONJ	_	_	8	unk	_	InIdiom=Yes
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -3261,7 +3261,7 @@
 11	/	/	ADP	_	_	10	udep	_	SpaceAfter=No
 12	min	min	NOUN	_	Gender=Masc	11	comp:obj	_	SpaceAfter=No
 13	)	)	PUNCT	_	_	8	punct	_	_
-14	ainsi	ainsi	ADV	_	_	16	cc	_	ExtPos=CCONJ|Idiom=Yes|mwelemma=ainsi_que
+14	ainsi	ainsi	ADV	_	_	16	cc	_	ExtPos=CCONJ|Idiom=Yes
 15	que	que	SCONJ	_	_	14	unk	_	InIdiom=Yes
 16	chez	chez	ADP	_	_	1	conj	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
@@ -3354,7 +3354,7 @@
 
 # sent_id = emea-fr-dev_00157
 # text = Bien que la plupart des saignements associés à la bivalirudine se produisent au site d'accès artériel chez les patients qui subissent une ICP, une hémorragie peut se produire à n'importe quel endroit pendant le traitement.
-1	Bien	bien	ADV	_	_	30	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=bien_que
+1	Bien	bien	ADV	_	_	30	mod	_	ExtPos=SCONJ|Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	13	subj	_	_
@@ -3389,7 +3389,7 @@
 31	se	se	PRON	_	Person=3|Reflex=Yes	32	comp@expl	_	_
 32	produire	produire	VERB	_	VerbForm=Inf	30	comp:obj	_	Subject=SubjRaising
 33	à	à	ADP	_	_	32	mod	_	_
-34	n'	ne	ADV	_	Polarity=Neg	37	det	_	ExtPos=DET|Idiom=Yes|mwelemma=n'importe_quel|SpaceAfter=No
+34	n'	ne	ADV	_	Polarity=Neg	37	det	_	ExtPos=DET|Idiom=Yes|SpaceAfter=No
 35	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	unk	_	InIdiom=Yes
 36	quel	quel	DET	_	Gender=Masc|Number=Sing	35	unk	_	InIdiom=Yes
 37	endroit	endroit	NOUN	_	Gender=Masc|Number=Sing	33	comp:obj	_	_
@@ -3651,7 +3651,7 @@
 34	respiration	respiration	NOUN	_	Gender=Fem|Number=Sing	26	conj	_	_
 35	sifflante	sifflant	ADJ	_	Gender=Fem|Number=Sing	34	mod	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	39	punct	_	_
-37	de	de	ADP	_	_	39	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+37	de	de	ADP	_	_	39	det	_	ExtPos=DET|Idiom=Yes
 38	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	37	unk	_	InIdiom=Yes|SpaceAfter=No
 39	hypotension	hypotension	NOUN	_	Gender=Fem|Number=Sing	34	conj	_	_
 40	et	et	CCONJ	_	_	42	cc	_	_
@@ -3688,7 +3688,7 @@
 2	réactions	réaction	NOUN	_	Gender=Fem|Number=Plur	12	subj@pass	_	_
 3	anaphylactiques	anaphylactique	ADJ	_	Number=Plur	2	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	y	y	PRON	_	Person=3	2	udep	_	ExtPos=ADP|Idiom=Yes|mwelemma=y_compris
+5	y	y	PRON	_	Person=3	2	udep	_	ExtPos=ADP|Idiom=Yes
 6	compris	compris	ADJ	_	Gender=Masc	5	unk	_	InIdiom=Yes
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	choc	choc	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
@@ -3989,7 +3989,7 @@
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
 7	concluantes	concluant	ADJ	_	Gender=Fem|Number=Plur	5	comp:pred	_	_
-8	pour	pour	ADP	_	_	5	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=pour_ce_qui_est
+8	pour	pour	ADP	_	_	5	mod	_	ExtPos=ADP|Idiom=Yes
 9	ce	ce	PRON	_	_	8	unk	_	InIdiom=Yes
 10	qui	qui	PRON	_	PronType=Rel	9	unk	_	InIdiom=Yes
 11	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	unk	_	InIdiom=Yes
@@ -4048,7 +4048,7 @@
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	femme	femme	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 10	enceinte	enceinte	ADJ	_	Gender=Fem|Number=Sing	9	mod	_	_
-11	à	à	ADP	_	_	3	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=à_moins
+11	à	à	ADP	_	_	3	mod	_	ExtPos=ADV|Idiom=Yes
 12	moins	moins	ADV	_	_	11	unk	_	InIdiom=Yes
 13	d'	de	ADP	_	_	12	comp:obl	_	SpaceAfter=No
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -4206,14 +4206,14 @@
 27	été	être	AUX	_	Tense=Past|VerbForm=Part	26	comp:aux@tense	_	_
 28	traités	traiter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	27	comp:aux@pass	_	_
 29	avec	avec	ADP	_	_	26	mod	_	_
-30	de	de	ADP	_	_	32	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+30	de	de	ADP	_	_	32	det	_	ExtPos=DET|Idiom=Yes
 31	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	30	unk	_	InIdiom=Yes|SpaceAfter=No
 32	héparine	héparine	NOUN	_	Gender=Fem|Number=Sing	29	comp:obj	_	_
 33	non	non	ADV	_	Polarity=Neg	34	mod	_	_
 34	fractionnée	fractionner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	32	mod	_	_
 35	ou	ou	CCONJ	_	_	36	cc	_	_
 36	avec	avec	ADP	_	_	29	conj	_	_
-37	de	de	ADP	_	_	39	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+37	de	de	ADP	_	_	39	det	_	ExtPos=DET|Idiom=Yes
 38	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	37	unk	_	InIdiom=Yes|SpaceAfter=No
 39	enoxaparine	enoxaparine	NOUN	_	Gender=Fem|Number=Sing	36	comp:obj	_	_
 40	plus	plus	ADP	_	_	39	udep	_	_
@@ -4280,13 +4280,13 @@
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	patients	patient	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
 7	recevant	recevoir	VERB	_	Tense=Pres|VerbForm=Part	6	mod	_	_
-8	de	de	ADP	_	_	10	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+8	de	de	ADP	_	_	10	det	_	ExtPos=DET|Idiom=Yes
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	unk	_	InIdiom=Yes
 10	bivalirudine	bivalirudine	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 11	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	présenté	présenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
 13-14	au	_	_	_	_	_	_	_	_
-13	à	à	ADP	_	_	17	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=au_moins
+13	à	à	ADP	_	_	17	mod	_	ExtPos=ADV|Idiom=Yes
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	unk	_	InIdiom=Yes
 15	moins	moins	ADV	_	_	14	unk	_	InIdiom=Yes
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -4526,7 +4526,7 @@
 20	seule	seul	ADJ	_	Gender=Fem|Number=Sing	19	mod	_	_
 21	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	15	mod	_	_
 22	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	comp:aux@tense	_	_
-23	de	de	ADP	_	_	25	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+23	de	de	ADP	_	_	25	det	_	ExtPos=DET|Idiom=Yes
 24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	unk	_	InIdiom=Yes|SpaceAfter=No
 25	héparine	héparine	NOUN	_	Gender=Fem|Number=Sing	22	comp:obj	_	_
 26	avant	avant	ADP	_	_	21	mod	_	_
@@ -4988,7 +4988,7 @@
 16	,	,	PUNCT	_	_	22	punct	_	_
 17	et	et	CCONJ	_	_	22	cc	_	_
 18	6	6	PRON	_	NumType=Card	22	subj	_	_
-19	d'	de	ADP	_	_	18	udep	_	ExtPos=ADP|Idiom=Yes|mwelemma=d'entre|SpaceAfter=No
+19	d'	de	ADP	_	_	18	udep	_	ExtPos=ADP|Idiom=Yes|SpaceAfter=No
 20	entre	entre	ADP	_	_	19	unk	_	InIdiom=Yes
 21	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	comp:obj	_	_
 22	recevaient	recevoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
@@ -5119,13 +5119,13 @@
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	patients	patient	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
 7	recevant	recevoir	VERB	_	Tense=Pres|VerbForm=Part	6	mod	_	_
-8	de	de	ADP	_	_	10	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+8	de	de	ADP	_	_	10	det	_	ExtPos=DET|Idiom=Yes
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	unk	_	InIdiom=Yes
 10	bivalirudine	bivalirudine	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 11	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	présenté	présenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
 13-14	au	_	_	_	_	_	_	_	_
-13	à	à	ADP	_	_	17	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=au_moins
+13	à	à	ADP	_	_	17	mod	_	ExtPos=ADV|Idiom=Yes
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	unk	_	InIdiom=Yes
 15	moins	moins	ADV	_	_	14	unk	_	InIdiom=Yes
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -5357,7 +5357,7 @@
 30	transfusion	transfusion	NOUN	_	Gender=Fem|Number=Sing	28	comp:obj	_	_
 31	d'	de	ADP	_	_	30	udep	_	SpaceAfter=No
 32-33	au	_	_	_	_	_	_	_	_
-32	à	à	ADP	_	_	36	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=au_moins
+32	à	à	ADP	_	_	36	mod	_	ExtPos=ADV|Idiom=Yes
 33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	unk	_	InIdiom=Yes
 34	moins	moins	ADV	_	_	33	unk	_	InIdiom=Yes
 35	deux	deux	NUM	_	NumType=Card	36	det	_	_
@@ -5704,7 +5704,7 @@
 5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	_
 6	été	être	AUX	_	Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 7	rapportées	rapporter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	comp:aux@pass	_	_
-8	à	à	ADP	_	_	7	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=à_partir
+8	à	à	ADP	_	_	7	mod	_	ExtPos=ADV|Idiom=Yes
 9	partir	partir	VERB	_	VerbForm=Inf	8	unk	_	InIdiom=Yes|Subject=Generic
 10	d'	de	ADP	_	_	9	comp:obl	_	SpaceAfter=No
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -5986,7 +5986,7 @@
 # text = Angiox contient de la bivalirudine, un inhibiteur direct et spécifique de la thrombine, qui se lie à la fois au site catalytique et à l'exosite de liaison des anions de la thrombine en phase liquide et liée aux caillots.
 1	Angiox	Angiox	PROPN	_	_	2	subj	_	_
 2	contient	contenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	de	de	ADP	_	_	5	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+3	de	de	ADP	_	_	5	det	_	ExtPos=DET|Idiom=Yes
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	unk	_	InIdiom=Yes
 5	bivalirudine	bivalirudine	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
@@ -6156,7 +6156,7 @@
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	réversible	réversible	ADJ	_	Number=Sing	16	comp:pred	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	dans	dans	ADP	_	_	16	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=dans_la_mesure_où
+19	dans	dans	ADP	_	_	16	mod	_	ExtPos=SCONJ|Idiom=Yes
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	unk	_	InIdiom=Yes
 21	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	20	unk	_	InIdiom=Yes
 22	où	où	PRON	_	PronType=Rel	21	unk	_	InIdiom=Yes
@@ -6255,7 +6255,7 @@
 # text = Des études in vitro ont montré que la bivalirudine inhibe à la fois la thrombine soluble (libre) et la thrombine liée aux caillots.
 1	Des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	det	_	_
 2	études	étude	NOUN	_	Gender=Fem|Number=Plur	5	subj	_	_
-3	in	in	X	_	Foreign=Yes	2	mod	_	ExtPos=ADJ|Idiom=Yes|mwelemma=in_vitro
+3	in	in	X	_	Foreign=Yes	2	mod	_	ExtPos=ADJ|Idiom=Yes
 4	vitro	vitro	X	_	Foreign=Yes	3	unk	_	InIdiom=Yes
 5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
@@ -6309,7 +6309,7 @@
 # text = Des études in vitro ont également montré que la bivalirudine allonge de manière concentration-dépendante le temps de thromboplastine partielle activée (aPTT), le temps de thrombine (TT) et le taux de prothrombine (TP) d'un plasma humain normal, et qu'elle n'induit pas d'agrégation plaquettaire en réponse à des sérums de patients avec antécédents de syndrome de thrombocytopénie induite par l'héparine avec thrombose (TIH/STIHT).
 1	Des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	det	_	_
 2	études	étude	NOUN	_	Gender=Fem|Number=Plur	5	subj	_	_
-3	in	in	X	_	Foreign=Yes	2	mod	_	ExtPos=ADJ|Idiom=Yes|mwelemma=in_vitro
+3	in	in	X	_	Foreign=Yes	2	mod	_	ExtPos=ADJ|Idiom=Yes
 4	vitro	vitro	X	_	Foreign=Yes	3	unk	_	InIdiom=Yes
 5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	également	également	ADV	_	_	5	mod	_	_
@@ -6571,7 +6571,7 @@
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	randomisée	randomiser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	en	en	ADP	_	_	4	mod	_	ExtPos=ADJ|Idiom=Yes|mwelemma=en_ouvert
+9	en	en	ADP	_	_	4	mod	_	ExtPos=ADJ|Idiom=Yes
 10	ouvert	ouvrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	unk	_	InIdiom=Yes|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	destinée	destiner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	mod	_	_
@@ -6839,7 +6839,7 @@
 
 # sent_id = emea-fr-dev_00315
 # text = En ce qui concerne les caractéristiques de la population d'ACUITY, à savoir des patients à haut risque nécessitant une angiographie dans les 72 h, la répartition est homogène dans les 3 bras de traitement.
-1	En	en	ADP	_	_	30	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=en_ce_qui_concerne
+1	En	en	ADP	_	_	30	mod	_	ExtPos=ADP|Idiom=Yes
 2	ce	ce	PRON	_	_	1	unk	_	InIdiom=Yes
 3	qui	qui	PRON	_	_	2	unk	_	InIdiom=Yes
 4	concerne	concerner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	unk	_	InIdiom=Yes
@@ -6851,7 +6851,7 @@
 10	d'	de	ADP	_	_	9	udep	_	SpaceAfter=No
 11	ACUITY	ACUITY	PROPN	_	_	10	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	16	punct	_	_
-13	à	à	ADP	_	_	16	cc	_	ExtPos=CCONJ|Idiom=Yes|mwelemma=à_savoir
+13	à	à	ADP	_	_	16	cc	_	ExtPos=CCONJ|Idiom=Yes
 14	savoir	savoir	VERB	_	VerbForm=Inf	13	unk	_	InIdiom=Yes|Subject=Generic
 15	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
 16	patients	patient	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	_
@@ -6883,7 +6883,7 @@
 1	Environ	environ	ADV	_	_	3	mod	_	_
 2	77	77	NUM	_	NumType=Card	3	det	_	SpaceAfter=No
 3	%	%	NOUN	_	Gender=Masc	7	subj	_	_
-4	d'	de	ADP	_	_	3	udep	_	ExtPos=ADP|Idiom=Yes|mwelemma=d'entre|SpaceAfter=No
+4	d'	de	ADP	_	_	3	udep	_	ExtPos=ADP|Idiom=Yes|SpaceAfter=No
 5	entre	entre	ADP	_	_	4	unk	_	InIdiom=Yes
 6	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	comp:obj	_	_
 7	présentent	présenter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7013,7 +7013,7 @@
 28	patients	patient	NOUN	_	Gender=Masc|Number=Plur	26	comp:obj	_	_
 29	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	28	mod	_	_
 30	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	comp:aux@tense	_	_
-31	de	de	ADP	_	_	33	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+31	de	de	ADP	_	_	33	det	_	ExtPos=DET|Idiom=Yes
 32	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	31	unk	_	InIdiom=Yes|SpaceAfter=No
 33	aspirine	aspirine	NOUN	_	Gender=Fem|Number=Sing	30	comp:obj	_	_
 34	et	et	CCONJ	_	_	36	cc	_	_
@@ -7066,7 +7066,7 @@
 24	patients	patient	NOUN	_	Gender=Masc|Number=Plur	17	conj	_	_
 25	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	24	mod	_	_
 26	reçus	recevoir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	25	comp:aux@tense	_	_
-27	de	de	ADP	_	_	29	det	_	ExtPos=DET|Idiom=Yes|mwelemma=du
+27	de	de	ADP	_	_	29	det	_	ExtPos=DET|Idiom=Yes
 28	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	unk	_	InIdiom=Yes|SpaceAfter=No
 29	aspirine	aspirine	NOUN	_	Gender=Fem|Number=Sing	26	comp:obj	_	_
 30	et	et	CCONJ	_	_	32	cc	_	_
@@ -7453,7 +7453,7 @@
 
 # sent_id = emea-fr-dev_00335
 # text = En tant que peptide, la bivalirudine est logiquement catabolisée en ses acides aminés constitutifs, avec recyclage ultérieur des acides aminés dans le pool de l'organisme.
-1	En	en	ADP	_	_	8	mod	_	ExtPos=ADP|Idiom=Yes|mwelemma=en_tant_que
+1	En	en	ADP	_	_	8	mod	_	ExtPos=ADP|Idiom=Yes
 2	tant	tant	ADV	_	_	1	unk	_	InIdiom=Yes
 3	que	que	SCONJ	_	_	2	unk	_	InIdiom=Yes
 4	peptide	peptide	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
@@ -8231,7 +8231,7 @@
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	bivalirudine	bivalirudine	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
-18	parce	parce	SCONJ	_	_	5	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=parce_que
+18	parce	parce	SCONJ	_	_	5	mod	_	ExtPos=SCONJ|Idiom=Yes
 19	que	que	SCONJ	_	_	18	unk	_	InIdiom=Yes
 20	cela	cela	PRON	_	Number=Sing|PronType=Dem	21	subj	_	_
 21	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	comp:obj	_	_
@@ -9075,7 +9075,7 @@
 
 # sent_id = emea-fr-dev_00412
 # text = De plus, une mise à jour du PGR devra être soumise :
-1	De	de	ADP	_	_	11	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=de_plus
+1	De	de	ADP	_	_	11	mod	_	ExtPos=ADV|Idiom=Yes
 2	plus	plus	ADV	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -10116,7 +10116,7 @@
 10	autre	autre	ADJ	_	Number=Sing	11	mod	_	_
 11	médicament	médicament	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	7	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	même	même	ADV	_	_	2	mod	_	ExtPos=SCONJ|Idiom=Yes|mwelemma=même_si
+13	même	même	ADV	_	_	2	mod	_	ExtPos=SCONJ|Idiom=Yes
 14	s'	si	SCONJ	_	_	13	unk	_	InIdiom=Yes|SpaceAfter=No
 15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	17	subj@expl	_	_
 16	s'	se	PRON	_	Person=3|Reflex=Yes	17	comp@expl	_	SpaceAfter=No
@@ -11261,7 +11261,7 @@
 # text = - Nausées et/ou vomissements
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	Nausées	nausée	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
-3	et	et	CCONJ	_	_	6	cc	_	ExtPos=CCONJ|Idiom=Yes|mwelemma=et_/_ou|SpaceAfter=No
+3	et	et	CCONJ	_	_	6	cc	_	ExtPos=CCONJ|Idiom=Yes|SpaceAfter=No
 4	/	/	SYM	_	_	3	unk	_	InIdiom=Yes|SpaceAfter=No
 5	ou	ou	CCONJ	_	_	4	unk	_	InIdiom=Yes
 6	vomissements	vomissement	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
