@@ -2097,7 +2097,7 @@
 42	contre	contre	ADP	_	_	35	udep	_	_
 43	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	44	det	_	SpaceAfter=No
 44	Irak	Irak	PROPN	_	Gender=Masc|Number=Sing	42	comp:obj	_	_
-45	auprès	auprès	ADP	_	_	33	mod	_	ExtPos=ADV
+45	auprès	auprès	ADV	_	_	33	mod	_	_
 46	de	de	ADP	_	_	45	comp:obl	_	_
 47	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	48	det	_	SpaceAfter=No
 48	opinion	opinion	NOUN	_	Gender=Fem|Number=Sing	46	comp:obj	_	_
@@ -16533,7 +16533,7 @@
 103	fonds	fonds	NOUN	_	Gender=Masc|Number=Plur	101	comp:obj	_	SpaceAfter=No
 104	,	,	PUNCT	_	_	106	punct	_	_
 105	notamment	notamment	ADV	_	_	106	mod	_	_
-106	auprès	auprès	ADP	_	_	101	mod	_	ExtPos=ADV
+106	auprès	auprès	ADV	_	_	101	mod	_	_
 107-108	des	_	_	_	_	_	_	_	_
 107	de	de	ADP	_	_	106	comp:obl	_	_
 108	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	109	det	_	_
@@ -16931,7 +16931,7 @@
 38	activité	activité	NOUN	_	Gender=Fem|Number=Sing	36	comp:obj	_	_
 39	de	de	ADP	_	_	38	udep	_	_
 40	consultant	consultant	NOUN	_	Gender=Masc|Number=Sing	39	comp:obj	_	_
-41	auprès	auprès	ADP	_	_	36	mod	_	ExtPos=ADV
+41	auprès	auprès	ADV	_	_	36	mod	_	_
 42-43	des	_	_	_	_	_	_	_	_
 42	de	de	ADP	_	_	41	comp:obl	_	_
 43	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
@@ -17545,7 +17545,7 @@
 44	obtenir	obtenir	VERB	_	VerbForm=Inf	43	comp:obj	_	Subject=OblRaising
 45	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	46	det	_	_
 46	marchés	marché	NOUN	_	Gender=Masc|Number=Plur	44	comp:obj	_	_
-47	auprès	auprès	ADP	_	_	44	mod	_	ExtPos=ADV
+47	auprès	auprès	ADV	_	_	44	mod	_	_
 48-49	des	_	_	_	_	_	_	_	_
 48	de	de	ADP	_	_	47	comp:obl	_	_
 49	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
@@ -18132,8 +18132,8 @@
 30	années	année	NOUN	_	Gender=Fem|Number=Plur	28	comp:obj	_	_
 31	90	90	NUM	_	NumType=Card	30	mod	_	SpaceAfter=No
 32	,	,	PUNCT	_	Shared=Yes	17	punct	_	_
-33	et	et	CCONJ	_	_	50	cc	_	_
-34	jusqu'	jusque	ADP	_	_	50	orphan	_	SpaceAfter=No
+33	et	et	CCONJ	_	_	34	cc	_	_
+34	jusqu'	jusque	ADP	_	_	7	conj	_	SpaceAfter=No
 35-36	au	_	_	_	_	_	_	_	_
 35	à	à	ADP	_	_	34	comp:obj	_	_
 36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
@@ -18149,7 +18149,7 @@
 46	Tiberi	Tiberi	PROPN	_	_	45	flat@name	_	SpaceAfter=No
 47	,	,	PUNCT	_	_	34	punct	_	_
 48	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
-49	28	28	NUM	_	NumType=Card	9	conj	_	_
+49	28	28	NUM	_	NumType=Card	34	orphan	_	_
 50	juin	juin	NOUN	_	Gender=Masc|Number=Sing	49	udep	_	_
 51	1999	1999	NUM	_	NumType=Card	50	mod	_	SpaceAfter=No
 52	.	.	PUNCT	_	Shared=Yes	50	punct	_	_

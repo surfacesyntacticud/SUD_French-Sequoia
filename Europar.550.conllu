@@ -7531,7 +7531,7 @@
 27	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
 28	embargo	embargo	NOUN	_	Gender=Masc|Number=Sing	26	comp:obj	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	_
-30	faute	faute	NOUN	_	Gender=Fem|Number=Sing	21	mod	_	ExtPos=ADV
+30	faute	faute	ADV	_	_	21	mod	_	_
 31	de	de	ADP	_	_	30	comp:obl	_	_
 32	produits	produit	NOUN	_	Gender=Masc|Number=Plur	31	comp:obj	_	_
 33	alimentaires	alimentaire	ADJ	_	Number=Plur	32	mod	_	SpaceAfter=No
@@ -16791,7 +16791,7 @@
 27	pays	pays	NOUN	_	Gender=Masc|Number=Plur	25	comp:obj	_	_
 28	respectifs	respectif	ADJ	_	Gender=Masc|Number=Plur	27	mod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	_
-30	auprès	auprès	ADP	_	_	21	mod	_	ExtPos=ADV
+30	auprès	auprès	ADV	_	_	21	mod	_	_
 31-32	des	_	_	_	_	_	_	_	_
 31	de	de	ADP	_	_	30	comp:obl	_	_
 32	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
