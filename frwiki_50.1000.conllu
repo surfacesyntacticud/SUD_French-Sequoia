@@ -1380,12 +1380,12 @@
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	nom	nom	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 8	de	de	ADP	_	_	7	udep	_	_
-9	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	Blanche	Blanche	PROPN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	Théophile	Théophile	PROPN	_	Gender=Masc|Number=Sing	10	conj	_	_
 13	Maupas	Maupas	PROPN	_	Gender=Masc|Number=Sing|Shared=Yes	12	flat@name	_	SpaceAfter=No
-14	"	"	PUNCT	_	_	8	punct	_	_
+14	"	"	PUNCT	_	_	10	punct	_	_
 15	depuis	depuis	ADP	_	_	5	mod	_	_
 16	1998	1998	NUM	_	NumType=Card	15	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	5	punct	_	_
@@ -3380,13 +3380,13 @@
 7	éditorial	éditorial	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 8	accusateur	accusateur	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
 9	intitulé	intituler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	mod	_	_
-10	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
 11	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	vérité	vérité	NOUN	_	Gender=Fem|Number=Sing	9	comp:pred	_	_
 13	et	et	CCONJ	_	_	15	cc	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
 15	honneur	honneur	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
-16	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = frwiki_50.1000_00133
@@ -5074,7 +5074,7 @@
 35	sur	sur	ADP	_	_	34	udep	_	_
 36	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes	37	det	_	_
 37	participation	participation	NOUN	_	Gender=Fem|Number=Sing	35	comp:obj	_	_
-38	"	"	PUNCT	_	_	37	punct	_	SpaceAfter=No
+38	"	"	PUNCT	_	_	39	punct	_	SpaceAfter=No
 39-40	aux	_	_	_	_	_	_	_	_
 39	à	à	ADP	_	_	37	udep	_	_
 40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	det	_	_
@@ -5092,7 +5092,7 @@
 52	de	de	ADP	_	_	51	udep	_	_
 53	biens	bien	NOUN	_	Gender=Masc|Number=Plur	52	comp:obj	_	_
 54	sociaux	social	ADJ	_	Gender=Masc|Number=Plur	53	mod	_	SpaceAfter=No
-55	"	"	PUNCT	_	_	37	punct	_	SpaceAfter=No
+55	"	"	PUNCT	_	_	39	punct	_	SpaceAfter=No
 56	.	.	PUNCT	_	_	20	punct	_	_
 
 # sent_id = frwiki_50.1000_00207
@@ -6427,7 +6427,7 @@
 34	perdue	perdre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	33	mod	_	_
 35	de	de	ADP	_	_	33	udep	_	_
 36	1988	1988	NUM	_	NumType=Card	35	comp:obj	_	_
-37	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+37	"	"	PUNCT	_	_	38	punct	_	SpaceAfter=No
 38	par	par	ADP	_	_	30	mod	_	_
 39	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
 40	victoire	victoire	NOUN	_	Gender=Fem|Number=Sing	38	comp:obj	_	_
@@ -6443,7 +6443,7 @@
 49	municipales	municipal	ADJ	_	Gender=Fem|Number=Plur	47	comp:obj	_	_
 50	de	de	ADP	_	_	49	udep	_	_
 51	1989	1989	NUM	_	NumType=Card	50	comp:obj	_	SpaceAfter=No
-52	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+52	"	"	PUNCT	_	_	38	punct	_	SpaceAfter=No
 53	.	.	PUNCT	_	_	21	punct	_	_
 
 # sent_id = frwiki_50.1000_00257
@@ -7527,10 +7527,10 @@
 31	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	opération	opération	NOUN	_	Gender=Fem|Number=Sing	30	comp:obj	_	_
 33	de	de	ADP	_	_	32	udep	_	_
-34	"	"	PUNCT	_	_	33	punct	_	SpaceAfter=No
+34	"	"	PUNCT	_	_	36	punct	_	SpaceAfter=No
 35	basse	bas	ADJ	_	Gender=Fem|Number=Sing	36	mod	_	_
 36	politique	politique	NOUN	_	Gender=Fem|Number=Sing	33	comp:obj	_	SpaceAfter=No
-37	"	"	PUNCT	_	_	33	punct	_	SpaceAfter=No
+37	"	"	PUNCT	_	_	36	punct	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	1	punct	_	_
 39	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	40	det	_	SpaceAfter=No
 40	autres	autre	ADJ	_	Number=Plur	57	subj	_	SpaceAfter=No
@@ -8257,7 +8257,7 @@
 56	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	57	det	_	_
 57	opinions	opinion	NOUN	_	Gender=Fem|Number=Plur	54	comp:obj	_	_
 58	politiques	politique	ADJ	_	Number=Plur	57	mod	_	_
-59	-	-	PUNCT	_	_	54	punct	_	SpaceAfter=No
+59	-	-	PUNCT	_	_	64	punct	_	SpaceAfter=No
 60-61	du	_	_	_	_	_	_	_	_
 60	de	de	ADP	_	_	64	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=du_moins
 61	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	unk	_	InIdiom=Yes
@@ -8269,7 +8269,7 @@
 66	sens	sens	NOUN	_	Gender=Masc|Number=Sing	64	comp:obj	_	_
 67	de	de	ADP	_	_	66	udep	_	_
 68	factions	faction	NOUN	_	Gender=Fem|Number=Plur	67	comp:obj	_	SpaceAfter=No
-69	-	-	PUNCT	_	_	54	punct	_	_
+69	-	-	PUNCT	_	_	64	punct	_	_
 70	durant	durant	ADP	_	_	54	mod	_	_
 71	leur	son	DET	_	Number=Sing|Poss=Yes	72	det	_	_
 72	service	service	NOUN	_	Gender=Masc|Number=Sing	70	comp:obj	_	_
@@ -8283,7 +8283,7 @@
 80	paradoxalement	paradoxalement	ADV	_	_	79	mod	_	_
 81	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	82	det	_	_
 82	droit	droit	NOUN	_	Gender=Masc|Number=Sing	79	comp:obj	_	_
-83	-	-	PUNCT	_	_	82	punct	_	SpaceAfter=No
+83	-	-	PUNCT	_	_	87	punct	_	SpaceAfter=No
 84-85	du	_	_	_	_	_	_	_	_
 84	de	de	ADP	_	_	87	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=du_moins
 85	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	84	unk	_	InIdiom=Yes
@@ -8299,7 +8299,7 @@
 94	de	de	ADP	_	_	92	udep	_	_
 95	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	96	det	_	SpaceAfter=No
 96	époque	époque	NOUN	_	Gender=Fem|Number=Sing	94	comp:obj	_	SpaceAfter=No
-97	-	-	PUNCT	_	_	82	punct	_	_
+97	-	-	PUNCT	_	_	87	punct	_	_
 98-99	du	_	_	_	_	_	_	_	_
 98	de	de	ADP	_	_	82	udep	_	_
 99	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	100	det	_	_
@@ -8666,11 +8666,11 @@
 2	officiers	officier	NOUN	_	Number=Plur	17	subj@pass	_	_
 3	considérés	considérer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	mod	_	_
 4	comme	comme	ADP	_	_	3	comp:pred	_	_
-5	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	réactionnaires	réactionnaire	ADJ	_	Number=Plur	4	comp:obj	_	_
 7	et	et	CCONJ	_	_	8	cc	_	_
 8	cléricaux	clérical	ADJ	_	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
-9	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	3	punct	_	_
 11	généralement	généralement	ADV	_	_	12	mod	_	_
 12	issus	issu	ADJ	_	Gender=Masc|Number=Plur	2	mod	_	_
@@ -8896,9 +8896,9 @@
 47	intégrer	intégrer	VERB	_	VerbForm=Inf	46	comp:obj	_	Subject=Instantiated
 48	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
 49	loge	loge	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	47	comp:obj	_	_
-50	"	"	PUNCT	_	_	49	punct	_	SpaceAfter=No
+50	"	"	PUNCT	_	_	51	punct	_	SpaceAfter=No
 51	Alsace-Lorraine	Alsace-Lorraine	PROPN	_	_	49	mod	_	SpaceAfter=No
-52	"	"	PUNCT	_	_	49	punct	_	SpaceAfter=No
+52	"	"	PUNCT	_	_	51	punct	_	SpaceAfter=No
 53	,	,	PUNCT	_	_	55	punct	_	_
 54	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
 55	loge	loge	NOUN	_	Gender=Fem|Number=Sing	49	conj:appos	_	_
@@ -10065,11 +10065,11 @@
 18	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
 19	réseau	réseau	NOUN	_	Gender=Masc|Number=Sing	20	subj	_	_
 20	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	comp:obj	_	_
-21	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
 22	fonctionné	fonctionner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	comp:aux@tense	_	_
 23	efficacement	efficacement	ADV	_	_	20	mod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
-25	étant	être	AUX	_	Tense=Pres|VerbForm=Part	20	mod	_	_
+25	étant	être	AUX	_	Tense=Pres|VerbForm=Part	22	mod	_	_
 26	bien	bien	ADV	_	_	28	mod	_	ExtPos=ADV|Idiom=Yes|mwelemma=bien_entendu
 27	entendu	entendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	unk	_	InIdiom=Yes
 28	motivé	motiver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	25	comp:aux@pass	_	_
@@ -10087,7 +10087,7 @@
 40	signer	signer	VERB	_	VerbForm=Inf	39	comp:obj	_	Subject=Instantiated
 41	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	42	det	_	_
 42	affaire	affaire	NOUN	_	Gender=Fem|Number=Sing	40	comp:obj	_	SpaceAfter=No
-43	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+43	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
 44	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = frwiki_50.1000_00353
@@ -10548,7 +10548,7 @@
 35	par	par	ADP	_	_	34	comp:obl@agent	_	_
 36	Lily	Lily	PROPN	_	Gender=Fem|Number=Sing	35	comp:obj	_	_
 37	Liu	Liu	PROPN	_	_	36	flat@name	_	_
-38	"	"	PUNCT	_	_	32	punct	_	SpaceAfter=No
+38	"	"	PUNCT	_	_	39	punct	_	SpaceAfter=No
 39	pour	pour	ADP	_	_	32	mod	_	_
 40	préparer	préparer	VERB	_	VerbForm=Inf	39	comp:obj	_	Subject=Instantiated
 41	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	42	det	_	_
@@ -10591,7 +10591,7 @@
 73	Parti	parti	NOUN	_	Gender=Masc|Number=Sing	71	comp:obj	_	_
 74	communiste	communiste	ADJ	_	Number=Sing	73	mod	_	_
 75	chinois	chinois	ADJ	_	Gender=Masc	73	mod	_	SpaceAfter=No
-76	"	"	PUNCT	_	_	32	punct	_	SpaceAfter=No
+76	"	"	PUNCT	_	_	39	punct	_	SpaceAfter=No
 77	.	.	PUNCT	_	_	19	punct	_	_
 
 # sent_id = frwiki_50.1000_00371
@@ -10657,7 +10657,7 @@
 14	réseau	réseau	NOUN	_	Gender=Masc|Number=Sing	16	subj	_	_
 15	B	B	NOUN	_	_	14	mod	_	_
 16	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	comp:obj	_	_
-17	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
 18	permis	permettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
 19	de	de	ADP	_	_	18	comp:obj	_	_
 20	valider	valider	VERB	_	VerbForm=Inf	19	comp:obj	_	Subject=Generic
@@ -10677,7 +10677,7 @@
 32	élevé	élevé	ADJ	_	Gender=Masc|Number=Sing	29	mod	_	_
 33	de	de	ADP	_	_	29	udep	_	_
 34	Taïwan	Taïwan	PROPN	_	Gender=Masc|Number=Sing	33	comp:obj	_	SpaceAfter=No
-35	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+35	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = frwiki_50.1000_00373
@@ -10704,11 +10704,11 @@
 19	Lily	Lily	PROPN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
 20	Liu	Liu	PROPN	_	_	19	flat@name	_	_
 21	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	comp:obj	_	_
-22	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
 23	prouvé	prouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	comp:aux@tense	_	_
 24	son	son	DET	_	Number=Sing|Poss=Yes	25	det	_	_
 25	efficacité	efficacité	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	SpaceAfter=No
-26	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = frwiki_50.1000_00374
@@ -10879,7 +10879,7 @@
 54	synergies	synergie	NOUN	_	Gender=Fem|Number=Plur	55	subj	_	_
 55	existaient	exister	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	51	comp:obj	_	_
 56	déjà	déjà	ADV	_	_	55	mod	_	_
-57	"	"	PUNCT	_	_	55	punct	_	SpaceAfter=No
+57	"	"	PUNCT	_	_	58	punct	_	SpaceAfter=No
 58	entre	entre	ADP	_	_	55	mod	_	_
 59	Thomson	Thomson	PROPN	_	_	58	comp:obj	_	_
 60	CSF	CSF	PROPN	_	_	59	flat@name	_	_
@@ -10889,7 +10889,7 @@
 64	notamment	notamment	ADV	_	_	65	mod	_	_
 65	en	en	ADP	_	_	55	mod	_	_
 66	Afrique	Afrique	PROPN	_	Gender=Fem|Number=Sing	65	comp:obj	_	SpaceAfter=No
-67	"	"	PUNCT	_	_	55	punct	_	SpaceAfter=No
+67	"	"	PUNCT	_	_	65	punct	_	SpaceAfter=No
 68	.	.	PUNCT	_	_	50	punct	_	_
 
 # sent_id = frwiki_50.1000_00380
@@ -11647,7 +11647,7 @@
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	juges	juge	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	_
 14	avoir	avoir	AUX	_	VerbForm=Inf	10	comp:obj	_	Subject=SubjRaising
-15	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
 16	toujours	toujours	ADV	_	_	14	mod	_	_
 17	considéré	considérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	_
 18	à	à	ADP	_	_	17	mod	_	_
@@ -11678,7 +11678,7 @@
 42	à	à	ADP	_	_	41	comp:obl	_	_
 43	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	42	comp:obj	_	_
 44	Wang	Wang	PROPN	_	_	43	mod	_	SpaceAfter=No
-45	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+45	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
 46	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = frwiki_50.1000_00405
@@ -15488,7 +15488,7 @@
 5	de	de	ADP	_	_	3	comp:obl	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	tarifs	tarif	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
-8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
 9	100 000	100 000	DET	_	_	10	det	_	_
 10	francs	franc	NOUN	_	Gender=Masc|Number=Plur	7	conj:appos	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -15496,7 +15496,7 @@
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	15 000	15 000	NOUN	_	NumType=Card	10	conj:appos	_	SpaceAfter=No
 15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
-16	-	-	PUNCT	_	_	7	punct	_	_
+16	-	-	PUNCT	_	_	10	punct	_	_
 17	demandés	demander	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	mod	_	_
 18-19	aux	_	_	_	_	_	_	_	_
 18	à	à	ADP	_	_	17	comp:obl	_	_
@@ -17071,11 +17071,11 @@
 5	:	:	PUNCT	_	_	13	punct	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	témoin	témoin	NOUN	_	Gender=Masc|Number=Sing	13	subj	_	_
-8	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
 9	digne	digne	ADJ	_	Number=Sing	7	mod	_	_
 10	de	de	ADP	_	_	9	comp:obl	_	_
 11	foi	foi	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	SpaceAfter=No
-12	"	"	PUNCT	_	_	7	punct	_	_
+12	"	"	PUNCT	_	_	9	punct	_	_
 13	met	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	juge	juge	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
@@ -19890,13 +19890,13 @@
 7	lui	lui	PRON	_	Number=Sing|Person=3	9	comp:obl	_	_
 8	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 9	mis	mettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	8	comp:aux@tense	_	_
-10	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	couteau	couteau	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 13	sous	sous	ADP	_	_	9	comp:obl	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	gorge	gorge	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	SpaceAfter=No
-16	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = frwiki_50.1000_00712
@@ -19920,7 +19920,7 @@
 17	marché	marché	NOUN	_	Gender=Masc|Number=Sing	18	subj	_	_
 18	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	comp:obj	_	_
 19	entraîner	entraîner	VERB	_	VerbForm=Inf	18	comp:obj	_	Subject=SubjRaising
-20	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	versement	versement	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
 23	d'	de	ADP	_	_	22	udep	_	SpaceAfter=No
@@ -19951,7 +19951,7 @@
 46	à	à	ADP	_	_	45	mod	_	_
 47	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	48	det	_	SpaceAfter=No
 48	étranger	étranger	NOUN	_	Gender=Masc|Number=Sing	46	comp:obj	_	SpaceAfter=No
-49	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+49	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
 50	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = frwiki_50.1000_00713
@@ -19973,7 +19973,7 @@
 15	,	,	PUNCT	_	_	12	punct	_	_
 16	reconnu	reconnaître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
 17	avoir	avoir	AUX	_	VerbForm=Inf	16	comp:obj	_	Subject=SubjRaising
-18	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
 19	demandé	demander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:aux@tense	_	_
 20	1,5	1,5	NUM	_	NumType=Card	21	det	_	SpaceAfter=No
 21	%	%	NOUN	_	Gender=Masc	19	comp:obj	_	_
@@ -19991,7 +19991,7 @@
 32	versés	verser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	31	comp:aux@pass	_	_
 33	en	en	ADP	_	_	30	mod	_	_
 34	Suisse	Suisse	PROPN	_	Gender=Fem|Number=Sing	33	comp:obj	_	SpaceAfter=No
-35	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+35	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	40	punct	_	_
 37	mais	mais	CCONJ	_	_	40	cc	_	_
 38	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	40	subj	_	_
@@ -20073,9 +20073,9 @@
 12	à	à	ADP	_	_	8	udep	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	barre	barre	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
-15	-	-	PUNCT	_	_	2	punct	_	SpaceAfter=No
-16	Libération	Libération	PROPN	_	_	2	mod	_	SpaceAfter=No
-17	-	-	PUNCT	_	_	2	punct	_	_
+15	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	Libération	Libération	PROPN	_	_	2	parataxis	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	16	punct	_	_
 18	23/12/2006	23/12/2006	NOUN	_	NumType=Card	2	mod	_	_
 
 # sent_id = frwiki_50.1000_00718
@@ -22169,7 +22169,7 @@
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	affaire	affaire	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 12	de	de	ADP	_	_	9	comp:pred	_	_
-13	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
 14	plus	plus	ADV	_	_	15	mod	_	_
 15	gros	gros	ADJ	_	Gender=Masc	16	mod	_	_
 16	scandale	scandale	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
@@ -22180,7 +22180,7 @@
 20	de	de	ADP	_	_	19	udep	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	football	football	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	SpaceAfter=No
-23	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = frwiki_50.1000_00803
@@ -23471,7 +23471,7 @@
 # text = Cette note -qui est à l'origine d'une information judiciaire ouverte et confiée à la juge d'instruction Isabelle Prévost-Desprez- ne s'attarde pas réellement sur le paiement d'une hypothétique rançon, mais détaille plutôt un système de "rétro-commissions" qui y serait lié.
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	note	note	NOUN	_	Gender=Fem|Number=Sing	26	subj	_	_
-3	-	-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
 4	qui	qui	PRON	_	PronType=Rel	5	subj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	_
 6	à	à	ADP	_	_	5	comp:pred	_	_
@@ -23491,7 +23491,7 @@
 20	instruction	instruction	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	_
 21	Isabelle	Isabelle	PROPN	_	Gender=Fem|Number=Sing	18	mod	_	_
 22	Prévost-Desprez	Prévost-Desprez	PROPN	_	_	21	flat@name	_	SpaceAfter=No
-23	-	-	PUNCT	_	_	2	punct	_	_
+23	-	-	PUNCT	_	_	5	punct	_	_
 24	ne	ne	ADV	_	Polarity=Neg	26	mod	_	_
 25	s'	se	PRON	_	Person=3|Reflex=Yes	26	comp@expl	_	SpaceAfter=No
 26	attarde	attarder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -24116,7 +24116,7 @@
 27	de	de	ADP	_	_	26	comp:obj	_	_
 28	conclure	conclure	VERB	_	VerbForm=Inf	27	comp:obj	_	Subject=Instantiated
 29	que	que	SCONJ	_	_	28	comp:obj	_	_
-30	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+30	"	"	PUNCT	_	_	38	punct	_	SpaceAfter=No
 31	ni	ni	CCONJ	_	_	33	cc	_	_
 32	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
 33	un	un	PRON	_	Gender=Masc|Number=Sing	38	subj	_	_
@@ -24134,7 +24134,7 @@
 44	lancer	lancer	VERB	_	VerbForm=Inf	43	comp:obj	_	Subject=Generic
 45	pareil	pareil	ADJ	_	Gender=Masc|Number=Sing	46	mod	_	_
 46	missile	missile	NOUN	_	Gender=Masc|Number=Sing	44	comp:obj	_	SpaceAfter=No
-47	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+47	"	"	PUNCT	_	_	38	punct	_	SpaceAfter=No
 48	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = frwiki_50.1000_00870
@@ -26608,28 +26608,28 @@
 2	Lucien	Lucien	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	Bodard	Bodard	PROPN	_	_	2	flat@name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
-5	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 6	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	2	mod	_	_
+7	guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	2	parataxis	_	_
 8	d'	de	ADP	_	_	7	udep	_	SpaceAfter=No
 9	Indochine	Indochine	PROPN	_	_	8	comp:obj	_	_
 10	:	:	PUNCT	_	_	12	punct	_	_
 11	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
-12	enlisement	enlisement	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	SpaceAfter=No
+12	enlisement	enlisement	NOUN	_	Gender=Masc|Number=Sing	7	parataxis	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
-15	humiliation	humiliation	NOUN	_	Gender=Fem|Number=Sing	2	mod	_	SpaceAfter=No
+15	humiliation	humiliation	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
-18	aventure	aventure	NOUN	_	Gender=Fem|Number=Sing	2	mod	_	SpaceAfter=No
-19	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+18	aventure	aventure	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
-21	Grasset	Grasset	PROPN	_	_	2	mod	_	SpaceAfter=No
+21	Grasset	Grasset	PROPN	_	_	7	parataxis	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	_
 23	1 500	1 500	DET	_	_	24	det	_	_
-24	p.	page	NOUN	_	Gender=Fem|Number=Plur	2	mod	_	_
-25	Paris	Paris	PROPN	_	Gender=Masc|Number=Sing	2	mod	_	_
-26	1997	1997	NUM	_	NumType=Card	2	mod	_	SpaceAfter=No
+24	p.	page	NOUN	_	Gender=Fem|Number=Plur	21	parataxis	_	_
+25	Paris	Paris	PROPN	_	Gender=Masc|Number=Sing	24	parataxis	_	_
+26	1997	1997	NUM	_	NumType=Card	25	parataxis	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = frwiki_50.1000_00980

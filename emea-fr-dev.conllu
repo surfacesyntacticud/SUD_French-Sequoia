@@ -10942,12 +10942,12 @@
 20	voir	voir	VERB	_	VerbForm=Inf	3	parataxis:insert	_	Subject=Generic
 21	section	section	NOUN	_	Gender=Fem|Number=Sing	20	comp:obj	_	_
 22	2	2	NUM	_	NumType=Card	21	mod	_	_
-23	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
 24	Prise	prise	NOUN	_	Gender=Fem|Number=Sing	21	mod	_	_
 25	d'	de	ADP	_	_	24	udep	_	SpaceAfter=No
 26	autres	autre	ADJ	_	Number=Plur	27	mod	_	_
 27	médicaments	médicament	NOUN	_	Gender=Masc|Number=Plur	25	comp:obj	_	SpaceAfter=No
-28	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
 29	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	3	punct	_	_
 
