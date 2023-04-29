@@ -3124,7 +3124,7 @@
 # text = Je sais où ils sont : dans une prison serbe, sans aucune raison !
 1	Je	il	PRON	_	Number=Sing|Person=1	2	subj	_	_
 2	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	où	où	ADV	_	PronType=Int	5	comp:obl	_	_
+3	où	où	PRON	_	PronType=Int	5	comp:obl	_	_
 4	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3	5	subj	_	_
 5	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 6	:	:	PUNCT	_	_	7	punct	_	_
@@ -13207,7 +13207,7 @@
 11	à	à	ADP	_	_	8	comp:obl	_	_
 12	Loriot	Loriot	PROPN	_	_	11	comp:obj	_	_
 13	:	:	PUNCT	_	_	15	punct	_	_
-14	où	où	ADV	_	PronType=Int	15	comp:obl	_	_
+14	où	où	PRON	_	PronType=Int	15	comp:obl	_	_
 15	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	SpaceAfter=No
 16	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3	15	subj	_	_
 17	donc	donc	ADV	_	_	15	mod	_	_
@@ -13215,7 +13215,7 @@
 
 # sent_id = Europar.550_00404
 # text = Où sont ceux qui critiquent le travail accompli, qui reviennent constamment avec la question du quorum et ne sont pas présents quand nous réalisons le travail de fond ?
-1	Où	où	ADV	_	PronType=Int	2	comp:obl	_	_
+1	Où	où	PRON	_	PronType=Int	2	comp:obl	_	_
 2	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ceux	celui	PRON	_	Gender=Masc|Number=Plur|PronType=Dem|Shared=Yes	2	subj	_	_
 4	qui	qui	PRON	_	PronType=Rel	5	subj	_	_
@@ -13250,7 +13250,7 @@
 
 # sent_id = Europar.550_00405
 # text = Où sont-ils donc ces 32 et quelques, qui se sont levés et qui se lèveront encore, mais sont absents maintenant pendant que nous délibérons ?
-1	Où	où	ADV	_	PronType=Int	2	comp:obl	_	_
+1	Où	où	PRON	_	PronType=Int	2	comp:obl	_	_
 2	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3	2	subj@expl	_	_
 4	donc	donc	ADV	_	_	2	mod	_	_
