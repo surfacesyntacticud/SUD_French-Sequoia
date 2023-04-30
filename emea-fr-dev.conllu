@@ -1260,7 +1260,7 @@
 22	excepté	excepté	ADP	_	_	10	mod	_	_
 23	en	en	ADP	_	_	22	comp:obj	_	ExtPos=ADP|Idiom=Yes
 24	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	23	unk	_	InIdiom=Yes
-25	qui	qui	PRON	_	_	24	unk	_	InIdiom=Yes
+25	qui	qui	PRON	_	PronType=Rel	24	unk	_	InIdiom=Yes
 26	concerne	concerner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	unk	_	InIdiom=Yes
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	saignement	saignement	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	_
@@ -1317,7 +1317,7 @@
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	patient	patient	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 16	sur	sur	ADP	_	_	15	udep	_	_
-17	10	10	PRON	_	NumType=Card	16	comp:obj	_	SpaceAfter=No
+17	10	10	NUM	_	NumType=Card	16	comp:obj	_	SpaceAfter=No
 18	)	)	PUNCT	_	_	10	punct	_	_
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -4177,7 +4177,7 @@
 
 # sent_id = emea-fr-dev_00191
 # text = 4612 ont été traités par la bivalirudine seule, 4604 ont été traités par la bivalirudine plus un inhibiteur de la GP IIb/IIIa et 4603 ont été traités avec de l'héparine non fractionnée ou avec de l'enoxaparine plus un inhibiteur de la GPIIb/IIIa.
-1	4612	4612	PRON	_	NumType=Card	2	subj@pass	_	_
+1	4612	4612	NUM	_	NumType=Card	2	subj@pass	_	_
 2	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	été	être	AUX	_	Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	traités	traiter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	_
@@ -4186,7 +4186,7 @@
 7	bivalirudine	bivalirudine	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 8	seule	seul	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
-10	4604	4604	PRON	_	NumType=Card	11	subj@pass	_	_
+10	4604	4604	NUM	_	NumType=Card	11	subj@pass	_	_
 11	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 12	été	être	AUX	_	Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
 13	traités	traiter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	comp:aux@pass	_	_
@@ -4201,7 +4201,7 @@
 22	GP	GP	NOUN	_	Gender=Fem|Number=Sing	20	comp:obj	_	_
 23	IIb/IIIa	IIb/IIIa	PROPN	_	_	22	mod	_	_
 24	et	et	CCONJ	_	_	26	cc	_	_
-25	4603	4603	PRON	_	NumType=Card	26	subj@pass	_	_
+25	4603	4603	NUM	_	NumType=Card	26	subj@pass	_	_
 26	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
 27	été	être	AUX	_	Tense=Past|VerbForm=Part	26	comp:aux@tense	_	_
 28	traités	traiter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	27	comp:aux@pass	_	_
@@ -4987,10 +4987,10 @@
 15	clopidogrel	clopidogrel	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	22	punct	_	_
 17	et	et	CCONJ	_	_	22	cc	_	_
-18	6	6	PRON	_	NumType=Card	22	subj	_	_
+18	6	6	NUM	_	NumType=Card	22	subj	_	_
 19	d'	de	ADP	_	_	18	udep	_	ExtPos=ADP|Idiom=Yes|SpaceAfter=No
 20	entre	entre	ADP	_	_	19	unk	_	InIdiom=Yes
-21	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	comp:obj	_	_
+21	eux	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	comp:obj	_	_
 22	recevaient	recevoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
 23	également	également	ADV	_	_	22	mod	_	_
 24	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	25	det	_	_
@@ -6841,7 +6841,7 @@
 # text = En ce qui concerne les caractéristiques de la population d'ACUITY, à savoir des patients à haut risque nécessitant une angiographie dans les 72 h, la répartition est homogène dans les 3 bras de traitement.
 1	En	en	ADP	_	_	30	mod	_	ExtPos=ADP|Idiom=Yes
 2	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	unk	_	InIdiom=Yes
-3	qui	qui	PRON	_	_	2	unk	_	InIdiom=Yes
+3	qui	qui	PRON	_	PronType=Rel	2	unk	_	InIdiom=Yes
 4	concerne	concerner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	unk	_	InIdiom=Yes
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	caractéristiques	caractéristique	NOUN	_	Gender=Fem|Number=Plur	1	comp:obj	_	_
@@ -6885,7 +6885,7 @@
 3	%	%	NOUN	_	Gender=Masc	7	subj	_	_
 4	d'	de	ADP	_	_	3	udep	_	ExtPos=ADP|Idiom=Yes|SpaceAfter=No
 5	entre	entre	ADP	_	_	4	unk	_	InIdiom=Yes
-6	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	comp:obj	_	_
+6	eux	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	comp:obj	_	_
 7	présentent	présenter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	ischémie	ischémie	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
@@ -10234,7 +10234,7 @@
 9	non	non	ADV	_	Polarity=Neg	7	conj	_	_
 10	approprié	approprié	ADJ	_	Gender=Masc|Number=Sing|Shared=Yes	9	comp:pred	_	_
 11	pour	pour	ADP	_	_	10	mod	_	_
-12	vous	soi	PRON	_	Number=Plur|Person=2|PronType=Prs	11	comp:obj	_	SpaceAfter=No
+12	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	11	comp:obj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-dev_00495
@@ -10437,7 +10437,7 @@
 5	rarement	rarement	ADV	_	_	4	mod	_	_
 6	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 7	environ	environ	ADV	_	_	8	mod	_	_
-8	1	1	PRON	_	NumType=Card	4	parataxis:insert	_	_
+8	1	1	NUM	_	NumType=Card	4	parataxis:insert	_	_
 9	pour	pour	ADP	_	_	8	udep	_	_
 10	1000	1000	NUM	_	NumType=Card	11	det	_	_
 11	patients	patient	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	_
@@ -10914,7 +10914,7 @@
 15	1	1	NUM	_	NumType=Card	16	det	_	_
 16	patient	patient	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
 17	sur	sur	ADP	_	_	16	udep	_	_
-18	10 000	10 000	PRON	_	_	17	comp:obj	_	SpaceAfter=No
+18	10 000	10 000	NUM	_	NumType=Card	17	comp:obj	_	SpaceAfter=No
 19	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -11026,7 +11026,7 @@
 8	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 9	moins	moins	ADV	_	_	11	mod	_	_
 10	de	de	ADP	_	_	11	udep	_	_
-11	1	1	PRON	_	NumType=Card	7	parataxis:insert	_	_
+11	1	1	NUM	_	NumType=Card	7	parataxis:insert	_	_
 12	pour	pour	ADP	_	_	11	udep	_	_
 13	10	10	NUM	_	NumType=Card	14	det	_	_
 14	patients	patient	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	_
@@ -11105,7 +11105,7 @@
 6	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
 7	moins	moins	ADV	_	_	9	mod	_	_
 8	de	de	ADP	_	_	9	udep	_	_
-9	1	1	PRON	_	NumType=Card	5	parataxis:insert	_	_
+9	1	1	NUM	_	NumType=Card	5	parataxis:insert	_	_
 10	pour	pour	ADP	_	_	9	udep	_	_
 11	100	100	NUM	_	NumType=Card	12	det	_	_
 12	patients	patient	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
@@ -11146,7 +11146,7 @@
 8	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 9	moins	moins	ADV	_	_	11	mod	_	_
 10	de	de	ADP	_	_	11	udep	_	_
-11	1	1	PRON	_	NumType=Card	7	parataxis:insert	_	_
+11	1	1	NUM	_	NumType=Card	7	parataxis:insert	_	_
 12	pour	pour	ADP	_	_	11	udep	_	_
 13	100	100	NUM	_	NumType=Card	14	det	_	_
 14	patients	patient	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	_
@@ -11177,7 +11177,7 @@
 18	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
 19	moins	moins	ADV	_	_	21	mod	_	_
 20	de	de	ADP	_	_	21	udep	_	_
-21	1	1	PRON	_	NumType=Card	17	parataxis:insert	_	_
+21	1	1	NUM	_	NumType=Card	17	parataxis:insert	_	_
 22	pour	pour	ADP	_	_	21	udep	_	_
 23	1000	1000	NUM	_	NumType=Card	24	det	_	_
 24	patients	patient	NOUN	_	Gender=Masc|Number=Plur	22	comp:obj	_	_
@@ -11300,7 +11300,7 @@
 7	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 8	moins	moins	ADV	_	_	10	mod	_	_
 9	de	de	ADP	_	_	10	udep	_	_
-10	1	1	PRON	_	NumType=Card	6	parataxis:insert	_	_
+10	1	1	NUM	_	NumType=Card	6	parataxis:insert	_	_
 11	pour	pour	ADP	_	_	10	udep	_	_
 12	100	100	NUM	_	NumType=Card	13	det	_	_
 13	patients	patient	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	_

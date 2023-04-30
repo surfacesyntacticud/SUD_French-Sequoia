@@ -1230,9 +1230,9 @@
 26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	fracture	fracture	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	_
 28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
-29	92	92	PRON	_	NumType=Card	18	conj:appos	_	_
+29	92	92	NUM	_	NumType=Card	18	conj:appos	_	_
 30	sur	sur	ADP	_	_	29	udep	_	_
-31	1 065	1 065	PRON	_	_	30	comp:obj	_	SpaceAfter=No
+31	1 065	1 065	NUM	_	NumType=Card	30	comp:obj	_	SpaceAfter=No
 32	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	29	punct	_	_
 34	contre	contre	ADP	_	_	24	mod	_	_
@@ -1245,9 +1245,9 @@
 40	sous	sous	ADP	_	_	39	udep	_	_
 41	placebo	placebo	NOUN	_	Gender=Masc|Number=Sing	40	comp:obj	_	_
 42	(	(	PUNCT	_	_	43	punct	_	SpaceAfter=No
-43	139	139	PRON	_	NumType=Card	36	conj:appos	_	_
+43	139	139	NUM	_	NumType=Card	36	conj:appos	_	_
 44	sur	sur	ADP	_	_	43	udep	_	_
-45	1 062	1 062	PRON	_	_	44	comp:obj	_	SpaceAfter=No
+45	1 062	1 062	NUM	_	NumType=Card	44	comp:obj	_	SpaceAfter=No
 46	)	)	PUNCT	_	_	43	punct	_	SpaceAfter=No
 47	.	.	PUNCT	_	_	34	punct	_	_
 
@@ -1411,7 +1411,7 @@
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	patient	patient	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 16	sur	sur	ADP	_	_	15	udep	_	_
-17	10	10	PRON	_	NumType=Card	16	comp:obj	_	SpaceAfter=No
+17	10	10	NUM	_	NumType=Card	16	comp:obj	_	SpaceAfter=No
 18	)	)	PUNCT	_	_	10	punct	_	_
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
@@ -4142,7 +4142,7 @@
 26	2,5	2,5	NUM	_	NumType=Card	27	det	_	SpaceAfter=No
 27	%	%	NOUN	_	Gender=Masc	25	comp:obj	_	_
 28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
-29	96	96	PRON	_	NumType=Card	27	conj:appos	_	_
+29	96	96	NUM	_	NumType=Card	27	conj:appos	_	_
 30-31	des	_	_	_	_	_	_	_	_
 30	de	de	ADP	_	_	29	udep	_	_
 31	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	32	det	_	_
@@ -4153,7 +4153,7 @@
 36	1,9	1,9	NUM	_	NumType=Card	37	det	_	SpaceAfter=No
 37	%	%	NOUN	_	Gender=Masc	35	comp:obj	_	_
 38	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
-39	75	75	PRON	_	NumType=Card	37	conj:appos	_	_
+39	75	75	NUM	_	NumType=Card	37	conj:appos	_	_
 40-41	des	_	_	_	_	_	_	_	_
 40	de	de	ADP	_	_	39	udep	_	_
 41	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	42	det	_	_
@@ -4187,7 +4187,7 @@
 13	1,3	1,3	NUM	_	NumType=Card	14	det	_	SpaceAfter=No
 14	%	%	NOUN	_	Gender=Masc	12	comp:obj	_	_
 15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
-16	51	51	PRON	_	NumType=Card	14	conj:appos	_	_
+16	51	51	NUM	_	NumType=Card	14	conj:appos	_	_
 17	sur	sur	ADP	_	_	16	udep	_	_
 18	3 862	3 862	PRON	_	_	17	comp:obj	_	SpaceAfter=No
 19	)	)	PUNCT	_	_	16	punct	_	_
@@ -4202,7 +4202,7 @@
 28	0,6	0,6	NUM	_	NumType=Card	29	det	_	SpaceAfter=No
 29	%	%	NOUN	_	Gender=Masc	27	comp:obj	_	_
 30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
-31	22	22	PRON	_	NumType=Card	29	conj:appos	_	_
+31	22	22	NUM	_	NumType=Card	29	conj:appos	_	_
 32	sur	sur	ADP	_	_	31	udep	_	_
 33	3 852	3 852	PRON	_	_	32	comp:obj	_	SpaceAfter=No
 34	)	)	PUNCT	_	_	31	punct	_	_
@@ -4321,36 +4321,36 @@
 4	très	très	ADV	_	_	5	mod	_	_
 5	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	2	mod	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	1/10	1/10	PRON	_	NumType=Card	5	parataxis:insert	_	SpaceAfter=No
+7	1/10	1/10	NUM	_	NumType=Card	5	parataxis:insert	_	SpaceAfter=No
 8	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	5	conj	_	_
 11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
-12	1/100	1/100	PRON	_	NumType=Card	10	parataxis:insert	_	SpaceAfter=No
+12	1/100	1/100	NUM	_	NumType=Card	10	parataxis:insert	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	<	<	ADP	_	_	12	conj	_	_
-15	1/10	1/10	PRON	_	NumType=Card	14	comp:obj	_	SpaceAfter=No
+15	1/10	1/10	NUM	_	NumType=Card	14	comp:obj	_	SpaceAfter=No
 16	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
 18	peu	peu	ADV	_	_	19	mod	_	_
 19	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	10	conj	_	_
 20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
-21	1/1000	1/1000	PRON	_	NumType=Card	19	parataxis:insert	_	SpaceAfter=No
+21	1/1000	1/1000	NUM	_	NumType=Card	19	parataxis:insert	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	<	<	ADP	_	_	21	conj	_	_
-24	1/100	1/100	PRON	_	NumType=Card	23	comp:obj	_	SpaceAfter=No
+24	1/100	1/100	NUM	_	NumType=Card	23	comp:obj	_	SpaceAfter=No
 25	)	)	PUNCT	_	_	23	punct	_	_
 26	et	et	CCONJ	_	_	27	cc	_	_
 27	rares	rare	ADJ	_	Number=Plur	19	conj	_	_
 28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
-29	1	1	PRON	_	_	27	parataxis:insert	_	SpaceAfter=No
+29	1	1	NUM	_	NumType=Card	27	parataxis:insert	_	SpaceAfter=No
 30	/	/	SYM	_	_	29	udep	_	SpaceAfter=No
-31	10 000	10 000	PRON	_	_	30	comp:obj	_	SpaceAfter=No
+31	10 000	10 000	NUM	_	NumType=Card	30	comp:obj	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	33	punct	_	_
 33	<	<	ADP	_	_	29	conj	_	_
-34	1	1	PRON	_	_	33	comp:obj	_	SpaceAfter=No
+34	1	1	NUM	_	NumType=Card	33	comp:obj	_	SpaceAfter=No
 35	/	/	SYM	_	_	34	udep	_	SpaceAfter=No
-36	1 000	1 000	PRON	_	_	35	comp:obj	_	SpaceAfter=No
+36	1 000	1 000	NUM	_	NumType=Card	35	comp:obj	_	SpaceAfter=No
 37	)	)	PUNCT	_	_	33	punct	_	_
 38	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 39	présentés	présenter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	38	comp:aux@pass	_	_
@@ -5121,7 +5121,7 @@
 1	Beaucoup	beaucoup	ADV	_	_	5	subj	_	_
 2	d'	de	ADP	_	_	1	udep	_	ExtPos=ADP|Idiom=Yes|SpaceAfter=No
 3	entre	entre	ADP	_	_	2	unk	_	InIdiom=Yes
-4	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	comp:obj	_	_
+4	eux	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	comp:obj	_	_
 5	présentaient	présenter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
 7	signes	signe	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
@@ -7117,7 +7117,7 @@
 2	%	%	NOUN	_	Gender=Masc	6	subj	_	_
 3	d'	de	ADP	_	_	2	udep	_	ExtPos=ADP|Idiom=Yes|SpaceAfter=No
 4	entre	entre	ADP	_	_	3	unk	_	InIdiom=Yes
-5	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	comp:obj	_	_
+5	eux	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	comp:obj	_	_
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
 8	leur	son	DET	_	Number=Sing|Poss=Yes	9	det	_	_
@@ -7364,7 +7364,7 @@
 16	entre	entre	ADP	_	_	13	mod	_	_
 17	Aclasta	Aclasta	PROPN	_	_	16	comp:obj	_	_
 18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
-19	34	34	PRON	_	NumType=Card	17	parataxis:insert	_	_
+19	34	34	NUM	_	NumType=Card	17	parataxis:insert	_	_
 20	[	[	PUNCT	_	_	22	punct	_	SpaceAfter=No
 21	3,2	3,2	NUM	_	NumType=Card	22	det	_	SpaceAfter=No
 22	%	%	NOUN	_	Gender=Masc	19	conj:appos	_	SpaceAfter=No
@@ -7374,7 +7374,7 @@
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	placebo	placebo	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	_
 28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
-29	29	29	PRON	_	NumType=Card	27	parataxis:insert	_	_
+29	29	29	NUM	_	NumType=Card	27	parataxis:insert	_	_
 30	[	[	PUNCT	_	_	32	punct	_	SpaceAfter=No
 31	2,7	2,7	NUM	_	NumType=Card	32	det	_	SpaceAfter=No
 32	%	%	NOUN	_	Gender=Masc	29	conj:appos	_	SpaceAfter=No
@@ -8236,7 +8236,7 @@
 25	demi-vies	demi-vie	NOUN	_	Number=Plur	23	comp:obj	_	_
 26	t½	t½	NOUN	_	_	25	mod	_	_
 27	de	de	ADP	_	_	26	udep	_	_
-28	0,24	0,24	PRON	_	NumType=Card	27	comp:obj	_	_
+28	0,24	0,24	NUM	_	NumType=Card	27	comp:obj	_	_
 29	et	et	CCONJ	_	_	30	cc	_	_
 30	t½	t½	NOUN	_	_	26	conj	_	_
 31	de	de	ADP	_	_	30	udep	_	_
@@ -10162,7 +10162,7 @@
 7	10	10	NUM	_	NumType=Card	8	det	_	_
 8	patients	patient	NOUN	_	Gender=Masc|Number=Plur	6	comp:obj	_	_
 9	sur	sur	ADP	_	_	8	udep	_	_
-10	100	100	PRON	_	NumType=Card	9	comp:obj	_	_
+10	100	100	NUM	_	NumType=Card	9	comp:obj	_	_
 11	ou	ou	CCONJ	_	_	12	cc	_	_
 12	plus	plus	ADV	_	_	10	conj	_	SpaceAfter=No
 13	)	)	PUNCT	_	_	6	punct	_	_
@@ -10185,7 +10185,7 @@
 8	10	10	NUM	_	NumType=Card	9	det	_	_
 9	patients	patient	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	_
 10	sur	sur	ADP	_	_	9	udep	_	_
-11	100	100	PRON	_	NumType=Card	10	comp:obj	_	SpaceAfter=No
+11	100	100	NUM	_	NumType=Card	10	comp:obj	_	SpaceAfter=No
 12	)	)	PUNCT	_	_	5	punct	_	_
 13	:	:	PUNCT	_	_	1	punct	_	_
 
@@ -10302,7 +10302,7 @@
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	patient	patient	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 11	sur	sur	ADP	_	_	10	udep	_	_
-12	100	100	PRON	_	NumType=Card	11	comp:obj	_	SpaceAfter=No
+12	100	100	NUM	_	NumType=Card	11	comp:obj	_	SpaceAfter=No
 13	)	)	PUNCT	_	_	6	punct	_	_
 14	:	:	PUNCT	_	_	1	punct	_	_
 
@@ -10446,7 +10446,7 @@
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	patient	patient	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	sur	sur	ADP	_	_	9	udep	_	_
-11	1 000	1 000	PRON	_	_	10	comp:obj	_	SpaceAfter=No
+11	1 000	1 000	NUM	_	NumType=Card	10	comp:obj	_	SpaceAfter=No
 12	)	)	PUNCT	_	_	5	punct	_	_
 13	:	:	PUNCT	_	_	1	punct	_	_
 

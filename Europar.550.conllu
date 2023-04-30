@@ -228,7 +228,7 @@
 29	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	mod@relcl	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	_
 31	selon	selon	ADP	_	_	29	mod	_	_
-32	moi	soi	PRON	_	Number=Sing|Person=1|PronType=Prs	31	comp:obj	_	SpaceAfter=No
+32	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	31	comp:obj	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	31	punct	_	_
 34	responsables	responsable	ADJ	_	Number=Plur	29	comp:pred	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	36	punct	_	_
@@ -251,7 +251,7 @@
 1	Pourquoi	pourquoi	ADV	_	PronType=Int	3	mod	_	_
 2	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs|Reflex=Yes	3	comp@expl	_	_
 3	occupons	occuper	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	3	subj	_	_
+4	-nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	3	subj	_	_
 5	de	de	ADP	_	_	3	comp:obl	_	_
 6	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 7	problème	problème	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
@@ -1153,7 +1153,7 @@
 31	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	32	subj	_	SpaceAfter=No
 32	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj@emb	_	_
 33	dû	devoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	comp:aux@tense	_	_
-34	m'	moi	PRON	_	Number=Sing|Person=1|Reflex=Yes	35	comp@expl	_	SpaceAfter=No
+34	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	35	comp@expl	_	SpaceAfter=No
 35	abstenir	abstenir	VERB	_	VerbForm=Inf	33	comp:obj	_	Subject=SubjRaising
 36	parce	parce	SCONJ	_	_	32	mod	_	ExtPos=SCONJ|Idiom=Yes
 37	que	que	SCONJ	_	_	36	unk	_	InIdiom=Yes
@@ -1909,7 +1909,7 @@
 34	de	de	ADP	_	_	33	comp:obj	_	_
 35	80	80	NUM	_	NumType=Card	36	det	_	_
 36	pour	pour	ADP	_	_	34	comp:obj	_	_
-37	cent	cent	PRON	_	NumType=Card	36	comp:obj	_	_
+37	cent	cent	NUM	_	NumType=Card	36	comp:obj	_	_
 38	dans	dans	ADP	_	_	26	mod	_	_
 39	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
 40	nouvel	nouveau	ADJ	_	Gender=Masc|Number=Sing	41	mod	_	_
@@ -3036,7 +3036,7 @@
 # sent_id = Europar.550_00098
 # text = Comme vous tous, j'entends les appels à l'aide des mères, des épouses et des soeurs des Kosovars albanais qui croupissent dans les geôles serbes.
 1	Comme	comme	ADP	_	_	6	mod	_	_
-2	vous	soi	PRON	_	Number=Plur|Person=2|PronType=Prs	1	comp:obj	_	_
+2	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	1	comp:obj	_	_
 3	tous	tout	ADJ	_	Gender=Masc|Number=Plur	2	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	SpaceAfter=No
@@ -3477,7 +3477,7 @@
 18	comportent	comporter	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
 19	réellement	réellement	ADV	_	_	18	mod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
-21	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	mod	_	_
+21	eux	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	mod	_	_
 22	aussi	aussi	ADV	_	_	21	mod	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	21	punct	_	_
 24	correctement	correctement	ADV	_	_	18	comp:obl	_	SpaceAfter=No
@@ -3893,7 +3893,7 @@
 # text = Que faisons-nous ?
 1	Que	que	PRON	_	PronType=Int	2	comp:obj	_	_
 2	faisons	faire	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	2	subj	_	_
+3	-nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	2	subj	_	_
 4	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Europar.550_00139
@@ -7033,7 +7033,7 @@
 16	qui	qui	PRON	_	PronType=Rel	21	subj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	selon	selon	ADP	_	_	21	mod	_	_
-19	moi	soi	PRON	_	Number=Sing|Person=1|PronType=Prs	18	comp:obj	_	SpaceAfter=No
+19	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	18	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	18	punct	_	_
 21	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	mod@relcl	_	_
 22	défaut	défaut	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_
@@ -7060,7 +7060,7 @@
 14	très	très	ADV	_	_	15	mod	_	_
 15	important	important	ADJ	_	Gender=Masc|Number=Sing	12	comp:pred	_	_
 16	pour	pour	ADP	_	_	15	mod	_	_
-17	nous	soi	PRON	_	Number=Plur|Person=1|PronType=Prs	16	comp:obj	_	SpaceAfter=No
+17	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	16	comp:obj	_	SpaceAfter=No
 18	"	"	PUNCT	_	_	12	punct	_	_
 19	pour	pour	ADP	_	_	8	mod	_	_
 20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
@@ -8167,7 +8167,7 @@
 2	,	,	PUNCT	_	_	4	punct	_	_
 3	tout	tout	ADV	_	_	4	mod	_	_
 4	comme	comme	ADP	_	_	9	mod	_	_
-5	elle	soi	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	SpaceAfter=No
+5	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	cela	cela	PRON	_	Number=Sing|PronType=Dem|Shared=Yes	9	subj	_	_
 8	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	9	comp:obl	_	_
@@ -8407,7 +8407,7 @@
 8	intervenir	intervenir	VERB	_	VerbForm=Inf	7	comp:obj	_	SpaceAfter=No|Subject=OblRaising
 9	,	,	PUNCT	_	_	6	punct	_	_
 10	à	à	ADP	_	_	6	comp:obl	_	_
-11	vous	soi	PRON	_	Number=Plur|Person=2|PronType=Prs	10	comp:obj	_	_
+11	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	10	comp:obj	_	_
 12	et	et	CCONJ	_	_	13	cc	_	_
 13	à	à	ADP	_	_	10	conj	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -8843,7 +8843,7 @@
 31	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	32	subj	_	_
 32	soumettez	soumettre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	30	comp:obj	_	_
 33	tous	tout	ADJ	_	Gender=Masc|Number=Plur	34	mod	_	_
-34	deux	deux	PRON	_	NumType=Card	32	mod	_	_
+34	deux	deux	NUM	_	NumType=Card	32	mod	_	_
 35	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	question	question	NOUN	_	Gender=Fem|Number=Sing	32	comp:obj	_	_
 37	que	que	PRON	_	PronType=Rel	41	comp:obj	_	_
@@ -9099,7 +9099,7 @@
 66	quelle	quel	DET	_	Gender=Fem|Number=Sing|PronType=Int	67	det	_	_
 67	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	65	comp:obj	_	_
 68	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	61	parataxis	_	SpaceAfter=No
-69	-nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	68	subj	_	_
+69	-nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	68	subj	_	_
 70	prêts	prêt	ADJ	_	Gender=Masc|Number=Plur	68	comp:pred	_	SpaceAfter=No
 71	,	,	PUNCT	_	_	72	punct	_	_
 72	en	en	ADP	_	_	70	mod	_	ExtPos=ADP|Idiom=Yes
@@ -9183,7 +9183,7 @@
 46	tout	tout	ADJ	_	Gender=Masc|Number=Sing	47	mod	_	_
 47	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	45	comp:obj	_	_
 48	que	que	PRON	_	PronType=Rel	54	comp:obj	_	_
-49	nous	soi	PRON	_	Number=Plur|Person=1|PronType=Prs	53	dislocated	_	_
+49	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	53	dislocated	_	_
 50	tous	tout	ADJ	_	Gender=Masc|Number=Plur	49	mod	_	SpaceAfter=No
 51	,	,	PUNCT	_	_	49	punct	_	_
 52	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	53	subj	_	_
@@ -9622,7 +9622,7 @@
 13	questions	question	NOUN	_	Gender=Fem|Number=Plur	19	subj	_	_
 14-15	auxquelles	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	_	18	comp:obl	_	_
-15	lesquelles	lequel	PRON	_	Gender=Fem|Number=Plur	14	comp:obj	_	_
+15	lesquelles	lequel	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	14	comp:obj	_	_
 16	elles	eux	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	18	subj	_	_
 17	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	18	comp@expl	_	_
 18	réfèrent	référer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	mod@relcl	_	_
@@ -9932,7 +9932,7 @@
 32	Barnier	Barnier	PROPN	_	_	31	mod	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	34	punct	_	_
 34	à	à	ADP	_	_	27	conj	_	_
-35	vous	soi	PRON	_	Number=Plur|Person=2|PronType=Prs	34	comp:obj	_	_
+35	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	34	comp:obj	_	_
 36	et	et	CCONJ	_	_	37	cc	_	_
 37	à	à	ADP	_	_	34	conj	_	_
 38	tous	tout	ADJ	_	Gender=Masc|Number=Plur	40	mod	_	_
@@ -10587,7 +10587,7 @@
 22	famine	famine	NOUN	_	Gender=Fem|Number=Sing	20	comp:obj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	_
 24	dont	dont	PRON	_	PronType=Rel	25	udep	_	_
-25	8	8	PRON	_	NumType=Card	17	mod@relcl	_	_
+25	8	8	NUM	_	NumType=Card	17	mod@relcl	_	_
 26	en	en	ADP	_	_	25	udep	_	_
 27	Éthiopie	Éthiopie	PROPN	_	Gender=Fem|Number=Sing	26	comp:obj	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	25	punct	_	_
@@ -11111,7 +11111,7 @@
 48	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	49	det	_	_
 49	régions	région	NOUN	_	Gender=Fem|Number=Plur	46	comp:obj	_	_
 50	entre	entre	ADP	_	_	46	mod	_	_
-51	elles	soi	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	50	comp:obj	_	SpaceAfter=No
+51	elles	eux	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	50	comp:obj	_	SpaceAfter=No
 52	,	,	PUNCT	_	_	55	punct	_	_
 53	et	et	CCONJ	_	_	55	cc	_	_
 54	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	55	subj	_	SpaceAfter=No
@@ -12193,7 +12193,7 @@
 # sent_id = Europar.550_00373
 # text = Selon moi il a joué à tort un rôle de premier plan dans les Balkans.
 1	Selon	selon	ADP	_	_	4	mod	_	_
-2	moi	soi	PRON	_	Number=Sing|Person=1|PronType=Prs	1	comp:obj	_	_
+2	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	1	comp:obj	_	_
 3	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	joué	jouer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
@@ -12959,7 +12959,7 @@
 14	aussi	aussi	ADV	_	_	13	mod	_	_
 15	adressé	adresser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
 16	à	à	ADP	_	_	15	comp:obl	_	_
-17	moi	soi	PRON	_	Number=Sing|Person=1|PronType=Prs	16	comp:obj	_	SpaceAfter=No
+17	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	16	comp:obj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = Europar.550_00397
@@ -13158,7 +13158,7 @@
 # sent_id = Europar.550_00402
 # text = Selon moi, il y a bien cohérence, et c'est pourquoi j'ai décidé et fait savoir à la commission que je ne rejetais pas cet exposé des motifs.
 1	Selon	selon	ADP	_	_	6	mod	_	_
-2	moi	soi	PRON	_	Number=Sing|Person=1|PronType=Prs	1	comp:obj	_	SpaceAfter=No
+2	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj@expl	_	_
 5	y	y	PRON	_	Person=3|PronType=Prs	6	comp@expl	_	_
@@ -13562,7 +13562,7 @@
 # sent_id = Europar.550_00417
 # text = Selon moi, elle ne l'est pas.
 1	Selon	selon	ADP	_	_	7	mod	_	_
-2	moi	soi	PRON	_	Number=Sing|Person=1|PronType=Prs	1	comp:obj	_	SpaceAfter=No
+2	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
 5	ne	ne	ADV	_	Polarity=Neg	7	mod	_	_
@@ -13701,7 +13701,7 @@
 7	insiste	insister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	entre	entre	ADP	_	_	7	mod	_	ExtPos=ADV|Idiom=Yes
-10	autres	autre	PRON	_	Number=Plur	9	unk	_	InIdiom=Yes|SpaceAfter=No
+10	autres	autre	PRON	_	Number=Plur|PronType=Ind	9	unk	_	InIdiom=Yes|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	pour	pour	ADP	_	_	7	mod	_	_
 13	que	que	SCONJ	_	_	12	comp:obj	_	_
@@ -14105,7 +14105,7 @@
 1	Pourquoi	pourquoi	ADV	_	PronType=Int	3	mod	_	_
 2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	_
 3	disposons	disposer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	3	subj	_	_
+4	-nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	3	subj	_	_
 5	que	que	ADV	_	_	6	mod	_	_
 6	d'	de	ADP	_	_	3	comp:obl	_	SpaceAfter=No
 7	estimations	estimation	NOUN	_	Gender=Fem|Number=Plur	6	comp:obj	_	_
@@ -14274,7 +14274,7 @@
 1	Je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	compte	compter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	sur	sur	ADP	_	_	2	comp:obl	_	_
-4	vous	soi	PRON	_	Number=Plur|Person=2|PronType=Prs	3	comp:obj	_	_
+4	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	3	comp:obj	_	_
 5	tous	tout	ADJ	_	Gender=Masc|Number=Plur	4	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	ne	ne	ADV	_	Polarity=Neg	2	mod	_	ExtPos=ADV|Idiom=Yes
@@ -15021,7 +15021,7 @@
 6	de	de	ADP	_	_	5	udep	_	_
 7	bon	bon	ADJ	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 8	selon	selon	ADP	_	_	4	mod	_	_
-9	moi	soi	PRON	_	Number=Sing|Person=1|PronType=Prs	8	comp:obj	_	SpaceAfter=No
+9	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	8	comp:obj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Europar.550_00473
@@ -15490,7 +15490,7 @@
 10	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	SpaceAfter=No
 11	en	en	PRON	_	Person=3|PronType=Prs	13	udep	_	_
 12	aurai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	2	parataxis	_	_
-13	69	69	PRON	_	NumType=Card	12	comp:obj	_	SpaceAfter=No
+13	69	69	NUM	_	NumType=Card	12	comp:obj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Europar.550_00489
@@ -15713,7 +15713,7 @@
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 19	occasion	occasion	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
 20	de	de	ADP	_	_	17	comp:obl	_	_
-21	m'	moi	PRON	_	Number=Sing|Person=1|Reflex=Yes	22	comp@expl	_	SpaceAfter=No
+21	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	22	comp@expl	_	SpaceAfter=No
 22	exprimer	exprimer	VERB	_	VerbForm=Inf	20	comp:obj	_	Subject=OblRaising
 23	dans	dans	ADP	_	_	22	mod	_	_
 24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
@@ -15998,7 +15998,7 @@
 12	valeurs	valeur	NOUN	_	Gender=Fem|Number=Plur	5	comp:obj	_	_
 13-14	auxquelles	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	_	16	comp:obl	_	_
-14	lesquelles	lequel	PRON	_	Gender=Fem|Number=Plur	13	comp:obj	_	_
+14	lesquelles	lequel	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	13	comp:obj	_	_
 15	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	16	subj	_	_
 16	teniez	tenir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	12	mod@relcl	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
@@ -16765,7 +16765,7 @@
 1	Je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	puis	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	donc	donc	ADV	_	_	2	mod	_	_
-4	m'	moi	PRON	_	Number=Sing|Person=1|Reflex=Yes	5	comp@expl	_	SpaceAfter=No
+4	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	comp@expl	_	SpaceAfter=No
 5	adresser	adresser	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	tous	tout	ADJ	_	Gender=Masc|Number=Plur	9	mod	_	_

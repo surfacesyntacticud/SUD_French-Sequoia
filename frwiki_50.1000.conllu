@@ -132,7 +132,7 @@
 # sent_id = frwiki_50.1000_00005
 # text = Devant eux, le terrain est déjà jonché de cadavres et se trouve directement pris sous le feu des mitrailleuses allemandes.
 1	Devant	devant	ADP	_	_	6	mod	_	_
-2	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	comp:obj	_	SpaceAfter=No
+2	eux	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	terrain	terrain	NOUN	_	Gender=Masc|Number=Sing	6	subj@pass	_	_
@@ -424,7 +424,7 @@
 39	à	à	ADP	_	_	33	mod	_	_
 40	raison	raison	NOUN	_	Gender=Fem|Number=Sing	39	comp:obj	_	_
 41	de	de	ADP	_	_	40	udep	_	_
-42	deux	deux	PRON	_	NumType=Card	41	comp:obj	_	_
+42	deux	deux	NUM	_	NumType=Card	41	comp:obj	_	_
 43	par	par	ADP	_	_	42	udep	_	_
 44	escouade	escouade	NOUN	_	Gender=Fem|Number=Sing	43	comp:obj	_	SpaceAfter=No
 45	.	.	PUNCT	_	_	10	punct	_	_
@@ -509,7 +509,7 @@
 8	soit	soit	CCONJ	_	_	9	cc	_	_
 9	par	par	ADP	_	_	6	comp:obl@agent	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
-11	nôtres	nôtre	PRON	_	_	9	comp:obj	_	SpaceAfter=No
+11	nôtres	nôtre	PRON	_	Gender=Fem|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	9	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	soit	soit	CCONJ	_	_	14	cc	_	_
 14	par	par	ADP	_	_	9	conj	_	_
@@ -1020,7 +1020,7 @@
 9	Lechat	Lechat	PROPN	_	_	8	mod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	5	punct	_	_
 11	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-12	elle	soi	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	mod	_	_
+12	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	mod	_	_
 13	aussi	aussi	ADV	_	_	12	mod	_	_
 14	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -1759,7 +1759,7 @@
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	médias	média	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	_
 11	entre	entre	ADP	_	_	7	udep	_	_
-12	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	comp:obj	_	SpaceAfter=No
+12	eux	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	chacun	chacun	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	subj	_	_
 15	reprenant	reprendre	VERB	_	Tense=Pres|VerbForm=Part	2	mod	_	_
@@ -1891,12 +1891,12 @@
 17	et	et	CCONJ	_	_	18	cc	_	_
 18	moins	moins	ADV	_	_	9	conj	_	_
 19	de	de	ADP	_	_	18	comp:obl	_	_
-20	200	200	PRON	_	NumType=Card	19	comp:obj	_	_
+20	200	200	NUM	_	NumType=Card	19	comp:obj	_	_
 21	à	à	ADP	_	_	18	orphan	_	_
 22	Timisoara	Timisoara	PROPN	_	_	21	comp:obj	_	_
 23	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
 24	seulement	seulement	ADV	_	_	25	mod	_	_
-25	96	96	PRON	_	NumType=Card	18	mod	_	_
+25	96	96	NUM	_	NumType=Card	18	mod	_	_
 26	selon	selon	ADP	_	_	25	udep	_	_
 27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	_
 28	décomptes	décompte	NOUN	_	Gender=Masc|Number=Plur	26	comp:obj	_	_
@@ -2156,7 +2156,7 @@
 11	comité	comité	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	6	punct	_	_
 13	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	15	subj	_	_
-14	m'	moi	PRON	_	Number=Sing|Person=1|Reflex=Yes	15	comp@expl	_	SpaceAfter=No
+14	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	15	comp@expl	_	SpaceAfter=No
 15	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	Nayirah	Nayirah	PROPN	_	_	15	comp:pred	_	_
 17	et	et	CCONJ	_	_	19	cc	_	_
@@ -2173,7 +2173,7 @@
 1	Ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes	2	det	_	_
 2	mère	mère	NOUN	_	Gender=Fem|Number=Sing	5	subj	_	_
 3	et	et	CCONJ	_	_	4	cc	_	_
-4	moi	soi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	conj	_	_
+4	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	conj	_	_
 5	étions	être	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	5	comp:obl	_	_
@@ -2211,7 +2211,7 @@
 17	Koweit	Koweit	PROPN	_	_	15	comp:obj	_	_
 18	auprès	auprès	ADP	_	_	12	comp:obl	_	ExtPos=ADV
 19	d'	de	ADP	_	_	18	comp:obl	_	SpaceAfter=No
-20	elle	soi	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	SpaceAfter=No
+20	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	SpaceAfter=No
 21	.	.	PUNCT	_	Shared=Yes	11	punct	_	_
 
 # sent_id = frwiki_50.1000_00086
@@ -3353,7 +3353,7 @@
 32	cours	cours	NOUN	_	Gender=Masc	30	comp:obj	_	_
 33-34	duquel	_	_	_	_	_	_	_	_
 33	de	de	ADP	_	_	32	comp:obl	_	_
-34	lequel	lequel	PRON	_	Gender=Masc|Number=Sing	33	comp:obj	_	_
+34	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	33	comp:obj	_	_
 35	celui-ci	celui-ci	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	36	subj	_	_
 36	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	mod@relcl	_	_
 37	discuté	discuter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	comp:aux@tense	_	_
@@ -6518,7 +6518,7 @@
 # sent_id = frwiki_50.1000_00261
 # text = Parmi elles figurent notamment l'ancien maire du 3e arrondissement, Jacques Dominati, ses deux fils, Laurent et Philippe, ainsi que l'ancien bras droit de Jean Tiberi à la fédération RPR de Paris, Guy Legris, également impliqué dans l'affaire du Crédit municipal de Paris.
 1	Parmi	parmi	ADP	_	_	3	comp:obl	_	_
-2	elles	soi	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	1	comp:obj	_	_
+2	elles	eux	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	1	comp:obj	_	_
 3	figurent	figurer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	notamment	notamment	ADV	_	_	3	mod	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
@@ -6813,7 +6813,7 @@
 # sent_id = frwiki_50.1000_00272
 # text = Pour eux "il n'y avait pas de faux électeurs (mais) des actions militantes, des électeurs qui voulaient aider les élus en place tout naturellement, comme cela se faisait à l'époque partout".
 1	Pour	pour	ADP	_	_	7	mod	_	_
-2	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	comp:obj	_	_
+2	eux	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	comp:obj	_	_
 3	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 4	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
 5	n'	ne	ADV	_	Polarity=Neg	7	mod	_	SpaceAfter=No
@@ -6904,7 +6904,7 @@
 15	mêmes	même	ADJ	_	Number=Plur	16	mod	_	_
 16	bancs	banc	NOUN	_	Gender=Masc|Number=Plur	13	comp:obj	_	_
 17	que	que	SCONJ	_	_	16	mod	_	_
-18	moi	soi	PRON	_	Number=Sing|Person=1|PronType=Prs	17	comp:obj	_	SpaceAfter=No
+18	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	17	comp:obj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	_
 20	qui	qui	PRON	_	PronType=Rel	21	subj	_	_
 21	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	conj	_	_
@@ -7906,7 +7906,7 @@
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	d'	de	ADP	_	_	6	comp:pred	_	SpaceAfter=No
 8	environ	environ	ADV	_	_	9	mod	_	_
-9	19 000	19 000	PRON	_	_	7	comp:obj	_	SpaceAfter=No
+9	19 000	19 000	NUM	_	NumType=Card	7	comp:obj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = frwiki_50.1000_00300
@@ -8723,7 +8723,7 @@
 55	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	56	comp@expl	_	_
 56	passer	passer	VERB	_	VerbForm=Inf	54	comp:obj	_	Subject=SubjRaising
 57	d'	de	ADP	_	_	56	comp:obl	_	SpaceAfter=No
-58	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	57	comp:obj	_	_
+58	eux	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	57	comp:obj	_	_
 59	pendant	pendant	ADP	_	_	56	mod	_	_
 60	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	62	det	_	_
 61	Première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	62	mod	_	_
@@ -8769,7 +8769,7 @@
 23	moitié	moitié	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	_
 24	d'	de	ADP	_	_	23	udep	_	ExtPos=ADP|Idiom=Yes|SpaceAfter=No
 25	entre	entre	ADP	_	_	24	unk	_	InIdiom=Yes
-26	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	24	comp:obj	_	_
+26	eux	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	24	comp:obj	_	_
 27	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	mod@relcl	_	_
 28	été	être	AUX	_	Tense=Past|VerbForm=Part	27	comp:aux@tense	_	_
 29	limogée	limoger	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	28	comp:aux@pass	_	_
@@ -13005,7 +13005,7 @@
 25	qui	qui	PRON	_	PronType=Rel	26	subj	_	_
 26	représente	représenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	mod@relcl	_	_
 27	selon	selon	ADP	_	_	26	mod	_	_
-28	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	27	comp:obj	_	_
+28	eux	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	27	comp:obj	_	_
 29	dans	dans	ADP	_	_	26	mod	_	_
 30	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	31	det	_	_
 31	affaire	affaire	NOUN	_	Gender=Fem|Number=Sing	29	comp:obj	_	_
@@ -15472,7 +15472,7 @@
 31	qui	qui	PRON	_	PronType=Rel	32	subj@pass	_	_
 32	seront	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	23	mod@relcl	_	_
 33	tous	tout	ADJ	_	Gender=Masc|Number=Plur	34	mod	_	_
-34	deux	deux	PRON	_	NumType=Card	32	mod	_	_
+34	deux	deux	NUM	_	NumType=Card	32	mod	_	_
 35	mis	mettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	32	comp:aux@pass	_	_
 36	en	en	ADP	_	_	35	comp:obl	_	_
 37	examen	examen	NOUN	_	Gender=Masc|Number=Sing	36	comp:obj	_	SpaceAfter=No
@@ -15680,7 +15680,7 @@
 30	assainissement	assainissement	NOUN	_	Gender=Masc|Number=Sing	29	comp:obj	_	_
 31	disait	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	comp:obj	_	_
 32	vouloir	vouloir	VERB	_	VerbForm=Inf	31	comp:obj	_	Subject=SubjRaising
-33	lui	lui	PRON	_	_	34	comp:obl	_	_
+33	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	comp:obl	_	_
 34	remettre	remettre	VERB	_	VerbForm=Inf	32	comp:obj	_	Subject=SubjRaising
 35	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	somme	somme	NOUN	_	Gender=Fem|Number=Sing	34	comp:obj	_	_
@@ -16236,7 +16236,7 @@
 21	prison	prison	NOUN	_	Gender=Fem|Number=Sing	20	comp:obj	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	_
 23	dont	dont	PRON	_	PronType=Rel	24	udep	_	_
-24	trois	trois	PRON	_	NumType=Card	19	mod@relcl	_	_
+24	trois	trois	NUM	_	NumType=Card	19	mod@relcl	_	_
 25	avec	avec	ADP	_	_	24	udep	_	_
 26	sursis	sursis	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	30	punct	_	_
@@ -18284,7 +18284,7 @@
 # sent_id = frwiki_50.1000_00661
 # text = Tous deux sont arrêtés immédiatement.
 1	Tous	tout	ADJ	_	Gender=Masc|Number=Plur	2	mod	_	_
-2	deux	deux	PRON	_	NumType=Card	3	subj@pass	_	_
+2	deux	deux	NUM	_	NumType=Card	3	subj@pass	_	_
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	arrêtés	arrêter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	_
 5	immédiatement	immédiatement	ADV	_	_	3	mod	_	SpaceAfter=No
@@ -18381,7 +18381,7 @@
 12	entreprise	entreprise	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
 13	semblent	sembler	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	mod	_	_
+15	eux	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	mod	_	_
 16	aussi	aussi	ADV	_	_	15	mod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	15	punct	_	_
 18	avoir	avoir	AUX	_	VerbForm=Inf	13	comp:pred	_	Subject=SubjRaising
@@ -19407,7 +19407,7 @@
 17	été	être	AUX	_	Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
 18	requises	requérir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	17	comp:aux@pass	_	_
 19	contre	contre	ADP	_	_	16	mod	_	_
-20	41	41	PRON	_	NumType=Card	19	comp:obj	_	_
+20	41	41	NUM	_	NumType=Card	19	comp:obj	_	_
 21-22	des	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	20	udep	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
@@ -21252,7 +21252,7 @@
 6	prévenus	prévenu	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	dont	dont	PRON	_	PronType=Rel	9	udep	_	_
-9	14	14	PRON	_	NumType=Card	10	subj	_	_
+9	14	14	NUM	_	NumType=Card	10	subj	_	_
 10	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
 11	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
 12	appel	appel	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	SpaceAfter=No
@@ -21489,7 +21489,7 @@
 24	de	de	ADP	_	_	23	udep	_	_
 25	prison	prison	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
 26	dont	dont	PRON	_	PronType=Rel	27	udep	_	_
-27	deux	deux	PRON	_	NumType=Card	23	mod@relcl	_	_
+27	deux	deux	NUM	_	NumType=Card	23	mod@relcl	_	_
 28	avec	avec	ADP	_	_	27	udep	_	_
 29	sursis	sursis	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	SpaceAfter=No
 30	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
@@ -22677,7 +22677,7 @@
 35	Juventus	Juventu	NOUN	_	Gender=Fem|Number=Sing	36	subj	_	_
 36	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
 37	de	de	ADP	_	_	36	comp:obl	_	_
-38	17	17	PRON	_	NumType=Card	37	comp:obj	_	_
+38	17	17	NUM	_	NumType=Card	37	comp:obj	_	_
 39	à	à	ADP	_	_	37	comp:obl	_	_
 40	9	9	NUM	_	NumType=Card	41	det	_	_
 41	points	point	NOUN	_	Gender=Masc|Number=Plur	39	comp:obj	_	_
@@ -22687,16 +22687,16 @@
 45	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
 46	Fiorentina	Fiorentina	PROPN	_	Gender=Fem|Number=Sing	36	conj	_	_
 47	de	de	ADP	_	_	46	orphan	_	_
-48	19	19	PRON	_	NumType=Card	47	comp:obj	_	_
+48	19	19	NUM	_	NumType=Card	47	comp:obj	_	_
 49	à	à	ADP	_	_	47	comp:obl	_	_
-50	15	15	PRON	_	NumType=Card	49	comp:obj	_	_
+50	15	15	NUM	_	NumType=Card	49	comp:obj	_	_
 51	et	et	CCONJ	_	_	53	cc	_	_
 52	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
 53	Lazio	Lazio	PROPN	_	Gender=Fem|Number=Sing	46	conj	_	_
 54	de	de	ADP	_	_	53	orphan	_	_
-55	11	11	PRON	_	NumType=Card	54	comp:obj	_	_
+55	11	11	NUM	_	NumType=Card	54	comp:obj	_	_
 56	à	à	ADP	_	_	54	comp:obl	_	_
-57	3	3	PRON	_	NumType=Card	56	comp:obj	_	SpaceAfter=No
+57	3	3	NUM	_	NumType=Card	56	comp:obj	_	SpaceAfter=No
 58	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = frwiki_50.1000_00818
@@ -23817,7 +23817,7 @@
 14	valeurs	valeur	NOUN	_	Gender=Fem|Number=Plur	13	comp:obj	_	_
 15	mobilières	mobilier	ADJ	_	Gender=Fem|Number=Plur	14	mod	_	_
 16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
-17	5	5	PRON	_	NumType=Card	6	conj:appos	_	_
+17	5	5	NUM	_	NumType=Card	6	conj:appos	_	_
 18	à	à	ADP	_	_	17	udep	_	_
 19	prélever	prélever	VERB	_	VerbForm=Inf	18	comp:obj	_	Subject=Generic
 20	sur	sur	ADP	_	_	19	comp:obl	_	_
@@ -23829,7 +23829,7 @@
 26	Manhattan	Manhattan	PROPN	_	_	25	flat@name	_	_
 27	Bank	Bank	PROPN	_	_	25	mod	_	_
 28	et	et	CCONJ	_	_	29	cc	_	_
-29	2	2	PRON	_	NumType=Card	17	conj	_	_
+29	2	2	NUM	_	NumType=Card	17	conj	_	_
 30	sur	sur	ADP	_	_	29	orphan	_	_
 31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	compte	compte	NOUN	_	Gender=Masc|Number=Sing	30	comp:obj	_	_
@@ -24515,7 +24515,7 @@
 13	30	30	NUM	_	NumType=Card	14	det	_	_
 14	mois	mois	NOUN	_	Gender=Masc|Number=Plur	2	mod	_	_
 15	dont	dont	PRON	_	PronType=Rel	16	udep	_	_
-16	6	6	PRON	_	NumType=Card	14	mod@relcl	_	_
+16	6	6	NUM	_	NumType=Card	14	mod@relcl	_	_
 17	fermes	ferme	ADJ	_	Number=Plur	16	mod	_	_
 
 # sent_id = frwiki_50.1000_00887

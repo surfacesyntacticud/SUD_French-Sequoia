@@ -1389,7 +1389,7 @@
 # text = Peut-être a-t-elle eu le tort, la veille, de faire installer des poubelles fixes, synonymes, à priori, de propreté, ce qui a eu probablement pour effet d'inciter les gens à rester à domicile.
 1	Peut-être	peut-être	ADV	_	_	2	mod	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	2	subj	_	_
+3	-t-elle	soi	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 4	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	tort	tort	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
@@ -2044,7 +2044,7 @@
 20-21	aux	_	_	_	_	_	_	_	_
 20	à	à	ADP	_	_	19	udep	_	_
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
-22	autres	autre	PRON	_	Number=Plur	20	comp:obj	_	_
+22	autres	autre	PRON	_	Number=Plur|PronType=Ind	20	comp:obj	_	_
 23	et	et	CCONJ	_	_	25	cc	_	_
 24	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes	25	det	_	_
 25	participation	participation	NOUN	_	Gender=Fem|Number=Sing	19	conj	_	_
@@ -2381,7 +2381,7 @@
 29	certains	certain	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	34	subj	_	_
 30	d'	de	ADP	_	_	29	udep	_	ExtPos=ADP|Idiom=Yes|SpaceAfter=No
 31	entre	entre	ADP	_	_	30	unk	_	InIdiom=Yes
-32	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	30	comp:obj	_	_
+32	eux	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	30	comp:obj	_	_
 33	n'	ne	ADV	_	Polarity=Neg	34	mod	_	SpaceAfter=No
 34	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	comp:obj	_	_
 35	même	même	ADV	_	_	36	mod	_	_
@@ -2559,7 +2559,7 @@
 
 # sent_id = annodis.er_00096
 # text = Toi mon toit
-1	Toi	soi	PRON	_	Number=Sing|Person=2|PronType=Prs	0	root	_	_
+1	Toi	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	0	root	_	_
 2	mon	son	DET	_	Number=Sing|Poss=Yes	3	det	_	_
 3	toit	toit	NOUN	_	Gender=Masc|Number=Sing	1	mod	_	_
 
@@ -3912,7 +3912,7 @@
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 8	de	de	ADP	_	_	7	udep	_	_
-9	cinq	cinq	PRON	_	NumType=Card	8	comp:obj	_	SpaceAfter=No
+9	cinq	cinq	NUM	_	NumType=Card	8	comp:obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	roi	roi	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	_
@@ -4996,7 +4996,7 @@
 12	-	-	PUNCT	_	_	7	punct	_	_
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	elle	soi	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	mod	_	SpaceAfter=No
+15	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	mod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	encore	encore	ADV	_	_	13	mod	_	_
 18-19	au	_	_	_	_	_	_	_	_
@@ -5418,7 +5418,7 @@
 17-18	du	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	16	mod	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	23	23	PRON	_	NumType=Card	17	comp:obj	_	_
+19	23	23	NUM	_	NumType=Card	17	comp:obj	_	_
 20-21	au	_	_	_	_	_	_	_	_
 20	à	à	ADP	_	_	17	comp:obl	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
@@ -6518,7 +6518,7 @@
 # text = Elles verseront 40 pour l'organisation d'un repas (au lieu de 60 précédemment).
 1	Elles	eux	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
 2	verseront	verser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
-3	40	40	PRON	_	NumType=Card	2	comp:obj	_	_
+3	40	40	NUM	_	NumType=Card	2	comp:obj	_	_
 4	pour	pour	ADP	_	_	3	udep	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	organisation	organisation	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
@@ -6531,7 +6531,7 @@
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
 14	de	de	ADP	_	_	13	udep	_	_
-15	60	60	PRON	_	NumType=Card	14	comp:obj	_	_
+15	60	60	NUM	_	NumType=Card	14	comp:obj	_	_
 16	précédemment	précédemment	ADV	_	_	15	mod	_	SpaceAfter=No
 17	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	2	punct	_	_
@@ -6564,7 +6564,7 @@
 23	frais	frais	NOUN	_	Gender=Masc|Number=Plur	21	comp:obj	_	_
 24	diminuer	diminuer	VERB	_	VerbForm=Inf	17	comp:pred	_	Subject=ObjRaising
 25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
-26	150	150	PRON	_	NumType=Card	17	parataxis:insert	_	_
+26	150	150	NUM	_	NumType=Card	17	parataxis:insert	_	_
 27	par	par	ADP	_	_	26	udep	_	_
 28	an	an	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj	_	SpaceAfter=No
 29	)	)	PUNCT	_	_	26	punct	_	_
@@ -6826,7 +6826,7 @@
 6	d'	de	ADP	_	_	5	comp:obl	_	SpaceAfter=No
 7	obtenir	obtenir	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
 8	d'	de	ADP	_	_	7	comp:obl	_	SpaceAfter=No
-9	elle	soi	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	_
+9	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	prêt-relais	prêt-relais	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 12	pour	pour	ADP	_	_	7	mod	_	_
@@ -7563,7 +7563,7 @@
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	16	udep	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
-19	onze	onze	PRON	_	NumType=Card	17	comp:obj	_	SpaceAfter=No
+19	onze	onze	NUM	_	NumType=Card	17	comp:obj	_	SpaceAfter=No
 20	"	"	PUNCT	_	_	16	punct	_	_
 21	;	;	PUNCT	_	_	9	punct	_	_
 
@@ -8516,7 +8516,7 @@
 4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	rentrés	rentrer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	comp:aux@pass	_	_
 6	chez	chez	ADP	_	_	5	comp:obl	_	_
-7	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	comp:obj	_	_
+7	eux	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	comp:obj	_	_
 8	après	après	ADP	_	_	4	mod	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 10	belle	beau	ADJ	_	Gender=Fem|Number=Sing	11	mod	_	_
@@ -8883,7 +8883,7 @@
 28	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	27	comp:obj	_	_
 29	d'	de	ADP	_	_	28	udep	_	ExtPos=ADP|Idiom=Yes|SpaceAfter=No
 30	entre	entre	ADP	_	_	29	unk	_	InIdiom=Yes
-31	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	comp:obj	_	SpaceAfter=No
+31	eux	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	comp:obj	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	33	punct	_	_
 33	Vlajko	Vlajko	PROPN	_	_	28	conj:appos	_	_
 34	Stojiljkovic	Stojiljkovic	PROPN	_	_	33	flat@name	_	SpaceAfter=No
@@ -9326,7 +9326,7 @@
 6	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	_
 8	reconnaît	reconnaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis:insert	_	SpaceAfter=No
-9	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	8	subj	_	SpaceAfter=No
+9	-elle	soi	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	subj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = annodis.er_00356
@@ -9365,7 +9365,7 @@
 16	par	par	ADP	_	Shared=Yes	15	udep	_	_
 17	tranche	tranche	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
 18	de	de	ADP	_	_	17	udep	_	_
-19	six	six	PRON	_	NumType=Card	18	comp:obj	_	SpaceAfter=No
+19	six	six	NUM	_	NumType=Card	18	comp:obj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = annodis.er_00358
@@ -9693,7 +9693,7 @@
 22	par	par	ADP	_	_	21	udep	_	_
 23	tranche	tranche	NOUN	_	Gender=Fem|Number=Sing	22	comp:obj	_	_
 24	de	de	ADP	_	_	23	udep	_	_
-25	six	six	PRON	_	NumType=Card	24	comp:obj	_	SpaceAfter=No
+25	six	six	NUM	_	NumType=Card	24	comp:obj	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = annodis.er_00369
@@ -11548,7 +11548,7 @@
 12	en-dessous	en-dessous	ADV	_	_	21	comp:obl	_	_
 13-14	duquel	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	12	comp:obj	_	_
-14	lequel	lequel	PRON	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
+14	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	13	comp:obj	_	_
 15	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj@expl	_	_
 16	ne	ne	ADV	_	Polarity=Neg	17	mod	_	_
 17	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	mod@relcl	_	_
@@ -11728,7 +11728,7 @@
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	commune	commune	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	compte	compter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	50	50	PRON	_	NumType=Card	3	comp:obj	_	_
+4	50	50	NUM	_	NumType=Card	3	comp:obj	_	_
 5	de	de	ADP	_	_	4	udep	_	_
 6	ces	ce	DET	_	Number=Plur|PronType=Dem	7	det	_	_
 7	avaloirs	avaloir	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
@@ -11900,7 +11900,7 @@
 17	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
 18	portée	porter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	comp:aux@pass	_	_
 19	de	de	ADP	_	_	18	comp:obl	_	_
-20	1.000	1.000	PRON	_	NumType=Card	19	comp:obj	_	_
+20	1.000	1.000	NUM	_	NumType=Card	19	comp:obj	_	_
 21	à	à	ADP	_	_	19	comp:obl	_	_
 22	1.500	1.500	NUM	_	NumType=Card	23	det	_	_
 23	m2	m2	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_
@@ -12240,7 +12240,7 @@
 30	qui	qui	PRON	_	PronType=Rel	32	subj	_	_
 31	en	en	PRON	_	Person=3|PronType=Prs	33	udep	_	_
 32	souhaitait	souhaiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	mod@relcl	_	_
-33	deux	deux	PRON	_	NumType=Card	32	comp:obj	_	_
+33	deux	deux	NUM	_	NumType=Card	32	comp:obj	_	_
 34	:	:	PUNCT	_	Shared=Yes	38	punct	_	_
 35	"	"	PUNCT	_	_	38	punct	_	SpaceAfter=No
 36	Notre	son	DET	_	Number=Sing|Poss=Yes	37	det	_	_
@@ -13142,7 +13142,7 @@
 # text = Tous les trois, âgé de 16 à 17 ans ont été placés en garde à vue à la brigade bethoncourtoise avant d'être remis en liberté avec, en poche, une convocation par officier de police judiciaire pour une audience devant le tribunal pour enfants, le 5 octobre prochain.
 1	Tous	tout	ADJ	_	Gender=Masc|Number=Plur	3	mod	_	_
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
-3	trois	trois	PRON	_	NumType=Card	11	subj@pass	_	SpaceAfter=No
+3	trois	trois	NUM	_	NumType=Card	11	subj@pass	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	âgé	âgé	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	_
 6	de	de	ADP	_	_	5	comp:obl	_	_
@@ -13507,7 +13507,7 @@
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	quant	quant	ADV	_	_	3	mod	_	ExtPos=ADV
 5	à	à	ADP	_	_	4	comp:obl	_	_
-6	elle	soi	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	_
+6	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	_
 7	arrivée	arriver	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 8	en	en	ADP	_	_	7	mod	_	_
 9	famille	famille	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No
