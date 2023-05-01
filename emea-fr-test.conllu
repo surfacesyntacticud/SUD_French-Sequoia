@@ -4146,7 +4146,7 @@
 30-31	des	_	_	_	_	_	_	_	_
 30	de	de	ADP	_	_	29	udep	_	_
 31	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	32	det	_	_
-32	3 862	3 862	PRON	_	_	30	comp:obj	_	SpaceAfter=No
+32	3 862	3 862	NUM	_	NumType=Card	30	comp:obj	_	SpaceAfter=No
 33	)	)	PUNCT	_	_	29	punct	_	_
 34	et	et	CCONJ	_	_	35	cc	_	_
 35	de	de	ADP	_	_	25	conj	_	_
@@ -4157,7 +4157,7 @@
 40-41	des	_	_	_	_	_	_	_	_
 40	de	de	ADP	_	_	39	udep	_	_
 41	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	42	det	_	_
-42	3 852	3 852	PRON	_	_	40	comp:obj	_	SpaceAfter=No
+42	3 852	3 852	NUM	_	NumType=Card	40	comp:obj	_	SpaceAfter=No
 43	)	)	PUNCT	_	_	39	punct	_	_
 44	chez	chez	ADP	_	_	23	mod	_	_
 45	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	46	det	_	_
@@ -4189,7 +4189,7 @@
 15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
 16	51	51	NUM	_	NumType=Card	14	conj:appos	_	_
 17	sur	sur	ADP	_	_	16	udep	_	_
-18	3 862	3 862	PRON	_	_	17	comp:obj	_	SpaceAfter=No
+18	3 862	3 862	NUM	_	NumType=Card	17	comp:obj	_	SpaceAfter=No
 19	)	)	PUNCT	_	_	16	punct	_	_
 20	chez	chez	ADP	_	_	14	udep	_	_
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
@@ -4204,7 +4204,7 @@
 30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
 31	22	22	NUM	_	NumType=Card	29	conj:appos	_	_
 32	sur	sur	ADP	_	_	31	udep	_	_
-33	3 852	3 852	PRON	_	_	32	comp:obj	_	SpaceAfter=No
+33	3 852	3 852	NUM	_	NumType=Card	32	comp:obj	_	SpaceAfter=No
 34	)	)	PUNCT	_	_	31	punct	_	_
 35	chez	chez	ADP	_	_	29	udep	_	_
 36	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	37	det	_	_

@@ -3345,7 +3345,7 @@
 # sent_id = Europar.550_00114
 # text = A-t-on jamais pensé à ne relâcher ces sanctions que quand le gouvernement serbe aura vraiment fait un geste ?
 1	A	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-2	-t-on	il	PRON	_	Number=Sing|Person=3|PronType=Ind	1	subj	_	_
+2	-t-on	on	PRON	_	Number=Sing|Person=3|PronType=Ind	1	subj	_	_
 3	jamais	jamais	ADV	_	Polarity=Neg	1	mod	_	_
 4	pensé	penser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	comp:aux@tense	_	_
 5	à	à	ADP	_	_	4	comp:obl	_	_
@@ -8651,7 +8651,7 @@
 24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
 25	formes	forme	NOUN	_	Gender=Fem|Number=Plur	23	comp:obj	_	_
 26	qui	qui	PRON	_	PronType=Rel	28	subj	_	_
-27	vous	lui	PRON	_	Number=Plur|Person=2	28	comp:obl	_	_
+27	vous	vous	PRON	_	Number=Plur|Person=2	28	comp:obl	_	_
 28	conviendraient	convenir	VERB	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	mod@relcl	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	23	punct	_	_
 30-31	aux	_	_	_	_	_	_	_	_

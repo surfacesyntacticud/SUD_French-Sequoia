@@ -9156,7 +9156,7 @@
 67	mais	mais	CCONJ	_	_	73	cc	_	SpaceAfter=No
 68	,	,	PUNCT	_	_	73	punct	_	_
 69	pourrait	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	73	parataxis:insert	_	SpaceAfter=No
-70	-on	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Art	69	subj	_	_
+70	-on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	69	subj	_	_
 71	dire	dire	VERB	_	VerbForm=Inf	69	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 72	,	,	PUNCT	_	_	69	punct	_	_
 73	de	de	ADP	_	_	65	conj	_	_
@@ -24004,7 +24004,7 @@
 16	...	...	PUNCT	_	_	18	punct	_	_
 17	y	y	PRON	_	Person=3|PronType=Prs	18	mod	_	_
 18	retrouverait	retrouver	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-19	-on	il	PRON	_	Number=Sing|Person=3|PronType=Art	18	subj	_	_
+19	-on	on	PRON	_	Number=Sing|Person=3|PronType=Ind	18	subj	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	trace	trace	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
 22-23	du	_	_	_	_	_	_	_	_
