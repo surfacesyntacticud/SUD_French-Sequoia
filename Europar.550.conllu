@@ -4647,9 +4647,9 @@
 18	en	en	PRON	_	Person=3|PronType=Prs	19	comp@expl	_	_
 19	être	être	VERB	_	VerbForm=Inf	17	comp:obj	_	Subject=Generic
 20	autrement	autrement	ADV	_	_	19	mod	_	_
-21	étant	être	VERB	_	Tense=Pres|VerbForm=Part	17	mod	_	ExtPos=ADP|Idiom=Yes
-22	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	unk	_	InIdiom=Yes
-23	que	que	SCONJ	_	_	21	comp:obj	_	_
+21	étant	être	VERB	_	Tense=Pres|VerbForm=Part	17	mod	_	_
+22	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	comp:aux@pass	_	_
+23	que	que	SCONJ	_	_	21	comp:obj@pass	_	_
 24	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	26	subj	_	_
 25	Lamy	Lamy	PROPN	_	_	24	mod	_	_
 26	connaît	connaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	comp:obj	_	_
@@ -13392,9 +13392,9 @@
 6	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 7	suffisante	suffisant	ADJ	_	Gender=Fem|Number=Sing	4	comp:pred	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	étant	être	VERB	_	Tense=Pres|VerbForm=Part	4	mod	_	ExtPos=ADP|Idiom=Yes
-10	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	unk	_	InIdiom=Yes
-11	que	que	SCONJ	_	_	9	comp:obj	_	_
+9	étant	être	VERB	_	Tense=Pres|VerbForm=Part	4	mod	_	_
+10	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@pass	_	_
+11	que	que	SCONJ	_	_	9	comp:obj@pass	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	avions	avion	NOUN	_	Gender=Masc|Number=Plur	14	subj@pass	_	_
 14	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
@@ -13513,9 +13513,9 @@
 
 # sent_id = Europar.550_00415
 # text = Étant donné que la durée de vie des avions est approximativement de trente ans, l'effet de ces améliorations techniques se fait attendre longtemps.
-1	Étant	être	VERB	_	Tense=Pres|VerbForm=Part	25	mod	_	ExtPos=ADP|Idiom=Yes
-2	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	unk	_	InIdiom=Yes
-3	que	que	SCONJ	_	_	1	comp:obj	_	_
+1	Étant	être	VERB	_	Tense=Pres|VerbForm=Part	25	mod	_	_
+2	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	comp:aux@pass	_	_
+3	que	que	SCONJ	_	_	1	comp:obj@pass	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	durée	durée	NOUN	_	Gender=Fem|Number=Sing	11	subj	_	_
 6	de	de	ADP	_	_	5	udep	_	_
