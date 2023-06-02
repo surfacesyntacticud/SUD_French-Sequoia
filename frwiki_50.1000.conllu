@@ -26,7 +26,7 @@
 12	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-15	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	14	comp:pred	_	_
+15	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	comp:pred	_	_
 16-17	des	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	15	udep	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
@@ -509,7 +509,7 @@
 8	soit	soit	CCONJ	_	_	9	cc	_	_
 9	par	par	ADP	_	_	6	comp:obl@agent	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
-11	nôtres	nôtre	PRON	_	Gender=Fem|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	9	comp:obj	_	SpaceAfter=No
+11	nôtres	nôtre	PRON	_	Gender=Fem|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=1|Poss=Yes|PronType=Prs	9	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	soit	soit	CCONJ	_	_	14	cc	_	_
 14	par	par	ADP	_	_	9	conj	_	_
@@ -744,7 +744,7 @@
 # sent_id = frwiki_50.1000_00023
 # text = Lefoulon un et vivait en concubinage.
 1	Lefoulon	Lefoulon	PROPN	_	_	0	root	_	_
-2	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	1	mod	_	_
+2	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	1	mod	_	_
 3	et	et	CCONJ	_	_	4	cc	_	_
 4	vivait	vivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
 5	en	en	ADP	_	_	4	comp:obl	_	_
@@ -1132,7 +1132,7 @@
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	députés	député	NOUN	_	Gender=Masc|Number=Plur	15	comp:obj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	_
-19	toutes	tout	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	20	subj	_	_
+19	toutes	tout	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Ind	20	subj	_	_
 20	demandant	demander	VERB	_	Tense=Pres|VerbForm=Part	3	mod	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	réhabilitation	réhabilitation	NOUN	_	Gender=Fem|Number=Sing	20	comp:obj	_	_
@@ -2313,7 +2313,7 @@
 4	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	Irakiens	irakien	NOUN	_	Gender=Masc|Number=Plur	6	subj	_	_
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	tout	tout	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	8	comp:obj	_	_
+7	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	comp:obj	_	_
 8	détruit	détruire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
 9-10	au	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	6	mod	_	_
@@ -2361,7 +2361,7 @@
 1	J'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
-4	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	3	comp:obj	_	_
+4	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	comp:obj	_	_
 5	de	de	ADP	_	_	4	udep	_	_
 6	mes	son	DET	_	Number=Plur|Poss=Yes	7	det	_	_
 7	amis	ami	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
@@ -2468,7 +2468,7 @@
 9	internationale	international	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	_
 10	et	et	CCONJ	_	_	11	cc	_	_
 11	amena	amener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
-12	celle-ci	celui-ci	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	11	comp:obj	_	_
+12	celle-ci	celui-ci	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	11	comp:obj	_	_
 13	à	à	ADP	_	_	11	comp:obl	_	_
 14	soutenir	soutenir	VERB	_	VerbForm=Inf	13	comp:obj	_	Subject=ObjRaising
 15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
@@ -3354,7 +3354,7 @@
 33-34	duquel	_	_	_	_	_	_	_	_
 33	de	de	ADP	_	_	32	comp:obl	_	_
 34	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	33	comp:obj	_	_
-35	celui-ci	celui-ci	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	36	subj	_	_
+35	celui-ci	celui-ci	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	36	subj	_	_
 36	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	mod@relcl	_	_
 37	discuté	discuter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	comp:aux@tense	_	_
 38-39	des	_	_	_	_	_	_	_	_
@@ -3804,7 +3804,7 @@
 5	affaire	affaire	NOUN	_	Gender=Fem|Number=Sing	6	subj	_	_
 6	pourrait	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	être	être	AUX	_	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
-8	une	un	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	7	comp:pred	_	_
+8	une	un	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	7	comp:pred	_	_
 9-10	des	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	8	udep	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
@@ -4175,7 +4175,7 @@
 1	On	on	PRON	_	Number=Sing|Person=3|PronType=Ind	2	subj	_	_
 2	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	entre	entre	ADP	_	_	2	mod	_	ExtPos=ADV|Idiom=Yes
-4	autre	autre	PRON	_	Number=Sing|PronType=Ind	3	unk	_	InIdiom=Yes
+4	autre	autre	PRON	_	Number=Sing|Person=3|PronType=Ind	3	unk	_	InIdiom=Yes
 5	d'	de	ADP	_	_	2	comp:obl	_	SpaceAfter=No
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	métis	métis	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
@@ -6843,7 +6843,7 @@
 29	naturellement	naturellement	ADV	_	_	23	mod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	_
 31	comme	comme	SCONJ	_	_	23	mod	_	_
-32	cela	cela	PRON	_	Number=Sing|PronType=Dem	34	subj@pass	_	_
+32	cela	cela	PRON	_	Number=Sing|Person=3|PronType=Dem	34	subj@pass	_	_
 33	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	34	comp@pass	_	_
 34	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	comp:obj	_	_
 35	à	à	ADP	_	_	34	mod	_	_
@@ -7259,7 +7259,7 @@
 30	puis	puis	CCONJ	_	_	31	cc	_	_
 31	reconduit	reconduire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	_
 32	dans	dans	ADP	_	_	31	mod	_	_
-33	celui	celui	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	32	comp:obj	_	_
+33	celui	celui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	32	comp:obj	_	_
 34	d'	de	ADP	_	_	33	udep	_	SpaceAfter=No
 35	Émile	Émile	PROPN	_	Gender=Masc|Number=Sing	34	comp:obj	_	_
 36	Combes	Combes	PROPN	_	Gender=Masc|Number=Sing	35	flat@name	_	SpaceAfter=No
@@ -7498,7 +7498,7 @@
 4	vénérables	vénérable	NOUN	_	Number=Plur	22	subj	_	_
 5	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 6	généralement	généralement	ADV	_	_	7	mod	_	_
-7	ceux	celui	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	4	conj:appos	_	_
+7	ceux	celui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	4	conj:appos	_	_
 8-9	des	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	7	udep	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
@@ -7536,7 +7536,7 @@
 40	autres	autre	ADJ	_	Number=Plur	57	subj	_	SpaceAfter=No
 41	,	,	PUNCT	_	_	42	punct	_	_
 42	surtout	surtout	ADV	_	_	40	mod	_	_
-43	ceux	celui	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	40	conj:appos	_	_
+43	ceux	celui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	40	conj:appos	_	_
 44-45	des	_	_	_	_	_	_	_	_
 44	de	de	ADP	_	_	43	udep	_	_
 45	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	46	det	_	_
@@ -7948,7 +7948,7 @@
 34	et	et	CCONJ	_	_	35	cc	_	_
 35	Carthage	Carthage	PROPN	_	_	27	conj	_	_
 36	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
-37	ceux	celui	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	35	conj:appos	_	_
+37	ceux	celui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	35	conj:appos	_	_
 38	à	à	ADP	_	_	37	udep	_	_
 39	écarter	écarter	VERB	_	VerbForm=Inf	38	comp:obj	_	Subject=Generic
 40-41	des	_	_	_	_	_	_	_	_
@@ -8130,7 +8130,7 @@
 41	Syveton	Syveton	PROPN	_	_	40	flat@name	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	45	punct	_	_
 43	que	que	PRON	_	PronType=Rel	45	comp:obj	_	_
-44	l'on	on	PRON	_	Number=Sing|PronType=Ind	45	subj	_	wordform=on
+44	l'on	on	PRON	_	Number=Sing|Person=3|PronType=Ind	45	subj	_	wordform=on
 45	retrouvera	retrouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	38	mod@relcl	_	_
 46	mort	mort	ADJ	_	Gender=Masc|Number=Sing	45	comp:pred	_	_
 47	mystérieusement	mystérieusement	ADV	_	_	46	mod	_	_
@@ -8413,7 +8413,7 @@
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	France	France	PROPN	_	Gender=Fem|Number=Sing	31	comp:obj	_	_
 34	d'	de	ADP	_	_	31	comp:obl	_	SpaceAfter=No
-35	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	34	comp:obj	_	_
+35	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	34	comp:obj	_	_
 36	de	de	ADP	_	_	35	udep	_	_
 37	ces	ce	DET	_	Number=Plur|PronType=Dem	38	det	_	_
 38	épisodes	épisode	NOUN	_	Gender=Masc|Number=Plur	36	comp:obj	_	_
@@ -9003,7 +9003,7 @@
 14	-t-il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj@expl	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	10	punct	_	_
 16	franc-maçon	franc-maçon	NOUN	_	Gender=Masc|Number=Sing	10	comp:pred	_	_
-17	lui-même	lui-même	PRON	_	PronType=Prs	10	mod	_	SpaceAfter=No
+17	lui-même	lui-même	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	mod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	10	punct	_	_
 19	et	et	CCONJ	_	_	20	cc	_	_
 20	qu'	que	SCONJ	_	_	5	conj	_	SpaceAfter=No
@@ -10696,7 +10696,7 @@
 11	Alain	Alain	PROPN	_	Gender=Masc|Number=Sing	13	subj	_	_
 12	Gomez	Gomez	PROPN	_	_	11	flat@name	_	_
 13	affirmait	affirmer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-14	lui-même	lui-même	PRON	_	PronType=Prs	13	mod	_	_
+14	lui-même	lui-même	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	13	mod	_	_
 15	que	que	SCONJ	_	_	13	comp:obj	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	réseau	réseau	NOUN	_	Gender=Masc|Number=Sing	21	subj	_	_
@@ -11052,7 +11052,7 @@
 40	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	parataxis	_	_
 41	que	que	PRON	_	PronType=Rel	51	comp:obj	_	_
 42	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	43	det	_	SpaceAfter=No
-43	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	51	subj	_	_
+43	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	51	subj	_	_
 44	de	de	ADP	_	_	43	udep	_	_
 45	ses	son	DET	_	Number=Plur|Poss=Yes	46	det	_	_
 46	collaborateurs	collaborateur	NOUN	_	Gender=Masc|Number=Plur	44	comp:obj	_	SpaceAfter=No
@@ -11673,7 +11673,7 @@
 37	de	de	ADP	_	_	32	comp:obl	_	_
 38	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	37	comp:obj	_	_
 39	que	que	PRON	_	PronType=Rel	41	comp:obj	_	_
-40	l'on	on	PRON	_	Number=Sing|PronType=Ind	41	subj	_	wordform=on
+40	l'on	on	PRON	_	Number=Sing|Person=3|PronType=Ind	41	subj	_	wordform=on
 41	versait	verser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	mod@relcl	_	_
 42	à	à	ADP	_	_	41	comp:obl	_	_
 43	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	42	comp:obj	_	_
@@ -15692,7 +15692,7 @@
 
 # sent_id = frwiki_50.1000_00571
 # text = Celle-ci déclarera qu'il s'agissait d'une commission pour obtenir les marchés de l'office HLM des Hauts-de-Seine.
-1	Celle-ci	celui-ci	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	2	subj	_	_
+1	Celle-ci	celui-ci	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	déclarera	déclarer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 3	qu'	que	SCONJ	_	_	2	comp:obj	_	SpaceAfter=No
 4	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj@expl	_	_
@@ -16694,7 +16694,7 @@
 24	réputé	réputé	ADJ	_	Gender=Masc|Number=Sing	21	mod	_	_
 25	être	être	AUX	_	VerbForm=Inf	24	comp:pred	_	Subject=Instantiated
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
-27	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	25	comp:pred	_	_
+27	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	25	comp:pred	_	_
 28-29	des	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	27	udep	_	_
 29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	_
@@ -16967,7 +16967,7 @@
 21	Méry	Méry	PROPN	_	_	20	flat@name	_	_
 22	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	comp:obj	_	_
 23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
-24	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	22	comp:pred	_	_
+24	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	22	comp:pred	_	_
 25-26	des	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	24	udep	_	_
 26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	_
@@ -17223,7 +17223,7 @@
 6	Michel	Michel	PROPN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 7	Giraud	Giraud	PROPN	_	_	6	flat@name	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	1	punct	_	_
-9	celui-ci	celui-ci	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	10	subj	_	_
+9	celui-ci	celui-ci	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	subj	_	_
 10	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	employé	employer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
 12	plusieurs	plusieurs	DET	_	Number=Plur	13	det	_	_
@@ -19816,7 +19816,7 @@
 29	"	"	PUNCT	_	_	27	punct	_	_
 30	à	à	ADP	_	_	18	comp:obl	_	_
 31	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
-32	une	un	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	30	comp:obj	_	_
+32	une	un	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	30	comp:obj	_	_
 33-34	des	_	_	_	_	_	_	_	_
 33	de	de	ADP	_	_	32	udep	_	_
 34	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	35	det	_	_
@@ -20736,7 +20736,7 @@
 # sent_id = frwiki_50.1000_00746
 # text = L'un des volets de ce dossier concerne les voyages payés en espèces par Jacques Chirac (Affaire des billets d'avion de Jacques Chirac).
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	9	subj	_	_
+2	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	subj	_	_
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
@@ -21761,7 +21761,7 @@
 14	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	13	udep	_	_
 15	2006	2006	NUM	_	NumType=Card	14	mod	_	_
 16	d'	de	ADP	_	_	8	udep	_	SpaceAfter=No
-17	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	16	comp:obj	_	_
+17	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	comp:obj	_	_
 18	de	de	ADP	_	_	17	udep	_	_
 19	ses	son	DET	_	Number=Plur|Poss=Yes	21	det	_	_
 20	anciens	ancien	ADJ	_	Gender=Masc|Number=Plur	21	mod	_	_
@@ -23719,7 +23719,7 @@
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	État	état	NOUN	_	Gender=Masc|Number=Sing	9	comp:pred	_	_
 12	français	français	ADJ	_	Gender=Masc	11	mod	_	_
-13	lui-même	lui-même	PRON	_	PronType=Prs	11	mod	_	_
+13	lui-même	lui-même	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	11	mod	_	_
 14	qui	qui	PRON	_	PronType=Rel	16	subj	_	_
 15	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	16	comp:obl	_	_
 16	fournit	fournir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	comp:cleft	_	_
@@ -23801,7 +23801,7 @@
 
 # sent_id = frwiki_50.1000_00860
 # text = Celle-ci a été de 7 millions de dollars, sous la forme de valeurs mobilières (5 à prélever sur un compte de la Chase Manhattan Bank et 2 sur un compte de la Citibank) et a été versée à la Banque nationale d'Algérie, qui centralisait la rançon pour la reverser ensuite à une banque iranienne à Téhéran.
-1	Celle-ci	celui-ci	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	2	subj	_	_
+1	Celle-ci	celui-ci	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	été	être	AUX	_	Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	de	de	ADP	_	_	3	comp:pred	_	_
@@ -24043,7 +24043,7 @@
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
 12	Chirac	Chirac	PROPN	_	Gender=Masc|Number=Sing	11	comp:pred	_	_
 13	que	que	SCONJ	_	_	11	comp:cleft	_	_
-14	l'on	on	PRON	_	Number=Sing|PronType=Ind	15	subj	_	wordform=on
+14	l'on	on	PRON	_	Number=Sing|Person=3|PronType=Ind	15	subj	_	wordform=on
 15	cherche	chercher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	comp:obj	_	_
 16	à	à	ADP	_	_	15	comp:obj	_	_
 17	atteindre	atteindre	VERB	_	VerbForm=Inf	16	comp:obj	_	Subject=SubjRaising
@@ -24119,10 +24119,10 @@
 30	"	"	PUNCT	_	_	38	punct	_	SpaceAfter=No
 31	ni	ni	CCONJ	_	_	33	cc	_	_
 32	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
-33	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	38	subj	_	_
+33	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	38	subj	_	_
 34	ni	ni	CCONJ	_	_	36	cc	_	_
 35	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
-36	autre	autre	PRON	_	Number=Sing|PronType=Ind	33	conj	_	_
+36	autre	autre	PRON	_	Number=Sing|Person=3|PronType=Ind	33	conj	_	_
 37	ne	ne	ADV	_	Polarity=Neg	38	mod	_	_
 38	disposaient	disposer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	29	comp:obj	_	_
 39-40	des	_	_	_	_	_	_	_	_
@@ -24483,7 +24483,7 @@
 12	prison	prison	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	dont	dont	PRON	_	PronType=Rel	15	udep	_	_
-15	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	10	mod@relcl	_	_
+15	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	mod@relcl	_	_
 16	ferme	ferme	ADJ	_	Number=Sing	15	mod	_	_
 17	et	et	CCONJ	_	_	19	cc	_	_
 18	trois	trois	NUM	_	NumType=Card	19	det	_	_
@@ -24621,7 +24621,7 @@
 34	public	public	ADJ	_	Gender=Masc|Number=Sing	33	mod	_	_
 35	maritime	maritime	ADJ	_	Number=Sing	33	mod	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	13	punct	_	_
-37	cela	cela	PRON	_	Number=Sing|PronType=Dem	39	subj	_	_
+37	cela	cela	PRON	_	Number=Sing|Person=3|PronType=Dem	39	subj	_	_
 38	ne	ne	ADV	_	Polarity=Neg	39	mod	_	_
 39	pouvait	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	comp:obj	_	_
 40	cependant	cependant	ADV	_	_	39	mod	_	_
@@ -26169,7 +26169,7 @@
 22	en	en	ADP	_	_	21	comp:obj	_	_
 23	1952-1953	1952-1953	NOUN	_	NumType=Card	22	comp:obj	_	_
 24	où	où	PRON	_	PronType=Rel	27	mod	_	_
-25	l'on	on	PRON	_	Number=Sing|PronType=Ind	27	subj	_	wordform=on
+25	l'on	on	PRON	_	Number=Sing|Person=3|PronType=Ind	27	subj	_	wordform=on
 26	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	27	comp@expl	_	_
 27	rendit	rendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	mod@relcl	_	_
 28	compte	compte	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj	_	_
@@ -26468,7 +26468,7 @@
 7	trafic	trafic	NOUN	_	Gender=Masc|Number=Sing	8	subj	_	_
 8	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
-10	une	un	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	8	comp:pred	_	_
+10	une	un	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	8	comp:pred	_	_
 11-12	des	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	10	udep	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
