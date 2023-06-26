@@ -209,7 +209,7 @@
 14	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
 15	durer	durer	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising
 16-17	au	_	_	_	_	_	_	_	_
-16	à	à	ADP	_	_	20	mod	_	ExtPos=ADV|Idiom=Yes
+16	à	à	ADP	_	ExtPos=ADV	20	mod	_	Idiom=Yes
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	unk	_	InIdiom=Yes
 18	moins	moins	ADV	_	_	17	unk	_	InIdiom=Yes
 19	15	15	NUM	_	NumType=Card	20	det	_	_
@@ -249,7 +249,7 @@
 9	doivent	devoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	attendre	attendre	VERB	_	VerbForm=Inf	9	comp:obj	_	Subject=SubjRaising
 11-12	au	_	_	_	_	_	_	_	_
-11	à	à	ADP	_	_	14	mod	_	ExtPos=ADV|Idiom=Yes
+11	à	à	ADP	_	ExtPos=ADV	14	mod	_	Idiom=Yes
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	unk	_	InIdiom=Yes
 13	moins	moins	ADV	_	_	12	unk	_	InIdiom=Yes
 14	deux	deux	NUM	_	NumType=Card	15	det	_	_
@@ -291,7 +291,7 @@
 2	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4-5	au	_	_	_	_	_	_	_	_
-4	à	à	ADP	_	_	8	mod	_	ExtPos=ADV|Idiom=Yes
+4	à	à	ADP	_	ExtPos=ADV	8	mod	_	Idiom=Yes
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	unk	_	InIdiom=Yes
 6	moins	moins	ADV	_	_	5	unk	_	InIdiom=Yes
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -340,7 +340,7 @@
 
 # sent_id = emea-fr-test_00019
 # text = En outre, les patients souffrant de la maladie de Paget doivent prendre au moins 500 mg de calcium deux fois par jour pendant au moins 10 jours après le traitement et les patients qui ont subi une fracture de la hanche doivent recevoir une large dose de vitamine D (50 000 à 125 000 unités internationales) par voie orale ou par injection intramusculaire avant leur première perfusion.
-1	En	en	ADP	_	_	12	mod	_	ExtPos=ADV|Idiom=Yes
+1	En	en	ADP	_	ExtPos=ADV	12	mod	_	Idiom=Yes
 2	outre	outre	ADP	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
@@ -354,7 +354,7 @@
 12	doivent	devoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	prendre	prendre	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=SubjRaising
 14-15	au	_	_	_	_	_	_	_	_
-14	à	à	ADP	_	_	18	mod	_	ExtPos=ADV|Idiom=Yes
+14	à	à	ADP	_	ExtPos=ADV	18	mod	_	Idiom=Yes
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	unk	_	InIdiom=Yes
 16	moins	moins	ADV	_	_	15	unk	_	InIdiom=Yes
 17	500	500	NUM	_	NumType=Card	18	det	_	_
@@ -367,7 +367,7 @@
 24	jour	jour	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	_
 25	pendant	pendant	ADP	_	_	13	mod	_	_
 26-27	au	_	_	_	_	_	_	_	_
-26	à	à	ADP	_	_	30	mod	_	ExtPos=ADV|Idiom=Yes
+26	à	à	ADP	_	ExtPos=ADV	30	mod	_	Idiom=Yes
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	unk	_	InIdiom=Yes
 28	moins	moins	ADV	_	_	27	unk	_	InIdiom=Yes
 29	10	10	NUM	_	NumType=Card	30	det	_	_
@@ -456,7 +456,7 @@
 37	du	du	DET	_	Gender=Masc|Number=Sing	38	det	_	_
 38	paracétamol	paracétamol	NOUN	_	Gender=Masc|Number=Sing	36	comp:obj	_	_
 39	ou	ou	CCONJ	_	_	42	cc	_	_
-40	de	de	ADP	_	_	42	det	_	ExtPos=DET|Idiom=Yes
+40	de	de	ADP	_	ExtPos=DET	42	det	_	Idiom=Yes
 41	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	40	unk	_	InIdiom=Yes|SpaceAfter=No
 42	ibuprofène	ibuprofène	NOUN	_	Gender=Masc|Number=Sing	38	conj	_	_
 43	(	(	PUNCT	_	Shared=Yes	44	punct	_	SpaceAfter=No
@@ -745,7 +745,7 @@
 18	prises	prendre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	17	comp:aux@pass	_	_
 19	en	en	ADP	_	_	18	comp:obl	_	_
 20	compte	compte	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
-21	lors	lors	ADV	_	_	16	mod	_	ExtPos=ADV
+21	lors	lors	ADV	_	ExtPos=ADV	16	mod	_	_
 22	de	de	ADP	_	_	21	comp:obl	_	_
 23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
 24	évaluation	évaluation	NOUN	_	Gender=Fem|Number=Sing	22	comp:obj	_	_
@@ -801,7 +801,7 @@
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	porté	porter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	sur	sur	ADP	_	_	5	comp:obl	_	_
-7	près	près	ADV	_	_	6	comp:obj	_	ExtPos=PRON
+7	près	près	ADV	_	ExtPos=PRON	6	comp:obj	_	_
 8	de	de	ADP	_	_	7	comp:obl	_	_
 9	8 000	8 000	DET	_	_	10	det	_	_
 10	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	_
@@ -853,7 +853,7 @@
 13	,	,	PUNCT	_	Shared=Yes	14	punct	_	_
 14	âgés	âgé	ADJ	_	Gender=Masc|Number=Plur|Shared=Yes	10	conj	_	_
 15	de	de	ADP	_	_	14	comp:obl	_	_
-16	plus	plus	ADV	_	_	15	comp:obj	_	ExtPos=PRON
+16	plus	plus	ADV	_	ExtPos=PRON	15	comp:obj	_	_
 17	de	de	ADP	_	_	16	comp:obl	_	_
 18	50	50	NUM	_	NumType=Card	19	det	_	_
 19	ans	an	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	SpaceAfter=No
@@ -1038,7 +1038,7 @@
 40	redescendu	redescendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	39	comp:aux@tense	_	_
 41	d'	de	ADP	_	_	40	comp:obl	_	SpaceAfter=No
 42-43	au	_	_	_	_	_	_	_	_
-42	à	à	ADP	_	_	46	mod	_	ExtPos=ADV|Idiom=Yes
+42	à	à	ADP	_	ExtPos=ADV	46	mod	_	Idiom=Yes
 43	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	unk	_	InIdiom=Yes
 44	moins	moins	ADV	_	_	43	unk	_	InIdiom=Yes
 45	75	75	NUM	_	NumType=Card	46	det	_	SpaceAfter=No
@@ -1385,7 +1385,7 @@
 24	deviennent	devenir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
 25	moins	moins	ADV	_	_	26	mod	_	_
 26	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	24	comp:pred	_	_
-27	lors	lors	ADV	_	_	24	mod	_	ExtPos=ADV
+27	lors	lors	ADV	_	ExtPos=ADV	24	mod	_	_
 28-29	des	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	27	comp:obl	_	_
 29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	_
@@ -1406,7 +1406,7 @@
 9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	observé	observer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	mod	_	_
 11	chez	chez	ADP	_	_	10	mod	_	_
-12	plus	plus	ADV	_	_	11	comp:obj	_	ExtPos=PRON
+12	plus	plus	ADV	_	ExtPos=PRON	11	comp:obj	_	_
 13	d'	de	ADP	_	_	12	comp:obl	_	SpaceAfter=No
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	patient	patient	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
@@ -1430,7 +1430,7 @@
 8	effets	effet	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
 9	indésirables	indésirable	ADJ	_	Number=Plur	8	mod	_	_
 10	observés	observer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	mod	_	_
-11	lors	lors	ADV	_	_	10	mod	_	ExtPos=ADV
+11	lors	lors	ADV	_	ExtPos=ADV	10	mod	_	_
 12	de	de	ADP	_	_	11	comp:obl	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
 14	utilisation	utilisation	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
@@ -1631,7 +1631,7 @@
 46	de	de	ADP	_	_	44	udep	_	_
 47	fracture	fracture	NOUN	_	Gender=Fem|Number=Sing	46	comp:obj	_	SpaceAfter=No
 48	,	,	PUNCT	_	_	51	punct	_	_
-49	y	y	PRON	_	Person=3|PronType=Prs	51	mod	_	ExtPos=ADV|Idiom=Yes
+49	y	y	PRON	_	ExtPos=ADV|Person=3|PronType=Prs	51	mod	_	Idiom=Yes
 50	compris	compris	ADJ	_	Gender=Masc	49	unk	_	InIdiom=Yes
 51	chez	chez	ADP	_	_	32	udep	_	_
 52	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	53	det	_	_
@@ -1650,7 +1650,7 @@
 65	faible	faible	ADJ	_	Number=Sing	66	mod	_	_
 66	traumatisme	traumatisme	NOUN	_	Gender=Masc|Number=Sing	63	comp:obj	_	SpaceAfter=No
 67	,	,	PUNCT	_	_	70	punct	_	_
-68	ainsi	ainsi	ADV	_	_	70	cc	_	ExtPos=CCONJ|Idiom=Yes
+68	ainsi	ainsi	ADV	_	ExtPos=CCONJ	70	cc	_	Idiom=Yes
 69	que	que	SCONJ	_	_	68	unk	_	InIdiom=Yes
 70	dans	dans	ADP	_	_	27	conj	_	_
 71	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	72	det	_	_
@@ -1728,7 +1728,7 @@
 23	qui	qui	PRON	_	PronType=Rel	24	subj	_	_
 24	prescrivent	prescrire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	mod@relcl	_	_
 25	Aclasta	Aclasta	PROPN	_	_	24	comp:obj	_	_
-26	en	en	ADP	_	_	24	mod	_	ExtPos=ADP|Idiom=Yes
+26	en	en	ADP	_	ExtPos=ADP	24	mod	_	Idiom=Yes
 27	tant	tant	ADV	_	_	26	unk	_	InIdiom=Yes
 28	que	que	SCONJ	_	_	27	unk	_	InIdiom=Yes
 29	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	26	comp:obj	_	_
@@ -1928,7 +1928,7 @@
 15	mis	mettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	14	comp:aux@pass	_	_
 16	en	en	ADP	_	_	15	comp:obl	_	_
 17	place	place	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
-18	suite	suite	NOUN	_	Gender=Fem|Number=Sing	13	mod	_	ExtPos=ADV
+18	suite	suite	NOUN	_	ExtPos=ADV|Gender=Fem|Number=Sing	13	mod	_	_
 19	à	à	ADP	_	_	18	comp:obl	_	_
 20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
 21	indication	indication	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	_
@@ -2373,7 +2373,7 @@
 # sent_id = emea-fr-test_00090
 # text = Pour plus d'informations sur la perfusion d'Aclasta, voir rubrique 6.6.
 1	Pour	pour	ADP	_	_	11	mod	_	_
-2	plus	plus	ADV	_	_	1	comp:obj	_	ExtPos=PRON
+2	plus	plus	ADV	_	ExtPos=PRON	1	comp:obj	_	_
 3	d'	de	ADP	_	_	2	comp:obl	_	SpaceAfter=No
 4	informations	information	NOUN	_	Gender=Fem|Number=Plur	3	comp:obj	_	_
 5	sur	sur	ADP	_	_	4	udep	_	_
@@ -2444,7 +2444,7 @@
 
 # sent_id = emea-fr-test_00094
 # text = De plus, chez les patients atteints de la maladie de Paget, il est fortement conseillé d'administrer une supplémentation adaptée en calcium correspondant à un apport en calcium-élément d'au moins 500 mg deux fois par jour, pendant au moins les 10 jours suivant l'administration d'Aclasta (voir rubrique 4.4).
-1	De	de	ADP	_	_	15	mod	_	ExtPos=ADV|Idiom=Yes
+1	De	de	ADP	_	ExtPos=ADV	15	mod	_	Idiom=Yes
 2	plus	plus	ADV	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	chez	chez	ADP	_	_	15	mod	_	_
@@ -2476,7 +2476,7 @@
 30	calcium-élément	calcium-élément	NOUN	_	Gender=Masc|Number=Sing	29	comp:obj	_	_
 31	d'	de	ADP	_	_	28	udep	_	SpaceAfter=No
 32-33	au	_	_	_	_	_	_	_	_
-32	à	à	ADP	_	_	36	mod	_	ExtPos=ADV|Idiom=Yes
+32	à	à	ADP	_	ExtPos=ADV	36	mod	_	Idiom=Yes
 33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	unk	_	InIdiom=Yes
 34	moins	moins	ADV	_	_	33	unk	_	InIdiom=Yes
 35	500	500	NUM	_	NumType=Card	36	det	_	_
@@ -2488,7 +2488,7 @@
 41	,	,	PUNCT	_	_	42	punct	_	_
 42	pendant	pendant	ADP	_	_	19	mod	_	_
 43-44	au	_	_	_	_	_	_	_	_
-43	à	à	ADP	_	_	42	mod	_	ExtPos=ADV|Idiom=Yes
+43	à	à	ADP	_	ExtPos=ADV	42	mod	_	Idiom=Yes
 44	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	unk	_	InIdiom=Yes
 45	moins	moins	ADV	_	_	44	unk	_	InIdiom=Yes
 46	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	48	det	_	_
@@ -2583,7 +2583,7 @@
 23	du	du	DET	_	Gender=Masc|Number=Sing	24	det	_	_
 24	paracétamol	paracétamol	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
 25	ou	ou	CCONJ	_	_	28	cc	_	_
-26	de	de	ADP	_	_	28	det	_	ExtPos=DET|Idiom=Yes
+26	de	de	ADP	_	ExtPos=DET	28	det	_	Idiom=Yes
 27	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	unk	_	InIdiom=Yes|SpaceAfter=No
 28	ibuprofène	ibuprofène	NOUN	_	Gender=Masc|Number=Sing	24	conj	_	_
 29	après	après	ADP	_	_	22	mod	_	_
@@ -2757,7 +2757,7 @@
 14	de	de	ADP	_	_	13	comp:obl	_	_
 15	18	18	NUM	_	NumType=Card	16	det	_	_
 16	ans	an	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	_
-17	compte	compte	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	ExtPos=ADV|Idiom=Yes
+17	compte	compte	NOUN	_	ExtPos=ADV|Gender=Masc|Number=Sing	3	mod	_	Idiom=Yes
 18	tenu	tenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	unk	_	InIdiom=Yes
 19	de	de	ADP	_	_	18	comp:obl	_	_
 20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
@@ -2846,7 +2846,7 @@
 11	administrée	administrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	comp:aux@pass	_	_
 12	pendant	pendant	ADP	_	_	10	mod	_	_
 13-14	au	_	_	_	_	_	_	_	_
-13	à	à	ADP	_	_	17	mod	_	ExtPos=ADV|Idiom=Yes
+13	à	à	ADP	_	ExtPos=ADV	17	mod	_	Idiom=Yes
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	unk	_	InIdiom=Yes
 15	moins	moins	ADV	_	_	14	unk	_	InIdiom=Yes
 16	15	15	NUM	_	NumType=Card	17	det	_	_
@@ -3128,7 +3128,7 @@
 
 # sent_id = emea-fr-test_00119
 # text = De plus, chez les patients atteints de maladie de Paget, il est fortement conseillé d'administrer des suppléments appropriés de calcium correspondant à un apport en calcium-élément d'au moins 500 mg deux fois par jour pendant au moins les 10 jours suivant l'administration d'Aclasta (voir rubrique 4.2).
-1	De	de	ADP	_	_	14	mod	_	ExtPos=ADV|Idiom=Yes
+1	De	de	ADP	_	ExtPos=ADV	14	mod	_	Idiom=Yes
 2	plus	plus	ADV	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	chez	chez	ADP	_	_	14	mod	_	_
@@ -3159,7 +3159,7 @@
 29	calcium-élément	calcium-élément	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	_
 30	d'	de	ADP	_	_	27	udep	_	SpaceAfter=No
 31-32	au	_	_	_	_	_	_	_	_
-31	à	à	ADP	_	_	35	mod	_	ExtPos=ADV|Idiom=Yes
+31	à	à	ADP	_	ExtPos=ADV	35	mod	_	Idiom=Yes
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	unk	_	InIdiom=Yes
 33	moins	moins	ADV	_	_	32	unk	_	InIdiom=Yes
 34	500	500	NUM	_	NumType=Card	35	det	_	_
@@ -3170,7 +3170,7 @@
 39	jour	jour	NOUN	_	Gender=Masc|Number=Sing	38	comp:obj	_	_
 40	pendant	pendant	ADP	_	_	18	mod	_	_
 41-42	au	_	_	_	_	_	_	_	_
-41	à	à	ADP	_	_	40	mod	_	ExtPos=ADV|Idiom=Yes
+41	à	à	ADP	_	ExtPos=ADV	40	mod	_	Idiom=Yes
 42	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	unk	_	InIdiom=Yes
 43	moins	moins	ADV	_	_	42	unk	_	InIdiom=Yes
 44	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	46	det	_	_
@@ -3250,7 +3250,7 @@
 3	osseuses	osseux	ADJ	_	Gender=Fem|Number=Plur	2	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	articulaires	articulaire	ADJ	_	Number=Plur	3	conj	_	_
-6	et	et	CCONJ	_	_	9	cc	_	ExtPos=CCONJ|Idiom=Yes
+6	et	et	CCONJ	_	ExtPos=CCONJ	9	cc	_	Idiom=Yes
 7	/	/	SYM	_	_	6	unk	_	InIdiom=Yes
 8	ou	ou	CCONJ	_	_	7	unk	_	InIdiom=Yes
 9	musculaires	musculaire	ADJ	_	Number=Plur	5	conj	_	_
@@ -3270,7 +3270,7 @@
 23	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
 24	bisphosphonates	bisphosphonate	NOUN	_	Gender=Masc|Number=Plur	22	comp:obj	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
-26	y	y	PRON	_	Person=3|PronType=Prs	24	udep	_	ExtPos=ADP|Idiom=Yes
+26	y	y	PRON	_	ExtPos=ADP|Person=3|PronType=Prs	24	udep	_	Idiom=Yes
 27	compris	compris	ADJ	_	Gender=Masc	26	unk	_	InIdiom=Yes
 28	Aclasta	Aclasta	PROPN	_	_	26	comp:obj	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	14	punct	_	_
@@ -3346,7 +3346,7 @@
 21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
 22	bisphosphonates	bisphosphonate	NOUN	_	Gender=Masc|Number=Plur	20	comp:obj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
-24	y	y	PRON	_	Person=3|PronType=Prs	22	udep	_	ExtPos=ADP|Idiom=Yes
+24	y	y	PRON	_	ExtPos=ADP|Person=3|PronType=Prs	22	udep	_	Idiom=Yes
 25	compris	compris	ADJ	_	Gender=Masc	24	unk	_	InIdiom=Yes
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
 27	acide	acide	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	_
@@ -3402,7 +3402,7 @@
 6	infection	infection	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 7	localisée	localisé	ADJ	_	Gender=Fem|Number=Sing	6	mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	y	y	PRON	_	Person=3|PronType=Prs	6	udep	_	ExtPos=ADP|Idiom=Yes
+9	y	y	PRON	_	ExtPos=ADP|Person=3|PronType=Prs	6	udep	_	Idiom=Yes
 10	compris	compris	ADJ	_	Gender=Masc	9	unk	_	InIdiom=Yes
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	ostéomyélite	ostéomyélite	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	SpaceAfter=No
@@ -3632,7 +3632,7 @@
 20	cytochrome	cytochrome	NOUN	_	Number=Sing	18	comp:obj	_	_
 21	P450	P450	NOUN	_	_	20	mod	_	_
 22	humain	humain	ADJ	_	Gender=Masc|Number=Sing	20	mod	_	_
-23	in	in	X	_	Foreign=Yes	20	mod	_	ExtPos=ADJ|Idiom=Yes
+23	in	in	X	_	ExtPos=ADJ|Foreign=Yes	20	mod	_	Idiom=Yes
 24	vitro	vitro	X	_	Foreign=Yes	23	unk	_	InIdiom=Yes
 25	(	(	PUNCT	_	Shared=Yes	26	punct	_	SpaceAfter=No
 26	voir	voir	VERB	_	Shared=Yes|VerbForm=Inf	13	parataxis:insert	_	Subject=Generic
@@ -4095,7 +4095,7 @@
 22	du	du	DET	_	Gender=Masc|Number=Sing	23	det	_	_
 23	paracétamol	paracétamol	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_
 24	ou	ou	CCONJ	_	_	27	cc	_	_
-25	de	de	ADP	_	_	27	det	_	ExtPos=DET|Idiom=Yes
+25	de	de	ADP	_	ExtPos=DET	27	det	_	Idiom=Yes
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	unk	_	InIdiom=Yes|SpaceAfter=No
 27	ibuprofène	ibuprofène	NOUN	_	Gender=Masc|Number=Sing	23	conj	_	_
 28	peu	peu	ADV	_	_	29	mod	_	_
@@ -4546,7 +4546,7 @@
 11	acide	acide	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 12	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
-14	en	en	ADP	_	_	16	mod	_	ExtPos=ADV|Idiom=Yes
+14	en	en	ADP	_	ExtPos=ADV	16	mod	_	Idiom=Yes
 15	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	14	unk	_	InIdiom=Yes
 16	chez	chez	ADP	_	_	4	mod	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
@@ -4753,7 +4753,7 @@
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	calcémie	calcémie	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
 26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
-27	moins	moins	ADV	_	_	21	conj:appos	_	ExtPos=PRON
+27	moins	moins	ADV	_	ExtPos=PRON	21	conj:appos	_	_
 28	de	de	ADP	_	_	27	comp:obl	_	_
 29	1,87	1,87	NUM	_	NumType=Card	30	det	_	_
 30	mmol	mmol	NOUN	_	_	28	comp:obj	_	SpaceAfter=No
@@ -4761,7 +4761,7 @@
 32	l	l	NOUN	_	_	31	comp:obj	_	SpaceAfter=No
 33	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	35	punct	_	_
-35	suite	suite	NOUN	_	Gender=Fem|Number=Sing	18	mod	_	ExtPos=ADV
+35	suite	suite	NOUN	_	ExtPos=ADV|Gender=Fem|Number=Sing	18	mod	_	_
 36	à	à	ADP	_	_	35	comp:obl	_	_
 37	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
 38	administration	administration	NOUN	_	Gender=Fem|Number=Sing	36	comp:obj	_	_
@@ -4819,7 +4819,7 @@
 
 # sent_id = emea-fr-test_00178
 # text = D'après l'évaluation des paramètres biologiques issue d'une vaste étude clinique, il a été observé des valeurs, transitoires et asymptomatiques, de calcémie inférieures aux valeurs normales de référence chez 2,3% des patients traités avec Aclasta comparé à 21% des patients traités avec Aclasta dans les études de la maladie de Paget.
-1	D'	de	ADP	_	_	17	mod	_	ExtPos=ADP|Idiom=Yes|SpaceAfter=No
+1	D'	de	ADP	_	ExtPos=ADP	17	mod	_	Idiom=Yes|SpaceAfter=No
 2	après	après	ADP	_	_	1	unk	_	InIdiom=Yes
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	évaluation	évaluation	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
@@ -4951,7 +4951,7 @@
 43	étude	étude	NOUN	_	Gender=Fem|Number=Sing	30	conj:appos	_	_
 44	RFT	RFT	PROPN	_	_	43	mod	_	SpaceAfter=No
 45	)	)	PUNCT	_	_	43	punct	_	_
-46	ainsi	ainsi	ADV	_	_	48	cc	_	ExtPos=CCONJ|Idiom=Yes
+46	ainsi	ainsi	ADV	_	ExtPos=CCONJ	48	cc	_	Idiom=Yes
 47	que	que	SCONJ	_	_	46	unk	_	InIdiom=Yes
 48	dans	dans	ADP	_	_	28	conj	_	_
 49	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	50	det	_	_
@@ -4996,7 +4996,7 @@
 22	administration	administration	NOUN	_	Gender=Fem|Number=Sing	20	comp:obj	_	_
 23	d'	de	ADP	_	_	22	udep	_	SpaceAfter=No
 24	Aclasta	Aclasta	PROPN	_	_	23	comp:obj	_	_
-25	bien	bien	ADV	_	_	12	mod	_	ExtPos=SCONJ|Idiom=Yes
+25	bien	bien	ADV	_	ExtPos=SCONJ	12	mod	_	Idiom=Yes
 26	que	que	SCONJ	_	_	25	unk	_	InIdiom=Yes
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	taux	taux	NOUN	_	Gender=Masc|Number=Sing	33	subj@pass	_	_
@@ -5051,7 +5051,7 @@
 22	,	,	PUNCT	_	_	24	punct	_	_
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	gonflement	gonflement	NOUN	_	Gender=Masc|Number=Sing	21	conj	_	_
-25	et	et	CCONJ	_	_	29	cc	_	ExtPos=CCONJ|Idiom=Yes|SpaceAfter=No
+25	et	et	CCONJ	_	ExtPos=CCONJ	29	cc	_	Idiom=Yes|SpaceAfter=No
 26	/	/	SYM	_	_	25	unk	_	InIdiom=Yes|SpaceAfter=No
 27	ou	ou	CCONJ	_	_	26	unk	_	InIdiom=Yes
 28	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
@@ -5119,7 +5119,7 @@
 # sent_id = emea-fr-test_00186
 # text = Beaucoup d'entre eux présentaient des signes d'infection locale y compris une ostéomyélite.
 1	Beaucoup	beaucoup	ADV	_	_	5	subj	_	_
-2	d'	de	ADP	_	_	1	udep	_	ExtPos=ADP|Idiom=Yes|SpaceAfter=No
+2	d'	de	ADP	_	ExtPos=ADP	1	udep	_	Idiom=Yes|SpaceAfter=No
 3	entre	entre	ADP	_	_	2	unk	_	InIdiom=Yes
 4	eux	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	comp:obj	_	_
 5	présentaient	présenter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -5128,7 +5128,7 @@
 8	d'	de	ADP	_	_	7	udep	_	SpaceAfter=No
 9	infection	infection	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 10	locale	local	ADJ	_	Gender=Fem|Number=Sing	9	mod	_	_
-11	y	y	PRON	_	Person=3|PronType=Prs	9	udep	_	ExtPos=ADP|Idiom=Yes
+11	y	y	PRON	_	ExtPos=ADP|Person=3|PronType=Prs	9	udep	_	Idiom=Yes
 12	compris	compris	ADJ	_	Gender=Masc	11	unk	_	InIdiom=Yes
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	ostéomyélite	ostéomyélite	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	SpaceAfter=No
@@ -5222,7 +5222,7 @@
 
 # sent_id = emea-fr-test_00189
 # text = Bien que la causalité ne puisse être établie, il est prudent d'éviter une chirurgie dentaire dont la guérison pourrait être retardée (voir rubrique 4.4).
-1	Bien	bien	ADV	_	_	11	mod	_	ExtPos=SCONJ|Idiom=Yes
+1	Bien	bien	ADV	_	ExtPos=SCONJ	11	mod	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	causalité	causalité	NOUN	_	Gender=Fem|Number=Sing	6	subj	_	_
@@ -5370,7 +5370,7 @@
 22	de	de	ADP	_	_	21	udep	_	_
 23	calcium	calcium	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
 24	oral	oral	ADJ	_	Gender=Masc|Number=Sing	23	mod	_	_
-25	et	et	CCONJ	_	_	29	cc	_	ExtPos=CCONJ|Idiom=Yes|SpaceAfter=No
+25	et	et	CCONJ	_	ExtPos=CCONJ	29	cc	_	Idiom=Yes|SpaceAfter=No
 26	/	/	SYM	_	_	25	unk	_	InIdiom=Yes|SpaceAfter=No
 27	ou	ou	CCONJ	_	_	26	unk	_	InIdiom=Yes
 28	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
@@ -5461,7 +5461,7 @@
 10	renouvellement	renouvellement	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 11	osseux	osseux	ADJ	_	Gender=Masc	10	mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	à	à	ADP	_	_	5	mod	_	ExtPos=ADV|Idiom=Yes
+13	à	à	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes
 14	partir	partir	VERB	_	VerbForm=Inf	13	unk	_	InIdiom=Yes|Subject=Generic
 15	de	de	ADP	_	_	14	comp:obl	_	_
 16	taux	taux	NOUN	_	Gender=Masc|Number=Plur	15	comp:obj	_	_
@@ -5617,7 +5617,7 @@
 57	-1,5	-1,5	NOUN	_	NumType=Card	50	mod	_	_
 58	et	et	CCONJ	_	_	63	cc	_	_
 59-60	au	_	_	_	_	_	_	_	_
-59	à	à	ADP	_	_	58	mod	_	ExtPos=ADV|Idiom=Yes
+59	à	à	ADP	_	ExtPos=ADV	58	mod	_	Idiom=Yes
 60	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	unk	_	InIdiom=Yes
 61	moins	moins	ADV	_	_	60	unk	_	InIdiom=Yes
 62	deux	deux	NUM	_	NumType=Card	63	det	_	_
@@ -5695,7 +5695,7 @@
 23	anti-ostéoporotique	anti-ostéoporotique	ADJ	_	Gender=Masc|Number=Sing	22	mod	_	_
 24	concomitant	concomitant	ADJ	_	Gender=Masc|Number=Sing	22	mod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
-26	alors	alors	ADV	_	_	19	mod	_	ExtPos=SCONJ|Idiom=Yes
+26	alors	alors	ADV	_	ExtPos=SCONJ	19	mod	_	Idiom=Yes
 27	que	que	SCONJ	_	_	26	unk	_	InIdiom=Yes
 28	ces	ce	DET	_	Number=Plur|PronType=Dem	29	det	_	_
 29	traitements	traitement	NOUN	_	Gender=Masc|Number=Plur	30	subj@pass	_	_
@@ -5844,7 +5844,7 @@
 # sent_id = emea-fr-test_00216
 # text = Au moins une nouvelle fracture vertébrale (0-1 an)
 1-2	Au	_	_	_	_	_	_	_	_
-1	À	à	ADP	_	_	6	mod	_	ExtPos=ADV|Idiom=Yes
+1	À	à	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	unk	_	InIdiom=Yes
 3	moins	moins	ADV	_	_	2	unk	_	InIdiom=Yes
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -5859,7 +5859,7 @@
 # sent_id = emea-fr-test_00217
 # text = Au moins une nouvelle fracture vertébrale (0-2 ans)
 1-2	Au	_	_	_	_	_	_	_	_
-1	À	à	ADP	_	_	6	mod	_	ExtPos=ADV|Idiom=Yes
+1	À	à	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	unk	_	InIdiom=Yes
 3	moins	moins	ADV	_	_	2	unk	_	InIdiom=Yes
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -5874,7 +5874,7 @@
 # sent_id = emea-fr-test_00218
 # text = Au moins une nouvelle fracture vertébrale (0-3 ans)
 1-2	Au	_	_	_	_	_	_	_	_
-1	À	à	ADP	_	_	6	mod	_	ExtPos=ADV|Idiom=Yes
+1	À	à	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	unk	_	InIdiom=Yes
 3	moins	moins	ADV	_	_	2	unk	_	InIdiom=Yes
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -6157,7 +6157,7 @@
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	2	2	NUM	_	NumType=Card	4	mod	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
-4	Y	y	PRON	_	Person=3|PronType=Prs	0	root	_	ExtPos=ADP|Idiom=Yes
+4	Y	y	PRON	_	ExtPos=ADP|Person=3|PronType=Prs	0	root	_	Idiom=Yes
 5	compris	compris	ADJ	_	Gender=Masc	4	unk	_	InIdiom=Yes
 6	fractures	fracture	NOUN	_	Gender=Fem|Number=Plur	4	comp:obj	_	_
 7	cliniques	clinique	ADJ	_	Number=Plur	6	mod	_	_
@@ -7019,7 +7019,7 @@
 7	par	par	ADP	_	_	6	udep	_	_
 8	an	an	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 9-10	au	_	_	_	_	_	_	_	_
-9	à	à	ADP	_	_	2	mod	_	ExtPos=ADV|Idiom=Yes
+9	à	à	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	unk	_	InIdiom=Yes
 11	moins	moins	ADV	_	_	10	unk	_	InIdiom=Yes
 12	jusqu'	jusque	ADP	_	_	2	mod	_	SpaceAfter=No
@@ -7115,7 +7115,7 @@
 # text = 95% d'entre eux ont reçu leur perfusion 2 semaines ou plus après intervention sur la fracture.
 1	95	95	NUM	_	NumType=Card	2	det	_	SpaceAfter=No
 2	%	%	NOUN	_	Gender=Masc	6	subj	_	_
-3	d'	de	ADP	_	_	2	udep	_	ExtPos=ADP|Idiom=Yes|SpaceAfter=No
+3	d'	de	ADP	_	ExtPos=ADP	2	udep	_	Idiom=Yes|SpaceAfter=No
 4	entre	entre	ADP	_	_	3	unk	_	InIdiom=Yes
 5	eux	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	comp:obj	_	_
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7240,7 +7240,7 @@
 
 # sent_id = emea-fr-test_00267
 # text = Y compris fractures cliniques vertébrales, dorsales et lombaires
-1	Y	y	PRON	_	Person=3|PronType=Prs	0	root	_	ExtPos=ADP|Idiom=Yes
+1	Y	y	PRON	_	ExtPos=ADP|Person=3|PronType=Prs	0	root	_	Idiom=Yes
 2	compris	compris	ADJ	_	Gender=Masc	1	unk	_	InIdiom=Yes
 3	fractures	fracture	NOUN	_	Gender=Fem|Number=Plur	1	comp:obj	_	_
 4	cliniques	clinique	ADJ	_	Number=Plur	3	mod	_	_
@@ -7683,7 +7683,7 @@
 9	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	_
 10	âgés	âgé	ADJ	_	Gender=Masc|Number=Plur|Shared=Yes	9	mod	_	_
 11	de	de	ADP	_	_	10	comp:obl	_	_
-12	plus	plus	ADV	_	_	11	comp:obj	_	ExtPos=PRON
+12	plus	plus	ADV	_	ExtPos=PRON	11	comp:obj	_	_
 13	de	de	ADP	_	_	12	comp:obl	_	_
 14	30	30	NUM	_	NumType=Card	15	det	_	_
 15	ans	an	NOUN	_	Gender=Masc|Number=Plur	13	comp:obj	_	_
@@ -7932,7 +7932,7 @@
 22	mois	mois	NOUN	_	Gender=Masc|Number=Plur	20	comp:obj	_	_
 23	de	de	ADP	_	_	22	udep	_	_
 24	suivi	suivi	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	_
-25	à	à	ADP	_	_	22	mod	_	ExtPos=ADV|Idiom=Yes
+25	à	à	ADP	_	ExtPos=ADV	22	mod	_	Idiom=Yes
 26	partir	partir	VERB	_	VerbForm=Inf	25	unk	_	InIdiom=Yes|Subject=Generic
 27	de	de	ADP	_	_	26	comp:obl	_	_
 28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
@@ -8669,7 +8669,7 @@
 13	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
 14	estrogènes	estrogène	NOUN	_	Gender=Masc|Number=Plur	9	conj:appos	_	_
 15	convertis	convertir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	14	mod	_	_
-16	à	à	ADP	_	_	15	mod	_	ExtPos=ADV|Idiom=Yes
+16	à	à	ADP	_	ExtPos=ADV	15	mod	_	Idiom=Yes
 17	partir	partir	VERB	_	VerbForm=Inf	16	unk	_	InIdiom=Yes|Subject=Generic
 18-19	des	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	17	comp:obl	_	_
@@ -8761,7 +8761,7 @@
 12	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
 13	remplacé	remplacer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	comp:aux@pass	_	_
 14	par	par	ADP	_	_	13	comp:obl@agent	_	_
-15	de	de	ADP	_	_	17	det	_	ExtPos=DET|Idiom=Yes
+15	de	de	ADP	_	ExtPos=DET	17	det	_	Idiom=Yes
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	unk	_	InIdiom=Yes|SpaceAfter=No
 17	os	os	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
 18	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	17	mod	_	SpaceAfter=No
@@ -9153,7 +9153,7 @@
 8	patients	patient	NOUN	_	Gender=Masc|Number=Plur	6	comp:obj	_	_
 9	âgés	âgé	ADJ	_	Gender=Masc|Number=Plur	8	mod	_	_
 10	de	de	ADP	_	_	9	comp:obl	_	_
-11	moins	moins	ADV	_	_	10	comp:obj	_	ExtPos=PRON
+11	moins	moins	ADV	_	ExtPos=PRON	10	comp:obj	_	_
 12	de	de	ADP	_	_	11	comp:obl	_	_
 13	18	18	NUM	_	NumType=Card	14	det	_	_
 14	ans	an	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	SpaceAfter=No
@@ -9198,7 +9198,7 @@
 9	autre	autre	ADJ	_	Number=Sing	10	mod	_	_
 10	médicament	médicament	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	6	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	y	y	PRON	_	Person=3|PronType=Prs	10	udep	_	ExtPos=ADP|Idiom=Yes
+12	y	y	PRON	_	ExtPos=ADP|Person=3|PronType=Prs	10	udep	_	Idiom=Yes
 13	compris	compris	ADJ	_	Gender=Masc	12	unk	_	InIdiom=Yes
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	médicament	médicament	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
@@ -9261,7 +9261,7 @@
 5	suffisamment	suffisamment	ADV	_	_	4	mod	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7-8	au	_	_	_	_	_	_	_	_
-7	à	à	ADP	_	_	13	mod	_	ExtPos=ADV|Idiom=Yes
+7	à	à	ADP	_	ExtPos=ADV	13	mod	_	Idiom=Yes
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	unk	_	InIdiom=Yes
 9	moins	moins	ADV	_	_	8	unk	_	InIdiom=Yes
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -9464,7 +9464,7 @@
 2	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	durera	durer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 4-5	au	_	_	_	_	_	_	_	_
-4	à	à	ADP	_	_	8	mod	_	ExtPos=ADV|Idiom=Yes
+4	à	à	ADP	_	ExtPos=ADV	8	mod	_	Idiom=Yes
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	unk	_	InIdiom=Yes
 6	moins	moins	ADV	_	_	5	unk	_	InIdiom=Yes
 7	15	15	NUM	_	NumType=Card	8	det	_	_
@@ -9609,7 +9609,7 @@
 2	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	durera	durer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 4-5	au	_	_	_	_	_	_	_	_
-4	à	à	ADP	_	_	8	mod	_	ExtPos=ADV|Idiom=Yes
+4	à	à	ADP	_	ExtPos=ADV	8	mod	_	Idiom=Yes
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	unk	_	InIdiom=Yes
 6	moins	moins	ADV	_	_	5	unk	_	InIdiom=Yes
 7	15	15	NUM	_	NumType=Card	8	det	_	_
@@ -9674,7 +9674,7 @@
 24	)	)	PUNCT	_	_	20	punct	_	_
 25	pendant	pendant	ADP	_	_	7	mod	_	_
 26-27	au	_	_	_	_	_	_	_	_
-26	à	à	ADP	_	_	32	mod	_	ExtPos=ADV|Idiom=Yes
+26	à	à	ADP	_	ExtPos=ADV	32	mod	_	Idiom=Yes
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	unk	_	InIdiom=Yes
 28	moins	moins	ADV	_	_	27	unk	_	InIdiom=Yes
 29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	32	det	_	_
@@ -9757,7 +9757,7 @@
 8	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	agir	agir	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=SubjRaising
 10	pendant	pendant	ADP	_	_	9	mod	_	_
-11	plus	plus	ADV	_	_	10	comp:obj	_	ExtPos=PRON
+11	plus	plus	ADV	_	ExtPos=PRON	10	comp:obj	_	_
 12	d'	de	ADP	_	_	11	comp:obl	_	SpaceAfter=No
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	an	an	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
@@ -9771,7 +9771,7 @@
 22	devez	devoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
 23	être	être	AUX	_	VerbForm=Inf	22	comp:obj	_	Subject=SubjRaising
 24	traité(e)	traité(e)	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	23	comp:aux@pass	_	_
-25	de	de	ADP	_	_	23	mod	_	ExtPos=ADV|Idiom=Yes
+25	de	de	ADP	_	ExtPos=ADV	23	mod	_	Idiom=Yes
 26	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	25	unk	_	InIdiom=Yes|SpaceAfter=No
 27	.	.	PUNCT	_	Shared=Yes	19	punct	_	_
 
@@ -9788,7 +9788,7 @@
 9	d'	de	ADP	_	_	8	udep	_	SpaceAfter=No
 10	Aclasta	Aclasta	PROPN	_	_	9	comp:obj	_	_
 11	Contactez	contacter	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-12	dès	dès	ADP	_	_	11	mod	_	ExtPos=ADV|Idiom=Yes
+12	dès	dès	ADP	_	ExtPos=ADV	11	mod	_	Idiom=Yes
 13	que	que	SCONJ	_	_	12	unk	_	InIdiom=Yes
 14	possible	possible	ADJ	_	Number=Sing	13	unk	_	InIdiom=Yes
 15	votre	son	DET	_	Number=Sing|Poss=Yes	16	det	_	_
@@ -9849,7 +9849,7 @@
 5	et	et	CCONJ	_	_	6	cc	_	_
 6	décidera	décider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	conj	_	_
 7	pendant	pendant	ADP	_	_	12	mod	_	_
-8	combien	combien	ADV	_	PronType=Int	7	comp:obj	_	ExtPos=PRON
+8	combien	combien	ADV	_	ExtPos=PRON|PronType=Int	7	comp:obj	_	_
 9	de	de	ADP	_	_	8	comp:obl	_	_
 10	temps	temps	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 11	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	12	subj	_	_
@@ -9876,7 +9876,7 @@
 12	médicament	médicament	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	1	punct	_	_
 14	demandez	demander	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-15	plus	plus	ADV	_	_	14	comp:obj	_	ExtPos=PRON
+15	plus	plus	ADV	_	ExtPos=PRON	14	comp:obj	_	_
 16	d'	de	ADP	_	_	15	comp:obl	_	SpaceAfter=No
 17	informations	information	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	_
 18	à	à	ADP	_	_	14	comp:obl	_	_
@@ -9952,7 +9952,7 @@
 12	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 13	survenant	survenir	VERB	_	Tense=Pres|VerbForm=Part	2	mod	_	_
 14	chez	chez	ADP	_	_	13	mod	_	_
-15	plus	plus	ADV	_	_	14	comp:obj	_	ExtPos=PRON
+15	plus	plus	ADV	_	ExtPos=PRON	14	comp:obj	_	_
 16	de	de	ADP	_	_	15	comp:obl	_	_
 17	30	30	NUM	_	NumType=Card	18	det	_	SpaceAfter=No
 18	%	%	NOUN	_	Gender=Masc	16	comp:obj	_	_
@@ -9965,7 +9965,7 @@
 24	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
 25	moins	moins	ADV	_	_	26	mod	_	_
 26	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	24	comp:pred	_	_
-27	lors	lors	ADV	_	_	24	mod	_	ExtPos=ADV
+27	lors	lors	ADV	_	ExtPos=ADV	24	mod	_	_
 28-29	des	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	27	comp:obl	_	_
 29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	_
@@ -10001,7 +10001,7 @@
 23	tête	tête	NOUN	_	Gender=Fem|Number=Sing	22	comp:obj	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
 25	surviennent	survenir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-26	lors	lors	ADV	_	_	25	mod	_	ExtPos=ADV
+26	lors	lors	ADV	_	ExtPos=ADV	25	mod	_	_
 27-28	des	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	_	26	comp:obl	_	_
 28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	_
@@ -10180,7 +10180,7 @@
 3	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	1	mod	_	_
 4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	affectant	affecter	VERB	_	Tense=Pres|VerbForm=Part	1	mod	_	_
-6	moins	moins	ADV	_	_	5	comp:obj	_	ExtPos=PRON
+6	moins	moins	ADV	_	ExtPos=PRON	5	comp:obj	_	_
 7	de	de	ADP	_	_	6	comp:obl	_	_
 8	10	10	NUM	_	NumType=Card	9	det	_	_
 9	patients	patient	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	_
@@ -10212,7 +10212,7 @@
 19	dans	dans	ADP	_	_	18	udep	_	_
 20	vos	son	DET	_	Number=Plur|Poss=Yes	21	det	_	_
 21	os	os	NOUN	_	Gender=Masc|Number=Plur	19	comp:obj	_	_
-22	et	et	CCONJ	_	_	26	cc	_	ExtPos=CCONJ|Idiom=Yes|SpaceAfter=No
+22	et	et	CCONJ	_	ExtPos=CCONJ	26	cc	_	Idiom=Yes|SpaceAfter=No
 23	/	/	SYM	_	_	22	unk	_	InIdiom=Yes|SpaceAfter=No
 24	ou	ou	CCONJ	_	_	23	unk	_	InIdiom=Yes
 25	vos	son	DET	_	Number=Plur|Poss=Yes	26	det	_	_
@@ -10297,7 +10297,7 @@
 4	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	1	mod	_	_
 5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	affectant	affecter	VERB	_	Tense=Pres|VerbForm=Part	1	mod	_	_
-7	moins	moins	ADV	_	_	6	comp:obj	_	ExtPos=PRON
+7	moins	moins	ADV	_	ExtPos=PRON	6	comp:obj	_	_
 8	d'	de	ADP	_	_	7	comp:obl	_	SpaceAfter=No
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	patient	patient	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
@@ -10441,7 +10441,7 @@
 3	rares	rare	ADJ	_	Number=Plur	1	mod	_	_
 4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	affectant	affecter	VERB	_	Tense=Pres|VerbForm=Part	1	mod	_	_
-6	moins	moins	ADV	_	_	5	comp:obj	_	ExtPos=PRON
+6	moins	moins	ADV	_	ExtPos=PRON	5	comp:obj	_	_
 7	d'	de	ADP	_	_	6	comp:obl	_	SpaceAfter=No
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	patient	patient	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
@@ -10468,7 +10468,7 @@
 6	rougeur	rougeur	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	gonflement	gonflement	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	_
-9	et	et	CCONJ	_	_	12	cc	_	ExtPos=CCONJ|Idiom=Yes|SpaceAfter=No
+9	et	et	CCONJ	_	ExtPos=CCONJ	12	cc	_	Idiom=Yes|SpaceAfter=No
 10	/	/	SYM	_	_	9	unk	_	InIdiom=Yes|SpaceAfter=No
 11	ou	ou	CCONJ	_	_	10	unk	_	InIdiom=Yes
 12	douleur	douleur	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
@@ -10527,7 +10527,7 @@
 1	Des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	det	_	_
 2	douleurs	douleur	NOUN	_	Gender=Fem|Number=Plur	23	subj@pass	_	_
 3	persistantes	persistant	ADJ	_	Gender=Fem|Number=Plur	2	mod	_	_
-4	et	et	CCONJ	_	_	8	cc	_	ExtPos=CCONJ|Idiom=Yes|SpaceAfter=No
+4	et	et	CCONJ	_	ExtPos=CCONJ	8	cc	_	Idiom=Yes|SpaceAfter=No
 5	/	/	SYM	_	_	4	unk	_	InIdiom=Yes|SpaceAfter=No
 6	ou	ou	CCONJ	_	_	5	unk	_	InIdiom=Yes
 7	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
@@ -10754,7 +10754,7 @@
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	flacon	flacon	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 7	:	:	PUNCT	_	_	8	punct	_	_
-8	pas	pas	ADV	_	Polarity=Neg	0	root	_	ExtPos=PRON
+8	pas	pas	ADV	_	ExtPos=PRON|Polarity=Neg	0	root	_	_
 9	de	de	ADP	_	_	8	comp:obl	_	_
 10	précautions	précaution	NOUN	_	Gender=Fem|Number=Plur	9	comp:obj	_	_
 11	particulières	particulier	ADJ	_	Gender=Fem|Number=Plur	10	mod	_	_
@@ -11062,7 +11062,7 @@
 13	15	15	NUM	_	NumType=Card	14	det	_	_
 14	minutes	minute	NOUN	_	Gender=Fem|Number=Plur	12	comp:obj	_	_
 15-16	au	_	_	_	_	_	_	_	_
-15	à	à	ADP	_	_	14	mod	_	ExtPos=ADV|Idiom=Yes
+15	à	à	ADP	_	ExtPos=ADV	14	mod	_	Idiom=Yes
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	unk	_	InIdiom=Yes
 17	moins	moins	ADV	_	_	16	unk	_	InIdiom=Yes|SpaceAfter=No
 18	.	.	PUNCT	_	_	9	punct	_	_
@@ -11385,7 +11385,7 @@
 
 # sent_id = emea-fr-test_00527
 # text = De plus, chez les patients atteints de maladie de Paget, il est fortement conseillé d'administrer des suppléments appropriés de calcium correspondant à un apport en calcium-élément d'au moins 500 mg deux fois par jour, pendant au moins les 10 jours suivant l'administration d'Aclasta.
-1	De	de	ADP	_	_	14	mod	_	ExtPos=ADV|Idiom=Yes
+1	De	de	ADP	_	ExtPos=ADV	14	mod	_	Idiom=Yes
 2	plus	plus	ADV	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	chez	chez	ADP	_	_	14	mod	_	_
@@ -11416,7 +11416,7 @@
 29	calcium-élément	calcium-élément	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	_
 30	d'	de	ADP	_	_	29	udep	_	SpaceAfter=No
 31-32	au	_	_	_	_	_	_	_	_
-31	à	à	ADP	_	_	35	mod	_	ExtPos=ADV|Idiom=Yes
+31	à	à	ADP	_	ExtPos=ADV	35	mod	_	Idiom=Yes
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	unk	_	InIdiom=Yes
 33	moins	moins	ADV	_	_	32	unk	_	InIdiom=Yes
 34	500	500	NUM	_	NumType=Card	35	det	_	_
@@ -11428,7 +11428,7 @@
 40	,	,	PUNCT	_	_	41	punct	_	_
 41	pendant	pendant	ADP	_	_	27	udep	_	_
 42-43	au	_	_	_	_	_	_	_	_
-42	à	à	ADP	_	_	47	mod	_	ExtPos=ADV|Idiom=Yes
+42	à	à	ADP	_	ExtPos=ADV	47	mod	_	Idiom=Yes
 43	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	unk	_	InIdiom=Yes
 44	moins	moins	ADV	_	_	43	unk	_	InIdiom=Yes
 45	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	47	det	_	_

@@ -105,7 +105,7 @@
 44	ordre	ordre	NOUN	_	Gender=Masc|Number=Sing	42	comp:obj	_	_
 45	d'	de	ADP	_	_	44	udep	_	SpaceAfter=No
 46	attaquer	attaquer	VERB	_	VerbForm=Inf	45	comp:obj	_	Subject=Instantiated
-47	de	de	ADP	_	_	46	mod	_	ExtPos=ADV|Idiom=Yes
+47	de	de	ADP	_	ExtPos=ADV	46	mod	_	Idiom=Yes
 48	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	47	unk	_	InIdiom=Yes
 49	à	à	ADP	_	_	46	mod	_	_
 50	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
@@ -158,7 +158,7 @@
 
 # sent_id = frwiki_50.1000_00006
 # text = De plus, la préparation d'artillerie habituelle avant l'attaque, au lieu de secouer les positions allemandes, envoie ses obus sur la tranchée française et laboure le terrain d'assaut.
-1	De	de	ADP	_	_	22	mod	_	ExtPos=ADV|Idiom=Yes
+1	De	de	ADP	_	ExtPos=ADV	22	mod	_	Idiom=Yes
 2	plus	plus	ADV	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -361,7 +361,7 @@
 
 # sent_id = frwiki_50.1000_00011
 # text = Suite à la désobéissance des hommes de la 21e, le général Réveilhac exige des sanctions.
-1	Suite	suite	NOUN	_	Gender=Fem|Number=Sing	15	mod	_	ExtPos=ADV
+1	Suite	suite	NOUN	_	ExtPos=ADV|Gender=Fem|Number=Sing	15	mod	_	_
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	désobéissance	désobéissance	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
@@ -526,7 +526,7 @@
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	caporal	caporal	NOUN	_	Gender=Masc|Number=Sing	23	subj	_	_
 26	Maupas	Maupas	PROPN	_	Gender=Masc|Number=Sing	25	mod	_	_
-27	lors	lors	ADV	_	_	23	mod	_	ExtPos=ADV
+27	lors	lors	ADV	_	ExtPos=ADV	23	mod	_	_
 28	de	de	ADP	_	_	27	comp:obl	_	_
 29	son	son	DET	_	Number=Sing|Poss=Yes	30	det	_	_
 30	interrogatoire	interrogatoire	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	SpaceAfter=No
@@ -840,14 +840,14 @@
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	qui	qui	PRON	_	PronType=Rel	11	subj	_	_
 11	dura	durer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	mod@relcl	_	_
-12	près	près	ADV	_	_	11	comp:obj	_	ExtPos=PRON
+12	près	près	ADV	_	ExtPos=PRON	11	comp:obj	_	_
 13	de	de	ADP	_	_	12	comp:obl	_	_
 14	deux	deux	NUM	_	NumType=Card	15	det	_	_
 15	décennies	décennie	NOUN	_	Gender=Fem|Number=Plur	13	comp:obj	_	_
 16	et	et	CCONJ	_	_	28	cc	_	_
 17	qui	qui	PRON	_	PronType=Rel	28	subj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	en	en	ADP	_	_	28	mod	_	ExtPos=ADV|Idiom=Yes
+19	en	en	ADP	_	ExtPos=ADV	28	mod	_	Idiom=Yes
 20	dehors	dehors	ADP	_	_	19	unk	_	InIdiom=Yes
 21	de	de	ADP	_	_	20	comp:obl	_	_
 22	son	son	DET	_	Number=Sing|Poss=Yes	23	det	_	_
@@ -1804,7 +1804,7 @@
 6	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 7	1989	1989	NUM	_	NumType=Card	6	mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	lors	lors	ADV	_	_	3	mod	_	ExtPos=ADV
+9	lors	lors	ADV	_	ExtPos=ADV	3	mod	_	_
 10	de	de	ADP	_	_	9	comp:obl	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	chute	chute	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
@@ -1817,7 +1817,7 @@
 
 # sent_id = frwiki_50.1000_00064
 # text = D'abord de quelques centaines de morts annoncés, les télévisions ont annoncé quelques 70 000 morts quelques jours plus tard, trouvés dans des charniers.
-1	D'	de	ADP	_	_	12	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+1	D'	de	ADP	_	ExtPos=ADV	12	mod	_	Idiom=Yes|SpaceAfter=No
 2	abord	abord	NOUN	_	Gender=Masc|Number=Sing	1	unk	_	InIdiom=Yes
 3	de	de	ADP	_	_	12	mod	_	_
 4	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
@@ -2066,7 +2066,7 @@
 13	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	12	udep	_	_
 14	1990	1990	NUM	_	NumType=Card	13	mod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	10	punct	_	_
-16	lors	lors	ADV	_	_	10	comp:obl	_	ExtPos=ADV
+16	lors	lors	ADV	_	ExtPos=ADV	10	comp:obl	_	_
 17	de	de	ADP	_	_	16	comp:obl	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 19	invasion	invasion	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
@@ -2209,7 +2209,7 @@
 15	à	à	ADP	_	_	12	mod	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Koweit	Koweit	PROPN	_	_	15	comp:obj	_	_
-18	auprès	auprès	ADP	_	_	12	comp:obl	_	ExtPos=ADV
+18	auprès	auprès	ADP	_	ExtPos=ADV	12	comp:obl	_	_
 19	d'	de	ADP	_	_	18	comp:obl	_	SpaceAfter=No
 20	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	SpaceAfter=No
 21	.	.	PUNCT	_	Shared=Yes	11	punct	_	_
@@ -2446,7 +2446,7 @@
 # text = Il a beaucoup de chance d'avoir survécu."
 1	Il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	beaucoup	beaucoup	ADV	_	_	2	comp:obj	_	ExtPos=PRON
+3	beaucoup	beaucoup	ADV	_	ExtPos=PRON	2	comp:obj	_	_
 4	de	de	ADP	_	_	3	comp:obl	_	_
 5	chance	chance	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 6	d'	de	ADP	_	_	2	comp:obl	_	SpaceAfter=No
@@ -2484,7 +2484,7 @@
 24	de	de	ADP	_	_	23	udep	_	_
 25	Saddam	Saddam	PROPN	_	Gender=Masc|Number=Sing	24	comp:obj	_	_
 26	Hussein	Hussein	PROPN	_	Gender=Masc|Number=Sing	25	flat@name	_	_
-27	lors	lors	ADV	_	_	14	mod	_	ExtPos=ADV
+27	lors	lors	ADV	_	ExtPos=ADV	14	mod	_	_
 28	de	de	ADP	_	_	27	comp:obl	_	_
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 30	première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	31	mod	_	_
@@ -2614,7 +2614,7 @@
 2	machination	machination	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	fonctionné	fonctionner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
-5	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	3	mod	_	ExtPos=ADV
+5	grâce	grâce	NOUN	_	ExtPos=ADV|Gender=Fem|Number=Sing	3	mod	_	_
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	intervention	intervention	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
@@ -3282,7 +3282,7 @@
 3	d'	de	ADP	_	_	1	udep	_	SpaceAfter=No
 4	Estaing	Estaing	PROPN	_	Gender=Masc|Number=Sing	3	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
-6	d'	de	ADP	_	_	11	mod	_	ExtPos=ADP|Idiom=Yes|SpaceAfter=No
+6	d'	de	ADP	_	ExtPos=ADP	11	mod	_	Idiom=Yes|SpaceAfter=No
 7	après	après	ADP	_	_	6	unk	_	InIdiom=Yes
 8	ses	son	DET	_	Number=Plur|Poss=Yes	9	det	_	_
 9	mémoires	mémoires	NOUN	_	Gender=Masc|Number=Plur	6	comp:obj	_	SpaceAfter=No
@@ -3329,7 +3329,7 @@
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Monde	Monde	PROPN	_	_	8	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	alors	alors	ADV	_	_	2	mod	_	ExtPos=SCONJ|Idiom=Yes
+12	alors	alors	ADV	_	ExtPos=SCONJ	2	mod	_	Idiom=Yes
 13	que	que	SCONJ	_	_	12	unk	_	InIdiom=Yes
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	veille	veille	NOUN	_	Gender=Fem|Number=Sing	22	mod	_	_
@@ -3391,7 +3391,7 @@
 
 # sent_id = frwiki_50.1000_00133
 # text = À partir de ce jour, Valéry Giscard d'Estaing ne lira plus Le Monde, blessé par les accusations fondées sur les seules informations du Canard enchaîné, et par la mise en cause de son père et de ses cousins dans des activités liées à l'Afrique mais qui n'avaient rien à voir avec Bokassa et son cadeau.
-1	À	à	ADP	_	_	12	mod	_	ExtPos=ADV|Idiom=Yes
+1	À	à	ADP	_	ExtPos=ADV	12	mod	_	Idiom=Yes
 2	partir	partir	VERB	_	VerbForm=Inf	1	unk	_	InIdiom=Yes|Subject=Generic
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
@@ -3495,7 +3495,7 @@
 4	cependant	cependant	ADV	_	_	3	mod	_	_
 5	perçue	percevoir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	_
 6	comme	comme	ADP	_	_	5	comp:obl	_	_
-7	de	de	ADP	_	_	9	det	_	ExtPos=DET|Idiom=Yes
+7	de	de	ADP	_	ExtPos=DET	9	det	_	Idiom=Yes
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	unk	_	InIdiom=Yes|SpaceAfter=No
 9	arrogance	arrogance	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
@@ -3622,7 +3622,7 @@
 
 # sent_id = frwiki_50.1000_00138
 # text = Quant aux diamants, leur estimation est bien en deçà des chiffres publiés dans Le Canard enchaîné après l'expertise du président de la Compagnie des experts près de la cour d'appel de Paris.
-1	Quant	quant	ADV	_	_	8	mod	_	ExtPos=ADV
+1	Quant	quant	ADV	_	ExtPos=ADV	8	mod	_	_
 2-3	aux	_	_	_	_	_	_	_	_
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
@@ -3632,7 +3632,7 @@
 7	estimation	estimation	NOUN	_	Gender=Fem|Number=Sing	8	subj	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	bien	bien	ADV	_	_	10	mod	_	_
-10	en	en	ADP	_	_	8	comp:pred	_	ExtPos=ADV|Idiom=Yes
+10	en	en	ADP	_	ExtPos=ADV	8	comp:pred	_	Idiom=Yes
 11	deçà	deçà	ADV	_	_	10	unk	_	InIdiom=Yes
 12-13	des	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	11	comp:obl	_	_
@@ -3709,7 +3709,7 @@
 18	Croix-Rouge	Croix-Rouge	PROPN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
 19	de	de	ADP	_	_	18	udep	_	_
 20	Centrafrique	Centrafrique	PROPN	_	_	19	comp:obj	_	_
-21	alors	alors	ADV	_	_	9	mod	_	ExtPos=SCONJ|Idiom=Yes
+21	alors	alors	ADV	_	ExtPos=SCONJ	9	mod	_	Idiom=Yes
 22	que	que	SCONJ	_	_	21	unk	_	InIdiom=Yes
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	reste	reste	NOUN	_	Gender=Masc|Number=Sing	29	subj@pass	_	_
@@ -3817,7 +3817,7 @@
 17	Giscard	Giscard	PROPN	_	_	16	flat@name	_	_
 18	d'	de	ADP	_	_	16	udep	_	SpaceAfter=No
 19	Estaing	Estaing	PROPN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
-20	face	face	NOUN	_	Gender=Fem|Number=Sing	14	udep	_	ExtPos=ADV
+20	face	face	NOUN	_	ExtPos=ADV|Gender=Fem|Number=Sing	14	udep	_	_
 21-22	au	_	_	_	_	_	_	_	_
 21	à	à	ADP	_	_	20	comp:obl	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
@@ -4117,7 +4117,7 @@
 
 # sent_id = frwiki_50.1000_00158
 # text = A partir de ce moment, toutes les traces seront perdues.
-1	A	à	ADP	_	_	10	mod	_	ExtPos=ADV|Idiom=Yes
+1	A	à	ADP	_	ExtPos=ADV	10	mod	_	Idiom=Yes
 2	partir	partir	VERB	_	VerbForm=Inf	1	unk	_	InIdiom=Yes|Subject=Generic
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
@@ -4174,7 +4174,7 @@
 # text = On parle entre autre d'un métis qui dès son arrivée à Brazzaville a été autorisé à sortir de la file d'attente.
 1	On	on	PRON	_	Number=Sing|Person=3|PronType=Ind	2	subj	_	_
 2	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	entre	entre	ADP	_	_	2	mod	_	ExtPos=ADV|Idiom=Yes
+3	entre	entre	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes
 4	autre	autre	PRON	_	Number=Sing|Person=3|PronType=Ind	3	unk	_	InIdiom=Yes
 5	d'	de	ADP	_	_	2	comp:obl	_	SpaceAfter=No
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -5015,7 +5015,7 @@
 36	,	,	PUNCT	_	_	46	punct	_	_
 37	qui	qui	PRON	_	PronType=Rel	46	subj	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	39	punct	_	_
-39	bien	bien	ADV	_	_	46	mod	_	ExtPos=SCONJ|Idiom=Yes
+39	bien	bien	ADV	_	ExtPos=SCONJ	46	mod	_	Idiom=Yes
 40	que	que	SCONJ	_	_	39	unk	_	InIdiom=Yes
 41	rémunérée	rémunérer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	39	comp:obj	_	_
 42	par	par	ADP	_	_	41	comp:obl@agent	_	_
@@ -5244,7 +5244,7 @@
 41	d'	de	ADP	_	_	40	udep	_	SpaceAfter=No
 42	activités	activité	NOUN	_	Gender=Fem|Number=Plur	41	comp:obj	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	46	punct	_	_
-44	y	y	PRON	_	Person=3|PronType=Prs	46	mod	_	ExtPos=ADV|Idiom=Yes
+44	y	y	PRON	_	ExtPos=ADV|Person=3|PronType=Prs	46	mod	_	Idiom=Yes
 45	compris	compris	ADJ	_	Gender=Masc	44	unk	_	InIdiom=Yes
 46	politiques	politique	ADJ	_	Number=Plur	42	mod	_	SpaceAfter=No
 47	,	,	PUNCT	_	_	46	punct	_	_
@@ -5650,7 +5650,7 @@
 11	point	point	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 12	mort	mort	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
-14	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	8	mod	_	ExtPos=ADV
+14	grâce	grâce	NOUN	_	ExtPos=ADV|Gender=Fem|Number=Sing	8	mod	_	_
 15	à	à	ADP	_	_	14	comp:obl	_	_
 16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 17	interminable	interminable	ADJ	_	Number=Sing	18	mod	_	_
@@ -5896,7 +5896,7 @@
 40	de	de	ADP	_	_	36	conj	_	_
 41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
 42	mairie	mairie	NOUN	_	Gender=Fem|Number=Sing	40	comp:obj	_	_
-43	ainsi	ainsi	ADV	_	_	46	cc	_	ExtPos=CCONJ|Idiom=Yes
+43	ainsi	ainsi	ADV	_	ExtPos=CCONJ	46	cc	_	Idiom=Yes
 44	que	que	SCONJ	_	_	43	unk	_	InIdiom=Yes
 45	leurs	son	DET	_	Number=Plur|Poss=Yes	46	det	_	_
 46	épouses	épouse	NOUN	_	Gender=Fem|Number=Plur	32	conj	_	SpaceAfter=No
@@ -6541,7 +6541,7 @@
 21	et	et	CCONJ	_	_	22	cc	_	_
 22	Philippe	Philippe	PROPN	_	Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
 23	,	,	PUNCT	_	Shared=Yes	20	punct	_	_
-24	ainsi	ainsi	ADV	_	_	28	cc	_	ExtPos=CCONJ|Idiom=Yes
+24	ainsi	ainsi	ADV	_	ExtPos=CCONJ	28	cc	_	Idiom=Yes
 25	que	que	SCONJ	_	_	24	unk	_	InIdiom=Yes
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
 27	ancien	ancien	ADJ	_	Gender=Masc|Number=Sing	28	mod	_	_
@@ -6659,7 +6659,7 @@
 6	manoeuvres	manoeuvre	NOUN	_	Number=Plur	4	comp:obj	_	_
 7	frauduleuses	frauduleux	ADJ	_	Gender=Fem|Number=Plur	6	mod	_	SpaceAfter=No
 8	"	"	PUNCT	_	_	6	punct	_	_
-9	lors	lors	ADV	_	_	6	udep	_	ExtPos=ADV
+9	lors	lors	ADV	_	ExtPos=ADV	6	udep	_	_
 10-11	des	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	9	comp:obl	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
@@ -7298,7 +7298,7 @@
 11	anticlérical	anticlérical	NOUN	_	Gender=Masc|Number=Sing	26	subj	_	_
 12	farouche	farouche	ADJ	_	Number=Sing	11	mod	_	_
 13	et	et	CCONJ	_	_	16	cc	_	_
-14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	mod	_	ExtPos=ADV|Idiom=Yes
+14	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	16	mod	_	Idiom=Yes
 15	peu	peu	ADV	_	_	14	unk	_	InIdiom=Yes
 16	ridicule	ridicule	ADJ	_	Number=Sing	12	conj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
@@ -7472,7 +7472,7 @@
 40	leur	son	DET	_	Number=Sing|Poss=Yes	41	det	_	_
 41	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	39	comp:obj	_	_
 42	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	InIdiom=Yes
-43	plus	plus	ADV	_	_	38	comp:obj	_	ExtPos=PRON|Idiom=Yes
+43	plus	plus	ADV	_	ExtPos=PRON	38	comp:obj	_	Idiom=Yes
 44	d'	de	ADP	_	_	43	comp:obl	_	SpaceAfter=No
 45	informations	information	NOUN	_	Gender=Fem|Number=Plur	44	comp:obj	_	_
 46	possibles	possible	ADJ	_	Number=Plur	45	mod	_	_
@@ -7815,7 +7815,7 @@
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	fiches	fiche	NOUN	_	Gender=Fem|Number=Plur	3	subj@pass	_	_
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	d'	de	ADP	_	_	3	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+4	d'	de	ADP	_	ExtPos=ADV	3	mod	_	Idiom=Yes|SpaceAfter=No
 5	abord	abord	NOUN	_	Gender=Masc|Number=Sing	4	unk	_	InIdiom=Yes
 6	centralisées	centraliser	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	_
 7-8	au	_	_	_	_	_	_	_	_
@@ -7928,7 +7928,7 @@
 14	sur	sur	ADP	_	_	3	mod	_	_
 15	deux	deux	NUM	_	NumType=Card	16	det	_	_
 16	listes	liste	NOUN	_	Gender=Fem|Number=Plur	14	comp:obj	_	_
-17	d'	de	ADP	_	_	16	udep	_	ExtPos=ADP|Idiom=Yes|SpaceAfter=No
+17	d'	de	ADP	_	ExtPos=ADP	16	udep	_	Idiom=Yes|SpaceAfter=No
 18	après	après	ADP	_	_	17	unk	_	InIdiom=Yes
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
 20	renseignements	renseignement	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	_
@@ -7976,7 +7976,7 @@
 6	ses	son	DET	_	Number=Plur|Poss=Yes	7	det	_	_
 7	employeurs	employeur	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
-9	à	à	ADP	_	_	4	conj	_	ExtPos=ADJ|Idiom=Yes
+9	à	à	ADP	_	ExtPos=ADJ	4	conj	_	Idiom=Yes
 10	court	court	ADJ	_	Gender=Masc|Number=Sing	9	unk	_	InIdiom=Yes
 11	d'	de	ADP	_	_	10	comp:obl	_	SpaceAfter=No
 12	argent	argent	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	SpaceAfter=No
@@ -8016,7 +8016,7 @@
 45	avec	avec	ADP	_	_	37	udep	_	_
 46	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
 47	Saint-Siège	Saint-Siège	PROPN	_	Gender=Masc|Number=Sing	45	comp:obj	_	_
-48	suite	suite	NOUN	_	Gender=Fem|Number=Sing	37	udep	_	ExtPos=ADV
+48	suite	suite	NOUN	_	ExtPos=ADV|Gender=Fem|Number=Sing	37	udep	_	_
 49-50	aux	_	_	_	_	_	_	_	_
 49	à	à	ADP	_	_	48	comp:obl	_	_
 50	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	52	det	_	_
@@ -8038,7 +8038,7 @@
 65	connaissant	connaître	VERB	_	Tense=Pres|VerbForm=Part	63	mod	_	_
 66	paradoxalement	paradoxalement	ADV	_	_	65	mod	_	SpaceAfter=No
 67	,	,	PUNCT	_	_	68	punct	_	_
-68	en	en	ADP	_	_	65	mod	_	ExtPos=ADP|Idiom=Yes
+68	en	en	ADP	_	ExtPos=ADP	65	mod	_	Idiom=Yes
 69	tant	tant	ADV	_	_	68	unk	_	InIdiom=Yes
 70	que	que	SCONJ	_	_	69	unk	_	InIdiom=Yes
 71	franc-maçon	franc-maçon	NOUN	_	Gender=Masc|Number=Sing	68	comp:obj	_	SpaceAfter=No
@@ -8259,7 +8259,7 @@
 58	politiques	politique	ADJ	_	Number=Plur	57	mod	_	_
 59	-	-	PUNCT	_	_	64	punct	_	SpaceAfter=No
 60-61	du	_	_	_	_	_	_	_	_
-60	de	de	ADP	_	_	64	mod	_	ExtPos=ADV|Idiom=Yes
+60	de	de	ADP	_	ExtPos=ADV	64	mod	_	Idiom=Yes
 61	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	unk	_	InIdiom=Yes
 62	moins	moins	ADV	_	_	61	unk	_	InIdiom=Yes
 63	pas	pas	ADV	_	Polarity=Neg	64	mod	_	_
@@ -8285,7 +8285,7 @@
 82	droit	droit	NOUN	_	Gender=Masc|Number=Sing	79	comp:obj	_	_
 83	-	-	PUNCT	_	_	87	punct	_	SpaceAfter=No
 84-85	du	_	_	_	_	_	_	_	_
-84	de	de	ADP	_	_	87	mod	_	ExtPos=ADV|Idiom=Yes
+84	de	de	ADP	_	ExtPos=ADV	87	mod	_	Idiom=Yes
 85	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	84	unk	_	InIdiom=Yes
 86	moins	moins	ADV	_	_	85	unk	_	InIdiom=Yes
 87	dans	dans	ADP	_	_	82	udep	_	_
@@ -8308,12 +8308,12 @@
 102	ses	son	DET	_	Number=Plur|Poss=Yes	103	det	_	_
 103	agents	agent	NOUN	_	Number=Plur	101	comp:obj	_	SpaceAfter=No
 104	,	,	PUNCT	_	_	105	punct	_	_
-105	bien	bien	ADV	_	_	79	mod	_	ExtPos=SCONJ|Idiom=Yes
+105	bien	bien	ADV	_	ExtPos=SCONJ	79	mod	_	Idiom=Yes
 106	qu'	que	SCONJ	_	_	105	unk	_	InIdiom=Yes|SpaceAfter=No
 107	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	108	subj@expl	_	_
 108	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	105	comp:obj	_	_
 109	ici	ici	ADV	_	_	108	mod	_	_
-110	tout	tout	ADV	_	_	108	mod	_	ExtPos=ADV|Idiom=Yes
+110	tout	tout	ADV	_	ExtPos=ADV	108	mod	_	Idiom=Yes
 111	de	de	ADP	_	_	110	unk	_	InIdiom=Yes
 112	même	même	ADV	_	_	111	unk	_	InIdiom=Yes
 113-114	aux	_	_	_	_	_	_	_	_
@@ -8329,7 +8329,7 @@
 122	ses	son	DET	_	Number=Plur|Poss=Yes	123	det	_	_
 123	officiers	officier	NOUN	_	Number=Plur	121	comp:obj	_	SpaceAfter=No
 124	,	,	PUNCT	_	_	125	punct	_	_
-125	y	y	PRON	_	Person=3|PronType=Prs	120	mod	_	ExtPos=ADP|Idiom=Yes
+125	y	y	PRON	_	ExtPos=ADP|Person=3|PronType=Prs	120	mod	_	Idiom=Yes
 126	compris	compris	ADJ	_	Gender=Masc	125	unk	_	InIdiom=Yes
 127	dans	dans	ADP	_	_	125	comp:obj	_	_
 128	leur	son	DET	_	Number=Sing|Poss=Yes	129	det	_	_
@@ -8428,7 +8428,7 @@
 
 # sent_id = frwiki_50.1000_00308
 # text = Par contre, l'affaire provoque la chute de Combes et sa fin politique, avec en prime l'ironie de certains radicaux comme Clémenceau, et la colère des républicains modérés du bloc des gauches, comme les futurs présidents Raymond Poincaré, Paul Deschanel ou Paul Doumer, qui démissionnera même quelque temps du Grand Orient.
-1	Par	par	ADP	_	_	6	mod	_	ExtPos=ADV|Idiom=Yes
+1	Par	par	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes
 2	contre	contre	ADP	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
@@ -8546,7 +8546,7 @@
 45	et	et	CCONJ	_	_	46	cc	_	_
 46	renforcée	renforcer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	44	conj	_	_
 47	encore	encore	ADV	_	_	46	mod	_	_
-48	lors	lors	ADV	_	Shared=Yes	46	mod	_	ExtPos=ADV
+48	lors	lors	ADV	_	ExtPos=ADV|Shared=Yes	46	mod	_	_
 49-50	des	_	_	_	_	_	_	_	_
 49	de	de	ADP	_	_	48	comp:obl	_	_
 50	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	51	det	_	_
@@ -8623,7 +8623,7 @@
 34	allemand	allemand	ADJ	_	Gender=Masc|Number=Sing	33	mod	_	_
 35	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	36	comp:obj	_	_
 36	persuade	persuader	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	mod@relcl	_	_
-37	de	de	ADP	_	_	36	mod	_	ExtPos=ADV|Idiom=Yes
+37	de	de	ADP	_	ExtPos=ADV	36	mod	_	Idiom=Yes
 38	plus	plus	ADV	_	_	37	unk	_	InIdiom=Yes
 39	en	en	ADP	_	_	38	unk	_	InIdiom=Yes
 40	plus	plus	ADV	_	_	39	unk	_	InIdiom=Yes|SpaceAfter=No
@@ -8730,13 +8730,13 @@
 62	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	59	comp:obj	_	_
 63	mondiale	mondial	ADJ	_	Gender=Fem|Number=Sing	62	mod	_	SpaceAfter=No
 64	,	,	PUNCT	_	_	65	punct	_	_
-65	en	en	ADP	_	_	56	mod	_	ExtPos=ADP|Idiom=Yes
+65	en	en	ADP	_	ExtPos=ADP	56	mod	_	Idiom=Yes
 66	tant	tant	ADV	_	_	65	unk	_	InIdiom=Yes
 67	qu'	que	SCONJ	_	_	66	unk	_	InIdiom=Yes|SpaceAfter=No
 68	officiers	officier	NOUN	_	Number=Plur	65	comp:obj	_	_
 69	d'	de	ADP	_	_	68	udep	_	SpaceAfter=No
 70	active	active	NOUN	_	Gender=Fem|Number=Sing	69	comp:obj	_	_
-71	à	à	ADP	_	_	65	mod	_	ExtPos=ADV|Idiom=Yes
+71	à	à	ADP	_	ExtPos=ADV	65	mod	_	Idiom=Yes
 72	tout	tout	ADV	_	_	71	unk	_	InIdiom=Yes
 73	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	72	unk	_	InIdiom=Yes
 74	moins	moins	ADV	_	_	73	unk	_	InIdiom=Yes|SpaceAfter=No
@@ -8763,11 +8763,11 @@
 17	ces	ce	DET	_	Number=Plur|PronType=Dem	18	det	_	_
 18	officiers	officier	NOUN	_	Number=Plur	16	comp:obj	_	_
 19	dont	dont	PRON	_	PronType=Rel	23	udep	_	_
-20	près	près	ADV	_	_	27	subj@pass	_	ExtPos=PRON
+20	près	près	ADV	_	ExtPos=PRON	27	subj@pass	_	_
 21	de	de	ADP	_	_	20	comp:obl	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	moitié	moitié	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	_
-24	d'	de	ADP	_	_	23	udep	_	ExtPos=ADP|Idiom=Yes|SpaceAfter=No
+24	d'	de	ADP	_	ExtPos=ADP	23	udep	_	Idiom=Yes|SpaceAfter=No
 25	entre	entre	ADP	_	_	24	unk	_	InIdiom=Yes
 26	eux	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	24	comp:obj	_	_
 27	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	mod@relcl	_	_
@@ -8781,10 +8781,10 @@
 
 # sent_id = frwiki_50.1000_00314
 # text = En outre, suite à l'affaire Dreyfus, le service de renseignement de l'armée (2ème Bureau), considéré comme subversif, a déjà été épuré et complètement désorganisé durant un certain temps, ce qui donnera aux services allemands une longueur d'avance dans ce domaine en plein développement de l'art de la guerre.
-1	En	en	ADP	_	_	26	mod	_	ExtPos=ADV|Idiom=Yes
+1	En	en	ADP	_	ExtPos=ADV	26	mod	_	Idiom=Yes
 2	outre	outre	ADP	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
-4	suite	suite	NOUN	_	Gender=Fem|Number=Sing	26	mod	_	ExtPos=ADV
+4	suite	suite	NOUN	_	ExtPos=ADV|Gender=Fem|Number=Sing	26	mod	_	_
 5	à	à	ADP	_	_	4	comp:obl	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	affaire	affaire	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
@@ -9072,7 +9072,7 @@
 81	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	82	det	_	_
 82	secret	secret	NOUN	_	Gender=Masc|Number=Sing	80	comp:obj	_	_
 83	et	et	CCONJ	_	Shared=Yes	88	cc	_	_
-84	bien	bien	ADV	_	_	83	mod	_	ExtPos=ADV|Idiom=Yes
+84	bien	bien	ADV	_	ExtPos=ADV	83	mod	_	Idiom=Yes
 85	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	84	unk	_	InIdiom=Yes
 86	leur	son	DET	_	Number=Sing|Poss=Yes	88	det	_	_
 87	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	88	mod	_	_
@@ -9515,7 +9515,7 @@
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	objet	objet	NOUN	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
 5	de	de	ADP	_	_	2	comp:obl	_	_
-6	plus	plus	ADV	_	_	5	comp:obj	_	ExtPos=PRON
+6	plus	plus	ADV	_	ExtPos=PRON	5	comp:obj	_	_
 7	de	de	ADP	_	_	6	comp:obl	_	_
 8	500	500	NUM	_	NumType=Card	9	det	_	_
 9	millions	million	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	7	comp:obj	_	_
@@ -9528,7 +9528,7 @@
 16	qui	qui	PRON	_	PronType=Rel	17	subj	_	_
 17	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
 18	nourri	nourrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:aux@tense	_	_
-19	beaucoup	beaucoup	ADV	_	_	18	comp:obj	_	ExtPos=PRON
+19	beaucoup	beaucoup	ADV	_	ExtPos=PRON	18	comp:obj	_	_
 20	de	de	ADP	_	_	19	comp:obl	_	_
 21	fantasmes	fantasme	NOUN	_	Gender=Masc|Number=Plur	20	comp:obj	_	_
 22	et	et	CCONJ	_	_	23	cc	_	_
@@ -9639,7 +9639,7 @@
 15	Dumas	Dumas	PROPN	_	_	14	flat@name	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	acheté	acheter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	mod	_	_
-18	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	17	mod	_	ExtPos=ADV
+18	grâce	grâce	NOUN	_	ExtPos=ADV|Gender=Fem|Number=Sing	17	mod	_	_
 19	à	à	ADP	_	_	18	comp:obl	_	_
 20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	virement	virement	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
@@ -9899,7 +9899,7 @@
 44	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	45	comp@expl	_	_
 45	montèrent	monter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 46	à	à	ADP	_	_	45	comp:obl	_	_
-47	près	près	ADV	_	_	46	comp:obj	_	ExtPos=PRON
+47	près	près	ADV	_	ExtPos=PRON	46	comp:obj	_	_
 48	de	de	ADP	_	_	47	comp:obl	_	_
 49	3	3	NUM	_	NumType=Card	50	det	_	_
 50	milliards	milliard	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	48	comp:obj	_	_
@@ -10006,7 +10006,7 @@
 55	milliards	milliard	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	53	comp:obj	_	_
 56	de	de	ADP	_	_	55	udep	_	_
 57	francs	franc	NOUN	_	Gender=Masc|Number=Plur	56	comp:obj	_	_
-58	lors	lors	ADV	_	_	55	udep	_	ExtPos=ADV
+58	lors	lors	ADV	_	ExtPos=ADV	55	udep	_	_
 59	de	de	ADP	_	_	58	comp:obl	_	_
 60	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	61	det	_	_
 61	signature	signature	NOUN	_	Gender=Fem|Number=Sing	59	comp:obj	_	_
@@ -10070,7 +10070,7 @@
 23	efficacement	efficacement	ADV	_	_	20	mod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
 25	étant	être	AUX	_	Tense=Pres|VerbForm=Part	22	mod	_	_
-26	bien	bien	ADV	_	_	28	mod	_	ExtPos=ADV|Idiom=Yes
+26	bien	bien	ADV	_	ExtPos=ADV	28	mod	_	Idiom=Yes
 27	entendu	entendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	unk	_	InIdiom=Yes
 28	motivé	motiver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	25	comp:aux@pass	_	_
 29	par	par	ADP	_	_	28	comp:obl@agent	_	_
@@ -10230,7 +10230,7 @@
 15	)	)	PUNCT	_	_	12	punct	_	_
 16	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	bloqués	bloquer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	16	comp:aux@pass	_	_
-18	lors	lors	ADV	_	_	16	mod	_	ExtPos=ADV
+18	lors	lors	ADV	_	ExtPos=ADV	16	mod	_	_
 19	d'	de	ADP	_	_	18	comp:obl	_	SpaceAfter=No
 20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	transfert	transfert	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
@@ -10805,7 +10805,7 @@
 33	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	34	det	_	_
 34	réseau	réseau	NOUN	_	Gender=Masc|Number=Sing	35	subj	_	_
 35	suscitait	susciter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-36	plus	plus	ADV	_	_	35	comp:obj	_	ExtPos=PRON
+36	plus	plus	ADV	_	ExtPos=PRON	35	comp:obj	_	_
 37	de	de	ADP	_	_	36	comp:obl	_	_
 38	doutes	doute	NOUN	_	Gender=Masc|Number=Plur	37	comp:obj	_	_
 39	que	que	SCONJ	_	_	38	mod	_	_
@@ -10917,7 +10917,7 @@
 20	Christine	Christine	PROPN	_	Gender=Fem|Number=Sing	19	comp:obj	_	_
 21	Deviers-Joncour	Deviers-Joncour	PROPN	_	_	20	flat@name	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	25	punct	_	_
-23	a	a	X	_	Foreign=Yes	25	mod	_	ExtPos=ADV|Idiom=Yes
+23	a	a	X	_	ExtPos=ADV|Foreign=Yes	25	mod	_	Idiom=Yes
 24	fortiori	fortiori	X	_	Foreign=Yes	23	unk	_	InIdiom=Yes
 25	de	de	ADP	_	_	14	udep	_	_
 26	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes	27	det	_	_
@@ -10937,7 +10937,7 @@
 # sent_id = frwiki_50.1000_00381
 # text = Et lors de son voyage en Chine, Jean-François Briand n'avait entendu parler d'aucune intervention du prétendu "réseau Elf", qu'était censé incarner sur place l'homme d'affaires Edmond Kwan.
 1	Et	et	CCONJ	_	_	12	cc	_	_
-2	lors	lors	ADV	_	_	12	mod	_	ExtPos=ADV
+2	lors	lors	ADV	_	ExtPos=ADV	12	mod	_	_
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	son	son	DET	_	Number=Sing|Poss=Yes	5	det	_	_
 5	voyage	voyage	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
@@ -11408,7 +11408,7 @@
 8	de	de	ADP	_	_	7	udep	_	_
 9	dollars	dollar	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	2	punct	_	_
-11	plus	plus	ADV	_	_	20	subj@pass	_	ExtPos=PRON
+11	plus	plus	ADV	_	ExtPos=PRON	20	subj@pass	_	_
 12	de	de	ADP	_	_	11	comp:obl	_	_
 13	500	500	NUM	_	NumType=Card	14	det	_	_
 14	millions	million	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	12	comp:obj	_	_
@@ -11459,7 +11459,7 @@
 8	d'	de	ADP	_	_	7	udep	_	SpaceAfter=No
 9	intermédiaires	intermédiaire	NOUN	_	Number=Plur	8	comp:obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
-11	en	en	ADP	_	_	9	mod	_	ExtPos=ADV|Idiom=Yes
+11	en	en	ADP	_	ExtPos=ADV	9	mod	_	Idiom=Yes
 12	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	11	unk	_	InIdiom=Yes
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 14	sino-américain	sino-américain	ADJ	_	Gender=Masc|Number=Sing	15	mod	_	_
@@ -12077,7 +12077,7 @@
 16	Edouard	Édouard	PROPN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
 17	Balladur	Balladur	PROPN	_	_	16	flat@name	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	22	punct	_	_
-19	ainsi	ainsi	ADV	_	_	22	cc	_	ExtPos=CCONJ|Idiom=Yes
+19	ainsi	ainsi	ADV	_	ExtPos=CCONJ	22	cc	_	Idiom=Yes
 20	que	que	SCONJ	_	_	19	unk	_	InIdiom=Yes
 21	trois	trois	NUM	_	NumType=Card	22	det	_	_
 22	proches	proche	NOUN	_	Number=Plur	9	conj	_	_
@@ -12225,7 +12225,7 @@
 47	de	de	ADP	_	_	46	udep	_	_
 48	ces	ce	DET	_	Number=Plur|PronType=Dem	49	det	_	_
 49	rétrocommissions	rétrocommission	NOUN	_	Gender=Fem|Number=Plur	47	comp:obj	_	_
-50	à	à	ADP	_	_	46	udep	_	ExtPos=ADP|Idiom=Yes
+50	à	à	ADP	_	ExtPos=ADP	46	udep	_	Idiom=Yes
 51	travers	travers	NOUN	_	Gender=Masc	50	unk	_	InIdiom=Yes
 52	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
 53	boîte	boîte	NOUN	_	Gender=Fem|Number=Sing	50	comp:obj	_	_
@@ -12597,7 +12597,7 @@
 27	de	de	ADP	_	_	26	udep	_	_
 28	dollars	dollar	NOUN	_	Gender=Masc|Number=Plur	27	comp:obj	_	_
 29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
-30	près	près	ADV	_	_	26	conj:appos	_	ExtPos=PRON
+30	près	près	ADV	_	ExtPos=PRON	26	conj:appos	_	_
 31	de	de	ADP	_	_	30	comp:obl	_	_
 32	500	500	NUM	_	NumType=Card	33	det	_	_
 33	millions	million	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	31	comp:obj	_	_
@@ -12910,7 +12910,7 @@
 28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	det	_	_
 29	commissions	commission	NOUN	_	Gender=Fem|Number=Plur	27	comp:obj	_	_
 30	versées	verser	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	29	mod	_	_
-31	lors	lors	ADV	_	_	30	mod	_	ExtPos=ADV
+31	lors	lors	ADV	_	ExtPos=ADV	30	mod	_	_
 32-33	du	_	_	_	_	_	_	_	_
 32	de	de	ADP	_	_	31	comp:obl	_	_
 33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
@@ -13141,7 +13141,7 @@
 11	Brochand	Brochand	PROPN	_	_	10	flat@name	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	10	punct	_	_
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
-14	de	de	ADP	_	_	13	mod	_	ExtPos=ADV|Idiom=Yes
+14	de	de	ADP	_	ExtPos=ADV	13	mod	_	Idiom=Yes
 15	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	14	unk	_	InIdiom=Yes
 16	opposé	opposer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -13644,7 +13644,7 @@
 48	de	de	ADP	_	_	47	udep	_	_
 49	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
 50	renseignement	renseignement	NOUN	_	Gender=Masc|Number=Sing	48	comp:obj	_	_
-51	avant	avant	ADP	_	_	33	mod	_	ExtPos=ADP|Idiom=Yes
+51	avant	avant	ADP	_	ExtPos=ADP	33	mod	_	Idiom=Yes
 52	même	même	ADV	_	_	51	unk	_	InIdiom=Yes
 53	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
 54	réception	réception	NOUN	_	Gender=Fem|Number=Sing	51	comp:obj	_	_
@@ -15004,7 +15004,7 @@
 # sent_id = frwiki_50.1000_00532
 # text = - De même, les mirages 2000 fournis à Taiwan en 1992 pourraient échouer à Singapour.
 1	-	-	PUNCT	_	_	13	punct	_	_
-2	De	de	ADP	_	_	13	mod	_	ExtPos=ADV|Idiom=Yes
+2	De	de	ADP	_	ExtPos=ADV	13	mod	_	Idiom=Yes
 3	même	même	ADV	_	_	2	unk	_	InIdiom=Yes|SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
@@ -15669,7 +15669,7 @@
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	parking	parking	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
-22	alors	alors	ADV	_	_	16	mod	_	ExtPos=SCONJ|Idiom=Yes
+22	alors	alors	ADV	_	ExtPos=SCONJ	16	mod	_	Idiom=Yes
 23	que	que	SCONJ	_	_	22	unk	_	InIdiom=Yes
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	dirigeante	dirigeant	NOUN	_	Gender=Fem|Number=Sing	31	subj	_	_
@@ -16240,7 +16240,7 @@
 25	avec	avec	ADP	_	_	24	udep	_	_
 26	sursis	sursis	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	30	punct	_	_
-28	ainsi	ainsi	ADV	_	_	30	cc	_	ExtPos=CCONJ|Idiom=Yes
+28	ainsi	ainsi	ADV	_	ExtPos=CCONJ	30	cc	_	Idiom=Yes
 29	qu'	que	SCONJ	_	_	28	unk	_	InIdiom=Yes|SpaceAfter=No
 30	à	à	ADP	_	_	17	conj	_	_
 31	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
@@ -16489,7 +16489,7 @@
 60	RPR	RPR	PROPN	_	_	58	comp:obj	_	SpaceAfter=No
 61	"	"	PUNCT	_	_	40	punct	_	SpaceAfter=No
 62	,	,	PUNCT	_	_	63	punct	_	_
-63	tout	tout	ADV	_	_	34	mod	_	ExtPos=ADP|Idiom=Yes
+63	tout	tout	ADV	_	ExtPos=ADP	34	mod	_	Idiom=Yes
 64	en	en	ADP	_	_	63	unk	_	InIdiom=Yes
 65	relevant	relever	VERB	_	Tense=Pres|VerbForm=Part	63	comp:obj	_	_
 66	qu'	que	SCONJ	_	_	65	comp:obj	_	SpaceAfter=No
@@ -16655,7 +16655,7 @@
 46	paix	paix	NOUN	_	Gender=Fem|Number=Sing	44	comp:obj	_	SpaceAfter=No
 47	,	,	PUNCT	_	_	48	punct	_	_
 48	gaulliste	gaulliste	NOUN	_	Number=Sing	43	conj:appos	_	_
-49	de	de	ADP	_	_	48	mod	_	ExtPos=ADJ|Idiom=Yes
+49	de	de	ADP	_	ExtPos=ADJ	48	mod	_	Idiom=Yes
 50	toujours	toujours	ADV	_	_	49	unk	_	InIdiom=Yes
 51	et	et	CCONJ	_	_	52	cc	_	_
 52	proche	proche	ADJ	_	Number=Sing	48	conj	_	_
@@ -16989,7 +16989,7 @@
 6	Francis	Francis	PROPN	_	Number=Sing	5	comp:obj	_	_
 7	Poullain	Poullain	PROPN	_	_	6	flat@name	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	5	mod	_	ExtPos=ADV
+9	grâce	grâce	NOUN	_	ExtPos=ADV|Gender=Fem|Number=Sing	5	mod	_	_
 10-11	au	_	_	_	_	_	_	_	_
 10	à	à	ADP	_	_	9	comp:obl	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -17138,7 +17138,7 @@
 5	par	par	ADP	_	_	4	comp:obl@agent	_	_
 6	Francis	Francis	PROPN	_	Number=Sing	5	comp:obj	_	_
 7	Poullain	Poullain	PROPN	_	_	6	flat@name	_	_
-8	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	4	mod	_	ExtPos=ADV
+8	grâce	grâce	NOUN	_	ExtPos=ADV|Gender=Fem|Number=Sing	4	mod	_	_
 9-10	aux	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	8	comp:obl	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
@@ -17181,7 +17181,7 @@
 
 # sent_id = frwiki_50.1000_00619
 # text = En ce qui concerne Robert Pandraud, qui avait déjà rencontré à plusieurs reprises Francis Poullain, les fonds lui auraient été transmis par Rémy Halbwax, ancien policier révoqué.
-1	En	en	ADP	_	_	23	mod	_	ExtPos=ADP|Idiom=Yes
+1	En	en	ADP	_	ExtPos=ADP	23	mod	_	Idiom=Yes
 2	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	unk	_	InIdiom=Yes
 3	qui	qui	PRON	_	PronType=Rel	2	unk	_	InIdiom=Yes
 4	concerne	concerner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	unk	_	InIdiom=Yes
@@ -17215,7 +17215,7 @@
 
 # sent_id = frwiki_50.1000_00620
 # text = Pour ce qui est de Michel Giraud, celui-ci aurait employé plusieurs secrétaires dans un mouvement appelé Forum du citoyen.
-1	Pour	pour	ADP	_	_	10	mod	_	ExtPos=ADP|Idiom=Yes
+1	Pour	pour	ADP	_	ExtPos=ADP	10	mod	_	Idiom=Yes
 2	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	unk	_	InIdiom=Yes
 3	qui	qui	PRON	_	PronType=Rel	2	unk	_	InIdiom=Yes
 4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	unk	_	InIdiom=Yes
@@ -17590,7 +17590,7 @@
 13	d'	de	ADP	_	_	12	comp:obj	_	SpaceAfter=No
 14	avoir	avoir	AUX	_	VerbForm=Inf	13	comp:obj	_	Subject=OblRaising
 15	perçu	percevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	_
-16	près	près	ADV	_	_	15	comp:obj	_	ExtPos=PRON
+16	près	près	ADV	_	ExtPos=PRON	15	comp:obj	_	_
 17	de	de	ADP	_	_	16	comp:obl	_	_
 18	40	40	NUM	_	NumType=Card	19	det	_	_
 19	millions	million	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	17	comp:obj	_	_
@@ -18110,7 +18110,7 @@
 10	en	en	ADP	_	_	9	comp:obl	_	_
 11	examen	examen	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	17	punct	_	_
-13	ainsi	ainsi	ADV	_	_	17	cc	_	ExtPos=CCONJ|Idiom=Yes
+13	ainsi	ainsi	ADV	_	ExtPos=CCONJ	17	cc	_	Idiom=Yes
 14	que	que	SCONJ	_	_	13	unk	_	InIdiom=Yes
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 16	principaux	principal	ADJ	_	Gender=Masc|Number=Plur	17	mod	_	_
@@ -18325,7 +18325,7 @@
 
 # sent_id = frwiki_50.1000_00663
 # text = Quant à Françoise Montfort, elle admet très vite avoir dû payer, pendant des années, une taxe de 3 à 5% pour l'obtention de marchés publics à l'office HLM des Hauts-de-Seine.
-1	Quant	quant	ADV	_	_	7	mod	_	ExtPos=ADV
+1	Quant	quant	ADV	_	ExtPos=ADV	7	mod	_	_
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	Françoise	Françoise	PROPN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
 4	Montfort	Montfort	PROPN	_	Gender=Masc|Number=Sing	3	flat@name	_	SpaceAfter=No
@@ -19566,7 +19566,7 @@
 1	Pendant	pendant	ADP	_	_	15	mod	_	_
 2	deux	deux	NUM	_	NumType=Card	3	det	_	_
 3	mois	mois	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	_
-4	et	et	CCONJ	_	_	3	mod	_	ExtPos=ADJ|Idiom=Yes
+4	et	et	CCONJ	_	ExtPos=ADJ	3	mod	_	Idiom=Yes
 5	demi	demi	NOUN	_	Gender=Masc|Number=Sing	4	unk	_	InIdiom=Yes
 6	de	de	ADP	_	_	3	udep	_	_
 7	débats	débat	NOUN	_	Gender=Masc|Number=Plur	6	comp:obj	_	SpaceAfter=No
@@ -19834,7 +19834,7 @@
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	CG2A	CG2A	PROPN	_	Gender=Fem|Number=Sing	3	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	lors	lors	ADV	_	_	15	mod	_	ExtPos=ADV
+7	lors	lors	ADV	_	ExtPos=ADV	15	mod	_	_
 8	de	de	ADP	_	_	7	comp:obl	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	attribution	attribution	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
@@ -19863,7 +19863,7 @@
 30	février	février	NOUN	_	Gender=Masc|Number=Sing	29	comp:obj	_	_
 31	1992	1992	NUM	_	NumType=Card	30	mod	_	_
 32	"	"	PUNCT	_	_	33	punct	_	SpaceAfter=No
-33	parce	parce	SCONJ	_	_	15	mod	_	ExtPos=SCONJ|Idiom=Yes
+33	parce	parce	SCONJ	_	ExtPos=SCONJ	15	mod	_	Idiom=Yes
 34	que	que	SCONJ	_	_	33	unk	_	InIdiom=Yes
 35	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	commission	commission	NOUN	_	Gender=Fem|Number=Sing	42	subj	_	_
@@ -20528,9 +20528,9 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	total	total	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
-7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	mod	_	ExtPos=ADV|Idiom=Yes
+7	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	9	mod	_	Idiom=Yes
 8	peu	peu	ADV	_	_	7	unk	_	InIdiom=Yes
-9	plus	plus	ADV	_	_	15	subj@pass	_	ExtPos=PRON
+9	plus	plus	ADV	_	ExtPos=PRON	15	subj@pass	_	_
 10	de	de	ADP	_	_	9	comp:obl	_	_
 11	150	150	NUM	_	NumType=Card	12	det	_	_
 12	millions	million	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	10	comp:obj	_	_
@@ -21045,7 +21045,7 @@
 7	juge	juge	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 8	Armand	Armand	PROPN	_	Gender=Masc|Number=Sing	7	mod	_	_
 9	Riberolles	Riberolles	PROPN	_	_	8	flat@name	_	_
-10	à	à	ADP	_	_	3	mod	_	ExtPos=ADV|Idiom=Yes
+10	à	à	ADP	_	ExtPos=ADV	3	mod	_	Idiom=Yes
 11	partir	partir	VERB	_	VerbForm=Inf	10	unk	_	InIdiom=Yes|Subject=Generic
 12	de	de	ADP	_	_	11	comp:obl	_	_
 13	1997	1997	NUM	_	NumType=Card	12	comp:obj	_	SpaceAfter=No
@@ -21083,7 +21083,7 @@
 27	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 28	incarcéré	incarcérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	27	comp:aux@pass	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	_
-30	tandis	tandis	ADV	_	_	27	mod	_	ExtPos=SCONJ|Idiom=Yes
+30	tandis	tandis	ADV	_	ExtPos=SCONJ	27	mod	_	Idiom=Yes
 31	que	que	SCONJ	_	_	30	unk	_	InIdiom=Yes
 32	Louise-Yvonne	Louise-Yvonne	PROPN	_	_	41	subj@pass	_	_
 33	Casetta	Casetta	PROPN	_	_	32	flat@name	_	SpaceAfter=No
@@ -21649,7 +21649,7 @@
 6	procès	procès	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 7	en	en	ADP	_	_	6	udep	_	_
 8	appel	appel	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
-9	à	à	ADP	_	_	3	mod	_	ExtPos=ADV|Idiom=Yes
+9	à	à	ADP	_	ExtPos=ADV	3	mod	_	Idiom=Yes
 10	partir	partir	VERB	_	VerbForm=Inf	9	unk	_	InIdiom=Yes|Subject=Generic
 11-12	du	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	10	comp:obl	_	_
@@ -21996,7 +21996,7 @@
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	scandale	scandale	NOUN	_	Gender=Masc|Number=Sing	8	subj	_	_
 8	éclate	éclater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	suite	suite	NOUN	_	Gender=Fem|Number=Sing	8	mod	_	ExtPos=ADV
+9	suite	suite	NOUN	_	ExtPos=ADV|Gender=Fem|Number=Sing	8	mod	_	_
 10	à	à	ADP	_	_	9	comp:obl	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	publication	publication	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
@@ -22081,7 +22081,7 @@
 
 # sent_id = frwiki_50.1000_00799
 # text = Lors de ces échanges, Moggi donnait ses instructions pour la désignation des arbitres dans le matches de son équipe.
-1	Lors	lors	ADV	_	_	7	mod	_	ExtPos=ADV
+1	Lors	lors	ADV	_	ExtPos=ADV	7	mod	_	_
 2	de	de	ADP	_	_	1	comp:obl	_	_
 3	ces	ce	DET	_	Number=Plur|PronType=Dem	4	det	_	_
 4	échanges	échange	NOUN	_	Gender=Masc|Number=Plur	2	comp:obj	_	SpaceAfter=No
@@ -22185,7 +22185,7 @@
 
 # sent_id = frwiki_50.1000_00803
 # text = suite aux publications des conversations téléphoniques, la commission disciplinaire du football italien a été saisie du dossier.
-1	suite	suite	NOUN	_	Gender=Fem|Number=Sing	17	mod	_	ExtPos=ADV
+1	suite	suite	NOUN	_	ExtPos=ADV|Gender=Fem|Number=Sing	17	mod	_	_
 2-3	aux	_	_	_	_	_	_	_	_
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
@@ -22281,7 +22281,7 @@
 26	publique	public	ADJ	_	Gender=Fem|Number=Sing	25	mod	_	_
 27	en	en	ADP	_	_	17	mod	_	_
 28	agissant	agir	VERB	_	Tense=Pres|VerbForm=Part	27	comp:obj	_	_
-29	lors	lors	ADV	_	_	28	mod	_	ExtPos=ADV
+29	lors	lors	ADV	_	ExtPos=ADV	28	mod	_	_
 30	de	de	ADP	_	_	29	comp:obl	_	_
 31	phases	phase	NOUN	_	Gender=Fem|Number=Plur	30	comp:obj	_	_
 32	de	de	ADP	_	_	31	udep	_	_
@@ -22401,7 +22401,7 @@
 9	dans	dans	ADP	_	_	8	mod	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Calcio	Calcio	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
-12	lors	lors	ADV	_	_	8	mod	_	ExtPos=ADV
+12	lors	lors	ADV	_	ExtPos=ADV	8	mod	_	_
 13-14	des	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	12	comp:obl	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
@@ -22521,7 +22521,7 @@
 # text = Ils mettent en avant le manque de témoignages les concernant.
 1	Ils	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
 2	mettent	mettre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	en	en	ADP	_	_	2	comp:obl	_	ExtPos=ADV|Idiom=Yes
+3	en	en	ADP	_	ExtPos=ADV	2	comp:obl	_	Idiom=Yes
 4	avant	avant	ADV	_	_	3	unk	_	InIdiom=Yes
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	manque	manque	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
@@ -22909,7 +22909,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	dix	dix	NUM	_	NumType=Card	4	det	_	_
 4	heures	heure	NOUN	_	Gender=Fem|Number=Plur	2	comp:pred	_	_
-5	et	et	CCONJ	_	_	4	mod	_	ExtPos=ADJ|Idiom=Yes
+5	et	et	CCONJ	_	ExtPos=ADJ	4	mod	_	Idiom=Yes
 6	demie	demie	NOUN	_	Gender=Fem|Number=Sing	5	unk	_	InIdiom=Yes|SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
@@ -23381,7 +23381,7 @@
 54	de	de	ADP	_	_	53	udep	_	_
 55	rançon	rançon	NOUN	_	Gender=Fem|Number=Sing	54	comp:obj	_	SpaceAfter=No
 56	,	,	PUNCT	_	_	59	punct	_	_
-57	ainsi	ainsi	ADV	_	_	59	cc	_	ExtPos=CCONJ|Idiom=Yes
+57	ainsi	ainsi	ADV	_	ExtPos=CCONJ	59	cc	_	Idiom=Yes
 58	que	que	SCONJ	_	_	57	unk	_	InIdiom=Yes
 59	d'	de	ADP	_	_	51	conj	_	SpaceAfter=No
 60	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
@@ -23408,7 +23408,7 @@
 3	de	de	ADP	_	_	2	udep	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	époque	époque	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
-6	ainsi	ainsi	ADV	_	_	9	cc	_	ExtPos=CCONJ|Idiom=Yes
+6	ainsi	ainsi	ADV	_	ExtPos=CCONJ	9	cc	_	Idiom=Yes
 7	que	que	SCONJ	_	_	6	unk	_	InIdiom=Yes
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	otages	otage	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
@@ -23624,7 +23624,7 @@
 1	Iskandar	Iskandar	PROPN	_	_	9	subj	_	_
 2	Safa	Safa	PROPN	_	_	1	flat@name	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	7	punct	_	_
-4	ainsi	ainsi	ADV	_	_	7	cc	_	ExtPos=CCONJ|Idiom=Yes
+4	ainsi	ainsi	ADV	_	ExtPos=CCONJ	7	cc	_	Idiom=Yes
 5	que	que	SCONJ	_	_	4	unk	_	InIdiom=Yes
 6	son	son	DET	_	Number=Sing|Poss=Yes	7	det	_	_
 7	frère	frère	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
@@ -23904,7 +23904,7 @@
 7	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
 8	avoirs	avoir	NOUN	_	Gender=Masc|Number=Plur	6	comp:obj	_	_
 9	éparpillés	éparpiller	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	mod	_	_
-10	à	à	ADP	_	_	9	mod	_	ExtPos=ADP|Idiom=Yes
+10	à	à	ADP	_	ExtPos=ADP	9	mod	_	Idiom=Yes
 11	travers	travers	NOUN	_	Gender=Masc	10	unk	_	InIdiom=Yes
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	monde	monde	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
@@ -24807,7 +24807,7 @@
 4	Hajj	Hajj	PROPN	_	_	3	flat@name	_	_
 5	travaillait	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	depuis	depuis	ADP	_	_	5	mod	_	_
-7	plus	plus	ADV	_	_	6	comp:obj	_	ExtPos=PRON
+7	plus	plus	ADV	_	ExtPos=PRON	6	comp:obj	_	_
 8	de	de	ADP	_	_	7	comp:obl	_	_
 9	dix	dix	NUM	_	NumType=Card	10	det	_	_
 10	ans	an	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	_
@@ -24892,7 +24892,7 @@
 
 # sent_id = frwiki_50.1000_00906
 # text = D'après les commentaires les accompagnant dans leur publication par Reuters, il y a notamment deux clichés du même immeuble, datés respectivement du 24 juillet et du 5 août 2006, qui sont censés représenter chacun un "immeuble de Beyrouth détruit la nuit précédente par un raid israélien" [3].
-1	D'	de	ADP	_	_	15	mod	_	ExtPos=ADP|Idiom=Yes|SpaceAfter=No
+1	D'	de	ADP	_	ExtPos=ADP	15	mod	_	Idiom=Yes|SpaceAfter=No
 2	après	après	ADP	_	_	1	unk	_	InIdiom=Yes
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	commentaires	commentaire	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	_
@@ -25221,7 +25221,7 @@
 3	août	août	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
-6	neuf	neuf	NUM	_	Gender=Masc|NumType=Card	9	mod	_	ExtPos=ADJ|Idiom=Yes
+6	neuf	neuf	NUM	_	ExtPos=ADJ|Gender=Masc|NumType=Card	9	mod	_	Idiom=Yes
 7	cent	cent	NUM	_	NumType=Card	6	unk	_	InIdiom=Yes
 8	vingt	vingt	NUM	_	NumType=Card	7	unk	_	InIdiom=Yes
 9	photos	photo	NOUN	_	Gender=Fem|Number=Plur	12	subj@pass	_	_
@@ -25920,7 +25920,7 @@
 14	en	en	ADP	_	_	9	mod	_	_
 15	1945	1945	NUM	_	NumType=Card	14	comp:obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
-17	alors	alors	ADV	_	_	9	mod	_	ExtPos=SCONJ|Idiom=Yes
+17	alors	alors	ADV	_	ExtPos=SCONJ	9	mod	_	Idiom=Yes
 18	que	que	SCONJ	_	_	17	unk	_	InIdiom=Yes
 19	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes	20	det	_	_
 20	valeur	valeur	NOUN	_	Gender=Fem|Number=Sing	25	subj	_	_
@@ -26055,7 +26055,7 @@
 42	mit	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 43	en	en	ADP	_	_	42	comp:obl	_	_
 44	place	place	NOUN	_	Gender=Fem|Number=Sing	43	comp:obj	_	_
-45	à	à	ADP	_	_	42	mod	_	ExtPos=ADV|Idiom=Yes
+45	à	à	ADP	_	ExtPos=ADV	42	mod	_	Idiom=Yes
 46	partir	partir	VERB	_	VerbForm=Inf	45	unk	_	InIdiom=Yes|Subject=Generic
 47	de	de	ADP	_	_	46	comp:obl	_	_
 48	1948	1948	NUM	_	NumType=Card	47	comp:obj	_	SpaceAfter=No
@@ -26121,7 +26121,7 @@
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	Colonies	colonie	NOUN	_	Gender=Fem|Number=Plur	6	comp:obj	_	_
 9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
-10	à	à	ADP	_	_	5	mod	_	ExtPos=ADV|Idiom=Yes
+10	à	à	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes
 11	partir	partir	VERB	_	VerbForm=Inf	10	unk	_	InIdiom=Yes|Subject=Generic
 12	de	de	ADP	_	_	11	comp:obl	_	_
 13	1950	1950	NUM	_	NumType=Card	12	comp:obj	_	SpaceAfter=No
@@ -26195,7 +26195,7 @@
 47	soldats	soldat	NOUN	_	Gender=Masc|Number=Plur	45	comp:obj	_	_
 48	français	français	ADJ	_	Gender=Masc	47	mod	_	_
 49	(	(	PUNCT	_	_	50	punct	_	SpaceAfter=No
-50	y	y	PRON	_	Person=3|PronType=Prs	47	udep	_	ExtPos=ADP|Idiom=Yes
+50	y	y	PRON	_	ExtPos=ADP|Person=3|PronType=Prs	47	udep	_	Idiom=Yes
 51	compris	compris	ADJ	_	Gender=Masc	50	unk	_	InIdiom=Yes
 52	tiralleurs	tirailleur	NOUN	_	Gender=Masc|Number=Plur	50	comp:obj	_	_
 53	sénégalais	sénégalais	ADJ	_	Gender=Masc|Number=Plur	52	mod	_	_
@@ -26206,7 +26206,7 @@
 58	donc	donc	ADV	_	_	57	mod	_	_
 59	été	être	AUX	_	Tense=Past|VerbForm=Part	57	comp:aux@tense	_	_
 60	acquises	acquérir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	59	comp:aux@pass	_	_
-61	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	57	mod	_	ExtPos=ADV
+61	grâce	grâce	NOUN	_	ExtPos=ADV|Gender=Fem|Number=Sing	57	mod	_	_
 62	à	à	ADP	_	_	61	comp:obl	_	_
 63	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	64	det	_	_
 64	trafic	trafic	NOUN	_	Gender=Masc|Number=Sing	62	comp:obj	_	_
@@ -26378,7 +26378,7 @@
 11	à	à	ADP	_	_	10	comp:obj	_	_
 12	sauver	sauver	VERB	_	VerbForm=Inf	11	comp:obj	_	Subject=SubjRaising
 13-14	au	_	_	_	_	_	_	_	_
-13	à	à	ADP	_	_	12	mod	_	ExtPos=ADV|Idiom=Yes
+13	à	à	ADP	_	ExtPos=ADV	12	mod	_	Idiom=Yes
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	unk	_	InIdiom=Yes
 15	moins	moins	ADV	_	_	14	unk	_	InIdiom=Yes
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
