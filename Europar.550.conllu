@@ -1695,7 +1695,7 @@
 12	et	et	CCONJ	_	_	13	cc	_	_
 13	forme	forme	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
 14	finale	final	ADJ	_	Gender=Fem|Number=Sing	13	mod	_	_
-15	vont	aller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	vont	aller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	CorrectForm=va|CorrectNumber=Sing
 16	cependant	cependant	ADV	_	_	15	mod	_	_
 17	dépendre	dépendre	VERB	_	VerbForm=Inf	15	comp:obl	_	Subject=SubjRaising
 18	de	de	ADP	_	_	17	comp:obl	_	_
@@ -1732,10 +1732,10 @@
 18-19	du	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	17	udep	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	Digital	Digital	X	_	Foreign=Yes	18	comp:obj	_	_
-21	Millenium	Millenium	X	_	Foreign=Yes	20	flat@foreign	_	_
-22	Corporate	Corporate	X	_	Foreign=Yes	21	flat@foreign	_	_
-23	Act	Act	X	_	Foreign=Yes	22	flat@foreign	_	_
+20	Digital	Digital	X	_	Foreign=Yes	18	comp:obj	_	Lang=en
+21	Millenium	Millenium	X	_	Foreign=Yes	20	flat@foreign	_	Lang=en
+22	Corporate	Corporate	X	_	Foreign=Yes	21	flat@foreign	_	Lang=en
+23	Act	Act	X	_	Foreign=Yes	22	flat@foreign	_	Lang=en
 24	et	et	CCONJ	_	_	28	cc	_	_
 25	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
 26	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	28	subj	_	_
@@ -3640,7 +3640,7 @@
 17	de	de	ADP	_	_	16	udep	_	_
 18	police	police	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
 19	qu'	que	PRON	_	PronType=Rel	22	comp:obj	_	SpaceAfter=No
-20	elles	eux	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	21	subj	_	_
+20	elles	eux	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs|Typo=Yes	21	subj	_	CorrectForm=elle|CorrectNumber=Sing
 21	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	mod@relcl	_	_
 22	promises	promettre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	21	comp:aux@tense	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	2	punct	_	_
@@ -5524,7 +5524,7 @@
 17	tous	tout	ADJ	_	Gender=Masc|Number=Plur	19	mod	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 19	pays	pays	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	_
-20	tiers	tiers	ADJ	_	Gender=Masc|Number=Sing	19	mod	_	_
+20	tiers	tiers	ADJ	_	Gender=Masc|Number=Plur	19	mod	_	_
 21	avec	avec	ADP	_	_	24	comp:obl	_	_
 22	lesquels	lequel	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	21	comp:obj	_	_
 23	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	24	subj	_	_
@@ -7890,8 +7890,8 @@
 7-8	auxquels	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	9	mod	_	_
 8	lesquels	lequel	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	7	comp:obj	_	_
-9	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
-10	effectués	effectuer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	comp:aux@pass	_	_
+9	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	6	mod@relcl	_	CorrectForm=est|CorrectNumber=Sing
+10	effectués	effectuer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass	9	comp:aux@pass	_	CorrectForm=effectuée|CorrectGender=Fem|CorrectNumber=Sing
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
 12	évaluation	évaluation	NOUN	_	Gender=Fem|Number=Sing	9	subj@pass	_	_
 13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -9736,7 +9736,7 @@
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 17	ou	ou	CCONJ	_	_	18	cc	_	_
 18	plusieurs	plusieurs	DET	_	Number=Plur	16	conj	_	_
-19	pays	pays	NOUN	_	Gender=Masc|Number=Sing	31	subj	_	SpaceAfter=No
+19	pays	pays	NOUN	_	Gender=Masc|Number=Plur	31	subj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	quels	quel	ADJ	_	Gender=Masc|Number=Plur	19	mod	_	_
 22	qu'	que	PRON	_	PronType=Rel	24	comp:pred	_	SpaceAfter=No
@@ -12011,8 +12011,8 @@
 38	ONG	ONG	NOUN	_	Gender=Fem|Number=Plur	36	comp:obj	_	_
 39	locales	local	ADJ	_	Gender=Fem|Number=Plur	38	mod	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	41	punct	_	_
-41	a	a	X	_	ExtPos=ADV|Foreign=Yes	12	mod	_	Idiom=Yes
-42	fortiori	fortiori	X	_	Foreign=Yes	41	unk	_	InIdiom=Yes
+41	a	a	X	_	ExtPos=ADV	12	mod	_	Idiom=Yes
+42	fortiori	fortiori	X	_	_	41	unk	_	InIdiom=Yes
 43	lorsque	lorsque	SCONJ	_	_	12	mod	_	_
 44	l'on	on	PRON	_	Number=Sing|Person=3|PronType=Ind	45	subj	_	wordform=on
 45	voit	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	comp:obj	_	_
@@ -13876,9 +13876,9 @@
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 16	réseaux	réseau	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	_
 17	transeuropéens	transeuropéen	ADJ	_	Gender=Masc|Number=Plur	16	mod	_	_
-18	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
+18	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	3	comp:obj	_	CorrectForm=soient|CorrectNumber=Plur
 19	strictement	strictement	ADV	_	_	18	mod	_	_
-20	respectée	respecter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	comp:aux@pass	_	SpaceAfter=No
+20	respectée	respecter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass	18	comp:aux@pass	_	CorrectForm=respectéeS|CorrectNumber=Plur|SpaceAfter=No
 21	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Europar.550_00428
@@ -14190,8 +14190,8 @@
 1	Non	non	ADV	_	Polarity=Neg	9	mod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	Madame	monsieur	NOUN	_	Gender=Fem|Number=Sing	9	vocative	_	_
-4	van	van	X	_	Foreign=Yes	3	mod	_	_
-5	der	der	X	_	Foreign=Yes	4	flat@name	_	_
+4	van	van	PROPN	_	_	3	flat@name	_	_
+5	der	der	PROPN	_	_	4	flat@name	_	_
 6	Laan	Laan	PROPN	_	_	5	flat@name	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	9	subj	_	_
@@ -17007,7 +17007,7 @@
 38	pas	pas	ADV	_	Polarity=Neg	37	mod	_	_
 39	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	41	det	_	SpaceAfter=No
 40	autre	autre	ADJ	_	Number=Sing	41	mod	_	_
-41	choix	choix	NOUN	_	Gender=Masc|Number=Plur	37	comp:obj	_	SpaceAfter=No
+41	choix	choix	NOUN	_	Gender=Masc|Number=Sing	37	comp:obj	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	18	punct	_	_
 43	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	46	subj	_	_
 44	ne	ne	ADV	_	Polarity=Neg	46	mod	_	_

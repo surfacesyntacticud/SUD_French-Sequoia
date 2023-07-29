@@ -1,9 +1,9 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = emea-fr-dev_00001
 # text = European Medicines Agency
-1	European	European	X	_	Foreign=Yes	0	root	_	_
-2	Medicines	Medicines	X	_	Foreign=Yes	1	flat@foreign	_	_
-3	Agency	Agency	X	_	Foreign=Yes	2	flat@foreign	_	_
+1	European	European	X	_	Foreign=Yes	0	root	_	Lang=en
+2	Medicines	Medicines	X	_	Foreign=Yes	1	flat@foreign	_	Lang=en
+3	Agency	Agency	X	_	Foreign=Yes	2	flat@foreign	_	Lang=en
 
 # sent_id = emea-fr-dev_00002
 # text = EMEA / H/C/562
@@ -1616,11 +1616,11 @@
 25	pour	pour	ADP	_	_	13	udep	_	_
 26	Angiox	Angiox	PROPN	_	_	25	comp:obj	_	_
 27	à	à	ADP	_	_	11	comp:obl	_	_
-28	The	The	X	_	Foreign=Yes	27	comp:obj	_	_
-29	Medicines	Medicines	X	_	Foreign=Yes	28	flat@foreign	_	_
-30	Company	Company	X	_	Foreign=Yes	29	flat@foreign	_	_
-31	UK	UK	X	_	Foreign=Yes	30	flat@foreign	_	_
-32	Ltd	Ltd	X	_	Foreign=Yes	31	flat@foreign	_	SpaceAfter=No
+28	The	The	X	_	Foreign=Yes	27	comp:obj	_	Lang=en
+29	Medicines	Medicines	X	_	Foreign=Yes	28	flat@foreign	_	Lang=en
+30	Company	Company	X	_	Foreign=Yes	29	flat@foreign	_	Lang=en
+31	UK	UK	X	_	Foreign=Yes	30	flat@foreign	_	Lang=en
+32	Ltd	Ltd	X	_	Foreign=Yes	31	flat@foreign	_	Lang=en|SpaceAfter=No
 33	,	,	PUNCT	_	_	35	punct	_	_
 34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	20	20	NUM	_	NumType=Card	10	mod	_	_
@@ -2850,7 +2850,7 @@
 6	insuffisance	insuffisance	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 7	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	6	mod	_	_
 8	modérée	modéré	ADJ	_	Gender=Fem|Number=Sing	6	mod	_	_
-9	inclus	inclure	VERB	_	Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	mod	_	_
+9	inclus	inclure	VERB	_	Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	mod	_	_
 10	dans	dans	ADP	_	_	9	comp:obl	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
 12	étude	étude	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
@@ -2902,7 +2902,7 @@
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	chez	chez	ADP	_	_	17	mod	_	_
 10	ces	ce	DET	_	Number=Plur|PronType=Dem	12	det	_	_
-11	même	même	ADJ	_	Number=Sing	12	mod	_	_
+11	même	même	ADJ	_	Number=Sing|Typo=Yes	12	mod	_	CorrectForm=mêmes|CorrectNumber=Plur
 12	patients	patient	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	9	punct	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
@@ -3476,7 +3476,7 @@
 6	avec	avec	ADP	_	_	2	udep	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	inhibiteurs	inhibiteur	NOUN	_	Gender=Masc|Number=Plur	6	comp:obj	_	_
-9	plaquettaires	plaquettaire	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	_
+9	plaquettaires	plaquettaire	ADJ	_	Gender=Masc|Number=Plur	8	mod	_	_
 10	ou	ou	CCONJ	_	_	12	cc	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	anticoagulants	anticoagulant	NOUN	_	Gender=Masc|Number=Plur	8	conj	_	_
@@ -5772,7 +5772,7 @@
 1	Effets	effet	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	indésirables	indésirable	ADJ	_	Number=Plur	1	mod	_	_
 3	post-commercialisation	post-commercialisation	NOUN	_	Gender=Fem|Number=Sing	1	mod	_	_
-4	rapportées	rapporter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	1	mod	_	_
+4	rapportées	rapporter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass	1	mod	_	CorrectForm=rapportés|CorrectGender=Masc
 5	avec	avec	ADP	_	_	4	mod	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	bivalirudine	bivalirudine	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
@@ -6156,10 +6156,10 @@
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	réversible	réversible	ADJ	_	Number=Sing	16	comp:pred	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	dans	dans	ADP	_	ExtPos=SCONJ	16	mod	_	Idiom=Yes
-20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	InIdiom=Yes
-21	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	InIdiom=Yes
-22	où	où	PRON	_	PronType=Rel	25	mod	_	InIdiom=Yes
+19	dans	dans	ADP	_	ExtPos=SCONJ	16	mod	_	_
+20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	_
+22	où	où	PRON	_	PronType=Rel	25	mod	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	thrombine	thrombine	NOUN	_	Gender=Fem|Number=Sing	25	subj	_	_
 25	clive	cliver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	mod@relcl	_	_
@@ -6255,8 +6255,8 @@
 # text = Des études in vitro ont montré que la bivalirudine inhibe à la fois la thrombine soluble (libre) et la thrombine liée aux caillots.
 1	Des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	det	_	_
 2	études	étude	NOUN	_	Gender=Fem|Number=Plur	5	subj	_	_
-3	in	in	X	_	ExtPos=ADJ|Foreign=Yes	2	mod	_	Idiom=Yes
-4	vitro	vitro	X	_	Foreign=Yes	3	unk	_	InIdiom=Yes
+3	in	in	X	_	ExtPos=ADJ	2	mod	_	Idiom=Yes
+4	vitro	vitro	X	_	_	3	unk	_	InIdiom=Yes
 5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 7	que	que	SCONJ	_	_	6	comp:obj	_	_
@@ -6309,8 +6309,8 @@
 # text = Des études in vitro ont également montré que la bivalirudine allonge de manière concentration-dépendante le temps de thromboplastine partielle activée (aPTT), le temps de thrombine (TT) et le taux de prothrombine (TP) d'un plasma humain normal, et qu'elle n'induit pas d'agrégation plaquettaire en réponse à des sérums de patients avec antécédents de syndrome de thrombocytopénie induite par l'héparine avec thrombose (TIH/STIHT).
 1	Des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	det	_	_
 2	études	étude	NOUN	_	Gender=Fem|Number=Plur	5	subj	_	_
-3	in	in	X	_	ExtPos=ADJ|Foreign=Yes	2	mod	_	Idiom=Yes
-4	vitro	vitro	X	_	Foreign=Yes	3	unk	_	InIdiom=Yes
+3	in	in	X	_	ExtPos=ADJ	2	mod	_	Idiom=Yes
+4	vitro	vitro	X	_	_	3	unk	_	InIdiom=Yes
 5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	également	également	ADV	_	_	5	mod	_	_
 7	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
@@ -6362,7 +6362,7 @@
 53	pas	pas	ADV	_	Polarity=Neg	52	mod	_	_
 54	d'	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	55	det	_	SpaceAfter=No
 55	agrégation	agrégation	NOUN	_	Gender=Fem|Number=Sing	52	comp:obj	_	_
-56	plaquettaire	plaquettaire	ADJ	_	Gender=Fem|Number=Plur	55	mod	_	_
+56	plaquettaire	plaquettaire	ADJ	_	Gender=Fem|Number=Sing	55	mod	_	_
 57	en	en	ADP	_	_	52	mod	_	_
 58	réponse	réponse	NOUN	_	Gender=Fem|Number=Sing	57	comp:obj	_	_
 59	à	à	ADP	_	_	58	udep	_	_
@@ -8173,7 +8173,7 @@
 
 # sent_id = emea-fr-dev_00364
 # text = DONNEES PHARMACEUTIQUES
-1	DONNEES	donnée	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+1	DONNEES	donnée	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	PHARMACEUTIQUES	pharmaceutique	ADJ	_	Number=Plur	1	mod	_	_
 
 # sent_id = emea-fr-dev_00365
@@ -8778,19 +8778,19 @@
 
 # sent_id = emea-fr-dev_00397
 # text = The Medicines Company UK Ltd 115L Milton Park Abingdon Oxfordshire OX14 4SA ROYAUME-UNI
-1	The	The	X	_	Foreign=Yes	0	root	_	_
-2	Medicines	Medicines	X	_	Foreign=Yes	1	flat@foreign	_	_
-3	Company	Company	X	_	Foreign=Yes	2	flat@foreign	_	_
-4	UK	UK	X	_	Foreign=Yes	3	flat@foreign	_	_
-5	Ltd	Ltd	X	_	Foreign=Yes	4	flat@foreign	_	_
-6	115L	115L	X	_	Foreign=Yes	5	flat@foreign	_	_
-7	Milton	Milton	X	_	Foreign=Yes	6	flat@foreign	_	_
-8	Park	Park	X	_	Foreign=Yes	7	flat@foreign	_	_
-9	Abingdon	Abingdon	X	_	Foreign=Yes	8	flat@foreign	_	_
-10	Oxfordshire	Oxfordshire	X	_	Foreign=Yes	9	flat@foreign	_	_
-11	OX14	OX14	X	_	Foreign=Yes	10	flat@foreign	_	_
-12	4SA	4SA	X	_	Foreign=Yes	11	flat@foreign	_	_
-13	ROYAUME-UNI	Royaume-Uni	X	_	Foreign=Yes	12	flat@foreign	_	_
+1	The	The	X	_	Foreign=Yes	0	root	_	Lang=en
+2	Medicines	Medicines	X	_	Foreign=Yes	1	flat@foreign	_	Lang=en
+3	Company	Company	X	_	Foreign=Yes	2	flat@foreign	_	Lang=en
+4	UK	UK	X	_	Foreign=Yes	3	flat@foreign	_	Lang=en
+5	Ltd	Ltd	X	_	Foreign=Yes	4	flat@foreign	_	Lang=en
+6	115L	115L	X	_	Foreign=Yes	5	flat@foreign	_	Lang=en
+7	Milton	Milton	X	_	Foreign=Yes	6	flat@foreign	_	Lang=en
+8	Park	Park	X	_	Foreign=Yes	7	flat@foreign	_	Lang=en
+9	Abingdon	Abingdon	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en
+10	Oxfordshire	Oxfordshire	X	_	Foreign=Yes	9	flat@foreign	_	Lang=en
+11	OX14	OX14	X	_	Foreign=Yes	10	flat@foreign	_	Lang=en
+12	4SA	4SA	X	_	Foreign=Yes	11	flat@foreign	_	Lang=en
+13	ROYAUME-UNI	Royaume-Uni	X	_	Foreign=Yes	12	flat@foreign	_	Lang=en
 
 # sent_id = emea-fr-dev_00398
 # text = NUMERO(S) D'AUTORISATION DE MISE SUR LE MARCHE
@@ -11564,19 +11564,19 @@
 
 # sent_id = emea-fr-dev_00571
 # text = The Medicines Company UK Limited 115L Milton Park Abingdon Oxfordshire OX14 4SA ROYAUME-UNI
-1	The	The	X	_	Foreign=Yes	0	root	_	_
-2	Medicines	Medicines	X	_	Foreign=Yes	1	flat@foreign	_	_
-3	Company	Company	X	_	Foreign=Yes	2	flat@foreign	_	_
-4	UK	UK	X	_	Foreign=Yes	3	flat@foreign	_	_
-5	Limited	Limited	X	_	Foreign=Yes	4	flat@foreign	_	_
-6	115L	115L	X	_	Foreign=Yes	5	flat@foreign	_	_
-7	Milton	Milton	X	_	Foreign=Yes	6	flat@foreign	_	_
-8	Park	Park	X	_	Foreign=Yes	7	flat@foreign	_	_
-9	Abingdon	Abingdon	X	_	Foreign=Yes	8	flat@foreign	_	_
-10	Oxfordshire	Oxfordshire	X	_	Foreign=Yes	9	flat@foreign	_	_
-11	OX14	OX14	X	_	Foreign=Yes	10	flat@foreign	_	_
-12	4SA	4SA	X	_	Foreign=Yes	11	flat@foreign	_	_
-13	ROYAUME-UNI	Royaume-Uni	X	_	Foreign=Yes	12	flat@foreign	_	_
+1	The	The	X	_	Foreign=Yes	0	root	_	Lang=en
+2	Medicines	Medicines	X	_	Foreign=Yes	1	flat@foreign	_	Lang=en
+3	Company	Company	X	_	Foreign=Yes	2	flat@foreign	_	Lang=en
+4	UK	UK	X	_	Foreign=Yes	3	flat@foreign	_	Lang=en
+5	Limited	Limited	X	_	Foreign=Yes	4	flat@foreign	_	Lang=en
+6	115L	115L	X	_	Foreign=Yes	5	flat@foreign	_	Lang=en
+7	Milton	Milton	X	_	Foreign=Yes	6	flat@foreign	_	Lang=en
+8	Park	Park	X	_	Foreign=Yes	7	flat@foreign	_	Lang=en
+9	Abingdon	Abingdon	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en
+10	Oxfordshire	Oxfordshire	X	_	Foreign=Yes	9	flat@foreign	_	Lang=en
+11	OX14	OX14	X	_	Foreign=Yes	10	flat@foreign	_	Lang=en
+12	4SA	4SA	X	_	Foreign=Yes	11	flat@foreign	_	Lang=en
+13	ROYAUME-UNI	Royaume-Uni	X	_	Foreign=Yes	12	flat@foreign	_	Lang=en
 
 # sent_id = emea-fr-dev_00572
 # text = Fabricant

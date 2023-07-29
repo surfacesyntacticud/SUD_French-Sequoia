@@ -1407,7 +1407,7 @@
 18	synonymes	synonyme	ADJ	_	Number=Plur	15	mod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	à	à	ADP	_	ExtPos=ADV	18	mod	_	Idiom=Yes
-21	priori	priori	X	_	Foreign=Yes	20	unk	_	InIdiom=Yes|SpaceAfter=No
+21	priori	priori	X	_	_	20	unk	_	InIdiom=Yes|SpaceAfter=No
 22	,	,	PUNCT	_	_	20	punct	_	_
 23	de	de	ADP	_	_	18	comp:obl	_	_
 24	propreté	propreté	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	SpaceAfter=No
@@ -3964,7 +3964,7 @@
 8	doute	doute	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	applaudissements	applaudissement	NOUN	_	Gender=Masc|Number=Plur	5	comp:pred	_	_
-11	nourris	nourrir	VERB	_	Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	mod	_	_
+11	nourris	nourrir	VERB	_	Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	mod	_	_
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	10	udep	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -4107,7 +4107,7 @@
 13	d'	de	ADP	_	_	11	udep	_	SpaceAfter=No
 14	action	action	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 15	touristique	touristique	ADJ	_	Number=Sing	14	mod	_	_
-16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	CorrectForm=ont|CorrectNumber=Plur
 17	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
 18	coïncider	coïncider	VERB	_	VerbForm=Inf	17	comp:aux@caus	_	Subject=ObjRaising
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -6155,7 +6155,7 @@
 4	question	question	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	rapidement	rapidement	ADV	_	_	7	mod	_	_
-7	localisée	localiser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	comp:aux@pass	_	_
+7	localisée	localiser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass	5	comp:aux@pass	_	CorrectForm=localisé|CorrectGender=Masc
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
 10	immobilisée	immobiliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	comp:aux@pass	_	_
@@ -6696,7 +6696,7 @@
 55-56	aux	_	_	_	_	_	_	_	_
 55	à	à	ADP	_	_	54	comp:obl	_	_
 56	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	57	det	_	_
-57	bâtiment	bâtiment	NOUN	_	Gender=Masc|Number=Sing	55	comp:obj	_	_
+57	bâtiment	bâtiment	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	55	comp:obj	_	CorrectForm=bâtiments|CorrectNumber=Plur
 58	paroissiaux	paroissial	ADJ	_	Gender=Masc|Number=Plur	57	mod	_	SpaceAfter=No
 59	,	,	PUNCT	_	_	60	punct	_	_
 60	contribuer	contribuer	VERB	_	VerbForm=Inf	48	conj	_	Subject=Instantiated
@@ -11558,7 +11558,7 @@
 21	descendre	descendre	VERB	_	VerbForm=Inf	20	comp:obj	_	SpaceAfter=No|Subject=Generic
 22	,	,	PUNCT	_	_	1	punct	_	_
 23	certaines	certain	DET	_	Gender=Fem|Number=Plur	24	det	_	_
-24	donnée	donnée	NOUN	_	Gender=Fem|Number=Sing	30	subj	_	_
+24	donnée	donnée	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	30	subj	_	CorrectForm=données|CorrectNumber=Plur
 25	présentées	présenter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	24	mod	_	_
 26	par	par	ADP	_	_	25	comp:obl@agent	_	_
 27	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
@@ -12027,7 +12027,7 @@
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	16	udep	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
-19	personnel	personnel	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
+19	personnel	personnel	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	17	comp:obj	_	CorrectForm=personnels|CorrectNumber=Plur
 20	communaux	communal	ADJ	_	Gender=Masc|Number=Plur	19	mod	_	_
 21	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 22	clos	clore	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	21	comp:aux@tense	_	_
@@ -13374,7 +13374,7 @@
 2-3	des	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	comp:obl	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
-4	Forges	Forges	PROPN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
+4	Forges	Forges	PROPN	_	Gender=Masc|Number=Plur	2	comp:obj	_	_
 5	de	de	ADP	_	_	4	udep	_	_
 6	Méziré	Méziré	PROPN	_	_	5	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
@@ -13636,7 +13636,7 @@
 23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
 24	Jeux	jeu	NOUN	_	Gender=Masc|Number=Plur	21	comp:obj	_	_
 25	olympiques	olympique	ADJ	_	Number=Plur	24	mod	_	_
-26	inter-établissements	inter-établissement	ADJ	_	Gender=Masc|Number=Sing	24	mod	_	SpaceAfter=No
+26	inter-établissements	inter-établissement	ADJ	_	Gender=Masc|Number=Plur	24	mod	_	SpaceAfter=No
 27	"	"	PUNCT	_	_	24	punct	_	_
 28	et	et	CCONJ	_	_	31	cc	_	_
 29	bien	bien	ADV	_	ExtPos=ADV	28	mod	_	Idiom=Yes

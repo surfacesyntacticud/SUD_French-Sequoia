@@ -1802,7 +1802,7 @@
 21	à	à	ADP	_	_	5	comp:obl	_	_
 22	Novartis	Novartis	PROPN	_	_	21	comp:obj	_	_
 23	Europharm	Europharm	PROPN	_	_	22	flat@name	_	_
-24	Limited	Limited	X	_	Foreign=Yes	2	flat@name	_	SpaceAfter=No
+24	Limited	Limited	X	_	Foreign=Yes	21	flat@name	_	Lang=en|SpaceAfter=No
 25	,	,	PUNCT	_	_	27	punct	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	15	15	NUM	_	NumType=Card	4	mod	_	_
@@ -3632,8 +3632,8 @@
 20	cytochrome	cytochrome	NOUN	_	Number=Sing	18	comp:obj	_	_
 21	P450	P450	NOUN	_	_	20	mod	_	_
 22	humain	humain	ADJ	_	Gender=Masc|Number=Sing	20	mod	_	_
-23	in	in	X	_	ExtPos=ADJ|Foreign=Yes	20	mod	_	Idiom=Yes
-24	vitro	vitro	X	_	Foreign=Yes	23	unk	_	InIdiom=Yes
+23	in	in	X	_	ExtPos=ADJ	20	mod	_	Idiom=Yes
+24	vitro	vitro	X	_	_	23	unk	_	InIdiom=Yes
 25	(	(	PUNCT	_	Shared=Yes	26	punct	_	SpaceAfter=No
 26	voir	voir	VERB	_	Shared=Yes|VerbForm=Inf	13	parataxis:insert	_	Subject=Generic
 27	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	26	comp:obj	_	_
@@ -3987,7 +3987,7 @@
 4	ces	ce	DET	_	Number=Plur|PronType=Dem	5	det	_	_
 5	symptômes	symptôme	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	survenu	survenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	comp:aux@pass	_	_
+7	survenu	survenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass	6	comp:aux@pass	_	CorrectForm=survenue|CorrectGender=Fem
 8	dans	dans	ADP	_	_	6	mod	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 10	trois	trois	NUM	_	NumType=Card	12	mod	_	_
@@ -4177,7 +4177,7 @@
 3	de	de	ADP	_	_	2	udep	_	_
 4	fibrillations	fibrillation	NOUN	_	Gender=Fem|Number=Plur	3	comp:obj	_	_
 5	auriculaires	auriculaire	ADJ	_	Number=Plur	4	mod	_	_
-6	classé	classer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	mod	_	_
+6	classé	classer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass	4	mod	_	CorrectForm=classées|CorrectGender=Fem|CorrectNumber=Plur
 7	comme	comme	ADP	_	_	6	comp:pred	_	_
 8	évènements	évènement	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	_
 9	indésirables	indésirable	ADJ	_	Number=Plur	8	mod	_	_
@@ -4561,7 +4561,7 @@
 26	facteurs	facteur	NOUN	_	Gender=Masc|Number=Plur	21	conj	_	_
 27	de	de	ADP	_	_	26	udep	_	_
 28	risque	risque	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj	_	_
-29	supplémentaires	supplémentaire	ADJ	_	Number=Plur	28	mod	_	_
+29	supplémentaires	supplémentaire	ADJ	_	Number=Plur	26	mod	_	_
 30	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
 31	par	par	ADP	_	_	34	mod	_	_
 32	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	31	comp:obj	_	SpaceAfter=No
@@ -5699,7 +5699,7 @@
 27	que	que	SCONJ	_	_	26	unk	_	InIdiom=Yes
 28	ces	ce	DET	_	Number=Plur|PronType=Dem	29	det	_	_
 29	traitements	traitement	NOUN	_	Gender=Masc|Number=Plur	30	subj@pass	_	_
-30	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	comp:obj	_	_
+30	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Typo=Yes|VerbForm=Fin	26	comp:obj	_	CorrectForm=étaient|CorrectNumber=Plur
 31	autorisés	autoriser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	30	comp:aux@pass	_	_
 32	chez	chez	ADP	_	_	30	mod	_	_
 33	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	34	det	_	_
@@ -6329,7 +6329,7 @@
 29	d'	de	ADP	_	_	28	comp:obl@agent	_	SpaceAfter=No
 30	ostéoporose	ostéoporose	NOUN	_	Gender=Fem|Number=Sing	29	comp:obj	_	_
 31	post-ménopausique	post-ménopausique	ADJ	_	Gender=Fem|Number=Sing	30	mod	_	_
-32	traitées	traiter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	30	mod	_	_
+32	traitées	traiter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	27	mod	_	_
 33	par	par	ADP	_	_	32	mod	_	_
 34	Aclasta	Aclasta	PROPN	_	_	33	comp:obj	_	_
 35	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
@@ -7804,7 +7804,7 @@
 32	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
 33	156/176	156/176	NOUN	_	NumType=Card	31	conj:appos	_	SpaceAfter=No
 34	)	)	PUNCT	_	_	33	punct	_	_
-35	comparé	comparer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	mod	_	_
+35	comparé	comparer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass	9	mod	_	CorrectForm=comparés|CorrectNumber=Plur
 36	à	à	ADP	_	_	35	comp:obl	_	_
 37	74	74	NUM	_	NumType=Card	38	det	_	SpaceAfter=No
 38	%	%	NOUN	_	Gender=Masc	36	comp:obj	_	_
@@ -11489,7 +11489,7 @@
 13	Aclasta	Aclasta	PROPN	_	_	12	comp:obj	_	_
 14	chez	chez	ADP	_	_	7	mod	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
-16	patient	patient	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
+16	patient	patient	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	14	comp:obj	_	CorrectForm=patients|CorrectNumber=Plur
 17	atteints	atteindre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	16	mod	_	_
 18	de	de	ADP	_	_	17	comp:obl@agent	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
