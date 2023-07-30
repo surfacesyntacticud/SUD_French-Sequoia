@@ -2156,11 +2156,11 @@
 20	douleur	douleur	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
 21	de	de	ADP	_	_	20	udep	_	_
 22	perdre	perdre	VERB	_	VerbForm=Inf	21	comp:obj	_	Subject=Instantiated
-23	il	lui	PRON	_	ExtPos=ADP|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	mod	_	Idiom=Yes
-24	y	y	PRON	_	Person=3|PronType=Prs	23	unk	_	InIdiom=Yes
-25	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	unk	_	InIdiom=Yes
+23	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	subj	_	InIdiom=Yes
+24	y	y	PRON	_	Person=3|PronType=Prs	25	comp	_	InIdiom=Yes
+25	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	mod	_	Idiom=Yes
 26	quinze	quinze	NUM	_	NumType=Card	27	det	_	_
-27	jours	jour	NOUN	_	Gender=Masc|Number=Plur	23	comp:obj	_	SpaceAfter=No
+27	jours	jour	NOUN	_	Gender=Masc|Number=Plur	25	comp:obj	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = annodis.er_00080
@@ -4394,11 +4394,11 @@
 24	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	mod@relcl	_	_
 25	été	être	AUX	_	Tense=Past|VerbForm=Part	24	comp:aux@tense	_	_
 26	admise	admettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	25	comp:aux@pass	_	_
-27	il	lui	PRON	_	ExtPos=ADP|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	mod	_	Idiom=Yes
-28	y	y	PRON	_	Person=3|PronType=Prs	27	unk	_	InIdiom=Yes
-29	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	unk	_	InIdiom=Yes
+27	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	subj	_	InIdiom=Yes
+28	y	y	PRON	_	Person=3|PronType=Prs	29	comp	_	InIdiom=Yes
+29	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	mod	_	Idiom=Yes
 30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	mois	mois	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj	_	SpaceAfter=No
+31	mois	mois	NOUN	_	Gender=Masc|Number=Sing	29	comp:obj	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = annodis.er_00162
@@ -7406,11 +7406,11 @@
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 30	première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	31	mod	_	_
 31	fois	fois	NOUN	_	Gender=Fem	28	comp:obj	_	_
-32	il	lui	PRON	_	ExtPos=ADP|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	mod	_	Idiom=Yes
-33	y	y	PRON	_	Person=3|PronType=Prs	32	unk	_	InIdiom=Yes
-34	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	unk	_	InIdiom=Yes
+32	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	subj	_	InIdiom=Yes
+33	y	y	PRON	_	Person=3|PronType=Prs	34	comp	_	InIdiom=Yes
+34	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	mod	_	Idiom=Yes
 35	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	36	det	_	_
-36	jours	jour	NOUN	_	Gender=Masc|Number=Plur	32	comp:obj	_	SpaceAfter=No
+36	jours	jour	NOUN	_	Gender=Masc|Number=Plur	34	comp:obj	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = annodis.er_00285

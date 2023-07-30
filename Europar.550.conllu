@@ -8601,13 +8601,13 @@
 13	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	subj	_	_
 14	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
 15	osé	oser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	17	punct	_	_
-17	il	lui	PRON	_	ExtPos=ADP|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	mod	_	Idiom=Yes
-18	y	y	PRON	_	Person=3|PronType=Prs	17	unk	_	InIdiom=Yes
-19	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	unk	_	InIdiom=Yes
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	subj	_	InIdiom=Yes
+18	y	y	PRON	_	Person=3|PronType=Prs	19	comp	_	InIdiom=Yes
+19	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	mod	_	Idiom=Yes
 20	quelque	quelque	DET	_	Definite=Ind|Number=Sing|PronType=Art	21	det	_	_
-21	temps	temps	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	17	punct	_	_
+21	temps	temps	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	19	punct	_	_
 23	proposer	proposer	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	recherche	recherche	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
@@ -13504,11 +13504,11 @@
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
 24	avions	avion	NOUN	_	Gender=Masc|Number=Plur	22	comp:obj	_	_
 25	d'	de	ADP	_	_	24	udep	_	SpaceAfter=No
-26	il	lui	PRON	_	ExtPos=ADP|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	comp:obj	_	Idiom=Yes
-27	y	y	PRON	_	Person=3|PronType=Prs	26	unk	_	InIdiom=Yes
-28	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	unk	_	InIdiom=Yes
+26	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	subj	_	InIdiom=Yes
+27	y	y	PRON	_	Person=3|PronType=Prs	28	comp	_	InIdiom=Yes
+28	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	comp:obj	_	Idiom=Yes
 29	quarante	quarante	NUM	_	NumType=Card	30	det	_	_
-30	ans	an	NOUN	_	Gender=Masc|Number=Plur	26	comp:obj	_	SpaceAfter=No
+30	ans	an	NOUN	_	Gender=Masc|Number=Plur	28	comp:obj	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = Europar.550_00415
@@ -15624,11 +15624,11 @@
 9	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	10	subj	_	SpaceAfter=No
 10	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
 11	effectuée	effectuer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
-12	il	lui	PRON	_	ExtPos=ADP|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	mod	_	Idiom=Yes
-13	y	y	PRON	_	Person=3|PronType=Prs	12	unk	_	InIdiom=Yes
-14	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	unk	_	InIdiom=Yes
+12	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	subj	_	InIdiom=Yes
+13	y	y	PRON	_	Person=3|PronType=Prs	14	comp	_	InIdiom=Yes
+14	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod	_	Idiom=Yes
 15	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
-16	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	12	comp:obj	_	_
+16	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	14	comp:obj	_	_
 17	à	à	ADP	_	_	10	mod	_	_
 18	Lubljana	Lubljana	PROPN	_	_	17	comp:obj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	1	punct	_	_
@@ -15669,11 +15669,11 @@
 30	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	mod@relcl	_	_
 31	été	être	AUX	_	Tense=Past|VerbForm=Part	30	comp:aux@tense	_	_
 32	initiée	initier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	31	comp:aux@pass	_	_
-33	il	lui	PRON	_	ExtPos=ADP|Number=Sing|Person=3|PronType=Prs	32	mod	_	Idiom=Yes
-34	y	y	PRON	_	Person=3|PronType=Prs	33	unk	_	InIdiom=Yes
-35	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	unk	_	InIdiom=Yes
+33	il	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	35	subj	_	InIdiom=Yes
+34	y	y	PRON	_	Person=3|PronType=Prs	35	comp	_	InIdiom=Yes
+35	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	mod	_	Idiom=Yes
 36	plusieurs	plusieurs	DET	_	Number=Plur	37	det	_	_
-37	années	année	NOUN	_	Gender=Fem|Number=Plur	33	comp:obj	_	_
+37	années	année	NOUN	_	Gender=Fem|Number=Plur	35	comp:obj	_	_
 38	par	par	ADP	_	_	32	comp:obl@agent	_	_
 39	mes	son	DET	_	Number=Plur|Poss=Yes	40	det	_	_
 40	prédécesseurs	prédécesseur	NOUN	_	Gender=Masc|Number=Plur	38	comp:obj	_	_
@@ -15884,12 +15884,12 @@
 6	égard	égard	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	qu'	que	SCONJ	_	_	3	comp:obj	_	SpaceAfter=No
-9	il	lui	PRON	_	ExtPos=ADP|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	mod	_	Idiom=Yes
-10	y	y	PRON	_	Person=3|PronType=Prs	9	unk	_	InIdiom=Yes
-11	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	unk	_	InIdiom=Yes
+9	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj	_	InIdiom=Yes
+10	y	y	PRON	_	Person=3|PronType=Prs	11	comp	_	InIdiom=Yes
+11	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	mod	_	Idiom=Yes
 12	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
-13	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	9	comp:obj	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	9	punct	_	_
+13	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	11	comp:obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	11	punct	_	_
 15	80 000	80 000	DET	_	_	16	det	_	_
 16	jeunes	jeune	NOUN	_	Number=Plur	24	subj	_	_
 17-18	des	_	_	_	_	_	_	_	_
