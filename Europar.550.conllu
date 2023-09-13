@@ -3193,7 +3193,7 @@
 7	condamnée	condamner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	mod	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	13	13	NUM	_	NumType=Card	7	mod	_	_
-10	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	9	udep	_	_
+10	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	9	mod	_	_
 11	à	à	ADP	_	_	7	mod	_	_
 12	Nis	Nis	PROPN	_	_	11	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	5	punct	_	_
@@ -7566,7 +7566,7 @@
 18	publié	publier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:aux@tense	_	_
 19	hier	hier	ADV	_	_	18	mod	_	_
 20	14	14	NUM	_	NumType=Card	18	mod	_	_
-21	mars	mars	NOUN	_	Gender=Masc|Number=Sing	20	udep	_	SpaceAfter=No
+21	mars	mars	NOUN	_	Gender=Masc|Number=Sing	20	mod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
 23-24	au	_	_	_	_	_	_	_	_
 23	à	à	ADP	_	_	18	mod	_	_
@@ -8266,7 +8266,7 @@
 4	,	,	PUNCT	_	_	9	punct	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	13	13	NUM	_	NumType=Card	9	mod	_	_
-7	avril	avril	NOUN	_	Gender=Masc|Number=Sing	6	udep	_	_
+7	avril	avril	NOUN	_	Gender=Masc|Number=Sing	6	mod	_	_
 8	prochain	prochain	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
 9	débutera	débuter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 10	en	en	ADP	_	_	9	mod	_	_

@@ -1624,7 +1624,7 @@
 33	,	,	PUNCT	_	_	35	punct	_	_
 34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	20	20	NUM	_	NumType=Card	10	mod	_	_
-36	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	35	udep	_	_
+36	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	35	mod	_	_
 37	2004	2004	NUM	_	NumType=Card	36	mod	_	_
 
 # sent_id = emea-fr-dev_00063

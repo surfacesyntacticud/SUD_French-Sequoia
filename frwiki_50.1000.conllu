@@ -59,7 +59,7 @@
 # text = Le 10 mars 1915 à cinq heures du matin, après deux mois d'accrochages sans résultat tangible dans le secteur et deux récentes attaques infructueuses, les poilus de la 21e compagnie du 336e régiment d'infanterie, reçoivent l'ordre d'attaquer de nouveau à la baïonnette et de reprendre les positions ennemies établies au nord du village de Souain.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	10	10	NUM	_	NumType=Card	42	mod	_	_
-3	mars	mars	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	mars	mars	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1915	1915	NUM	_	NumType=Card	3	mod	_	_
 5	à	à	ADP	_	_	42	mod	_	_
 6	cinq	cinq	NUM	_	NumType=Card	7	det	_	_
@@ -433,7 +433,7 @@
 # text = Le 15 mars, le général donne l'ordre de mise de jugement directe des 24 hommes désignés.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	15	15	NUM	_	NumType=Card	7	mod	_	_
-3	mars	mars	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	SpaceAfter=No
+3	mars	mars	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	général	général	NOUN	_	Gender=Masc|Number=Sing	7	subj	_	_
@@ -462,7 +462,7 @@
 # text = Le 16 mars, les inculpés comparaissent devant le Conseil de guerre de la 60e division demandé par le général Réveilhac avec le motif : "refus de bondir hors des tranchées".
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	16	16	NUM	_	NumType=Card	7	mod	_	_
-3	mars	mars	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	SpaceAfter=No
+3	mars	mars	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	inculpés	inculpé	NOUN	_	Gender=Masc|Number=Plur	7	subj	_	_
@@ -572,7 +572,7 @@
 14	mort	mort	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	16	16	NUM	_	NumType=Card	11	mod	_	_
-17	mars	mars	NOUN	_	Gender=Masc|Number=Sing	16	udep	_	_
+17	mars	mars	NOUN	_	Gender=Masc|Number=Sing	16	mod	_	_
 18	1915	1915	NUM	_	NumType=Card	17	mod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -629,7 +629,7 @@
 2	lendemain	lendemain	NOUN	_	Gender=Masc|Number=Sing	92	mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	17	17	NUM	_	NumType=Card	92	mod	_	_
-5	mars	mars	NOUN	_	Gender=Masc|Number=Sing	4	udep	_	_
+5	mars	mars	NOUN	_	Gender=Masc|Number=Sing	4	mod	_	_
 6	1915	1915	NUM	_	NumType=Card	5	mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	en	en	ADP	_	_	92	mod	_	_
@@ -866,7 +866,7 @@
 # text = Le 11 avril 1920, le ministère de la justice refusait d'examiner le dossier.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	11	11	NUM	_	NumType=Card	11	mod	_	_
-3	avril	avril	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	avril	avril	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1920	1920	NUM	_	NumType=Card	3	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -885,7 +885,7 @@
 # text = Le 26 mars 1922, le dossier des caporaux de Souain était rejeté par la Cour de Cassation qui jugeait sur la forme sans trouver à redire sur le fond, puis une seconde fois le 21 avril 1926.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	26	26	NUM	_	NumType=Card	13	mod	_	_
-3	mars	mars	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	mars	mars	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1922	1922	NUM	_	NumType=Card	3	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -922,7 +922,7 @@
 36	fois	fois	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
 37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	21	21	NUM	_	NumType=Card	36	orphan	_	_
-39	avril	avril	NOUN	_	Gender=Masc|Number=Sing	38	udep	_	_
+39	avril	avril	NOUN	_	Gender=Masc|Number=Sing	38	mod	_	_
 40	1926	1926	NUM	_	NumType=Card	39	mod	_	SpaceAfter=No
 41	.	.	PUNCT	_	Shared=Yes	36	punct	_	_
 
@@ -1059,7 +1059,7 @@
 11	Ferré	Ferré	PROPN	_	_	9	comp:obj	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	16	16	NUM	_	NumType=Card	4	mod	_	_
-14	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	13	udep	_	_
+14	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	13	mod	_	_
 15	1924	1924	NUM	_	NumType=Card	14	mod	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -1155,7 +1155,7 @@
 6	à	à	ADP	_	_	5	comp:obj	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	3	3	NUM	_	NumType=Card	6	comp:obj	_	_
-9	mars	mars	NOUN	_	Gender=Masc|Number=Sing	8	udep	_	_
+9	mars	mars	NOUN	_	Gender=Masc|Number=Sing	8	mod	_	_
 10	1934	1934	NUM	_	NumType=Card	9	mod	_	_
 11	pour	pour	ADP	_	_	4	mod	_	_
 12	que	que	SCONJ	_	_	11	comp:obj	_	_
@@ -1495,7 +1495,7 @@
 16	1933	1933	NUM	_	NumType=Card	15	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
 18	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	InTitle=Yes
-19	Fusillé	fusillé	NOUN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	12	conj:appos	_	Title=Yes|SpaceAfter=No
+19	Fusillé	fusillé	NOUN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	12	conj:appos	_	SpaceAfter=No|Title=Yes
 20	,	,	PUNCT	_	_	26	punct	_	_
 21	dont	dont	PRON	_	PronType=Rel	23	udep	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
@@ -1858,7 +1858,7 @@
 8	de	de	ADP	_	_	2	udep	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	28	28	NUM	_	NumType=Card	8	comp:obj	_	_
-11	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	10	udep	_	_
+11	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	10	mod	_	_
 12	1989	1989	NUM	_	NumType=Card	11	mod	_	_
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	même	même	ADV	_	_	13	mod	_	_
@@ -2063,7 +2063,7 @@
 10	déroulée	dérouler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	10	10	NUM	_	NumType=Card	10	mod	_	_
-13	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	12	udep	_	_
+13	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	12	mod	_	_
 14	1990	1990	NUM	_	NumType=Card	13	mod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	10	punct	_	_
 16	lors	lors	ADV	_	ExtPos=ADV	10	comp:obl	_	_
@@ -2181,7 +2181,7 @@
 8	Koweit	Koweit	PROPN	_	_	6	comp:obj	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	2	2	NUM	_	NumType=Card	5	mod	_	_
-11	août	août	NOUN	_	Gender=Masc|Number=Sing	10	udep	_	_
+11	août	août	NOUN	_	Gender=Masc|Number=Sing	10	mod	_	_
 12	pour	pour	ADP	_	_	5	mod	_	_
 13	passer	passer	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=Instantiated
 14	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
@@ -2198,7 +2198,7 @@
 5	accouché	accoucher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	29	29	NUM	_	NumType=Card	4	mod	_	_
-8	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	7	udep	_	_
+8	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	7	mod	_	_
 9	et	et	CCONJ	_	_	11	cc	_	_
 10	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	11	subj	_	_
 11	voulions	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	4	conj	_	_
@@ -2811,7 +2811,7 @@
 6	Humanité	Humanité	PROPN	_	Number=Sing	3	mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	11	11	NUM	_	NumType=Card	3	mod	_	_
-9	mars	mars	NOUN	_	Gender=Masc|Number=Sing	8	udep	_	_
+9	mars	mars	NOUN	_	Gender=Masc|Number=Sing	8	mod	_	_
 10	1991	1991	NUM	_	NumType=Card	9	mod	_	_
 11	[	[	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	1	1	NUM	_	NumType=Card	3	mod	_	SpaceAfter=No
@@ -2827,7 +2827,7 @@
 6	Humanité	Humanité	PROPN	_	Number=Sing	3	mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	10	10	NUM	_	NumType=Card	3	mod	_	_
-9	juin	juin	NOUN	_	Gender=Masc|Number=Sing	8	udep	_	_
+9	juin	juin	NOUN	_	Gender=Masc|Number=Sing	8	mod	_	_
 10	1993	1993	NUM	_	NumType=Card	9	mod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	analyse	analyse	NOUN	_	Gender=Fem|Number=Sing	3	mod	_	_
@@ -2987,7 +2987,7 @@
 14	enchaîné	enchaîner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	mod	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	10	10	NUM	_	NumType=Card	10	mod	_	_
-17	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	16	udep	_	_
+17	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	16	mod	_	_
 18	1979	1979	NUM	_	NumType=Card	17	mod	_	_
 19	qui	qui	PRON	_	PronType=Rel	20	subj	_	_
 20	impliquait	impliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	mod@relcl	_	_
@@ -3870,7 +3870,7 @@
 4	Economist	Economist	X	_	Foreign=Yes	3	flat@name	_	Lang=en|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	18	18	NUM	_	NumType=Card	3	mod	_	_
-7	février	février	NOUN	_	Gender=Masc|Number=Sing	6	udep	_	_
+7	février	février	NOUN	_	Gender=Masc|Number=Sing	6	mod	_	_
 8	1989	1989	NUM	_	NumType=Card	7	mod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -4391,7 +4391,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	10	10	NUM	_	NumType=Card	12	mod	_	_
-5	Janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	4	udep	_	_
+5	Janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	4	mod	_	_
 6	2007	2007	NUM	_	NumType=Card	5	mod	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	cour	cour	NOUN	_	Gender=Fem|Number=Sing	12	subj	_	_
@@ -5915,7 +5915,7 @@
 # text = - 4 janvier 1989 : Quelques semaines avant les élections municipales de 1989, l'hebdomadaire le Canard enchaîné publie un article dénonçant des inscriptions illégales à Paris d'électeurs n'y résidant pas.
 1	-	-	PUNCT	_	_	20	punct	_	_
 2	4	4	NUM	_	NumType=Card	20	mod	_	_
-3	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1989	1989	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	20	punct	_	_
 6	Quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
@@ -5953,7 +5953,7 @@
 # text = - 9 janvier 1989 : Quatre électeurs écologistes déposent plainte à Paris avec constitution de partie civile.
 1	-	-	PUNCT	_	_	9	punct	_	_
 2	9	9	NUM	_	NumType=Card	9	mod	_	_
-3	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1989	1989	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	9	punct	_	_
 6	Quatre	quatre	NUM	_	NumType=Card	7	det	_	_
@@ -6006,7 +6006,7 @@
 # text = - 15 février 1989 : La Cour de cassation renvoie le dossier à Amiens en vertu du privilège de juridiction qui impose alors le dépaysement des dossiers mettant en cause des élus.
 1	-	-	PUNCT	_	_	10	punct	_	_
 2	15	15	NUM	_	NumType=Card	10	mod	_	_
-3	février	février	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	février	février	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1989	1989	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	10	punct	_	_
 6	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -6064,7 +6064,7 @@
 2	12	12	NUM	_	NumType=Card	0	root	_	_
 3	et	et	CCONJ	_	_	4	cc	_	_
 4	19	19	NUM	_	NumType=Card	2	conj	_	_
-5	mars	mars	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+5	mars	mars	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 6	1989	1989	NUM	_	NumType=Card	5	mod	_	_
 7	:	:	PUNCT	_	_	14	punct	_	_
 8	Jacques	Jacques	PROPN	_	Gender=Masc|Number=Sing	14	subj	_	_
@@ -6094,7 +6094,7 @@
 # text = - 15 janvier 1992 : Un premier rapport de gendarmerie confirme l'inscription frauduleuse d'électeurs sur les listes électorales du 3e et d'autres arrondissements de Paris.
 1	-	-	PUNCT	_	_	11	punct	_	_
 2	15	15	NUM	_	NumType=Card	11	mod	_	_
-3	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1992	1992	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	11	punct	_	_
 6	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -6128,7 +6128,7 @@
 # text = - 21 décembre 1995 : Après la victoire de la gauche dans le 3e arrondissement aux élections municipales de 1995, l'élu Vert Yves Contassot et le militant socialiste Pierre Montacié remettent à la justice des fichiers informatiques recensant des "faux" électeurs.
 1	-	-	PUNCT	_	_	34	punct	_	_
 2	21	21	NUM	_	NumType=Card	34	mod	_	_
-3	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1995	1995	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	34	punct	_	_
 6	Après	après	ADP	_	_	34	mod	_	_
@@ -6198,7 +6198,7 @@
 # text = - 7 février 1996 : Une nouvelle information judiciaire est ouverte à Paris par le juge Hervé Stéphan.
 1	-	-	PUNCT	_	_	10	punct	_	_
 2	7	7	NUM	_	NumType=Card	10	mod	_	_
-3	février	février	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	février	février	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1996	1996	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	10	punct	_	_
 6	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -6234,7 +6234,7 @@
 # text = - 5 décembre 1997 : Les poursuites sont étendues pour soupçons de "fichage" des électeurs suivant leurs opinions politiques dans les ordinateurs de la mairie du 3e arrondissement.
 1	-	-	PUNCT	_	_	8	punct	_	_
 2	5	5	NUM	_	NumType=Card	8	mod	_	_
-3	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1997	1997	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	8	punct	_	_
 6	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
@@ -6272,7 +6272,7 @@
 # text = - 6 février 1998 : Les recours formés contre Laurent Dominati par Dominique Bertinotti (PS) et Yves Contassot (Vert) devant le Conseil constitutionnel sont rejetés au motif que les erreurs dans les inscriptions sur les listes électorales relevées dans le 3e arrondissement durant les élections législatives de 1997 ne constituent pas des "manoeuvres".
 1	-	-	PUNCT	_	_	28	punct	_	_
 2	6	6	NUM	_	NumType=Card	28	mod	_	_
-3	février	février	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	février	février	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1998	1998	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	28	punct	_	_
 6	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
@@ -6337,7 +6337,7 @@
 # text = - 25 mai 2000 : Les nouveaux juges d'instruction Jean-Paul Valat et Philippe Coirre mettent en examen quinze ex-élus ou ex-fonctionnaires du 3e arrondissement, soupçonnés d'avoir mobilisé des réseaux politiques, familiaux ou professionnels afin d'inscrire indûment sur les listes électorales des sympathisants politiques.
 1	-	-	PUNCT	_	_	16	punct	_	_
 2	25	25	NUM	_	NumType=Card	16	mod	_	_
-3	mai	mai	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	mai	mai	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	2000	2000	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	16	punct	_	_
 6	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
@@ -6391,7 +6391,7 @@
 # text = - 8 juillet 2000 : Gérard Merle, ancien responsable de la section parisienne du RPR et témoin, déclare aux enquêteurs que Jacques Chirac voulait se racheter de la présidentielle perdue de 1988 "par une victoire dans les vingts arrondissements de Paris aux municipales de 1989".
 1	-	-	PUNCT	_	_	21	punct	_	_
 2	8	8	NUM	_	NumType=Card	21	mod	_	_
-3	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	2000	2000	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	21	punct	_	_
 6	Gérard	Gérard	PROPN	_	Gender=Masc|Number=Sing	21	subj	_	_
@@ -6495,7 +6495,7 @@
 # text = - 18 mars 2002 : La fin de l'instruction est notifiée aux quinze personnes mises en examen.
 1	-	-	PUNCT	_	_	11	punct	_	_
 2	18	18	NUM	_	NumType=Card	11	mod	_	_
-3	mars	mars	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	mars	mars	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	2002	2002	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	11	punct	_	_
 6	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -6578,7 +6578,7 @@
 # text = - 17 décembre 2004 : Dans son volumineux réquisitoire (170 pages plus quelque 500 pages d'annexes), le procureur de la République préconise le renvoi devant le tribunal correctionnel des quinze personnes mises en examen.
 1	-	-	PUNCT	_	_	26	punct	_	_
 2	17	17	NUM	_	NumType=Card	26	mod	_	_
-3	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	2004	2004	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	26	punct	_	_
 6	Dans	dans	ADP	_	_	26	mod	_	_
@@ -6622,7 +6622,7 @@
 # text = - 11 septembre 2006 : Ouverture du procès à Paris.
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	11	11	NUM	_	NumType=Card	6	mod	_	_
-3	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	2006	2006	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	6	punct	_	_
 6	Ouverture	ouverture	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -6645,7 +6645,7 @@
 6	à	à	ADP	_	_	5	comp:obj	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	31	31	NUM	_	NumType=Card	6	comp:obj	_	_
-9	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	8	udep	_	_
+9	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	8	mod	_	_
 10	2006	2006	NUM	_	NumType=Card	9	mod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -6937,7 +6937,7 @@
 # text = Le 25 octobre 2006, le parquet de Paris a requis contre Jacques Dominati une peine de douze mois de prison avec sursis, 2 000 euros d'amende et cinq ans d'inéligibilité.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	25	25	NUM	_	NumType=Card	10	mod	_	_
-3	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	2006	2006	NUM	_	NumType=Card	3	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -7121,7 +7121,7 @@
 19	Monde	Monde	PROPN	_	Gender=Masc|Number=Sing|Shared=Yes	10	mod	_	SpaceAfter=No
 20	,	,	PUNCT	_	Shared=Yes	21	punct	_	_
 21	24	24	NUM	_	NumType=Card	10	mod	_	_
-22	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	21	udep	_	_
+22	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	21	mod	_	_
 23	2006	2006	NUM	_	NumType=Card	22	mod	_	_
 
 # sent_id = frwiki_50.1000_00283
@@ -7151,7 +7151,7 @@
 18	Monde	Monde	PROPN	_	Gender=Masc|Number=Sing	5	mod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	13	13	NUM	_	NumType=Card	5	mod	_	_
-21	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	20	udep	_	_
+21	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	20	mod	_	_
 22	2006	2006	NUM	_	NumType=Card	21	mod	_	_
 
 # sent_id = frwiki_50.1000_00285
@@ -8091,7 +8091,7 @@
 3	publiées	publier	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	comp:aux@pass	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	27	27	NUM	_	NumType=Card	2	mod	_	_
-6	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	5	udep	_	_
+6	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	5	mod	_	_
 7	1904	1904	NUM	_	NumType=Card	6	mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	et	et	CCONJ	_	_	12	cc	_	_
@@ -9843,7 +9843,7 @@
 43	Observateur	observateur	NOUN	_	_	40	comp:obj	_	_
 44	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
 45	9	9	NUM	_	NumType=Card	39	mod	_	_
-46	mars	mars	NOUN	_	Gender=Masc|Number=Sing	45	udep	_	_
+46	mars	mars	NOUN	_	Gender=Masc|Number=Sing	45	mod	_	_
 47	2000	2000	NUM	_	NumType=Card	46	mod	_	SpaceAfter=No
 48	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -9861,7 +9861,7 @@
 9	de	de	ADP	_	_	5	udep	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	17	17	NUM	_	NumType=Card	9	comp:obj	_	_
-12	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	11	udep	_	_
+12	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	11	mod	_	_
 13	1991	1991	NUM	_	NumType=Card	12	mod	_	_
 14	de	de	ADP	_	_	5	udep	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -10386,7 +10386,7 @@
 11	Libération	Libération	PROPN	_	_	0	root	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	19	19	NUM	_	NumType=Card	11	mod	_	_
-14	mai	mai	NOUN	_	Gender=Masc|Number=Sing	13	udep	_	_
+14	mai	mai	NOUN	_	Gender=Masc|Number=Sing	13	mod	_	_
 15	2006	2006	NUM	_	NumType=Card	14	mod	_	_
 
 # sent_id = frwiki_50.1000_00366
@@ -10412,7 +10412,7 @@
 18	Monde	Monde	PROPN	_	Gender=Masc|Number=Sing	12	mod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	20	20	NUM	_	NumType=Card	12	mod	_	_
-21	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	20	udep	_	_
+21	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	20	mod	_	_
 22	2000	2000	NUM	_	NumType=Card	21	mod	_	_
 
 # sent_id = frwiki_50.1000_00367
@@ -10690,7 +10690,7 @@
 5	de	de	ADP	_	_	4	comp:obl	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	19	19	NUM	_	NumType=Card	5	comp:obj	_	_
-8	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	7	udep	_	_
+8	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	7	mod	_	_
 9	1991	1991	NUM	_	NumType=Card	8	mod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	1	punct	_	_
 11	Alain	Alain	PROPN	_	Gender=Masc|Number=Sing	13	subj	_	_
@@ -10738,7 +10738,7 @@
 18	Monde	Monde	PROPN	_	Gender=Masc|Number=Sing	12	mod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	20	20	NUM	_	NumType=Card	12	mod	_	_
-21	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	20	udep	_	_
+21	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	20	mod	_	_
 22	2000	2000	NUM	_	NumType=Card	21	mod	_	_
 
 # sent_id = frwiki_50.1000_00376
@@ -11085,7 +11085,7 @@
 1	Depuis	depuis	ADP	_	_	12	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	4	4	NUM	_	NumType=Card	1	comp:obj	_	_
-4	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	3	udep	_	_
+4	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	_
 5	1991	1991	NUM	_	NumType=Card	4	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	Alfred	Alfred	PROPN	_	Gender=Masc|Number=Sing	12	subj	_	_
@@ -11699,7 +11699,7 @@
 1	-	-	PUNCT	_	_	16	punct	_	_
 2	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	17	17	NUM	_	NumType=Card	16	mod	_	_
-4	mai	mai	NOUN	_	Gender=Masc|Number=Sing	3	udep	_	_
+4	mai	mai	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	_
 5	2004	2004	NUM	_	NumType=Card	4	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
@@ -11896,7 +11896,7 @@
 10	AP	AP	PROPN	_	_	8	mod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	28	28	NUM	_	NumType=Card	8	mod	_	_
-13	mai	mai	NOUN	_	Gender=Masc|Number=Sing	12	udep	_	_
+13	mai	mai	NOUN	_	Gender=Masc|Number=Sing	12	mod	_	_
 14	2004	2004	NUM	_	NumType=Card	13	mod	_	_
 
 # sent_id = frwiki_50.1000_00413
@@ -12013,7 +12013,7 @@
 9	close	clore	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	comp:aux@pass	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	2	2	NUM	_	NumType=Card	7	mod	_	_
-12	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	11	udep	_	_
+12	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	11	mod	_	_
 13	2006	2006	NUM	_	NumType=Card	12	mod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -12022,7 +12022,7 @@
 1	-	-	PUNCT	_	_	15	punct	_	_
 2	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	24	24	NUM	_	NumType=Card	15	mod	_	_
-4	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	3	udep	_	_
+4	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	_
 5	2006	2006	NUM	_	NumType=Card	4	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
@@ -12412,7 +12412,7 @@
 19	Ouest	Ouest	PROPN	_	_	18	flat@name	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	13	13	NUM	_	NumType=Card	16	mod	_	_
-22	mars	mars	NOUN	_	Gender=Masc|Number=Sing	21	udep	_	_
+22	mars	mars	NOUN	_	Gender=Masc|Number=Sing	21	mod	_	_
 23	2002	2002	NUM	_	NumType=Card	22	mod	_	_
 
 # sent_id = frwiki_50.1000_00430
@@ -12484,7 +12484,7 @@
 46	,	,	PUNCT	_	_	48	punct	_	_
 47	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
 48	22	22	NUM	_	NumType=Card	2	mod	_	_
-49	mars	mars	NOUN	_	Gender=Masc|Number=Sing	48	udep	_	_
+49	mars	mars	NOUN	_	Gender=Masc|Number=Sing	48	mod	_	_
 50	2001	2001	NUM	_	NumType=Card	49	mod	_	_
 51	(	(	PUNCT	_	_	57	punct	_	SpaceAfter=No
 52	Volume	volume	NOUN	_	Gender=Masc|Number=Sing	57	parataxis	_	_
@@ -12706,7 +12706,7 @@
 # text = Le 7 juin 2006, Dominique de Talancé a été désaisi du dossier et remplacé par Xavière Simeoni, puis Françoise Desset.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	7	7	NUM	_	NumType=Card	9	mod	_	_
-3	juin	juin	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	juin	juin	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	2006	2006	NUM	_	NumType=Card	3	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	Dominique	Dominique	PROPN	_	Number=Sing	9	subj@pass	_	_
@@ -12735,7 +12735,7 @@
 1	-	-	PUNCT	_	_	17	punct	_	_
 2	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	10	10	NUM	_	NumType=Card	17	mod	_	_
-4	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	3	udep	_	_
+4	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	_
 5	2006	2006	NUM	_	NumType=Card	4	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
@@ -13050,7 +13050,7 @@
 # text = Le 4 octobre 2006 et pour la quatrième fois depuis 2001, le ministre de l'Economie Thierry Breton a une nouvelle fois refusé de déclassifier les documents des douanes dans l'affaire des frégates de Taïwan.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	4	4	NUM	_	NumType=Card	20	mod	_	_
-3	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	2006	2006	NUM	_	NumType=Card	3	mod	_	_
 5	et	et	CCONJ	_	_	6	cc	_	_
 6	pour	pour	ADP	_	_	3	conj	_	_
@@ -13152,7 +13152,7 @@
 22	juges	juge	NOUN	_	Gender=Masc|Number=Plur	20	comp:obj	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	22	22	NUM	_	NumType=Card	13	mod	_	_
-25	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	24	udep	_	_
+25	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	24	mod	_	_
 26	2004	2004	NUM	_	NumType=Card	25	mod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -13259,7 +13259,7 @@
 1	-	-	PUNCT	_	_	22	punct	_	_
 2	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	16	16	NUM	_	NumType=Card	22	mod	_	_
-4	juin	juin	NOUN	_	Gender=Masc|Number=Sing	3	udep	_	_
+4	juin	juin	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	_
 5	2006	2006	NUM	_	NumType=Card	4	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
@@ -13350,7 +13350,7 @@
 1	-	-	PUNCT	_	_	22	punct	_	_
 2	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	21	21	NUM	_	NumType=Card	22	mod	_	_
-4	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	3	udep	_	_
+4	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	_
 5	2006	2006	NUM	_	NumType=Card	4	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	pour	pour	ADP	_	_	22	mod	_	_
@@ -13400,7 +13400,7 @@
 5	publié	publier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	comp:aux@pass	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	5	5	NUM	_	NumType=Card	3	mod	_	_
-8	août	août	NOUN	_	Gender=Masc|Number=Sing	7	udep	_	_
+8	août	août	NOUN	_	Gender=Masc|Number=Sing	7	mod	_	_
 9	2006	2006	NUM	_	NumType=Card	8	mod	_	_
 10	dans	dans	ADP	_	_	3	mod	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -14340,7 +14340,7 @@
 13	Figaro	Figaro	PROPN	_	Gender=Masc|Number=Sing	4	mod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	19	19	NUM	_	NumType=Card	4	mod	_	_
-16	février	février	NOUN	_	Gender=Masc|Number=Sing	15	udep	_	_
+16	février	février	NOUN	_	Gender=Masc|Number=Sing	15	mod	_	_
 17	2005	2005	NUM	_	NumType=Card	16	mod	_	_
 
 # sent_id = frwiki_50.1000_00499
@@ -14467,7 +14467,7 @@
 7	auditionné	auditionner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	comp:aux@pass	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	14	14	NUM	_	NumType=Card	7	mod	_	_
-10	mai	mai	NOUN	_	Gender=Masc|Number=Sing	9	udep	_	_
+10	mai	mai	NOUN	_	Gender=Masc|Number=Sing	9	mod	_	_
 11	2002	2002	NUM	_	NumType=Card	10	mod	_	_
 12	par	par	ADP	_	_	7	comp:obl@agent	_	_
 13	Renaud	Renaud	PROPN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
@@ -14768,7 +14768,7 @@
 11	Libération	Libération	PROPN	_	_	0	root	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	19	19	NUM	_	NumType=Card	11	mod	_	_
-14	mai	mai	NOUN	_	Gender=Masc|Number=Sing	13	udep	_	_
+14	mai	mai	NOUN	_	Gender=Masc|Number=Sing	13	mod	_	_
 15	2006	2006	NUM	_	NumType=Card	14	mod	_	_
 
 # sent_id = frwiki_50.1000_00521
@@ -14794,7 +14794,7 @@
 17	AFP	AFP	PROPN	_	Gender=Fem|Number=Sing	7	mod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	18	18	NUM	_	NumType=Card	7	mod	_	_
-20	juin	juin	NOUN	_	Gender=Masc|Number=Sing	19	udep	_	_
+20	juin	juin	NOUN	_	Gender=Masc|Number=Sing	19	mod	_	_
 21	2002	2002	NUM	_	NumType=Card	20	mod	_	_
 
 # sent_id = frwiki_50.1000_00522
@@ -14810,7 +14810,7 @@
 9	Info	Info	PROPN	_	_	8	flat@name	_	SpaceAfter=No
 10	,	,	PUNCT	_	Shared=Yes	11	punct	_	_
 11	22	22	NUM	_	NumType=Card	6	mod	_	_
-12	juin	juin	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	11	udep	_	_
+12	juin	juin	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	11	mod	_	_
 13	2002	2002	NUM	_	NumType=Card	12	mod	_	_
 
 # sent_id = frwiki_50.1000_00523
@@ -14828,7 +14828,7 @@
 11	VSD	VSD	PROPN	_	_	2	mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	31	31	NUM	_	NumType=Card	2	mod	_	_
-14	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	13	udep	_	_
+14	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	13	mod	_	_
 15	2002	2002	NUM	_	NumType=Card	14	mod	_	_
 
 # sent_id = frwiki_50.1000_00524
@@ -15038,7 +15038,7 @@
 9	Libération	Libération	PROPN	_	_	6	mod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	29	29	NUM	_	NumType=Card	6	mod	_	_
-12	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	11	udep	_	_
+12	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	11	mod	_	_
 13	2004	2004	NUM	_	NumType=Card	12	mod	_	_
 
 # sent_id = frwiki_50.1000_00535
@@ -15060,7 +15060,7 @@
 11	Michel	Michel	PROPN	_	Gender=Masc|Number=Sing	10	flat@name	_	_
 12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	1	1	NUM	_	NumType=Card	7	mod	_	_
-14	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	13	udep	_	_
+14	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	13	mod	_	_
 15	2000	2000	NUM	_	NumType=Card	14	mod	_	SpaceAfter=No
 16	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	7	punct	_	_
@@ -15093,7 +15093,7 @@
 19	Denoël	Denoël	PROPN	_	_	6	mod	_	_
 20	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
 21	20	20	NUM	_	NumType=Card	2	mod	_	_
-22	mai	mai	NOUN	_	Gender=Masc|Number=Sing	21	udep	_	_
+22	mai	mai	NOUN	_	Gender=Masc|Number=Sing	21	mod	_	_
 23	2004	2004	NUM	_	NumType=Card	22	mod	_	SpaceAfter=No
 24	)	)	PUNCT	_	_	2	punct	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	2	punct	_	_
@@ -15130,7 +15130,7 @@
 12	Laffont	Laffont	PROPN	_	_	11	flat@name	_	_
 13	(	(	PUNCT	_	Shared=Yes	14	punct	_	SpaceAfter=No
 14	16	16	NUM	_	NumType=Card	3	mod	_	_
-15	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	14	udep	_	_
+15	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	14	mod	_	_
 16	2003	2003	NUM	_	NumType=Card	15	mod	_	SpaceAfter=No
 17	)	)	PUNCT	_	Shared=Yes	14	punct	_	SpaceAfter=No
 18	.	.	PUNCT	_	Shared=Yes	3	punct	_	_
@@ -15164,7 +15164,7 @@
 12	Lafon	Lafon	PROPN	_	_	11	flat@name	_	_
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	27	27	NUM	_	NumType=Card	2	mod	_	_
-15	février	février	NOUN	_	Gender=Masc|Number=Sing	14	udep	_	_
+15	février	février	NOUN	_	Gender=Masc|Number=Sing	14	mod	_	_
 16	2003	2003	NUM	_	NumType=Card	15	mod	_	SpaceAfter=No
 17	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	2	punct	_	_
@@ -15266,7 +15266,7 @@
 13	lu	lu	PROPN	_	_	11	mod	_	_
 14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	3	3	NUM	_	NumType=Card	2	mod	_	_
-16	juin	juin	NOUN	_	Gender=Masc|Number=Sing	15	udep	_	_
+16	juin	juin	NOUN	_	Gender=Masc|Number=Sing	15	mod	_	_
 17	1999	1999	NUM	_	NumType=Card	16	mod	_	SpaceAfter=No
 18	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	2	punct	_	_
@@ -15296,7 +15296,7 @@
 15	Rocher	Rocher	PROPN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
 17	7	7	NUM	_	NumType=Card	2	mod	_	_
-18	avril	avril	NOUN	_	Gender=Masc|Number=Sing	17	udep	_	_
+18	avril	avril	NOUN	_	Gender=Masc|Number=Sing	17	mod	_	_
 19	2005	2005	NUM	_	NumType=Card	18	mod	_	SpaceAfter=No
 20	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	2	punct	_	_
@@ -15522,7 +15522,7 @@
 # text = - 21 décembre 1994 : le Dr Jean-Pierre Maréchal, beau-père du juge Eric Halphen, est mis en examen pour trafic d'influence et extorsion de fonds.
 1	-	-	PUNCT	_	_	18	punct	_	_
 2	21	21	NUM	_	NumType=Card	18	mod	_	_
-3	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1994	1994	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	18	punct	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -15759,7 +15759,7 @@
 # text = - 26 juin 1995 : Les juges Philippe Vandingenen et Serge Portelli perquisitionnent au siège de l'office HLM des Hauts-de-Seine, à Levallois-Perret.
 1	-	-	PUNCT	_	_	13	punct	_	_
 2	26	26	NUM	_	NumType=Card	13	mod	_	_
-3	juin	juin	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	juin	juin	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1995	1995	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	13	punct	_	_
 6	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
@@ -15792,7 +15792,7 @@
 1	Depuis	depuis	ADP	_	_	8	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	9	9	NUM	_	NumType=Card	1	comp:obj	_	_
-4	juin	juin	NOUN	_	Gender=Masc|Number=Sing	3	udep	_	_
+4	juin	juin	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	_
 5	1995	1995	NUM	_	NumType=Card	4	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	ils	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	subj	_	_
@@ -15820,14 +15820,14 @@
 29	depuis	depuis	ADP	_	_	28	udep	_	_
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	10	10	NUM	_	NumType=Card	29	comp:obj	_	_
-32	février	février	NOUN	_	Gender=Masc|Number=Sing	31	udep	_	_
+32	février	février	NOUN	_	Gender=Masc|Number=Sing	31	mod	_	_
 33	1995	1995	NUM	_	NumType=Card	32	mod	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	36	punct	_	_
 35	et	et	CCONJ	_	_	36	cc	_	_
 36	depuis	depuis	ADP	_	_	9	conj	_	_
 37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	23	23	NUM	_	NumType=Card	36	comp:obj	_	_
-39	juin	juin	NOUN	_	Gender=Masc|Number=Sing	38	udep	_	_
+39	juin	juin	NOUN	_	Gender=Masc|Number=Sing	38	mod	_	_
 40	1995	1995	NUM	_	NumType=Card	39	mod	_	SpaceAfter=No
 41	,	,	PUNCT	_	_	36	punct	_	_
 42	d'	de	ADP	_	_	36	orphan	_	SpaceAfter=No
@@ -15863,7 +15863,7 @@
 # text = - 12 février 1996 : La police judiciaire parisienne perquisitionne les locaux de l'office HLM départemental des Hauts-de-Seine, sur commission rogatoire des juges Philippe Vandingenen et Serge Portelli.
 1	-	-	PUNCT	_	_	10	punct	_	_
 2	12	12	NUM	_	NumType=Card	10	mod	_	_
-3	février	février	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	février	février	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1996	1996	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	10	punct	_	_
 6	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -15988,7 +15988,7 @@
 # text = - 16 mars 2000 : Mise en examen de Patrick Balkany pour "trafic d'influence".
 1	-	-	PUNCT	_	_	6	punct	_	_
 2	16	16	NUM	_	NumType=Card	6	mod	_	_
-3	mars	mars	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	mars	mars	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	2000	2000	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	6	punct	_	_
 6	Mise	mise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -16009,7 +16009,7 @@
 # text = - 5 février 2002 : Didier Schuller rentre en France au terme de sept ans de cavale aux Caraïbes.
 1	-	-	PUNCT	_	_	8	punct	_	_
 2	5	5	NUM	_	NumType=Card	8	mod	_	_
-3	février	février	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	février	février	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	2002	2002	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	8	punct	_	_
 6	Didier	Didier	PROPN	_	Gender=Masc|Number=Sing	8	subj	_	_
@@ -16159,7 +16159,7 @@
 # text = - 21 juin 2005 : Début du procès.
 1	-	-	PUNCT	_	_	6	punct	_	_
 2	21	21	NUM	_	NumType=Card	6	mod	_	_
-3	juin	juin	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	juin	juin	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	2005	2005	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	6	punct	_	_
 6	Début	début	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -16173,7 +16173,7 @@
 # text = - 15 juillet 2005 : Réquisitoire du parquet, qui demande quatre ans de prison dont un an ferme contre Didier Schuller, qualifié de "fanfaron", et la relaxe pour Patrick Balkany.
 1	-	-	PUNCT	_	_	6	punct	_	_
 2	15	15	NUM	_	NumType=Card	6	mod	_	_
-3	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	2005	2005	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	6	punct	_	_
 6	Réquisitoire	réquisitoire	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -16214,7 +16214,7 @@
 # text = - 18 octobre 2005 : A l'issue du procès, Didier Schuller est condamné à cinq ans de prison, dont trois avec sursis, ainsi qu'à une amende de 150.000 euros, pour trafic d'influence, recel et complicité d'abus de biens sociaux.
 1	-	-	PUNCT	_	_	15	punct	_	_
 2	18	18	NUM	_	NumType=Card	15	mod	_	_
-3	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	2005	2005	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	15	punct	_	_
 6	A	à	ADP	_	_	15	mod	_	_
@@ -16727,7 +16727,7 @@
 # text = - 20 janvier 1994 : la Direction générale des impôts (DGI) transmet au parquet de Créteil une enquête sur une entreprise appartenant à Francis Poullain, soupçonné d'avoir réglé des fausses factures par l'intermédiaire de ses sociétés, lesquelles auraient bénéficié de marchés passés par l'OPAC (Office public d'aménagement et de construction de la ville de Paris).
 1	-	-	PUNCT	_	_	15	punct	_	_
 2	20	20	NUM	_	NumType=Card	15	mod	_	_
-3	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1994	1994	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	15	punct	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -16819,7 +16819,7 @@
 # text = - 9 février 1994 : ouverture d'une information judiciaire confiée au juge d'instruction Éric Halphen.
 1	-	-	PUNCT	_	_	6	punct	_	_
 2	9	9	NUM	_	NumType=Card	6	mod	_	_
-3	février	février	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	février	février	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1994	1994	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	6	punct	_	_
 6	ouverture	ouverture	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -16847,7 +16847,7 @@
 4	de	de	ADP	_	_	3	udep	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	25	25	NUM	_	NumType=Card	4	comp:obj	_	_
-7	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	6	udep	_	_
+7	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	6	mod	_	_
 8	2006	2006	NUM	_	NumType=Card	7	mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	1	punct	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -17028,7 +17028,7 @@
 # text = - 3 août 1994 : le juge Éric Halphen place sous mandat de dépôt Francis Poullain.
 1	-	-	PUNCT	_	_	10	punct	_	_
 2	3	3	NUM	_	NumType=Card	10	mod	_	_
-3	août	août	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	août	août	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1994	1994	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	10	punct	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -17066,7 +17066,7 @@
 # text = - 13 septembre 1994 : un témoin "digne de foi" met le juge Éric Halphen sur la piste du financement illégal du RPR.
 1	-	-	PUNCT	_	_	13	punct	_	_
 2	13	13	NUM	_	NumType=Card	13	mod	_	_
-3	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1994	1994	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	13	punct	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -17395,7 +17395,7 @@
 # text = - 22 septembre 1994 : Le juge Éric Halphen interroge Francis Poullain sur ses liens avec Rémy Halbwax.
 1	-	-	PUNCT	_	_	10	punct	_	_
 2	22	22	NUM	_	NumType=Card	10	mod	_	_
-3	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1994	1994	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	10	punct	_	_
 6	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -17499,7 +17499,7 @@
 # text = - 29 septembre 1994 : Mise en examen et incarcération de Jean-Claude Méry, membre du comité exécutif du RPR et responsable de bureaux d'études soupçonné d'avoir bénéficié de fausses factures et d'avoir permis à Francis Poullain d'obtenir des marchés auprès des HLM des Hauts-de-Seine et HLM de Paris.
 1	-	-	PUNCT	_	_	6	punct	_	_
 2	29	29	NUM	_	NumType=Card	6	mod	_	_
-3	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1994	1994	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	6	punct	_	_
 6	Mise	mise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -17581,7 +17581,7 @@
 4	de	de	ADP	_	_	3	udep	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	25	25	NUM	_	NumType=Card	4	comp:obj	_	_
-7	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	6	udep	_	_
+7	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	6	mod	_	_
 8	2006	2006	NUM	_	NumType=Card	7	mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	1	punct	_	_
 10	on	on	PRON	_	Number=Sing|Person=3|PronType=Ind	12	subj	_	_
@@ -17621,7 +17621,7 @@
 # text = - 8 novembre 1994 : Rémy Halbwax est mis en examen.
 1	-	-	PUNCT	_	_	8	punct	_	_
 2	8	8	NUM	_	NumType=Card	8	mod	_	_
-3	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1994	1994	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	8	punct	_	_
 6	Rémy	Rémy	PROPN	_	Gender=Masc|Number=Sing	8	subj@pass	_	_
@@ -17636,7 +17636,7 @@
 # text = - 14 novembre 1994 : Michel Roussin, ancien directeur de cabinet de Jacques Chirac, est mis en examen.
 1	-	-	PUNCT	_	_	17	punct	_	_
 2	14	14	NUM	_	NumType=Card	17	mod	_	_
-3	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1994	1994	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	17	punct	_	_
 6	Michel	Michel	PROPN	_	Gender=Masc|Number=Sing	17	subj@pass	_	_
@@ -17695,7 +17695,7 @@
 # text = - 13 décembre 1994 : perquisition à Clichy au siège du "Clichois", le journal électoral de Didier Schuller, conseiller général RPR des Hauts-de-Seine, proche de Patrick Balkany, dont il est son député suppléant, et du ministre de l'Intérieur, Charles Pasqua.
 1	-	-	PUNCT	_	_	6	punct	_	_
 2	13	13	NUM	_	NumType=Card	6	mod	_	_
-3	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1994	1994	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	6	punct	_	_
 6	perquisition	perquisition	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -17871,7 +17871,7 @@
 # text = - 15 décembre 1994 : Quarante-huit heures après la perquisition au Clichois, Didier Schuller porte plainte contre le Dr Maréchal, beau-père du juge Éric Halphen.
 1	-	-	PUNCT	_	_	17	punct	_	_
 2	15	15	NUM	_	NumType=Card	17	mod	_	_
-3	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1994	1994	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	17	punct	_	_
 6	Quarante-huit	quarante-huit	NUM	_	NumType=Card	7	det	_	_
@@ -17924,7 +17924,7 @@
 6	proposé	proposer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	11	11	NUM	_	NumType=Card	6	mod	_	_
-9	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	8	udep	_	_
+9	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	8	mod	_	_
 10	1994	1994	NUM	_	NumType=Card	9	mod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	6	punct	_	_
 12	de	de	ADP	_	_	6	comp:obj	_	_
@@ -17951,7 +17951,7 @@
 # text = - 17 décembre 1994 : la PJ enregistre une conversation téléphonique entre Didier Schuller et le Dr Maréchal ;
 1	-	-	PUNCT	_	_	8	punct	_	_
 2	17	17	NUM	_	NumType=Card	8	mod	_	_
-3	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1994	1994	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	8	punct	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -18150,7 +18150,7 @@
 47	,	,	PUNCT	_	_	34	punct	_	_
 48	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
 49	28	28	NUM	_	NumType=Card	34	orphan	_	_
-50	juin	juin	NOUN	_	Gender=Masc|Number=Sing	49	udep	_	_
+50	juin	juin	NOUN	_	Gender=Masc|Number=Sing	49	mod	_	_
 51	1999	1999	NUM	_	NumType=Card	50	mod	_	SpaceAfter=No
 52	.	.	PUNCT	_	Shared=Yes	50	punct	_	_
 
@@ -18403,7 +18403,7 @@
 # text = - 17 mars 1995 : mise en examen de Robert Pandraud, membre RPR du conseil régional d'Ile-de-France.
 1	-	-	PUNCT	_	_	6	punct	_	_
 2	17	17	NUM	_	NumType=Card	6	mod	_	_
-3	mars	mars	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	mars	mars	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1995	1995	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	6	punct	_	_
 6	mise	mise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -18438,7 +18438,7 @@
 # text = - 24 mai 1995 : Georges Pérol, ancien directeur de l'OPAC, et François Ciolina, son ex-adjoint, sont mis en examen.
 1	-	-	PUNCT	_	_	22	punct	_	_
 2	24	24	NUM	_	NumType=Card	22	mod	_	_
-3	mai	mai	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	mai	mai	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1995	1995	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	22	punct	_	_
 6	Georges	Georges	PROPN	_	Gender=Masc|Number=Sing	22	subj@pass	_	_
@@ -18508,7 +18508,7 @@
 # text = - 30 mai 1996 : François Ciolina met en cause Jean Tiberi, maire de Paris.
 1	-	-	PUNCT	_	_	8	punct	_	_
 2	30	30	NUM	_	NumType=Card	8	mod	_	_
-3	mai	mai	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	mai	mai	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1996	1996	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	8	punct	_	_
 6	François	François	PROPN	_	Gender=Masc|Number=Sing	8	subj	_	_
@@ -18528,7 +18528,7 @@
 # text = - 27 juin 1996 : perquisition au domicile de Jean Tiberi, maire de Paris.
 1	-	-	PUNCT	_	_	6	punct	_	_
 2	27	27	NUM	_	NumType=Card	6	mod	_	_
-3	juin	juin	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	juin	juin	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1996	1996	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	2	punct	_	_
 6	perquisition	perquisition	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -18625,7 +18625,7 @@
 # text = - 28 octobre 1999 : l'instruction du juge Éric Halphen est officiellement clôturée.
 1	-	-	PUNCT	_	_	13	punct	_	_
 2	28	28	NUM	_	NumType=Card	13	mod	_	_
-3	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1999	1999	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	13	punct	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
@@ -18670,7 +18670,7 @@
 # text = - 21 septembre 2000 : les révélations posthumes de Jean-Claude Méry (cassette Méry) sont publiées par le journal Le Monde.
 1	-	-	PUNCT	_	_	16	punct	_	_
 2	21	21	NUM	_	NumType=Card	16	mod	_	_
-3	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	2000	2000	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	16	punct	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
@@ -18827,7 +18827,7 @@
 # text = - 4 avril 2001 : le président Jacques Chirac est mis en cause par François Ciolina, qui le désigne comme l'inspirateur d'un système de fraude sur les marchés publics, ne se rend pas chez le juge.
 1	-	-	PUNCT	_	_	10	punct	_	_
 2	4	4	NUM	_	NumType=Card	10	mod	_	_
-3	avril	avril	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	avril	avril	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	2001	2001	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	10	punct	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -18871,7 +18871,7 @@
 # text = - 25 avril 2001 : le juge Éric Halphen se déclare incompétent pour instruire le cas du président Chirac, en raison de son immunité présidentielle.
 1	-	-	PUNCT	_	_	11	punct	_	_
 2	25	25	NUM	_	NumType=Card	11	mod	_	_
-3	avril	avril	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	avril	avril	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	2001	2001	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	11	punct	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -18903,7 +18903,7 @@
 # text = - 4 septembre 2001 : annulation pour vice de forme de tous les actes concernant Jacques Chirac (convocation et saisie de la vidéo de Jean-Claude Méry).
 1	-	-	PUNCT	_	_	6	punct	_	_
 2	4	4	NUM	_	NumType=Card	6	mod	_	_
-3	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	2001	2001	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	6	punct	_	_
 6	annulation	annulation	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -19055,7 +19055,7 @@
 # text = - 19 janvier 2004 : le juge Armand Riberolles clôt ses investigations et l'instruction de l'affaire des HLM de Paris.
 1	-	-	PUNCT	_	_	10	punct	_	_
 2	19	19	NUM	_	NumType=Card	10	mod	_	_
-3	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	2004	2004	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	10	punct	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -19208,13 +19208,13 @@
 18	de	de	ADP	_	_	14	comp:obl	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	23	23	NUM	_	NumType=Card	18	comp:obj	_	_
-21	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	20	udep	_	_
+21	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	20	mod	_	_
 22	2005	2005	NUM	_	NumType=Card	21	mod	_	_
 23-24	au	_	_	_	_	_	_	_	_
 23	à	à	ADP	_	_	18	comp:obl	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	5	5	NUM	_	NumType=Card	23	comp:obj	_	_
-26	avril	avril	NOUN	_	Gender=Masc|Number=Sing	25	udep	_	_
+26	avril	avril	NOUN	_	Gender=Masc|Number=Sing	25	mod	_	_
 27	2006	2006	NUM	_	NumType=Card	26	mod	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -19391,7 +19391,7 @@
 1	-	-	PUNCT	_	_	16	punct	_	_
 2	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	14	14	NUM	_	NumType=Card	16	mod	_	_
-4	mars	mars	NOUN	_	Gender=Masc|Number=Sing	3	udep	_	_
+4	mars	mars	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	_
 5	2006	2006	NUM	_	NumType=Card	4	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
@@ -19539,7 +19539,7 @@
 # text = - 5 avril 2006 : dernier jour du procès des HLM de paris consacré aux plaidoiries.
 1	-	-	PUNCT	_	_	7	punct	_	_
 2	5	5	NUM	_	NumType=Card	7	mod	_	_
-3	avril	avril	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	avril	avril	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	2006	2006	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	7	punct	_	_
 6	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	7	mod	_	_
@@ -19960,7 +19960,7 @@
 2	Questionné	questionner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	mod	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	11	11	NUM	_	NumType=Card	2	mod	_	_
-5	mai	mai	NOUN	_	Gender=Masc|Number=Sing	4	udep	_	_
+5	mai	mai	NOUN	_	Gender=Masc|Number=Sing	4	mod	_	_
 6	1998	1998	NUM	_	NumType=Card	5	mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
 8	Jean-Claude	Jean-Claude	PROPN	_	_	10	subj	_	_
@@ -20087,7 +20087,7 @@
 4	de	de	ADP	_	_	3	udep	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	22	22	NUM	_	NumType=Card	4	comp:obj	_	_
-7	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	6	udep	_	_
+7	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	6	mod	_	_
 8	2000	2000	NUM	_	NumType=Card	7	mod	_	_
 
 # sent_id = frwiki_50.1000_00719
@@ -21118,7 +21118,7 @@
 13	judiciaire	judiciaire	ADJ	_	Number=Sing	12	mod	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	5	5	NUM	_	NumType=Card	8	mod	_	_
-16	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	15	udep	_	_
+16	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	15	mod	_	_
 17	2000	2000	NUM	_	NumType=Card	16	mod	_	SpaceAfter=No
 18	.	.	PUNCT	_	Shared=Yes	8	punct	_	_
 
@@ -21145,7 +21145,7 @@
 # text = Le 11 février 2004, l'ordonnance de renvoi devant le tribunal de 47 prévenus a été signé par le juge Armand Riberolles.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	11	11	NUM	_	NumType=Card	16	mod	_	_
-3	février	février	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	février	février	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	2004	2004	NUM	_	NumType=Card	3	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
@@ -21655,7 +21655,7 @@
 11	de	de	ADP	_	_	10	comp:obl	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	17	17	NUM	_	NumType=Card	11	comp:obj	_	_
-14	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	13	udep	_	_
+14	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	13	mod	_	_
 15	2006	2006	NUM	_	NumType=Card	14	mod	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -21727,7 +21727,7 @@
 11	à	à	ADP	_	_	10	comp:obj	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	22	22	NUM	_	NumType=Card	11	comp:obj	_	_
-14	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	13	udep	_	_
+14	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	13	mod	_	_
 15	2006	2006	NUM	_	NumType=Card	14	mod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	à	à	ADP	_	_	5	mod	_	_
@@ -21758,7 +21758,7 @@
 11	Chirac	Chirac	PROPN	_	Gender=Masc|Number=Sing	10	flat@name	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	13	13	NUM	_	NumType=Card	8	mod	_	_
-14	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	13	udep	_	_
+14	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	13	mod	_	_
 15	2006	2006	NUM	_	NumType=Card	14	mod	_	_
 16	d'	de	ADP	_	_	8	udep	_	SpaceAfter=No
 17	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	comp:obj	_	_
@@ -22322,7 +22322,7 @@
 18	démissionnent	démissionner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	11	11	NUM	_	NumType=Card	18	mod	_	_
-21	mai	mai	NOUN	_	Gender=Masc|Number=Sing	20	udep	_	_
+21	mai	mai	NOUN	_	Gender=Masc|Number=Sing	20	mod	_	_
 22	2006	2006	NUM	_	NumType=Card	21	mod	_	_
 23	[	[	PUNCT	_	_	24	punct	_	SpaceAfter=No
 24	2	2	NUM	_	NumType=Card	18	mod	_	SpaceAfter=No
@@ -22377,7 +22377,7 @@
 # text = Le 14 juillet 2006, le tribunal rend sa décision.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	14	14	NUM	_	NumType=Card	8	mod	_	_
-3	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	2006	2006	NUM	_	NumType=Card	3	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -22535,7 +22535,7 @@
 # text = Le 25 juillet, contrairement à ce que demandait le procureur Stefano Palazzi qui souhaitait une aggravation des peines, la cour fédérale d'appel de la justice sportive les revoit à la baisse.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	25	25	NUM	_	NumType=Card	32	mod	_	_
-3	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	SpaceAfter=No
+3	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	contrairement	contrairement	ADV	_	_	32	mod	_	_
 6	à	à	ADP	_	_	5	comp:obl	_	_
@@ -22642,7 +22642,7 @@
 1	Rebondissement	rebondissement	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	27	27	NUM	_	NumType=Card	1	mod	_	_
-4	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	3	udep	_	_
+4	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	_
 5	2006	2006	NUM	_	NumType=Card	4	mod	_	_
 6	par	par	ADP	_	_	1	udep	_	_
 7	suite	suite	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
@@ -22754,7 +22754,7 @@
 15	Équipe	Équipe	PROPN	_	Number=Sing	0	root	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	5	5	NUM	_	NumType=Card	15	mod	_	_
-18	mai	mai	NOUN	_	Gender=Masc|Number=Sing	17	udep	_	_
+18	mai	mai	NOUN	_	Gender=Masc|Number=Sing	17	mod	_	_
 19	2006	2006	NUM	_	NumType=Card	18	mod	_	_
 
 # sent_id = frwiki_50.1000_00822
@@ -22772,7 +22772,7 @@
 11	Équipe	Équipe	PROPN	_	_	0	root	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	11	11	NUM	_	NumType=Card	11	mod	_	_
-14	mai	mai	NOUN	_	Gender=Masc|Number=Sing	13	udep	_	_
+14	mai	mai	NOUN	_	Gender=Masc|Number=Sing	13	mod	_	_
 15	2006	2006	NUM	_	NumType=Card	14	mod	_	_
 
 # sent_id = frwiki_50.1000_00823
@@ -22792,7 +22792,7 @@
 13	Équipe	Équipe	PROPN	_	Number=Sing	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	14	14	NUM	_	NumType=Card	13	mod	_	_
-16	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	15	udep	_	_
+16	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	15	mod	_	_
 17	2006	2006	NUM	_	NumType=Card	16	mod	_	_
 
 # sent_id = frwiki_50.1000_00824
@@ -23037,7 +23037,7 @@
 13	enlevés	enlever	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	comp:aux@pass	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	22	22	NUM	_	NumType=Card	11	mod	_	_
-16	mars	mars	NOUN	_	Gender=Masc|Number=Sing	15	udep	_	_
+16	mars	mars	NOUN	_	Gender=Masc|Number=Sing	15	mod	_	_
 17	1985	1985	NUM	_	NumType=Card	16	mod	_	_
 18	à	à	ADP	_	_	11	mod	_	_
 19	Beyrouth	Beyrouth	PROPN	_	Gender=Masc|Number=Sing	18	comp:obj	_	SpaceAfter=No
@@ -23218,7 +23218,7 @@
 20	Normandin	Normandin	PROPN	_	_	18	mod	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	27	27	NUM	_	NumType=Card	18	orphan	_	_
-23	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	22	udep	_	_
+23	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	22	mod	_	_
 24	de	de	ADP	_	_	23	udep	_	_
 25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
 26	année	année	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
@@ -23324,7 +23324,7 @@
 # text = Le 13 janvier 2002, à quelques semaines des élections présidentielles, une note de la DST, mystérieusement rendue publique (après un article de L'Est républicain), indique que la libération des otages français au Liban (1985-1988) avait fait l'objet d'un paiement de rançon, ainsi que d'un système de "rétro-commissions" qui aurait profité à Jean-Charles Marchiani et Charles Pasqua.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	13	13	NUM	_	NumType=Card	33	mod	_	_
-3	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	2002	2002	NUM	_	NumType=Card	3	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	à	à	ADP	_	_	33	mod	_	_
@@ -24187,7 +24187,7 @@
 # text = Le 19 avril 1999 un incendie ravage la paillote Chez Francis construite dans l'illégalité en bord de mer, sur le domaine public maritime, plage de Cala d'Orzo au sud du golfe d'Ajaccio en Corse (France).
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	19	19	NUM	_	NumType=Card	7	mod	_	_
-3	avril	avril	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	avril	avril	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1999	1999	NUM	_	NumType=Card	3	mod	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	incendie	incendie	NOUN	_	Gender=Masc|Number=Sing	7	subj	_	_
@@ -24251,7 +24251,7 @@
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	23	23	NUM	_	NumType=Card	19	mod	_	_
-8	avril	avril	NOUN	_	Gender=Masc|Number=Sing	7	udep	_	_
+8	avril	avril	NOUN	_	Gender=Masc|Number=Sing	7	mod	_	_
 9	1999	1999	NUM	_	NumType=Card	8	mod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	7	punct	_	_
 11	certains	certain	DET	_	Gender=Masc|Number=Plur	12	det	_	_
@@ -24284,7 +24284,7 @@
 # text = Le 26 avril, cinq gendarmes et le colonel Mazères sont mis en examen et incarcérés.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	26	26	NUM	_	NumType=Card	11	mod	_	_
-3	avril	avril	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	SpaceAfter=No
+3	avril	avril	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	cinq	cinq	NUM	_	NumType=Card	6	det	_	_
 6	gendarmes	gendarme	NOUN	_	Gender=Masc|Number=Plur	11	subj@pass	_	_
@@ -24376,7 +24376,7 @@
 # text = Le 5 mai 1999 Le préfet de Corse Bernard Bonnet est mis en examen, et écroué, il avance la thèse du complot.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	5	5	NUM	_	NumType=Card	11	mod	_	_
-3	mai	mai	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	mai	mai	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1999	1999	NUM	_	NumType=Card	3	mod	_	_
 5	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	préfet	préfet	NOUN	_	Gender=Masc|Number=Sing	11	subj@pass	_	_
@@ -24463,7 +24463,7 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	procès	procès	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 6	11	11	NUM	_	NumType=Card	2	mod	_	_
-7	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	6	udep	_	_
+7	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	6	mod	_	_
 8	2002	2002	NUM	_	NumType=Card	7	mod	_	_
 9	:	:	PUNCT	_	_	2	punct	_	_
 
@@ -24539,7 +24539,7 @@
 # text = - 18 novembre 2002 : L'affaire en appel
 1	-	-	PUNCT	_	_	7	punct	_	_
 2	18	18	NUM	_	NumType=Card	7	mod	_	_
-3	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	2002	2002	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	7	punct	_	_
 6	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
@@ -24551,7 +24551,7 @@
 # text = - 15 janvier 2003 : Condamnation confirmée en appel
 1	-	-	PUNCT	_	_	6	punct	_	_
 2	15	15	NUM	_	NumType=Card	6	mod	_	_
-3	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	2003	2003	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	6	punct	_	_
 6	Condamnation	condamnation	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -24563,7 +24563,7 @@
 # text = - 13 octobre 2004 : Recours en cassation rejeté
 1	-	-	PUNCT	_	_	6	punct	_	_
 2	13	13	NUM	_	NumType=Card	6	mod	_	_
-3	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	2004	2004	NUM	_	NumType=Card	3	mod	_	_
 5	:	:	PUNCT	_	_	6	punct	_	_
 6	Recours	recours	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -24922,13 +24922,13 @@
 26	de	de	ADP	_	_	24	comp:obl	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	24	24	NUM	_	NumType=Card	26	comp:obj	_	_
-29	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	28	udep	_	_
+29	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	28	mod	_	_
 30	et	et	CCONJ	_	_	31	cc	_	_
 31-32	du	_	_	_	_	_	_	_	_
 31	de	de	ADP	_	_	26	conj	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	5	5	NUM	_	NumType=Card	31	comp:obj	_	_
-34	août	août	NOUN	_	Gender=Masc|Number=Sing	33	udep	_	_
+34	août	août	NOUN	_	Gender=Masc|Number=Sing	33	mod	_	_
 35	2006	2006	NUM	_	NumType=Card	34	mod	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	38	punct	_	_
 37	qui	qui	PRON	_	PronType=Rel	38	subj	_	_
@@ -24981,13 +24981,13 @@
 7	de	de	ADP	_	_	5	udep	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	22	22	NUM	_	NumType=Card	7	comp:obj	_	_
-10	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	9	udep	_	_
+10	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	9	mod	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	7	conj	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	5	5	NUM	_	NumType=Card	12	comp:obj	_	_
-15	août	août	NOUN	_	Gender=Masc|Number=Sing	14	udep	_	_
+15	août	août	NOUN	_	Gender=Masc|Number=Sing	14	mod	_	_
 16	2006	2006	NUM	_	NumType=Card	15	mod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	4	punct	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -25158,7 +25158,7 @@
 # text = Le 6 août, Reuters a mis un terme à sa collaboration avec Adnan Hajj qui se défendait en expliquant avoir voulu retirer des traces de poussières sur les photos originales et que ses conditions de travail, dans un lieu peu éclairé, avaient conduit à ces modifications des photos [7].
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	6	6	NUM	_	NumType=Card	6	mod	_	_
-3	août	août	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	SpaceAfter=No
+3	août	août	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	Reuters	Reuters	PROPN	_	_	6	subj	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -25218,7 +25218,7 @@
 # text = Le 7 août, les neuf cent vingt photos de Hajj sont retirées de la base de données de Reuters [8].
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	7	7	NUM	_	NumType=Card	12	mod	_	_
-3	août	août	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	SpaceAfter=No
+3	août	août	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 6	neuf	neuf	NUM	_	ExtPos=ADJ|Gender=Masc|NumType=Card	9	mod	_	Idiom=Yes
@@ -25541,7 +25541,7 @@
 25	ARHV	ARHV	PROPN	_	_	24	comp:obj	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
 27	8	8	NUM	_	NumType=Card	3	mod	_	_
-28	août	août	NOUN	_	Gender=Masc|Number=Sing	27	udep	_	_
+28	août	août	NOUN	_	Gender=Masc|Number=Sing	27	mod	_	_
 29	2006	2006	NUM	_	NumType=Card	28	mod	_	_
 
 # sent_id = frwiki_50.1000_00942
@@ -25577,7 +25577,7 @@
 27	Images	image	NOUN	_	Gender=Fem|Number=Plur	26	comp:obj	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	_
 29	8	8	NUM	_	NumType=Card	3	mod	_	_
-30	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	29	udep	_	_
+30	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	29	mod	_	_
 31	2006	2006	NUM	_	NumType=Card	30	mod	_	_
 
 # sent_id = frwiki_50.1000_00943
@@ -25645,7 +25645,7 @@
 20	Massachusetts	Massachusetts	PROPN	_	Gender=Masc|Number=Sing	18	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	7	7	NUM	_	NumType=Card	1	mod	_	_
-23	août	août	NOUN	_	Gender=Masc|Number=Sing	22	udep	_	_
+23	août	août	NOUN	_	Gender=Masc|Number=Sing	22	mod	_	_
 24	2006	2006	NUM	_	NumType=Card	23	mod	_	_
 
 # sent_id = frwiki_50.1000_00946
@@ -26308,7 +26308,7 @@
 # text = Le 12 février 1953, l'OIC imposa aux banques le recours au crédit documentaire pour le règlement des importations provenant de l'Union française.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	12	12	NUM	_	NumType=Card	8	mod	_	_
-3	février	février	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	février	février	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1953	1953	NUM	_	NumType=Card	3	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
@@ -26405,7 +26405,7 @@
 5	constituée	constituer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	comp:aux@pass	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	2	2	NUM	_	NumType=Card	4	mod	_	_
-8	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	7	udep	_	_
+8	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	7	mod	_	_
 9	1953	1953	NUM	_	NumType=Card	8	mod	_	_
 10	;	;	PUNCT	_	_	4	punct	_	_
 
@@ -26413,7 +26413,7 @@
 # text = le 12 décembre suivant, L'Assemblée nationale décida de tenir secrets les travaux de cette commission.
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	12	12	NUM	_	NumType=Card	9	mod	_	_
-3	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	2	udep	_	_
+3	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	suivant	suivant	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
