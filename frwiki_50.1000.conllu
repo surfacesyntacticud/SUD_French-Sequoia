@@ -4493,7 +4493,7 @@
 20	à	à	ADP	_	_	19	udep	_	_
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
 22	sorcières	sorcière	NOUN	_	Gender=Fem|Number=Plur	20	comp:obj	_	_
-23	lancé	lancer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Type=Yes|VerbForm=Part|Voice=Pass	19	mod	_	CorrectForm=lancée|CorrectGender=Fem
+23	lancé	lancer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass	19	mod	_	CorrectForm=lancée|CorrectGender=Fem
 24	par	par	ADP	_	_	23	comp:obl@agent	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	cardinal	cardinal	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	_
