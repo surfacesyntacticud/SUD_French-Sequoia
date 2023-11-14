@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = emea-fr-dev_00001
 # text = European Medicines Agency
 1	European	European	X	_	Foreign=Yes	0	root	_	Lang=en
@@ -2589,9 +2588,9 @@
 
 # sent_id = emea-fr-dev_00123
 # text = Une fois que la valeur ACT est supérieure à 225 secondes, des contrôles supplémentaires ne sont pas nécessaires, à condition que la dose de perfusion de 1,75 mg/kg soit donnée correctement.
-1	Une	un	DET	_	Definite=Ind|ExtPos=ADP|Gender=Fem|Number=Sing|PronType=Art	17	mod	_	Idiom=Yes
-2	fois	fois	NOUN	_	Gender=Fem	1	unk	_	InIdiom=Yes
-3	que	que	SCONJ	_	_	1	comp:obj	_	_
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Idiom=Yes
+2	fois	fois	NOUN	_	Gender=Fem	17	mod	_	_
+3	que	que	SCONJ	_	_	2	:obj	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	valeur	valeur	NOUN	_	Gender=Fem|Number=Sing	7	subj	_	_
 6	ACT	ACT	NOUN	_	_	5	mod	_	_
@@ -2600,7 +2599,7 @@
 9	à	à	ADP	_	_	8	comp:obl	_	_
 10	225	225	NUM	_	NumType=Card	11	det	_	_
 11	secondes	seconde	NOUN	_	Gender=Fem|Number=Plur	9	comp:obj	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	1	punct	_	_
+12	,	,	PUNCT	_	_	2	punct	_	_
 13	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
 14	contrôles	contrôle	NOUN	_	Gender=Masc|Number=Plur	17	subj	_	_
 15	supplémentaires	supplémentaire	ADJ	_	Number=Plur	14	mod	_	_

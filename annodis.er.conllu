@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = annodis.er_00001
 # text = Gutenberg
 1	Gutenberg	Gutenberg	PROPN	_	_	0	root	_	_
@@ -2451,10 +2450,10 @@
 8	Jo	Jo	PROPN	_	Gender=Masc|Number=Sing	10	subj	_	SpaceAfter=No
 9	"	"	PUNCT	_	_	8	punct	_	_
 10	élevait	élever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-11	jusqu'	jusque	ADP	_	_	14	det	_	SpaceAfter=No
+11	jusqu'	jusque	ADP	_	_	10	comp:obj	_	SpaceAfter=No
 12	à	à	ADP	_	_	11	comp:obj	_	_
-13	120	120	NUM	_	NumType=Card	12	comp:obj	_	_
-14	pigeons	pigeon	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
+13	120	120	NUM	_	NumType=Card	14	det	_	_
+14	pigeons	pigeon	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	_
 15	voyageurs	voyageur	ADJ	_	Gender=Masc|Number=Plur	14	mod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	21	punct	_	_
 17	et	et	CCONJ	_	_	21	cc	_	_
@@ -2886,10 +2885,10 @@
 17	par	par	ADP	_	_	16	comp:obl@agent	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	police	police	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	21	punct	_	_
-21	le	le	DET	_	Definite=Def|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	13	mod	_	Idiom=Yes
-22	temps	temps	NOUN	_	Gender=Masc|Number=Sing	21	unk	_	InIdiom=Yes
-23	qu'	que	SCONJ	_	_	21	comp:obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	13	punct	_	_
+21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	temps	temps	NOUN	_	Gender=Masc|Number=Sing	13	mod	_	_
+23	qu'	que	SCONJ	_	_	22	udep	_	SpaceAfter=No
 24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	dépanneur	dépanneur	NOUN	_	Gender=Masc|Number=Sing	26	subj@caus	_	_
 26	fasse	faire	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	comp:obj	_	_
