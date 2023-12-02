@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = frwiki_50.1000_00001
 # text = Affaire des caporaux de Souain
 1	Affaire	affaire	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -3697,7 +3696,7 @@
 7	leur	son	DET	_	Number=Sing|Poss=Yes	8	det	_	_
 8	vente	vente	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	rétrocédé	rétrocéder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass	9	comp:aux@pass	_	CorrectFrom=rétrocédéé|CorrectGender=Fem
+10	rétrocédé	rétrocéder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass	9	comp:aux@pass	_	CorrectForm=rétrocédéé|CorrectGender=Fem
 11-12	au	_	_	_	_	_	_	_	_
 11	à	à	ADP	_	_	10	comp:obl	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
