@@ -347,7 +347,7 @@
 39	pilonner	pilonner	VERB	_	VerbForm=Inf	38	comp:obj	_	Subject=OblRaising
 40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	det	_	_
 41	positions	position	NOUN	_	Gender=Fem|Number=Plur	39	comp:obj	_	_
-42	française	français	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	41	mod	_	CorrecForm=françaises|CorrectNumber=Plur
+42	française	français	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	41	mod	_	CorrectForm=françaises|CorrectNumber=Plur
 43	pour	pour	ADP	_	_	39	mod	_	_
 44	obliger	obliger	VERB	_	VerbForm=Inf	43	comp:obj	_	Subject=Instantiated
 45	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	46	det	_	_
