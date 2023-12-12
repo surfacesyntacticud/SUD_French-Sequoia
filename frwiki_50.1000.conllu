@@ -19470,7 +19470,7 @@
 79	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = frwiki_50.1000_00698
-# text = Évoquant dès le début de son réquisitoire , devant la 11e chambre de le tribunal correctionnel de Paris , la question de le financement politique , elle a relevé que " l' instruction n' a pas trouvé de réponse et s' est heurtée à le silence et à les flux financiers de les sociétés off-shore " .
+# text = Évoquant dès le début de son réquisitoire, devant la 11e chambre du tribunal correctionnel de Paris, la question du financement politique, elle a relevé que "l'instruction n'a pas trouvé de réponse et s'est heurtée au silence et aux flux financiers des sociétés off-shore".
 1	Évoquant	évoquer	VERB	_	Tense=Pres|VerbForm=Part	28	mod	_	_
 2	dès	dès	ADP	_	_	1	mod	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_

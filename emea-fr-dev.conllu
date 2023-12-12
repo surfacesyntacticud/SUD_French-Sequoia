@@ -2590,7 +2590,7 @@
 # text = Une fois que la valeur ACT est supérieure à 225 secondes, des contrôles supplémentaires ne sont pas nécessaires, à condition que la dose de perfusion de 1,75 mg/kg soit donnée correctement.
 1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Idiom=Yes
 2	fois	fois	NOUN	_	Gender=Fem	17	mod	_	_
-3	que	que	SCONJ	_	_	2	:obj	_	_
+3	que	que	SCONJ	_	_	2	comp:obj	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	valeur	valeur	NOUN	_	Gender=Fem|Number=Sing	7	subj	_	_
 6	ACT	ACT	NOUN	_	_	5	mod	_	_

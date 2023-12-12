@@ -12174,7 +12174,7 @@
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	pied	pied	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	de	de	ADP	_	_	12	udep	_	_
-14	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	comp:obj	_	_
+14	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	1	punct	_	_
 16	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	18	subj	_	_
 17	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	18	comp:obl	_	_

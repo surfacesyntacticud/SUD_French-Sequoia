@@ -9013,7 +9013,7 @@
 9	:	:	PUNCT	_	_	5	punct	_	_
 
 # sent_id = emea-fr-test_00429
-# text = - si vous êtes traité(e) par Zometa qui contient la même substance active qu' Aclasta .
+# text = - si vous êtes traité(e) par Zometa qui contient la même substance active qu'Aclasta.
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	si	si	SCONJ	_	_	0	root	_	_
 3	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj@pass	_	_
@@ -9745,7 +9745,7 @@
 12	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = emea-fr-test_00464
-# text = Pour la maladie de Paget , Aclasta peut agir pendant plus d' un an et votre médecin vous informera si vous devez être traité(e) de nouveau .
+# text = Pour la maladie de Paget, Aclasta peut agir pendant plus d'un an et votre médecin vous informera si vous devez être traité(e) de nouveau.
 1	Pour	pour	ADP	_	_	8	mod	_	_
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	maladie	maladie	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
@@ -9840,7 +9840,7 @@
 24	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = emea-fr-test_00468
-# text = Votre médecin vous conseillera et décidera pendant combien de temps vous devez être traité(e) par Aclasta .
+# text = Votre médecin vous conseillera et décidera pendant combien de temps vous devez être traité(e) par Aclasta.
 1	Votre	son	DET	_	Number=Sing|Poss=Yes	2	det	_	_
 2	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	4	subj	_	_
 3	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	4	comp:obj	_	_
