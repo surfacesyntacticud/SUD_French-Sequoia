@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = emea-fr-test_00001
 # text = EMEA / H/C/595
 1	EMEA	EMEA	PROPN	_	_	0	root	_	_
@@ -9014,12 +9013,12 @@
 9	:	:	PUNCT	_	_	5	punct	_	_
 
 # sent_id = emea-fr-test_00429
-# text = - si vous êtes traité(e) par Zometa qui contient la même substance active qu'Aclasta.
+# text = - si vous êtes traité(e) par Zometa qui contient la même substance active qu' Aclasta .
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	si	si	SCONJ	_	_	0	root	_	_
 3	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj@pass	_	_
 4	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
-5	traité(e)	traité(e)	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	4	comp:aux@pass	_	_
+5	traité(e)	traiter	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	4	comp:aux@pass	_	_
 6	par	par	ADP	_	_	4	mod	_	_
 7	Zometa	Zometa	PROPN	_	_	6	comp:obj	_	_
 8	qui	qui	PRON	_	PronType=Rel	9	subj	_	_
@@ -9746,7 +9745,7 @@
 12	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = emea-fr-test_00464
-# text = Pour la maladie de Paget, Aclasta peut agir pendant plus d'un an et votre médecin vous informera si vous devez être traité(e) de nouveau.
+# text = Pour la maladie de Paget , Aclasta peut agir pendant plus d' un an et votre médecin vous informera si vous devez être traité(e) de nouveau .
 1	Pour	pour	ADP	_	_	8	mod	_	_
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	maladie	maladie	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
@@ -9770,7 +9769,7 @@
 21	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	22	subj	_	_
 22	devez	devoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
 23	être	être	AUX	_	VerbForm=Inf	22	comp:obj	_	Subject=SubjRaising
-24	traité(e)	traité(e)	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	23	comp:aux@pass	_	_
+24	traité(e)	traiter	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	23	comp:aux@pass	_	_
 25	de	de	ADP	_	ExtPos=ADV	23	mod	_	Idiom=Yes
 26	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	25	unk	_	InIdiom=Yes|SpaceAfter=No
 27	.	.	PUNCT	_	Shared=Yes	19	punct	_	_
@@ -9841,7 +9840,7 @@
 24	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = emea-fr-test_00468
-# text = Votre médecin vous conseillera et décidera pendant combien de temps vous devez être traité(e) par Aclasta.
+# text = Votre médecin vous conseillera et décidera pendant combien de temps vous devez être traité(e) par Aclasta .
 1	Votre	son	DET	_	Number=Sing|Poss=Yes	2	det	_	_
 2	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	4	subj	_	_
 3	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	4	comp:obj	_	_
@@ -9855,7 +9854,7 @@
 11	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	12	subj	_	_
 12	devez	devoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
 13	être	être	AUX	_	VerbForm=Inf	12	comp:obj	_	Subject=SubjRaising
-14	traité(e)	traité(e)	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	13	comp:aux@pass	_	_
+14	traité(e)	traiter	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	13	comp:aux@pass	_	_
 15	par	par	ADP	_	_	13	mod	_	_
 16	Aclasta	Aclasta	PROPN	_	_	15	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	_	Shared=Yes	6	punct	_	_
