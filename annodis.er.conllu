@@ -3901,7 +3901,7 @@
 19	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = annodis.er_00143
-# text = Les Petits Princes , à le nombre de cinq , le roi Pierre ... ont réveillé chez le public des souvenirs d' enfance , le temps d' une représentation .
+# text = Les Petits Princes, au nombre de cinq, le roi Pierre... ont réveillé chez le public des souvenirs d'enfance, le temps d'une représentation.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 2	Petits	petit	ADJ	_	Gender=Masc|Number=Plur	3	mod	_	_
 3	Princes	prince	NOUN	_	Gender=Masc|Number=Plur	15	subj	_	SpaceAfter=No
@@ -13019,7 +13019,7 @@
 15	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = annodis.er_00502
-# text = Le temps de digérer cette expédition forcée et le jeune Belfortain a décidé d' aller porter plainte à la brigade de gendarmerie de Bethoncourt .
+# text = Le temps de digérer cette expédition forcée et le jeune Belfortain a décidé d'aller porter plainte à la brigade de gendarmerie de Bethoncourt.
 1	Le	le	DET	_	Definite=Def|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	temps	temps	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	2	comp:obl	_	_
