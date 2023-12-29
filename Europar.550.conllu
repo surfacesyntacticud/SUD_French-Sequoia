@@ -16962,7 +16962,7 @@
 15	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = Europar.550_00534
-# text = Je tiens à signaler à le Parlement , à l' instar de M. Barón Crespo , que s' il arrive à le parti de M. Gorostiaga de regretter les assassinats terroristes , parce qu' il n' a pas d' autre choix , il ne les condamne pas .
+# text = Je tiens à signaler au Parlement, à l'instar de M. Barón Crespo, que s'il arrive au parti de M. Gorostiaga de regretter les assassinats terroristes, parce qu'il n'a pas d'autre choix, il ne les condamne pas.
 1	Je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	tiens	tenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	à	à	ADP	_	_	2	comp:obl	_	_
