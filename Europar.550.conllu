@@ -3393,7 +3393,7 @@
 3	ici	ici	ADV	_	_	2	mod	_	_
 4	entièrement	entièrement	ADV	_	_	5	mod	_	_
 5	d'	de	ADP	_	ExtPos=ADJ	2	comp:pred	_	Idiom=Yes|SpaceAfter=No
-6	accord	accord	NOUN	_	Gender=Masc|Number=Sing	5	unk	_	InIdiom=Yes
+6	accord	accord	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	InIdiom=Yes
 7	avec	avec	ADP	_	_	5	comp:obl	_	_
 8	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 9	Sakellariou	Sakellariou	PROPN	_	_	8	mod	_	SpaceAfter=No
@@ -6786,7 +6786,7 @@
 3	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
 5	d'	de	ADP	_	ExtPos=ADJ	3	comp:pred	_	Idiom=Yes|SpaceAfter=No
-6	accord	accord	NOUN	_	Gender=Masc|Number=Sing	5	unk	_	InIdiom=Yes
+6	accord	accord	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	InIdiom=Yes
 7	que	que	SCONJ	_	_	3	comp:obl	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Conseil	conseil	NOUN	_	Gender=Masc|Number=Sing	11	subj	_	_
