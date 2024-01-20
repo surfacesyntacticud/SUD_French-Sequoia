@@ -8316,7 +8316,7 @@
 14	entre	entre	ADP	_	_	8	mod	_	_
 15	2	2	NUM	_	NumType=Card	16	det	_	_
 16	°C	°C	NOUN	_	_	14	comp:obj	_	SpaceAfter=No
-17	-	-	CCONJ	_	_	19	cc	_	_
+17	-	-	PUNCT	_	ExtPos=CCONJ	19	cc	_	_
 18	8	8	NUM	_	NumType=Card	19	det	_	_
 19	°C	°C	NOUN	_	_	16	conj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	8	punct	_	_
@@ -8402,7 +8402,7 @@
 34	entre	entre	ADP	_	_	31	mod	_	_
 35	2	2	NUM	_	NumType=Card	36	det	_	_
 36	°C	°C	NOUN	_	_	34	comp:obj	_	SpaceAfter=No
-37	-	-	CCONJ	_	_	39	cc	_	_
+37	-	-	PUNCT	_	ExtPos=CCONJ	39	cc	_	_
 38	8	8	NUM	_	NumType=Card	39	det	_	_
 39	°C	°C	NOUN	_	_	36	conj	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	41	punct	_	_
