@@ -3211,7 +3211,7 @@
 26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
 27	en	en	ADP	_	_	25	udep	_	_
 28	exil	exil	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj	_	_
-29	en	en	ADP	_	_	27	udep	_	_
+29	en	en	ADP	_	_	28	udep	_	_
 30	Côte	côte	NOUN	_	Gender=Fem|Number=Sing	29	comp:obj	_	_
 31	d'	de	ADP	_	_	30	udep	_	SpaceAfter=No
 32	Ivoire	Ivoire	PROPN	_	_	31	comp:obj	_	SpaceAfter=No
