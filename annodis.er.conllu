@@ -688,11 +688,11 @@
 7	lundi	lundi	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 8	de	de	ADP	_	_	1	udep	_	_
 9	14	14	NUM	_	NumType=Card	10	det	_	SpaceAfter=No
-10	h	h	NOUN	_	_	8	comp:obj	_	SpaceAfter=No
+10	h	h	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No
 11	30	30	NUM	_	NumType=Card	10	mod	_	_
 12	à	à	ADP	_	_	8	comp:obl	_	_
 13	18	18	NUM	_	NumType=Card	14	det	_	SpaceAfter=No
-14	h	h	NOUN	_	_	12	comp:obj	_	SpaceAfter=No
+14	h	h	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = annodis.er_00023
@@ -1149,7 +1149,7 @@
 2	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
-5	espace	espace	NOUN	_	Number=Sing	17	subj	_	SpaceAfter=No
+5	espace	espace	NOUN	_	Gender=Masc|Number=Sing	17	subj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	couleurs	couleur	NOUN	_	Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No
@@ -1504,7 +1504,7 @@
 11	Notre-Dame	Notre-Dame	PROPN	_	Gender=Masc|Number=Sing	10	mod	_	_
 12	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	12	comp:aux@tense	_	_
-14	part	part	NOUN	_	Number=Sing	13	comp:obj	_	_
+14	part	part	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 15-16	aux	_	_	_	_	_	_	_	_
 15	à	à	ADP	_	_	13	comp:obl	_	_
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
@@ -1692,7 +1692,7 @@
 11	partir	partir	VERB	_	VerbForm=Inf	10	unk	_	InIdiom=Yes|Subject=Generic
 12	de	de	ADP	_	_	11	comp:obl	_	_
 13	15	15	NUM	_	NumType=Card	14	det	_	SpaceAfter=No
-14	h	h	NOUN	_	_	12	comp:obj	_	SpaceAfter=No
+14	h	h	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	9	punct	_	_
 16	sur	sur	ADP	_	_	9	comp:obl	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -1746,7 +1746,7 @@
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	à	à	ADP	_	_	7	mod	_	_
 12	9	9	NUM	_	NumType=Card	13	det	_	SpaceAfter=No
-13	h	h	NOUN	_	_	11	comp:obj	_	SpaceAfter=No
+13	h	h	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	place	place	NOUN	_	Gender=Fem|Number=Sing	7	mod	_	_
 16	Jacques-Bailleurs	Jacques-Bailleurs	PROPN	_	_	15	mod	_	SpaceAfter=No
@@ -1799,7 +1799,7 @@
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	dès	dès	ADP	_	_	6	mod	_	_
 16	14	14	NUM	_	NumType=Card	17	det	_	SpaceAfter=No
-17	h	h	NOUN	_	_	15	comp:obj	_	SpaceAfter=No
+17	h	h	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	salle	salle	NOUN	_	Gender=Fem|Number=Sing	6	mod	_	_
 20	Jean-Mathieu	Jean-Mathieu	PROPN	_	_	19	mod	_	SpaceAfter=No
@@ -1822,7 +1822,7 @@
 9	partir	partir	VERB	_	VerbForm=Inf	8	unk	_	InIdiom=Yes|Subject=Generic
 10	de	de	ADP	_	_	9	comp:obl	_	_
 11	9	9	NUM	_	NumType=Card	12	det	_	SpaceAfter=No
-12	h	h	NOUN	_	_	10	comp:obj	_	SpaceAfter=No
+12	h	h	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	sur	sur	ADP	_	_	6	mod	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
@@ -1859,7 +1859,7 @@
 11	partir	partir	VERB	_	VerbForm=Inf	10	unk	_	InIdiom=Yes|Subject=Generic
 12	de	de	ADP	_	_	11	comp:obl	_	_
 13	9	9	NUM	_	NumType=Card	14	det	_	SpaceAfter=No
-14	h	h	NOUN	_	_	12	comp:obj	_	SpaceAfter=No
+14	h	h	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	pour	pour	ADP	_	_	6	mod	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
@@ -2200,7 +2200,7 @@
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	à	à	ADP	_	_	3	mod	_	_
 8	15	15	NUM	_	NumType=Card	9	det	_	SpaceAfter=No
-9	h	h	NOUN	_	_	7	comp:obj	_	SpaceAfter=No
+9	h	h	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	en	en	ADP	_	_	3	mod	_	_
 12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
@@ -2752,7 +2752,7 @@
 27	70	70	NUM	_	NumType=Card	28	det	_	_
 28	km	km	NOUN	_	Gender=Masc|Number=Sing	26	comp:obj	_	SpaceAfter=No
 29	/	/	ADP	_	_	28	udep	_	SpaceAfter=No
-30	h	h	NOUN	_	_	29	comp:obj	_	_
+30	h	h	NOUN	_	Gender=Fem|Number=Sing	29	comp:obj	_	_
 31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
 32	moins	moins	ADP	_	_	17	udep	_	_
 33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
@@ -2922,7 +2922,7 @@
 7	peu	peu	ADV	_	_	6	unk	_	InIdiom=Yes
 8	après	après	ADP	_	_	3	mod	_	_
 9	20	20	NUM	_	NumType=Card	10	det	_	SpaceAfter=No
-10	h	h	NOUN	_	_	8	comp:obj	_	SpaceAfter=No
+10	h	h	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = annodis.er_00107
@@ -3005,7 +3005,7 @@
 11	hier	hier	ADV	_	_	3	mod	_	_
 12	vers	vers	ADP	_	_	3	mod	_	_
 13	18	18	NUM	_	NumType=Card	14	det	_	SpaceAfter=No
-14	h	h	NOUN	_	_	12	comp:obj	_	SpaceAfter=No
+14	h	h	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	SpaceAfter=No
 15	15	15	NUM	_	NumType=Card	14	mod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	sur	sur	ADP	_	_	3	mod	_	_
@@ -3497,7 +3497,7 @@
 9	3000	3000	NUM	_	_	8	mod	_	_
 10	à	à	ADP	_	_	18	mod	_	_
 11	20	20	NUM	_	NumType=Card	12	det	_	SpaceAfter=No
-12	h	h	NOUN	_	_	10	comp:obj	_	SpaceAfter=No
+12	h	h	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	SpaceAfter=No
 13	30	30	NUM	_	NumType=Card	12	mod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	10	punct	_	_
 15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -4122,7 +4122,7 @@
 29	classement	classement	NOUN	_	Gender=Masc|Number=Sing	26	comp:obj	_	_
 30	de	de	ADP	_	_	29	udep	_	_
 31	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
-32	hôtel-restaurant	hôtel-restaurant	NOUN	_	Number=Sing	30	comp:obj	_	_
+32	hôtel-restaurant	hôtel-restaurant	NOUN	_	Gender=Masc|Number=Sing	30	comp:obj	_	_
 33	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	Relais	relais	NOUN	_	Gender=Masc|Number=Sing	32	mod	_	_
 35	à	à	ADP	_	_	32	udep	_	_
@@ -4256,7 +4256,7 @@
 14	Schaer	Schaer	PROPN	_	_	13	flat@name	_	SpaceAfter=No
 15	,	,	PUNCT	_	Shared=Yes	17	punct	_	_
 16	jeune	jeune	ADJ	_	Number=Sing	17	mod	_	_
-17	couple	couple	NOUN	_	Number=Sing|Shared=Yes	13	conj:appos	_	_
+17	couple	couple	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	13	conj:appos	_	_
 18	d'	de	ADP	_	_	17	udep	_	SpaceAfter=No
 19	hôteliers	hôtelier	NOUN	_	Gender=Masc|Number=Plur	18	comp:obj	_	_
 20	originaires	originaire	ADJ	_	Number=Plur	19	mod	_	_
@@ -4625,7 +4625,7 @@
 38	ses	son	DET	_	Number=Plur|Poss=Yes	39	det	_	_
 39	copines	copine	NOUN	_	Gender=Fem|Number=Plur	37	comp:obj	_	_
 40	de	de	ADP	_	_	39	udep	_	_
-41	rencontre	rencontre	NOUN	_	Number=Sing	40	comp:obj	_	SpaceAfter=No
+41	rencontre	rencontre	NOUN	_	Gender=Fem|Number=Sing	40	comp:obj	_	SpaceAfter=No
 42	.	.	PUNCT	_	Shared=Yes	28	punct	_	_
 
 # sent_id = annodis.er_00171
@@ -4719,7 +4719,7 @@
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	à	à	ADP	_	_	3	mod	_	_
 10	10	10	NUM	_	NumType=Card	11	det	_	SpaceAfter=No
-11	h	h	NOUN	_	_	9	comp:obj	_	SpaceAfter=No
+11	h	h	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	SpaceAfter=No
 12	30	30	NUM	_	NumType=Card	11	mod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	en	en	ADP	_	_	3	mod	_	_
@@ -5060,7 +5060,7 @@
 15	à	à	ADP	_	_	14	comp:obl	_	_
 16	tous	tout	ADJ	_	Gender=Masc|Number=Plur	18	mod	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
-18	Verdunois	verdunois	NOUN	_	Number=Plur	15	comp:obj	_	SpaceAfter=No
+18	Verdunois	verdunois	NOUN	_	Gender=Masc|Number=Plur	15	comp:obj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	_
 20	ne	ne	ADV	_	Polarity=Neg	21	mod	_	_
 21	correspond	correspondre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5899,7 +5899,7 @@
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	après-midi	après-midi	NOUN	_	Number=Sing	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
-4	rencontre	rencontre	NOUN	_	Number=Sing	2	mod	_	_
+4	rencontre	rencontre	NOUN	_	Gender=Fem|Number=Sing	2	mod	_	_
 5	entre	entre	ADP	_	_	4	udep	_	_
 6	Lorrains	lorrain	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
 7	pour	pour	ADP	_	_	4	udep	_	_
@@ -6487,7 +6487,7 @@
 21	Centre	Centre	NOUN	_	Gender=Masc|Number=Sing	19	conj:appos	_	_
 22	communal	communal	ADJ	_	Gender=Masc|Number=Sing	21	mod	_	_
 23	d'	de	ADP	_	_	21	udep	_	SpaceAfter=No
-24	aide	aide	NOUN	_	Number=Sing	23	comp:obj	_	_
+24	aide	aide	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
 25	sociale	social	ADJ	_	Gender=Fem|Number=Sing	24	mod	_	SpaceAfter=No
 26	)	)	PUNCT	_	_	21	punct	_	_
 27	de	de	ADP	_	_	19	udep	_	_
@@ -7116,7 +7116,7 @@
 8	ultime	ultime	ADJ	_	Number=Sing	9	mod	_	_
 9	délai	délai	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 10	:	:	PUNCT	_	_	11	punct	_	_
-11	fin	fin	NOUN	_	Number=Sing	9	conj:appos	_	_
+11	fin	fin	NOUN	_	Gender=Fem|Number=Sing	9	conj:appos	_	_
 12	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	11	mod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	6	punct	_	_
 14	avec	avec	ADP	_	_	5	mod	_	_
@@ -7529,7 +7529,7 @@
 31-32	aux	_	_	_	_	_	_	_	_
 31	à	à	ADP	_	_	27	mod	_	_
 32	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	33	det	_	_
-33	yeux	oeil	NOUN	_	Gender=Masc|Number=Plur	31	comp:obj	_	_
+33	yeux	œil	NOUN	_	Gender=Masc|Number=Plur	31	comp:obj	_	_
 34	de	de	ADP	_	_	33	udep	_	_
 35	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
 36	histoire	histoire	NOUN	_	Gender=Fem|Number=Sing	34	comp:obj	_	_
@@ -7620,7 +7620,7 @@
 # sent_id = annodis.er_00292
 # text = l'Union nationale des orphelins de déportés et fusillés ;
 1	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	Union	Union	PROPN	_	Number=Sing	0	root	_	_
+2	Union	union	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	nationale	national	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	_
 4-5	des	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	2	udep	_	_
@@ -7666,7 +7666,7 @@
 # sent_id = annodis.er_00295
 # text = l'Union nationale des associations des déportés, internés et familles de disparus ;
 1	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	Union	Union	PROPN	_	Number=Sing	0	root	_	_
+2	Union	union	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	nationale	national	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	_
 4-5	des	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	2	udep	_	_
@@ -7719,7 +7719,7 @@
 # sent_id = annodis.er_00298
 # text = l'Union nationale des déportés, internés et victimes de guerre ;
 1	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	Union	Union	PROPN	_	Number=Sing	0	root	_	_
+2	Union	union	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	nationale	national	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	_
 4-5	des	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	2	udep	_	_
@@ -8089,7 +8089,7 @@
 # sent_id = annodis.er_00310
 # text = L'oeil photographique de Fabrice Gillant tente de percer les mystères du ciel.
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	oeil	oeil	NOUN	_	Gender=Masc|Number=Sing	7	subj	_	_
+2	oeil	œil	NOUN	_	Gender=Masc|Number=Sing	7	subj	_	_
 3	photographique	photographique	ADJ	_	Number=Sing	2	mod	_	_
 4	de	de	ADP	_	_	2	udep	_	_
 5	Fabrice	Fabrice	PROPN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
@@ -8364,13 +8364,13 @@
 8	:	:	PUNCT	_	_	9	punct	_	_
 9	à	à	ADP	_	_	6	mod	_	_
 10	14	14	NUM	_	NumType=Card	11	det	_	SpaceAfter=No
-11	h	h	NOUN	_	_	9	comp:obj	_	SpaceAfter=No
+11	h	h	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	15	15	NUM	_	NumType=Card	14	det	_	SpaceAfter=No
-14	h	h	NOUN	_	_	11	conj	_	_
+14	h	h	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
 15	et	et	CCONJ	_	_	17	cc	_	_
 16	16	16	NUM	_	NumType=Card	17	det	_	SpaceAfter=No
-17	h	h	NOUN	_	_	14	conj	_	SpaceAfter=No
+17	h	h	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = annodis.er_00322
@@ -8397,7 +8397,7 @@
 13	peu	peu	ADV	_	_	14	mod	_	_
 14	avant	avant	ADP	_	_	7	mod	_	_
 15	21	21	NUM	_	NumType=Card	16	det	_	SpaceAfter=No
-16	h	h	NOUN	_	_	14	comp:obj	_	SpaceAfter=No
+16	h	h	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = annodis.er_00324
@@ -8425,7 +8425,7 @@
 2	place	place	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
 3	vers	vers	ADP	_	_	11	mod	_	_
 4	19	19	NUM	_	NumType=Card	5	det	_	SpaceAfter=No
-5	h	h	NOUN	_	_	3	comp:obj	_	SpaceAfter=No
+5	h	h	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	SpaceAfter=No
 6	30	30	NUM	_	NumType=Card	5	mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -9133,7 +9133,7 @@
 10	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	_
 11	de	de	ADP	_	_	4	udep	_	_
 12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
-13	Assemblée	assemblée	NOUN	_	Number=Sing	11	comp:obj	_	_
+13	Assemblée	assemblée	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
 14	nationale	national	ADJ	_	Gender=Fem|Number=Sing	13	mod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	1	punct	_	_
 16	Marie-Jo	Marie-Jo	PROPN	_	_	18	subj	_	_
@@ -9285,7 +9285,7 @@
 23	élection	élection	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	_
 24	à	à	ADP	_	_	23	udep	_	_
 25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
-26	Assemblée	assemblée	NOUN	_	Number=Sing	24	comp:obj	_	_
+26	Assemblée	assemblée	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
 27	en	en	ADP	_	_	23	udep	_	_
 28	1998	1998	NUM	_	NumType=Card	27	comp:obj	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	10	punct	_	_
@@ -9465,7 +9465,7 @@
 26	portant	porter	VERB	_	Tense=Pres|VerbForm=Part	24	mod	_	_
 27	sur	sur	ADP	_	_	26	comp:obl	_	_
 28	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
-29	aide	aide	NOUN	_	Number=Sing	27	comp:obj	_	_
+29	aide	aide	NOUN	_	Gender=Fem|Number=Sing	27	comp:obj	_	_
 30	publique	public	ADJ	_	Gender=Fem|Number=Sing	29	mod	_	_
 31	de	de	ADP	_	_	29	udep	_	_
 32	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
@@ -9605,7 +9605,7 @@
 10	mais	mais	CCONJ	_	_	11	cc	_	_
 11	avec	avec	ADP	_	_	6	conj	_	_
 12	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
-13	sous-sections	sous-section	NOUN	_	Number=Plur	11	comp:obj	_	_
+13	sous-sections	sous-section	NOUN	_	Gender=Fem|Number=Plur	11	comp:obj	_	_
 14	par	par	ADP	_	_	13	udep	_	_
 15	régions	région	NOUN	_	Gender=Fem|Number=Plur	14	comp:obj	_	_
 16	administratives	administratif	ADJ	_	Gender=Fem|Number=Plur	15	mod	_	_
@@ -9858,7 +9858,7 @@
 7	soir	soir	NOUN	_	Gender=Masc|Number=Sing	6	mod	_	_
 8	vers	vers	ADP	_	_	3	mod	_	_
 9	21	21	NUM	_	NumType=Card	10	det	_	SpaceAfter=No
-10	h	h	NOUN	_	_	8	comp:obj	_	SpaceAfter=No
+10	h	h	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No
 11	30	30	NUM	_	NumType=Card	10	mod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -10088,7 +10088,7 @@
 2	peu	peu	ADV	_	_	3	mod	_	_
 3	avant	avant	ADP	_	_	10	mod	_	_
 4	14	14	NUM	_	NumType=Card	5	det	_	SpaceAfter=No
-5	h	h	NOUN	_	_	3	comp:obj	_	SpaceAfter=No
+5	h	h	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 8	jeune	jeune	ADJ	_	Number=Sing	9	mod	_	_
@@ -10409,7 +10409,7 @@
 18	partie	partie	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
 19	de	de	ADP	_	_	16	comp:obl	_	_
 20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
-21	Union	Union	PROPN	_	Number=Sing	19	comp:obj	_	_
+21	Union	union	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	_
 22	nationale	national	ADJ	_	Gender=Fem|Number=Sing	21	mod	_	_
 23-24	des	_	_	_	_	_	_	_	_
 23	de	de	ADP	_	_	21	udep	_	_
@@ -10486,7 +10486,7 @@
 10	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	9	mod	_	_
 11	à	à	ADP	_	_	6	mod	_	_
 12	10	10	NUM	_	NumType=Card	13	det	_	SpaceAfter=No
-13	h	h	NOUN	_	_	11	comp:obj	_	SpaceAfter=No
+13	h	h	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	SpaceAfter=No
 14	30	30	NUM	_	NumType=Card	13	mod	_	_
 15	en	en	ADP	_	_	6	mod	_	_
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
@@ -10694,7 +10694,7 @@
 12	grâce	grâce	NOUN	_	ExtPos=ADV|Gender=Fem|Number=Sing	10	mod	_	_
 13	à	à	ADP	_	_	12	comp:obl	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
-15	aide	aide	NOUN	_	Number=Sing	13	comp:obj	_	_
+15	aide	aide	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 16	d'	de	ADP	_	_	15	udep	_	SpaceAfter=No
 17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	subvention	subvention	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
@@ -11349,7 +11349,7 @@
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 18	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:aux@tense	_	_
-19	part	part	NOUN	_	Number=Sing	18	comp:obj	_	_
+19	part	part	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
 20-21	au	_	_	_	_	_	_	_	_
 20	à	à	ADP	_	_	18	comp:obl	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
@@ -12056,7 +12056,7 @@
 # text = Hier en fin d'après-midi, il a signé un nouveau contrat de deux ans, acceptant finalement les propositions de Jacques Rousselot.
 1	Hier	hier	ADV	_	_	8	mod	_	_
 2	en	en	ADP	_	_	8	mod	_	_
-3	fin	fin	NOUN	_	Number=Sing	2	comp:obj	_	_
+3	fin	fin	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
 4	d'	de	ADP	_	_	3	udep	_	SpaceAfter=No
 5	après-midi	après-midi	NOUN	_	Number=Sing	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
@@ -12273,7 +12273,7 @@
 # text = à mes yeux, ils valent bien ceux que nous pourrions aller chercher ailleurs.
 1	à	à	ADP	_	_	6	mod	_	_
 2	mes	son	DET	_	Number=Plur|Poss=Yes	3	det	_	_
-3	yeux	oeil	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	SpaceAfter=No
+3	yeux	œil	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	ils	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	subj	_	_
 6	valent	valoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -12500,7 +12500,7 @@
 9	soir	soir	NOUN	_	Gender=Masc|Number=Sing	8	mod	_	_
 10	vers	vers	ADP	_	_	6	mod	_	_
 11	17	17	NUM	_	NumType=Card	12	det	_	SpaceAfter=No
-12	h	h	NOUN	_	_	10	comp:obj	_	SpaceAfter=No
+12	h	h	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	SpaceAfter=No
 13	40	40	NUM	_	NumType=Card	12	mod	_	_
 14	à	à	ADP	_	_	6	mod	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -12790,7 +12790,7 @@
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	vers	vers	ADP	_	_	1	mod	_	_
 10	17	17	NUM	_	NumType=Card	11	det	_	SpaceAfter=No
-11	h	h	NOUN	_	_	9	comp:obj	_	SpaceAfter=No
+11	h	h	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	9	punct	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 14	jeune	jeune	ADJ	_	Number=Sing	15	mod	_	_
@@ -13052,7 +13052,7 @@
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	alors	alors	ADV	_	_	2	mod	_	_
 4	20	20	NUM	_	NumType=Card	5	det	_	SpaceAfter=No
-5	h	h	NOUN	_	_	2	comp:pred	_	SpaceAfter=No
+5	h	h	NOUN	_	Gender=Fem|Number=Sing	2	comp:pred	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = annodis.er_00504
@@ -13174,7 +13174,7 @@
 33	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	convocation	convocation	NOUN	_	Gender=Fem|Number=Sing	28	comp:obj	_	_
 35	par	par	ADP	_	_	34	udep	_	_
-36	officier	officier	NOUN	_	Number=Sing	35	comp:obj	_	_
+36	officier	officier	NOUN	_	Gender=Masc|Number=Sing	35	comp:obj	_	_
 37	de	de	ADP	_	_	36	udep	_	_
 38	police	police	NOUN	_	Gender=Fem|Number=Sing	37	comp:obj	_	_
 39	judiciaire	judiciaire	ADJ	_	Number=Sing	38	mod	_	_

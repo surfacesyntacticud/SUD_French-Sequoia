@@ -224,7 +224,7 @@
 26	ayant	avoir	VERB	_	Tense=Pres|VerbForm=Part	12	conj	_	_
 27	sous	sous	ADP	_	_	26	comp:obl	_	_
 28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	det	_	_
-29	yeux	oeil	NOUN	_	Gender=Masc|Number=Plur	27	comp:obj	_	_
+29	yeux	œil	NOUN	_	Gender=Masc|Number=Plur	27	comp:obj	_	_
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	spectacle	spectacle	NOUN	_	Gender=Masc|Number=Sing	26	comp:obj	_	_
 32-33	des	_	_	_	_	_	_	_	_
@@ -1028,7 +1028,7 @@
 18	1923	1923	NUM	_	NumType=Card	17	comp:obj	_	_
 19	avec	avec	ADP	_	_	11	mod	_	_
 20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
-21	aide	aide	NOUN	_	Number=Sing	19	comp:obj	_	_
+21	aide	aide	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	_
 22	de	de	ADP	_	_	21	udep	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	Ligue	Ligue	PROPN	_	Gender=Fem|Number=Sing	22	comp:obj	_	_
@@ -1848,7 +1848,7 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	journal	journal	NOUN	_	Gender=Masc|Number=Sing	13	subj	_	_
 3	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
-4	Évènement	évènement	NOUN	_	Number=Sing	2	mod	_	_
+4	Évènement	évènement	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	4	udep	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -2115,7 +2115,7 @@
 8-9	au	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	7	udep	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Typo=Yes	10	det	_	CorrectForm=les|CorrectNumber=Plur
-10	yeux	oeil	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	SpaceAfter=No
+10	yeux	œil	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	devant	devant	ADP	_	_	4	mod	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -3780,7 +3780,7 @@
 16-17	aux	_	_	_	_	_	_	_	_
 16	à	à	ADP	_	_	14	mod	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
-18	yeux	oeil	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	_
+18	yeux	œil	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	_
 19-20	du	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	18	udep	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -4767,11 +4767,11 @@
 6	Loudun	Loudun	PROPN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 7	:	:	PUNCT	_	_	9	punct	_	_
 8	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
-9	OEil	oeil	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+9	OEil	œil	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 10	d'	de	ADP	_	_	9	udep	_	SpaceAfter=No
 11	Elifas	Elifas	PROPN	_	_	10	comp:obj	_	_
 12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
-13	Alliance	Alliance	NOUN	_	_	9	mod	_	_
+13	Alliance	alliance	NOUN	_	Gender=Fem|Number=Sing	9	mod	_	_
 14	Obscure	obscur	ADJ	_	Gender=Fem|Number=Sing	13	mod	_	_
 15	2002	2002	NUM	_	NumType=Card	13	mod	_	SpaceAfter=No
 16	)	)	PUNCT	_	_	13	punct	_	_
@@ -5140,7 +5140,7 @@
 20	État	état	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	2	punct	_	_
 22	décide	décider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-23	fin	fin	NOUN	_	Number=Sing	22	mod	_	_
+23	fin	fin	NOUN	_	Gender=Fem|Number=Sing	22	mod	_	_
 24	août	août	NOUN	_	Gender=Masc|Number=Sing	23	mod	_	_
 25	que	que	SCONJ	_	_	22	comp:obj	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
@@ -7394,7 +7394,7 @@
 38	séparation	séparation	NOUN	_	Gender=Fem|Number=Sing	36	comp:obj	_	_
 39	de	de	ADP	_	_	38	udep	_	_
 40	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	41	det	_	SpaceAfter=No
-41	Église	Église	NOUN	_	Number=Sing	39	comp:obj	_	_
+41	Église	Église	NOUN	_	Gender=Fem|Number=Sing	39	comp:obj	_	_
 42	et	et	CCONJ	_	_	43	cc	_	_
 43	de	de	ADP	_	_	39	conj	_	_
 44	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	45	det	_	SpaceAfter=No
@@ -7417,7 +7417,7 @@
 60-61	des	_	_	_	_	_	_	_	_
 60	de	de	ADP	_	_	56	udep	_	_
 61	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	62	det	_	_
-62	officiers	officier	NOUN	_	Number=Plur	60	comp:obj	_	_
+62	officiers	officier	NOUN	_	Gender=Masc|Number=Plur	60	comp:obj	_	_
 63	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	64	comp@expl	_	_
 64	rendant	rendre	VERB	_	Tense=Pres|VerbForm=Part	62	mod	_	_
 65	à	à	ADP	_	_	64	comp:obl	_	_
@@ -7477,7 +7477,7 @@
 46	possibles	possible	ADJ	_	Number=Plur	45	mod	_	_
 47	sur	sur	ADP	_	_	45	udep	_	_
 48	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	49	det	_	_
-49	officiers	officier	NOUN	_	Number=Plur	47	comp:obj	_	_
+49	officiers	officier	NOUN	_	Gender=Masc|Number=Plur	47	comp:obj	_	_
 50-51	des	_	_	_	_	_	_	_	_
 50	de	de	ADP	_	_	49	udep	_	_
 51	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	52	det	_	_
@@ -7631,7 +7631,7 @@
 13	en	en	PRON	_	Person=3|PronType=Prs	14	comp:obl	_	_
 14	témoignent	témoigner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	comp:obj	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
-16	appelations	appelation	NOUN	_	Number=Plur	14	subj	_	_
+16	appelations	appelation	NOUN	_	Gender=Fem|Number=Plur	14	subj	_	_
 17	de	de	ADP	_	_	16	udep	_	_
 18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
 19	clérical	clérical	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
@@ -7704,7 +7704,7 @@
 10-11	des	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	6	udep	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
-12	officiers	officier	NOUN	_	Number=Plur	10	comp:obj	_	_
+12	officiers	officier	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 13	:	:	PUNCT	_	_	15	punct	_	_
 14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	Suit	suivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
@@ -7911,7 +7911,7 @@
 # sent_id = frwiki_50.1000_00300
 # text = Les officiers sont alors classés pour la constitution des tableaux d'avancement sur deux listes d'après les renseignements fournis, poétiquement nommées par André Corinthe (les officiers à promouvoir) et Carthage (ceux à écarter des promotions).
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
-2	officiers	officier	NOUN	_	Number=Plur	3	subj@pass	_	_
+2	officiers	officier	NOUN	_	Gender=Masc|Number=Plur	3	subj@pass	_	_
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	alors	alors	ADV	_	_	3	mod	_	_
 5	classés	classer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	_
@@ -7940,7 +7940,7 @@
 27	Corinthe	Corinthe	PROPN	_	_	24	comp:pred	_	_
 28	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
 29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	_
-30	officiers	officier	NOUN	_	Number=Plur	27	conj:appos	_	_
+30	officiers	officier	NOUN	_	Gender=Masc|Number=Plur	27	conj:appos	_	_
 31	à	à	ADP	_	_	30	udep	_	_
 32	promouvoir	promouvoir	VERB	_	VerbForm=Inf	31	comp:obj	_	SpaceAfter=No|Subject=Generic
 33	)	)	PUNCT	_	_	30	punct	_	_
@@ -8220,7 +8220,7 @@
 20	gouvernement	gouvernement	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
 21	d'	de	ADP	_	_	12	mod	_	SpaceAfter=No
 22	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	part	part	NOUN	_	Number=Sing	21	comp:obj	_	SpaceAfter=No
+23	part	part	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	27	punct	_	_
 25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
 26	militaires	militaire	NOUN	_	Gender=Masc|Number=Plur	27	subj	_	_
@@ -8238,7 +8238,7 @@
 38	République	république	NOUN	_	Gender=Fem|Number=Sing	35	comp:obj	_	_
 39	d'	de	ADP	_	_	27	mod	_	SpaceAfter=No
 40	autre	autre	ADJ	_	Number=Sing	41	mod	_	_
-41	part	part	NOUN	_	Number=Sing	39	comp:obj	_	_
+41	part	part	NOUN	_	Gender=Fem|Number=Sing	39	comp:obj	_	_
 42	(	(	PUNCT	_	_	45	punct	_	SpaceAfter=No
 43	ils	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	45	subj	_	_
 44	ne	ne	ADV	_	Polarity=Neg	45	mod	_	_
@@ -8326,7 +8326,7 @@
 120	faire	faire	AUX	_	VerbForm=Inf	119	comp:obj	_	Subject=Generic
 121	surveiller	surveiller	VERB	_	VerbForm=Inf	120	comp:aux@caus	_	Subject=Generic
 122	ses	son	DET	_	Number=Plur|Poss=Yes	123	det	_	_
-123	officiers	officier	NOUN	_	Number=Plur	121	comp:obj	_	SpaceAfter=No
+123	officiers	officier	NOUN	_	Gender=Masc|Number=Plur	121	comp:obj	_	SpaceAfter=No
 124	,	,	PUNCT	_	_	125	punct	_	_
 125	y	y	PRON	_	ExtPos=ADP|Person=3|PronType=Prs	120	mod	_	Idiom=Yes
 126	compris	compris	ADJ	_	Gender=Masc	125	unk	_	InIdiom=Yes
@@ -8558,7 +8558,7 @@
 57-58	des	_	_	_	_	_	_	_	_
 57	de	de	ADP	_	_	56	udep	_	_
 58	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	59	det	_	_
-59	Églises	Église	NOUN	_	Number=Plur	57	comp:obj	_	_
+59	Églises	Église	NOUN	_	Gender=Fem|Number=Plur	57	comp:obj	_	_
 60	et	et	CCONJ	_	_	61	cc	_	_
 61	de	de	ADP	_	_	57	conj	_	_
 62	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	63	det	_	SpaceAfter=No
@@ -8662,7 +8662,7 @@
 # sent_id = frwiki_50.1000_00312
 # text = Les officiers considérés comme "réactionnaires et cléricaux", généralement issus de familles traditionalistes, ont été souvent écartés des postes importants de l'armée, quelquefois au profit de carriéristes médiocres issus des loges ou de la clientèle des partis de gauche, et la France a dû se passer d'eux pendant la Première Guerre mondiale, en tant qu'officiers d'active à tout le moins.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
-2	officiers	officier	NOUN	_	Number=Plur	17	subj@pass	_	_
+2	officiers	officier	NOUN	_	Gender=Masc|Number=Plur	17	subj@pass	_	_
 3	considérés	considérer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	mod	_	_
 4	comme	comme	ADP	_	_	3	comp:pred	_	_
 5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
@@ -8732,7 +8732,7 @@
 65	en	en	ADP	_	ExtPos=ADP	56	mod	_	Idiom=Yes
 66	tant	tant	ADV	_	_	65	unk	_	InIdiom=Yes
 67	qu'	que	SCONJ	_	_	66	unk	_	InIdiom=Yes|SpaceAfter=No
-68	officiers	officier	NOUN	_	Number=Plur	65	comp:obj	_	_
+68	officiers	officier	NOUN	_	Gender=Masc|Number=Plur	65	comp:obj	_	_
 69	d'	de	ADP	_	_	68	udep	_	SpaceAfter=No
 70	active	active	NOUN	_	Gender=Fem|Number=Sing	69	comp:obj	_	_
 71	à	à	ADP	_	ExtPos=ADV	65	mod	_	Idiom=Yes
@@ -8760,7 +8760,7 @@
 15	incompétence	incompétence	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 16	de	de	ADP	_	_	15	udep	_	_
 17	ces	ce	DET	_	Number=Plur|PronType=Dem	18	det	_	_
-18	officiers	officier	NOUN	_	Number=Plur	16	comp:obj	_	_
+18	officiers	officier	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	_
 19	dont	dont	PRON	_	PronType=Rel	23	udep	_	_
 20	près	près	ADV	_	ExtPos=PRON	27	subj@pass	_	_
 21	de	de	ADP	_	_	20	comp:obl	_	_
@@ -9122,7 +9122,7 @@
 36-37	aux	_	_	_	_	_	_	_	_
 36	à	à	ADP	_	_	35	mod	_	_
 37	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	38	det	_	_
-38	yeux	oeil	NOUN	_	Gender=Masc|Number=Plur	36	comp:obj	_	_
+38	yeux	œil	NOUN	_	Gender=Masc|Number=Plur	36	comp:obj	_	_
 39-40	des	_	_	_	_	_	_	_	_
 39	de	de	ADP	_	_	38	udep	_	_
 40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	det	_	_
@@ -9679,7 +9679,7 @@
 5	Sirven	Sirven	PROPN	_	_	4	flat@name	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	son	son	DET	_	Number=Sing|Poss=Yes	8	det	_	_
-8	officier	officier	NOUN	_	Number=Sing	4	conj:appos	_	_
+8	officier	officier	NOUN	_	Gender=Masc|Number=Sing	4	conj:appos	_	_
 9	traitant	traiter	VERB	_	Tense=Pres|VerbForm=Part	8	mod	_	_
 10	chez	chez	ADP	_	_	8	udep	_	_
 11	Elf	Elf	PROPN	_	_	10	comp:obj	_	_
@@ -9864,7 +9864,7 @@
 13	1991	1991	NUM	_	NumType=Card	12	mod	_	_
 14	de	de	ADP	_	_	5	udep	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	part	part	NOUN	_	Number=Sing	14	comp:obj	_	_
+16	part	part	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
 17	de	de	ADP	_	_	16	udep	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	direction	direction	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
@@ -10393,7 +10393,7 @@
 1	-	-	PUNCT	_	_	12	punct	_	_
 2	Dans	dans	ADP	_	_	12	udep	_	_
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
-4	ombre	ombre	NOUN	_	Number=Sing	2	comp:obj	_	_
+4	ombre	ombre	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	4	udep	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -10551,7 +10551,7 @@
 39	pour	pour	ADP	_	_	32	mod	_	_
 40	préparer	préparer	VERB	_	VerbForm=Inf	39	comp:obj	_	Subject=Instantiated
 41	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	42	det	_	_
-42	rencontres	rencontre	NOUN	_	Number=Plur	40	comp:obj	_	_
+42	rencontres	rencontre	NOUN	_	Gender=Fem|Number=Plur	40	comp:obj	_	_
 43	d'	de	ADP	_	_	42	udep	_	SpaceAfter=No
 44	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	43	comp:obj	_	_
 45	1990	1990	NUM	_	NumType=Card	44	mod	_	_
@@ -10719,7 +10719,7 @@
 1	-	-	PUNCT	_	_	12	punct	_	_
 2	Dans	dans	ADP	_	_	12	udep	_	_
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
-4	ombre	ombre	NOUN	_	Number=Sing	2	comp:obj	_	_
+4	ombre	ombre	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	4	udep	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -11348,9 +11348,9 @@
 15	alors	alors	ADV	_	_	14	mod	_	_
 16	de	de	ADP	_	_	14	comp:obl	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	part	part	NOUN	_	Number=Sing	16	comp:obj	_	_
+18	part	part	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
 19	d'	de	ADP	_	_	18	udep	_	SpaceAfter=No
-20	officiers	officier	NOUN	_	Number=Plur	19	comp:obj	_	_
+20	officiers	officier	NOUN	_	Gender=Masc|Number=Plur	19	comp:obj	_	_
 21	supérieurs	supérieur	ADJ	_	Gender=Masc|Number=Plur	20	mod	_	_
 22	français	français	ADJ	_	Gender=Masc	20	mod	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	_
@@ -11423,7 +11423,7 @@
 24	vraisemblablement	vraisemblablement	ADV	_	_	25	mod	_	_
 25	à	à	ADP	_	_	20	mod	_	_
 26	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	27	det	_	_
-27	fins	fin	NOUN	_	Number=Plur	25	comp:obj	_	_
+27	fins	fin	NOUN	_	Gender=Fem|Number=Plur	25	comp:obj	_	_
 28	de	de	ADP	_	_	27	udep	_	_
 29	corruption	corruption	NOUN	_	Gender=Fem|Number=Sing	28	comp:obj	_	_
 30	et	et	CCONJ	_	_	31	cc	_	_
@@ -12765,7 +12765,7 @@
 30	pénale	pénal	ADJ	_	Gender=Fem|Number=Sing	29	mod	_	_
 31	qui	qui	PRON	_	PronType=Rel	32	subj	_	_
 32	met	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	mod@relcl	_	_
-33	fin	fin	NOUN	_	Number=Sing	32	comp:obj	_	_
+33	fin	fin	NOUN	_	Gender=Fem|Number=Sing	32	comp:obj	_	_
 34	à	à	ADP	_	_	32	comp:obl	_	_
 35	leurs	son	DET	_	Number=Plur|Poss=Yes	36	det	_	_
 36	investigations	investigation	NOUN	_	Gender=Fem|Number=Plur	34	comp:obj	_	SpaceAfter=No
@@ -13030,7 +13030,7 @@
 7-8	du	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	6	udep	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	gouvenement	gouvernement	NOUN	_	Number=Sing	7	comp:obj	_	_
+9	gouvenement	gouvernement	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	7	comp:obj	_	CorrectForm=gouvernement
 10	de	de	ADP	_	_	9	udep	_	_
 11	Jean-Pierre	Jean-Pierre	PROPN	_	_	10	comp:obj	_	_
 12	Raffarin	Raffarin	PROPN	_	_	11	flat@name	_	_
@@ -15451,7 +15451,7 @@
 12	sein	sein	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	de	de	ADP	_	_	12	udep	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
-15	office	office	NOUN	_	Number=Sing|Shared=Yes	13	comp:obj	_	_
+15	office	office	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	13	comp:obj	_	_
 16	HLM	HLM	NOUN	_	_	15	mod	_	_
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	15	udep	_	_
@@ -15706,7 +15706,7 @@
 13	marchés	marché	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	_
 14	de	de	ADP	_	_	13	udep	_	_
 15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
-16	office	office	NOUN	_	Number=Sing	14	comp:obj	_	_
+16	office	office	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
 17	HLM	HLM	NOUN	_	_	16	mod	_	_
 18-19	des	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	16	udep	_	_
@@ -15775,7 +15775,7 @@
 16	siège	siège	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
 17	de	de	ADP	_	_	16	udep	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
-19	office	office	NOUN	_	Number=Sing	17	comp:obj	_	_
+19	office	office	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
 20	HLM	HLM	NOUN	_	_	19	mod	_	_
 21-22	des	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	19	udep	_	_
@@ -15874,7 +15874,7 @@
 12	locaux	local	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 13	de	de	ADP	_	_	12	udep	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
-15	office	office	NOUN	_	Number=Sing	13	comp:obj	_	_
+15	office	office	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 16	HLM	HLM	NOUN	_	_	15	mod	_	_
 17	départemental	départemental	ADJ	_	Gender=Masc|Number=Sing	15	mod	_	_
 18-19	des	_	_	_	_	_	_	_	_
@@ -16060,7 +16060,7 @@
 2	avril	avril	NOUN	_	Gender=Masc|Number=Sing	5	mod	_	_
 3	2004	2004	NUM	_	NumType=Card	2	mod	_	_
 4	:	:	PUNCT	_	_	5	punct	_	_
-5	Fin	fin	NOUN	_	Number=Sing	0	root	_	_
+5	fin	fin	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 6	de	de	ADP	_	_	5	udep	_	_
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	enquête	enquête	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	SpaceAfter=No
@@ -16425,7 +16425,7 @@
 # text = Dans son ordonnance de renvoi pour le procès de 49 prévenus qui s'est ouvert en janvier 2006, le juge d'instruction Armand Riberolles, successeur du juge Éric Halphen, écrit que "l'instruction n'est pas parvenue à établir formellement l'implication personnelle de responsables au sein de l'appareil politique du RPR", tout en relevant qu'"un grand nombre de témoignages, corroborés par divers éléments factuels, concourent à établir que Jean-Claude Méry avait reçu mission d'assurer le financement des activités politiques de ce parti en collectant des fonds, notamment auprès des entreprises fournisseurs de l'OPAC." (cité par Le Monde du 25/01/06).
 1	Dans	dans	ADP	_	_	34	mod	_	_
 2	son	son	DET	_	Number=Sing|Poss=Yes	3	det	_	_
-3	ordonnance	ordonnance	NOUN	_	Number=Sing	1	comp:obj	_	_
+3	ordonnance	ordonnance	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
 4	de	de	ADP	_	_	3	udep	_	_
 5	renvoi	renvoi	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 6	pour	pour	ADP	_	_	3	udep	_	_
@@ -16780,7 +16780,7 @@
 52	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	53	det	_	SpaceAfter=No
 53	OPAC	OPAC	PROPN	_	Number=Sing	51	comp:obj	_	_
 54	(	(	PUNCT	_	_	55	punct	_	SpaceAfter=No
-55	Office	office	NOUN	_	Number=Sing	53	conj:appos	_	_
+55	Office	office	NOUN	_	Gender=Masc|Number=Sing	53	conj:appos	_	_
 56	public	public	ADJ	_	Gender=Masc|Number=Sing	55	mod	_	_
 57	d'	de	ADP	_	_	55	udep	_	SpaceAfter=No
 58	aménagement	aménagement	NOUN	_	Gender=Masc|Number=Sing	57	comp:obj	_	_
@@ -17007,7 +17007,7 @@
 23	tantôt	tantôt	CCONJ	_	_	24	cc	_	_
 24	à	à	ADP	_	_	19	mod	_	_
 25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
-26	office	office	NOUN	_	Number=Sing	24	comp:obj	_	_
+26	office	office	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	_
 27	HLM	HLM	NOUN	_	_	26	mod	_	_
 28	de	de	ADP	_	_	26	udep	_	_
 29	Paris	Paris	PROPN	_	Gender=Masc|Number=Sing	28	comp:obj	_	SpaceAfter=No
@@ -17015,7 +17015,7 @@
 31	tantôt	tantôt	CCONJ	_	_	32	cc	_	_
 32	à	à	ADP	_	_	24	conj	_	_
 33	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
-34	office	office	NOUN	_	Number=Sing	32	comp:obj	_	_
+34	office	office	NOUN	_	Gender=Masc|Number=Sing	32	comp:obj	_	_
 35	HLM	HLM	NOUN	_	_	34	mod	_	_
 36-37	des	_	_	_	_	_	_	_	_
 36	de	de	ADP	_	_	34	udep	_	_
@@ -17249,7 +17249,7 @@
 7	salaires	salaire	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
 8	de	de	ADP	_	_	5	comp:obl	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	part	part	NOUN	_	Number=Sing	8	comp:obj	_	_
+10	part	part	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 11	de	de	ADP	_	_	10	udep	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	SAR	SAR	PROPN	_	Gender=Fem|Number=Sing	11	comp:obj	_	SpaceAfter=No
@@ -17773,7 +17773,7 @@
 18	,	,	PUNCT	_	_	14	punct	_	_
 19	et	et	CCONJ	_	_	21	cc	_	_
 20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
-21	office	office	NOUN	_	Number=Sing	12	conj	_	_
+21	office	office	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	_
 22	HLM	HLM	NOUN	_	_	21	mod	_	_
 23-24	des	_	_	_	_	_	_	_	_
 23	de	de	ADP	_	_	21	udep	_	_
@@ -17826,7 +17826,7 @@
 18	publics	public	ADJ	_	Gender=Masc|Number=Plur	17	mod	_	_
 19	à	à	ADP	_	_	14	udep	_	_
 20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
-21	office	office	NOUN	_	Number=Sing	19	comp:obj	_	_
+21	office	office	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
 22	HLM	HLM	NOUN	_	_	21	mod	_	_
 23-24	des	_	_	_	_	_	_	_	_
 23	de	de	ADP	_	_	21	udep	_	_
@@ -18116,7 +18116,7 @@
 17	dirigeants	dirigeant	NOUN	_	Gender=Masc|Number=Plur	9	conj@emb	_	_
 18	de	de	ADP	_	_	17	udep	_	_
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
-20	office	office	NOUN	_	Number=Sing	18	comp:obj	_	_
+20	office	office	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
 21	HLM	HLM	NOUN	_	_	20	mod	_	_
 22	de	de	ADP	_	_	20	udep	_	_
 23	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	22	unk@scrap	_	_
@@ -18356,7 +18356,7 @@
 30	publics	public	ADJ	_	Gender=Masc|Number=Plur	29	mod	_	_
 31	à	à	ADP	_	_	12	comp:obl	_	_
 32	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
-33	office	office	NOUN	_	Number=Sing	31	comp:obj	_	_
+33	office	office	NOUN	_	Gender=Masc|Number=Sing	31	comp:obj	_	_
 34	HLM	HLM	NOUN	_	_	33	mod	_	_
 35-36	des	_	_	_	_	_	_	_	_
 35	de	de	ADP	_	_	33	udep	_	_
@@ -19308,7 +19308,7 @@
 15	général	général	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	_
 16	de	de	ADP	_	_	14	udep	_	_
 17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
-18	Office	office	NOUN	_	Number=Sing	16	comp:obj	_	_
+18	Office	office	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 19	public	public	ADJ	_	Gender=Masc|Number=Sing	18	mod	_	_
 20	HLM	HLM	NOUN	_	_	18	mod	_	_
 21	de	de	ADP	_	_	18	udep	_	_
@@ -19418,7 +19418,7 @@
 27	procès	procès	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	_
 28	de	de	ADP	_	_	27	udep	_	_
 29	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
-30	office	office	NOUN	_	Number=Sing	28	comp:obj	_	_
+30	office	office	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	_
 31	public	public	ADJ	_	Gender=Masc|Number=Sing	30	mod	_	_
 32	HLM	HLM	NOUN	_	_	30	mod	_	_
 33	de	de	ADP	_	_	30	udep	_	_
@@ -21148,7 +21148,7 @@
 4	2004	2004	NUM	_	NumType=Card	3	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
-7	ordonnance	ordonnance	NOUN	_	Number=Sing	16	subj@pass	_	_
+7	ordonnance	ordonnance	NOUN	_	Gender=Fem|Number=Sing	16	subj@pass	_	_
 8	de	de	ADP	_	_	7	udep	_	_
 9	renvoi	renvoi	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 10	devant	devant	ADP	_	_	9	udep	_	_
@@ -21171,7 +21171,7 @@
 # text = Dans son ordonnance, Jacques Chirac est évoqué a plusieurs reprises, mais le juge ne peut pas poursuivre le président de la république qui est protégé par son immunité.
 1	Dans	dans	ADP	_	_	7	mod	_	_
 2	son	son	DET	_	Number=Sing|Poss=Yes	3	det	_	_
-3	ordonnance	ordonnance	NOUN	_	Number=Sing	1	comp:obj	_	SpaceAfter=No
+3	ordonnance	ordonnance	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	Jacques	Jacques	PROPN	_	Gender=Masc|Number=Sing	7	subj@pass	_	_
 6	Chirac	Chirac	PROPN	_	Gender=Masc|Number=Sing	5	flat@name	_	_
@@ -21329,7 +21329,7 @@
 3	Roussin	Roussin	PROPN	_	_	2	flat@name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	reconnu	reconnaître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	mod	_	_
-6	coupable	coupable	NOUN	_	Number=Sing	5	comp:pred	_	_
+6	coupable	coupable	ADJ	_	Number=Sing	5	comp:pred	_	_
 7	de	de	ADP	_	_	6	udep	_	_
 8	complicité	complicité	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 9	et	et	CCONJ	_	_	10	cc	_	_
@@ -22069,7 +22069,7 @@
 35	arbitres	arbitre	NOUN	_	Number=Plur	33	comp:obj	_	_
 36	pour	pour	ADP	_	_	33	mod	_	_
 37	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	38	det	_	_
-38	rencontres	rencontre	NOUN	_	Number=Plur	36	comp:obj	_	_
+38	rencontres	rencontre	NOUN	_	Gender=Fem|Number=Plur	36	comp:obj	_	_
 39	de	de	ADP	_	_	38	udep	_	_
 40	championnat	championnat	NOUN	_	Gender=Masc|Number=Sing	39	comp:obj	_	_
 41	entre	entre	ADP	_	_	25	mod	_	_
@@ -22412,7 +22412,7 @@
 20	ne	ne	ADV	_	Polarity=Neg	21	mod	_	_
 21	pourra	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	_
 22	prendre	prendre	VERB	_	VerbForm=Inf	21	comp:obj	_	Subject=SubjRaising
-23	part	part	NOUN	_	Number=Sing	22	comp:obj	_	_
+23	part	part	NOUN	_	Gender=Fem|Number=Sing	22	comp:obj	_	_
 24	à	à	ADP	_	_	22	comp:obl	_	_
 25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
 26	édition	édition	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
@@ -23131,7 +23131,7 @@
 18	fin	fin	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
 19	de	de	ADP	_	_	18	udep	_	_
 20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
-21	aide	aide	NOUN	_	Number=Sing	19	comp:obj	_	_
+21	aide	aide	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	_
 22	française	français	ADJ	_	Gender=Fem|Number=Sing	21	mod	_	_
 23	à	à	ADP	_	_	21	udep	_	_
 24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
@@ -26140,7 +26140,7 @@
 # text = Révélation et fin
 1	Révélation	révélation	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	et	et	CCONJ	_	_	3	cc	_	_
-3	fin	fin	NOUN	_	Number=Sing	1	conj	_	_
+3	fin	fin	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
 
 # sent_id = frwiki_50.1000_00963
 # text = L'affaire fut mise à jour en 1950, mais ne suscita qu'un intérêt limité chez les parlementaires, jusqu'en 1952-1953 où l'on se rendit compte que le Viet Minh en profitait également, et qu'une partie des armes tournées contre les soldats français (y compris tiralleurs sénégalais et marocains) avaient donc été acquises grâce à ce trafic entretenu par l'avidité de certains.
@@ -26242,7 +26242,7 @@
 8	,	,	PUNCT	_	_	4	punct	_	_
 9	y	y	PRON	_	Person=3|PronType=Prs	10	comp:obl	_	_
 10	mit	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-11	fin	fin	NOUN	_	Number=Sing	10	comp:obj	_	_
+11	fin	fin	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 12	en	en	ADP	_	_	10	mod	_	_
 13	1953	1953	NUM	_	NumType=Card	12	comp:obj	_	_
 14	en	en	ADP	_	_	10	mod	_	_
@@ -26334,7 +26334,7 @@
 24	provenant	provenir	VERB	_	Tense=Pres|VerbForm=Part	23	mod	_	_
 25	de	de	ADP	_	_	24	comp:obl	_	_
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
-27	Union	Union	PROPN	_	Number=Sing	25	comp:obj	_	_
+27	Union	union	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	_
 28	française	français	ADJ	_	Gender=Fem|Number=Sing	27	mod	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -26416,7 +26416,7 @@
 4	suivant	suivant	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
-7	Assemblée	assemblée	NOUN	_	Number=Sing	9	subj	_	_
+7	Assemblée	assemblée	NOUN	_	Gender=Fem|Number=Sing	9	subj	_	_
 8	nationale	national	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	_
 9	décida	décider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 10	de	de	ADP	_	_	9	comp:obj	_	_
