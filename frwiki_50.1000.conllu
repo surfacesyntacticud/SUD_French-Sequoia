@@ -2745,7 +2745,7 @@
 14	Guardian	Guardian	X	_	Foreign=Yes	13	flat@foreign	_	Lang=en|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	October	October	NOUN	_	_	13	parataxis	_	_
-17	4	4	NUM	_	NumType=Card	16	flat@foreign	_	SpaceAfter=No
+17	4	4	NUM	_	NumType=Card	16	mod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	2001	2001	NUM	_	NumType=Card	16	parataxis	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	6	punct	_	_
@@ -2772,7 +2772,7 @@
 18	Observer	Observer	X	_	Foreign=Yes	17	flat@foreign	_	Lang=en|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	August	August	X	_	Foreign=Yes	17	parataxis	_	Lang=en
-21	17	17	NUM	_	NumType=Card	20	flat@foreign	_	SpaceAfter=No
+21	17	17	NUM	_	NumType=Card	20	mod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	2003	2003	NUM	_	NumType=Card	20	parataxis	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	4	punct	_	_
@@ -2844,8 +2844,8 @@
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	en	en	X	_	_	5	parataxis	_	SpaceAfter=No
 4	)	)	PUNCT	_	_	3	punct	_	_
-5	Ameen	Ameen	PROPN	_	_	0	root	_	_
-6	Izzadeen	Izzadeen	PROPN	_	_	5	flat@name	_	SpaceAfter=No
+5	Ameen	Ameen	X	_	Foreign=Yes	0	root	_	Lang=en
+6	Izzadeen	Izzadeen	X	_	Foreign=Yes	5	flat@name	_	Lang=en|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	Lies	Lies	X	_	Foreign=Yes	6	flat@foreign	_	Lang=en|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
@@ -2857,8 +2857,8 @@
 15	Daily	Daily	X	_	Foreign=Yes	13	flat@foreign	_	Lang=en
 16	Mirror	Mirror	X	_	Foreign=Yes	15	flat@foreign	_	Lang=en
 17	of	of	X	_	Foreign=Yes	16	flat@foreign	_	Lang=en
-18	Sri	Sri	PROPN	_	Gender=Fem|Number=Sing	17	flat@foreign	_	_
-19	Lanka	Lanka	PROPN	_	_	18	flat@name	_	SpaceAfter=No
+18	Sri	Sri	X	_	Foreign=Yes	17	flat@foreign	_	Lang=en
+19	Lanka	Lanka	X	_	Foreign=Yes	18	flat@name	_	Lang=en|SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
 21	2001	2001	NUM	_	NumType=Card	19	parataxis	_	_
 22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
@@ -2871,8 +2871,8 @@
 29	,	,	PUNCT	_	_	21	punct	_	_
 30	accessed	accessed	X	_	Foreign=Yes	21	mod	_	Lang=en
 31	27	27	NUM	_	NumType=Card	30	parataxis	_	_
-32	Feb	Feb	NOUN	_	_	31	flat@foreign	_	_
-33	2006	2006	NUM	_	NumType=Card	32	flat@foreign	_	SpaceAfter=No
+32	Feb	Feb	X	_	Foreign=Yes	31	mod	_	Lang=en
+33	2006	2006	NUM	_	NumType=Card	32	mod	_	SpaceAfter=No
 34	..	..	PUNCT	_	_	5	punct	_	_
 
 # sent_id = frwiki_50.1000_00116
@@ -2909,7 +2909,7 @@
 5	Ian	Ian	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 6	Urbina	Urbina	PROPN	_	_	5	flat@name	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
-8	HBO	HBO	PROPN	_	_	5	parataxis	_	_
+8	HBO	HBO	X	_	Foreign=Yes	5	parataxis	_	Lang=en
 9	adds	adds	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en
 10	disclaimer	disclaimer	X	_	Foreign=Yes	9	flat@foreign	_	Lang=en
 11	to	to	X	_	Foreign=Yes	10	flat@foreign	_	Lang=en
@@ -2921,7 +2921,7 @@
 17	Times	Times	PROPN	_	_	16	flat@name	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	Nov	Nov	NOUN	_	_	16	parataxis	_	_
-20	13	13	NUM	_	NumType=Card	19	flat@foreign	_	SpaceAfter=No
+20	13	13	NUM	_	NumType=Card	19	mod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	20	punct	_	_
 22	2002	2002	NUM	_	NumType=Card	19	parataxis	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	5	punct	_	_
@@ -4646,7 +4646,7 @@
 7	The	The	X	_	Foreign=Yes	3	conj:appos	_	Lang=en
 8	devils	devils	X	_	Foreign=Yes	7	flat@foreign	_	Lang=en
 9	of	of	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en
-10	Loudun	Loudun	PROPN	_	Gender=Masc|Number=Sing	9	flat@foreign	_	SpaceAfter=No
+10	Loudun	Loudun	X	_	Foreign=Yes	9	flat@foreign	_	Lang=en|SpaceAfter=No
 11	)	)	PUNCT	_	_	7	punct	_	_
 12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	1952	1952	NUM	_	NumType=Card	3	mod	_	SpaceAfter=No
@@ -4736,7 +4736,7 @@
 2	The	The	X	_	Foreign=Yes	0	root	_	Lang=en
 3	devils	devils	X	_	Foreign=Yes	2	flat@foreign	_	Lang=en
 4	of	of	X	_	Foreign=Yes	3	flat@foreign	_	Lang=en
-5	Loudun	Loudun	PROPN	_	Gender=Masc|Number=Sing	4	flat@foreign	_	SpaceAfter=No
+5	Loudun	Loudun	X	_	Foreign=Yes	4	flat@foreign	_	Lang=en|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	de	de	ADP	_	_	2	udep	_	_
 8	Krzysztof	Krzysztof	PROPN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
@@ -16060,7 +16060,7 @@
 2	avril	avril	NOUN	_	Gender=Masc|Number=Sing	5	mod	_	_
 3	2004	2004	NUM	_	NumType=Card	2	mod	_	_
 4	:	:	PUNCT	_	_	5	punct	_	_
-5	fin	fin	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+5	Fin	fin	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 6	de	de	ADP	_	_	5	udep	_	_
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	enquête	enquête	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	SpaceAfter=No
@@ -25288,7 +25288,7 @@
 19	Publisher	Publisher	X	_	Foreign=Yes	18	flat@foreign	_	Lang=en|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	August	August	NOUN	_	Foreign=Yes	17	parataxis	_	Lang=en
-22	6	6	NUM	_	NumType=Card	21	flat@foreign	_	SpaceAfter=No
+22	6	6	NUM	_	NumType=Card	21	mod	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	2006	2006	NUM	_	NumType=Card	21	parataxis	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	4	punct	_	_
@@ -25305,11 +25305,11 @@
 # text = - ^ Reuters Doctoring Photos from Beirut ?
 1	-	-	PUNCT	_	_	3	punct	_	_
 2	^	^	PUNCT	_	_	3	punct	_	_
-3	Reuters	Reuters	PROPN	_	_	0	root	_	_
+3	Reuters	Reuters	X	_	Foreign=Yes	0	root	_	Lang=en
 4	Doctoring	Doctoring	X	_	Foreign=Yes	3	flat@foreign	_	Lang=en
-5	Photos	Photos	X	_	_	4	flat@foreign	_	_
+5	Photos	Photos	X	_	Foreign=Yes	4	flat@foreign	_	Lang=en
 6	from	from	X	_	Foreign=Yes	5	flat@foreign	_	Lang=en
-7	Beirut	Beirut	PROPN	_	_	6	flat@foreign	_	_
+7	Beirut	Beirut	X	_	Foreign=Yes	6	flat@foreign	_	Lang=en
 8	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = frwiki_50.1000_00923
@@ -25335,13 +25335,13 @@
 # text = - ^ Reuters calls the doctor, take 2.
 1	-	-	PUNCT	_	_	3	punct	_	_
 2	^	^	PUNCT	_	_	3	punct	_	_
-3	Reuters	Reuters	PROPN	_	_	0	root	_	_
+3	Reuters	Reuters	X	_	Foreign=Yes	0	root	_	Lang=en
 4	calls	calls	X	_	Foreign=Yes	3	flat@foreign	_	Lang=en
 5	the	the	X	_	Foreign=Yes	4	flat@foreign	_	Lang=en
 6	doctor	doctor	X	_	Foreign=Yes	5	flat@foreign	_	Lang=en|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	take	take	X	_	Foreign=Yes	6	flat@foreign	_	Lang=en
-9	2	2	NUM	_	NumType=Card	8	flat@foreign	_	SpaceAfter=No
+9	2	2	NUM	_	NumType=Card	8	mod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = frwiki_50.1000_00926
@@ -25365,7 +25365,7 @@
 # text = - ^ Extreme Makeover- Beirut Edition.
 1	-	-	PUNCT	_	_	3	punct	_	_
 2	^	^	PUNCT	_	_	3	punct	_	_
-3	Extreme	Extreme	X	_	_	0	root	_	_
+3	Extreme	Extreme	X	_	Foreign=Yes	0	root	_	Lang=en
 4	Makeover	Makeover	X	_	Foreign=Yes	3	flat@foreign	_	Lang=en|SpaceAfter=No
 5	-	-	PUNCT	_	_	3	punct	_	_
 6	Beirut	Beirut	PROPN	_	_	3	parataxis	_	_
@@ -25395,11 +25395,11 @@
 1	-	-	PUNCT	_	_	4	punct	_	_
 2	^	^	PUNCT	_	_	4	punct	_	_
 3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	Reuters	Reuters	PROPN	_	_	0	root	_	_
+4	Reuters	Reuters	X	_	Foreign=Yes	0	root	_	Lang=en
 5	admits	admits	X	_	Foreign=Yes	4	flat@foreign	_	Lang=en
 6	altering	altering	X	_	Foreign=Yes	5	flat@foreign	_	Lang=en
-7	Beirut	Beirut	PROPN	_	_	6	flat@foreign	_	_
-8	photo	photo	X	_	_	7	flat@foreign	_	SpaceAfter=No
+7	Beirut	Beirut	X	_	Foreign=Yes	6	flat@foreign	_	Lang=en
+8	photo	photo	X	_	Foreign=Yes	7	flat@foreign	_	Lang=en|SpaceAfter=No
 9	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -25424,7 +25424,7 @@
 1	-	-	PUNCT	_	_	4	punct	_	_
 2	^	^	PUNCT	_	_	4	punct	_	_
 3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	Reuters	Reuters	PROPN	_	_	0	root	_	_
+4	Reuters	Reuters	X	_	Foreign=Yes	0	root	_	Lang=en
 5	admits	admits	X	_	Foreign=Yes	4	flat@foreign	_	Lang=en
 6	to	to	X	_	Foreign=Yes	5	flat@foreign	_	Lang=en
 7	more	more	X	_	Foreign=Yes	6	flat@foreign	_	Lang=en
@@ -25451,19 +25451,19 @@
 1	-	-	PUNCT	_	_	4	punct	_	_
 2	^	^	PUNCT	_	_	4	punct	_	_
 3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	Reuters	Reuters	PROPN	_	_	0	root	_	_
+4	Reuters	Reuters	X	_	Foreign=Yes	0	root	_	Lang=en
 5	drops	drops	X	_	Foreign=Yes	4	flat@foreign	_	Lang=en
 6	freelance	freelance	X	_	Foreign=Yes	5	flat@foreign	_	Lang=en
 7	Lebanese	Lebanese	X	_	Foreign=Yes	6	flat@foreign	_	Lang=en
 8	photographer	photographer	X	_	Foreign=Yes	7	flat@foreign	_	Lang=en
 9	over	over	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en
-10	image	image	NOUN	_	_	9	flat@foreign	_	SpaceAfter=No
+10	image	image	X	_	Foreign=Yes	9	flat@foreign	_	Lang=en|SpaceAfter=No
 11	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	Reuters	Reuters	PROPN	_	_	4	parataxis	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	August	August	NOUN	_	Gender=Masc|Number=Sing	13	parataxis	_	_
-16	6	6	NUM	_	NumType=Card	15	flat@foreign	_	SpaceAfter=No
+16	6	6	NUM	_	NumType=Card	15	mod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	2006	2006	NUM	_	NumType=Card	15	parataxis	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	_
@@ -25481,10 +25481,10 @@
 1	-	-	PUNCT	_	_	4	punct	_	_
 2	^	^	PUNCT	_	_	4	punct	_	_
 3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	Reuters	Reuters	PROPN	_	_	0	root	_	_
+4	Reuters	Reuters	X	_	Foreign=Yes	0	root	_	Lang=en
 5	withdraws	withdraws	X	_	Foreign=Yes	4	flat@foreign	_	Lang=en
 6	all	all	X	_	Foreign=Yes	5	flat@foreign	_	Lang=en
-7	photos	photos	NOUN	_	_	6	flat@foreign	_	_
+7	photos	photos	X	_	Foreign=Yes	6	flat@foreign	_	Lang=en
 8	by	by	X	_	Foreign=Yes	7	flat@foreign	_	Lang=en
 9	Lebanese	Lebanese	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en
 10	freelance	freelance	X	_	Foreign=Yes	9	flat@foreign	_	Lang=en|SpaceAfter=No
@@ -25493,7 +25493,7 @@
 13	Reuters	Reuters	PROPN	_	_	4	parataxis	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	August	August	NOUN	_	Gender=Masc|Number=Sing	13	parataxis	_	_
-16	7	7	NUM	_	NumType=Card	15	flat@foreign	_	SpaceAfter=No
+16	7	7	NUM	_	NumType=Card	15	mod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	2006	2006	NUM	_	NumType=Card	15	parataxis	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	_
@@ -25659,7 +25659,7 @@
 8	Institutional	Institutional	X	_	Foreign=Yes	5	parataxis	_	Lang=en
 9	Failure	Failure	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en
 10	at	at	X	_	Foreign=Yes	9	flat@foreign	_	Lang=en
-11	Reuters	Reuters	PROPN	_	_	10	flat@foreign	_	SpaceAfter=No
+11	Reuters	Reuters	X	_	Foreign=Yes	10	flat@foreign	_	Lang=en|SpaceAfter=No
 12	"	"	PUNCT	_	_	8	punct	_	_
 13	par	par	ADP	_	_	5	udep	_	_
 14	Thomas	Thomas	PROPN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
@@ -25679,7 +25679,7 @@
 3	en	en	NOUN	_	_	6	parataxis	_	SpaceAfter=No
 4	)	)	PUNCT	_	_	3	punct	_	_
 5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	Reuters	Reuters	PROPN	_	_	0	root	_	_
+6	Reuters	Reuters	X	_	Foreign=Yes	0	root	_	Lang=en
 7	'	'	PUNCT	_	_	6	punct	_	SpaceAfter=No
 8	Image	Image	X	_	Foreign=Yes	6	flat@foreign	_	Lang=en
 9	Problem	Problem	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en|SpaceAfter=No
