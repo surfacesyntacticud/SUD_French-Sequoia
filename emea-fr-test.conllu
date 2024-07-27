@@ -5059,7 +5059,7 @@
 31	0,7	0,7	NUM	_	NumType=Card	32	det	_	SpaceAfter=No
 32	%	%	NOUN	_	Gender=Masc	10	parataxis:insert	_	SpaceAfter=No
 33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
-34	,	,	PUNCT	_	_	33	punct	_	_
+34	,	,	PUNCT	_	_	32	punct	_	_
 35	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 36	été	être	AUX	_	Tense=Past|VerbForm=Part	35	comp:aux@tense	_	_
 37	observées	observer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	36	comp:aux@pass	_	_
