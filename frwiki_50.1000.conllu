@@ -1322,7 +1322,7 @@
 21	en	en	ADP	_	_	15	mod	_	_
 22	présence	présence	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	_
 23	de	de	ADP	_	_	22	udep	_	_
-24	5 000	5 000	DET	_	_	25	det	_	_
+24	5 000	5 000	NUM	_	_	25	det	_	_
 25	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	23	comp:obj	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	4	punct	_	_
 27	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3176,7 +3176,7 @@
 42	n'	ne	ADV	_	Polarity=Neg	43	mod	_	SpaceAfter=No
 43	excédait	excéder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 44	jamais	jamais	ADV	_	Polarity=Neg	43	mod	_	_
-45	10 000	10 000	DET	_	_	47	det	_	_
+45	10 000	10 000	NUM	_	_	47	det	_	_
 46	US	US	ADJ	_	_	47	mod	_	_
 47	$	$	NOUN	_	Gender=Masc	43	comp:obj	_	SpaceAfter=No
 48	.	.	PUNCT	_	_	43	punct	_	_
@@ -3677,7 +3677,7 @@
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	somme	somme	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 9	de	de	ADP	_	_	8	udep	_	_
-10	111 547	111 547	DET	_	_	11	det	_	_
+10	111 547	111 547	NUM	_	_	11	det	_	_
 11	francs	franc	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	_
 12	de	de	ADP	_	_	11	udep	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
@@ -3713,7 +3713,7 @@
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	reste	reste	NOUN	_	Gender=Masc|Number=Sing	29	subj@pass	_	_
 25	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
-26	67 025	67 025	DET	_	_	27	det	_	_
+26	67 025	67 025	NUM	_	_	27	det	_	_
 27	francs	franc	NOUN	_	Gender=Masc|Number=Plur	24	conj:appos	_	SpaceAfter=No
 28	)	)	PUNCT	_	_	27	punct	_	_
 29	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	comp:obj	_	_
@@ -6681,7 +6681,7 @@
 7	de	de	ADP	_	_	6	udep	_	_
 8	prison	prison	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
-10	15 000	15 000	DET	_	_	11	det	_	_
+10	15 000	15 000	NUM	_	_	11	det	_	_
 11	euros	euro	NOUN	_	Gender=Masc|Number=Plur	6	conj:coord	_	_
 12	d'	de	ADP	_	_	11	udep	_	SpaceAfter=No
 13	amende	amende	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
@@ -6958,7 +6958,7 @@
 22	avec	avec	ADP	_	_	19	udep	_	_
 23	sursis	sursis	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	26	punct	_	_
-25	2 000	2 000	DET	_	_	26	det	_	_
+25	2 000	2 000	NUM	_	_	26	det	_	_
 26	euros	euro	NOUN	_	Gender=Masc|Number=Plur	19	conj:coord	_	_
 27	d'	de	ADP	_	_	26	udep	_	SpaceAfter=No
 28	amende	amende	NOUN	_	Gender=Fem|Number=Sing	27	comp:obj	_	_
@@ -7044,7 +7044,7 @@
 18	avec	avec	ADP	_	_	15	udep	_	_
 19	sursis	sursis	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
-21	2 000	2 000	DET	_	_	22	det	_	_
+21	2 000	2 000	NUM	_	_	22	det	_	_
 22	euros	euro	NOUN	_	Gender=Masc|Number=Plur	15	conj:coord	_	_
 23	d'	de	ADP	_	_	22	udep	_	SpaceAfter=No
 24	amende	amende	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
@@ -7406,7 +7406,7 @@
 49	à	à	ADP	_	_	48	mod	_	_
 50	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
 51	total	total	NOUN	_	Gender=Masc|Number=Sing	49	comp:obj	_	_
-52	25 000	25 000	DET	_	_	53	det	_	_
+52	25 000	25 000	NUM	_	_	53	det	_	_
 53	fiches	fiche	NOUN	_	Gender=Fem|Number=Plur	48	comp:obj	_	_
 54	sur	sur	ADP	_	_	53	udep	_	_
 55	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	56	det	_	_
@@ -17860,7 +17860,7 @@
 50	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
 51	prix	prix	NOUN	_	Gender=Masc	49	comp:obj	_	_
 52	de	de	ADP	_	_	51	udep	_	_
-53	108 000	108 000	DET	_	_	54	det	_	_
+53	108 000	108 000	NUM	_	_	54	det	_	_
 54	francs	franc	NOUN	_	Gender=Masc|Number=Plur	52	comp:obj	_	_
 55	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
 56	page	page	NOUN	_	Gender=Fem|Number=Sing	54	mod	_	SpaceAfter=No
@@ -18203,7 +18203,7 @@
 25	femme	femme	NOUN	_	Gender=Fem|Number=Sing	26	subj	_	_
 26	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 27	remettre	remettre	VERB	_	VerbForm=Inf	26	comp:obj	_	Subject=SubjRaising
-28	50 000	50 000	DET	_	_	29	det	_	_
+28	50 000	50 000	NUM	_	_	29	det	_	_
 29	francs	franc	NOUN	_	Gender=Masc|Number=Plur	27	comp:obj	_	_
 30	à	à	ADP	_	_	27	comp:obl	_	_
 31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
@@ -18257,7 +18257,7 @@
 19	apprête	apprêter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 20	à	à	ADP	_	_	19	comp:obl	_	_
 21	remettre	remettre	VERB	_	VerbForm=Inf	20	comp:obj	_	Subject=SubjRaising
-22	46 000	46 000	DET	_	_	23	det	_	_
+22	46 000	46 000	NUM	_	_	23	det	_	_
 23	francs	franc	NOUN	_	Gender=Masc|Number=Plur	21	comp:obj	_	_
 24	dans	dans	ADP	_	_	21	mod	_	_
 25	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
@@ -19367,7 +19367,7 @@
 12	avec	avec	ADP	_	_	9	udep	_	_
 13	sursis	sursis	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
-15	50 000	50 000	DET	_	_	16	det	_	_
+15	50 000	50 000	NUM	_	_	16	det	_	_
 16	euros	euro	NOUN	_	Gender=Masc|Number=Plur	9	conj:coord	_	_
 17	d'	de	ADP	_	_	16	udep	_	SpaceAfter=No
 18	amende	amende	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
@@ -21273,7 +21273,7 @@
 12	avec	avec	ADP	_	_	9	udep	_	_
 13	sursis	sursis	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
-15	80 000	80 000	DET	_	_	16	det	_	_
+15	80 000	80 000	NUM	_	_	16	det	_	_
 16	euros	euro	NOUN	_	Gender=Masc|Number=Plur	9	conj:coord	_	_
 17	d'	de	ADP	_	_	16	udep	_	SpaceAfter=No
 18	amende	amende	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	SpaceAfter=No
@@ -21351,7 +21351,7 @@
 25	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	amende	amende	NOUN	_	Gender=Fem|Number=Sing	19	conj:coord	_	_
 27	de	de	ADP	_	_	26	udep	_	_
-28	50 000	50 000	DET	_	_	29	det	_	_
+28	50 000	50 000	NUM	_	_	29	det	_	_
 29	euros	euro	NOUN	_	Gender=Masc|Number=Plur	27	comp:obj	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -21550,7 +21550,7 @@
 31	avec	avec	ADP	_	_	28	udep	_	_
 32	sursis	sursis	NOUN	_	Gender=Masc|Number=Sing	31	comp:obj	_	_
 33	et	et	CCONJ	_	_	35	cc	_	_
-34	10 000	10 000	DET	_	_	35	det	_	_
+34	10 000	10 000	NUM	_	_	35	det	_	_
 35	euros	euro	NOUN	_	Gender=Masc|Number=Plur	28	conj:coord	_	_
 36	d'	de	ADP	_	_	35	udep	_	SpaceAfter=No
 37	amende	amende	NOUN	_	Gender=Fem|Number=Sing	36	comp:obj	_	SpaceAfter=No
@@ -24656,7 +24656,7 @@
 11	à	à	ADP	_	_	9	comp:obl	_	_
 12	payer	payer	VERB	_	VerbForm=Inf	11	comp:obj	_	Subject=SubjRaising
 13	environ	environ	ADV	_	_	15	mod	_	_
-14	17 600	17 600	DET	_	_	15	det	_	_
+14	17 600	17 600	NUM	_	_	15	det	_	_
 15	euros	euro	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	_
 16	de	de	ADP	_	_	15	udep	_	_
 17	dommages-intérêts	dommages-intérêts	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	_
@@ -26625,7 +26625,7 @@
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	Grasset	Grasset	PROPN	_	_	7	parataxis	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	_
-23	1 500	1 500	DET	_	_	24	det	_	_
+23	1 500	1 500	NUM	_	_	24	det	_	_
 24	p.	page	NOUN	_	Gender=Fem|Number=Plur	21	parataxis	_	_
 25	Paris	Paris	PROPN	_	Gender=Masc|Number=Sing	24	parataxis	_	_
 26	1997	1997	NUM	_	NumType=Card	25	parataxis	_	SpaceAfter=No

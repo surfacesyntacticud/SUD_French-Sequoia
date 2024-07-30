@@ -7518,7 +7518,7 @@
 15	,	,	PUNCT	_	_	19	punct	_	_
 16	dont	dont	PRON	_	PronType=Rel	19	udep	_	_
 17	quelque	quelque	ADV	_	_	19	mod	_	_
-18	500 000	500 000	DET	_	_	19	det	_	_
+18	500 000	500 000	NUM	_	_	19	det	_	_
 19	enfants	enfant	NOUN	_	Number=Plur	10	mod@relcl	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
 21	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -15888,7 +15888,7 @@
 12	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
 13	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	11	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	11	punct	_	_
-15	80 000	80 000	DET	_	_	16	det	_	_
+15	80 000	80 000	NUM	_	_	16	det	_	_
 16	jeunes	jeune	NOUN	_	Number=Plur	24	subj	_	_
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	16	udep	_	_
