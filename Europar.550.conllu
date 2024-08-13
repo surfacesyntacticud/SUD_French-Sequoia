@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Europar.550_00001
 # text = Je remercie le président en exercice pour sa réponse.
 1	Je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
