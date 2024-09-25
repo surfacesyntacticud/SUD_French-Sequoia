@@ -8351,7 +8351,7 @@
 
 # sent_id = frwiki_50.1000_00306
 # text = Aucune poursuite judiciaire ne sera intentée contre lui, mais c'est au niveau politique que se situe ici la crise.
-1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	2	det	_	_
 2	poursuite	poursuite	NOUN	_	Gender=Fem|Number=Sing	5	subj@pass	_	_
 3	judiciaire	judiciaire	ADJ	_	Number=Sing	2	mod	_	_
 4	ne	ne	ADV	_	Polarity=Neg	5	mod	_	_
@@ -10951,7 +10951,7 @@
 13	entendu	entendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@tense	_	_
 14	parler	parler	VERB	_	VerbForm=Inf	13	comp:pred	_	Subject=Generic
 15	d'	de	ADP	_	_	14	comp:obl	_	SpaceAfter=No
-16	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	17	det	_	_
+16	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	17	det	_	_
 17	intervention	intervention	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 18-19	du	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	17	udep	_	_
@@ -16630,7 +16630,7 @@
 21	ne	ne	ADV	_	Polarity=Neg	22	mod	_	_
 22	correspondant	correspondre	VERB	_	Tense=Pres|VerbForm=Part	20	mod	_	_
 23	à	à	ADP	_	_	22	comp:obl	_	_
-24	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	25	det	_	_
+24	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	25	det	_	_
 25	prestation	prestation	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
 26	à	à	ADP	_	_	18	comp:obl	_	_
 27	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
@@ -17259,7 +17259,7 @@
 16	ne	ne	ADV	_	Polarity=Neg	17	mod	_	_
 17	correspondant	correspondre	VERB	_	Tense=Pres|VerbForm=Part	15	mod	_	_
 18	à	à	ADP	_	_	17	comp:obl	_	_
-19	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	20	det	_	_
+19	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	20	det	_	_
 20	travail	travail	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
 21	effectif	effectif	ADJ	_	Gender=Masc|Number=Sing	20	mod	_	_
 22	et	et	CCONJ	_	_	23	cc	_	_
@@ -19602,7 +19602,7 @@
 
 # sent_id = frwiki_50.1000_00701
 # text = Aucun financement politique occulte n'a pu être mis en évidence.
-1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	2	det	_	_
 2	financement	financement	NOUN	_	Gender=Masc|Number=Sing	6	subj	_	_
 3	politique	politique	ADJ	_	Number=Sing	2	mod	_	_
 4	occulte	occulte	ADJ	_	Number=Sing	2	mod	_	_
@@ -20861,7 +20861,7 @@
 
 # sent_id = frwiki_50.1000_00749
 # text = Aucun lien n'a pu être établi entre ces espèces et l'argent de la corruption des marchés d'Île-de-France.
-1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	2	det	_	_
 2	lien	lien	NOUN	_	Gender=Masc|Number=Sing	4	subj	_	_
 3	n'	ne	ADV	_	Polarity=Neg	4	mod	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -23735,7 +23735,7 @@
 26	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	comp:obj	_	_
 27	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	comp:aux@tense	_	_
 28	à	à	ADP	_	_	27	mod	_	_
-29	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	30	det	_	_
+29	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	30	det	_	_
 30	moment	moment	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	_
 31	paiement	paiement	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj	_	_
 32	d'	de	ADP	_	_	31	udep	_	SpaceAfter=No

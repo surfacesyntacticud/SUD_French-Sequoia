@@ -2263,7 +2263,7 @@
 8	de	de	ADP	_	_	7	udep	_	_
 9	Paget	Paget	PROPN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 10	:	:	PUNCT	_	_	15	punct	_	_
-11	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	12	det	_	_
+11	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	12	det	_	_
 12	donnée	donnée	NOUN	_	Gender=Fem|Number=Sing	15	subj	_	_
 13	spécifique	spécifique	ADJ	_	Number=Sing	12	mod	_	_
 14	n'	ne	ADV	_	Polarity=Neg	15	mod	_	SpaceAfter=No
@@ -2643,7 +2643,7 @@
 
 # sent_id = emea-fr-test_00099
 # text = Aucun ajustement de la dose n'est nécessaire chez les patients dont la clairance de la créatinine est 35 ml/min.
-1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	2	det	_	_
 2	ajustement	ajustement	NOUN	_	Gender=Masc|Number=Sing	7	subj	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -2675,7 +2675,7 @@
 
 # sent_id = emea-fr-test_00101
 # text = Aucun ajustement de la dose n'est nécessaire (voir rubrique 5.2).
-1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	2	det	_	_
 2	ajustement	ajustement	NOUN	_	Gender=Masc|Number=Sing	7	subj	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -2701,7 +2701,7 @@
 
 # sent_id = emea-fr-test_00103
 # text = Aucun ajustement de la dose n'est nécessaire puisque la biodisponibilité, la distribution et l'élimination ont été similaires chez les patients âgés et chez les patients plus jeunes.
-1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	2	det	_	_
 2	ajustement	ajustement	NOUN	_	Gender=Masc|Number=Sing	7	subj	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -3591,7 +3591,7 @@
 
 # sent_id = emea-fr-test_00135
 # text = Aucune étude spécifique d'interaction médicamenteuse n'a été conduite avec l'acide zolédronique.
-1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	2	det	_	_
 2	étude	étude	NOUN	_	Gender=Fem|Number=Sing	8	subj@pass	_	_
 3	spécifique	spécifique	ADJ	_	Number=Sing	2	mod	_	_
 4	d'	de	ADP	_	_	2	udep	_	SpaceAfter=No
@@ -4771,7 +4771,7 @@
 
 # sent_id = emea-fr-test_00176
 # text = Aucun cas d'hypocalcémie symptomatique n'a été observé.
-1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	2	det	_	_
 2	cas	cas	NOUN	_	Gender=Masc|Number=Sing	7	subj@pass	_	_
 3	d'	de	ADP	_	_	2	udep	_	SpaceAfter=No
 4	hypocalcémie	hypocalcémie	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
@@ -5316,7 +5316,7 @@
 2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	_
 3	dispose	disposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	d'	de	ADP	_	_	3	comp:obl	_	SpaceAfter=No
-5	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	6	det	_	_
+5	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	6	det	_	_
 6	expérience	expérience	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 7	d'	de	ADP	_	_	6	udep	_	SpaceAfter=No
 8	intoxication	intoxication	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
@@ -5517,7 +5517,7 @@
 
 # sent_id = emea-fr-test_00205
 # text = Aucune réduction progressive des marqueurs de remodellage osseux n'a été observée en cas d'administration annuelle répétée.
-1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	2	det	_	_
 2	réduction	réduction	NOUN	_	Gender=Fem|Number=Sing	11	subj@pass	_	_
 3	progressive	progressif	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	_
 4-5	des	_	_	_	_	_	_	_	_
@@ -5690,7 +5690,7 @@
 18	n'	ne	ADV	_	Polarity=Neg	19	mod	_	SpaceAfter=No
 19	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 20	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	comp:aux@tense	_	_
-21	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	22	det	_	_
+21	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	22	det	_	_
 22	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
 23	anti-ostéoporotique	anti-ostéoporotique	ADJ	_	Gender=Masc|Number=Sing	22	mod	_	_
 24	concomitant	concomitant	ADJ	_	Gender=Masc|Number=Sing	22	mod	_	SpaceAfter=No
@@ -8264,7 +8264,7 @@
 
 # sent_id = emea-fr-test_00295
 # text = Aucune accumulation de la substance active n'a été observée dans le plasma après l'administration de doses multiples tous les 28 jours.
-1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	2	det	_	_
 2	accumulation	accumulation	NOUN	_	Gender=Fem|Number=Sing	8	subj@pass	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -8629,7 +8629,7 @@
 6	ostéoporose	ostéoporose	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 7	n'	ne	ADV	_	Polarity=Neg	8	mod	_	SpaceAfter=No
 8	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	10	det	_	_
+9	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	10	det	_	_
 10	symptôme	symptôme	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	mais	mais	CCONJ	_	_	14	cc	_	_
@@ -9928,7 +9928,7 @@
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	cas	cas	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	1	punct	_	_
-8	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	9	det	_	_
+8	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	9	det	_	_
 9	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	12	subj@pass	_	_
 10	spécifique	spécifique	ADJ	_	Number=Sing	9	mod	_	_
 11	n'	ne	ADV	_	Polarity=Neg	12	mod	_	SpaceAfter=No
