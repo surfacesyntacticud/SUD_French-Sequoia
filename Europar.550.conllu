@@ -4871,7 +4871,7 @@
 33	bien	bien	ADV	_	ExtPos=ADV	28	mod	_	Idiom=Yes
 34	entendu	entendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	unk	_	InIdiom=Yes|SpaceAfter=No
 35	,	,	PUNCT	_	_	38	punct	_	_
-36	mais	mais	CCONJ	_	_	41	cc	_	_
+36	mais	mais	CCONJ	_	_	38	cc	_	_
 37	également	également	ADV	_	_	36	mod	_	_
 38	beaucoup	beaucoup	ADV	_	ExtPos=PRON	28	conj:coord	_	_
 39	d'	de	ADP	_	_	38	comp:obl	_	SpaceAfter=No

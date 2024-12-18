@@ -25587,7 +25587,7 @@
 3	en	en	NOUN	_	_	5	parataxis	_	SpaceAfter=No
 4	)	)	PUNCT	_	_	3	punct	_	_
 5	Cox	Cox	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-6	&	et	CCONJ	_	_	8	cc	_	_
+6	&	et	CCONJ	_	_	7	cc	_	_
 7	Forkum	Forkum	PROPN	_	_	5	conj:coord	_	_
 8	dession	session	NOUN	_	_	5	parataxis	_	CorrectForm=session
 9	politique	politique	ADJ	_	Number=Sing	8	mod	_	_

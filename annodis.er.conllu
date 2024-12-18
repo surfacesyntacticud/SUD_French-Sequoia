@@ -10760,7 +10760,7 @@
 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	29	29	NUM	_	NumType=Card	31	conj:appos	_	_
 37	mars	mars	NOUN	_	Gender=Masc|Number=Sing	36	mod	_	_
-38	et	et	CCONJ	_	_	40	cc	_	_
+38	et	et	CCONJ	_	_	39	cc	_	_
 39	11	11	NUM	_	NumType=Card	37	conj:coord	_	_
 40	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	39	mod	_	_
 41	à	à	ADP	_	_	25	mod	_	_
