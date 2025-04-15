@@ -3927,7 +3927,7 @@
 22	d'	de	ADP	_	_	21	udep	_	SpaceAfter=No
 23	enfance	enfance	NOUN	_	Gender=Fem|Number=Sing	22	comp:obj	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	26	punct	_	_
-25	le	le	DET	_	Definite=Def|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	temps	temps	NOUN	_	Gender=Masc|Number=Sing	15	mod	_	_
 27	d'	de	ADP	_	_	26	comp:obl	_	SpaceAfter=No
 28	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
@@ -9696,7 +9696,7 @@
 26	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = annodis.er_00369
-# text = "Pour une région comportant cinq départements, il pourrait y avoir 3 x 5
+# text = "Pour une région comportant cinq départements, il pourrait y avoir 3 x 5 = 15 hommes en tête", explique Marie-Jo Zimmermann.
 1	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
 2	Pour	pour	ADP	_	_	10	mod	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -13020,7 +13020,7 @@
 
 # sent_id = annodis.er_00502
 # text = Le temps de digérer cette expédition forcée et le jeune Belfortain a décidé d'aller porter plainte à la brigade de gendarmerie de Bethoncourt.
-1	Le	le	DET	_	Definite=Def|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	temps	temps	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	digérer	digérer	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=Instantiated

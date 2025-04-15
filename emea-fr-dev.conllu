@@ -2932,7 +2932,7 @@
 11	sévère	sévère	ADJ	_	Number=Sing	9	mod	_	Gender[ctxt]=Fem
 12	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 13	TFG	TFG	PROPN	_	_	14	subj	_	_
-14	<	<	SYM	_	ExtPos=ADP|Mood=Ind|Person=3|VerbForm=Fin	9	parataxis:insert	_	_
+14	<	<	SYM	_	ExtPos=ADP	9	parataxis:insert	_	_
 15	30	30	NUM	_	ExtPos=DET|NumType=Card	16	det	_	_
 16	ml	ml	NOUN	_	Gender=Masc	14	comp:obj	_	SpaceAfter=No
 17	/	/	ADP	_	_	16	udep	_	SpaceAfter=No
@@ -3254,7 +3254,7 @@
 5	sévère	sévère	ADJ	_	Number=Sing	3	mod	_	Gender[ctxt]=Fem
 6	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 7	TFG	TFG	PROPN	_	_	8	subj	_	_
-8	<	<	SYM	_	ExtPos=ADP|Mood=Ind|Person=3|VerbForm=Fin	3	parataxis:insert	_	_
+8	<	<	SYM	_	ExtPos=ADP	3	parataxis:insert	_	_
 9	30	30	NUM	_	ExtPos=DET|NumType=Card	10	det	_	_
 10	ml	ml	NOUN	_	Gender=Masc	8	comp:obj	_	SpaceAfter=No
 11	/	/	ADP	_	_	10	udep	_	SpaceAfter=No
@@ -4500,7 +4500,7 @@
 51	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = emea-fr-dev_00201
-# text = Des diminutions similaires ont été observées sur la fréquence des saignements chez les patients du groupe Bivalidurine seule ayant reçu de l'héparine avant la randomisation (n
+# text = Des diminutions similaires ont été observées sur la fréquence des saignements chez les patients du groupe Bivalidurine seule ayant reçu de l'héparine avant la randomisation (n = 2078).
 1	Des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	det	_	_
 2	diminutions	diminution	NOUN	_	Gender=Fem|Number=Plur	4	subj@pass	_	_
 3	similaires	similaire	ADJ	_	Number=Plur	2	mod	_	Gender[ctxt]=Fem
