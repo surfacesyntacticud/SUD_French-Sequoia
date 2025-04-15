@@ -11651,7 +11651,7 @@
 17	ambiante	ambiant	ADJ	_	Gender=Fem|Number=Sing	16	mod	_	_
 18	avant	avant	ADP	_	_	10	mod	_	_
 19	de	de	ADP	_	_	18	comp:obj	_	_
-20	l'	le	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	21	comp:obj	_	SpaceAfter=No
+20	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	21	comp:obj	_	SpaceAfter=No
 21	administrer	administrer	VERB	_	VerbForm=Inf	19	comp:obj	_	SpaceAfter=No|Subject=Generic
 22	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -11817,7 +11817,7 @@
 11	ambiante	ambiant	ADJ	_	Gender=Fem|Number=Sing	10	mod	_	_
 12	avant	avant	ADP	_	_	3	mod	_	_
 13	de	de	ADP	_	_	12	comp:obj	_	_
-14	l'	le	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	15	comp:obj	_	SpaceAfter=No
+14	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	15	comp:obj	_	SpaceAfter=No
 15	administrer	administrer	VERB	_	VerbForm=Inf	13	comp:obj	_	SpaceAfter=No|Subject=Generic
 16	.	.	PUNCT	_	_	2	punct	_	_
 

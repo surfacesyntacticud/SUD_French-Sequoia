@@ -774,7 +774,7 @@
 14	recommande	recommander	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj:coord	_	_
 15	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
 16	comme	comme	SCONJ	_	_	14	mod	_	_
-17	l'	le	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	SpaceAfter=No
+17	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	SpaceAfter=No
 18	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	_
 19	convenu	convenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	comp:aux@tense	_	_
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
@@ -2716,7 +2716,7 @@
 35	qu'	que	SCONJ	_	_	25	conj:coord	_	SpaceAfter=No
 36	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	subj@expl	_	_
 37	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	comp:obj	_	_
-38	l'	le	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	39	comp:obj	_	SpaceAfter=No
+38	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	39	comp:obj	_	SpaceAfter=No
 39	appuyer	appuyer	VERB	_	VerbForm=Inf	37	comp:obj	_	SpaceAfter=No|Subject=Generic
 40	.	.	PUNCT	_	_	21	punct	_	_
 
@@ -4617,7 +4617,7 @@
 49	qu'	que	SCONJ	_	_	48	unk	_	InIdiom=Yes|SpaceAfter=No
 50	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	51	subj	_	_
 51	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	comp:obj	_	_
-52	l'	le	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	53	comp:obj	_	SpaceAfter=No
+52	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	53	comp:obj	_	SpaceAfter=No
 53	intégrer	intégrer	VERB	_	VerbForm=Inf	51	comp:obl	_	Subject=SubjRaising
 54	dans	dans	ADP	_	_	53	comp:obl	_	_
 55	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	56	det	_	_
@@ -6106,7 +6106,7 @@
 9	de	de	ADP	_	_	8	udep	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Conseil	conseil	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
-12	l'	le	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	15	comp:obj	_	SpaceAfter=No
+12	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	15	comp:obj	_	SpaceAfter=No
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
 14	déjà	déjà	ADV	_	_	13	mod	_	_
 15	précisé	préciser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	SpaceAfter=No
@@ -6158,7 +6158,7 @@
 7	sensible	sensible	ADJ	_	Number=Sing	5	comp:pred	_	Gender[ctxt]=Masc|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	comme	comme	SCONJ	_	_	5	mod	_	_
-10	l'	le	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	SpaceAfter=No
+10	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	SpaceAfter=No
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
 12	déjà	déjà	ADV	_	_	11	mod	_	_
 13	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
@@ -6187,7 +6187,7 @@
 35	,	,	PUNCT	_	Shared=Yes	36	punct	_	_
 36	comme	comme	SCONJ	_	Shared=Yes	18	mod	_	_
 37	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	39	subj	_	_
-38	l'	le	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	42	comp:obj	_	SpaceAfter=No
+38	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	42	comp:obj	_	SpaceAfter=No
 39	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	36	comp:obj	_	_
 40	très	très	ADV	_	_	41	mod	_	_
 41	clairement	clairement	ADV	_	_	42	mod	_	_
@@ -7125,7 +7125,7 @@
 19	:	:	PUNCT	_	Shared=Yes	23	punct	_	_
 20	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
 21	Parlement	parlement	NOUN	_	Gender=Masc|Number=Sing	23	subj	_	_
-22	l'	le	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	24	comp:obj	_	SpaceAfter=No
+22	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	24	comp:obj	_	SpaceAfter=No
 23	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Shared=Yes|Tense=Pres|VerbForm=Fin	16	parataxis	_	_
 24	compris	comprendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	23	comp:aux@tense	_	_
 25	et	et	CCONJ	_	_	26	cc	_	_
@@ -9271,7 +9271,7 @@
 8	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
 9	principe	principe	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	qui	qui	PRON	_	PronType=Rel	12	subj	_	_
-11	l'	le	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	SpaceAfter=No
+11	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	SpaceAfter=No
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:cleft	_	_
 13	conduite	conduire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@tense	_	_
 14-15	aux	_	_	_	_	_	_	_	_
@@ -9659,7 +9659,7 @@
 6	telle	tel	ADJ	_	Gender=Fem|Number=Sing	1	mod	_	_
 7	que	que	SCONJ	_	_	6	unk	_	_
 8	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	10	subj	_	_
-9	la	le	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	_
+9	la	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	_
 10	concevons	concevoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	6	punct	_	_
 12	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10315,7 +10315,7 @@
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	comme	comme	SCONJ	_	_	18	mod	_	_
 12	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	14	subj	_	_
-13	l'	le	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	15	comp:obj	_	SpaceAfter=No
+13	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	15	comp:obj	_	SpaceAfter=No
 14	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
 15	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	11	punct	_	_
@@ -14771,7 +14771,7 @@
 7	intervenants	intervenant	NOUN	_	Gender=Masc|Number=Plur	11	subj	_	_
 8	ou	ou	CCONJ	_	_	9	cc	_	_
 9	presque	presque	ADV	_	_	7	conj:coord	_	_
-10	l'	le	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	SpaceAfter=No
+10	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	SpaceAfter=No
 11	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	souligné	souligner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
 13	:	:	PUNCT	_	_	30	punct	_	_
@@ -15232,7 +15232,7 @@
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	comme	comme	SCONJ	_	_	4	mod	_	_
 8	on	on	PRON	_	Number=Sing|Person=3|PronType=Ind	10	subj	_	_
-9	l'	le	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	11	comp:obj	_	SpaceAfter=No
+9	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	11	comp:obj	_	SpaceAfter=No
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
 11	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	7	punct	_	_
@@ -16228,7 +16228,7 @@
 32	résolution	résolution	NOUN	_	Gender=Fem|Number=Sing	30	comp:obj	_	_
 33	et	et	CCONJ	_	_	34	cc	_	_
 34	de	de	ADP	_	_	27	conj:coord	_	_
-35	la	le	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	36	comp:obj	_	_
+35	la	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	36	comp:obj	_	_
 36	retirer	retirer	VERB	_	VerbForm=Inf	34	comp:obj	_	SpaceAfter=No|Subject=Instantiated
 37	.	.	PUNCT	_	_	23	punct	_	_
 
@@ -16327,7 +16327,7 @@
 28	,	,	PUNCT	_	_	32	punct	_	_
 29	mais	mais	CCONJ	_	_	32	cc	_	_
 30	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	32	subj	_	_
-31	l'	le	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	33	comp:obj	_	SpaceAfter=No
+31	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	33	comp:obj	_	SpaceAfter=No
 32	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj:coord	_	_
 33	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	comp:aux@tense	_	_
 34	à	à	ADP	_	_	32	mod	_	_
@@ -16602,7 +16602,7 @@
 26	de	de	ADP	_	_	25	udep	_	_
 27	mafias	mafia	NOUN	_	Gender=Fem|Number=Plur	26	comp:obj	_	_
 28	qui	qui	PRON	_	PronType=Rel	30	subj	_	_
-29	l'	le	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	30	comp:obj	_	SpaceAfter=No
+29	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	30	comp:obj	_	SpaceAfter=No
 30	organisent	organiser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	comp:cleft	_	SpaceAfter=No
 31	.	.	PUNCT	_	Shared=Yes	19	punct	_	_
 
@@ -16627,7 +16627,7 @@
 3	souligner	souligner	VERB	_	VerbForm=Inf	2	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	comme	comme	SCONJ	_	_	3	mod	_	_
-6	l'	le	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	SpaceAfter=No
+6	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	SpaceAfter=No
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
 8	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -16752,7 +16752,7 @@
 20	fait	fait	NOUN	_	Gender=Masc|Number=Sing	19	unk	_	InIdiom=Yes
 21	possible	possible	ADJ	_	Number=Sing	17	comp:pred	_	Gender[ctxt]=Masc
 22	de	de	ADP	_	_	17	comp:obj@agent	_	_
-23	la	le	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	comp:obj	_	_
+23	la	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	comp:obj	_	_
 24	mettre	mettre	VERB	_	VerbForm=Inf	22	comp:obj	_	Subject=Generic
 25	en	en	ADP	_	_	24	comp:obl	_	_
 26	application	application	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	SpaceAfter=No

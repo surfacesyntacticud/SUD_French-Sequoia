@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = emea-fr-dev_00001
 # text = European Medicines Agency
 1	European	European	X	_	Foreign=Yes	0	root	_	Lang=en
@@ -1399,7 +1398,7 @@
 5	de	de	ADP	_	_	2	comp:obj@agent	_	_
 6	ne	ne	ADV	_	Polarity=Neg	9	mod	_	_
 7	pas	pas	ADV	_	Polarity=Neg	9	mod	_	_
-8	l'	le	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	9	comp:obj	_	SpaceAfter=No
+8	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	9	comp:obj	_	SpaceAfter=No
 9	utiliser	utiliser	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=Generic
 10	chez	chez	ADP	_	_	9	mod	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
@@ -3299,7 +3298,7 @@
 # text = Ne pas l'administrer par voie intramusculaire.
 1	Ne	ne	ADV	_	Polarity=Neg	4	mod	_	_
 2	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
-3	l'	le	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	SpaceAfter=No
+3	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	SpaceAfter=No
 4	administrer	administrer	VERB	_	VerbForm=Inf	0	root	_	Subject=Generic
 5	par	par	ADP	_	_	4	mod	_	_
 6	voie	voie	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
@@ -9700,7 +9699,7 @@
 8	avoir	avoir	VERB	_	VerbForm=Inf	7	comp:obj	_	Subject=SubjRaising
 9	besoin	besoin	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 10	de	de	ADP	_	_	8	comp:obl	_	_
-11	la	le	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	_
+11	la	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	_
 12	relire	relire	VERB	_	VerbForm=Inf	10	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 13	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -10366,7 +10365,7 @@
 9	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	comp:obj	_	_
 10	administrée	administrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	comp:aux@pass	_	_
 11	et	et	CCONJ	_	_	13	cc	_	_
-12	la	le	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	_
+12	la	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	_
 13	préparera	préparer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj:coord	_	SpaceAfter=No
 14	.	.	PUNCT	_	Shared=Yes	13	punct	_	_
 
@@ -11445,7 +11444,7 @@
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	solution	solution	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	et	et	CCONJ	_	_	8	cc	_	_
-7	la	le	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	_
+7	la	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	_
 8	jettera	jeter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj:coord	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	si	si	SCONJ	_	_	8	mod	_	_
