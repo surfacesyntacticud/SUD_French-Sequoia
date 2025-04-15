@@ -687,11 +687,11 @@
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	lundi	lundi	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 8	de	de	ADP	_	_	1	udep	_	_
-9	14	14	NUM	_	ExtPos=PROPN|NumType=Card	10	det	_	SpaceAfter=No
+9	14	14	NUM	_	ExtPos=PROPN|NumType=Card	10	mod	_	SpaceAfter=No
 10	h	h	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No
 11	30	30	NUM	_	ExtPos=PROPN|NumType=Card	10	mod	_	_
 12	à	à	ADP	_	_	8	comp:obl	_	_
-13	18	18	NUM	_	ExtPos=PROPN|NumType=Card	14	det	_	SpaceAfter=No
+13	18	18	NUM	_	ExtPos=PROPN|NumType=Card	14	mod	_	SpaceAfter=No
 14	h	h	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -1691,7 +1691,7 @@
 10	à	à	ADP	_	ExtPos=ADV	9	mod	_	Idiom=Yes
 11	partir	partir	VERB	_	VerbForm=Inf	10	unk	_	InIdiom=Yes|Subject=Generic
 12	de	de	ADP	_	_	11	comp:obl	_	_
-13	15	15	NUM	_	ExtPos=PROPN|NumType=Card	14	det	_	SpaceAfter=No
+13	15	15	NUM	_	ExtPos=PROPN|NumType=Card	14	mod	_	SpaceAfter=No
 14	h	h	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	9	punct	_	_
 16	sur	sur	ADP	_	_	9	comp:obl	_	_
@@ -1745,7 +1745,7 @@
 9	matin	matin	NOUN	_	Gender=Masc|Number=Sing	7	mod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	à	à	ADP	_	_	7	mod	_	_
-12	9	9	NUM	_	ExtPos=PROPN|NumType=Card	13	det	_	SpaceAfter=No
+12	9	9	NUM	_	ExtPos=PROPN|NumType=Card	13	mod	_	SpaceAfter=No
 13	h	h	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	place	place	NOUN	_	Gender=Fem|Number=Sing	7	mod	_	_
@@ -1798,7 +1798,7 @@
 13	après-midi	après-midi	NOUN	_	Gender=Masc|Number=Sing	11	mod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	dès	dès	ADP	_	_	6	mod	_	_
-16	14	14	NUM	_	ExtPos=PROPN|NumType=Card	17	det	_	SpaceAfter=No
+16	14	14	NUM	_	ExtPos=PROPN|NumType=Card	17	mod	_	SpaceAfter=No
 17	h	h	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	salle	salle	NOUN	_	Gender=Fem|Number=Sing	6	mod	_	_
@@ -1821,7 +1821,7 @@
 8	à	à	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes
 9	partir	partir	VERB	_	VerbForm=Inf	8	unk	_	InIdiom=Yes|Subject=Generic
 10	de	de	ADP	_	_	9	comp:obl	_	_
-11	9	9	NUM	_	ExtPos=PROPN|NumType=Card	12	det	_	SpaceAfter=No
+11	9	9	NUM	_	ExtPos=PROPN|NumType=Card	12	mod	_	SpaceAfter=No
 12	h	h	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	sur	sur	ADP	_	_	6	mod	_	_
@@ -1858,7 +1858,7 @@
 10	à	à	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes
 11	partir	partir	VERB	_	VerbForm=Inf	10	unk	_	InIdiom=Yes|Subject=Generic
 12	de	de	ADP	_	_	11	comp:obl	_	_
-13	9	9	NUM	_	ExtPos=PROPN|NumType=Card	14	det	_	SpaceAfter=No
+13	9	9	NUM	_	ExtPos=PROPN|NumType=Card	14	mod	_	SpaceAfter=No
 14	h	h	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	pour	pour	ADP	_	_	6	mod	_	_
@@ -2199,7 +2199,7 @@
 5	demain	demain	ADV	_	_	3	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	à	à	ADP	_	_	3	mod	_	_
-8	15	15	NUM	_	ExtPos=PROPN|NumType=Card	9	det	_	SpaceAfter=No
+8	15	15	NUM	_	ExtPos=PROPN|NumType=Card	9	mod	_	SpaceAfter=No
 9	h	h	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	en	en	ADP	_	_	3	mod	_	_
@@ -2921,7 +2921,7 @@
 6	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	8	mod	_	Idiom=Yes
 7	peu	peu	ADV	_	_	6	unk	_	InIdiom=Yes
 8	après	après	ADP	_	_	3	mod	_	_
-9	20	20	NUM	_	ExtPos=PROPN|NumType=Card	10	det	_	SpaceAfter=No
+9	20	20	NUM	_	ExtPos=PROPN|NumType=Card	10	mod	_	SpaceAfter=No
 10	h	h	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -3004,7 +3004,7 @@
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	hier	hier	ADV	_	_	3	mod	_	_
 12	vers	vers	ADP	_	_	3	mod	_	_
-13	18	18	NUM	_	ExtPos=PROPN|NumType=Card	14	det	_	SpaceAfter=No
+13	18	18	NUM	_	ExtPos=PROPN|NumType=Card	14	mod	_	SpaceAfter=No
 14	h	h	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	SpaceAfter=No
 15	15	15	NUM	_	ExtPos=PROPN|NumType=Card	14	mod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
@@ -3496,7 +3496,7 @@
 8	ciné	ciné	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 9	3000	3000	NUM	_	ExtPos=PROPN	8	mod	_	_
 10	à	à	ADP	_	_	18	mod	_	_
-11	20	20	NUM	_	ExtPos=PROPN|NumType=Card	12	det	_	SpaceAfter=No
+11	20	20	NUM	_	ExtPos=PROPN|NumType=Card	12	mod	_	SpaceAfter=No
 12	h	h	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	SpaceAfter=No
 13	30	30	NUM	_	ExtPos=PROPN|NumType=Card	12	mod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	10	punct	_	_
@@ -4718,7 +4718,7 @@
 7	matin	matin	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	à	à	ADP	_	_	3	mod	_	_
-10	10	10	NUM	_	ExtPos=PROPN|NumType=Card	11	det	_	SpaceAfter=No
+10	10	10	NUM	_	ExtPos=PROPN|NumType=Card	11	mod	_	SpaceAfter=No
 11	h	h	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	SpaceAfter=No
 12	30	30	NUM	_	ExtPos=PROPN|NumType=Card	11	mod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
@@ -7943,11 +7943,11 @@
 38	Nomeny	Nomeny	PROPN	_	Gender=Masc|Number=Sing	36	conj:coord	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	40	punct	_	_
 40	Thiaucourt	Thiaucourt	PROPN	_	_	38	conj:coord	_	SpaceAfter=No
-41	,	,	PUNCT	_	_	43	punct	_	_
-42	3	3	NUM	_	ExtPos=PROPN|NumType=Card	43	det	_	_
-43	Vallées	Vallées	PROPN	_	_	40	conj:coord	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	42	punct	_	_
+42	3	3	NUM	_	ExtPos=PROPN|NumType=Card	40	conj:coord	_	_
+43	Vallées	Vallées	PROPN	_	_	42	flat@name	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	45	punct	_	_
-45	Bouxières-aux-Dames	Bouxières-aux-Dames	PROPN	_	_	43	conj:coord	_	_
+45	Bouxières-aux-Dames	Bouxières-aux-Dames	PROPN	_	_	42	conj:coord	_	_
 46	et	et	CCONJ	_	_	48	cc	_	_
 47	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	48	det	_	SpaceAfter=No
 48	OFP	OFP	PROPN	_	Number=Sing	45	conj:coord	_	SpaceAfter=No
@@ -8363,13 +8363,13 @@
 7	prévues	prévoir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	comp:aux@pass	_	_
 8	:	:	PUNCT	_	_	9	punct	_	_
 9	à	à	ADP	_	_	6	mod	_	_
-10	14	14	NUM	_	ExtPos=PROPN|NumType=Card	11	det	_	SpaceAfter=No
+10	14	14	NUM	_	ExtPos=PROPN|NumType=Card	11	mod	_	SpaceAfter=No
 11	h	h	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
-13	15	15	NUM	_	ExtPos=PROPN|NumType=Card	14	det	_	SpaceAfter=No
+13	15	15	NUM	_	ExtPos=PROPN|NumType=Card	14	mod	_	SpaceAfter=No
 14	h	h	NOUN	_	Gender=Fem|Number=Sing	11	conj:coord	_	_
 15	et	et	CCONJ	_	_	17	cc	_	_
-16	16	16	NUM	_	ExtPos=PROPN|NumType=Card	17	det	_	SpaceAfter=No
+16	16	16	NUM	_	ExtPos=PROPN|NumType=Card	17	mod	_	SpaceAfter=No
 17	h	h	NOUN	_	Gender=Fem|Number=Sing	14	conj:coord	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -8396,7 +8396,7 @@
 12	immeuble	immeuble	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	peu	peu	ADV	_	_	14	mod	_	_
 14	avant	avant	ADP	_	_	7	mod	_	_
-15	21	21	NUM	_	ExtPos=PROPN|NumType=Card	16	det	_	SpaceAfter=No
+15	21	21	NUM	_	ExtPos=PROPN|NumType=Card	16	mod	_	SpaceAfter=No
 16	h	h	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -8424,7 +8424,7 @@
 1	Sur	sur	ADP	_	_	11	mod	_	_
 2	place	place	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
 3	vers	vers	ADP	_	_	11	mod	_	_
-4	19	19	NUM	_	ExtPos=PROPN|NumType=Card	5	det	_	SpaceAfter=No
+4	19	19	NUM	_	ExtPos=PROPN|NumType=Card	5	mod	_	SpaceAfter=No
 5	h	h	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	SpaceAfter=No
 6	30	30	NUM	_	ExtPos=PROPN|NumType=Card	5	mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
@@ -9857,7 +9857,7 @@
 6	mercredi	mercredi	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	_
 7	soir	soir	NOUN	_	Gender=Masc|Number=Sing	6	mod	_	_
 8	vers	vers	ADP	_	_	3	mod	_	_
-9	21	21	NUM	_	ExtPos=PROPN|NumType=Card	10	det	_	SpaceAfter=No
+9	21	21	NUM	_	ExtPos=PROPN|NumType=Card	10	mod	_	SpaceAfter=No
 10	h	h	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No
 11	30	30	NUM	_	ExtPos=PROPN|NumType=Card	10	mod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
@@ -10087,7 +10087,7 @@
 1	Mais	mais	CCONJ	_	_	10	cc	_	_
 2	peu	peu	ADV	_	_	3	mod	_	_
 3	avant	avant	ADP	_	_	10	mod	_	_
-4	14	14	NUM	_	ExtPos=PROPN|NumType=Card	5	det	_	SpaceAfter=No
+4	14	14	NUM	_	ExtPos=PROPN|NumType=Card	5	mod	_	SpaceAfter=No
 5	h	h	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -10485,7 +10485,7 @@
 9	10	10	NUM	_	ExtPos=PROPN|NumType=Card	8	mod	_	_
 10	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	9	mod	_	_
 11	à	à	ADP	_	_	6	mod	_	_
-12	10	10	NUM	_	ExtPos=PROPN|NumType=Card	13	det	_	SpaceAfter=No
+12	10	10	NUM	_	ExtPos=PROPN|NumType=Card	13	mod	_	SpaceAfter=No
 13	h	h	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	SpaceAfter=No
 14	30	30	NUM	_	ExtPos=PROPN|NumType=Card	13	mod	_	_
 15	en	en	ADP	_	_	6	mod	_	_
@@ -12499,7 +12499,7 @@
 8	dimanche	dimanche	NOUN	_	Gender=Masc|Number=Sing	6	mod	_	_
 9	soir	soir	NOUN	_	Gender=Masc|Number=Sing	8	mod	_	_
 10	vers	vers	ADP	_	_	6	mod	_	_
-11	17	17	NUM	_	ExtPos=PROPN|NumType=Card	12	det	_	SpaceAfter=No
+11	17	17	NUM	_	ExtPos=PROPN|NumType=Card	12	mod	_	SpaceAfter=No
 12	h	h	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	SpaceAfter=No
 13	40	40	NUM	_	ExtPos=PROPN|NumType=Card	12	mod	_	_
 14	à	à	ADP	_	_	6	mod	_	_
@@ -12789,7 +12789,7 @@
 7	Cuvier	Cuvier	PROPN	_	Gender=Masc|Number=Sing	6	mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	vers	vers	ADP	_	_	1	mod	_	_
-10	17	17	NUM	_	ExtPos=PROPN|NumType=Card	11	det	_	SpaceAfter=No
+10	17	17	NUM	_	ExtPos=PROPN|NumType=Card	11	mod	_	SpaceAfter=No
 11	h	h	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	9	punct	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -13051,7 +13051,7 @@
 1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	alors	alors	ADV	_	_	2	mod	_	_
-4	20	20	NUM	_	ExtPos=PROPN|NumType=Card	5	det	_	SpaceAfter=No
+4	20	20	NUM	_	ExtPos=PROPN|NumType=Card	5	mod	_	SpaceAfter=No
 5	h	h	NOUN	_	Gender=Fem|Number=Sing	2	comp:pred	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
 

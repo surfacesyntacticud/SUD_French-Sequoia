@@ -16127,7 +16127,7 @@
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	close	clore	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	comp:aux@pass	_	_
 7	à	à	ADP	_	_	5	mod	_	_
-8	12	12	NUM	_	ExtPos=PROPN|NumType=Card	9	det	_	SpaceAfter=No
+8	12	12	NUM	_	ExtPos=PROPN|NumType=Card	9	mod	_	SpaceAfter=No
 9	h	h	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	SpaceAfter=No
 10	30	30	NUM	_	ExtPos=PROPN|NumType=Card	9	mod	_	SpaceAfter=No
 11	)	)	PUNCT	_	_	5	punct	_	_
