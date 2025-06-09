@@ -792,7 +792,7 @@
 
 # sent_id = Europar.550_00026
 # text = Madame la Présidente, j'interviendrai contre, en effet, pour une raison de principe qui me paraît tout à fait essentielle et qui a trait au respect des Traités, et notamment de l'article 7 du traité d'Amsterdam.
-1	Madame	monsieur	NOUN	_	Number=Sing	6	vocative	_	Gender[lex]=Fem
+1	Madame	madame	NOUN	_	Number=Sing	6	vocative	_	Gender[lex]=Fem
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Présidente	président	NOUN	_	Number=Sing	1	mod	_	Gender[lex]=Fem|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
@@ -844,7 +844,7 @@
 
 # sent_id = Europar.550_00027
 # text = Madame la Présidente, mes chers collègues, nous croyions, jusqu'à présent, que l'Union européenne était, selon les dispositions des traités de Rome et de Paris qui avaient fondé les Communautés, devenues Union, une association d'États libres, indépendants et souverains.
-1	Madame	monsieur	NOUN	_	Number=Sing	10	vocative	_	Gender[lex]=Fem
+1	Madame	madame	NOUN	_	Number=Sing	10	vocative	_	Gender[lex]=Fem
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Présidente	président	NOUN	_	Number=Sing	1	mod	_	Gender[lex]=Fem|SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
@@ -964,7 +964,7 @@
 9	l'on	on	PRON	_	Number=Sing|Person=3|PronType=Ind	10	subj	_	wordform=on
 10	ouvre	ouvrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
-12	Madame	monsieur	NOUN	_	Number=Sing	10	vocative	_	Gender[lex]=Fem
+12	Madame	madame	NOUN	_	Number=Sing	10	vocative	_	Gender[lex]=Fem
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Présidente	président	NOUN	_	Number=Sing	12	mod	_	Gender[lex]=Fem|SpaceAfter=No
 15	,	,	PUNCT	_	_	10	punct	_	_
@@ -1082,7 +1082,7 @@
 
 # sent_id = Europar.550_00031
 # text = Madame la Présidente, cette résolution me pose un problème majeur.
-1	Madame	monsieur	NOUN	_	Number=Sing	8	vocative	_	Gender[lex]=Fem
+1	Madame	madame	NOUN	_	Number=Sing	8	vocative	_	Gender[lex]=Fem
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Présidente	président	NOUN	_	Number=Sing	1	mod	_	Gender[lex]=Fem|SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
@@ -1468,7 +1468,7 @@
 
 # sent_id = Europar.550_00044
 # text = Madame la Présidente, je voulais dire à M. Wurtz que la Commission n'a pas pour doctrine la doctrine Brejnev de souveraineté limitée et que, jusqu'à preuve du contraire, nous ne sommes pas dans le cadre des articles 6 et 7.
-1	Madame	monsieur	NOUN	_	Number=Sing	6	vocative	_	Gender[lex]=Fem
+1	Madame	madame	NOUN	_	Number=Sing	6	vocative	_	Gender[lex]=Fem
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Présidente	président	NOUN	_	Number=Sing	1	mod	_	Gender[lex]=Fem|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
@@ -1943,7 +1943,7 @@
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	recommandation	recommandation	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Fem
 10	de	de	ADP	_	_	9	udep	_	_
-11	Mme	monsieur	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Fem
+11	Mme	madame	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Fem
 12	Charlotte	Charlotte	PROPN	_	Gender=Fem|Number=Sing	11	mod	_	_
 13	Cederschiöld	Cederschiöld	PROPN	_	_	12	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
@@ -1989,7 +1989,7 @@
 8	voudrais	vouloir	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	donc	donc	ADV	_	_	8	mod	_	_
 10	remercier	remercier	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=SubjRaising
-11	Mme	monsieur	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Fem
+11	Mme	madame	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Fem
 12	Cederschiöld	Cederschiöld	PROPN	_	_	11	mod	_	Gender[lex]=Unknown
 13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	10	comp:obl	_	_
@@ -2227,7 +2227,7 @@
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	rapport	rapport	NOUN	_	Number=Sing	9	comp:obj	_	Gender[lex]=Masc
 12	de	de	ADP	_	_	11	udep	_	_
-13	Mme	monsieur	NOUN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Fem
+13	Mme	madame	NOUN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Fem
 14	Stenzel	Stenzel	PROPN	_	_	13	mod	_	Gender[lex]=Unknown
 15	sur	sur	ADP	_	_	11	udep	_	_
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	Gender[ctxt]=Fem|SpaceAfter=No
@@ -4772,7 +4772,7 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Président	président	NOUN	_	Number=Sing	1	mod	_	Gender[lex]=Masc|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	Madame	monsieur	NOUN	_	Number=Sing	1	conj:coord	_	Gender[lex]=Fem
+5	Madame	madame	NOUN	_	Number=Sing	1	conj:coord	_	Gender[lex]=Fem
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Commissaire	commissaire	NOUN	_	Number=Sing	5	mod	_	Gender[lex]=Fem|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
@@ -5332,7 +5332,7 @@
 26	de	de	ADP	_	_	25	udep	_	_
 27	résolution	résolution	NOUN	_	Number=Sing	26	comp:obj	_	Gender[lex]=Fem
 28	de	de	ADP	_	_	25	udep	_	_
-29	Mme	monsieur	NOUN	_	Number=Sing	28	comp:obj	_	Gender[lex]=Fem
+29	Mme	madame	NOUN	_	Number=Sing	28	comp:obj	_	Gender[lex]=Fem
 30	Malmström	Malmström	PROPN	_	_	29	mod	_	Gender[lex]=Unknown|SpaceAfter=No
 31	.	.	PUNCT	_	_	20	punct	_	_
 
@@ -6574,7 +6574,7 @@
 16	problèmes	problème	NOUN	_	Number=Plur	8	conj:coord	_	Gender[lex]=Masc
 17	soulevés	soulever	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	16	mod	_	Tense[denom]=Past
 18	par	par	ADP	_	_	17	comp:obl@agent	_	_
-19	Mme	monsieur	NOUN	_	Number=Sing	18	comp:obj	_	Gender[lex]=Fem
+19	Mme	madame	NOUN	_	Number=Sing	18	comp:obj	_	Gender[lex]=Fem
 20	Boumediene-Thiery	Boumediene-Thiery	PROPN	_	_	19	mod	_	Gender[lex]=Unknown
 21	-	-	PUNCT	_	_	23	punct	_	SpaceAfter=No
 22	qui	qui	PRON	_	PronType=Rel	23	subj	_	_
@@ -8130,7 +8130,7 @@
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	tout	tout	ADV	_	_	5	mod	_	_
 5	comme	comme	ADP	_	_	2	mod	_	_
-6	Mme	monsieur	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Fem
+6	Mme	madame	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Fem
 7	Evans	Evans	PROPN	_	Gender=Masc|Number=Sing	6	mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	que	que	SCONJ	_	_	2	comp:obj	_	_
@@ -8260,7 +8260,7 @@
 
 # sent_id = Europar.550_00263
 # text = Madame la Présidente, le 13 avril prochain débutera en Iran un procès à charge de treize citoyens iraniens de confession israélite.
-1	Madame	monsieur	NOUN	_	Number=Sing	9	vocative	_	Gender[lex]=Fem
+1	Madame	madame	NOUN	_	Number=Sing	9	vocative	_	Gender[lex]=Fem
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Présidente	président	NOUN	_	Number=Sing	1	mod	_	Gender[lex]=Fem|SpaceAfter=No
 4	,	,	PUNCT	_	_	9	punct	_	_
@@ -8334,7 +8334,7 @@
 1	Je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	Madame	monsieur	NOUN	_	Number=Sing	2	vocative	_	Gender[lex]=Fem
+4	Madame	madame	NOUN	_	Number=Sing	2	vocative	_	Gender[lex]=Fem
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Présidente	président	NOUN	_	Number=Sing	4	mod	_	Gender[lex]=Fem|SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
@@ -8520,7 +8520,7 @@
 
 # sent_id = Europar.550_00269
 # text = Madame la Présidente, j'ai appris hier soir que M. Akim Birdal, l'ancien président du comité des droits de l'homme de Turquie, a été remis en prison.
-1	Madame	monsieur	NOUN	_	Number=Sing	6	vocative	_	Gender[lex]=Fem
+1	Madame	madame	NOUN	_	Number=Sing	6	vocative	_	Gender[lex]=Fem
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Présidente	président	NOUN	_	Number=Sing	1	mod	_	Gender[lex]=Fem|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
@@ -8672,7 +8672,7 @@
 
 # sent_id = Europar.550_00273
 # text = Madame la Présidente, je voudrais préciser clairement que si nous avons convenu que le Zimbabwe serait le cinquième point, alors il n'y a pas lieu de voter sur d'autres points parce que nous avons déjà cinq points à l'ordre du jour.
-1	Madame	monsieur	NOUN	_	Number=Sing	6	vocative	_	Gender[lex]=Fem
+1	Madame	madame	NOUN	_	Number=Sing	6	vocative	_	Gender[lex]=Fem
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Présidente	président	NOUN	_	Number=Sing	1	mod	_	Gender[lex]=Fem|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
@@ -8987,7 +8987,7 @@
 
 # sent_id = Europar.550_00282
 # text = Madame la Présidente, Monsieur le Ministre, Monsieur le Secrétaire d'État, Monsieur le Commissaire, chers collègues, nous voici face à un tournant réellement très important dans l'évolution de l'Union européenne.
-1	Madame	monsieur	NOUN	_	Number=Sing	23	vocative	_	Gender[lex]=Fem
+1	Madame	madame	NOUN	_	Number=Sing	23	vocative	_	Gender[lex]=Fem
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Présidente	président	NOUN	_	Number=Sing	1	mod	_	Gender[lex]=Fem|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
@@ -9382,7 +9382,7 @@
 3	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
 4	savez	savoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
-6	Madame	monsieur	NOUN	_	Number=Sing	17	vocative	_	Gender[lex]=Fem
+6	Madame	madame	NOUN	_	Number=Sing	17	vocative	_	Gender[lex]=Fem
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Présidente	président	NOUN	_	Number=Sing	6	mod	_	Gender[lex]=Fem|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
@@ -10010,7 +10010,7 @@
 
 # sent_id = Europar.550_00305
 # text = Madame la Présidente, en tant que rapporteur pour avis de la commission du contrôle budgétaire, je souhaiterais apporter un commentaire sur les deux points que nous avons introduits dans le rapport.
-1	Madame	monsieur	NOUN	_	Number=Sing	20	vocative	_	Gender[lex]=Fem
+1	Madame	madame	NOUN	_	Number=Sing	20	vocative	_	Gender[lex]=Fem
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Présidente	président	NOUN	_	Number=Sing	1	mod	_	Gender[lex]=Fem|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
@@ -12942,7 +12942,7 @@
 
 # sent_id = Europar.550_00396
 # text = Madame la Présidente, le président de groupe M. Barón Crespo s'est aussi adressé à moi.
-1	Madame	monsieur	NOUN	_	Number=Sing	13	vocative	_	Gender[lex]=Fem
+1	Madame	madame	NOUN	_	Number=Sing	13	vocative	_	Gender[lex]=Fem
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Présidente	président	NOUN	_	Number=Sing	1	mod	_	Gender[lex]=Fem|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
@@ -14188,7 +14188,7 @@
 # text = Non, Madame van der Laan, vous devriez savoir qu'aux termes du règlement, cette demande aurait dû être introduite selon les formes et dans les temps, ce qui n'a pas été le cas.
 1	Non	non	ADV	_	Polarity=Neg	9	mod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	Madame	monsieur	NOUN	_	Number=Sing	9	vocative	_	Gender[lex]=Fem
+3	Madame	madame	NOUN	_	Number=Sing	9	vocative	_	Gender[lex]=Fem
 4	van	van	PROPN	_	_	3	flat@name	_	Gender[lex]=Unknown
 5	der	der	PROPN	_	_	4	flat@name	_	Gender[lex]=Unknown
 6	Laan	Laan	PROPN	_	_	5	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
@@ -14299,7 +14299,7 @@
 5	chers	cher	ADJ	_	Gender=Masc|Number=Plur	6	mod	_	_
 6	collègues	collègue	NOUN	_	Number=Plur	1	conj:coord	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
-8	Madame	monsieur	NOUN	_	Number=Sing	6	conj:coord	_	Gender[lex]=Fem
+8	Madame	madame	NOUN	_	Number=Sing	6	conj:coord	_	Gender[lex]=Fem
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	rapporteur	rapporteur	NOUN	_	Number=Sing	8	mod	_	Gender[lex]=Masc|SpaceAfter=No
 11	,	,	PUNCT	_	_	8	punct	_	_
@@ -16809,7 +16809,7 @@
 
 # sent_id = Europar.550_00527
 # text = Madame la Présidente, je voudrais saluer votre volonté politique et votre disposition à vous rendre au Pays basque afin de signifier à l'opinion publique espagnole et, en particulier, basque, l'engagement antiterroriste du Parlement européen.
-1	Madame	monsieur	NOUN	_	Number=Sing	6	vocative	_	Gender[lex]=Fem
+1	Madame	madame	NOUN	_	Number=Sing	6	vocative	_	Gender[lex]=Fem
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Présidente	président	NOUN	_	Number=Sing	1	mod	_	Gender[lex]=Fem|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
@@ -17088,7 +17088,7 @@
 
 # sent_id = Europar.550_00537
 # text = Madame la Présidente, ceci est une requête émanant du procureur général du tribunal de grande instance de Berlin de lever l'immunité de M. André Brie, un membre de cette Assemblée.
-1	Madame	monsieur	NOUN	_	Number=Sing	6	vocative	_	Gender[lex]=Fem
+1	Madame	madame	NOUN	_	Number=Sing	6	vocative	_	Gender[lex]=Fem
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Présidente	président	NOUN	_	Number=Sing	1	mod	_	Gender[lex]=Fem|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_

@@ -3747,7 +3747,7 @@
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	classe	classe	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Fem
 13	de	de	ADP	_	_	12	udep	_	_
-14	Mme	monsieur	NOUN	_	Number=Sing	13	comp:obj	_	Gender[lex]=Fem
+14	Mme	madame	NOUN	_	Number=Sing	13	comp:obj	_	Gender[lex]=Fem
 15	Galotte	Galotte	PROPN	_	_	14	mod	_	Gender[lex]=Unknown
 16	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	abordé	aborder	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	16	comp:aux@tense	_	Tense[denom]=Past
@@ -3986,7 +3986,7 @@
 10	de	de	ADP	_	_	9	udep	_	_
 11	CE2	CE2	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Masc
 12	de	de	ADP	_	_	9	udep	_	_
-13	Mme	monsieur	NOUN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Fem
+13	Mme	madame	NOUN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Fem
 14	Philippe	Philippe	PROPN	_	Gender=Masc|Number=Sing	13	mod	_	_
 15	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 16	montré	montrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	15	comp:aux@tense	_	Tense[denom]=Past
@@ -11990,7 +11990,7 @@
 
 # sent_id = annodis.er_00467
 # text = Mme Michèle Demange, adjoint au maire, conduira les opérations.
-1	Mme	monsieur	NOUN	_	Number=Sing	10	subj	_	Gender[lex]=Fem
+1	Mme	madame	NOUN	_	Number=Sing	10	subj	_	Gender[lex]=Fem
 2	Michèle	Michèle	PROPN	_	Gender=Fem|Number=Sing	1	mod	_	_
 3	Demange	Demange	PROPN	_	_	2	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
