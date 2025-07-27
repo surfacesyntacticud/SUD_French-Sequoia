@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = emea-fr-dev_00001
 # text = European Medicines Agency
 1	European	European	X	_	Foreign=Yes	0	root	_	Lang=en
@@ -60,7 +59,7 @@
 
 # sent_id = emea-fr-dev_00007
 # text = Il explique comment le comité des médicaments à usage humain (CHMP) a évalué les études réalisées afin d'aboutir à ses recommandations relatives aux conditions d'utilisation du médicament.
-1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	comment	comment	ADV	_	PronType=Int	15	mod	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -135,7 +134,7 @@
 # sent_id = emea-fr-dev_00009
 # text = Si vous souhaitez davantage d'informations sur la base des recommandations du CHMP, veuillez lire la discussion scientifique (également comprise dans l'EPAR).
 1	Si	si	SCONJ	_	_	17	mod	_	_
-2	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
+2	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	3	subj	_	Polite=Unknown
 3	souhaitez	souhaiter	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 4	davantage	davantage	ADV	_	ExtPos=PRON	3	comp:obj	_	_
 5	d'	de	ADP	_	_	4	comp:obl	_	SpaceAfter=No
@@ -171,7 +170,7 @@
 1	Qu'	que	PRON	_	PronType=Int	2	comp:pred	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	subj	_	_
-4	que	que	SCONJ	_	_	2	dislocated	_	_
+4	que	que	SCONJ	_	_	2	dislocated:obj	_	_
 5	Angiox	Angiox	PROPN	_	_	4	comp:obj	_	Gender[lex]=Unknown
 6	?	?	PUNCT	_	_	2	punct	_	_
 
@@ -202,7 +201,7 @@
 
 # sent_id = emea-fr-dev_00012
 # text = Il contient le principe actif bivalirudine.
-1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	contient	contenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	principe	principe	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Masc
@@ -296,7 +295,7 @@
 
 # sent_id = emea-fr-dev_00015
 # text = Il est utilisé en conjonction avec de l'aspirine et du clopidogel (médicaments contribuant à prévenir les caillots sanguins) chez les patients sur le point de subir un traitement pour leur SCA, comme un traitement médicamenteux, subissant une angioplastie ou un pontage coronarien.
-1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@pass	_	_
+1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@pass	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	comp:aux@pass	_	Tense[denom]=Past
 4	en	en	ADP	_	_	2	mod	_	_
@@ -438,7 +437,7 @@
 
 # sent_id = emea-fr-dev_00021
 # text = Il doit être prescrit par un médecin ayant l'expérience des prises en charge urgentes de patients souffrant de problèmes cardiaques ou des interventions sur le coeur.
-1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	être	être	AUX	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising
 4	prescrit	prescrire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	Tense[denom]=Past
@@ -534,7 +533,7 @@
 18	être	être	AUX	_	VerbForm=Inf	17	comp:obj	_	Subject=SubjRaising
 19	traité	traiter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	18	comp:aux@pass	_	Tense[denom]=Past
 20	:	:	PUNCT	_	_	22	punct	_	_
-21	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	subj	_	_
+21	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	subj	_	_
 22	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
 23	durer	durer	VERB	_	VerbForm=Inf	22	comp:obj	_	Subject=SubjRaising
 24	jusqu'	jusque	ADP	_	_	27	mod	_	SpaceAfter=No
@@ -557,7 +556,7 @@
 # sent_id = emea-fr-dev_00025
 # text = Lorsqu'il est utilisé pour prévenir la formation de caillots sanguins chez les patients subissant une ICP, une dose plus élevée d'Angiox est utilisée, et la perfusion peut être poursuivie jusqu'à quatre heures après la procédure.
 1	Lorsqu'	lorsque	SCONJ	_	_	25	mod	_	SpaceAfter=No
-2	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@pass	_	_
+2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@pass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 4	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	Tense[denom]=Past
 5	pour	pour	ADP	_	_	4	comp:obl	_	_
@@ -703,7 +702,7 @@
 
 # sent_id = emea-fr-dev_00032
 # text = il empêche le sang de coaguler (formation de caillots).
-1	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	empêche	empêcher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	sang	sang	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Masc
@@ -746,7 +745,7 @@
 
 # sent_id = emea-fr-dev_00034
 # text = Elle bloque spécifiquement l'une des substances impliquées dans le processus de coagulation, la thrombine.
-1	Elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+1	Elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	bloque	bloquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	spécifiquement	spécifiquement	ADV	_	_	2	mod	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	Gender[ctxt]=Fem|SpaceAfter=No
@@ -1122,7 +1121,7 @@
 10-11	auxquels	_	_	_	_	_	_	_	_
 10	à	à	ADP	_	_	15	comp:obl	_	_
 11	lesquels	lequel	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	10	comp:obj	_	_
-12	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj@pass	_	_
+12	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj@pass	_	_
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
 14	été	être	AUX	_	Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
 15	comparé	comparer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	14	comp:aux@pass	_	SpaceAfter=No|Tense[denom]=Past
@@ -1131,7 +1130,7 @@
 # sent_id = emea-fr-dev_00048
 # text = Lorsqu'il a été utilisé pour le traitement de SCA, Angiox, administré avec ou sans inhibiteur de GP, a été aussi efficace que le traitement standard pour prévenir l'apparition globale de nouveaux événements (décès, crises cardiaques ou revascularisations) après 30 jours et après un an.
 1	Lorsqu'	lorsque	SCONJ	_	_	22	mod	_	SpaceAfter=No
-2	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@pass	_	_
+2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@pass	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 4	été	être	AUX	_	Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	comp:aux@pass	_	Tense[denom]=Past
@@ -1268,7 +1267,7 @@
 30	,	,	PUNCT	_	_	35	punct	_	_
 31	pour	pour	ADP	_	_	36	mod	_	_
 32	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	31	comp:obj	_	_
-33	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	subj	_	_
+33	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	subj	_	_
 34	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	36	comp@expl	_	SpaceAfter=No
 35	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	mod@relcl	_	_
 36	révélé	révéler	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	35	comp:aux@tense	_	Tense[denom]=Past
@@ -1392,14 +1391,14 @@
 
 # sent_id = emea-fr-dev_00056
 # text = Il convient en outre de ne pas l'utiliser chez les patients ayant eu une hémorragie récente, souffrant d'hypertension aiguë ou présentant des troubles graves des reins, ou encore chez les patients présentant une infection cardiaque.
-1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
 2	convient	convenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	en	en	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes
 4	outre	outre	ADP	_	_	3	unk	_	InIdiom=Yes
 5	de	de	ADP	_	_	2	comp:obj@agent	_	_
 6	ne	ne	ADV	_	Polarity=Neg	9	mod	_	_
 7	pas	pas	ADV	_	Polarity=Neg	9	mod	_	_
-8	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	9	comp:obj	_	SpaceAfter=No
+8	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	9	comp:obj	_	SpaceAfter=No
 9	utiliser	utiliser	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=Generic
 10	chez	chez	ADP	_	_	9	mod	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
@@ -1521,7 +1520,7 @@
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	risques	risque	NOUN	_	Number=Plur	12	comp:obj	_	Gender[lex]=Masc
 15	qu'	que	PRON	_	PronType=Rel	17	comp:obj	_	SpaceAfter=No
-16	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj	_	_
+16	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj	_	_
 17	comporte	comporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	mod@relcl	_	_
 18	pour	pour	ADP	_	_	17	mod	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
@@ -2399,7 +2398,7 @@
 1	Par	par	ADP	_	_	6	mod	_	_
 2	conséquent	conséquent	NOUN	_	_	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj@expl	_	_
+4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj@expl	_	_
 5	n'	ne	ADV	_	Polarity=Neg	6	mod	_	SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
@@ -2667,7 +2666,7 @@
 6	insuffisance	insuffisance	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Fem
 7	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	6	mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	1	punct	_	_
-9	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj@expl	_	_
+9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj@expl	_	_
 10	n'	ne	ADV	_	Polarity=Neg	11	mod	_	SpaceAfter=No
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	pas	pas	ADV	_	Polarity=Neg	11	mod	_	_
@@ -2719,7 +2718,7 @@
 19	ICP	ICP	NOUN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Fem
 20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
 21	qu'	que	SCONJ	_	_	3	mod	_	SpaceAfter=No
-22	ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	subj@pass	_	_
+22	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	subj@pass	_	_
 23	soient	être	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	comp:obj	_	_
 24	traités	traiter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	23	comp:aux@pass	_	Tense[denom]=Past
 25	avec	avec	ADP	_	_	23	mod	_	_
@@ -3025,7 +3024,7 @@
 
 # sent_id = emea-fr-dev_00140
 # text = Il n'existe pas de données pertinentes concernant l'utilisation d'Angiox chez l'enfant
-1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 3	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
@@ -3299,7 +3298,7 @@
 # text = Ne pas l'administrer par voie intramusculaire.
 1	Ne	ne	ADV	_	Polarity=Neg	4	mod	_	_
 2	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
-3	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	SpaceAfter=No
+3	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	SpaceAfter=No
 4	administrer	administrer	VERB	_	VerbForm=Inf	0	root	_	Subject=Generic
 5	par	par	ADP	_	_	4	mod	_	_
 6	voie	voie	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Fem
@@ -3313,7 +3312,7 @@
 
 # sent_id = emea-fr-dev_00156
 # text = Il convient de surveiller attentivement que les patients ne présentent pas de symptômes et de signes de saignement pendant le traitement, notamment si la bivalirudine est combinée à un autre anticoagulant (voir Section 4.5).
-1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
 2	convient	convenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	de	de	ADP	_	_	2	comp:obj@agent	_	_
 4	surveiller	surveiller	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=Generic
@@ -3429,11 +3428,11 @@
 4	être	être	AUX	_	VerbForm=Inf	3	comp:obj	_	Subject=SubjRaising
 5	arrêté	arrêter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	comp:aux@pass	_	Tense[denom]=Past
 6	si	si	SCONJ	_	_	3	mod	_	_
-7	on	on	PRON	_	Number=Sing|Person=3|PronType=Ind	8	subj	_	_
+7	on	on	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=3|PronType=Ind	8	subj	_	_
 8	observe	observer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
 9	ou	ou	CCONJ	_	_	10	cc	_	_
 10	si	si	SCONJ	_	_	6	conj:coord	_	_
-11	on	on	PRON	_	Number=Sing|Person=3|PronType=Ind	12	subj	_	_
+11	on	on	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=3|PronType=Ind	12	subj	_	_
 12	soupçonne	soupçonner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	saignement	saignement	NOUN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
@@ -3441,7 +3440,7 @@
 
 # sent_id = emea-fr-dev_00160
 # text = Il n'existe pas d'antidote connu pour la bivalirudine, mais son effet disparaît rapidement (T½ 35 à 40 minutes).
-1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 3	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
@@ -3666,7 +3665,7 @@
 3	de	de	ADP	_	_	2	udep	_	_
 4	choc	choc	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
-6	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
+6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
 7	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	appliquer	appliquer	VERB	_	VerbForm=Inf	7	comp:obj	_	Subject=Generic
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
@@ -3687,14 +3686,14 @@
 1	Des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	det	_	_
 2	réactions	réaction	NOUN	_	Number=Plur	12	subj@pass	_	Gender[lex]=Fem
 3	anaphylactiques	anaphylactique	ADJ	_	Number=Plur	2	mod	_	Gender[ctxt]=Fem|SpaceAfter=No
-4	,	,	PUNCT	_	_	5	punct	_	_
-5	y	y	PRON	_	ExtPos=ADP|Person=3|PronType=Prs	2	udep	_	Idiom=Yes
-6	compris	compris	ADJ	_	Gender=Masc	5	unk	_	InIdiom=Yes|Number[ctxt]=Sing
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	y	y	PRON	_	Person=3|PronType=Prs	6	comp:obl	_	InIdiom=Yes
+6	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part|Voice=Pass	_	_	_	Idiom=Yes|Tense[denom]=Past
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	choc	choc	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Masc
+8	choc	choc	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Masc
 9	anaphylactique	anaphylactique	ADJ	_	Number=Sing	8	mod	_	Gender[ctxt]=Masc
 10	fatal	fatal	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	5	punct	_	_
+11	,	,	PUNCT	_	_	6	punct	_	_
 12	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	été	être	AUX	_	Tense=Past|VerbForm=Part	12	comp:aux@tense	_	_
 14	rapportées	rapporter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	13	comp:aux@pass	_	Tense[denom]=Past
@@ -3864,7 +3863,7 @@
 9	de	de	ADP	_	_	7	comp:obj	_	_
 10	penser	penser	VERB	_	VerbForm=Inf	9	comp:obj	_	Subject=Generic
 11	qu'	que	SCONJ	_	_	10	comp:obj	_	SpaceAfter=No
-12	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	subj@expl	_	_
+12	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	subj@expl	_	_
 13	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	14	comp@expl	_	_
 14	produise	produire	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
 15	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	det	_	SpaceAfter=No
@@ -3887,7 +3886,7 @@
 7	d'	de	ADP	_	_	6	udep	_	SpaceAfter=No
 8	action	action	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 9	,	,	PUNCT	_	_	1	punct	_	_
-10	on	on	PRON	_	Number=Sing|Person=3|PronType=Ind	11	subj	_	_
+10	on	on	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=3|PronType=Ind	11	subj	_	_
 11	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	13	comp@expl	_	SpaceAfter=No
 13	attendre	attendre	VERB	_	VerbForm=Inf	11	comp:obj	_	Subject=SubjRaising
@@ -3960,7 +3959,7 @@
 
 # sent_id = emea-fr-dev_00180
 # text = Il n'existe pas de données suffisamment pertinentes concernant l'utilisation de la bivalirudine chez la femme enceinte.
-1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 3	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
@@ -4058,7 +4057,7 @@
 
 # sent_id = emea-fr-dev_00184
 # text = Il n'existe pas de données concernant un éventuel passage de la bivalirudine dans le lait maternel.
-1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 3	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
@@ -5867,7 +5866,7 @@
 36	administrés	administrer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	35	comp:aux@pass	_	Tense[denom]=Past
 37	sans	sans	ADP	_	_	33	mod	_	_
 38	qu'	que	SCONJ	_	_	37	comp:obj	_	SpaceAfter=No
-39	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	subj@expl	_	_
+39	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	subj@expl	_	_
 40	ne	ne	ADV	_	Polarity=Neg	41	mod	_	_
 41	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	comp:obj	_	_
 42	rapporté	rapporter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	41	comp:aux@pass	_	Tense[denom]=Past
@@ -5933,7 +5932,7 @@
 
 # sent_id = emea-fr-dev_00288
 # text = Il n'existe pas d'antidote connu pour la bivalirudine ;
-1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 3	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
@@ -6356,7 +6355,7 @@
 47	,	,	PUNCT	_	_	49	punct	_	_
 48	et	et	CCONJ	_	_	49	cc	_	_
 49	qu'	que	SCONJ	_	_	8	conj:coord	_	SpaceAfter=No
-50	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	52	subj	_	_
+50	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	52	subj	_	_
 51	n'	ne	ADV	_	Polarity=Neg	52	mod	_	SpaceAfter=No
 52	induit	induire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	comp:obj	_	_
 53	pas	pas	ADV	_	Polarity=Neg	52	mod	_	_
@@ -6416,7 +6415,7 @@
 23	concentration	concentration	NOUN	_	Number=Sing	21	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
 25	comme	comme	SCONJ	_	_	12	mod	_	_
-26	le	le	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	comp:obj	_	_
+26	le	le	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	comp:obj	_	_
 27	prouve	prouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	comp:obj	_	_
 28	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	29	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 29	allongement	allongement	NOUN	_	Number=Sing	27	subj	_	Gender[lex]=Masc
@@ -6931,7 +6930,7 @@
 2	angiographie	angiographie	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
-5	patients	patient	NOUN	_	Number=Plur	6	subj	_	Gender[lex]=Masc
+5	patients	patient	NOUN	_	Number=Plur	6	subj@pass	_	Gender[lex]=Masc
 6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	soit	soit	CCONJ	_	_	6	cc	_	_
 8	pris	prendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Pass	6	comp:aux@pass	_	Tense[denom]=Past
@@ -7665,7 +7664,7 @@
 17	hépatique	hépatique	ADJ	_	Number=Sing	16	mod	_	Gender[ctxt]=Fem|SpaceAfter=No
 18	,	,	PUNCT	_	_	23	punct	_	_
 19	mais	mais	CCONJ	_	_	23	cc	_	_
-20	on	on	PRON	_	Number=Sing|Person=3|PronType=Ind	23	subj	_	_
+20	on	on	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=3|PronType=Ind	23	subj	_	_
 21	ne	ne	ADV	_	Polarity=Neg	23	mod	_	_
 22	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	23	comp@expl	_	SpaceAfter=No
 23	attend	attendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj:coord	_	_
@@ -7673,7 +7672,7 @@
 25	à	à	ADP	_	_	23	comp:obl	_	_
 26	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	25	comp:obj	_	_
 27	qu'	que	SCONJ	_	_	26	mod	_	SpaceAfter=No
-28	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	subj@pass	_	_
+28	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	subj@pass	_	_
 29	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	comp:obj	_	_
 30	modifiée	modifier	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	29	comp:aux@pass	_	SpaceAfter=No|Tense[denom]=Past
 31	,	,	PUNCT	_	_	36	punct	_	_
@@ -7754,7 +7753,7 @@
 
 # sent_id = emea-fr-dev_00348
 # text = Elle est réduite d'environ 20% chez les patients atteints d'insuffisance rénale modérée ou sévère et de 80% chez les patients dépendants de la dialyse (Tableau 11).
-1	Elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj@pass	_	_
+1	Elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj@pass	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	réduite	réduire	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	comp:aux@pass	_	Tense[denom]=Past
 4	d'	de	ADP	_	_	3	comp:obl	_	SpaceAfter=No
@@ -7877,7 +7876,7 @@
 
 # sent_id = emea-fr-dev_00354
 # text = Il n'y a pas d'effets du sexe sur la pharmacocinétique de la bivalirudine.
-1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	_
+1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	_
 2	n'	ne	ADV	_	Polarity=Neg	4	mod	_	SpaceAfter=No
 3	y	y	PRON	_	Person=3|PronType=Prs	4	comp@expl	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8097,7 +8096,7 @@
 25	plus	plus	ADV	_	_	26	mod	_	_
 26	élevées	élevé	ADJ	_	Gender=Fem|Number=Plur	23	mod	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	1	punct	_	_
-28	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	subj@expl	_	_
+28	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	subj@expl	_	_
 29	n'	ne	ADV	_	Polarity=Neg	30	mod	_	SpaceAfter=No
 30	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 31	pas	pas	ADV	_	Polarity=Neg	30	mod	_	_
@@ -8136,7 +8135,7 @@
 9	courte	court	ADJ	_	Gender=Fem|Number=Sing	10	mod	_	_
 10	durée	durée	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 11	,	,	PUNCT	_	_	3	punct	_	_
-12	on	on	PRON	_	Number=Sing|Person=3|PronType=Ind	14	subj	_	_
+12	on	on	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=3|PronType=Ind	14	subj	_	_
 13	ne	ne	ADV	_	Polarity=Neg	14	mod	_	_
 14	dispose	disposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	d'	de	ADP	_	_	14	comp:obl	_	SpaceAfter=No
@@ -8407,7 +8406,7 @@
 38	8	8	NUM	_	ExtPos=DET|NumType=Card	39	det	_	Number[lex]=Plur
 39	°C	°C	NOUN	_	_	36	conj:coord	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	41	punct	_	_
-41	sauf	sauf	ADP	_	_	29	mod	_	_
+41	sauf	sauf	CCONJ	_	_	29	conj:appos	_	_
 42	en	en	ADP	_	_	41	comp:obj	_	_
 43	cas	cas	NOUN	_	_	42	comp:obj	_	Gender[lex]=Masc
 44	de	de	ADP	_	_	43	udep	_	_
@@ -8633,7 +8632,7 @@
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	flacon	flacon	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Masc
 11	puis	puis	CCONJ	_	_	13	cc	_	_
-12	les	eux	PRON	_	Emph=No|Number=Plur|Person=3|PronType=Prs	13	comp:obj	_	_
+12	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	13	comp:obj	_	_
 13	diluer	diluer	VERB	_	VerbForm=Inf	1	conj:coord	_	Subject=Generic
 14	dans	dans	ADP	_	_	13	comp:obl	_	_
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -8713,7 +8712,7 @@
 7	être	être	AUX	_	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
 8	vérifiée	vérifier	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	7	comp:aux@pass	_	Tense[denom]=Past
 9	qu'	que	SCONJ	_	_	8	mod	_	SpaceAfter=No
-10	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	subj	_	_
+10	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	subj	_	_
 11	ne	ne	ADV	_	Polarity=Neg	12	mod	_	_
 12	contient	contenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
 13	pas	pas	ADV	_	Polarity=Neg	12	mod	_	_
@@ -8721,7 +8720,7 @@
 15	particules	particule	NOUN	_	Number=Plur	12	comp:obj	_	Gender[lex]=Fem
 16	et	et	CCONJ	_	_	17	cc	_	_
 17	qu'	que	SCONJ	_	_	9	conj:coord	_	SpaceAfter=No
-18	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	subj	_	_
+18	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	subj	_	_
 19	ne	ne	ADV	_	Polarity=Neg	20	mod	_	_
 20	présente	présenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
 21	pas	pas	ADV	_	Polarity=Neg	20	mod	_	_
@@ -9695,12 +9694,12 @@
 3	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
 4	notice	notice	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
-6	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	7	subj	_	_
+6	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	7	subj	_	Polite=Unknown
 7	pourriez	pouvoir	VERB	_	Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 8	avoir	avoir	VERB	_	VerbForm=Inf	7	comp:obj	_	Subject=SubjRaising
 9	besoin	besoin	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Masc
 10	de	de	ADP	_	_	8	comp:obl	_	_
-11	la	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	_
+11	la	lui	PRON	_	Case=Acc|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	_
 12	relire	relire	VERB	_	VerbForm=Inf	10	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 13	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -9708,14 +9707,14 @@
 # text = - Si vous avez d'autres questions, si vous avez un doute, demandez plus d'informations à votre pharmacien
 1	-	-	PUNCT	_	_	15	punct	_	_
 2	Si	si	SCONJ	_	_	15	mod	_	_
-3	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
+3	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	4	subj	_	Polite=Unknown
 4	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 5	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	SpaceAfter=No
 6	autres	autre	ADJ	_	Number=Plur	7	mod	_	Gender[ctxt]=Fem
 7	questions	question	NOUN	_	Number=Plur	4	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	si	si	SCONJ	_	_	15	mod	_	_
-10	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	11	subj	_	_
+10	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	11	subj	_	Polite=Unknown
 11	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	doute	doute	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
@@ -9743,7 +9742,7 @@
 10	sérieux	sérieux	ADJ	_	Gender=Masc	9	comp:pred	_	Number[ctxt]=Sing
 11	ou	ou	CCONJ	_	_	12	cc	_	_
 12	si	si	SCONJ	_	_	2	conj:coord	_	_
-13	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	14	subj	_	_
+13	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	14	subj	_	Polite=Unknown
 14	remarquez	remarquer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	comp:obj	_	_
 15	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
 16	effets	effet	NOUN	_	Number=Plur	14	comp:obj	_	Gender[lex]=Masc
@@ -9773,7 +9772,7 @@
 1	Qu'	que	PRON	_	PronType=Int	2	comp:pred	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	subj	_	_
-4	que	que	SCONJ	_	_	2	dislocated	_	_
+4	que	que	SCONJ	_	_	2	dislocated:obj	_	_
 5	Angiox	Angiox	PROPN	_	_	4	comp:obj	_	Gender[lex]=Unknown
 6	et	et	CCONJ	_	_	10	cc	_	_
 7	dans	dans	ADP	_	_	10	mod	_	_
@@ -9837,7 +9836,7 @@
 1	QU'	que	PRON	_	PronType=Int	2	comp:pred	_	SpaceAfter=No
 2	EST	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	-CE	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	subj	_	_
-4	QUE	que	SCONJ	_	_	2	dislocated	_	_
+4	QUE	que	SCONJ	_	_	2	dislocated:obj	_	_
 5	ANGIOX	Angiox	PROPN	_	_	4	comp:obj	_	Gender[lex]=Unknown
 6	ET	et	CCONJ	_	_	10	cc	_	_
 7	DANS	dans	ADP	_	_	10	mod	_	_
@@ -9943,7 +9942,7 @@
 # text = - si vous êtes hypersensible (allergique) à la bivalirudine ou à l'un des autres composants contenus dans Angiox (voir liste rubrique 6).
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	si	si	SCONJ	_	_	0	root	_	_
-3	vous	vous	PRON	_	Number=Sing|Person=2|PronType=Prs	4	subj	_	_
+3	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	4	subj	_	Polite=Yes
 4	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 5	hypersensible	hypersensible	ADJ	_	Number=Sing	4	comp:pred	_	Gender[ctxt]=Masc
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
@@ -9976,7 +9975,7 @@
 # text = - si vous présentez ou avez récemment présenté un saignement au niveau de l'estomac, des intestins, de la vessie ou d'autres organes, par exemple si vous avez du sang anormal dans vos selles ou vos urines (excepté un saignement menstruel).
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	si	si	SCONJ	_	_	0	root	_	_
-3	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
+3	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	4	subj	_	Polite=Unknown
 4	présentez	présenter	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 5	ou	ou	CCONJ	_	_	6	cc	_	_
 6	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	conj:coord	_	_
@@ -10008,7 +10007,7 @@
 30	par	par	ADP	_	_	32	mod	_	_
 31	exemple	exemple	NOUN	_	Number=Sing	30	comp:obj	_	Gender[lex]=Masc
 32	si	si	SCONJ	_	_	2	mod	_	_
-33	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	34	subj	_	_
+33	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	34	subj	_	Polite=Unknown
 34	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	32	comp:obj	_	_
 35	du	du	DET	_	Gender=Masc|Number=Sing	36	det	_	_
 36	sang	sang	NOUN	_	Number=Sing	34	comp:obj	_	Gender[lex]=Masc
@@ -10031,7 +10030,7 @@
 # text = - si vous avez présenté des troubles de la coagulation sanguine ou un faible nombre de plaquettes
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	si	si	SCONJ	_	_	0	root	_	_
-3	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
+3	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	4	subj	_	Polite=Unknown
 4	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 5	présenté	présenter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Tense[denom]=Past
 6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
@@ -10051,7 +10050,7 @@
 # text = - si vous avez ou avez eu une hypertension (tension artérielle élevée) sévère non contrôlée.
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	si	si	SCONJ	_	_	0	root	_	_
-3	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
+3	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	4	subj	_	Polite=Unknown
 4	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 5	ou	ou	CCONJ	_	_	6	cc	_	_
 6	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	conj:coord	_	_
@@ -10072,7 +10071,7 @@
 # text = - si vous avez ou avez eu une infection du tissu cardiaque.
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	si	si	SCONJ	_	_	0	root	_	_
-3	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
+3	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	4	subj	_	Polite=Unknown
 4	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 5	ou	ou	CCONJ	_	_	6	cc	_	_
 6	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	conj:coord	_	_
@@ -10106,7 +10105,7 @@
 # text = - si vous prenez ou avez pris récemment un autre médicament, même s'il s'agit d'un médicament obtenu sans ordonnance.
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	si	si	SCONJ	_	_	0	root	_	_
-3	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
+3	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	4	subj	_	Polite=Unknown
 4	prenez	prendre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 5	ou	ou	CCONJ	_	_	6	cc	_	_
 6	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	conj:coord	_	_
@@ -10118,7 +10117,7 @@
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	même	même	ADV	_	ExtPos=SCONJ	2	mod	_	Idiom=Yes
 14	s'	si	SCONJ	_	_	13	unk	_	InIdiom=Yes|SpaceAfter=No
-15	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj@expl	_	_
+15	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj@expl	_	_
 16	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	17	comp@expl	_	SpaceAfter=No
 17	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	comp:obj	_	_
 18	d'	de	ADP	_	_	17	comp:obl	_	SpaceAfter=No
@@ -10133,7 +10132,7 @@
 # text = - si vous avez été traité par des produits similaires à Angiox (par exemple lépirudine)
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	si	si	SCONJ	_	_	0	root	_	_
-3	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj@pass	_	_
+3	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	4	subj@pass	_	Polite=Unknown
 4	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 5	été	être	AUX	_	Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	traité	traiter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	comp:aux@pass	_	Tense[denom]=Past
@@ -10163,7 +10162,7 @@
 10	de	de	ADP	_	_	9	udep	_	_
 11	saignement	saignement	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Masc
 12	s'	si	SCONJ	_	_	6	mod	_	SpaceAfter=No
-13	ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	subj@pass	_	_
+13	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	subj@pass	_	_
 14	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	comp:obj	_	_
 15	administrés	administrer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	14	comp:aux@pass	_	Tense[denom]=Past
 16	en	en	ADP	_	_	14	mod	_	_
@@ -10181,7 +10180,7 @@
 
 # sent_id = emea-fr-dev_00491
 # text = Vous devez prévenir votre médecin :
-1	Vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
+1	Vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	devez	devoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	prévenir	prévenir	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising
 4	votre	son	DET	_	Number=Sing|Poss=Yes	5	det	_	_
@@ -10192,7 +10191,7 @@
 # text = - Si vous êtes enceinte ou pensez l'être
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	Si	si	SCONJ	_	_	0	root	_	_
-3	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
+3	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	4	subj	_	Polite=Yes
 4	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 5	enceinte	enceinte	ADJ	_	Gender=Fem|Number=Sing	4	comp:pred	_	_
 6	ou	ou	CCONJ	_	_	7	cc	_	_
@@ -10234,13 +10233,13 @@
 9	non	non	ADV	_	Polarity=Neg	7	conj:coord	_	_
 10	approprié	approprié	ADJ	_	Gender=Masc|Number=Sing|Shared=Yes	9	comp:pred	_	_
 11	pour	pour	ADP	_	_	10	mod	_	_
-12	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	11	comp:obj	_	SpaceAfter=No
+12	vous	vous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=2|PronType=Prs	11	comp:obj	_	Polite=Unknown|SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-dev_00495
 # text = Si vous allaitez, votre médecin déterminera si Angiox peut être utilisé.
 1	Si	si	SCONJ	_	_	7	mod	_	_
-2	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
+2	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	3	subj	_	Polite=Unknown
 3	allaitez	allaiter	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	votre	son	DET	_	Number=Sing|Poss=Yes	6	det	_	_
@@ -10316,7 +10315,7 @@
 
 # sent_id = emea-fr-dev_00499
 # text = Il est donc peu susceptible d'affecter votre capacité à conduire des véhicules ou à utiliser des machines.
-1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	donc	donc	ADV	_	_	2	mod	_	_
 4	peu	peu	ADV	_	_	5	mod	_	_
@@ -10362,11 +10361,11 @@
 5	quantité	quantité	NOUN	_	Number=Sing	9	subj@pass	_	Gender[lex]=Fem
 6	d'	de	ADP	_	_	5	udep	_	SpaceAfter=No
 7	Angiox	Angiox	PROPN	_	_	6	comp:obj	_	Gender[lex]=Unknown
-8	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	10	comp:obl	_	_
+8	vous	vous	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=2|PronType=Prs	10	comp:obl	_	Polite=Unknown
 9	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	comp:obj	_	_
 10	administrée	administrer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	9	comp:aux@pass	_	Tense[denom]=Past
 11	et	et	CCONJ	_	_	13	cc	_	_
-12	la	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	_
+12	la	lui	PRON	_	Case=Acc|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	_
 13	préparera	préparer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj:coord	_	SpaceAfter=No
 14	.	.	PUNCT	_	Shared=Yes	13	punct	_	_
 
@@ -10379,7 +10378,7 @@
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	votre	son	DET	_	Number=Sing|Poss=Yes	7	det	_	_
 7	médecin	médecin	NOUN	_	Number=Sing	9	subj	_	Gender[lex]=Masc
-8	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	9	comp:obj	_	_
+8	vous	vous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=2|PronType=Prs	9	comp:obj	_	Polite=Unknown
 9	examinera	examiner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 10	pour	pour	ADP	_	_	9	mod	_	_
 11	contrôler	contrôler	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=Instantiated
@@ -10415,7 +10414,7 @@
 8	,	,	PUNCT	_	_	2	punct	_	_
 9	votre	son	DET	_	Number=Sing|Poss=Yes	10	det	_	_
 10	médecin	médecin	NOUN	_	Number=Sing	12	subj	_	Gender[lex]=Masc
-11	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	12	comp:obj	_	_
+11	vous	vous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=2|PronType=Prs	12	comp:obj	_	Polite=Unknown
 12	informera	informer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 13	sur	sur	ADP	_	_	12	comp:obl	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
@@ -10449,7 +10448,7 @@
 # text = - Si vous suivez une procédure de type brachythérapie bêta ou gamma, votre médecin vous contrôlera encore plus soigneusement.
 1	-	-	PUNCT	_	_	17	punct	_	_
 2	Si	si	SCONJ	_	_	17	mod	_	_
-3	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
+3	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	4	subj	_	Polite=Unknown
 4	suivez	suivre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	procédure	procédure	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Fem
@@ -10462,7 +10461,7 @@
 13	,	,	PUNCT	_	_	2	punct	_	_
 14	votre	son	DET	_	Number=Sing|Poss=Yes	15	det	_	_
 15	médecin	médecin	NOUN	_	Number=Sing	17	subj	_	Gender[lex]=Masc
-16	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	17	comp:obj	_	_
+16	vous	vous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=2|PronType=Prs	17	comp:obj	_	Polite=Unknown
 17	contrôlera	contrôler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 18	encore	encore	ADV	_	_	19	mod	_	_
 19	plus	plus	ADV	_	_	20	mod	_	_
@@ -10485,7 +10484,7 @@
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	traitement	traitement	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Masc
 13	qui	qui	PRON	_	PronType=Rel	15	subj@pass	_	_
-14	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	17	comp:obl	_	_
+14	vous	vous	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=2|PronType=Prs	17	comp:obl	_	Polite=Unknown
 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	_
 16	été	être	AUX	_	Tense=Past|VerbForm=Part	15	comp:aux@tense	_	_
 17	prescrit	prescrire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	16	comp:aux@pass	_	SpaceAfter=No|Tense[denom]=Past
@@ -10592,7 +10591,7 @@
 3	après	après	ADP	_	_	7	mod	_	_
 4	cela	cela	PRON	_	Number=Sing|Person=3|PronType=Dem	3	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
-6	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	7	subj	_	_
+6	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	7	subj	_	Polite=Unknown
 7	devez	devoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 8	bénéficier	bénéficier	VERB	_	VerbForm=Inf	7	comp:obj	_	Subject=SubjRaising
 9	d'	de	ADP	_	_	8	comp:obl	_	SpaceAfter=No
@@ -10604,8 +10603,8 @@
 15	ICP	ICP	NOUN	_	_	11	conj:appos	_	SpaceAfter=No
 16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
-18	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	subj@expl	_	_
-19	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	21	comp:obl	_	_
+18	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	subj@expl	_	_
+19	vous	vous	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=2|PronType=Prs	21	comp:obl	_	Polite=Unknown
 20	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 21	administré	administrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	20	comp:aux@pass	_	Tense[denom]=Past
 22	:	:	PUNCT	_	_	21	punct	_	_
@@ -10732,7 +10731,7 @@
 5	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 6	réduite	réduire	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	comp:aux@pass	_	Tense[denom]=Past
 7	si	si	SCONJ	_	_	5	mod	_	_
-8	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	9	subj	_	_
+8	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	9	subj	_	Polite=Unknown
 9	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
 10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
 11	problèmes	problème	NOUN	_	Number=Plur	9	comp:obj	_	Gender[lex]=Masc
@@ -10861,7 +10860,7 @@
 # sent_id = emea-fr-dev_00528
 # text = S'il se produit des effets indésirables, ceux-ci peuvent nécessiter des soins médicaux.
 1	S'	si	SCONJ	_	_	10	mod	_	SpaceAfter=No
-2	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	_
+2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	_
 3	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	4	comp@expl	_	_
 4	produit	produire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
@@ -10903,7 +10902,7 @@
 4	rares	rare	ADJ	_	Number=Plur	5	mod	_	Gender[ctxt]=Masc
 5	cas	cas	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
-7	ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	subj	_	_
+7	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	subj	_	_
 8	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	entraîner	entraîner	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=SubjRaising
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -10954,7 +10953,7 @@
 # sent_id = emea-fr-dev_00532
 # text = Si vous remarquez un des effets indésirables, potentiellement sévères, suivants :
 1	Si	si	SCONJ	_	_	0	root	_	_
-2	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
+2	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	3	subj	_	Polite=Unknown
 3	remarquez	remarquer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 4	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	comp:obj	_	_
 5-6	des	_	_	_	_	_	_	_	_
@@ -10972,7 +10971,7 @@
 # sent_id = emea-fr-dev_00533
 # text = Lorsque vous êtes à l'hôpital : prévenez immédiatement votre médecin ou votre infirmière.
 1	Lorsque	lorsque	SCONJ	_	_	8	mod	_	_
-2	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
+2	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	3	subj	_	Polite=Unknown
 3	êtes	être	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 4	à	à	ADP	_	_	3	comp:obl	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	Gender[ctxt]=Masc|SpaceAfter=No
@@ -10997,7 +10996,7 @@
 6	hôpital	hôpital	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Masc
 7	:	:	PUNCT	_	_	8	punct	_	_
 8	dirigez	diriger	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs|Reflex=Yes	8	comp@expl	_	_
+9	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs|Reflex=Yes	8	comp@expl	_	Polite=Unknown
 10	immédiatement	immédiatement	ADV	_	_	8	mod	_	_
 11-12	au	_	_	_	_	_	_	_	_
 11	à	à	ADP	_	_	8	comp:obl	_	_
@@ -11036,7 +11035,7 @@
 
 # sent_id = emea-fr-dev_00536
 # text = Il peut en résulter des complications de type anémie (un déficit en globules rouges) ou hématome (hémorragie)
-1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
 2	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	en	en	PRON	_	Person=3|PronType=Prs	4	comp:obl	_	_
 4	résulter	résulter	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=Generic
@@ -11187,7 +11186,7 @@
 # sent_id = emea-fr-dev_00543
 # text = Si vous remarquez un des effets iindésirables, potentiellement moins sévères, suivants :
 1	Si	si	SCONJ	_	_	0	root	_	_
-2	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
+2	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	3	subj	_	Polite=Unknown
 3	remarquez	remarquer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 4	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	comp:obj	_	_
 5-6	des	_	_	_	_	_	_	_	_
@@ -11310,7 +11309,7 @@
 # sent_id = emea-fr-dev_00554
 # text = Si vous remarquez des effets indésirables non mentionnés dans cette notice, ou si certains effets indésirables deviennent graves, veuillez en informer votre médecin.
 1	Si	si	SCONJ	_	_	21	mod	_	_
-2	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
+2	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	3	subj	_	Polite=Unknown
 3	remarquez	remarquer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
 5	effets	effet	NOUN	_	Number=Plur	3	comp:obj	_	Gender[lex]=Masc
@@ -11445,11 +11444,11 @@
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	solution	solution	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Fem
 6	et	et	CCONJ	_	_	8	cc	_	_
-7	la	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	_
+7	la	lui	PRON	_	Case=Acc|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	_
 8	jettera	jeter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj:coord	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	si	si	SCONJ	_	_	8	mod	_	_
-11	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	subj	_	_
+11	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	subj	_	_
 12	contient	contenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
 13	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
 14	particules	particule	NOUN	_	Number=Plur	12	comp:obj	_	Gender[lex]=Fem
