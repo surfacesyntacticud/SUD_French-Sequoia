@@ -1630,9 +1630,9 @@
 46	de	de	ADP	_	_	44	udep	_	_
 47	fracture	fracture	NOUN	_	Number=Sing	46	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 48	,	,	PUNCT	_	_	51	punct	_	_
-49	y	y	PRON	_	Person=3|PronType=Prs	51	mod	_	InIdiom=Yes
-50	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part|Voice=Pass	_	_	_	Idiom=Yes|Tense[denom]=Past
-51	chez	chez	ADP	_	_	32	udep	_	_
+49	y	y	PRON	_	Person=3|PronType=Prs	50	comp:obj	_	InIdiom=Yes
+50	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part|Voice=Pass	51	cc	_	Idiom=Yes|Tense[denom]=Past
+51	chez	chez	ADP	_	_	33	conj:coord	_	_
 52	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	53	det	_	_
 53	patients	patient	NOUN	_	Number=Plur	51	comp:obj	_	Gender[lex]=Masc
 54	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	55	mod	_	SpaceAfter=No
@@ -3268,10 +3268,10 @@
 22	par	par	ADP	_	_	21	mod	_	_
 23	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
 24	bisphosphonates	bisphosphonate	NOUN	_	Number=Plur	22	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
-25	,	,	PUNCT	_	_	26	punct	_	_
-26	y	y	PRON	_	Person=3|PronType=Prs	24	udep	_	InIdiom=Yes
-27	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part|Voice=Pass	_	_	_	Idiom=Yes|Tense[denom]=Past
-28	Aclasta	Aclasta	PROPN	_	_	26	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
+25	,	,	PUNCT	_	_	28	punct	_	_
+26	y	y	PRON	_	Person=3|PronType=Prs	27	comp:obl	_	InIdiom=Yes
+27	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part|Voice=Pass	28	cc	_	Idiom=Yes|Tense[denom]=Past
+28	Aclasta	Aclasta	PROPN	_	_	24	conj:coord	_	Gender[lex]=Unknown|SpaceAfter=No
 29	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = emea-fr-test_00123
@@ -3344,11 +3344,11 @@
 20	par	par	ADP	_	_	18	mod	_	_
 21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
 22	bisphosphonates	bisphosphonate	NOUN	_	Number=Plur	20	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
-23	,	,	PUNCT	_	_	25	punct	_	_
+23	,	,	PUNCT	_	_	27	punct	_	_
 24	y	y	PRON	_	Person=3|PronType=Prs	25	comp:obl	_	InIdiom=Yes
-25	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part|Voice=Pass	22	udep	_	Idiom=Yes|Tense[denom]=Past
+25	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part|Voice=Pass	27	cc	_	Idiom=Yes|Tense[denom]=Past
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	Gender[ctxt]=Masc|SpaceAfter=No
-27	acide	acide	NOUN	_	Number=Sing	25	comp:obj	_	Gender[lex]=Masc
+27	acide	acide	NOUN	_	Number=Sing	22	conj:coord	_	Gender[lex]=Masc
 28	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	27	mod	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -3400,11 +3400,11 @@
 5	d'	de	ADP	_	_	4	udep	_	SpaceAfter=No
 6	infection	infection	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Fem
 7	localisée	localisé	ADJ	_	Gender=Fem|Number=Sing	6	mod	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	10	punct	_	_
+8	,	,	PUNCT	_	_	12	punct	_	_
 9	y	y	PRON	_	Person=3|PronType=Prs	10	comp:obl	_	InIdiom=Yes
-10	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part|Voice=Pass	6	udep	_	Idiom=Yes|Tense[denom]=Past
+10	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part|Voice=Pass	12	cc	_	Idiom=Yes|Tense[denom]=Past
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	ostéomyélite	ostéomyélite	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
+12	ostéomyélite	ostéomyélite	NOUN	_	Number=Sing	6	conj:coord	_	Gender[lex]=Fem|SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = emea-fr-test_00130
@@ -5128,9 +5128,9 @@
 9	infection	infection	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Fem
 10	locale	local	ADJ	_	Gender=Fem|Number=Sing	9	mod	_	_
 11	y	y	PRON	_	Person=3|PronType=Prs	12	comp:obl	_	InIdiom=Yes
-12	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part|Voice=Pass	9	udep	_	Idiom=Yes|Tense[denom]=Past
+12	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part|Voice=Pass	14	cc	_	Idiom=Yes|Tense[denom]=Past
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	ostéomyélite	ostéomyélite	NOUN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
+14	ostéomyélite	ostéomyélite	NOUN	_	Number=Sing	9	conj:coord	_	Gender[lex]=Fem|SpaceAfter=No
 15	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = emea-fr-test_00187
@@ -9196,11 +9196,11 @@
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	autre	autre	ADJ	_	Number=Sing	10	mod	_	Gender[ctxt]=Masc
 10	médicament	médicament	NOUN	_	Number=Sing|Shared=Yes	6	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
-11	,	,	PUNCT	_	_	13	punct	_	_
+11	,	,	PUNCT	_	_	15	punct	_	_
 12	y	y	PRON	_	Person=3|PronType=Prs	13	comp:obl	_	InIdiom=Yes
-13	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part|Voice=Pass	10	udep	_	Idiom=Yes|Tense[denom]=Past
+13	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part|Voice=Pass	15	cc	_	Idiom=Yes|Tense[denom]=Past
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	médicament	médicament	NOUN	_	Number=Sing	13	comp:obj	_	Gender[lex]=Masc
+15	médicament	médicament	NOUN	_	Number=Sing	10	conj:coord	_	Gender[lex]=Masc
 16	obtenu	obtenir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	15	mod	_	Tense[denom]=Past
 17	sans	sans	ADP	_	_	16	mod	_	_
 18	ordonnance	ordonnance	NOUN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
