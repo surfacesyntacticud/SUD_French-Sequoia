@@ -4500,7 +4500,7 @@
 51	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = emea-fr-dev_00201
-# text = Des diminutions similaires ont été observées sur la fréquence des saignements chez les patients du groupe Bivalidurine seule ayant reçu de l'héparine avant la randomisation (n
+# text = Des diminutions similaires ont été observées sur la fréquence des saignements chez les patients du groupe Bivalidurine seule ayant reçu de l'héparine avant la randomisation (n = 2078).
 1	Des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	det	_	_
 2	diminutions	diminution	NOUN	_	Number=Plur	4	subj@pass	_	Gender[lex]=Fem
 3	similaires	similaire	ADJ	_	Number=Plur	2	mod	_	Gender[ctxt]=Fem

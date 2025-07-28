@@ -9696,7 +9696,7 @@
 26	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = annodis.er_00369
-# text = "Pour une région comportant cinq départements, il pourrait y avoir 3 x 5
+# text = "Pour une région comportant cinq départements, il pourrait y avoir 3 x 5 = 15 hommes en tête", explique Marie-Jo Zimmermann.
 1	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
 2	Pour	pour	ADP	_	_	10	mod	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_

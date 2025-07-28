@@ -7320,7 +7320,7 @@
 35	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = emea-fr-test_00270
-# text = Ceci correspond à une réduction de 28% de la mortalité, toutes causes confondues (p
+# text = Ceci correspond à une réduction de 28% de la mortalité, toutes causes confondues (p = 0,01).
 1	Ceci	ceci	PRON	_	Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	correspond	correspondre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	à	à	ADP	_	_	2	comp:obl	_	_
