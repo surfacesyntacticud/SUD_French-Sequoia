@@ -948,7 +948,7 @@
 9	2.700.000	2.700.000	NUM	_	ExtPos=DET|NumType=Card	10	det	_	Number[lex]=Plur
 10	F	F	NOUN	_	Number=Plur|Shared=Yes	8	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
-12	dont	dont	CCONJ	_	PronType=Rel	14	udep	_	_
+12	dont	dont	CCONJ	_	_	14	udep	_	_
 13	40	40	NUM	_	ExtPos=DET|NumType=Card	14	det	_	Number[lex]=Plur|SpaceAfter=No
 14	%	%	NOUN	_	_	10	conj:appos	_	Gender[lex]=Masc
 15	de	de	ADP	_	_	14	udep	_	_
@@ -10060,7 +10060,7 @@
 7	hommes	homme	NOUN	_	Number=Plur	6	comp:obj	_	Gender[lex]=Masc
 8	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 9	mobilisés	mobiliser	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	8	comp:aux@pass	_	Tense[denom]=Past
-10	dont	dont	CCONJ	_	PronType=Rel	12	udep	_	_
+10	dont	dont	CCONJ	_	_	12	udep	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 12	équipe	équipe	NOUN	_	Number=Sing	5	conj:appos	_	Gender[lex]=Fem
 13	cynophile	cynophile	ADJ	_	Number=Sing	12	mod	_	Gender[ctxt]=Fem|SpaceAfter=No
@@ -10652,7 +10652,7 @@
 4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	recensés	recenser	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	4	comp:aux@pass	_	SpaceAfter=No|Tense[denom]=Past
 6	,	,	PUNCT	_	_	4	punct	_	_
-7	dont	dont	CCONJ	_	PronType=Rel	10	udep	_	_
+7	dont	dont	CCONJ	_	_	10	udep	_	_
 8	deux	deux	NUM	_	ExtPos=DET|NumType=Card	10	det	_	Number[lex]=Plur
 9	nouveaux	nouveau	ADJ	_	Gender=Masc|Number=Plur	10	mod	_	_
 10	venus	venu	NOUN	_	Number=Plur	3	conj:appos	_	Gender[lex]=Masc
@@ -13589,7 +13589,7 @@
 9	trois	trois	NUM	_	ExtPos=DET|NumType=Card	10	det	_	Number[lex]=Plur
 10	enfants	enfant	NOUN	_	Number=Plur	8	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
-12	dont	dont	CCONJ	_	PronType=Rel	13	udep	_	_
+12	dont	dont	CCONJ	_	_	13	udep	_	_
 13	Mimi	Mimi	PROPN	_	Gender=Fem|Number=Sing	10	conj:appos	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	présente	présent	ADJ	_	Gender=Fem|Number=Sing	13	mod	_	_

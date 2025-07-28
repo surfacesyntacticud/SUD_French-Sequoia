@@ -7516,7 +7516,7 @@
 13	d'	de	ADP	_	_	12	udep	_	SpaceAfter=No
 14	Irakiens	irakien	NOUN	_	Number=Plur	13	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 15	,	,	PUNCT	_	_	19	punct	_	_
-16	dont	dont	CCONJ	_	PronType=Rel	19	udep	_	_
+16	dont	dont	CCONJ	_	_	19	udep	_	_
 17	quelque	quelque	ADV	_	_	19	mod	_	_
 18	500 000	500 000	NUM	_	ExtPos=DET	19	det	_	Number[lex]=Plur
 19	enfants	enfant	NOUN	_	Number=Plur	10	conj:appos	_	SpaceAfter=No
@@ -10585,7 +10585,7 @@
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	famine	famine	NOUN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	_
-24	dont	dont	CCONJ	_	PronType=Rel	25	udep	_	_
+24	dont	dont	CCONJ	_	_	25	udep	_	_
 25	8	8	NUM	_	ExtPos=PRON|NumType=Card	17	conj:appos	_	Number[lex]=Plur
 26	en	en	ADP	_	_	25	udep	_	_
 27	Éthiopie	Éthiopie	PROPN	_	Gender=Fem|Number=Sing	26	comp:obj	_	SpaceAfter=No

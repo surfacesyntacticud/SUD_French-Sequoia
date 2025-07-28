@@ -3789,7 +3789,7 @@
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	reproduction	reproduction	NOUN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 20	,	,	PUNCT	_	_	23	punct	_	_
-21	dont	dont	CCONJ	_	PronType=Rel	23	udep	_	_
+21	dont	dont	CCONJ	_	_	23	udep	_	_
 22	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	23	det	_	_
 23	malformations	malformation	NOUN	_	Number=Plur	16	conj:appos	_	Gender[lex]=Fem
 24	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
@@ -5109,7 +5109,7 @@
 27	par	par	ADP	_	_	26	mod	_	_
 28	bisphosphonates	bisphosphonate	NOUN	_	Number=Plur	27	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 29	,	,	PUNCT	_	_	32	punct	_	_
-30	dont	dont	CCONJ	_	PronType=Rel	32	udep	_	_
+30	dont	dont	CCONJ	_	_	32	udep	_	_
 31	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	32	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 32	acide	acide	NOUN	_	Number=Sing	28	conj:appos	_	Gender[lex]=Masc
 33	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	32	mod	_	SpaceAfter=No
