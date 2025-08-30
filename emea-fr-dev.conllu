@@ -83,7 +83,7 @@
 21	d'	de	ADP	_	_	20	comp:obj	_	SpaceAfter=No
 22	aboutir	aboutir	VERB	_	VerbForm=Inf	21	comp:obj	_	Subject=Instantiated
 23	à	à	ADP	_	_	22	comp:obl	_	_
-24	ses	son	DET	_	Number=Plur|Poss=Yes	25	det	_	_
+24	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	25	det	_	_
 25	recommandations	recommandation	NOUN	_	Number=Plur	23	comp:obj	_	Gender[lex]=Fem
 26	relatives	relatif	ADJ	_	Gender=Fem|Number=Plur	25	mod	_	_
 27-28	aux	_	_	_	_	_	_	_	_
@@ -105,10 +105,10 @@
 3	d'	de	ADP	_	_	2	comp:obl	_	SpaceAfter=No
 4	informations	information	NOUN	_	Number=Plur	3	comp:obj	_	Gender[lex]=Fem
 5	sur	sur	ADP	_	_	4	udep	_	_
-6	votre	son	DET	_	Number=Sing|Poss=Yes	7	det	_	_
+6	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	7	det	_	_
 7	condition	condition	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Fem
 8	ou	ou	CCONJ	_	_	10	cc	_	_
-9	votre	son	DET	_	Number=Sing|Poss=Yes	10	det	_	_
+9	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	10	det	_	_
 10	traitement	traitement	NOUN	_	Number=Sing	7	conj:coord	_	Gender[lex]=Masc|SpaceAfter=No
 11	,	,	PUNCT	_	_	1	punct	_	_
 12	veuillez	vouloir	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -124,10 +124,10 @@
 22	)	)	PUNCT	_	_	18	punct	_	_
 23	ou	ou	CCONJ	_	_	24	cc	_	_
 24	contacter	contacter	VERB	_	VerbForm=Inf	13	conj:coord	_	Subject=Generic
-25	votre	son	DET	_	Number=Sing|Poss=Yes	26	det	_	_
+25	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	26	det	_	_
 26	médecin	médecin	NOUN	_	Number=Sing	24	comp:obj	_	Gender[lex]=Masc
 27	ou	ou	CCONJ	_	_	29	cc	_	_
-28	votre	son	DET	_	Number=Sing|Poss=Yes	29	det	_	_
+28	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	29	det	_	_
 29	pharmacien	pharmacien	NOUN	_	Number=Sing	26	conj:coord	_	Gender[lex]=Masc|SpaceAfter=No
 30	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -305,7 +305,7 @@
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	unk	_	InIdiom=Yes|SpaceAfter=No
 9	aspirine	aspirine	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Fem
 10	et	et	CCONJ	_	_	12	cc	_	_
-11	du	du	DET	_	Gender=Masc|Number=Sing	12	det	_	_
+11	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	clopidogel	clopidogel	NOUN	_	Number=Sing	9	conj:coord	_	Gender[lex]=Masc
 13	(	(	PUNCT	_	Shared=Yes	14	punct	_	SpaceAfter=No
 14	médicaments	médicament	NOUN	_	Number=Plur|Shared=Yes	12	conj:appos	_	Gender[lex]=Masc
@@ -327,7 +327,7 @@
 30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	traitement	traitement	NOUN	_	Number=Sing	29	comp:obj	_	Gender[lex]=Masc
 32	pour	pour	ADP	_	_	31	udep	_	_
-33	leur	son	DET	_	Number=Sing|Poss=Yes	34	det	_	_
+33	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	34	det	_	_
 34	SCA	SCA	NOUN	_	Number=Sing	32	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 35	,	,	PUNCT	_	_	36	punct	_	_
 36	comme	comme	ADP	_	_	31	udep	_	_
@@ -489,7 +489,7 @@
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	motifs	motif	NOUN	_	Number=Plur	12	comp:obj	_	Gender[lex]=Masc
 15	de	de	ADP	_	_	14	udep	_	_
-16	son	son	DET	_	Number=Sing|Poss=Yes	17	det	_	Gender[ctxt]=Fem
+16	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	17	det	_	Gender[ctxt]=Fem
 17	utilisation	utilisation	NOUN	_	Number=Sing	15	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 18	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -839,7 +839,7 @@
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 27	efficacité	efficacité	NOUN	_	Number=Sing	25	comp:obj	_	Gender[lex]=Fem
 28	de	de	ADP	_	_	27	udep	_	_
-29	leur	son	DET	_	Number=Sing|Poss=Yes	30	det	_	_
+29	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	30	det	_	_
 30	ICP	ICP	NOUN	_	Number=Sing	28	comp:obj	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -1201,7 +1201,7 @@
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	unk	_	InIdiom=Yes|SpaceAfter=No
 15	aspirine	aspirine	NOUN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Fem
 16	et	et	CCONJ	_	_	18	cc	_	_
-17	du	du	DET	_	Gender=Masc|Number=Sing	18	det	_	_
+17	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	clopidogrel	clopidogrel	NOUN	_	Number=Sing	15	conj:coord	_	Gender[lex]=Masc|SpaceAfter=No
 19	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -1547,7 +1547,7 @@
 39	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	38	unk	_	InIdiom=Yes|SpaceAfter=No
 40	aspirine	aspirine	NOUN	_	Number=Sing	37	comp:obj	_	Gender[lex]=Fem
 41	et	et	CCONJ	_	_	43	cc	_	_
-42	du	du	DET	_	Gender=Masc|Number=Sing	43	det	_	_
+42	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 43	clopidogrel	clopidogrel	NOUN	_	Number=Sing	40	conj:coord	_	Gender[lex]=Masc|SpaceAfter=No
 44	,	,	PUNCT	_	_	46	punct	_	_
 45	et	et	CCONJ	_	_	46	cc	_	_
@@ -1803,7 +1803,7 @@
 
 # sent_id = emea-fr-dev_00087
 # text = Chaque flacon contient 250 mg de bivalirudine.
-1	Chaque	chaque	DET	_	Number=Sing	2	det	_	_
+1	Chaque	chaque	DET	_	Number=Sing|PronType=Ind	2	det	_	_
 2	flacon	flacon	NOUN	_	Number=Sing	3	subj	_	Gender[lex]=Masc
 3	contient	contenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	250	250	NUM	_	ExtPos=DET|NumType=Card	5	det	_	Number[lex]=Plur
@@ -1954,7 +1954,7 @@
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	unk	_	InIdiom=Yes|SpaceAfter=No
 8	aspirine	aspirine	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Fem
 9	et	et	CCONJ	_	_	11	cc	_	_
-10	du	du	DET	_	Gender=Masc|Number=Sing	11	det	_	_
+10	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	clopidogrel	clopidogrel	NOUN	_	Number=Sing	8	conj:coord	_	Gender[lex]=Masc|SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -3390,7 +3390,7 @@
 33	à	à	ADP	_	_	32	mod	_	_
 34	n'	ne	ADV	_	ExtPos=DET|Polarity=Neg	37	det	_	Idiom=Yes|SpaceAfter=No
 35	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	unk	_	InIdiom=Yes
-36	quel	quel	DET	_	Gender=Masc|Number=Sing	35	unk	_	InIdiom=Yes
+36	quel	quel	DET	_	Gender=Masc|Number=Sing|PronType=Ind	35	unk	_	InIdiom=Yes
 37	endroit	endroit	NOUN	_	Number=Sing	33	comp:obj	_	Gender[lex]=Masc
 38	pendant	pendant	ADP	_	_	32	mod	_	_
 39	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
@@ -3452,7 +3452,7 @@
 10	bivalirudine	bivalirudine	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 11	,	,	PUNCT	_	_	15	punct	_	_
 12	mais	mais	CCONJ	_	_	15	cc	_	_
-13	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes	14	det	_	_
+13	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	14	det	_	Gender[ctxt]=Masc
 14	effet	effet	NOUN	_	Number=Sing	15	subj	_	Gender[lex]=Masc
 15	disparaît	disparaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj:coord	_	_
 16	rapidement	rapidement	ADV	_	_	15	mod	_	_
@@ -3881,7 +3881,7 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	fait	fait	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc
 4	de	de	ADP	_	_	3	udep	_	_
-5	leur	son	DET	_	Number=Sing|Poss=Yes	6	det	_	_
+5	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	6	det	_	_
 6	mécanisme	mécanisme	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Masc
 7	d'	de	ADP	_	_	6	udep	_	SpaceAfter=No
 8	action	action	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
@@ -6109,7 +6109,7 @@
 23	plaquettes	plaquette	NOUN	_	Number=Plur	21	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
 25	stimulant	stimuler	VERB	_	VerbForm=Part	21	mod	_	Tense[denom]=Pres
-26	leur	son	DET	_	Number=Sing|Poss=Yes	27	det	_	_
+26	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	27	det	_	_
 27	agrégation	agrégation	NOUN	_	Number=Sing	25	comp:obj	_	Gender[lex]=Fem
 28	et	et	CCONJ	_	_	30	cc	_	_
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
@@ -6149,7 +6149,7 @@
 10	et	et	CCONJ	_	_	14	cc	_	_
 11	par	par	ADP	_	_	14	mod	_	_
 12	conséquent	conséquent	NOUN	_	_	11	comp:obj	_	_
-13	son	son	DET	_	Number=Sing|Poss=Yes	14	det	_	Gender[ctxt]=Fem
+13	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	14	det	_	Gender[ctxt]=Fem
 14	activité	activité	NOUN	_	Number=Sing	2	conj:coord	_	Gender[lex]=Fem|SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7016,7 +7016,7 @@
 32	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	31	unk	_	InIdiom=Yes|SpaceAfter=No
 33	aspirine	aspirine	NOUN	_	Number=Sing	30	comp:obj	_	Gender[lex]=Fem
 34	et	et	CCONJ	_	_	36	cc	_	_
-35	du	du	DET	_	Gender=Masc|Number=Sing	36	det	_	_
+35	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	clopidogrel	clopidogrel	NOUN	_	Number=Sing	33	conj:coord	_	Gender[lex]=Masc
 37	avant	avant	ADP	_	_	29	mod	_	_
 38	angiographie	angiographie	NOUN	_	Number=Sing	37	comp:obj	_	Gender[lex]=Fem
@@ -7069,7 +7069,7 @@
 28	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	unk	_	InIdiom=Yes|SpaceAfter=No
 29	aspirine	aspirine	NOUN	_	Number=Sing	26	comp:obj	_	Gender[lex]=Fem
 30	et	et	CCONJ	_	_	32	cc	_	_
-31	du	du	DET	_	Gender=Masc|Number=Sing	32	det	_	_
+31	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	clopidogrel	clopidogrel	NOUN	_	Number=Sing	29	conj:coord	_	Gender[lex]=Masc
 33	per	per	ADP	_	_	24	udep	_	_
 34	protocol	protocol	NOUN	_	_	33	comp:obj	_	_
@@ -7463,7 +7463,7 @@
 9	logiquement	logiquement	ADV	_	_	8	mod	_	_
 10	catabolisée	cataboliser	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	8	comp:aux@pass	_	Tense[denom]=Past
 11	en	en	ADP	_	_	10	comp:obl	_	_
-12	ses	son	DET	_	Number=Plur|Poss=Yes	13	det	_	_
+12	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	13	det	_	_
 13	acides	acide	NOUN	_	Number=Plur	11	comp:obj	_	Gender[lex]=Masc
 14	aminés	aminé	ADJ	_	Gender=Masc|Number=Plur	13	mod	_	_
 15	constitutifs	constitutif	ADJ	_	Gender=Masc|Number=Plur	13	mod	_	SpaceAfter=No
@@ -8142,7 +8142,7 @@
 16	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	17	det	_	_
 17	donnée	donnée	NOUN	_	Number=Sing	15	comp:obj	_	Gender[lex]=Fem
 18	concernant	concerner	VERB	_	VerbForm=Part	17	mod	_	Tense[denom]=Pres
-19	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes	20	det	_	_
+19	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	20	det	_	_
 20	potentiel	potentiel	NOUN	_	Number=Sing	18	comp:obj	_	Gender[lex]=Masc
 21	carcinogène	carcinogène	ADJ	_	Number=Sing	20	mod	_	Gender[ctxt]=Masc
 22	à	à	ADP	_	_	20	mod	_	_
@@ -9460,7 +9460,7 @@
 4	ne	ne	ADV	_	Polarity=Neg	6	mod	_	_
 5	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
 6	inclure	inclure	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=Generic
-7	du	du	DET	_	Gender=Masc|Number=Sing	8	det	_	_
+7	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	braille	braille	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Masc
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	été	être	AUX	_	Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
@@ -9562,7 +9562,7 @@
 4	ne	ne	ADV	_	Polarity=Neg	6	mod	_	_
 5	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
 6	inclure	inclure	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=Generic
-7	du	du	DET	_	Gender=Masc|Number=Sing	8	det	_	_
+7	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	braille	braille	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Masc
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	été	être	AUX	_	Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
@@ -9724,7 +9724,7 @@
 17	d'	de	ADP	_	_	16	comp:obl	_	SpaceAfter=No
 18	informations	information	NOUN	_	Number=Plur	17	comp:obj	_	Gender[lex]=Fem
 19	à	à	ADP	_	_	15	comp:obl	_	_
-20	votre	son	DET	_	Number=Sing|Poss=Yes	21	det	_	_
+20	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	21	det	_	_
 21	pharmacien	pharmacien	NOUN	_	Number=Sing	19	comp:obj	_	Gender[lex]=Masc
 
 # sent_id = emea-fr-dev_00465
@@ -9756,7 +9756,7 @@
 24	veuillez	vouloir	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 25	en	en	PRON	_	Person=3|PronType=Prs	26	comp:obl	_	_
 26	informer	informer	VERB	_	VerbForm=Inf	24	comp:obj	_	Subject=SubjRaising
-27	votre	son	DET	_	Number=Sing|Poss=Yes	28	det	_	_
+27	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	28	det	_	_
 28	médecin	médecin	NOUN	_	Number=Sing	26	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 29	.	.	PUNCT	_	_	24	punct	_	_
 
@@ -10009,14 +10009,14 @@
 32	si	si	SCONJ	_	_	2	mod	_	_
 33	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	34	subj	_	Polite=Unknown
 34	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	32	comp:obj	_	_
-35	du	du	DET	_	Gender=Masc|Number=Sing	36	det	_	_
+35	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	sang	sang	NOUN	_	Number=Sing	34	comp:obj	_	Gender[lex]=Masc
 37	anormal	anormal	ADJ	_	Gender=Masc|Number=Sing	36	mod	_	_
 38	dans	dans	ADP	_	_	34	mod	_	_
-39	vos	son	DET	_	Number=Plur|Poss=Yes	40	det	_	_
+39	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	40	det	_	_
 40	selles	selles	NOUN	_	Number=Plur	38	comp:obj	_	Gender[lex]=Fem
 41	ou	ou	CCONJ	_	_	43	cc	_	_
-42	vos	son	DET	_	Number=Plur|Poss=Yes	43	det	_	_
+42	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	43	det	_	_
 43	urines	urine	NOUN	_	Number=Plur	40	conj:coord	_	Gender[lex]=Fem
 44	(	(	PUNCT	_	_	45	punct	_	SpaceAfter=No
 45	excepté	excepté	ADP	_	_	34	mod	_	_
@@ -10097,7 +10097,7 @@
 # text = Veuillez informer votre médecin :
 1	Veuillez	vouloir	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	informer	informer	VERB	_	VerbForm=Inf	1	comp:obj	_	Subject=SubjRaising
-3	votre	son	DET	_	Number=Sing|Poss=Yes	4	det	_	_
+3	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	4	det	_	_
 4	médecin	médecin	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Masc
 5	:	:	PUNCT	_	_	1	punct	_	_
 
@@ -10183,7 +10183,7 @@
 1	Vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	devez	devoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	prévenir	prévenir	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising
-4	votre	son	DET	_	Number=Sing|Poss=Yes	5	det	_	_
+4	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	5	det	_	_
 5	médecin	médecin	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Masc
 6	:	:	PUNCT	_	_	2	punct	_	_
 
@@ -10222,7 +10222,7 @@
 
 # sent_id = emea-fr-dev_00494
 # text = Votre médecin évaluera si ce traitement est ou non approprié pour vous.
-1	Votre	son	DET	_	Number=Sing|Poss=Yes	2	det	_	_
+1	Votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	2	det	_	_
 2	médecin	médecin	NOUN	_	Number=Sing	3	subj	_	Gender[lex]=Masc
 3	évaluera	évaluer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	si	si	SCONJ	_	_	3	comp:obj	_	_
@@ -10242,7 +10242,7 @@
 2	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	3	subj	_	Polite=Unknown
 3	allaitez	allaiter	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	votre	son	DET	_	Number=Sing|Poss=Yes	6	det	_	_
+5	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	6	det	_	_
 6	médecin	médecin	NOUN	_	Number=Sing	7	subj	_	Gender[lex]=Masc
 7	déterminera	déterminer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 8	si	si	SCONJ	_	_	7	comp:obj	_	_
@@ -10322,7 +10322,7 @@
 5	susceptible	susceptible	ADJ	_	Number=Sing	2	comp:pred	_	Gender[ctxt]=Masc
 6	d'	de	ADP	_	_	5	comp:obl	_	SpaceAfter=No
 7	affecter	affecter	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
-8	votre	son	DET	_	Number=Sing|Poss=Yes	9	det	_	_
+8	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	9	det	_	_
 9	capacité	capacité	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Fem
 10	à	à	ADP	_	_	9	udep	_	_
 11	conduire	conduire	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=Instantiated
@@ -10343,7 +10343,7 @@
 
 # sent_id = emea-fr-dev_00501
 # text = Votre traitement sera surveillé par un médecin.
-1	Votre	son	DET	_	Number=Sing|Poss=Yes	2	det	_	_
+1	Votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	2	det	_	_
 2	traitement	traitement	NOUN	_	Number=Sing	3	subj@pass	_	Gender[lex]=Masc
 3	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	surveillé	surveiller	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	Tense[denom]=Past
@@ -10354,7 +10354,7 @@
 
 # sent_id = emea-fr-dev_00502
 # text = Votre médecin déterminera quelle quantité d'Angiox vous sera administrée et la préparera.
-1	Votre	son	DET	_	Number=Sing|Poss=Yes	2	det	_	_
+1	Votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	2	det	_	_
 2	médecin	médecin	NOUN	_	Number=Sing	3	subj	_	Gender[lex]=Masc
 3	déterminera	déterminer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	quelle	quel	DET	_	Gender=Fem|Number=Sing|PronType=Int	5	det	_	_
@@ -10376,7 +10376,7 @@
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	procédure	procédure	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
-6	votre	son	DET	_	Number=Sing|Poss=Yes	7	det	_	_
+6	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	7	det	_	_
 7	médecin	médecin	NOUN	_	Number=Sing	9	subj	_	Gender[lex]=Masc
 8	vous	vous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=2|PronType=Prs	9	comp:obj	_	Polite=Unknown
 9	examinera	examiner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -10412,7 +10412,7 @@
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	procédure	procédure	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 8	,	,	PUNCT	_	_	2	punct	_	_
-9	votre	son	DET	_	Number=Sing|Poss=Yes	10	det	_	_
+9	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	10	det	_	_
 10	médecin	médecin	NOUN	_	Number=Sing	12	subj	_	Gender[lex]=Masc
 11	vous	vous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=2|PronType=Prs	12	comp:obj	_	Polite=Unknown
 12	informera	informer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -10459,7 +10459,7 @@
 11	ou	ou	CCONJ	_	_	12	cc	_	_
 12	gamma	gamma	NOUN	_	_	10	conj:coord	_	Gender[lex]=Masc|SpaceAfter=No
 13	,	,	PUNCT	_	_	2	punct	_	_
-14	votre	son	DET	_	Number=Sing|Poss=Yes	15	det	_	_
+14	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	15	det	_	_
 15	médecin	médecin	NOUN	_	Number=Sing	17	subj	_	Gender[lex]=Masc
 16	vous	vous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=2|PronType=Prs	17	comp:obj	_	Polite=Unknown
 17	contrôlera	contrôler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -10476,7 +10476,7 @@
 4	administrée	administrer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	mod	_	Tense[denom]=Past
 5	dépend	dépendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	de	de	ADP	_	_	5	comp:obl	_	_
-7	votre	son	DET	_	Number=Sing|Poss=Yes	8	det	_	_
+7	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	8	det	_	_
 8	poids	poids	NOUN	_	_	6	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 9	et	et	CCONJ	_	_	10	cc	_	_
 10-11	du	_	_	_	_	_	_	_	_
@@ -10552,7 +10552,7 @@
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	médicament	médicament	NOUN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Masc
 15	pour	pour	ADP	_	_	6	mod	_	_
-16	chaque	chaque	DET	_	Number=Sing	17	det	_	_
+16	chaque	chaque	DET	_	Number=Sing|PronType=Ind	17	det	_	_
 17	kilogramme	kilogramme	NOUN	_	Number=Sing	15	comp:obj	_	Gender[lex]=Masc
 18	de	de	ADP	_	_	17	udep	_	_
 19	poids	poids	NOUN	_	_	18	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
@@ -10574,7 +10574,7 @@
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	milligramme	milligramme	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Masc
 13	pour	pour	ADP	_	_	7	mod	_	_
-14	chaque	chaque	DET	_	Number=Sing	15	det	_	_
+14	chaque	chaque	DET	_	Number=Sing|PronType=Ind	15	det	_	_
 15	kilogramme	kilogramme	NOUN	_	Number=Sing	13	comp:obj	_	Gender[lex]=Masc
 16	de	de	ADP	_	_	15	udep	_	_
 17	poids	poids	NOUN	_	_	16	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
@@ -10741,13 +10741,13 @@
 
 # sent_id = emea-fr-dev_00520
 # text = Votre médecin déterminera la durée de votre traitement.
-1	Votre	son	DET	_	Number=Sing|Poss=Yes	2	det	_	_
+1	Votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	2	det	_	_
 2	médecin	médecin	NOUN	_	Number=Sing	3	subj	_	Gender[lex]=Masc
 3	déterminera	déterminer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	durée	durée	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Fem
 6	de	de	ADP	_	_	5	udep	_	_
-7	votre	son	DET	_	Number=Sing|Poss=Yes	8	det	_	_
+7	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	8	det	_	_
 8	traitement	traitement	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -10791,7 +10791,7 @@
 7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	comp:obj@scrap	_	_
 8	ou	ou	CCONJ	_	_	9	cc	_	_
 9	de	de	ADP	_	_	6	conj:coord	_	_
-10	plusieurs	plusieurs	DET	_	Number=Plur	11	det	_	_
+10	plusieurs	plusieurs	DET	_	Number=Plur|PronType=Ind	11	det	_	_
 11	doses	dose	NOUN	_	Number=Plur	9	comp:obj	_	Gender[lex]=Fem
 
 # sent_id = emea-fr-dev_00524
@@ -10827,7 +10827,7 @@
 11	produit	produit	NOUN	_	Number=Sing	9	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 12	,	,	PUNCT	_	_	1	punct	_	_
 13	contacter	contacter	VERB	_	VerbForm=Inf	0	root	_	Subject=Generic
-14	votre	son	DET	_	Number=Sing|Poss=Yes	15	det	_	_
+14	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	15	det	_	_
 15	médecin	médecin	NOUN	_	Number=Sing	13	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 16	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -10979,17 +10979,17 @@
 7	:	:	PUNCT	_	_	8	punct	_	_
 8	prévenez	prévenir	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	immédiatement	immédiatement	ADV	_	_	8	mod	_	_
-10	votre	son	DET	_	Number=Sing|Poss=Yes	11	det	_	_
+10	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	11	det	_	_
 11	médecin	médecin	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Masc
 12	ou	ou	CCONJ	_	_	14	cc	_	_
-13	votre	son	DET	_	Number=Sing|Poss=Yes	14	det	_	_
+13	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	14	det	_	_
 14	infirmière	infirmier	NOUN	_	Number=Sing	11	conj:coord	_	Gender[lex]=Fem|SpaceAfter=No
 15	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = emea-fr-dev_00534
 # text = Après votre sortie de l'hôpital : dirigez vous immédiatement au service des urgences de l'hôpital le plus proche
 1	Après	après	ADP	_	_	8	mod	_	_
-2	votre	son	DET	_	Number=Sing|Poss=Yes	3	det	_	_
+2	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	3	det	_	_
 3	sortie	sortie	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Fem
 4	de	de	ADP	_	_	3	udep	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	Gender[ctxt]=Masc|SpaceAfter=No
@@ -11217,7 +11217,7 @@
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	réduction	réduction	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Fem
 13	de	de	ADP	_	_	12	udep	_	_
-14	votre	son	DET	_	Number=Sing|Poss=Yes	15	det	_	_
+14	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	15	det	_	_
 15	nombre	nombre	NOUN	_	Number=Sing	13	comp:obj	_	Gender[lex]=Masc
 16	de	de	ADP	_	_	15	udep	_	_
 17	plaquettes	plaquette	NOUN	_	Number=Plur	16	comp:obj	_	Gender[lex]=Fem
@@ -11227,7 +11227,7 @@
 21	coagulation	coagulation	NOUN	_	Number=Sing	19	comp:obj	_	Gender[lex]=Fem
 22	nécessaire	nécessaire	ADJ	_	Number=Sing	21	mod	_	Gender[ctxt]=Fem
 23	de	de	ADP	_	_	21	udep	_	_
-24	votre	son	DET	_	Number=Sing|Poss=Yes	25	det	_	_
+24	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	25	det	_	_
 25	sang	sang	NOUN	_	Number=Sing	23	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 26	)	)	PUNCT	_	_	5	punct	_	_
 
@@ -11322,7 +11322,7 @@
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	ou	ou	CCONJ	_	_	14	cc	_	_
 14	si	si	SCONJ	_	_	1	conj:coord	_	_
-15	certains	certain	DET	_	Gender=Masc|Number=Plur	16	det	_	_
+15	certains	certain	DET	_	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
 16	effets	effet	NOUN	_	Number=Plur	18	subj	_	Gender[lex]=Masc
 17	indésirables	indésirable	ADJ	_	Number=Plur	16	mod	_	Gender[ctxt]=Masc
 18	deviennent	devenir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
@@ -11331,7 +11331,7 @@
 21	veuillez	vouloir	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 22	en	en	PRON	_	Person=3|PronType=Prs	23	comp:obl	_	_
 23	informer	informer	VERB	_	VerbForm=Inf	21	comp:obj	_	Subject=SubjRaising
-24	votre	son	DET	_	Number=Sing|Poss=Yes	25	det	_	_
+24	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	25	det	_	_
 25	médecin	médecin	NOUN	_	Number=Sing	23	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 26	.	.	PUNCT	_	_	21	punct	_	_
 
