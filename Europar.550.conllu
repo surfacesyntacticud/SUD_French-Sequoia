@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Europar.550_00001
 # text = Je remercie le président en exercice pour sa réponse.
 1	Je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
@@ -1767,7 +1768,7 @@
 12	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	comp:obj	_	_
 13	qui	qui	PRON	_	PronType=Rel	14	subj@pass	_	_
 14	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	_
-15	été	être	AUX	_	Tense=Past|VerbForm=Part	14	comp:aux@tense	_	_
+15	été	être	AUX	_	VerbForm=Part	14	comp:aux@tense	_	Tense[denom]=Past
 16	convenu	convenir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	15	comp:aux@pass	_	Tense[denom]=Past
 17	à	à	ADP	_	_	14	mod	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
@@ -1817,7 +1818,7 @@
 10	d'	de	ADP	_	_	9	udep	_	SpaceAfter=No
 11	auteur	auteur	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Masc
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	été	être	AUX	_	Tense=Past|VerbForm=Part	12	comp:aux@tense	_	_
+13	été	être	AUX	_	VerbForm=Part	12	comp:aux@tense	_	Tense[denom]=Past
 14	particulièrement	particulièrement	ADV	_	_	15	mod	_	_
 15	aberrante	aberrant	ADJ	_	Gender=Fem|Number=Sing	13	comp:pred	_	_
 16	et	et	CCONJ	_	_	22	cc	_	SpaceAfter=No
@@ -1968,7 +1969,7 @@
 33	et	et	CCONJ	_	_	35	cc	_	_
 34	qui	qui	PRON	_	PronType=Rel	35	subj@pass	_	_
 35	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	conj:coord	_	_
-36	été	être	AUX	_	Tense=Past|VerbForm=Part	35	comp:aux@tense	_	_
+36	été	être	AUX	_	VerbForm=Part	35	comp:aux@tense	_	Tense[denom]=Past
 37	traités	traiter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	36	comp:aux@pass	_	Tense[denom]=Past
 38	par	par	ADP	_	_	37	comp:obl@agent	_	_
 39	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
@@ -2245,7 +2246,7 @@
 29	travail	travail	NOUN	_	Number=Sing	27	comp:obj	_	Gender[lex]=Masc
 30	qui	qui	PRON	_	PronType=Rel	31	subj@pass	_	_
 31	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	mod@relcl	_	_
-32	été	être	AUX	_	Tense=Past|VerbForm=Part	31	comp:aux@tense	_	_
+32	été	être	AUX	_	VerbForm=Part	31	comp:aux@tense	_	Tense[denom]=Past
 33	entamé	entamer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	32	comp:aux@pass	_	Tense[denom]=Past
 34	avec	avec	ADP	_	_	31	mod	_	_
 35	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	37	det	_	_
@@ -2420,7 +2421,7 @@
 15	fonds	fonds	NOUN	_	_	13	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 16	structurels	structurel	ADJ	_	Gender=Masc|Number=Plur	15	mod	_	_
 17	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-18	été	être	AUX	_	Tense=Past|VerbForm=Part	17	comp:aux@tense	_	_
+18	été	être	AUX	_	VerbForm=Part	17	comp:aux@tense	_	Tense[denom]=Past
 19	alloués	allouer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	18	comp:aux@pass	_	Tense[denom]=Past
 20	à	à	ADP	_	_	19	comp:obl	_	_
 21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
@@ -2594,7 +2595,7 @@
 11	petits	petit	ADJ	_	Gender=Masc|Number=Plur	12	mod	_	_
 12	promoteurs	promoteur	NOUN	_	Number=Plur	10	comp:obj	_	Gender[lex]=Masc
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-14	été	être	AUX	_	Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
+14	été	être	AUX	_	VerbForm=Part	13	comp:aux@tense	_	Tense[denom]=Past
 15	affaiblie	affaiblir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	14	comp:aux@pass	_	Tense[denom]=Past
 16	par	par	ADP	_	_	15	comp:obl@agent	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -2791,7 +2792,7 @@
 8	,	,	PUNCT	_	_	3	punct	_	_
 9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
-11	été	être	AUX	_	Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
+11	été	être	AUX	_	VerbForm=Part	10	comp:aux@tense	_	Tense[denom]=Past
 12	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	comp:pred	_	_
 13-14	des	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	12	udep	_	_
@@ -3157,7 +3158,7 @@
 1	Ils	eux	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	subj@pass	_	_
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	été	être	AUX	_	Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
+4	été	être	AUX	_	VerbForm=Part	3	comp:aux@tense	_	Tense[denom]=Past
 5	impliqués	impliquer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	4	comp:aux@pass	_	Tense[denom]=Past
 6	dans	dans	ADP	_	_	5	comp:obl	_	_
 7	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	8	det	_	_
@@ -3217,7 +3218,7 @@
 # text = Elle a été condamnée parce qu'en tant que médecin, elle a porté secours à des blessés des deux camps.
 1	Elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj@pass	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	été	être	AUX	_	Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
+3	été	être	AUX	_	VerbForm=Part	2	comp:aux@tense	_	Tense[denom]=Past
 4	condamnée	condamner	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	Tense[denom]=Past
 5	parce	parce	SCONJ	_	ExtPos=SCONJ	2	mod	_	Idiom=Yes
 6	qu'	que	SCONJ	_	_	5	unk	_	InIdiom=Yes|SpaceAfter=No
@@ -4465,7 +4466,7 @@
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	qui	qui	PRON	_	PronType=Rel	22	subj@pass	_	_
 22	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	_
-23	été	être	AUX	_	Tense=Past|VerbForm=Part	22	comp:aux@tense	_	_
+23	été	être	AUX	_	VerbForm=Part	22	comp:aux@tense	_	Tense[denom]=Past
 24	débattue	débattre	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	23	comp:aux@pass	_	Tense[denom]=Past
 25-26	au	_	_	_	_	_	_	_	_
 25	à	à	ADP	_	_	22	mod	_	_
@@ -4646,7 +4647,7 @@
 18	en	en	PRON	_	Person=3|PronType=Prs	19	comp@expl	_	_
 19	être	être	VERB	_	VerbForm=Inf	17	comp:obj	_	Subject=Generic
 20	autrement	autrement	ADV	_	_	19	mod	_	_
-21	étant	être	AUX	_	Tense=Pres|VerbForm=Part	17	mod	_	_
+21	étant	être	AUX	_	VerbForm=Part	17	mod	_	Tense[denom]=Pres
 22	donné	donner	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	21	comp:aux@pass	_	Tense[denom]=Past
 23	que	que	SCONJ	_	_	21	comp:obj@pass	_	_
 24	M.	monsieur	NOUN	_	Number=Sing	26	subj	_	Gender[lex]=Masc
@@ -5030,7 +5031,7 @@
 18	coïncinération	coïncinération	NOUN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Fem
 19	qui	qui	PRON	_	PronType=Rel	20	subj@pass	_	_
 20	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	_
-21	été	être	AUX	_	Tense=Past|VerbForm=Part	20	comp:aux@tense	_	_
+21	été	être	AUX	_	VerbForm=Part	20	comp:aux@tense	_	Tense[denom]=Past
 22	déposées	déposer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	21	comp:aux@pass	_	Tense[denom]=Past
 23	en	en	ADP	_	_	22	mod	_	_
 24	commission	commission	NOUN	_	Number=Sing	23	comp:obj	_	Gender[lex]=Fem
@@ -5129,7 +5130,7 @@
 15	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	_
 16	à	à	ADP	_	ExtPos=ADV	15	mod	_	Idiom=Yes
 17	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	16	unk	_	InIdiom=Yes
-18	été	être	AUX	_	Tense=Past|VerbForm=Part	15	comp:aux@tense	_	_
+18	été	être	AUX	_	VerbForm=Part	15	comp:aux@tense	_	Tense[denom]=Past
 19	introduites	introduire	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	18	comp:aux@pass	_	Tense[denom]=Past
 20	par	par	ADP	_	_	19	comp:obl@agent	_	_
 21	M.	monsieur	NOUN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Masc
@@ -7234,7 +7235,7 @@
 12	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	détruit	détruire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	12	comp:aux@tense	_	Tense[denom]=Past
 14	ou	ou	CCONJ	_	_	15	cc	_	_
-15	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj:coord	_	_
+15	fait	faire	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	13	conj:coord	_	Tense[denom]=Past
 16	détruire	détruire	VERB	_	VerbForm=Inf	15	comp:aux@caus	_	Subject=Generic
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
 18	stocks	stock	NOUN	_	Number=Plur|Shared=Yes	16	comp:obj	_	Gender[lex]=Masc
@@ -7315,7 +7316,7 @@
 30	et	et	CCONJ	_	_	32	cc	_	_
 31	ceci	ceci	PRON	_	Number=Sing|Person=3|PronType=Dem	32	subj@pass	_	_
 32	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:coord	_	_
-33	été	être	AUX	_	Tense=Past|VerbForm=Part	32	comp:aux@tense	_	_
+33	été	être	AUX	_	VerbForm=Part	32	comp:aux@tense	_	Tense[denom]=Past
 34	confirmé	confirmer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	33	comp:aux@pass	_	Tense[denom]=Past
 35	dans	dans	ADP	_	_	32	mod	_	_
 36	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	37	det	_	_
@@ -7817,7 +7818,7 @@
 22	en	en	ADP	_	_	21	udep	_	_
 23	Irak	Irak	PROPN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
 24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	_
-25	été	être	AUX	_	Tense=Past|VerbForm=Part	24	comp:aux@tense	_	_
+25	été	être	AUX	_	VerbForm=Part	24	comp:aux@tense	_	Tense[denom]=Past
 26	retiré	retirer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	25	comp:aux@pass	_	SpaceAfter=No|Tense[denom]=Past
 27	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -8198,7 +8199,7 @@
 33	structurel	structurel	ADJ	_	Gender=Masc|Number=Sing	32	mod	_	_
 34	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	mod@relcl	_	_
 35	principalement	principalement	ADV	_	_	36	mod	_	_
-36	été	être	AUX	_	Tense=Past|VerbForm=Part	34	comp:aux@tense	_	_
+36	été	être	AUX	_	VerbForm=Part	34	comp:aux@tense	_	Tense[denom]=Past
 37	tout	tout	ADV	_	_	38	mod	_	_
 38	créé	créer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	36	comp:aux@pass	_	SpaceAfter=No|Tense[denom]=Past
 39	.	.	PUNCT	_	_	9	punct	_	_
@@ -8551,7 +8552,7 @@
 28	Turquie	Turquie	PROPN	_	Gender=Fem|Number=Sing	27	comp:obj	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	17	punct	_	_
 30	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
-31	été	être	AUX	_	Tense=Past|VerbForm=Part	30	comp:aux@tense	_	_
+31	été	être	AUX	_	VerbForm=Part	30	comp:aux@tense	_	Tense[denom]=Past
 32	remis	remettre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Pass	31	comp:aux@pass	_	Tense[denom]=Past
 33	en	en	ADP	_	_	32	comp:obl	_	_
 34	prison	prison	NOUN	_	Number=Sing	33	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
@@ -8578,7 +8579,7 @@
 17	dont	dont	PRON	_	PronType=Rel	22	udep	_	_
 18	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	subj	_	_
 19	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	mod@relcl	_	_
-20	été	être	AUX	_	Tense=Past|VerbForm=Part	19	comp:aux@tense	_	_
+20	été	être	AUX	_	VerbForm=Part	19	comp:aux@tense	_	Tense[denom]=Past
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	victime	victime	NOUN	_	Number=Sing	20	comp:pred	_	Gender[lex]=Fem|SpaceAfter=No
 23	.	.	PUNCT	_	_	3	punct	_	_
@@ -8588,7 +8589,7 @@
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	demande	demande	NOUN	_	Number=Sing	3	subj@pass	_	Gender[lex]=Fem
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	été	être	AUX	_	Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
+4	été	être	AUX	_	VerbForm=Part	3	comp:aux@tense	_	Tense[denom]=Past
 5	rejetée	rejeter	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	comp:aux@pass	_	Tense[denom]=Past
 6	et	et	CCONJ	_	_	8	cc	_	_
 7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
@@ -9424,7 +9425,7 @@
 46	forces	force	NOUN	_	Number=Plur	45	comp:obj	_	Gender[lex]=Fem
 47	qui	qui	PRON	_	PronType=Rel	48	subj@pass	_	_
 48	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	44	mod@relcl	_	_
-49	été	être	AUX	_	Tense=Past|VerbForm=Part	48	comp:aux@tense	_	_
+49	été	être	AUX	_	VerbForm=Part	48	comp:aux@tense	_	Tense[denom]=Past
 50	convenu	convenir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	49	comp:aux@pass	_	Tense[denom]=Past
 51	et	et	CCONJ	_	_	52	cc	_	_
 52	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	50	conj:coord	_	_
@@ -11036,7 +11037,7 @@
 58	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	mod@relcl	_	_
 59	bien	bien	ADV	_	ExtPos=ADV	61	mod	_	Idiom=Yes
 60	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	59	unk	_	InIdiom=Yes
-61	été	être	AUX	_	Tense=Past|VerbForm=Part	58	comp:aux@tense	_	_
+61	été	être	AUX	_	VerbForm=Part	58	comp:aux@tense	_	Tense[denom]=Past
 62	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	61	comp:aux@pass	_	Tense[denom]=Past
 63	pour	pour	ADP	_	_	58	mod	_	_
 64	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	65	det	_	_
@@ -11068,7 +11069,7 @@
 8	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
 9	conférence	conférence	NOUN	_	Number=Sing	10	subj	_	Gender[lex]=Fem
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
-11	été	être	AUX	_	Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
+11	été	être	AUX	_	VerbForm=Part	10	comp:aux@tense	_	Tense[denom]=Past
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	réussite	réussite	NOUN	_	Number=Sing	11	comp:pred	_	Gender[lex]=Fem|SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
@@ -12136,7 +12137,7 @@
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj@pass	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	été	être	AUX	_	Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
+7	été	être	AUX	_	VerbForm=Part	6	comp:aux@tense	_	Tense[denom]=Past
 8	accusé	accuser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	comp:aux@pass	_	Tense[denom]=Past
 9	d'	de	ADP	_	_	8	comp:obl	_	SpaceAfter=No
 10	avoir	avoir	AUX	_	VerbForm=Inf	9	comp:obj	_	Subject=SubjRaising
@@ -13172,7 +13173,7 @@
 15	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	conj:coord	_	_
 16	décidé	décider	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	15	comp:aux@tense	_	Tense[denom]=Past
 17	et	et	CCONJ	_	_	18	cc	_	_
-18	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	conj:coord@emb	_	_
+18	fait	faire	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	16	conj:coord@emb	_	Tense[denom]=Past
 19	savoir	savoir	VERB	_	VerbForm=Inf	18	comp:aux@caus	_	Subject=Generic
 20	à	à	ADP	_	_	19	comp:obl	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
@@ -13390,7 +13391,7 @@
 6	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 7	suffisante	suffisant	ADJ	_	Gender=Fem|Number=Sing	4	comp:pred	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	étant	être	AUX	_	Tense=Pres|VerbForm=Part	4	mod	_	_
+9	étant	être	AUX	_	VerbForm=Part	4	mod	_	Tense[denom]=Pres
 10	donné	donner	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	comp:aux@pass	_	Tense[denom]=Past
 11	que	que	SCONJ	_	_	9	comp:obj@pass	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
@@ -13511,7 +13512,7 @@
 
 # sent_id = Europar.550_00415
 # text = Étant donné que la durée de vie des avions est approximativement de trente ans, l'effet de ces améliorations techniques se fait attendre longtemps.
-1	Étant	être	AUX	_	Tense=Pres|VerbForm=Part	25	mod	_	_
+1	Étant	être	AUX	_	VerbForm=Part	25	mod	_	Tense[denom]=Pres
 2	donné	donner	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	comp:aux@pass	_	Tense[denom]=Past
 3	que	que	SCONJ	_	_	1	comp:obj@pass	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -14224,7 +14225,7 @@
 35	n'	ne	ADV	_	Polarity=Neg	36	mod	_	SpaceAfter=No
 36	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	mod@relcl	_	_
 37	pas	pas	ADV	_	Polarity=Neg	36	mod	_	_
-38	été	être	AUX	_	Tense=Past|VerbForm=Part	36	comp:aux@tense	_	_
+38	été	être	AUX	_	VerbForm=Part	36	comp:aux@tense	_	Tense[denom]=Past
 39	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
 40	cas	cas	NOUN	_	_	38	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 41	.	.	PUNCT	_	_	9	punct	_	_
@@ -14394,7 +14395,7 @@
 9	engagement	engagement	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Masc
 10	qui	qui	PRON	_	PronType=Rel	11	subj@pass	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
-12	été	être	AUX	_	Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
+12	été	être	AUX	_	VerbForm=Part	11	comp:aux@tense	_	Tense[denom]=Past
 13	pris	prendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Pass	12	comp:aux@pass	_	Tense[denom]=Past
 14	concernant	concerner	VERB	_	VerbForm=Part	9	mod	_	Tense[denom]=Pres
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -15601,7 +15602,7 @@
 26	que	que	SCONJ	_	_	25	comp:obj	_	_
 27	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	28	subj	_	_
 28	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	26	comp:obj	_	_
-29	été	être	AUX	_	Tense=Past|VerbForm=Part	28	comp:aux@tense	_	_
+29	été	être	AUX	_	VerbForm=Part	28	comp:aux@tense	_	Tense[denom]=Past
 30	très	très	ADV	_	_	31	mod	_	_
 31	sensibles	sensible	ADJ	_	Number=Plur	29	comp:pred	_	Gender[ctxt]=Masc
 32	à	à	ADP	_	_	31	comp:obl	_	_
@@ -15665,7 +15666,7 @@
 28	rencontre	rencontre	NOUN	_	Number=Sing	11	conj:appos	_	Gender[lex]=Fem
 29	qui	qui	PRON	_	PronType=Rel	30	subj@pass	_	_
 30	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	mod@relcl	_	_
-31	été	être	AUX	_	Tense=Past|VerbForm=Part	30	comp:aux@tense	_	_
+31	été	être	AUX	_	VerbForm=Part	30	comp:aux@tense	_	Tense[denom]=Past
 32	initiée	initier	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	31	comp:aux@pass	_	Tense[denom]=Past
 33	il	lui	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=3|PronType=Prs	35	subj	_	InIdiom=Yes
 34	y	y	PRON	_	Person=3|PronType=Prs	35	comp	_	InIdiom=Yes
@@ -15700,7 +15701,7 @@
 7	,	,	PUNCT	_	_	1	punct	_	_
 8	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	9	subj@pass	_	SpaceAfter=No
 9	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	été	être	AUX	_	Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
+10	été	être	AUX	_	VerbForm=Part	9	comp:aux@tense	_	Tense[denom]=Past
 11	très	très	ADV	_	_	12	mod	_	_
 12	honorée	honorer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	comp:aux@pass	_	Tense[denom]=Past
 13	que	que	SCONJ	_	_	12	comp:obl	_	_
@@ -15761,7 +15762,7 @@
 66	,	,	PUNCT	_	_	46	punct	_	_
 67	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	68	subj@pass	_	_
 68	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	34	comp:obj	_	_
-69	été	être	AUX	_	Tense=Past|VerbForm=Part	68	comp:aux@tense	_	_
+69	été	être	AUX	_	VerbForm=Part	68	comp:aux@tense	_	Tense[denom]=Past
 70	très	très	ADV	_	_	71	mod	_	_
 71	impressionnés	impressionner	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	69	comp:aux@pass	_	Tense[denom]=Past
 72	par	par	ADP	_	_	71	comp:obl@agent	_	_
@@ -15918,7 +15919,7 @@
 41	devise	devise	NOUN	_	Number=Sing	51	subj	_	Gender[lex]=Fem
 42	qui	qui	PRON	_	PronType=Rel	43	subj@pass	_	_
 43	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	mod@relcl	_	_
-44	été	être	AUX	_	Tense=Past|VerbForm=Part	43	comp:aux@tense	_	_
+44	été	être	AUX	_	VerbForm=Part	43	comp:aux@tense	_	Tense[denom]=Past
 45	finalement	finalement	ADV	_	_	44	mod	_	_
 46	retenue	retenir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	44	comp:aux@pass	_	Tense[denom]=Past
 47	par	par	ADP	_	_	46	comp:obl@agent	_	_
@@ -15926,7 +15927,7 @@
 49	grand	grand	ADJ	_	Gender=Masc|Number=Sing	50	mod	_	_
 50	jury	jury	NOUN	_	Number=Sing	47	comp:obj	_	Gender[lex]=Masc
 51	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	comp:obj	_	_
-52	été	être	AUX	_	Tense=Past|VerbForm=Part	51	comp:aux@tense	_	_
+52	été	être	AUX	_	VerbForm=Part	51	comp:aux@tense	_	Tense[denom]=Past
 53	"	"	PUNCT	_	_	55	punct	_	SpaceAfter=No
 54	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	55	det	_	SpaceAfter=No
 55	unité	unité	NOUN	_	Number=Sing	52	comp:pred	_	Gender[lex]=Fem
@@ -16613,7 +16614,7 @@
 3	qui	qui	PRON	_	PronType=Rel	5	subj@pass	_	_
 4	nous	nous	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=1|PronType=Prs	7	comp:obl	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	_
-6	été	être	AUX	_	Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
+6	été	être	AUX	_	VerbForm=Part	5	comp:aux@tense	_	Tense[denom]=Past
 7	présenté	présenter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	comp:aux@pass	_	Tense[denom]=Past
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	très	très	ADV	_	_	10	mod	_	_
@@ -17261,12 +17262,12 @@
 24	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	25	det	_	_
 25	manifestation	manifestation	NOUN	_	Number=Sing	26	subj@pass	_	Gender[lex]=Fem
 26	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj:coord	_	_
-27	été	être	AUX	_	Tense=Past|VerbForm=Part	26	comp:aux@tense	_	_
+27	été	être	AUX	_	VerbForm=Part	26	comp:aux@tense	_	Tense[denom]=Past
 28	considérée	considérer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	27	comp:aux@pass	_	Tense[denom]=Past
 29	comme	comme	ADP	_	_	28	comp:pred	_	_
 30	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	réunion	réunion	NOUN	_	Number=Sing	29	comp:obj	_	Gender[lex]=Fem
-32	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	31	mod	_	_
+32	ayant	avoir	AUX	_	VerbForm=Part	31	mod	_	Tense[denom]=Pres
 33	eu	avoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	32	comp:aux@tense	_	Tense[denom]=Past
 34	lieu	lieu	NOUN	_	Number=Sing	33	comp:obj	_	Gender[lex]=Masc
 35	sans	sans	ADP	_	_	32	mod	_	_
@@ -17283,7 +17284,7 @@
 45	qu'	que	SCONJ	_	_	44	comp:obj	_	SpaceAfter=No
 46	elles	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Plur|Person=3|PronType=Prs	47	subj@pass	_	_
 47	aient	avoir	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	45	comp:obj	_	_
-48	été	être	AUX	_	Tense=Past|VerbForm=Part	47	comp:aux@tense	_	_
+48	été	être	AUX	_	VerbForm=Part	47	comp:aux@tense	_	Tense[denom]=Past
 49	informées	informer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	48	comp:aux@pass	_	SpaceAfter=No|Tense[denom]=Past
 50	.	.	PUNCT	_	Shared=Yes	26	punct	_	_
 
@@ -17517,7 +17518,7 @@
 8	circonstances	circonstance	NOUN	_	Number=Plur	6	comp:obj	_	Gender[lex]=Fem
 9	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	toujours	toujours	ADV	_	_	9	mod	_	_
-11	été	être	AUX	_	Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
+11	été	être	AUX	_	VerbForm=Part	9	comp:aux@tense	_	Tense[denom]=Past
 12	de	de	ADP	_	_	11	comp:pred	_	_
 13	ne	ne	ADV	_	Polarity=Neg	15	mod	_	_
 14	pas	pas	ADV	_	Polarity=Neg	15	mod	_	_

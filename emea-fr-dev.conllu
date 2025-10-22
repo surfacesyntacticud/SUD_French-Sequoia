@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = emea-fr-dev_00001
 # text = European Medicines Agency
 1	European	European	X	_	Foreign=Yes	0	root	_	Lang=en
@@ -848,7 +849,7 @@
 1	Quelles	quel	DET	_	Gender=Fem|Number=Plur|PronType=Int	2	det	_	_
 2	études	étude	NOUN	_	Number=Plur	3	subj@pass	_	Gender[lex]=Fem
 3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	été	être	AUX	_	Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
+4	été	être	AUX	_	VerbForm=Part	3	comp:aux@tense	_	Tense[denom]=Past
 5	menées	mener	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	4	comp:aux@pass	_	Tense[denom]=Past
 6	avec	avec	ADP	_	_	3	mod	_	_
 7	Angiox	Angiox	PROPN	_	_	6	comp:obj	_	Gender[lex]=Unknown
@@ -858,7 +859,7 @@
 # text = Angiox a été étudié chez plus de 20 000 patients.
 1	Angiox	Angiox	PROPN	_	_	2	subj@pass	_	Gender[lex]=Unknown
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	été	être	AUX	_	Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
+3	été	être	AUX	_	VerbForm=Part	2	comp:aux@tense	_	Tense[denom]=Past
 4	étudié	étudier	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	Tense[denom]=Past
 5	chez	chez	ADP	_	_	2	mod	_	_
 6	plus	plus	ADV	_	ExtPos=PRON	5	comp:obj	_	_
@@ -979,7 +980,7 @@
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
 12	ICP	ICP	NOUN	_	Number=Sing	10	comp:obj	_	_
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-14	été	être	AUX	_	Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
+14	été	être	AUX	_	VerbForm=Part	13	comp:aux@tense	_	Tense[denom]=Past
 15	étudiée	étudier	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	14	comp:aux@pass	_	Tense[denom]=Past
 16	chez	chez	ADP	_	_	13	mod	_	_
 17	plus	plus	ADV	_	ExtPos=PRON	16	comp:obj	_	_
@@ -992,7 +993,7 @@
 # text = Angiox a été comparé à l'héparine.
 1	Angiox	Angiox	PROPN	_	_	2	subj@pass	_	Gender[lex]=Unknown
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	été	être	AUX	_	Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
+3	été	être	AUX	_	VerbForm=Part	2	comp:aux@tense	_	Tense[denom]=Past
 4	comparé	comparer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	Tense[denom]=Past
 5	à	à	ADP	_	_	4	comp:obl	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Gender[ctxt]=Fem|SpaceAfter=No
@@ -1056,7 +1057,7 @@
 8	critères	critère	NOUN	_	Number=Plur	10	subj	_	Gender[lex]=Masc
 9	principaux	principal	ADJ	_	Gender=Masc|Number=Plur	8	mod	_	_
 10	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	été	être	AUX	_	Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
+11	été	être	AUX	_	VerbForm=Part	10	comp:aux@tense	_	Tense[denom]=Past
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	suivants	suivant	ADJ	_	Gender=Masc|Number=Plur	11	comp:pred	_	_
 14	:	:	PUNCT	_	_	15	punct	_	_
@@ -1123,7 +1124,7 @@
 11	lesquels	lequel	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	10	comp:obj	_	_
 12	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj@pass	_	_
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
-14	été	être	AUX	_	Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
+14	été	être	AUX	_	VerbForm=Part	13	comp:aux@tense	_	Tense[denom]=Past
 15	comparé	comparer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	14	comp:aux@pass	_	SpaceAfter=No|Tense[denom]=Past
 16	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -1132,7 +1133,7 @@
 1	Lorsqu'	lorsque	SCONJ	_	_	22	mod	_	SpaceAfter=No
 2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@pass	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
-4	été	être	AUX	_	Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
+4	été	être	AUX	_	VerbForm=Part	3	comp:aux@tense	_	Tense[denom]=Past
 5	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	comp:aux@pass	_	Tense[denom]=Past
 6	pour	pour	ADP	_	_	3	mod	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -1151,7 +1152,7 @@
 20	GP	GP	NOUN	_	_	19	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	14	punct	_	_
 22	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-23	été	être	AUX	_	Tense=Past|VerbForm=Part	22	comp:aux@tense	_	_
+23	été	être	AUX	_	VerbForm=Part	22	comp:aux@tense	_	Tense[denom]=Past
 24	aussi	aussi	ADV	_	_	25	mod	_	_
 25	efficace	efficace	ADJ	_	Number=Sing	23	comp:pred	_	Gender[ctxt]=Masc
 26	que	que	SCONJ	_	_	25	unk	_	_
@@ -1187,14 +1188,14 @@
 # text = Angiox a été le plus efficace chez les patients ayant également reçu de l'aspirine et du clopidogrel.
 1	Angiox	Angiox	PROPN	_	_	2	subj	_	Gender[lex]=Unknown
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	été	être	AUX	_	Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
+3	été	être	AUX	_	VerbForm=Part	2	comp:aux@tense	_	Tense[denom]=Past
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	plus	plus	ADV	_	_	6	mod	_	_
 6	efficace	efficace	ADJ	_	Number=Sing	3	comp:pred	_	Gender[ctxt]=Masc
 7	chez	chez	ADP	_	_	2	mod	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	patients	patient	NOUN	_	Number=Plur	7	comp:obj	_	Gender[lex]=Masc
-10	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	9	mod	_	_
+10	ayant	avoir	AUX	_	VerbForm=Part	9	mod	_	Tense[denom]=Pres
 11	également	également	ADV	_	_	10	mod	_	_
 12	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	10	comp:aux@tense	_	Tense[denom]=Past
 13	de	de	ADP	_	ExtPos=DET	15	det	_	Idiom=Yes
@@ -1209,7 +1210,7 @@
 # text = Les patients ayant reçu Angiox sans inhibiteur de GP ont également présenté un taux d'hémorragies inférieur après 30 jours et après un an.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	patients	patient	NOUN	_	Number=Plur	10	subj	_	Gender[lex]=Masc
-3	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	2	mod	_	_
+3	ayant	avoir	AUX	_	VerbForm=Part	2	mod	_	Tense[denom]=Pres
 4	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	3	comp:aux@tense	_	Tense[denom]=Past
 5	Angiox	Angiox	PROPN	_	_	4	comp:obj	_	Gender[lex]=Unknown
 6	sans	sans	ADP	_	_	3	mod	_	_
@@ -1403,7 +1404,7 @@
 10	chez	chez	ADP	_	_	9	mod	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	patients	patient	NOUN	_	Number=Plur|Shared=Yes	10	comp:obj	_	Gender[lex]=Masc
-13	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	12	mod	_	_
+13	ayant	avoir	AUX	_	VerbForm=Part	12	mod	_	Tense[denom]=Pres
 14	eu	avoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	13	comp:aux@tense	_	Tense[denom]=Past
 15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	hémorragie	hémorragie	NOUN	_	Number=Sing	14	comp:obj	_	Gender[lex]=Fem
@@ -1456,7 +1457,7 @@
 2	Angiox	Angiox	PROPN	_	_	3	subj@pass	_	Gender[lex]=Unknown
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	-t-il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
-5	été	être	AUX	_	Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
+5	été	être	AUX	_	VerbForm=Part	3	comp:aux@tense	_	Tense[denom]=Past
 6	approuvé	approuver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	comp:aux@pass	_	Tense[denom]=Past
 7	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -2389,7 +2390,7 @@
 12	n'	ne	ADV	_	Polarity=Neg	13	mod	_	SpaceAfter=No
 13	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	pas	pas	ADV	_	Polarity=Neg	13	mod	_	_
-15	été	être	AUX	_	Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
+15	été	être	AUX	_	VerbForm=Part	13	comp:aux@tense	_	Tense[denom]=Past
 16	évaluées	évaluer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	15	comp:aux@pass	_	SpaceAfter=No|Tense[denom]=Past
 17	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -3002,7 +3003,7 @@
 12	n'	ne	ADV	_	Polarity=Neg	13	mod	_	SpaceAfter=No
 13	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	pas	pas	ADV	_	Polarity=Neg	13	mod	_	_
-15	été	être	AUX	_	Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
+15	été	être	AUX	_	VerbForm=Part	13	comp:aux@tense	_	Tense[denom]=Past
 16	étudiées	étudier	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	15	comp:aux@pass	_	Tense[denom]=Past
 17	de	de	ADP	_	_	13	mod	_	_
 18	manière	manière	NOUN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Fem
@@ -3582,7 +3583,7 @@
 6	type	type	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Masc
 7	allergique	allergique	ADJ	_	Number=Sing	6	mod	_	Gender[ctxt]=Masc
 8	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	été	être	AUX	_	Tense=Past|VerbForm=Part	8	comp:aux@tense	_	_
+9	été	être	AUX	_	VerbForm=Part	8	comp:aux@tense	_	Tense[denom]=Past
 10	peu	peu	ADV	_	_	11	mod	_	_
 11	fréquemment	fréquemment	ADV	_	_	9	mod	_	_
 12	rapportées	rapporter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	9	comp:aux@pass	_	Tense[denom]=Past
@@ -3695,7 +3696,7 @@
 10	fatal	fatal	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	8	punct	_	_
 12	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	été	être	AUX	_	Tense=Past|VerbForm=Part	12	comp:aux@tense	_	_
+13	été	être	AUX	_	VerbForm=Part	12	comp:aux@tense	_	Tense[denom]=Past
 14	rapportées	rapporter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	13	comp:aux@pass	_	Tense[denom]=Past
 15	très	très	ADV	_	_	16	mod	_	_
 16	rarement	rarement	ADV	_	_	14	mod	_	_
@@ -3730,7 +3731,7 @@
 16	n'	ne	ADV	_	Polarity=Neg	17	mod	_	SpaceAfter=No
 17	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	conj:coord	_	_
 18	pas	pas	ADV	_	Polarity=Neg	17	mod	_	_
-19	été	être	AUX	_	Tense=Past|VerbForm=Part	17	comp:aux@tense	_	_
+19	été	être	AUX	_	VerbForm=Part	17	comp:aux@tense	_	Tense[denom]=Past
 20	associés	associer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	19	comp:aux@pass	_	Tense[denom]=Past
 21	à	à	ADP	_	_	20	comp:obl	_	_
 22	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	23	det	_	_
@@ -3773,7 +3774,7 @@
 4	de	de	ADP	_	_	2	udep	_	_
 5	thrombus	thrombus	NOUN	_	_	4	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	été	être	AUX	_	Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
+7	été	être	AUX	_	VerbForm=Part	6	comp:aux@tense	_	Tense[denom]=Past
 8	observée	observer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	7	comp:aux@pass	_	Tense[denom]=Past
 9	pendant	pendant	ADP	_	_	6	mod	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
@@ -3822,7 +3823,7 @@
 4	interactions	interaction	NOUN	_	Number=Plur	3	comp:obj	_	Gender[lex]=Fem
 5	médicamenteuses	médicamenteux	ADJ	_	Gender=Fem|Number=Plur	4	mod	_	_
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	été	être	AUX	_	Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
+7	été	être	AUX	_	VerbForm=Part	6	comp:aux@tense	_	Tense[denom]=Past
 8	réalisées	réaliser	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	7	comp:aux@pass	_	Tense[denom]=Past
 9	avec	avec	ADP	_	_	6	mod	_	_
 10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
@@ -4126,7 +4127,7 @@
 15	n'	ne	ADV	_	Polarity=Neg	16	mod	_	SpaceAfter=No
 16	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	pas	pas	ADV	_	Polarity=Neg	16	mod	_	_
-18	été	être	AUX	_	Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
+18	été	être	AUX	_	VerbForm=Part	16	comp:aux@tense	_	Tense[denom]=Past
 19	étudiés	étudier	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	18	comp:aux@pass	_	SpaceAfter=No|Tense[denom]=Past
 20	.	.	PUNCT	_	_	16	punct	_	_
 
@@ -4178,7 +4179,7 @@
 # text = 4612 ont été traités par la bivalirudine seule, 4604 ont été traités par la bivalirudine plus un inhibiteur de la GP IIb/IIIa et 4603 ont été traités avec de l'héparine non fractionnée ou avec de l'enoxaparine plus un inhibiteur de la GPIIb/IIIa.
 1	4612	4612	NUM	_	ExtPos=PRON|NumType=Card	2	subj@pass	_	Number[lex]=Plur
 2	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	été	être	AUX	_	Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
+3	été	être	AUX	_	VerbForm=Part	2	comp:aux@tense	_	Tense[denom]=Past
 4	traités	traiter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	Tense[denom]=Past
 5	par	par	ADP	_	_	4	mod	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -4187,7 +4188,7 @@
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	4604	4604	NUM	_	ExtPos=PRON|NumType=Card	11	subj@pass	_	Number[lex]=Plur
 11	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj:coord	_	_
-12	été	être	AUX	_	Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
+12	été	être	AUX	_	VerbForm=Part	11	comp:aux@tense	_	Tense[denom]=Past
 13	traités	traiter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	12	comp:aux@pass	_	Tense[denom]=Past
 14	par	par	ADP	_	_	13	mod	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -4202,7 +4203,7 @@
 24	et	et	CCONJ	_	_	26	cc	_	_
 25	4603	4603	NUM	_	ExtPos=PRON|NumType=Card	26	subj@pass	_	Number[lex]=Plur
 26	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	conj:coord	_	_
-27	été	être	AUX	_	Tense=Past|VerbForm=Part	26	comp:aux@tense	_	_
+27	été	être	AUX	_	VerbForm=Part	26	comp:aux@tense	_	Tense[denom]=Past
 28	traités	traiter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	27	comp:aux@pass	_	Tense[denom]=Past
 29	avec	avec	ADP	_	_	26	mod	_	_
 30	de	de	ADP	_	ExtPos=DET	32	det	_	Idiom=Yes
@@ -4229,7 +4230,7 @@
 2	effets	effet	NOUN	_	Number=Plur	4	subj	_	Gender[lex]=Masc
 3	indésirables	indésirable	ADJ	_	Number=Plur	2	mod	_	Gender[ctxt]=Masc
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	été	être	AUX	_	Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
+5	été	être	AUX	_	VerbForm=Part	4	comp:aux@tense	_	Tense[denom]=Past
 6	plus	plus	ADV	_	_	7	mod	_	_
 7	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	5	comp:pred	_	_
 8	chez	chez	ADP	_	_	7	mod	_	_
@@ -4345,7 +4346,7 @@
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	saignements	saignement	NOUN	_	Number=Plur	7	comp:obj	_	Gender[lex]=Masc
 10	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	été	être	AUX	_	Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
+11	été	être	AUX	_	VerbForm=Part	10	comp:aux@tense	_	Tense[denom]=Past
 12	recueillies	recueillir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	11	comp:aux@pass	_	Tense[denom]=Past
 13	séparément	séparément	ADV	_	_	10	mod	_	_
 14	de	de	ADP	_	_	13	comp:obl	_	_
@@ -4362,7 +4363,7 @@
 2	saignements	saignement	NOUN	_	Number=Plur	4	subj@pass	_	Gender[lex]=Masc
 3	majeurs	majeur	ADJ	_	Gender=Masc|Number=Plur	2	mod	_	_
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	été	être	AUX	_	Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
+5	été	être	AUX	_	VerbForm=Part	4	comp:aux@tense	_	Tense[denom]=Past
 6	définis	définir	VERB	_	Number=Sing|VerbForm=Part|Voice=Pass	5	comp:aux@pass	_	Tense[denom]=Past
 7	selon	selon	ADP	_	_	4	mod	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
@@ -4388,10 +4389,10 @@
 2	saignements	saignement	NOUN	_	Number=Plur	4	subj@pass	_	Gender[lex]=Masc
 3	mineurs	mineur	ADJ	_	Gender=Masc|Number=Plur	2	mod	_	_
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	été	être	AUX	_	Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
+5	été	être	AUX	_	VerbForm=Part	4	comp:aux@tense	_	Tense[denom]=Past
 6	définis	définir	VERB	_	Number=Sing|VerbForm=Part|Voice=Pass	5	comp:aux@pass	_	Tense[denom]=Past
 7	comme	comme	ADP	_	_	6	comp:pred	_	_
-8	étant	être	AUX	_	Tense=Pres|VerbForm=Part	7	comp:obj	_	_
+8	étant	être	AUX	_	VerbForm=Part	7	comp:obj	_	Tense[denom]=Pres
 9	tous	tout	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
 10	événements	événement	NOUN	_	Number=Plur	8	comp:pred	_	Gender[lex]=Masc
 11	hémorragiques	hémorragique	ADJ	_	Number=Plur	10	mod	_	Gender[ctxt]=Masc
@@ -4417,7 +4418,7 @@
 2	saignements	saignement	NOUN	_	Number=Plur	4	subj@pass	_	Gender[lex]=Masc
 3	mineurs	mineur	ADJ	_	Gender=Masc|Number=Plur	2	mod	_	_
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	été	être	AUX	_	Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
+5	été	être	AUX	_	VerbForm=Part	4	comp:aux@tense	_	Tense[denom]=Past
 6	rapportés	rapporter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	5	comp:aux@pass	_	Tense[denom]=Past
 7	de	de	ADP	_	_	6	mod	_	_
 8	façon	façon	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Fem
@@ -4457,7 +4458,7 @@
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	mineurs	mineur	ADJ	_	Gender=Masc|Number=Plur	10	conj:coord	_	_
 13	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-14	été	être	AUX	_	Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
+14	été	être	AUX	_	VerbForm=Part	13	comp:aux@tense	_	Tense[denom]=Past
 15	constatées	constater	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	14	comp:aux@pass	_	Tense[denom]=Past
 16	chez	chez	ADP	_	_	15	mod	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
@@ -4505,7 +4506,7 @@
 2	diminutions	diminution	NOUN	_	Number=Plur	4	subj@pass	_	Gender[lex]=Fem
 3	similaires	similaire	ADJ	_	Number=Plur	2	mod	_	Gender[ctxt]=Fem
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	été	être	AUX	_	Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
+5	été	être	AUX	_	VerbForm=Part	4	comp:aux@tense	_	Tense[denom]=Past
 6	observées	observer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	5	comp:aux@pass	_	Tense[denom]=Past
 7	sur	sur	ADP	_	_	6	mod	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -4523,7 +4524,7 @@
 18	groupe	groupe	NOUN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Masc
 19	Bivalidurine	Bivalidurine	NOUN	_	Number=Sing	18	mod	_	Gender[lex]=Fem
 20	seule	seul	ADJ	_	Gender=Fem|Number=Sing	19	mod	_	_
-21	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	15	mod	_	_
+21	ayant	avoir	AUX	_	VerbForm=Part	15	mod	_	Tense[denom]=Pres
 22	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	21	comp:aux@tense	_	Tense[denom]=Past
 23	de	de	ADP	_	ExtPos=DET	25	det	_	Idiom=Yes
 24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	unk	_	InIdiom=Yes|SpaceAfter=No
@@ -4742,10 +4743,10 @@
 4	d'	de	ADP	_	_	2	udep	_	SpaceAfter=No
 5	ACUITY	ACUITY	PROPN	_	_	4	comp:obj	_	Gender[lex]=Unknown
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	été	être	AUX	_	Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
+7	été	être	AUX	_	VerbForm=Part	6	comp:aux@tense	_	Tense[denom]=Past
 8	définis	définir	VERB	_	Number=Sing|VerbForm=Part|Voice=Pass	7	comp:aux@pass	_	Tense[denom]=Past
 9	comme	comme	ADP	_	_	8	comp:pred	_	_
-10	étant	être	AUX	_	Tense=Pres|VerbForm=Part	9	comp:obj	_	_
+10	étant	être	AUX	_	VerbForm=Part	9	comp:obj	_	Tense[denom]=Pres
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	survenue	survenue	NOUN	_	Number=Sing	10	comp:pred	_	Gender[lex]=Fem
 13	de	de	ADP	_	_	12	udep	_	_
@@ -4851,7 +4852,7 @@
 9	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	définis	définir	VERB	_	Number=Plur|VerbForm=Part|Voice=Pass	9	comp:aux@pass	_	Tense[denom]=Past
 11	comme	comme	ADP	_	_	10	comp:pred	_	_
-12	étant	être	AUX	_	Tense=Pres|VerbForm=Part	11	comp:obj	_	_
+12	étant	être	AUX	_	VerbForm=Part	11	comp:obj	_	Tense[denom]=Pres
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	saignements	saignement	NOUN	_	Number=Plur	12	comp:pred	_	Gender[lex]=Masc
 15	intracrâniens	intracrânien	ADJ	_	Gender=Masc|Number=Plur	14	mod	_	_
@@ -4952,7 +4953,7 @@
 8	de	de	ADP	_	_	7	udep	_	_
 9	thrombocytopénie	thrombocytopénie	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Fem
 10	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	été	être	AUX	_	Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
+11	été	être	AUX	_	VerbForm=Part	10	comp:aux@tense	_	Tense[denom]=Past
 12	rapportés	rapporter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	11	comp:aux@pass	_	Tense[denom]=Past
 13	chez	chez	ADP	_	_	10	mod	_	_
 14	10	10	NUM	_	ExtPos=DET|NumType=Card	15	det	_	Number[lex]=Plur
@@ -5059,7 +5060,7 @@
 31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	moitié	moitié	NOUN	_	Number=Sing	33	subj@pass	_	Gender[lex]=Fem
 33	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	mod@relcl	_	_
-34	été	être	AUX	_	Tense=Past|VerbForm=Part	33	comp:aux@tense	_	_
+34	été	être	AUX	_	VerbForm=Part	33	comp:aux@tense	_	Tense[denom]=Past
 35	traités	traiter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	34	comp:aux@pass	_	Tense[denom]=Past
 36	par	par	ADP	_	_	33	mod	_	_
 37	bivalirudine	bivalirudine	NOUN	_	Number=Sing	36	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
@@ -5071,7 +5072,7 @@
 2	événements	événement	NOUN	_	Number=Plur	4	subj	_	Gender[lex]=Masc
 3	indésirables	indésirable	ADJ	_	Number=Plur	2	mod	_	Gender[ctxt]=Masc
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	été	être	AUX	_	Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
+5	été	être	AUX	_	VerbForm=Part	4	comp:aux@tense	_	Tense[denom]=Past
 6	plus	plus	ADV	_	_	7	mod	_	_
 7	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	5	comp:pred	_	_
 8	chez	chez	ADP	_	_	7	mod	_	_
@@ -5310,7 +5311,7 @@
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	saignements	saignement	NOUN	_	Number=Plur	8	comp:obj	_	Gender[lex]=Masc
 11	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-12	été	être	AUX	_	Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
+12	été	être	AUX	_	VerbForm=Part	11	comp:aux@tense	_	Tense[denom]=Past
 13	recueillies	recueillir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	12	comp:aux@pass	_	Tense[denom]=Past
 14	séparément	séparément	ADV	_	_	11	mod	_	_
 15	de	de	ADP	_	_	14	comp:obl	_	_
@@ -5327,10 +5328,10 @@
 2	saignement	saignement	NOUN	_	Number=Sing	4	subj@pass	_	Gender[lex]=Masc
 3	majeur	majeur	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	été	être	AUX	_	Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
+5	été	être	AUX	_	VerbForm=Part	4	comp:aux@tense	_	Tense[denom]=Past
 6	défini	définir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	comp:aux@pass	_	Tense[denom]=Past
 7	comme	comme	ADP	_	_	6	comp:pred	_	_
-8	étant	être	AUX	_	Tense=Pres|VerbForm=Part	7	comp:obj	_	_
+8	étant	être	AUX	_	VerbForm=Part	7	comp:obj	_	Tense[denom]=Pres
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	survenue	survenue	NOUN	_	Number=Sing	8	comp:pred	_	Gender[lex]=Fem
 11	de	de	ADP	_	_	10	udep	_	_
@@ -5419,10 +5420,10 @@
 2	saignement	saignement	NOUN	_	Number=Sing	4	subj@pass	_	Gender[lex]=Masc
 3	mineur	mineur	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	été	être	AUX	_	Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
+5	été	être	AUX	_	VerbForm=Part	4	comp:aux@tense	_	Tense[denom]=Past
 6	défini	définir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	comp:aux@pass	_	Tense[denom]=Past
 7	comme	comme	ADP	_	_	6	comp:pred	_	_
-8	étant	être	AUX	_	Tense=Pres|VerbForm=Part	7	comp:obj	_	_
+8	étant	être	AUX	_	VerbForm=Part	7	comp:obj	_	Tense[denom]=Pres
 9	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	événement	événement	NOUN	_	Number=Sing	8	comp:pred	_	Gender[lex]=Masc
 11	hémorragique	hémorragique	ADJ	_	Number=Sing	10	mod	_	Gender[ctxt]=Masc
@@ -5446,7 +5447,7 @@
 2	saignements	saignement	NOUN	_	Number=Plur	4	subj@pass	_	Gender[lex]=Masc
 3	mineurs	mineur	ADJ	_	Gender=Masc|Number=Plur	2	mod	_	_
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	été	être	AUX	_	Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
+5	été	être	AUX	_	VerbForm=Part	4	comp:aux@tense	_	Tense[denom]=Past
 6	rapportés	rapporter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	5	comp:aux@pass	_	Tense[denom]=Past
 7	de	de	ADP	_	_	6	mod	_	_
 8	façon	façon	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Fem
@@ -5479,7 +5480,7 @@
 5	que	que	SCONJ	_	_	3	mod	_	_
 6	majeurs	majeur	ADJ	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
 7	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	été	être	AUX	_	Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
+8	été	être	AUX	_	VerbForm=Part	7	comp:aux@tense	_	Tense[denom]=Past
 9	significativement	significativement	ADV	_	_	11	mod	_	_
 10	moins	moins	ADV	_	_	11	mod	_	_
 11	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	8	comp:pred	_	_
@@ -5701,7 +5702,7 @@
 3	indésirables	indésirable	ADJ	_	Number=Plur	2	mod	_	Gender[ctxt]=Fem
 4	qui	qui	PRON	_	PronType=Rel	5	subj@pass	_	_
 5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	_
-6	été	être	AUX	_	Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
+6	été	être	AUX	_	VerbForm=Part	5	comp:aux@tense	_	Tense[denom]=Past
 7	rapportées	rapporter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	6	comp:aux@pass	_	Tense[denom]=Past
 8	à	à	ADP	_	ExtPos=ADV	7	mod	_	Idiom=Yes
 9	partir	partir	VERB	_	VerbForm=Inf	8	unk	_	InIdiom=Yes|Subject=Generic
@@ -5715,7 +5716,7 @@
 17	n'	ne	ADV	_	Polarity=Neg	18	mod	_	SpaceAfter=No
 18	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj:coord	_	_
 19	pas	pas	ADV	_	Polarity=Neg	18	mod	_	_
-20	été	être	AUX	_	Tense=Past|VerbForm=Part	18	comp:aux@tense	_	_
+20	été	être	AUX	_	VerbForm=Part	18	comp:aux@tense	_	Tense[denom]=Past
 21	mentionnées	mentionner	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	20	comp:aux@pass	_	Tense[denom]=Past
 22	ci-dessus	ci-dessus	ADV	_	_	18	mod	_	_
 23	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5745,7 +5746,7 @@
 7	fatals	fatal	ADJ	_	Gender=Masc|Number=Plur	6	comp:pred	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	été	être	AUX	_	Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
+10	été	être	AUX	_	VerbForm=Part	9	comp:aux@tense	_	Tense[denom]=Past
 11	rapportés	rapporter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	10	comp:aux@pass	_	Tense[denom]=Past
 12-13	au	_	_	_	_	_	_	_	_
 12	à	à	ADP	_	_	9	mod	_	_
@@ -5840,7 +5841,7 @@
 10	dose	dose	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Fem
 11	recommandée	recommander	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	mod	_	Tense[denom]=Past
 12	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	été	être	AUX	_	Tense=Past|VerbForm=Part	12	comp:aux@tense	_	_
+13	été	être	AUX	_	VerbForm=Part	12	comp:aux@tense	_	Tense[denom]=Past
 14	rapportés	rapporter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	13	comp:aux@pass	_	Tense[denom]=Past
 15	dans	dans	ADP	_	_	14	mod	_	_
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
@@ -5862,7 +5863,7 @@
 32	,	,	PUNCT	_	_	25	punct	_	_
 33	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis	_	_
 34	également	également	ADV	_	_	33	mod	_	_
-35	été	être	AUX	_	Tense=Past|VerbForm=Part	33	comp:aux@tense	_	_
+35	été	être	AUX	_	VerbForm=Part	33	comp:aux@tense	_	Tense[denom]=Past
 36	administrés	administrer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	35	comp:aux@pass	_	Tense[denom]=Past
 37	sans	sans	ADP	_	_	33	mod	_	_
 38	qu'	que	SCONJ	_	_	37	comp:obj	_	SpaceAfter=No
@@ -7010,7 +7011,7 @@
 26	pour	pour	ADP	_	_	15	conj:coord	_	_
 27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	_
 28	patients	patient	NOUN	_	Number=Plur	26	comp:obj	_	Gender[lex]=Masc
-29	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	28	mod	_	_
+29	ayant	avoir	AUX	_	VerbForm=Part	28	mod	_	Tense[denom]=Pres
 30	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	29	comp:aux@tense	_	Tense[denom]=Past
 31	de	de	ADP	_	ExtPos=DET	33	det	_	Idiom=Yes
 32	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	31	unk	_	InIdiom=Yes|SpaceAfter=No
@@ -7063,7 +7064,7 @@
 22	et	et	CCONJ	_	_	24	cc	_	_
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
 24	patients	patient	NOUN	_	Number=Plur	17	conj:coord	_	Gender[lex]=Masc
-25	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	24	mod	_	_
+25	ayant	avoir	AUX	_	VerbForm=Part	24	mod	_	Tense[denom]=Pres
 26	reçus	recevoir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	25	comp:aux@tense	_	Tense[denom]=Past
 27	de	de	ADP	_	ExtPos=DET	29	det	_	Idiom=Yes
 28	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	unk	_	InIdiom=Yes|SpaceAfter=No
@@ -7089,10 +7090,10 @@
 4	d'	de	ADP	_	_	2	udep	_	SpaceAfter=No
 5	ACUITY	ACUITY	PROPN	_	_	4	comp:obj	_	Gender[lex]=Unknown
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	été	être	AUX	_	Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
+7	été	être	AUX	_	VerbForm=Part	6	comp:aux@tense	_	Tense[denom]=Past
 8	définis	définir	VERB	_	Number=Sing|VerbForm=Part|Voice=Pass	7	comp:aux@pass	_	Tense[denom]=Past
 9	comme	comme	ADP	_	_	8	comp:pred	_	_
-10	étant	être	AUX	_	Tense=Pres|VerbForm=Part	9	comp:obj	_	_
+10	étant	être	AUX	_	VerbForm=Part	9	comp:obj	_	Tense[denom]=Pres
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	survenue	survenue	NOUN	_	Number=Sing	10	comp:pred	_	Gender[lex]=Fem
 13	de	de	ADP	_	_	12	udep	_	_
@@ -7214,7 +7215,7 @@
 21	GPIIB/IIIA	GPIIB/IIIA	PROPN	_	_	20	mod	_	Gender[lex]=Unknown
 22	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 23	seulement	seulement	ADV	_	_	22	mod	_	_
-24	été	être	AUX	_	Tense=Past|VerbForm=Part	22	comp:aux@tense	_	_
+24	été	être	AUX	_	VerbForm=Part	22	comp:aux@tense	_	Tense[denom]=Past
 25	observé	observer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	24	comp:aux@pass	_	Tense[denom]=Past
 26	dans	dans	ADP	_	_	22	mod	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
@@ -7301,7 +7302,7 @@
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	bivalirudine	bivalirudine	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Fem
 7	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	été	être	AUX	_	Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
+8	été	être	AUX	_	VerbForm=Part	7	comp:aux@tense	_	Tense[denom]=Past
 9	évaluées	évaluer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	8	comp:aux@pass	_	Tense[denom]=Past
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	13	comp@expl	_	_
@@ -7653,7 +7654,7 @@
 6	n'	ne	ADV	_	Polarity=Neg	7	mod	_	SpaceAfter=No
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
-9	été	être	AUX	_	Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
+9	été	être	AUX	_	VerbForm=Part	7	comp:aux@tense	_	Tense[denom]=Past
 10	étudiée	étudier	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	9	comp:aux@pass	_	Tense[denom]=Past
 11	chez	chez	ADP	_	_	10	mod	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
@@ -7827,7 +7828,7 @@
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	pharmacocinétique	pharmacocinétique	NOUN	_	Number=Sing	3	subj@pass	_	Gender[lex]=Fem
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	été	être	AUX	_	Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
+4	été	être	AUX	_	VerbForm=Part	3	comp:aux@tense	_	Tense[denom]=Past
 5	évaluée	évaluer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	comp:aux@pass	_	Tense[denom]=Past
 6	chez	chez	ADP	_	_	3	mod	_	_
 7	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
@@ -8063,7 +8064,7 @@
 14	pharmacologique	pharmacologique	ADJ	_	Number=Sing	13	mod	_	Gender[ctxt]=Fem
 15	excessive	excessif	ADJ	_	Gender=Fem|Number=Sing	13	mod	_	_
 16	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-17	été	être	AUX	_	Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
+17	été	être	AUX	_	VerbForm=Part	16	comp:aux@tense	_	Tense[denom]=Past
 18	réversibles	réversible	ADJ	_	Number=Plur	17	comp:pred	_	Gender[ctxt]=Masc|SpaceAfter=No
 19	.	.	PUNCT	_	_	16	punct	_	_
 
@@ -8100,7 +8101,7 @@
 29	n'	ne	ADV	_	Polarity=Neg	30	mod	_	SpaceAfter=No
 30	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 31	pas	pas	ADV	_	Polarity=Neg	30	mod	_	_
-32	été	être	AUX	_	Tense=Past|VerbForm=Part	30	comp:aux@tense	_	_
+32	été	être	AUX	_	VerbForm=Part	30	comp:aux@tense	_	Tense[denom]=Past
 33	observé	observer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	32	comp:aux@pass	_	Tense[denom]=Past
 34	d'	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	35	det	_	SpaceAfter=No
 35	effet	effet	NOUN	_	Number=Sing	33	comp:obj	_	Gender[lex]=Masc
@@ -8126,7 +8127,7 @@
 # text = La bivalirudine étant destinée à une administration de courte durée, on ne dispose d'aucune donnée concernant son potentiel carcinogène à long terme.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	bivalirudine	bivalirudine	NOUN	_	Number=Sing	3	subj@pass	_	Gender[lex]=Fem
-3	étant	être	AUX	_	Tense=Pres|VerbForm=Part	14	mod	_	_
+3	étant	être	AUX	_	VerbForm=Part	14	mod	_	Tense[denom]=Pres
 4	destinée	destiner	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	Tense[denom]=Past
 5	à	à	ADP	_	_	4	comp:obl	_	_
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -8308,7 +8309,7 @@
 6	produit	produit	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Masc
 7	reconstitué	reconstituer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	mod	_	Tense[denom]=Past
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	été	être	AUX	_	Tense=Past|VerbForm=Part	8	comp:aux@tense	_	_
+9	été	être	AUX	_	VerbForm=Part	8	comp:aux@tense	_	Tense[denom]=Past
 10	démontrée	démontrer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	9	comp:aux@pass	_	Tense[denom]=Past
 11	pendant	pendant	ADP	_	_	8	mod	_	_
 12	24	24	NUM	_	ExtPos=DET|NumType=Card	13	det	_	Number[lex]=Plur
@@ -8336,7 +8337,7 @@
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	solution	solution	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Fem
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	été	être	AUX	_	Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
+8	été	être	AUX	_	VerbForm=Part	7	comp:aux@tense	_	Tense[denom]=Past
 9	démontrée	démontrer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	8	comp:aux@pass	_	Tense[denom]=Past
 10	pendant	pendant	ADP	_	_	7	mod	_	_
 11	24	24	NUM	_	ExtPos=DET|NumType=Card	12	det	_	Number[lex]=Plur
@@ -9463,7 +9464,7 @@
 7	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	braille	braille	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Masc
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	été	être	AUX	_	Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
+10	été	être	AUX	_	VerbForm=Part	9	comp:aux@tense	_	Tense[denom]=Past
 11	acceptée	accepter	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	comp:aux@pass	_	SpaceAfter=No|Tense[denom]=Past
 12	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -9565,7 +9566,7 @@
 7	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	braille	braille	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Masc
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	été	être	AUX	_	Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
+10	été	être	AUX	_	VerbForm=Part	9	comp:aux@tense	_	Tense[denom]=Past
 11	acceptée	accepter	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	comp:aux@pass	_	SpaceAfter=No|Tense[denom]=Past
 12	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -10134,7 +10135,7 @@
 2	si	si	SCONJ	_	_	0	root	_	_
 3	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	4	subj@pass	_	Polite=Unknown
 4	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
-5	été	être	AUX	_	Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
+5	été	être	AUX	_	VerbForm=Part	4	comp:aux@tense	_	Tense[denom]=Past
 6	traité	traiter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	comp:aux@pass	_	Tense[denom]=Past
 7	par	par	ADP	_	_	4	mod	_	_
 8	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
@@ -10287,7 +10288,7 @@
 15	n'	ne	ADV	_	Polarity=Neg	16	mod	_	SpaceAfter=No
 16	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	pas	pas	ADV	_	Polarity=Neg	16	mod	_	_
-18	été	être	AUX	_	Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
+18	été	être	AUX	_	VerbForm=Part	16	comp:aux@tense	_	Tense[denom]=Past
 19	étudiés	étudier	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	18	comp:aux@pass	_	SpaceAfter=No|Tense[denom]=Past
 20	,	,	PUNCT	_	_	19	punct	_	_
 21	toutefois	toutefois	ADV	_	_	24	mod	_	_
@@ -10486,7 +10487,7 @@
 13	qui	qui	PRON	_	PronType=Rel	15	subj@pass	_	_
 14	vous	vous	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=2|PronType=Prs	17	comp:obl	_	Polite=Unknown
 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	_
-16	été	être	AUX	_	Tense=Past|VerbForm=Part	15	comp:aux@tense	_	_
+16	été	être	AUX	_	VerbForm=Part	15	comp:aux@tense	_	Tense[denom]=Past
 17	prescrit	prescrire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	16	comp:aux@pass	_	SpaceAfter=No|Tense[denom]=Past
 18	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -10765,7 +10766,7 @@
 # text = Les doses étant minutieusement vérifiées par le médecin, un surdosage est très peu probable.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	doses	dose	NOUN	_	Number=Plur	3	subj@pass	_	Gender[lex]=Fem
-3	étant	être	AUX	_	Tense=Pres|VerbForm=Part	12	mod	_	_
+3	étant	être	AUX	_	VerbForm=Part	12	mod	_	Tense[denom]=Pres
 4	minutieusement	minutieusement	ADV	_	_	5	mod	_	_
 5	vérifiées	vérifier	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	Tense[denom]=Past
 6	par	par	ADP	_	_	5	comp:obl@agent	_	_
