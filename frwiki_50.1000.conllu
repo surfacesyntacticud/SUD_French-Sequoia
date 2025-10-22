@@ -2542,7 +2542,7 @@
 13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	12	udep	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	Koweit	Koweit	NOUN	_	Number=Sing	13	comp:obj	_	_
+15	Koweit	Koweit	PROPN	_	_	13	comp:obj	_	Gender[lex]=Unknown
 16	exilé	exiler	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	mod	_	Tense[denom]=Past
 17	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 18	commandé	commander	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	17	comp:aux@tense	_	Tense[denom]=Past
@@ -4872,7 +4872,7 @@
 # sent_id = frwiki_50.1000_00201
 # text = Le RPR était un parti politique créé par Jacques Chirac, et dont il était à l'époque le président, en même temps qu'il exerçait la fonction de maire de Paris.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	RPR	RPR	PROPN	_	Gender=Masc|Number=Sing	3	subj	_	_
+2	RPR	RPR	PROPN	_	_	3	subj	_	Gender[lex]=Unknown
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	parti	parti	NOUN	_	Number=Sing	3	comp:pred	_	Gender[lex]=Masc
@@ -6552,7 +6552,7 @@
 33	à	à	ADP	_	_	28	udep	_	_
 34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	fédération	fédération	NOUN	_	Number=Sing	33	comp:obj	_	Gender[lex]=Fem
-36	RPR	RPR	NOUN	_	_	35	mod	_	_
+36	RPR	RPR	PROPN	_	_	35	mod	_	Gender[lex]=Unknown
 37	de	de	ADP	_	_	35	udep	_	_
 38	Paris	Paris	PROPN	_	Gender=Masc|Number=Sing	37	comp:obj	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	40	punct	_	_
@@ -12391,7 +12391,7 @@
 # sent_id = frwiki_50.1000_00429
 # text = - Frégates de Taïwan : l'ancien directeur adjoint de la Société générale à Taïwan témoigne, Sud Ouest, 13 mars 2002
 1	-	-	PUNCT	_	_	2	punct	_	_
-2	Frégates	frégate	PROPN	_	Gender=Fem|Number=Plur	0	root	_	_
+2	Frégates	frégate	NOUN	_	Number=Plur	0	root	_	Gender[lex]=Fem
 3	de	de	ADP	_	_	2	udep	_	_
 4	Taïwan	Taïwan	PROPN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 5	:	:	PUNCT	_	_	16	punct	_	_
@@ -18211,7 +18211,7 @@
 33-34	aux	_	_	_	_	_	_	_	_
 33	à	à	ADP	_	_	32	udep	_	_
 34	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	35	det	_	_
-35	cheveux	cheveux	NOUN	_	Number=Plur	33	comp:obj	_	Gender[lex]=Masc
+35	cheveux	cheveu	NOUN	_	Number=Plur	33	comp:obj	_	Gender[lex]=Masc
 36	bruns	brun	ADJ	_	Gender=Masc|Number=Plur	35	mod	_	_
 37	qui	qui	PRON	_	PronType=Rel	38	subj	_	_
 38	arrivera	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	32	mod@relcl	_	_
@@ -19285,7 +19285,7 @@
 28-29	du	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	26	udep	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-30	RPR	RPR	NOUN	_	Number=Sing	28	comp:obj	_	SpaceAfter=No
+30	RPR	RPR	PROPN	_	_	28	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 31	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
 32	"	"	PUNCT	_	_	9	punct	_	_
 
@@ -20309,7 +20309,7 @@
 15	dirigé	diriger	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	mod	_	Tense[denom]=Past
 16	par	par	ADP	_	_	15	comp:obl@agent	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	RPR	RPR	PROPN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
+18	RPR	RPR	PROPN	_	_	16	comp:obj	_	Gender[lex]=Unknown
 19	et	et	CCONJ	_	_	23	cc	_	_
 20	dont	dont	PRON	_	PronType=Rel	22	udep	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
@@ -20479,7 +20479,7 @@
 13	1995	1995	NUM	_	ExtPos=PROPN|NumType=Card	11	conj:coord	_	Number[lex]=Sing|SpaceAfter=No
 14	,	,	PUNCT	_	_	5	punct	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	RPR	RPR	PROPN	_	Gender=Masc|Number=Sing	17	subj	_	_
+16	RPR	RPR	PROPN	_	_	17	subj	_	Gender[lex]=Unknown
 17	recevra	recevoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 18	53	53	NUM	_	ExtPos=DET|NumType=Card	19	det	_	Number[lex]=Plur
 19	millions	million	NOUN	_	Number=Plur|NumType=Card	17	comp:obj	_	Gender[lex]=Masc
@@ -23567,7 +23567,7 @@
 
 # sent_id = frwiki_50.1000_00853
 # text = Puis, les sommes étaient retirées par des proches de Safa et apportées à l'association France Orient, où elles étaient réceptionnées par J.-C. Marchianni ou sa secrétaire.
-1	Puis	puis	ADV	_	_	5	mod	_	SpaceAfter=No
+1	Puis	puis	CCONJ	_	_	5	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	sommes	somme	NOUN	_	Number=Plur	5	subj@pass	_	_
@@ -23824,9 +23824,9 @@
 22	compte	compte	NOUN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Masc
 23	de	de	ADP	_	_	22	udep	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	Chase	Chase	PROPN	_	_	23	comp:obj	_	Gender[lex]=Unknown
-26	Manhattan	Manhattan	PROPN	_	_	25	flat@name	_	Gender[lex]=Unknown
-27	Bank	Bank	PROPN	_	_	25	mod	_	Gender[lex]=Unknown
+25	Chase	Chase	X	_	Foreign=Yes	23	comp:obj	_	Lang=en
+26	Manhattan	Manhattan	X	_	Foreign=Yes	25	flat@foreign	_	Lang=en
+27	Bank	Bank	X	_	Foreign=Yes	26	flat@foreign	_	Lang=en
 28	et	et	CCONJ	_	_	29	cc	_	_
 29	2	2	NUM	_	ExtPos=PRON|NumType=Card	17	conj:coord	_	Number[lex]=Plur
 30	sur	sur	ADP	_	_	29	orphan	_	_
@@ -25368,7 +25368,7 @@
 3	Extreme	Extreme	X	_	Foreign=Yes	0	root	_	Lang=en
 4	Makeover	Makeover	X	_	Foreign=Yes	3	flat@foreign	_	Lang=en|SpaceAfter=No
 5	-	-	PUNCT	_	_	3	punct	_	_
-6	Beirut	Beirut	PROPN	_	_	3	parataxis	_	Gender[lex]=Unknown
+6	Beirut	Beirut	X	_	Foreign=Yes	3	parataxis	_	Lang=en
 7	Edition	Edition	X	_	_	6	flat@name	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 

@@ -4334,10 +4334,10 @@
 18	peu	peu	ADV	_	_	19	mod	_	_
 19	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	10	conj:coord	_	_
 20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
-21	1/1000	1/1000	NUM	_	ExtPos=PROPN|NumType=Card	19	parataxis:insert	_	Number[lex]=Sing|SpaceAfter=No
+21	1/1000	1/1000	NUM	_	ExtPos=PROPN|NumType=Card	19	parataxis:insert	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	<	<	SYM	_	ExtPos=ADP	21	conj:coord	_	_
-24	1/100	1/100	NUM	_	ExtPos=PROPN|NumType=Card	23	comp:obj	_	Number[lex]=Sing|SpaceAfter=No
+24	1/100	1/100	NUM	_	ExtPos=PROPN|NumType=Card	23	comp:obj	_	SpaceAfter=No
 25	)	)	PUNCT	_	_	23	punct	_	_
 26	et	et	CCONJ	_	_	27	cc	_	_
 27	rares	rare	ADJ	_	Number=Plur	19	conj:coord	_	Gender[ctxt]=Masc

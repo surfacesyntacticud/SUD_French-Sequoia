@@ -4424,7 +4424,7 @@
 9	très	très	ADV	_	_	10	mod	_	_
 10	fréquente	fréquent	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	_
 11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
-12	1/10	1/10	NOUN	_	NumType=Card	10	parataxis:insert	_	SpaceAfter=No
+12	1/10	1/10	NUM	_	ExtPos=PROPN|NumType=Card	10	parataxis:insert	_	SpaceAfter=No
 13	)	)	PUNCT	_	_	12	punct	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
@@ -4434,10 +4434,10 @@
 19	façon	façon	NOUN	_	Number=Sing	18	comp:obj	_	Gender[lex]=Fem
 20	fréquente	fréquent	ADJ	_	Gender=Fem|Number=Sing	19	mod	_	_
 21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
-22	1/100	1/100	NOUN	_	NumType=Card	20	parataxis:insert	_	_
+22	1/100	1/100	NUM	_	ExtPos=PROPN|NumType=Card	20	parataxis:insert	_	_
 23	et	et	CCONJ	_	_	24	cc	_	_
 24	<	<	SYM	_	ExtPos=ADP	22	conj:coord	_	_
-25	1/10	1/10	NOUN	_	NumType=Card	24	comp:obj	_	SpaceAfter=No
+25	1/10	1/10	NUM	_	ExtPos=PROPN|NumType=Card	24	comp:obj	_	SpaceAfter=No
 26	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
 27	.	.	PUNCT	_	Shared=Yes	16	punct	_	_
 
@@ -4581,26 +4581,26 @@
 1	Très	très	ADV	_	_	2	mod	_	_
 2	fréquent	fréquent	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	1/10	1/10	NOUN	_	NumType=Card	2	parataxis:insert	_	SpaceAfter=No
+4	1/10	1/10	NUM	_	ExtPos=PROPN|NumType=Card	2	parataxis:insert	_	SpaceAfter=No
 5	)	)	PUNCT	_	_	4	punct	_	_
 
 # sent_id = emea-fr-dev_00207
 # text = Fréquent (1/100 à < 1/10)
 1	Fréquent	fréquent	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	1/100	1/100	NOUN	_	NumType=Card	1	parataxis:insert	_	_
+3	1/100	1/100	NUM	_	ExtPos=PROPN|NumType=Card	1	parataxis:insert	_	_
 4	à	à	ADP	_	_	3	udep	_	_
 5	<	<	SYM	_	ExtPos=ADP	4	comp:obj	_	_
-6	1/10	1/10	NOUN	_	NumType=Card	5	comp:obj	_	SpaceAfter=No
+6	1/10	1/10	NUM	_	ExtPos=PROPN|NumType=Card	5	comp:obj	_	SpaceAfter=No
 7	)	)	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-dev_00208
 # text = Rare (1/10000 à 1/1000)
 1	Rare	rare	ADJ	_	Number=Sing	0	root	_	Gender[ctxt]=Masc
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	1/10000	1/10000	NOUN	_	NumType=Card	1	parataxis:insert	_	_
+3	1/10000	1/10000	NUM	_	ExtPos=PROPN|NumType=Card	1	parataxis:insert	_	_
 4	à	à	ADP	_	_	3	udep	_	_
-5	1/1000	1/1000	NOUN	_	NumType=Card	4	comp:obj	_	SpaceAfter=No
+5	1/1000	1/1000	NUM	_	ExtPos=PROPN|NumType=Card	4	comp:obj	_	SpaceAfter=No
 6	)	)	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-dev_00209
@@ -5189,9 +5189,9 @@
 1	Peu	peu	ADV	_	_	2	mod	_	_
 2	fréquent	fréquent	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	1/1000	1/1000	NOUN	_	NumType=Card	2	parataxis:insert	_	_
+4	1/1000	1/1000	NUM	_	ExtPos=PROPN|NumType=Card	2	parataxis:insert	_	_
 5	à	à	ADP	_	_	4	udep	_	_
-6	1/100	1/100	NOUN	_	NumType=Card	5	comp:obj	_	SpaceAfter=No
+6	1/100	1/100	NUM	_	ExtPos=PROPN|NumType=Card	5	comp:obj	_	SpaceAfter=No
 7	)	)	PUNCT	_	_	4	punct	_	_
 
 # sent_id = emea-fr-dev_00241
@@ -5453,7 +5453,7 @@
 9	très	très	ADV	_	_	10	mod	_	_
 10	fréquente	fréquent	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	_
 11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
-12	1/10	1/10	NOUN	_	NumType=Card	10	parataxis:insert	_	SpaceAfter=No
+12	1/10	1/10	NUM	_	ExtPos=PROPN|NumType=Card	10	parataxis:insert	_	SpaceAfter=No
 13	)	)	PUNCT	_	_	12	punct	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
@@ -5463,10 +5463,10 @@
 19	façon	façon	NOUN	_	Number=Sing	18	comp:obj	_	Gender[lex]=Fem
 20	fréquente	fréquent	ADJ	_	Gender=Fem|Number=Sing	19	mod	_	_
 21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
-22	1/100	1/100	NOUN	_	NumType=Card	20	parataxis:insert	_	_
+22	1/100	1/100	NUM	_	ExtPos=PROPN|NumType=Card	20	parataxis:insert	_	_
 23	et	et	CCONJ	_	_	24	cc	_	_
 24	<	<	SYM	_	ExtPos=ADP	22	conj:coord	_	_
-25	1/10	1/10	NOUN	_	NumType=Card	24	comp:obj	_	SpaceAfter=No
+25	1/10	1/10	NUM	_	ExtPos=PROPN|NumType=Card	24	comp:obj	_	SpaceAfter=No
 26	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
 27	.	.	PUNCT	_	Shared=Yes	16	punct	_	_
 
