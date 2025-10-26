@@ -2752,7 +2752,7 @@
 26	à	à	ADP	_	_	23	udep	_	_
 27	70	70	NUM	_	ExtPos=DET|NumType=Card	28	det	_	Number[lex]=Plur
 28	km	km	NOUN	_	Number=Sing	26	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
-29	/	/	ADP	_	_	28	udep	_	SpaceAfter=No
+29	/	/	SYM	_	ExtPos=ADP	28	udep	_	SpaceAfter=No
 30	h	h	NOUN	_	Number=Sing	29	comp:obj	_	Gender[lex]=Fem
 31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
 32	moins	moins	ADP	_	_	17	udep	_	_
@@ -12082,7 +12082,7 @@
 
 # sent_id = annodis.er_00471
 # text = Il y a trois semaines, l'Uruguayen envisageait de quitter le club.
-1	Il	lui	PRON	_	Case=Nom|Emph=No|ExtPos=ADP|Number=Sing|Person=3|PronType=Prs	3	subj	_	InIdiom=Yes
+1	Il	lui	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=3|PronType=Prs	3	subj	_	InIdiom=Yes
 2	y	y	PRON	_	Person=3|PronType=Prs	3	comp	_	InIdiom=Yes
 3	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod	_	Idiom=Yes
 4	trois	trois	NUM	_	ExtPos=DET|NumType=Card	5	det	_	Number[lex]=Plur
