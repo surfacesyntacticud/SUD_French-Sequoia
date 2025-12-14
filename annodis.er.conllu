@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = annodis.er_00001
 # text = Gutenberg
 1	Gutenberg	Gutenberg	PROPN	_	_	0	root	_	Gender[lex]=Unknown
@@ -6578,7 +6577,7 @@
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	comp@expl	_	_
 7	renseigner	renseigner	VERB	_	VerbForm=Inf	0	root	_	Subject=Generic
-8	auprès	auprès	ADP	_	ExtPos=ADV	7	comp:obl	_	_
+8	auprès	auprès	ADV	_	_	7	mod	_	_
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	8	comp:obl	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -11152,7 +11151,7 @@
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	lion	lion	NOUN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Masc
 15	qui	qui	PRON	_	PronType=Rel	17	subj	_	_
-16	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	17	mod	_	_
+16	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	17	comp:obl	_	_
 17	frotte	frotter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	mod@relcl	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	ventre	ventre	NOUN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
@@ -11178,7 +11177,7 @@
 16	lion	lion	NOUN	_	Number=Sing	17	subj	_	Gender[lex]=Masc
 17	continue	continuer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj:coord	_	_
 18	à	à	ADP	_	_	17	comp:obj	_	_
-19	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	20	mod	_	_
+19	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	20	comp:obl	_	_
 20	frotter	frotter	VERB	_	VerbForm=Inf	18	comp:obj	_	Subject=SubjRaising
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	ventre	ventre	NOUN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No

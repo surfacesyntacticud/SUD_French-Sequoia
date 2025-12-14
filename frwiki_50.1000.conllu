@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = frwiki_50.1000_00001
 # text = Affaire des caporaux de Souain
 1	Affaire	affaire	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Fem
@@ -2209,7 +2208,7 @@
 15	à	à	ADP	_	_	12	mod	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Koweit	Koweit	PROPN	_	_	15	comp:obj	_	Gender[lex]=Unknown
-18	auprès	auprès	ADP	_	ExtPos=ADV	12	comp:obl	_	_
+18	auprès	auprès	ADV	_	_	12	mod	_	_
 19	d'	de	ADP	_	_	18	comp:obl	_	SpaceAfter=No
 20	elle	lui	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	SpaceAfter=No
 21	.	.	PUNCT	_	Shared=Yes	11	punct	_	_

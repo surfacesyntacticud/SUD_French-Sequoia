@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Europar.550_00001
 # text = Je remercie le président en exercice pour sa réponse.
 1	Je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
@@ -2748,7 +2747,7 @@
 23	ne	ne	ADV	_	Polarity=Neg	24	mod	_	_
 24	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	comp:obj	_	_
 25	pas	pas	ADV	_	Polarity=Neg	24	mod	_	_
-26	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	27	mod	_	_
+26	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	27	comp:obl	_	_
 27	voiler	voiler	VERB	_	VerbForm=Inf	24	comp:obj	_	Subject=Generic
 28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	face	face	NOUN	_	Number=Sing	27	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
