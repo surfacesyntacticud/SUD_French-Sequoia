@@ -130,7 +130,7 @@
 48	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
 49	Nouvelle-Zélande	Nouvelle-Zélande	PROPN	_	Gender=Fem|Number=Sing	47	comp:obj	_	SpaceAfter=No
 50	,	,	PUNCT	_	_	56	punct	_	_
-51	où	où	PRON	_	PronType=Rel	56	mod	_	_
+51	où	où	ADV	_	PronType=Rel	56	mod	_	_
 52	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	53	det	_	_
 53	économies	économie	NOUN	_	Number=Plur	56	subj	_	Gender[lex]=Fem
 54	d'	de	ADP	_	_	53	udep	_	SpaceAfter=No
@@ -150,7 +150,7 @@
 68	rester	rester	VERB	_	VerbForm=Inf	67	comp:obj	_	Subject=Instantiated
 69	compétitives	compétitif	ADJ	_	Gender=Fem|Number=Plur	68	comp:pred	_	_
 70	et	et	CCONJ	_	_	86	cc	_	_
-71	où	où	PRON	_	PronType=Rel	86	mod	_	SpaceAfter=No
+71	où	où	ADV	_	PronType=Rel	86	mod	_	SpaceAfter=No
 72	,	,	PUNCT	_	_	73	punct	_	_
 73	bien	bien	ADV	_	ExtPos=ADV	86	mod	_	Idiom=Yes
 74	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	73	unk	_	InIdiom=Yes|SpaceAfter=No
@@ -740,7 +740,7 @@
 37	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	39	det	_	SpaceAfter=No
 38	autres	autre	ADJ	_	Number=Plur	39	mod	_	Gender[ctxt]=Fem
 39	régions	région	NOUN	_	Number=Plur	35	conj:coord	_	Gender[lex]=Fem
-40	où	où	PRON	_	PronType=Rel	45	mod	_	_
+40	où	où	ADV	_	PronType=Rel	45	mod	_	_
 41	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	42	det	_	_
 42	ballasts	ballast	NOUN	_	Number=Plur	45	subj	_	Gender[lex]=Masc
 43	électroniques	électronique	ADJ	_	Number=Plur	42	mod	_	Gender[ctxt]=Masc
@@ -3123,7 +3123,7 @@
 # text = Je sais où ils sont : dans une prison serbe, sans aucune raison !
 1	Je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	où	où	PRON	_	PronType=Int	5	comp:obl	_	_
+3	où	où	ADV	_	PronType=Int	5	comp:obl	_	_
 4	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	subj	_	_
 5	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 6	:	:	PUNCT	_	_	7	punct	_	_
@@ -4206,7 +4206,7 @@
 # sent_id = Europar.550_00147
 # text = D'où l'importance des propositions que nous présentons dans cet objectif.
 1	D'	de	ADP	_	ExtPos=ADP	0	root	_	Idiom=Yes|SpaceAfter=No
-2	où	où	PRON	_	PronType=Rel	1	unk	_	InIdiom=Yes
+2	où	où	ADV	_	PronType=Rel	1	unk	_	InIdiom=Yes
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 4	importance	importance	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Fem
 5-6	des	_	_	_	_	_	_	_	_
@@ -4695,7 +4695,7 @@
 27	d'	de	ADP	_	_	26	comp:obj	_	SpaceAfter=No
 28	aller	aller	VERB	_	VerbForm=Inf	27	comp:obj	_	Subject=Instantiated
 29	là	là	ADV	_	_	28	comp:obl	_	_
-30	où	où	PRON	_	PronType=Rel	33	comp:obl	_	_
+30	où	où	ADV	_	PronType=Rel	33	comp:obl	_	_
 31	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	33	subj	_	_
 32	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	33	comp@expl	_	_
 33	trouvent	trouver	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	mod@relcl	_	SpaceAfter=No
@@ -6174,7 +6174,7 @@
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
 23	quelques	quelque	ADJ	_	Number=Plur	24	mod	_	Gender[ctxt]=Masc
 24	exemples	exemple	NOUN	_	Number=Plur	21	comp:obj	_	Gender[lex]=Masc
-25	où	où	PRON	_	PronType=Rel	30	mod	_	_
+25	où	où	ADV	_	PronType=Rel	30	mod	_	_
 26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	_
 27	trois	trois	NUM	_	ExtPos=DET|NumType=Card	28	mod	_	Number[lex]=Plur
 28	institutions	institution	NOUN	_	Number=Plur	30	subj	_	Gender[lex]=Fem
@@ -6381,7 +6381,7 @@
 13	pays	pays	NOUN	_	_	11	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 14	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
 15	d'	de	ADP	_	_	17	comp:obl	_	SpaceAfter=No
-16	où	où	PRON	_	PronType=Rel	15	comp:obj	_	_
+16	où	où	ADV	_	PronType=Rel	15	comp:obj	_	_
 17	provient	provenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	mod@relcl	_	_
 18	également	également	ADV	_	_	17	mod	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
@@ -6391,7 +6391,7 @@
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	Conseil	conseil	NOUN	_	Number=Sing	21	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 24	-	-	PUNCT	_	_	17	punct	_	_
-25	où	où	PRON	_	PronType=Rel	27	mod	_	_
+25	où	où	ADV	_	PronType=Rel	27	mod	_	_
 26	l'on	on	PRON	_	Number=Sing|Person=3|PronType=Ind	27	subj	_	wordform=on
 27	prend	prendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	mod@relcl	_	_
 28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	det	_	_
@@ -7092,7 +7092,7 @@
 46	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	47	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 47	homme	homme	NOUN	_	Number=Sing	45	comp:obj	_	Gender[lex]=Masc
 48	et	et	CCONJ	_	_	52	cc	_	_
-49	où	où	PRON	_	PronType=Rel	52	mod	_	_
+49	où	où	ADV	_	PronType=Rel	52	mod	_	_
 50	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	51	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 51	agriculture	agriculture	NOUN	_	Number=Sing	52	subj	_	Gender[lex]=Fem
 52	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	conj:coord	_	_
@@ -9395,7 +9395,7 @@
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 18	arrivée	arriver	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	17	comp:aux@tense	_	Tense[denom]=Past
 19	là	là	ADV	_	_	18	comp:obl	_	_
-20	où	où	PRON	_	PronType=Rel	22	comp:obl	_	_
+20	où	où	ADV	_	PronType=Rel	22	comp:obl	_	_
 21	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	subj	_	_
 22	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	mod@relcl	_	_
 23	aujourd'hui	aujourd'hui	ADV	_	_	22	mod	_	SpaceAfter=No
@@ -13205,7 +13205,7 @@
 11	à	à	ADP	_	_	8	comp:obl	_	_
 12	Loriot	Loriot	PROPN	_	_	11	comp:obj	_	Gender[lex]=Unknown
 13	:	:	PUNCT	_	_	15	punct	_	_
-14	où	où	PRON	_	PronType=Int	15	comp:obl	_	_
+14	où	où	ADV	_	PronType=Int	15	comp:obl	_	_
 15	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	SpaceAfter=No
 16	-ils	eux	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	subj	_	_
 17	donc	donc	ADV	_	_	15	mod	_	_
@@ -13213,7 +13213,7 @@
 
 # sent_id = Europar.550_00404
 # text = Où sont ceux qui critiquent le travail accompli, qui reviennent constamment avec la question du quorum et ne sont pas présents quand nous réalisons le travail de fond ?
-1	Où	où	PRON	_	PronType=Int	2	comp:obl	_	_
+1	Où	où	ADV	_	PronType=Int	2	comp:obl	_	_
 2	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ceux	celui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem|Shared=Yes	2	subj	_	_
 4	qui	qui	PRON	_	PronType=Rel	5	subj	_	_
@@ -13248,7 +13248,7 @@
 
 # sent_id = Europar.550_00405
 # text = Où sont-ils donc ces 32 et quelques, qui se sont levés et qui se lèveront encore, mais sont absents maintenant pendant que nous délibérons ?
-1	Où	où	PRON	_	PronType=Int	2	comp:obl	_	_
+1	Où	où	ADV	_	PronType=Int	2	comp:obl	_	_
 2	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	-ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj@expl	_	_
 4	donc	donc	ADV	_	_	2	mod	_	_
@@ -16203,7 +16203,7 @@
 7	concernant	concerner	VERB	_	VerbForm=Part	5	mod	_	Tense[denom]=Pres
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 9	endroit	endroit	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Masc
-10	où	où	PRON	_	PronType=Rel	12	mod	_	_
+10	où	où	ADV	_	PronType=Rel	12	mod	_	_
 11	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	12	comp@expl	_	_
 12	déroulent	dérouler	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
@@ -16508,7 +16508,7 @@
 50	-	-	PUNCT	_	_	43	punct	_	_
 51	ici	ici	ADV	_	_	43	mod	_	SpaceAfter=No
 52	,	,	PUNCT	_	_	56	punct	_	_
-53	où	où	PRON	_	PronType=Rel	58	mod	_	_
+53	où	où	ADV	_	PronType=Rel	58	mod	_	_
 54	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	56	subj	_	_
 55	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	56	comp@expl	_	_
 56	flattons	flatter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	51	mod@relcl	_	_

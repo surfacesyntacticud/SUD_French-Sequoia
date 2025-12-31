@@ -6158,7 +6158,7 @@
 19	dans	dans	ADP	_	ExtPos=SCONJ	16	mod	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	mesure	mesure	NOUN	_	Number=Sing	19	comp:obj	_	Gender[lex]=Fem
-22	où	où	PRON	_	PronType=Rel	25	mod	_	_
+22	où	où	ADV	_	PronType=Rel	25	mod	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	thrombine	thrombine	NOUN	_	Number=Sing	25	subj	_	Gender[lex]=Fem
 25	clive	cliver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	mod@relcl	_	_
