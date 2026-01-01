@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = emea-fr-dev_00001
 # text = European Medicines Agency
 1	European	European	X	_	Foreign=Yes	0	root	_	Lang=en
@@ -6457,7 +6458,7 @@
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 12	espace	espace	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Masc
 13	de	de	ADP	_	_	12	udep	_	_
-14	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
+14	quelques	quelques	DET	_	Definite=Ind|PronType=Art	15	det	_	Number[lex]=Plur
 15	minutes	minute	NOUN	_	Number=Plur	13	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 16	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -11322,7 +11323,7 @@
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	ou	ou	CCONJ	_	_	14	cc	_	_
 14	si	si	SCONJ	_	_	1	conj:coord	_	_
-15	certains	certain	DET	_	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
+15	certains	certains	DET	_	Gender=Masc|PronType=Ind	16	det	_	Number[lex]=Plur
 16	effets	effet	NOUN	_	Number=Plur	18	subj	_	Gender[lex]=Masc
 17	indésirables	indésirable	ADJ	_	Number=Plur	16	mod	_	Gender[ctxt]=Masc
 18	deviennent	devenir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_

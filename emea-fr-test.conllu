@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = emea-fr-test_00001
 # text = EMEA / H/C/595
 1	EMEA	EMEA	PROPN	_	_	0	root	_	Gender[lex]=Unknown
@@ -734,7 +735,7 @@
 8	que	que	SCONJ	_	_	6	mod	_	_
 9	Zometa	Zometa	PROPN	_	_	8	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 10	,	,	PUNCT	_	_	1	punct	_	_
-11	certaines	certain	DET	_	Gender=Fem|Number=Plur|PronType=Ind	12	det	_	_
+11	certaines	certains	DET	_	Gender=Fem|PronType=Ind	12	det	_	Number[lex]=Plur
 12	données	donnée	NOUN	_	Number=Plur	16	subj@pass	_	Gender[lex]=Fem
 13	présentées	présenter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	12	mod	_	Tense[denom]=Past
 14	pour	pour	ADP	_	_	13	mod	_	_
@@ -9060,7 +9061,7 @@
 8	intervention	intervention	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Fem
 9	chirurgicale	chirurgical	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	_
 10	de	de	ADP	_	_	8	udep	_	_
-11	certaines	certain	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Ind	10	comp:obj	_	_
+11	certaines	certains	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Ind	10	comp:obj	_	_
 12	ou	ou	CCONJ	_	_	13	cc	_	_
 13	de	de	ADP	_	_	10	conj:coord	_	_
 14	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	16	mod	_	_

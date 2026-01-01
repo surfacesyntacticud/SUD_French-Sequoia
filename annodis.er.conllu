@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = annodis.er_00001
 # text = Gutenberg
 1	Gutenberg	Gutenberg	PROPN	_	_	0	root	_	Gender[lex]=Unknown
@@ -355,7 +356,7 @@
 5	lavoir	lavoir	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Masc
 6	abrite	abriter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	depuis	depuis	ADP	_	_	6	mod	_	_
-8	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
+8	quelques	quelques	DET	_	Definite=Ind|PronType=Art	9	det	_	Number[lex]=Plur
 9	jours	jour	NOUN	_	Number=Plur	7	comp:obj	_	Gender[lex]=Masc
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	exposition	exposition	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Fem
@@ -414,7 +415,7 @@
 13	bénévoles	bénévole	NOUN	_	Number=Plur	11	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 14	,	,	PUNCT	_	_	8	punct	_	_
 15	établi	établir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	conj:coord	_	Tense[denom]=Past
-16	différents	différent	DET	_	Gender=Masc|Number=Plur|PronType=Ind	17	det	_	_
+16	différents	différents	DET	_	Gender=Masc|PronType=Ind	17	det	_	Number[lex]=Plur
 17	tableaux	tableau	NOUN	_	Number=Plur	15	comp:obj	_	Gender[lex]=Masc
 18	sur	sur	ADP	_	_	15	mod	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
@@ -2377,7 +2378,7 @@
 26	,	,	PUNCT	_	_	28	punct	_	_
 27	même	même	ADV	_	_	28	mod	_	_
 28	quand	quand	SCONJ	_	_	19	mod	_	_
-29	certains	certain	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	34	subj	_	_
+29	certains	certains	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	34	subj	_	_
 30	d'	de	ADP	_	ExtPos=ADP	29	udep	_	Idiom=Yes|SpaceAfter=No
 31	entre	entre	ADP	_	_	30	unk	_	InIdiom=Yes
 32	eux	eux	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	30	comp:obj	_	_
@@ -3327,7 +3328,7 @@
 9	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 10	plongée	plonger	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	9	comp:aux@pass	_	Tense[denom]=Past
 11	durant	durant	ADP	_	_	10	mod	_	_
-12	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
+12	quelques	quelques	DET	_	Definite=Ind|PronType=Art	13	det	_	Number[lex]=Plur
 13	secondes	seconde	NOUN	_	Number=Plur	11	comp:obj	_	Gender[lex]=Fem
 14	dans	dans	ADP	_	_	10	comp:obl	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -3863,7 +3864,7 @@
 
 # sent_id = annodis.er_00141
 # text = Quelques mois auront été nécessaires pour mettre en scène le Petit Prince.
-1	Quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	det	_	_
+1	Quelques	quelques	DET	_	Definite=Ind|PronType=Art	2	det	_	Number[lex]=Plur
 2	mois	mois	NOUN	_	_	3	subj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 3	auront	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	été	être	AUX	_	VerbForm=Part	3	comp:aux@tense	_	Tense[denom]=Past
@@ -4492,7 +4493,7 @@
 # text = Elle travailla quelque temps dans une droguerie barisienne, puis épousa Gaston Sequin le 15 juin 1946
 1	Elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	travailla	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-3	quelque	quelque	DET	_	Definite=Ind|Number=Sing|PronType=Art	4	det	_	_
+3	quelque	quelque	DET	_	Definite=Ind|PronType=Art	4	det	_	Number[lex]=Sing
 4	temps	temps	NOUN	_	_	2	mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	dans	dans	ADP	_	_	2	mod	_	_
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -5370,7 +5371,7 @@
 4	d'	de	ADP	_	_	3	udep	_	SpaceAfter=No
 5	après-midi	après-midi	NOUN	_	Number=Sing	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
-7	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+7	quelques	quelques	DET	_	Definite=Ind|PronType=Art	8	det	_	Number[lex]=Plur
 8	enfants	enfant	NOUN	_	Number=Plur	10	subj	_	_
 9	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	10	comp@expl	_	SpaceAfter=No
 10	adonnaient	adonner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -5630,7 +5631,7 @@
 13	passion	passion	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Fem
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	présenter	présenter	VERB	_	VerbForm=Inf	10	conj:coord	_	Subject=Instantiated
-16	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
+16	quelques	quelques	DET	_	Definite=Ind|PronType=Art	18	det	_	Number[lex]=Plur
 17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
 18	oeuvres	oeuvre	NOUN	_	Number=Plur	15	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 19	"	"	PUNCT	_	_	18	punct	_	_
@@ -5644,7 +5645,7 @@
 
 # sent_id = annodis.er_00216
 # text = Quelques toiles, de l'acrylique, de l'huile, de l'encre de Chine, mais aussi de la sculpture et bien d'autres techniques.
-1	Quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	det	_	_
+1	Quelques	quelques	DET	_	Definite=Ind|PronType=Art	2	det	_	Number[lex]=Plur
 2	toiles	toile	NOUN	_	Number=Plur	0	root	_	Gender[lex]=Fem|SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	de	de	ADP	_	ExtPos=DET	6	det	_	Idiom=Yes
@@ -5723,7 +5724,7 @@
 13	déjà	déjà	ADV	_	_	12	mod	_	_
 14	avec	avec	ADP	_	_	12	mod	_	_
 15	brio	brio	NOUN	_	Number=Sing	14	comp:obj	_	Gender[lex]=Masc
-16	différentes	différent	DET	_	Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
+16	différentes	différents	DET	_	Gender=Fem|PronType=Ind	17	det	_	Number[lex]=Plur
 17	techniques	technique	NOUN	_	Number=Plur	12	comp:obj	_	Gender[lex]=Fem
 18	artistiques	artistique	ADJ	_	Number=Plur	17	mod	_	Gender[ctxt]=Fem|SpaceAfter=No
 19	,	,	PUNCT	_	_	22	punct	_	_
@@ -7226,7 +7227,7 @@
 48	versée	verser	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	46	mod	_	SpaceAfter=No|Tense[denom]=Past
 49	,	,	PUNCT	_	_	50	punct	_	_
 50	sous	sous	ADP	_	_	48	mod	_	_
-51	certaines	certain	DET	_	Gender=Fem|Number=Plur|PronType=Ind	52	det	_	_
+51	certaines	certains	DET	_	Gender=Fem|PronType=Ind	52	det	_	Number[lex]=Plur
 52	conditions	condition	NOUN	_	Number=Plur	50	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 53	,	,	PUNCT	_	_	50	punct	_	_
 54-55	aux	_	_	_	_	_	_	_	_
@@ -7408,7 +7409,7 @@
 32	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	subj	_	InIdiom=Yes
 33	y	y	PRON	_	Person=3|PronType=Prs	34	comp	_	InIdiom=Yes
 34	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	mod	_	Idiom=Yes
-35	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	36	det	_	_
+35	quelques	quelques	DET	_	Definite=Ind|PronType=Art	36	det	_	Number[lex]=Plur
 36	jours	jour	NOUN	_	Number=Plur	34	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 37	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -8045,7 +8046,7 @@
 18	de	de	ADP	_	_	13	conj:coord	_	_
 19	parfois	parfois	ADV	_	_	20	mod	_	_
 20	sécher	sécher	VERB	_	VerbForm=Inf	18	comp:obj	_	Subject=Instantiated
-21	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
+21	quelques	quelques	DET	_	Definite=Ind|PronType=Art	22	det	_	Number[lex]=Plur
 22	larmes	larme	NOUN	_	Number=Plur	20	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	symbole	symbole	NOUN	_	Number=Sing	22	conj:appos	_	Gender[lex]=Masc
@@ -8451,7 +8452,7 @@
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
 5	contactait	contacter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-6	divers	divers	DET	_	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+6	divers	divers	DET	_	Gender=Masc|PronType=Ind	7	det	_	Number[lex]=Plur
 7	hôtels	hôtel	NOUN	_	Number=Plur	5	comp:obj	_	Gender[lex]=Masc
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	7	udep	_	_
@@ -10727,7 +10728,7 @@
 4	mettre	mettre	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=Generic
 5	en	en	ADP	_	_	4	comp:obl	_	_
 6	place	place	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Fem
-7	différentes	différent	DET	_	Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+7	différentes	différents	DET	_	Gender=Fem|PronType=Ind	8	det	_	Number[lex]=Plur
 8	actions	action	NOUN	_	Number=Plur	4	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
 10	dont	dont	PRON	_	PronType=Rel	13	unk	_	_
@@ -11556,7 +11557,7 @@
 20	de	de	ADP	_	_	17	comp:obj@agent	_	_
 21	descendre	descendre	VERB	_	VerbForm=Inf	20	comp:obj	_	SpaceAfter=No|Subject=Generic
 22	,	,	PUNCT	_	_	1	punct	_	_
-23	certaines	certain	DET	_	Gender=Fem|Number=Plur|PronType=Ind	24	det	_	_
+23	certaines	certains	DET	_	Gender=Fem|PronType=Ind	24	det	_	Number[lex]=Plur
 24	donnée	donnée	NOUN	_	Number=Sing|Typo=Yes	30	subj	_	CorrectForm=données|CorrectNumber=Plur|Gender[lex]=Fem
 25	présentées	présenter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	24	mod	_	Tense[denom]=Past
 26	par	par	ADP	_	_	25	comp:obl@agent	_	_
@@ -12006,7 +12007,7 @@
 
 # sent_id = annodis.er_00468
 # text = Quelques questions diverses comme l'indemnité du trésorier principal de Toul, ou l'assurance des personnel communaux ont clos cette soirée de travail.
-1	Quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	det	_	_
+1	Quelques	quelques	DET	_	Definite=Ind|PronType=Art	2	det	_	Number[lex]=Plur
 2	questions	question	NOUN	_	Number=Plur	21	subj	_	Gender[lex]=Fem
 3	diverses	divers	ADJ	_	Gender=Fem|Number=Plur	2	mod	_	_
 4	comme	comme	ADP	_	_	2	udep	_	_
@@ -13057,7 +13058,7 @@
 
 # sent_id = annodis.er_00504
 # text = Quelques minutes après cette déposition, les gendarmes sortaient de leur brigade pour effectuer une ronde de routine.
-1	Quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	det	_	_
+1	Quelques	quelques	DET	_	Definite=Ind|PronType=Art	2	det	_	Number[lex]=Plur
 2	minutes	minute	NOUN	_	Number=Plur	3	mod	_	Gender[lex]=Fem
 3	après	après	ADP	_	_	9	mod	_	_
 4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
