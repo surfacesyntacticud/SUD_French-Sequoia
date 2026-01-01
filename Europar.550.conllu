@@ -786,7 +786,7 @@
 26	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	27	det	_	Gender[ctxt]=Fem
 27	adoption	adoption	NOUN	_	Number=Sing	24	conj:coord	_	Gender[lex]=Fem
 28	par	par	ADP	_	Shared=Yes	27	udep	_	_
-29	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	28	comp:obj	_	SpaceAfter=No
+29	tous	tous	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	28	comp:obj	_	SpaceAfter=No
 30	.	.	PUNCT	_	Shared=Yes	14	punct	_	_
 
 # sent_id = Europar.550_00026
@@ -13936,7 +13936,7 @@
 21	privés	privé	ADJ	_	Gender=Masc|Number=Plur	19	conj:coord	_	_
 22	afin	afin	ADV	_	_	5	mod	_	_
 23	que	que	SCONJ	_	_	22	comp:obj	_	_
-24	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	25	subj	_	_
+24	tous	tous	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	25	subj	_	_
 25	puissent	pouvoir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	comp:obj	_	_
 26	réellement	réellement	ADV	_	_	25	mod	_	_
 27	participer	participer	VERB	_	VerbForm=Inf	25	comp:obj	_	Subject=SubjRaising

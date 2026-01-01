@@ -1131,7 +1131,7 @@
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	députés	député	NOUN	_	Number=Plur	15	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	_
-19	toutes	tout	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Ind	20	subj	_	_
+19	toutes	tous	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Ind	20	subj	_	_
 20	demandant	demander	VERB	_	VerbForm=Part	3	mod	_	Tense[denom]=Pres
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	réhabilitation	réhabilitation	NOUN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Fem
