@@ -786,7 +786,7 @@
 26	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	27	det	_	Gender[ctxt]=Fem
 27	adoption	adoption	NOUN	_	Number=Sing	24	conj:coord	_	Gender[lex]=Fem
 28	par	par	ADP	_	Shared=Yes	27	udep	_	_
-29	tous	tous	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	28	comp:obj	_	SpaceAfter=No
+29	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	28	comp:obj	_	SpaceAfter=No
 30	.	.	PUNCT	_	Shared=Yes	14	punct	_	_
 
 # sent_id = Europar.550_00026
@@ -3154,7 +3154,7 @@
 
 # sent_id = Europar.550_00103
 # text = Ils n'ont été impliqués dans aucune action terroriste ou militaire.
-1	Ils	eux	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	subj@pass	_	_
+1	Ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	subj@pass	_	_
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	été	être	AUX	_	VerbForm=Part	3	comp:aux@tense	_	Tense[denom]=Past
@@ -4387,7 +4387,7 @@
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	subj	_	SpaceAfter=No
 6	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+7	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
 8	questions	question	NOUN	_	Number=Plur	6	comp:obj	_	Gender[lex]=Fem
 9	très	très	ADV	_	_	10	mod	_	_
 10	simples	simple	ADJ	_	Number=Plur	8	mod	_	Gender[ctxt]=Fem
@@ -5020,7 +5020,7 @@
 8	avis	avis	NOUN	_	_	6	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 9	en	en	ADP	_	_	5	comp:obl	_	_
 10	lumière	lumière	NOUN	_	Number=Sing	9	comp:obj	_	Gender[lex]=Fem
-11	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
+11	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
 12	propositions	proposition	NOUN	_	Number=Plur|Shared=Yes	5	subj	_	Gender[lex]=Fem
 13	d'	de	ADP	_	_	12	udep	_	SpaceAfter=No
 14	amendement	amendement	NOUN	_	Number=Sing	13	comp:obj	_	Gender[lex]=Masc
@@ -5729,7 +5729,7 @@
 14	avenir	avenir	NOUN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Masc
 15	fait	faire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	14	mod	_	Tense[denom]=Past
 16	de	de	ADP	_	_	15	comp:obl	_	_
-17	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
+17	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
 18	privilégiés	privilégié	ADJ	_	Gender=Masc|Number=Plur	16	comp:obj	_	_
 19	qui	qui	PRON	_	PronType=Rel	20	subj	_	_
 20	seraient	être	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	mod@relcl	_	_
@@ -6172,7 +6172,7 @@
 21-22	des	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	20	udep	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
-23	quelques	quelque	ADJ	_	Number=Plur	24	mod	_	Gender[ctxt]=Masc
+23	quelques	quelques	ADJ	_	Number=Plur	24	mod	_	Gender[ctxt]=Masc
 24	exemples	exemple	NOUN	_	Number=Plur	21	comp:obj	_	Gender[lex]=Masc
 25	où	où	ADV	_	PronType=Rel	30	mod	_	_
 26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	_
@@ -7260,7 +7260,7 @@
 
 # sent_id = Europar.550_00233
 # text = Ils se sont assurés que l'Irak ne dispose d'aucune fusée à longue portée pouvant menacer ses voisins.
-1	Ils	eux	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	subj	_	_
+1	Ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	subj	_	_
 2	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	4	comp@expl	_	_
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	assurés	assurer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	3	comp:aux@tense	_	Tense[denom]=Past
@@ -13207,7 +13207,7 @@
 13	:	:	PUNCT	_	_	15	punct	_	_
 14	où	où	ADV	_	PronType=Int	15	comp:obl	_	_
 15	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	SpaceAfter=No
-16	-ils	eux	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	subj	_	_
+16	-ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	subj	_	_
 17	donc	donc	ADV	_	_	15	mod	_	_
 18	?	?	PUNCT	_	_	6	punct	_	_
 
@@ -13250,12 +13250,12 @@
 # text = Où sont-ils donc ces 32 et quelques, qui se sont levés et qui se lèveront encore, mais sont absents maintenant pendant que nous délibérons ?
 1	Où	où	ADV	_	PronType=Int	2	comp:obl	_	_
 2	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj@expl	_	_
+3	-ils	lui	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj@expl	_	_
 4	donc	donc	ADV	_	_	2	mod	_	_
 5	ces	ce	DET	_	Number=Plur|PronType=Dem	6	det	_	_
 6	32	32	NUM	_	ExtPos=PRON|NumType=Card|Shared=Yes	2	subj	_	Number[lex]=Plur
 7	et	et	CCONJ	_	ExtPos=ADJ	6	mod	_	Idiom=Yes
-8	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	unk	_	InIdiom=Yes|SpaceAfter=No
+8	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	unk	_	InIdiom=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	qui	qui	PRON	_	PronType=Rel	12	subj	_	_
 11	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	13	comp@expl	_	_
@@ -13936,7 +13936,7 @@
 21	privés	privé	ADJ	_	Gender=Masc|Number=Plur	19	conj:coord	_	_
 22	afin	afin	ADV	_	_	5	mod	_	_
 23	que	que	SCONJ	_	_	22	comp:obj	_	_
-24	tous	tous	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	25	subj	_	_
+24	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	25	subj	_	_
 25	puissent	pouvoir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	comp:obj	_	_
 26	réellement	réellement	ADV	_	_	25	mod	_	_
 27	participer	participer	VERB	_	VerbForm=Inf	25	comp:obj	_	Subject=SubjRaising
@@ -15625,7 +15625,7 @@
 12	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	subj	_	InIdiom=Yes
 13	y	y	PRON	_	Person=3|PronType=Prs	14	comp	_	InIdiom=Yes
 14	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod	_	Idiom=Yes
-15	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
+15	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
 16	semaines	semaine	NOUN	_	Number=Plur	14	comp:obj	_	Gender[lex]=Fem
 17	à	à	ADP	_	_	10	mod	_	_
 18	Lubljana	Lubljana	PROPN	_	_	17	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
@@ -15885,7 +15885,7 @@
 9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj	_	InIdiom=Yes
 10	y	y	PRON	_	Person=3|PronType=Prs	11	comp	_	InIdiom=Yes
 11	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	mod	_	Idiom=Yes
-12	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
+12	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
 13	semaines	semaine	NOUN	_	Number=Plur	11	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 14	,	,	PUNCT	_	_	11	punct	_	_
 15	80 000	80 000	NUM	_	ExtPos=DET	16	det	_	Number[lex]=Plur
@@ -17154,7 +17154,7 @@
 4	que	que	SCONJ	_	_	2	comp:obj@agent	_	_
 5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	subj	_	_
 6	fasse	faire	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
-7	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
+7	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
 8	brefs	bref	ADJ	_	Gender=Masc|Number=Plur	9	mod	_	_
 9	commentaires	commentaire	NOUN	_	Number=Plur	6	comp:obj	_	Gender[lex]=Masc
 10	sur	sur	ADP	_	_	9	udep	_	_

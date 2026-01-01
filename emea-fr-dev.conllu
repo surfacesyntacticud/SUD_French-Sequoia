@@ -6457,7 +6457,7 @@
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 12	espace	espace	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Masc
 13	de	de	ADP	_	_	12	udep	_	_
-14	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
+14	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
 15	minutes	minute	NOUN	_	Number=Plur	13	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 16	.	.	PUNCT	_	_	6	punct	_	_
 

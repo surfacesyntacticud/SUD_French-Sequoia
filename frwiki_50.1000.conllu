@@ -611,7 +611,7 @@
 
 # sent_id = frwiki_50.1000_00020
 # text = Ils étaient tous coupables ou aucun ne l'était.
-1	Ils	eux	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
+1	Ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
 2	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	tous	tout	ADJ	_	Gender=Masc|Number=Plur	2	mod	_	_
 4	coupables	coupable	ADJ	_	Number=Plur	2	comp:pred	_	Gender[ctxt]=Masc
@@ -1131,7 +1131,7 @@
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	députés	député	NOUN	_	Number=Plur	15	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	_
-19	toutes	tous	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Ind	20	subj	_	_
+19	toutes	tout	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Ind	20	subj	_	_
 20	demandant	demander	VERB	_	VerbForm=Part	3	mod	_	Tense[denom]=Pres
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	réhabilitation	réhabilitation	NOUN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Fem
@@ -1819,7 +1819,7 @@
 1	D'	de	ADP	_	ExtPos=ADV	12	mod	_	Idiom=Yes|SpaceAfter=No
 2	abord	abord	NOUN	_	Number=Sing	1	unk	_	Gender[lex]=Masc|InIdiom=Yes
 3	de	de	ADP	_	_	12	mod	_	_
-4	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+4	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
 5	centaines	centaine	NOUN	_	Number=Plur	3	comp:obj	_	Gender[lex]=Fem
 6	de	de	ADP	_	_	5	udep	_	_
 7	morts	mort	NOUN	_	Number=Plur	6	comp:obj	_	Gender[lex]=Masc
@@ -1829,10 +1829,10 @@
 11	télévisions	télévision	NOUN	_	Number=Plur	12	subj	_	Gender[lex]=Fem
 12	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	annoncé	annoncer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	12	comp:aux@tense	_	Tense[denom]=Past
-14	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
+14	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
 15	70 000	70 000	NUM	_	ExtPos=DET|NumType=Card	16	mod	_	Number[lex]=Plur
 16	morts	mort	NOUN	_	Number=Plur	13	comp:obj	_	Gender[lex]=Masc
-17	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
+17	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
 18	jours	jour	NOUN	_	Number=Plur	12	mod	_	Gender[lex]=Masc
 19	plus	plus	ADV	_	_	20	mod	_	_
 20	tard	tard	ADV	_	_	18	mod	_	SpaceAfter=No
@@ -1878,7 +1878,7 @@
 5	histoire	histoire	NOUN	_	Number=Sing	6	subj	_	Gender[lex]=Fem
 6	retient	retenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	aujourd'hui	aujourd'hui	ADV	_	_	6	mod	_	_
-8	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
+8	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
 9	centaines	centaine	NOUN	_	Number=Plur	6	comp:obj	_	Gender[lex]=Fem
 10	de	de	ADP	_	_	9	udep	_	_
 11	morts	mort	NOUN	_	Number=Plur	10	comp:obj	_	Gender[lex]=Masc
@@ -2202,7 +2202,7 @@
 10	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	11	subj	_	_
 11	voulions	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	4	conj:coord	_	_
 12	passer	passer	VERB	_	VerbForm=Inf	11	comp:obj	_	Subject=SubjRaising
-13	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+13	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
 14	temps	temps	NOUN	_	_	12	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 15-16	au	_	_	_	_	_	_	_	_
 15	à	à	ADP	_	_	12	mod	_	_
@@ -2241,7 +2241,7 @@
 
 # sent_id = frwiki_50.1000_00087
 # text = Ils ont tiré sur les bébés des couveuses, ils ont pris les couveuses et ont laissé mourir les bébés sur le sol froid.
-1	Ils	eux	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
+1	Ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
 2	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	tiré	tirer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Tense[denom]=Past
 4	sur	sur	ADP	_	_	3	comp:obl	_	_
@@ -2322,7 +2322,7 @@
 
 # sent_id = frwiki_50.1000_00091
 # text = Ils ont vidé les supermarchés de nourriture, les pharmacies de médicaments, les usines de matériel médical, ils ont cambriolé les maisons et torturé des voisins et des amis.
-1	Ils	eux	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
+1	Ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
 2	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	vidé	vider	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Tense[denom]=Past
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
@@ -2414,7 +2414,7 @@
 
 # sent_id = frwiki_50.1000_00095
 # text = Ils lui ont arraché les ongles.
-1	Ils	eux	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	subj	_	_
+1	Ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	subj	_	_
 2	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=3|PronType=Prs	4	comp:obl	_	_
 3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	arraché	arracher	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	3	comp:aux@tense	_	Tense[denom]=Past
@@ -2424,7 +2424,7 @@
 
 # sent_id = frwiki_50.1000_00096
 # text = Ils lui ont fait subir des chocs électriques sur les parties sensibles de son corps.
-1	Ils	eux	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	subj@caus	_	_
+1	Ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	subj@caus	_	_
 2	lui	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	comp:obl@agent	_	_
 3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	fait	faire	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	3	comp:aux@tense	_	Tense[denom]=Past
@@ -3668,7 +3668,7 @@
 
 # sent_id = frwiki_50.1000_00139
 # text = Ils sont vendus en 1981 pour la somme de 111 547 francs de l'époque.
-1	Ils	eux	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj@pass	_	_
+1	Ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj@pass	_	_
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	vendus	vendre	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	2	comp:aux@pass	_	Tense[denom]=Past
 4	en	en	ADP	_	_	3	mod	_	_
@@ -4208,7 +4208,7 @@
 # sent_id = frwiki_50.1000_00164
 # text = Seules quelques familles oseront porter plainte pour la disparition de 353 personnes.
 1	Seules	seul	ADJ	_	Gender=Fem|Number=Plur	3	mod	_	_
-2	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
+2	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
 3	familles	famille	NOUN	_	Number=Plur	4	subj	_	Gender[lex]=Fem
 4	oseront	oser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 5	porter	porter	VERB	_	VerbForm=Inf	4	comp:obj	_	Subject=SubjRaising
@@ -4276,7 +4276,7 @@
 10	télévision	télévision	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Fem
 11	congolaise	congolais	ADJ	_	Gender=Fem|Number=Sing	10	mod	_	_
 12	pendant	pendant	ADP	_	_	6	mod	_	_
-13	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+13	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
 14	semaines	semaine	NOUN	_	Number=Plur	12	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 15	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -6672,7 +6672,7 @@
 
 # sent_id = frwiki_50.1000_00266
 # text = Ils encourent jusqu'à un an de prison, 15 000 euros d'amende et une peine d'inéligibilité.
-1	Ils	eux	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
+1	Ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
 2	encourent	encourir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	jusqu'	jusque	ADP	_	_	6	mod	_	SpaceAfter=No
 4	à	à	ADP	_	_	3	comp:obj	_	_
@@ -8085,7 +8085,7 @@
 
 # sent_id = frwiki_50.1000_00303
 # text = Elles sont publiées le 27 octobre 1904, et Louis André est contraint de démissionner quelques jours plus tard, après avoir été giflé sur le banc même des ministres dans un geste mélodramatique par le député nationaliste Gabriel Syveton, que l'on retrouvera mort mystérieusement quelques jours plus tard, suicidé les veines ouvertes dans son bain, la veille d'une séance où il s'apprêtait à faire de nouvelles révélations, probablement plus victime de son épouse et de son amant que du "poignard des Kadosh".
-1	Elles	eux	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	subj@pass	_	_
+1	Elles	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	subj@pass	_	_
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	publiées	publier	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	2	comp:aux@pass	_	Tense[denom]=Past
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -8100,7 +8100,7 @@
 13	contraint	contraindre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	comp:aux@pass	_	Tense[denom]=Past
 14	de	de	ADP	_	_	13	comp:obl	_	_
 15	démissionner	démissionner	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising
-16	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
+16	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
 17	jours	jour	NOUN	_	Number=Plur	18	mod	_	Gender[lex]=Masc
 18	plus	plus	ADV	_	_	19	mod	_	_
 19	tard	tard	ADV	_	_	15	mod	_	SpaceAfter=No
@@ -8133,7 +8133,7 @@
 45	retrouvera	retrouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	38	mod@relcl	_	_
 46	mort	mort	ADJ	_	Gender=Masc|Number=Sing	45	comp:pred	_	_
 47	mystérieusement	mystérieusement	ADV	_	_	46	mod	_	_
-48	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	49	det	_	_
+48	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	49	det	_	_
 49	jours	jour	NOUN	_	Number=Plur	50	mod	_	Gender[lex]=Masc
 50	plus	plus	ADV	_	_	51	mod	_	_
 51	tard	tard	ADV	_	_	45	mod	_	SpaceAfter=No
@@ -11981,7 +11981,7 @@
 
 # sent_id = frwiki_50.1000_00416
 # text = Ils n'ont cependant pu établir la réalité de rétro-commissions versées à des intermédiaires français.
-1	Ils	eux	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	subj	_	_
+1	Ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	subj	_	_
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	cependant	cependant	ADV	_	_	3	mod	_	_
@@ -12851,7 +12851,7 @@
 
 # sent_id = frwiki_50.1000_00446
 # text = Ils n'ont cependant pas pu prouver le versement de rétro-commissions versées à des intermédiaires français.
-1	Ils	eux	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	subj	_	_
+1	Ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	subj	_	_
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	cependant	cependant	ADV	_	_	3	mod	_	_
@@ -15050,7 +15050,7 @@
 2	Karl	Karl	PROPN	_	Gender=Masc|Number=Sing	7	mod	_	_
 3	Laske	Laske	PROPN	_	_	2	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
-5	Ils	eux	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	subj	_	_
+5	Ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	subj	_	_
 6	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	comp:obj	_	_
 7	croyaient	croire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	intouchables	intouchable	ADJ	_	Number=Plur	7	comp:pred	_	Gender[ctxt]=Masc|SpaceAfter=No
@@ -18028,7 +18028,7 @@
 25	,	,	PUNCT	_	_	27	punct	_	_
 26	qui	qui	PRON	_	PronType=Rel	27	subj	_	_
 27	prend	prendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	mod@relcl	_	_
-28	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	29	det	_	_
+28	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	29	det	_	_
 29	jours	jour	NOUN	_	Number=Plur	27	comp:obj	_	Gender[lex]=Masc
 30	de	de	ADP	_	_	29	udep	_	_
 31	vacances	vacances	NOUN	_	Number=Plur	30	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
@@ -22518,7 +22518,7 @@
 
 # sent_id = frwiki_50.1000_00813
 # text = Ils mettent en avant le manque de témoignages les concernant.
-1	Ils	eux	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
+1	Ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
 2	mettent	mettre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	en	en	ADP	_	ExtPos=ADV	2	comp:obl	_	Idiom=Yes
 4	avant	avant	ADV	_	_	3	unk	_	InIdiom=Yes
@@ -23327,7 +23327,7 @@
 4	2002	2002	NUM	_	ExtPos=PROPN|NumType=Card	3	mod	_	Number[lex]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	à	à	ADP	_	_	33	mod	_	_
-7	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+7	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
 8	semaines	semaine	NOUN	_	Number=Plur	6	comp:obj	_	Gender[lex]=Fem
 9-10	des	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	8	udep	_	_
@@ -23894,7 +23894,7 @@
 
 # sent_id = frwiki_50.1000_00862
 # text = Ils avaient composé la rançon sur des avoirs éparpillés à travers le monde "dans des paradis fiscaux, c'était sans compter sur le système de clearing de la société Cedel, dans laquelle Ernest Backes travaillait, et qui centralisait les flux vers la banque algérienne.
-1	Ils	eux	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
+1	Ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
 2	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	composé	composer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Tense[denom]=Past
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -24970,7 +24970,7 @@
 
 # sent_id = frwiki_50.1000_00908
 # text = Elles représentent, en date respectivement du 22 juillet et du 5 août 2006, la même femme (habillée de la même façon et reconnaissable par des caractéristiques physiques sur son visage), pleurant la destruction de sa maison [4.
-1	Elles	eux	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
+1	Elles	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
 2	représentent	représenter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	en	en	ADP	_	_	2	mod	_	_
@@ -26505,7 +26505,7 @@
 7	profitable	profitable	ADJ	_	Number=Sing	6	comp:pred	_	Gender[ctxt]=Fem
 8	que	que	ADV	_	Polarity=Neg	9	mod	_	_
 9	pour	pour	ADP	_	_	5	mod	_	_
-10	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
+10	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
 11	grandes	grand	ADJ	_	Gender=Fem|Number=Plur	12	mod	_	_
 12	compagnies	compagnie	NOUN	_	Number=Plur	9	comp:obj	_	Gender[lex]=Fem
 13	privées	privé	ADJ	_	Gender=Fem|Number=Plur	12	mod	_	SpaceAfter=No
