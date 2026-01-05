@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = frwiki_50.1000_00001
 # text = Affaire des caporaux de Souain
 1	Affaire	affaire	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Fem
@@ -132,7 +131,7 @@
 # sent_id = frwiki_50.1000_00005
 # text = Devant eux, le terrain est déjà jonché de cadavres et se trouve directement pris sous le feu des mitrailleuses allemandes.
 1	Devant	devant	ADP	_	_	6	mod	_	_
-2	eux	eux	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	comp:obj	_	SpaceAfter=No
+2	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	terrain	terrain	NOUN	_	Number=Sing	6	subj@pass	_	Gender[lex]=Masc
@@ -279,7 +278,7 @@
 18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	attaque	attaque	NOUN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Fem
 20	qui	qui	PRON	_	PronType=Rel	22	subj	_	_
-21	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	22	comp:obj	_	_
+21	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	22	comp:obj	_	_
 22	voue	vouer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	mod@relcl	_	_
 23	à	à	ADP	_	_	22	comp:obl	_	_
 24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
@@ -1759,7 +1758,7 @@
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	médias	média	NOUN	_	Number=Plur	8	comp:obj	_	Gender[lex]=Masc
 11	entre	entre	ADP	_	_	7	udep	_	_
-12	eux	eux	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	comp:obj	_	SpaceAfter=No
+12	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	chacun	chacun	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	subj	_	_
 15	reprenant	reprendre	VERB	_	VerbForm=Part	2	mod	_	Tense[denom]=Pres
@@ -3918,7 +3917,7 @@
 14	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	15	det	_	_
 15	livre	livre	NOUN	_	Number=Sing	13	comp:obj	_	Gender[lex]=Masc
 16	et	et	CCONJ	_	_	18	cc	_	_
-17	le	le	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	_
+17	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	_
 18	fera	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	conj:coord	_	_
 19	condamner	condamner	VERB	_	VerbForm=Inf	18	comp:aux@caus	_	Subject=Generic
 20	à	à	ADP	_	_	19	comp:obl	_	_
@@ -6813,7 +6812,7 @@
 # sent_id = frwiki_50.1000_00272
 # text = Pour eux "il n'y avait pas de faux électeurs (mais) des actions militantes, des électeurs qui voulaient aider les élus en place tout naturellement, comme cela se faisait à l'époque partout".
 1	Pour	pour	ADP	_	_	7	mod	_	_
-2	eux	eux	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	comp:obj	_	_
+2	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	comp:obj	_	_
 3	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
 5	n'	ne	ADV	_	Polarity=Neg	7	mod	_	SpaceAfter=No
@@ -7464,7 +7463,7 @@
 32	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	33	det	_	_
 33	obédience	obédience	NOUN	_	Number=Sing	31	comp:obj	_	Gender[lex]=Fem
 34	pour	pour	ADP	_	_	17	mod	_	_
-35	leur	eux	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=3|PronType=Prs	36	comp:obl	_	_
+35	leur	lui	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=3|PronType=Prs	36	comp:obl	_	_
 36	demander	demander	VERB	_	VerbForm=Inf	34	comp:obj	_	Subject=Instantiated
 37	de	de	ADP	_	_	36	comp:obj	_	_
 38	rassembler	rassembler	VERB	_	VerbForm=Inf	37	comp:obj	_	Subject=OblRaising
@@ -8723,7 +8722,7 @@
 55	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	56	comp@expl	_	_
 56	passer	passer	VERB	_	VerbForm=Inf	54	comp:obj	_	Subject=SubjRaising
 57	d'	de	ADP	_	_	56	comp:obl	_	SpaceAfter=No
-58	eux	eux	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	57	comp:obj	_	_
+58	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	57	comp:obj	_	_
 59	pendant	pendant	ADP	_	_	56	mod	_	_
 60	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	62	det	_	_
 61	Première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	62	mod	_	_
@@ -8769,7 +8768,7 @@
 23	moitié	moitié	NOUN	_	Number=Sing	21	comp:obj	_	Gender[lex]=Fem
 24	d'	de	ADP	_	ExtPos=ADP	23	udep	_	Idiom=Yes|SpaceAfter=No
 25	entre	entre	ADP	_	_	24	unk	_	InIdiom=Yes
-26	eux	eux	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	24	comp:obj	_	_
+26	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	24	comp:obj	_	_
 27	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	mod@relcl	_	_
 28	été	être	AUX	_	VerbForm=Part	27	comp:aux@tense	_	Tense[denom]=Past
 29	limogée	limoger	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	28	comp:aux@pass	_	Tense[denom]=Past
@@ -10194,7 +10193,7 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	secret	secret	NOUN	_	Number=Sing	5	subj@pass	_	Gender[lex]=Masc
 3	défense	défense	NOUN	_	Number=Sing	2	mod	_	Gender[lex]=Fem
-4	leur	eux	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=3|PronType=Prs	6	comp:obl	_	_
+4	leur	lui	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=3|PronType=Prs	6	comp:obl	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	opposé	opposer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	comp:aux@pass	_	Tense[denom]=Past
 7	par	par	ADP	_	_	6	comp:obl@agent	_	_
@@ -11186,7 +11185,7 @@
 14	,	,	PUNCT	_	_	9	punct	_	_
 15	refuse	refuser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	de	de	ADP	_	_	15	comp:obj	_	_
-17	le	le	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	comp:obj	_	_
+17	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	comp:obj	_	_
 18	payer	payer	VERB	_	VerbForm=Inf	16	comp:obj	_	Subject=SubjRaising
 19	car	car	CCONJ	_	_	21	cc	_	_
 20	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	subj	_	_
@@ -13005,7 +13004,7 @@
 25	qui	qui	PRON	_	PronType=Rel	26	subj	_	_
 26	représente	représenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	mod@relcl	_	_
 27	selon	selon	ADP	_	_	26	mod	_	_
-28	eux	eux	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	27	comp:obj	_	_
+28	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	27	comp:obj	_	_
 29	dans	dans	ADP	_	_	26	mod	_	_
 30	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	31	det	_	_
 31	affaire	affaire	NOUN	_	Number=Sing	29	comp:obj	_	Gender[lex]=Fem
@@ -18381,7 +18380,7 @@
 12	entreprise	entreprise	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Fem
 13	semblent	sembler	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	eux	eux	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	mod	_	_
+15	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	mod	_	_
 16	aussi	aussi	ADV	_	_	15	mod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	15	punct	_	_
 18	avoir	avoir	AUX	_	VerbForm=Inf	13	comp:pred	_	Subject=SubjRaising
@@ -18843,7 +18842,7 @@
 16	Ciolina	Ciolina	PROPN	_	_	15	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
 18	qui	qui	PRON	_	PronType=Rel	20	subj	_	_
-19	le	le	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	_
+19	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	_
 20	désigne	désigner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	mod@relcl	_	_
 21	comme	comme	ADP	_	_	20	comp:pred	_	_
 22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	Gender[ctxt]=Masc|SpaceAfter=No
@@ -22527,7 +22526,7 @@
 6	manque	manque	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Masc
 7	de	de	ADP	_	_	6	udep	_	_
 8	témoignages	témoignage	NOUN	_	Number=Plur	7	comp:obj	_	Gender[lex]=Masc
-9	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	10	comp:obj	_	_
+9	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	10	comp:obj	_	_
 10	concernant	concerner	VERB	_	VerbForm=Part	8	mod	_	SpaceAfter=No|Tense[denom]=Pres
 11	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -22564,7 +22563,7 @@
 28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	justice	justice	NOUN	_	Number=Sing	27	comp:obj	_	Gender[lex]=Fem
 30	sportive	sportif	ADJ	_	Gender=Fem|Number=Sing	29	mod	_	_
-31	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	32	comp:obj	_	_
+31	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	32	comp:obj	_	_
 32	revoit	revoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 33	à	à	ADP	_	_	32	mod	_	_
 34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
@@ -24679,7 +24678,7 @@
 32	juridiquement	juridiquement	ADV	_	_	36	mod	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	32	punct	_	_
 34	ne	ne	ADV	_	Polarity=Neg	36	mod	_	_
-35	leur	eux	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=3|PronType=Prs	36	comp:obl	_	_
+35	leur	lui	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=3|PronType=Prs	36	comp:obl	_	_
 36	appartenaient	appartenir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	mod@relcl	_	_
 37	pas	pas	ADV	_	Polarity=Neg	36	mod	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	7	punct	_	_
@@ -24896,7 +24895,7 @@
 2	après	après	ADP	_	_	1	unk	_	InIdiom=Yes
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	commentaires	commentaire	NOUN	_	Number=Plur	1	comp:obj	_	Gender[lex]=Masc
-5	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	6	comp:obj	_	_
+5	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	6	comp:obj	_	_
 6	accompagnant	accompagner	VERB	_	VerbForm=Part	4	mod	_	Tense[denom]=Pres
 7	dans	dans	ADP	_	_	6	mod	_	_
 8	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	9	det	_	_

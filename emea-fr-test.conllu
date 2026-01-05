@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = emea-fr-test_00001
 # text = EMEA / H/C/595
 1	EMEA	EMEA	PROPN	_	_	0	root	_	Gender[lex]=Unknown
@@ -5121,7 +5120,7 @@
 1	Beaucoup	beaucoup	ADV	_	_	5	subj	_	_
 2	d'	de	ADP	_	ExtPos=ADP	1	udep	_	Idiom=Yes|SpaceAfter=No
 3	entre	entre	ADP	_	_	2	unk	_	InIdiom=Yes
-4	eux	eux	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	comp:obj	_	_
+4	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	comp:obj	_	_
 5	présentaient	présenter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
 7	signes	signe	NOUN	_	Number=Plur	5	comp:obj	_	Gender[lex]=Masc
@@ -7117,7 +7116,7 @@
 2	%	%	NOUN	_	_	6	subj	_	Gender[lex]=Masc
 3	d'	de	ADP	_	ExtPos=ADP	2	udep	_	Idiom=Yes|SpaceAfter=No
 4	entre	entre	ADP	_	_	3	unk	_	InIdiom=Yes
-5	eux	eux	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	comp:obj	_	_
+5	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	comp:obj	_	_
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	6	comp:aux@tense	_	Tense[denom]=Past
 8	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	9	det	_	_
@@ -8804,7 +8803,7 @@
 22	,	,	PUNCT	_	_	18	punct	_	_
 23	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	parataxis	_	_
 24	qui	qui	PRON	_	PronType=Rel	26	subj	_	_
-25	le	le	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	comp:obj	_	_
+25	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	comp:obj	_	_
 26	rend	rendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	mod@relcl	_	_
 27	plus	plus	ADV	_	_	28	mod	_	_
 28	faible	faible	ADJ	_	Number=Sing	26	comp:pred	_	Gender[ctxt]=Masc
@@ -11111,7 +11110,7 @@
 # text = Avant de leur administrer Aclasta, il faut mesurer les taux sériques de créatinine des patients.
 1	Avant	avant	ADP	_	_	8	mod	_	_
 2	de	de	ADP	_	_	1	comp:obj	_	_
-3	leur	eux	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=3|PronType=Prs	4	comp:obl	_	_
+3	leur	lui	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=3|PronType=Prs	4	comp:obl	_	_
 4	administrer	administrer	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=Generic
 5	Aclasta	Aclasta	PROPN	_	_	4	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
