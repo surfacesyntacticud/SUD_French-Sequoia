@@ -1336,7 +1336,7 @@
 8	effets	effet	NOUN	_	Number=Plur	5	comp:obj	_	Gender[lex]=Masc
 9	indésirables	indésirable	ADJ	_	Number=Plur	8	mod	_	Gender[ctxt]=Masc
 10	observés	observer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	8	mod	_	Tense[denom]=Past
-11	lors	lors	ADV	_	ExtPos=ADV	10	mod	_	_
+11	lors	lors	ADV	_	_	10	mod	_	_
 12	de	de	ADP	_	_	11	comp:obl	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 14	utilisation	utilisation	NOUN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Fem
@@ -2945,11 +2945,11 @@
 24	patients	patient	NOUN	_	Number=Plur	22	comp:obj	_	Gender[lex]=Masc
 25	sous	sous	ADP	_	_	24	udep	_	_
 26	dialyse	dialyse	NOUN	_	Number=Sing	25	comp:obj	_	Gender[lex]=Fem
-27	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
 28	voir	voir	VERB	_	VerbForm=Inf	3	parataxis:insert	_	Subject=Generic
 29	rubrique	rubrique	NOUN	_	Number=Sing	28	comp:obj	_	Gender[lex]=Fem
 30	4.3	4.3	NUM	_	ExtPos=PROPN|NumType=Card	29	mod	_	SpaceAfter=No
-31	)	)	PUNCT	_	_	2	punct	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = emea-fr-dev_00135
@@ -3344,11 +3344,11 @@
 30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 31	autre	autre	ADJ	_	Number=Sing	32	mod	_	Gender[ctxt]=Masc
 32	anticoagulant	anticoagulant	NOUN	_	Number=Sing	29	comp:obj	_	Gender[lex]=Masc
-33	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+33	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
 34	voir	voir	VERB	_	VerbForm=Inf	28	parataxis:insert	_	Subject=Generic
 35	Section	section	NOUN	_	Number=Sing	34	comp:obj	_	Gender[lex]=Fem
 36	4.5	4.5	NUM	_	ExtPos=PROPN|NumType=Card	35	mod	_	Number[lex]=Sing|SpaceAfter=No
-37	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+37	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = emea-fr-dev_00157
@@ -3703,11 +3703,11 @@
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 19	expérience	expérience	NOUN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Fem
 20	post-commercialisation	post-commercialisation	NOUN	_	Number=Sing	19	mod	_	Gender[lex]=Fem
-21	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
 22	voir	voir	VERB	_	VerbForm=Inf	14	parataxis:insert	_	Subject=Generic
 23	rubrique	rubrique	NOUN	_	Number=Sing	22	comp:obj	_	Gender[lex]=Fem
 24	4.8	4.8	NUM	_	ExtPos=PROPN|NumType=Card	23	mod	_	Number[lex]=Sing|SpaceAfter=No
-25	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = emea-fr-dev_00170
@@ -4492,11 +4492,11 @@
 43	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
 44	GP	GP	NOUN	_	Number=Sing	42	comp:obj	_	Gender[lex]=Fem
 45	IIb/IIIa	IIb/IIIa	PROPN	_	_	44	mod	_	Gender[lex]=Unknown
-46	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+46	(	(	PUNCT	_	_	47	punct	_	SpaceAfter=No
 47	voir	voir	VERB	_	VerbForm=Inf	15	parataxis:insert	_	Subject=Generic
 48	table	table	NOUN	_	Number=Sing	47	comp:obj	_	Gender[lex]=Fem
 49	2	2	NUM	_	ExtPos=PROPN|NumType=Card	48	mod	_	Number[lex]=Sing|SpaceAfter=No
-50	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+50	)	)	PUNCT	_	_	47	punct	_	SpaceAfter=No
 51	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = emea-fr-dev_00201
@@ -4531,11 +4531,11 @@
 26	avant	avant	ADP	_	_	21	mod	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	randomisation	randomisation	NOUN	_	Number=Sing	26	comp:obj	_	Gender[lex]=Fem
-29	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+29	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
 30	n	n	NOUN	_	_	31	subj	_	_
 31	=	=	SYM	_	ExtPos=VERB	6	parataxis:insert	_	_
 32	2078	2078	NUM	_	ExtPos=PROPN|NumType=Card	31	comp:obj	_	SpaceAfter=No
-33	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = emea-fr-dev_00202
@@ -4989,7 +4989,7 @@
 18	6	6	NUM	_	ExtPos=PRON|NumType=Card	22	subj	_	Number[lex]=Plur
 19	d'	de	ADP	_	ExtPos=ADP	18	udep	_	Idiom=Yes|SpaceAfter=No
 20	entre	entre	ADP	_	_	19	unk	_	InIdiom=Yes
-21	eux	eux	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	comp:obj	_	_
+21	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	comp:obj	_	_
 22	recevaient	recevoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	conj:coord	_	_
 23	également	également	ADV	_	_	22	mod	_	_
 24	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	25	det	_	_
@@ -5398,7 +5398,7 @@
 71	g	g	NOUN	_	_	69	comp:obj	_	SpaceAfter=No
 72	/	/	SYM	_	ExtPos=ADP	71	udep	_	SpaceAfter=No
 73	dl	dl	NOUN	_	_	72	comp:obj	_	_
-74	(	(	PUNCT	_	_	71	punct	_	SpaceAfter=No
+74	(	(	PUNCT	_	_	77	punct	_	SpaceAfter=No
 75	ou	ou	CCONJ	_	_	77	cc	_	_
 76	12	12	NUM	_	ExtPos=DET|NumType=Card	77	det	_	Number[lex]=Plur|SpaceAfter=No
 77	%	%	NOUN	_	_	71	conj:coord	_	Gender[lex]=Masc
@@ -6158,7 +6158,7 @@
 19	dans	dans	ADP	_	ExtPos=SCONJ	16	mod	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	mesure	mesure	NOUN	_	Number=Sing	19	comp:obj	_	Gender[lex]=Fem
-22	où	où	PRON	_	PronType=Rel	25	mod	_	_
+22	où	où	ADV	_	PronType=Rel	25	mod	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	thrombine	thrombine	NOUN	_	Number=Sing	25	subj	_	Gender[lex]=Fem
 25	clive	cliver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	mod@relcl	_	_
@@ -6415,7 +6415,7 @@
 23	concentration	concentration	NOUN	_	Number=Sing	21	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
 25	comme	comme	SCONJ	_	_	12	mod	_	_
-26	le	le	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	comp:obj	_	_
+26	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	comp:obj	_	_
 27	prouve	prouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	comp:obj	_	_
 28	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	29	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 29	allongement	allongement	NOUN	_	Number=Sing	27	subj	_	Gender[lex]=Masc
@@ -6457,7 +6457,7 @@
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 12	espace	espace	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Masc
 13	de	de	ADP	_	_	12	udep	_	_
-14	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
+14	quelques	quelques	DET	_	Definite=Ind|PronType=Art	15	det	_	Number[lex]=Plur
 15	minutes	minute	NOUN	_	Number=Plur	13	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 16	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -6884,7 +6884,7 @@
 3	%	%	NOUN	_	_	7	subj	_	Gender[lex]=Masc
 4	d'	de	ADP	_	ExtPos=ADP	3	udep	_	Idiom=Yes|SpaceAfter=No
 5	entre	entre	ADP	_	_	4	unk	_	InIdiom=Yes
-6	eux	eux	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	comp:obj	_	_
+6	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	comp:obj	_	_
 7	présentent	présenter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	ischémie	ischémie	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Fem
@@ -6937,10 +6937,10 @@
 9	en	en	ADP	_	_	8	comp:obl	_	_
 10	charge	charge	NOUN	_	Number=Sing	9	comp:obj	_	Gender[lex]=Fem
 11	médicalement	médicalement	ADV	_	_	8	mod	_	_
-12	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+12	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 13	33	33	NUM	_	ExtPos=DET|NumType=Card	14	det	_	Number[lex]=Plur|SpaceAfter=No
 14	%	%	NOUN	_	_	8	parataxis:insert	_	Gender[lex]=Masc|SpaceAfter=No
-15	)	)	PUNCT	_	_	6	punct	_	_
+15	)	)	PUNCT	_	_	14	punct	_	_
 16	soit	soit	CCONJ	_	_	17	cc	_	_
 17	bénéficient	bénéficier	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj:coord	_	_
 18	d'	de	ADP	_	_	17	comp:obl	_	SpaceAfter=No
@@ -7973,7 +7973,7 @@
 3	chez	chez	ADP	_	_	2	udep	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 5	animal	animal	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Masc
-6	lors	lors	ADV	_	ExtPos=ADV	2	udep	_	_
+6	lors	lors	ADV	_	_	2	udep	_	_
 7	d'	de	ADP	_	_	6	comp:obl	_	SpaceAfter=No
 8	expositions	exposition	NOUN	_	Number=Plur	7	comp:obj	_	Gender[lex]=Fem
 9	répétées	répéter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	8	mod	_	Tense[denom]=Past
@@ -8078,7 +8078,7 @@
 7	celle	celui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	6	comp:obj	_	_
 8	qui	qui	PRON	_	PronType=Rel	9	subj	_	_
 9	prévaut	prévaloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
-10	lors	lors	ADV	_	ExtPos=ADV	9	mod	_	_
+10	lors	lors	ADV	_	_	9	mod	_	_
 11	d'	de	ADP	_	_	10	comp:obl	_	SpaceAfter=No
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	utilisation	utilisation	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Fem
@@ -8632,7 +8632,7 @@
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	flacon	flacon	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Masc
 11	puis	puis	CCONJ	_	_	13	cc	_	_
-12	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	13	comp:obj	_	_
+12	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	13	comp:obj	_	_
 13	diluer	diluer	VERB	_	VerbForm=Inf	1	conj:coord	_	Subject=Generic
 14	dans	dans	ADP	_	_	13	comp:obl	_	_
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -11322,7 +11322,7 @@
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	ou	ou	CCONJ	_	_	14	cc	_	_
 14	si	si	SCONJ	_	_	1	conj:coord	_	_
-15	certains	certain	DET	_	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
+15	certains	certains	DET	_	Gender=Masc|PronType=Ind	16	det	_	Number[lex]=Plur
 16	effets	effet	NOUN	_	Number=Plur	18	subj	_	Gender[lex]=Masc
 17	indésirables	indésirable	ADJ	_	Number=Plur	16	mod	_	Gender[ctxt]=Masc
 18	deviennent	devenir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
