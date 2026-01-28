@@ -4392,7 +4392,7 @@
 6	définis	définir	VERB	_	Number=Sing|VerbForm=Part|Voice=Pass	5	comp:aux@pass	_	Tense[denom]=Past
 7	comme	comme	ADP	_	_	6	comp:pred	_	_
 8	étant	être	AUX	_	VerbForm=Part	7	comp:obj	_	Tense[denom]=Pres
-9	tous	tout	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	tous	tout	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
 10	événements	événement	NOUN	_	Number=Plur	8	comp:pred	_	Gender[lex]=Masc
 11	hémorragiques	hémorragique	ADJ	_	Number=Plur	10	mod	_	Gender[ctxt]=Masc
 12	observés	observer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	10	mod	_	Tense[denom]=Past
@@ -5423,7 +5423,7 @@
 6	défini	définir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	comp:aux@pass	_	Tense[denom]=Past
 7	comme	comme	ADP	_	_	6	comp:pred	_	_
 8	étant	être	AUX	_	VerbForm=Part	7	comp:obj	_	Tense[denom]=Pres
-9	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	10	det	_	_
 10	événement	événement	NOUN	_	Number=Sing	8	comp:pred	_	Gender[lex]=Masc
 11	hémorragique	hémorragique	ADJ	_	Number=Sing	10	mod	_	Gender[ctxt]=Masc
 12	observé	observer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	10	mod	_	Tense[denom]=Past
@@ -5906,7 +5906,7 @@
 22	afin	afin	ADV	_	_	19	mod	_	_
 23	de	de	ADP	_	_	22	comp:obj	_	_
 24	détecter	détecter	VERB	_	VerbForm=Inf	23	comp:obj	_	Subject=Generic
-25	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	26	det	_	_
 26	signe	signe	NOUN	_	Number=Sing	24	comp:obj	_	Gender[lex]=Masc
 27	de	de	ADP	_	_	26	udep	_	_
 28	saignement	saignement	NOUN	_	Number=Sing	27	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
@@ -8683,7 +8683,7 @@
 
 # sent_id = emea-fr-dev_00392
 # text = Tout produit non utilisé ou déchet doit être éliminé conformément à la réglementation en vigueur localement.
-1	Tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+1	Tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	produit	produit	NOUN	_	Number=Sing	7	subj	_	Gender[lex]=Masc
 3	non	non	ADV	_	Polarity=Neg	4	mod	_	_
 4	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	mod	_	Tense[denom]=Past
@@ -9019,7 +9019,7 @@
 53	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
 54	marché	marché	NOUN	_	Number=Sing	52	comp:obj	_	Gender[lex]=Masc
 55	et	et	CCONJ	_	_	57	cc	_	_
-56	toutes	tout	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	57	det	_	_
+56	toutes	tout	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	57	det	_	_
 57	mises	mise	NOUN	_	Number=Plur	29	conj:coord	_	Gender[lex]=Fem
 58	à	à	ADP	_	_	57	udep	_	_
 59	jour	jour	NOUN	_	Number=Sing	58	comp:obj	_	Gender[lex]=Masc
@@ -9387,7 +9387,7 @@
 
 # sent_id = emea-fr-dev_00436
 # text = Toute solution non utilisée doit être éliminée.
-1	Toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+1	Toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	solution	solution	NOUN	_	Number=Sing	5	subj	_	Gender[lex]=Fem
 3	non	non	ADV	_	Polarity=Neg	4	mod	_	_
 4	utilisée	utiliser	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	mod	_	Tense[denom]=Past
@@ -10382,7 +10382,7 @@
 9	examinera	examiner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 10	pour	pour	ADP	_	_	9	mod	_	_
 11	contrôler	contrôler	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=Instantiated
-12	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	13	det	_	_
 13	signe	signe	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Masc
 14	de	de	ADP	_	_	13	udep	_	_
 15	saignement	saignement	NOUN	_	Number=Sing	14	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
@@ -10815,7 +10815,7 @@
 # sent_id = emea-fr-dev_00525
 # text = Pour toutes questions supplémentaires quant à l'utilisation de ce produit, contacter votre médecin.
 1	Pour	pour	ADP	_	_	13	mod	_	_
-2	toutes	tout	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	toutes	tout	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
 3	questions	question	NOUN	_	Number=Plur	1	comp:obj	_	Gender[lex]=Fem
 4	supplémentaires	supplémentaire	ADJ	_	Number=Plur	3	mod	_	Gender[ctxt]=Fem
 5	quant	quant	ADV	_	ExtPos=ADV	3	udep	_	_
@@ -11595,7 +11595,7 @@
 # sent_id = emea-fr-dev_00574
 # text = Pour toute information complémentaire concernant ce médicament, veuillez prendre contact avec le représentant local du titulaire de l'autorisation de mise sur le marché.
 1	Pour	pour	ADP	_	_	9	mod	_	_
-2	toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
 3	information	information	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Fem
 4	complémentaire	complémentaire	ADJ	_	Number=Sing	3	mod	_	Gender[ctxt]=Fem
 5	concernant	concerner	VERB	_	VerbForm=Part	3	mod	_	Tense[denom]=Pres

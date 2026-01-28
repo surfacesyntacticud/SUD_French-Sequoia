@@ -9965,7 +9965,7 @@
 16	hôpitaux	hôpital	NOUN	_	Number=Plur	14	comp:obj	_	Gender[lex]=Masc
 17	ou	ou	CCONJ	_	_	18	cc	_	_
 18	de	de	ADP	_	_	13	conj:coord	_	_
-19	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+19	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	21	det	_	_
 20	autre	autre	ADJ	_	Number=Sing	21	mod	_	Gender[ctxt]=Masc
 21	endroit	endroit	NOUN	_	Number=Sing	18	comp:obj	_	Gender[lex]=Masc
 22	où	où	ADV	_	PronType=Rel	23	mod	_	_
