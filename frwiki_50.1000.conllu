@@ -288,7 +288,7 @@
 
 # sent_id = frwiki_50.1000_00009
 # text = Tout soldat paraissant sur le parapet étant immédiatement atteint par les balles.
-1	Tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+1	Tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	soldat	soldat	NOUN	_	Number=Sing	7	subj@pass	_	Gender[lex]=Masc
 3	paraissant	paraître	VERB	_	VerbForm=Part	2	mod	_	Tense[denom]=Pres
 4	sur	sur	ADP	_	_	3	comp:obl	_	_
@@ -4361,7 +4361,7 @@
 25	normale	normal	ADJ	_	Gender=Fem|Number=Sing	24	mod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
 27	en	en	ADP	_	_	22	mod	_	_
-28	toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	29	det	_	_
 29	quiétude	quiétude	NOUN	_	Number=Sing	27	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 30	.	.	PUNCT	_	Shared=Yes	22	punct	_	_
 
@@ -5238,7 +5238,7 @@
 36	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	37	det	_	_
 37	emplois	emploi	NOUN	_	Number=Plur	54	subj	_	Gender[lex]=Masc
 38	à	à	ADP	_	_	37	udep	_	_
-39	tous	tout	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+39	tous	tout	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	40	det	_	_
 40	types	type	NOUN	_	Number=Plur	38	comp:obj	_	Gender[lex]=Masc
 41	d'	de	ADP	_	_	40	udep	_	SpaceAfter=No
 42	activités	activité	NOUN	_	Number=Plur	41	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
@@ -10207,7 +10207,7 @@
 15	successifs	successif	ADJ	_	Gender=Masc|Number=Plur	14	mod	_	_
 16	de	de	ADP	_	_	14	udep	_	_
 17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
-18	Économie	Économie	NOUN	_	Number=Sing	16	comp:obj	_	SpaceAfter=No
+18	Économie	économie	NOUN	_	Number=Sing	16	comp:obj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = frwiki_50.1000_00358
@@ -11579,7 +11579,7 @@
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	opposées	opposé	ADJ	_	Gender=Fem|Number=Plur	18	mod	_	_
 22	à	à	ADP	_	_	21	comp:obl	_	_
-23	toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	24	det	_	_
 24	livraison	livraison	NOUN	_	Number=Sing	22	comp:obj	_	Gender[lex]=Fem
 25	de	de	ADP	_	_	24	udep	_	_
 26	matériel	matériel	NOUN	_	Number=Sing	25	comp:obj	_	Gender[lex]=Masc
@@ -12946,7 +12946,7 @@
 23	ministre	ministre	NOUN	_	Number=Sing	21	comp:obj	_	Gender[lex]=Masc
 24	de	de	ADP	_	_	23	udep	_	_
 25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
-26	Économie	Économie	NOUN	_	Number=Sing	24	comp:obj	_	_
+26	Économie	économie	NOUN	_	Number=Sing	24	comp:obj	_	_
 27	Laurent	Laurent	PROPN	_	Gender=Masc|Number=Sing	23	mod	_	_
 28	Fabius	Fabius	PROPN	_	Gender=Masc|Number=Sing	27	flat@name	_	_
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
@@ -13294,7 +13294,7 @@
 35	ministère	ministère	NOUN	_	Number=Sing	33	comp:obj	_	Gender[lex]=Masc
 36	de	de	ADP	_	_	35	udep	_	_
 37	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
-38	Économie	Économie	NOUN	_	Number=Sing	36	comp:obj	_	_
+38	Économie	économie	NOUN	_	Number=Sing	36	comp:obj	_	_
 39	et	et	CCONJ	_	_	40	cc	_	_
 40-41	des	_	_	_	_	_	_	_	_
 40	de	de	ADP	_	_	36	conj:coord	_	_
@@ -14935,7 +14935,7 @@
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	ouverte	ouvert	ADJ	_	Gender=Fem|Number=Sing	4	mod	_	_
 16	à	à	ADP	_	_	15	comp:obl	_	_
-17	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	18	det	_	_
 18	type	type	NOUN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Masc
 19	d'	de	ADP	_	_	18	udep	_	SpaceAfter=No
 20	accord	accord	NOUN	_	Number=Sing	19	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
@@ -19296,7 +19296,7 @@
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 4	absence	absence	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Fem
 5	de	de	ADP	_	_	4	udep	_	_
-6	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
 7	responsable	responsable	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Masc
 8	politique	politique	ADJ	_	Number=Sing	7	mod	_	Gender[ctxt]=Masc|SpaceAfter=No
 9	,	,	PUNCT	_	_	2	punct	_	_
@@ -22361,7 +22361,7 @@
 29	été	être	AUX	_	VerbForm=Part	28	comp:aux@tense	_	Tense[denom]=Past
 30	suspendu	suspendre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	29	comp:aux@pass	_	Tense[denom]=Past
 31	de	de	ADP	_	_	30	comp:obl	_	_
-32	toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	33	det	_	_
 33	fonction	fonction	NOUN	_	Number=Sing	31	comp:obj	_	Gender[lex]=Fem
 34	sportive	sportif	ADJ	_	Gender=Fem|Number=Sing	33	mod	_	_
 35	pour	pour	ADP	_	_	28	mod	_	_
@@ -22998,7 +22998,7 @@
 28	autorités	autorité	NOUN	_	Number=Plur	25	subj	_	Gender[lex]=Fem
 29	françaises	français	ADJ	_	Gender=Fem|Number=Plur	28	mod	_	_
 30	de	de	ADP	_	_	28	udep	_	_
-31	tous	tout	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+31	tous	tout	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	32	det	_	_
 32	bords	bord	NOUN	_	Number=Plur	30	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 33	,	,	PUNCT	_	_	37	punct	_	_
 34	mais	mais	CCONJ	_	_	37	cc	_	_
@@ -23887,7 +23887,7 @@
 20	diverses	divers	ADJ	_	Gender=Fem|Number=Plur	19	mod	_	_
 21	pour	pour	ADP	_	_	14	mod	_	_
 22	égarer	égarer	VERB	_	VerbForm=Inf	21	comp:obj	_	Subject=Instantiated
-23	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	24	det	_	_
 24	fouineur	fouineur	NOUN	_	Number=Sing	22	comp:obj	_	Gender[lex]=Masc
 25	hypothétique	hypothétique	ADJ	_	Number=Sing	24	mod	_	Gender[ctxt]=Masc|SpaceAfter=No
 26	.	.	PUNCT	_	_	14	punct	_	_
@@ -26348,7 +26348,7 @@
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	5	mod	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Vietnam	Viêt-Nam	PROPN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
+8	Vietnam	Vietnam	PROPN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 9	et	et	CCONJ	_	_	10	cc	_	_
 10	considérés	considérer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	5	conj:coord	_	Tense[denom]=Past
 11	comme	comme	ADP	_	_	10	comp:pred	_	_

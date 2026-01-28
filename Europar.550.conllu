@@ -188,7 +188,7 @@
 15	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	16	subj	_	_
 16	partage	partager	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	mod@relcl	_	_
 17	en	en	ADP	_	_	16	mod	_	_
-18	tous	tout	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	tous	tout	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	19	det	_	_
 19	points	point	NOUN	_	Number=Plur	17	comp:obj	_	Gender[lex]=Masc
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	contenu	contenu	NOUN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
@@ -605,7 +605,7 @@
 15	savent	savoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	20	punct	_	_
 17	en	en	ADP	_	_	20	mod	_	_
-18	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	19	det	_	_
 19	cas	cas	NOUN	_	_	17	comp:obj	_	Gender[lex]=Masc
 20	depuis	depuis	ADP	_	_	15	mod	_	_
 21	1992	1992	NUM	_	ExtPos=PROPN|NumType=Card	20	comp:obj	_	Number[lex]=Sing|SpaceAfter=No
@@ -2133,7 +2133,7 @@
 19	information	information	NOUN	_	Number=Sing	15	conj:coord	_	Gender[lex]=Fem|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	en	en	ADP	_	_	12	mod	_	_
-22	toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	23	det	_	_
 23	sécurité	sécurité	NOUN	_	Number=Sing	21	comp:obj	_	Gender[lex]=Fem
 24	et	et	CCONJ	_	_	25	cc	_	_
 25	sans	sans	ADP	_	_	21	conj:coord	_	_
@@ -2326,7 +2326,7 @@
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	discrimination	discrimination	NOUN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Fem
 19	et	et	CCONJ	_	_	22	cc	_	_
-20	toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+20	toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	22	det	_	_
 21	autre	autre	ADJ	_	Number=Sing	22	mod	_	Gender[ctxt]=Fem
 22	forme	forme	NOUN	_	Number=Sing	18	conj:coord	_	Gender[lex]=Fem
 23	d'	de	ADP	_	_	22	udep	_	SpaceAfter=No
@@ -3794,7 +3794,7 @@
 4	Tchétchénie	Tchétchénie	PROPN	_	_	3	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	comme	comme	ADP	_	_	10	mod	_	_
-7	toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	8	det	_	_
 8	guerre	guerre	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 9	,	,	PUNCT	_	_	6	punct	_	_
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3852,7 +3852,7 @@
 10	sécurité	sécurité	NOUN	_	Number=Sing	9	comp:obj	_	Gender[lex]=Fem
 11	de	de	ADP	_	_	8	udep	_	_
 12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-13	ONU	O.N.U.	PROPN	_	Gender=Fem|Number=Sing	11	comp:obj	_	SpaceAfter=No
+13	ONU	ONU	PROPN	_	Gender=Fem|Number=Sing	11	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	membre	membre	NOUN	_	Number=Sing	4	conj:coord	_	Gender[lex]=Masc
 16	à	à	ADP	_	ExtPos=ADJ	15	mod	_	Idiom=Yes
@@ -5136,7 +5136,7 @@
 22	Blokland	Blokland	PROPN	_	_	21	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	_
 24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
-25	verts	vert	PROPN	_	Gender=Masc|Number=Plur	21	conj:coord	_	_
+25	verts	vert	NOUN	_	Gender=Masc|Number=Plur	21	conj:coord	_	_
 26	et	et	CCONJ	_	_	29	cc	_	_
 27	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	29	det	_	SpaceAfter=No
 28	autres	autre	ADJ	_	Number=Plur	29	mod	_	Gender[ctxt]=Masc
@@ -6992,7 +6992,7 @@
 5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	subj	_	_
 6	tiens	tenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	en	en	ADP	_	_	6	mod	_	_
-8	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
 9	cas	cas	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc
 10	à	à	ADP	_	_	6	comp:obl	_	_
 11	remercier	remercier	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=SubjRaising
@@ -7224,7 +7224,7 @@
 2	inspecteurs	inspecteur	NOUN	_	Number=Plur	12	subj	_	Gender[lex]=Masc
 3	de	de	ADP	_	_	2	udep	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-5	ONU	O.N.U.	PROPN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
+5	ONU	ONU	PROPN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	pour	pour	ADP	_	_	2	udep	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	désarmement	désarmement	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Masc
@@ -7507,7 +7507,7 @@
 4	humanitaires	humanitaire	ADJ	_	Number=Plur	3	mod	_	Gender[ctxt]=Fem
 5	de	de	ADP	_	_	3	udep	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-7	ONU	O.N.U.	PROPN	_	Gender=Fem|Number=Sing	5	comp:obj	_	SpaceAfter=No
+7	ONU	ONU	PROPN	_	Gender=Fem|Number=Sing	5	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	1	punct	_	_
 9	plusieurs	plusieurs	DET	_	Number=Plur|PronType=Ind	10	det	_	_
 10	centaines	centaine	NOUN	_	Number=Plur	21	subj	_	Gender[lex]=Fem
@@ -8312,7 +8312,7 @@
 24	par	par	ADP	_	_	23	mod	_	_
 25	ailleurs	ailleurs	ADV	_	_	24	comp:obj	_	_
 26	démenti	démentir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	23	comp:aux@tense	_	Tense[denom]=Past
-27	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	28	det	_	_
 28	lien	lien	NOUN	_	Number=Sing	26	comp:obj	_	Gender[lex]=Masc
 29	avec	avec	ADP	_	_	28	udep	_	_
 30	ces	ce	DET	_	Number=Plur|PronType=Dem	31	det	_	_
@@ -9800,7 +9800,7 @@
 10	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	11	subj	_	_
 11	avons	avoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj:coord	_	_
 12	en	en	ADP	_	_	11	mod	_	_
-13	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	14	det	_	_
 14	cas	cas	NOUN	_	_	12	comp:obj	_	Gender[lex]=Masc
 15	deux	deux	NUM	_	ExtPos=DET|NumType=Card	16	det	_	Number[lex]=Plur
 16	exemples	exemple	NOUN	_	Number=Plur	11	comp:obj	_	Gender[lex]=Masc
@@ -14588,7 +14588,7 @@
 2	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 3	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	en	en	ADP	_	_	3	mod	_	_
-5	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	6	det	_	_
 6	cas	cas	NOUN	_	_	4	comp:obj	_	Gender[lex]=Masc
 7	que	que	SCONJ	_	_	3	comp:obj	_	_
 8	ces	ce	DET	_	Number=Plur|PronType=Dem	9	det	_	_
@@ -15171,7 +15171,7 @@
 6	devons	devoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	_
 7	éviter	éviter	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
 8	à	à	ADP	_	_	7	mod	_	_
-9	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	10	det	_	_
 10	prix	prix	NOUN	_	_	8	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -16210,7 +16210,7 @@
 14	rencontres	rencontre	NOUN	_	Number=Plur	12	subj	_	Gender[lex]=Fem
 15	de	de	ADP	_	_	14	udep	_	_
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	Gender[ctxt]=Masc|SpaceAfter=No
-17	Euro	euro	PROPN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
+17	Euro	Euro	PROPN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
 18	2000	2000	NUM	_	ExtPos=PROPN|NumType=Card	17	mod	_	Number[lex]=Sing|SpaceAfter=No
 19	,	,	PUNCT	_	_	1	punct	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
