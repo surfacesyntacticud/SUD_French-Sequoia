@@ -355,7 +355,7 @@
 5	lavoir	lavoir	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Masc
 6	abrite	abriter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	depuis	depuis	ADP	_	_	6	mod	_	_
-8	quelques	quelques	DET	_	Definite=Ind|PronType=Art	9	det	_	Number[lex]=Plur
+8	quelques	quelques	DET	_	Definite=Ind|PronType=Ind	9	det	_	Number[lex]=Plur
 9	jours	jour	NOUN	_	Number=Plur	7	comp:obj	_	Gender[lex]=Masc
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	exposition	exposition	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Fem
@@ -3327,7 +3327,7 @@
 9	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 10	plongée	plonger	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	9	comp:aux@pass	_	Tense[denom]=Past
 11	durant	durant	ADP	_	_	10	mod	_	_
-12	quelques	quelques	DET	_	Definite=Ind|PronType=Art	13	det	_	Number[lex]=Plur
+12	quelques	quelques	DET	_	Definite=Ind|PronType=Ind	13	det	_	Number[lex]=Plur
 13	secondes	seconde	NOUN	_	Number=Plur	11	comp:obj	_	Gender[lex]=Fem
 14	dans	dans	ADP	_	_	10	comp:obl	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -3863,7 +3863,7 @@
 
 # sent_id = annodis.er_00141
 # text = Quelques mois auront été nécessaires pour mettre en scène le Petit Prince.
-1	Quelques	quelques	DET	_	Definite=Ind|PronType=Art	2	det	_	Number[lex]=Plur
+1	Quelques	quelques	DET	_	Definite=Ind|PronType=Ind	2	det	_	Number[lex]=Plur
 2	mois	mois	NOUN	_	_	3	subj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 3	auront	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	été	être	AUX	_	VerbForm=Part	3	comp:aux@tense	_	Tense[denom]=Past
@@ -4492,7 +4492,7 @@
 # text = Elle travailla quelque temps dans une droguerie barisienne, puis épousa Gaston Sequin le 15 juin 1946
 1	Elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	travailla	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-3	quelque	quelque	DET	_	Definite=Ind|PronType=Art	4	det	_	Number[lex]=Sing
+3	quelque	quelque	DET	_	Definite=Ind|PronType=Ind	4	det	_	Number[lex]=Sing
 4	temps	temps	NOUN	_	_	2	mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	dans	dans	ADP	_	_	2	mod	_	_
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -5370,7 +5370,7 @@
 4	d'	de	ADP	_	_	3	udep	_	SpaceAfter=No
 5	après-midi	après-midi	NOUN	_	Number=Sing	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
-7	quelques	quelques	DET	_	Definite=Ind|PronType=Art	8	det	_	Number[lex]=Plur
+7	quelques	quelques	DET	_	Definite=Ind|PronType=Ind	8	det	_	Number[lex]=Plur
 8	enfants	enfant	NOUN	_	Number=Plur	10	subj	_	_
 9	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	10	comp@expl	_	SpaceAfter=No
 10	adonnaient	adonner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -5630,7 +5630,7 @@
 13	passion	passion	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Fem
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	présenter	présenter	VERB	_	VerbForm=Inf	10	conj:coord	_	Subject=Instantiated
-16	quelques	quelques	DET	_	Definite=Ind|PronType=Art	18	det	_	Number[lex]=Plur
+16	quelques	quelques	DET	_	Definite=Ind|PronType=Ind	18	det	_	Number[lex]=Plur
 17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
 18	oeuvres	oeuvre	NOUN	_	Number=Plur	15	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 19	"	"	PUNCT	_	_	18	punct	_	_
@@ -5644,7 +5644,7 @@
 
 # sent_id = annodis.er_00216
 # text = Quelques toiles, de l'acrylique, de l'huile, de l'encre de Chine, mais aussi de la sculpture et bien d'autres techniques.
-1	Quelques	quelques	DET	_	Definite=Ind|PronType=Art	2	det	_	Number[lex]=Plur
+1	Quelques	quelques	DET	_	Definite=Ind|PronType=Ind	2	det	_	Number[lex]=Plur
 2	toiles	toile	NOUN	_	Number=Plur	0	root	_	Gender[lex]=Fem|SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	de	de	ADP	_	ExtPos=DET	6	det	_	Idiom=Yes
@@ -7408,7 +7408,7 @@
 32	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	subj	_	InIdiom=Yes
 33	y	y	PRON	_	Person=3|PronType=Prs	34	comp	_	InIdiom=Yes
 34	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	mod	_	Idiom=Yes
-35	quelques	quelques	DET	_	Definite=Ind|PronType=Art	36	det	_	Number[lex]=Plur
+35	quelques	quelques	DET	_	Definite=Ind|PronType=Ind	36	det	_	Number[lex]=Plur
 36	jours	jour	NOUN	_	Number=Plur	34	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 37	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -8045,7 +8045,7 @@
 18	de	de	ADP	_	_	13	conj:coord	_	_
 19	parfois	parfois	ADV	_	_	20	mod	_	_
 20	sécher	sécher	VERB	_	VerbForm=Inf	18	comp:obj	_	Subject=Instantiated
-21	quelques	quelques	DET	_	Definite=Ind|PronType=Art	22	det	_	Number[lex]=Plur
+21	quelques	quelques	DET	_	Definite=Ind|PronType=Ind	22	det	_	Number[lex]=Plur
 22	larmes	larme	NOUN	_	Number=Plur	20	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	symbole	symbole	NOUN	_	Number=Sing	22	conj:appos	_	Gender[lex]=Masc
@@ -12006,7 +12006,7 @@
 
 # sent_id = annodis.er_00468
 # text = Quelques questions diverses comme l'indemnité du trésorier principal de Toul, ou l'assurance des personnel communaux ont clos cette soirée de travail.
-1	Quelques	quelques	DET	_	Definite=Ind|PronType=Art	2	det	_	Number[lex]=Plur
+1	Quelques	quelques	DET	_	Definite=Ind|PronType=Ind	2	det	_	Number[lex]=Plur
 2	questions	question	NOUN	_	Number=Plur	21	subj	_	Gender[lex]=Fem
 3	diverses	divers	ADJ	_	Gender=Fem|Number=Plur	2	mod	_	_
 4	comme	comme	ADP	_	_	2	udep	_	_
@@ -13057,7 +13057,7 @@
 
 # sent_id = annodis.er_00504
 # text = Quelques minutes après cette déposition, les gendarmes sortaient de leur brigade pour effectuer une ronde de routine.
-1	Quelques	quelques	DET	_	Definite=Ind|PronType=Art	2	det	_	Number[lex]=Plur
+1	Quelques	quelques	DET	_	Definite=Ind|PronType=Ind	2	det	_	Number[lex]=Plur
 2	minutes	minute	NOUN	_	Number=Plur	3	mod	_	Gender[lex]=Fem
 3	après	après	ADP	_	_	9	mod	_	_
 4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
