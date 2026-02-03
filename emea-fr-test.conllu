@@ -1630,7 +1630,7 @@
 46	de	de	ADP	_	_	44	udep	_	_
 47	fracture	fracture	NOUN	_	Number=Sing	46	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 48	,	,	PUNCT	_	_	51	punct	_	_
-49	y	y	PRON	_	Person=3|PronType=Prs	50	comp:obj	_	InIdiom=Yes
+49	y	y	PRON	_	Person=3|PronType=Prs	50	comp:obl	_	InIdiom=Yes
 50	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part|Voice=Pass	51	cc	_	Idiom=Yes|Tense[denom]=Past
 51	chez	chez	ADP	_	_	33	conj:coord	_	_
 52	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	53	det	_	_

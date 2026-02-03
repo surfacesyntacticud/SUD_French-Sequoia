@@ -5243,7 +5243,7 @@
 41	d'	de	ADP	_	_	40	udep	_	SpaceAfter=No
 42	activités	activité	NOUN	_	Number=Plur	41	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 43	,	,	PUNCT	_	_	46	punct	_	_
-44	y	y	PRON	_	Person=3|PronType=Prs	45	comp:obj	_	InIdiom=Yes
+44	y	y	PRON	_	Person=3|PronType=Prs	45	comp:obl	_	InIdiom=Yes
 45	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part|Voice=Pass	46	cc	_	Idiom=Yes|Tense[denom]=Past
 46	politiques	politique	ADJ	_	Number=Plur	42	mod	_	Gender[ctxt]=Fem|SpaceAfter=No
 47	,	,	PUNCT	_	_	46	punct	_	_
@@ -8328,7 +8328,7 @@
 122	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	123	det	_	_
 123	officiers	officier	NOUN	_	Number=Plur	121	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 124	,	,	PUNCT	_	_	127	punct	_	_
-125	y	y	PRON	_	Person=3|PronType=Prs	126	comp:obj	_	InIdiom=Yes
+125	y	y	PRON	_	Person=3|PronType=Prs	126	comp:obl	_	InIdiom=Yes
 126	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part|Voice=Pass	127	cc	_	Idiom=Yes|Tense[denom]=Past
 127	dans	dans	ADP	_	_	120	mod	_	_
 128	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	129	det	_	_
@@ -26194,7 +26194,7 @@
 47	soldats	soldat	NOUN	_	Number=Plur	45	comp:obj	_	Gender[lex]=Masc
 48	français	français	ADJ	_	Gender=Masc	47	mod	_	Number[ctxt]=Plur
 49	(	(	PUNCT	_	_	52	punct	_	SpaceAfter=No
-50	y	y	PRON	_	Person=3|PronType=Prs	51	comp:obj	_	InIdiom=Yes
+50	y	y	PRON	_	Person=3|PronType=Prs	51	comp:obl	_	InIdiom=Yes
 51	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part|Voice=Pass	52	cc	_	Idiom=Yes|Tense[denom]=Past
 52	tiralleurs	tirailleur	NOUN	_	Number=Plur	47	conj:coord	_	Gender[lex]=Masc
 53	sénégalais	sénégalais	ADJ	_	Gender=Masc|Number=Plur	52	mod	_	_
