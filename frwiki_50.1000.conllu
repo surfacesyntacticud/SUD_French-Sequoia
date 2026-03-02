@@ -11260,7 +11260,7 @@
 2	Kwan	Kwan	PROPN	_	_	1	flat@name	_	Gender[lex]=Unknown
 3	attend	attendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	7	7	NUM	_	ExtPos=DET|NumType=Card	5	det	_	Number[lex]=Plur|SpaceAfter=No
-5	%	%	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
+5	%	%	SYM	_	ExtPos=NOUN|Number=Plur	3	comp:obj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = frwiki_50.1000_00393
@@ -11602,7 +11602,7 @@
 8	destinées	destiner	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	7	comp:aux@pass	_	Tense[denom]=Past
 9	à	à	ADP	_	_	8	mod	_	_
 10	80	80	NUM	_	ExtPos=DET|NumType=Card	11	det	_	Number[lex]=Plur|SpaceAfter=No
-11	%	%	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc
+11	%	%	SYM	_	ExtPos=NOUN|Number=Plur	9	comp:obj	_	_
 12-13	aux	_	_	_	_	_	_	_	_
 12	à	à	ADP	_	_	8	comp:obl	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
@@ -11614,7 +11614,7 @@
 19	et	et	CCONJ	_	_	23	cc	_	_
 20	à	à	ADP	_	_	23	mod	_	_
 21	20	20	NUM	_	ExtPos=DET|NumType=Card	22	det	_	Number[lex]=Plur|SpaceAfter=No
-22	%	%	NOUN	_	_	20	comp:obj	_	Gender[lex]=Masc
+22	%	%	SYM	_	ExtPos=NOUN|Number=Plur	20	comp:obj	_	_
 23-24	au	_	_	_	_	_	_	_	_
 23	à	à	ADP	_	_	8	conj:coord	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
@@ -18347,7 +18347,7 @@
 21	3	3	NUM	_	ExtPos=DET|NumType=Card	24	det	_	Number[lex]=Plur
 22	à	à	ADP	_	_	21	comp:obl	_	_
 23	5	5	NUM	_	ExtPos=DET|NumType=Card	22	comp:obj	_	Number[lex]=Plur|SpaceAfter=No
-24	%	%	NOUN	_	_	20	comp:obj	_	Gender[lex]=Masc
+24	%	%	SYM	_	ExtPos=NOUN|Number=Plur	20	comp:obj	_	_
 25	pour	pour	ADP	_	_	12	mod	_	_
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 27	obtention	obtention	NOUN	_	Number=Sing	25	comp:obj	_	Gender[lex]=Fem
@@ -19928,10 +19928,10 @@
 26	d'	de	ADP	_	_	25	udep	_	SpaceAfter=No
 27	entre	entre	ADP	_	_	26	comp:obj	_	_
 28	1	1	NUM	_	ExtPos=DET|NumType=Card	29	det	_	Number[lex]=Plur|SpaceAfter=No
-29	%	%	NOUN	_	_	27	comp:obj	_	Gender[lex]=Masc
+29	%	%	SYM	_	ExtPos=NOUN|Number=Plur	27	comp:obj	_	_
 30	et	et	CCONJ	_	_	32	cc	_	_
 31	5	5	NUM	_	ExtPos=DET|NumType=Card	32	det	_	Number[lex]=Plur|SpaceAfter=No
-32	%	%	NOUN	_	_	29	conj:coord	_	Gender[lex]=Masc
+32	%	%	SYM	_	ExtPos=NOUN|Number=Plur	29	conj:coord	_	_
 33-34	du	_	_	_	_	_	_	_	_
 33	de	de	ADP	_	Shared=Yes	32	udep	_	_
 34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
@@ -19975,7 +19975,7 @@
 18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
 19	demandé	demander	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	17	comp:aux@tense	_	Tense[denom]=Past
 20	1,5	1,5	NUM	_	ExtPos=DET|NumType=Card	21	det	_	Number[lex]=Plur|SpaceAfter=No
-21	%	%	NOUN	_	_	19	comp:obj	_	Gender[lex]=Masc
+21	%	%	SYM	_	ExtPos=NOUN|Number=Plur	19	comp:obj	_	_
 22-23	du	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	21	udep	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
@@ -20346,7 +20346,7 @@
 52	été	être	AUX	_	VerbForm=Part	51	comp:aux@tense	_	Tense[denom]=Past
 53	prélevé	prélever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	52	comp:aux@pass	_	Tense[denom]=Past
 54	2	2	NUM	_	ExtPos=DET|NumType=Card	55	det	_	Number[lex]=Plur|SpaceAfter=No
-55	%	%	NOUN	_	_	53	comp:obj	_	Gender[lex]=Masc
+55	%	%	SYM	_	ExtPos=NOUN|Number=Plur	53	comp:obj	_	_
 56	de	de	ADP	_	_	55	udep	_	_
 57	"	"	PUNCT	_	_	58	punct	_	SpaceAfter=No
 58	commissions	commission	NOUN	_	Number=Plur	56	comp:obj	_	Gender[lex]=Fem
@@ -20373,13 +20373,13 @@
 78	régionale	régional	ADJ	_	Gender=Fem|Number=Sing	77	mod	_	_
 79	(	(	PUNCT	_	_	81	punct	_	SpaceAfter=No
 80	0,8	0,8	NUM	_	ExtPos=DET|NumType=Card	81	det	_	Number[lex]=Plur|SpaceAfter=No
-81	%	%	NOUN	_	_	71	conj:appos	_	Gender[lex]=Masc
+81	%	%	SYM	_	ExtPos=NOUN|Number=Plur	71	conj:appos	_	_
 82	pour	pour	ADP	_	_	81	udep	_	_
 83	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	84	det	_	_
 84	gauche	gauche	NOUN	_	Number=Sing	82	comp:obj	_	Gender[lex]=Fem
 85	et	et	CCONJ	_	_	87	cc	_	_
 86	1,2	1,2	NUM	_	ExtPos=DET|NumType=Card	87	det	_	Number[lex]=Plur|SpaceAfter=No
-87	%	%	NOUN	_	_	81	conj:coord	_	Gender[lex]=Masc
+87	%	%	SYM	_	ExtPos=NOUN|Number=Plur	81	conj:coord	_	_
 88	pour	pour	ADP	_	_	87	udep	_	_
 89	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	90	det	_	_
 90	droite	droite	NOUN	_	Number=Sing	88	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
@@ -20411,7 +20411,7 @@
 20	devaient	devoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 21	reverser	reverser	VERB	_	VerbForm=Inf	20	comp:obj	_	Subject=SubjRaising
 22	2	2	NUM	_	ExtPos=DET|NumType=Card	23	det	_	Number[lex]=Plur|SpaceAfter=No
-23	%	%	NOUN	_	_	21	comp:obj	_	Gender[lex]=Masc
+23	%	%	SYM	_	ExtPos=NOUN|Number=Plur	21	comp:obj	_	_
 24	de	de	ADP	_	_	23	udep	_	_
 25	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	26	det	_	_
 26	montants	montant	NOUN	_	Number=Plur	24	comp:obj	_	Gender[lex]=Masc
@@ -20436,7 +20436,7 @@
 4	part	part	NOUN	_	Number=Sing	14	subj	_	Gender[lex]=Fem
 5	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 6	1,2	1,2	NUM	_	ExtPos=DET|NumType=Card	7	det	_	Number[lex]=Plur|SpaceAfter=No
-7	%	%	NOUN	_	_	4	conj:appos	_	Gender[lex]=Masc|SpaceAfter=No
+7	%	%	SYM	_	ExtPos=NOUN|Number=Plur	4	conj:appos	_	SpaceAfter=No
 8	)	)	PUNCT	_	_	7	punct	_	_
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	4	udep	_	_
