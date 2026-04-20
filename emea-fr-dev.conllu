@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = emea-fr-dev_00001
 # text = European Medicines Agency
 1	European	European	X	_	Foreign=Yes	0	root	_	Lang=en
@@ -3152,7 +3153,7 @@
 18	inhibiteur	inhibiteur	NOUN	_	Number=Sing|Shared=Yes	17	comp:obj	_	Gender[lex]=Masc
 19	de	de	ADP	_	_	18	udep	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	GPIIb/IIIa	GPIIb/IIIa	PROPN	_	Gender=Fem|Number=Sing	19	comp:obj	_	SpaceAfter=No
+21	GPIIb/IIIa	GPIIb/IIIa	PROPN	_	Number=Sing	19	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 22	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = emea-fr-dev_00146
@@ -4220,7 +4221,7 @@
 42	inhibiteur	inhibiteur	NOUN	_	Number=Sing	40	comp:obj	_	Gender[lex]=Masc
 43	de	de	ADP	_	_	42	udep	_	_
 44	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
-45	GPIIb/IIIa	GPIIb/IIIa	PROPN	_	Gender=Fem|Number=Sing	43	comp:obj	_	SpaceAfter=No
+45	GPIIb/IIIa	GPIIb/IIIa	PROPN	_	Number=Sing	43	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 46	.	.	PUNCT	_	Shared=Yes	26	punct	_	_
 
 # sent_id = emea-fr-dev_00192
@@ -6798,7 +6799,7 @@
 15	inhibiteur	inhibiteur	NOUN	_	Number=Sing	13	comp:obj	_	Gender[lex]=Masc
 16	de	de	ADP	_	_	15	udep	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	GPIIb/IIIa	GPIIb/IIIa	PROPN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
+18	GPIIb/IIIa	GPIIb/IIIa	PROPN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Fem
 19	soit	soit	CCONJ	_	_	20	cc	_	_
 20	avant	avant	ADP	_	_	13	mod	_	_
 21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	Gender[ctxt]=Fem|SpaceAfter=No
@@ -6833,7 +6834,7 @@
 19	inhibiteur	inhibiteur	NOUN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Masc
 20	de	de	ADP	_	_	19	udep	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	GPIIb/IIIa	GPIIb/IIIa	PROPN	_	Gender=Fem|Number=Sing	20	comp:obj	_	SpaceAfter=No
+22	GPIIb/IIIa	GPIIb/IIIa	PROPN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 23	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = emea-fr-dev_00315
@@ -8892,7 +8893,7 @@
 8	33619	33619	NUM	_	ExtPos=PROPN|NumType=Card	1	mod	_	Number[lex]=Sing
 9	Bielefeld	Bielefeld	PROPN	_	_	8	mod	_	Gender[lex]=Unknown|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
-11	Allemagne	Allemagne	PROPN	_	Gender=Fem|Number=Sing	8	mod	_	_
+11	Allemagne	Allemagne	PROPN	_	Number=Sing	8	mod	_	Gender[lex]=Fem
 
 # sent_id = emea-fr-dev_00406
 # text = CONDITIONS OU RESTRICTIONS DE DELIVRANCE ET D'UTILISATION IMPOSÉES AU TITULAIRE DE L'AUTORISATION DE MISE SUR LE MARCHE
@@ -9030,7 +9031,7 @@
 63	autorisées	autoriser	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	57	mod	_	Tense[denom]=Past
 64	par	par	ADP	_	_	63	comp:obl@agent	_	_
 65	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	66	det	_	_
-66	CHMP	CHMP	PROPN	_	Gender=Masc|Number=Sing	64	comp:obj	_	SpaceAfter=No
+66	CHMP	CHMP	PROPN	_	Number=Sing	64	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 67	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = emea-fr-dev_00411
@@ -11590,7 +11591,7 @@
 5	9	9	NUM	_	ExtPos=PROPN|NumType=Card	4	mod	_	Number[lex]=Sing
 6	33619	33619	NUM	_	ExtPos=PROPN|NumType=Card	1	mod	_	Number[lex]=Sing
 7	Bielefeld	Bielefeld	PROPN	_	_	6	mod	_	Gender[lex]=Unknown
-8	Allemagne	Allemagne	PROPN	_	Gender=Fem|Number=Sing	6	mod	_	_
+8	Allemagne	Allemagne	PROPN	_	Number=Sing	6	mod	_	Gender[lex]=Fem
 
 # sent_id = emea-fr-dev_00574
 # text = Pour toute information complémentaire concernant ce médicament, veuillez prendre contact avec le représentant local du titulaire de l'autorisation de mise sur le marché.

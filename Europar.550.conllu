@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Europar.550_00001
 # text = Je remercie le président en exercice pour sa réponse.
 1	Je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
@@ -124,11 +125,11 @@
 43-44	des	_	_	_	_	_	_	_	_
 43	de	de	ADP	_	_	35	udep	_	_
 44	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	45	det	_	_
-45	États-Unis	États-Unis	PROPN	_	Gender=Masc|Number=Plur	43	comp:obj	_	_
+45	États-Unis	États-Unis	PROPN	_	Number=Plur	43	comp:obj	_	Gender[lex]=Masc
 46	et	et	CCONJ	_	_	47	cc	_	_
 47	de	de	ADP	_	_	43	conj:coord	_	_
 48	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
-49	Nouvelle-Zélande	Nouvelle-Zélande	PROPN	_	Gender=Fem|Number=Sing	47	comp:obj	_	SpaceAfter=No
+49	Nouvelle-Zélande	Nouvelle-Zélande	PROPN	_	Number=Sing	47	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 50	,	,	PUNCT	_	_	56	punct	_	_
 51	où	où	ADV	_	PronType=Rel	56	mod	_	_
 52	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	53	det	_	_
@@ -285,7 +286,7 @@
 5	mesure	mesure	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Fem
 6	que	que	SCONJ	_	_	5	mod	_	_
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-8	Asie	Asie	PROPN	_	Gender=Fem|Number=Sing	9	subj	_	_
+8	Asie	Asie	PROPN	_	Number=Sing	9	subj	_	Gender[lex]=Fem
 9	bénéficiera	bénéficier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	comp:obj	_	_
 10	d'	de	ADP	_	_	9	comp:obl	_	SpaceAfter=No
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -335,7 +336,7 @@
 17	moyenne	moyen	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	_
 18	de	de	ADP	_	_	15	udep	_	_
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-20	UE	UE	PROPN	_	Gender=Fem|Number=Sing	18	comp:obj	_	SpaceAfter=No
+20	UE	UE	PROPN	_	Number=Sing	18	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 21	,	,	PUNCT	_	_	9	punct	_	_
 22	enregistrera	enregistrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	comp:obj	_	_
 23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
@@ -381,7 +382,7 @@
 3	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	engagés	engager	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	3	comp:aux@tense	_	Tense[denom]=Past
 5	à	à	ADP	_	_	4	mod	_	_
-6	Rio	Rio	PROPN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
+6	Rio	Rio	PROPN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Masc
 7	à	à	ADP	_	_	4	comp:obl	_	_
 8	protéger	protéger	VERB	_	VerbForm=Inf	7	comp:obj	_	Subject=SubjRaising
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -449,7 +450,7 @@
 16	sein	sein	NOUN	_	Number=Sing	14	comp:obj	_	Gender[lex]=Masc
 17	de	de	ADP	_	_	16	udep	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-19	UE	UE	PROPN	_	Gender=Fem|Number=Sing	17	comp:obj	_	SpaceAfter=No
+19	UE	UE	PROPN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 20	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Europar.550_00016
@@ -720,22 +721,22 @@
 17	nord	nord	NOUN	_	Number=Sing	10	conj:appos	_	Gender[lex]=Masc
 18	de	de	ADP	_	_	17	udep	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	Finlande	Finlande	PROPN	_	Gender=Fem|Number=Sing	18	comp:obj	_	SpaceAfter=No
+20	Finlande	Finlande	PROPN	_	Number=Sing	18	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	nord	nord	NOUN	_	Number=Sing	17	conj:coord	_	Gender[lex]=Masc
 24	de	de	ADP	_	_	23	udep	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	Suède	Suède	PROPN	_	Gender=Fem|Number=Sing	24	comp:obj	_	SpaceAfter=No
+26	Suède	Suède	PROPN	_	Number=Sing	24	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 27	,	,	PUNCT	_	_	29	punct	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	nord	nord	NOUN	_	Number=Sing	23	conj:coord	_	Gender[lex]=Masc
 30	de	de	ADP	_	_	29	udep	_	_
 31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-32	Norvège	Norvège	PROPN	_	Gender=Fem|Number=Sing	30	comp:obj	_	SpaceAfter=No
+32	Norvège	Norvège	PROPN	_	Number=Sing	30	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 33	,	,	PUNCT	_	_	35	punct	_	_
 34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-35	Groenland	Groenland	PROPN	_	Gender=Masc|Number=Sing	29	conj:coord	_	_
+35	Groenland	Groenland	PROPN	_	Number=Sing	29	conj:coord	_	Gender[lex]=Masc
 36	et	et	CCONJ	_	_	39	cc	_	_
 37	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	39	det	_	SpaceAfter=No
 38	autres	autre	ADJ	_	Number=Plur	39	mod	_	Gender[ctxt]=Fem
@@ -838,7 +839,7 @@
 42	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 43	traité	traité	NOUN	_	Number=Sing	41	comp:obj	_	Gender[lex]=Masc
 44	d'	de	ADP	_	_	43	udep	_	SpaceAfter=No
-45	Amsterdam	Amsterdam	PROPN	_	Gender=Masc|Number=Sing	44	comp:obj	_	SpaceAfter=No
+45	Amsterdam	Amsterdam	PROPN	_	Number=Sing	44	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 46	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Europar.550_00027
@@ -872,10 +873,10 @@
 26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	_
 27	traités	traité	NOUN	_	Number=Plur	25	comp:obj	_	Gender[lex]=Masc
 28	de	de	ADP	_	_	27	udep	_	_
-29	Rome	Rome	PROPN	_	Gender=Masc|Number=Sing	28	comp:obj	_	_
+29	Rome	Rome	PROPN	_	Number=Sing	28	comp:obj	_	Gender[lex]=Masc
 30	et	et	CCONJ	_	_	31	cc	_	_
 31	de	de	ADP	_	_	28	conj:coord	_	_
-32	Paris	Paris	PROPN	_	Gender=Masc|Number=Sing	31	comp:obj	_	_
+32	Paris	Paris	PROPN	_	Number=Sing	31	comp:obj	_	Gender[lex]=Masc
 33	qui	qui	PRON	_	PronType=Rel	34	subj	_	_
 34	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	27	mod@relcl	_	_
 35	fondé	fonder	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	34	comp:aux@tense	_	Tense[denom]=Past
@@ -1136,7 +1137,7 @@
 16	interférence	interférence	NOUN	_	Number=Sing	14	comp:obj	_	Gender[lex]=Fem
 17	de	de	ADP	_	_	16	udep	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-19	UE	UE	PROPN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
+19	UE	UE	PROPN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Fem
 20	dans	dans	ADP	_	_	16	udep	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	formation	formation	NOUN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Fem
@@ -1259,7 +1260,7 @@
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	gouvernement	gouvernement	NOUN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Masc
 23	en	en	ADP	_	_	19	udep	_	_
-24	Autriche	Autriche	PROPN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
+24	Autriche	Autriche	PROPN	_	Number=Sing	23	comp:obj	_	Gender[lex]=Fem
 25	et	et	CCONJ	_	_	27	cc	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	manière	manière	NOUN	_	Number=Sing	16	conj:coord	_	Gender[lex]=Fem
@@ -1296,14 +1297,14 @@
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	parti	parti	NOUN	_	Number=Sing	14	comp:obj	_	Gender[lex]=Masc
 21	de	de	ADP	_	_	20	udep	_	_
-22	Haider	Haider	PROPN	_	Gender=Masc|Number=Sing	21	comp:obj	_	SpaceAfter=No
+22	Haider	Haider	PROPN	_	Number=Sing	21	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 23	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Europar.550_00038
 # text = Même les États-Unis ont déclaré qu'ils envisageaient de rompre leurs relations diplomatiques.
 1	Même	même	ADV	_	_	3	mod	_	_
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
-3	États-Unis	États-Unis	PROPN	_	Gender=Masc|Number=Plur	4	subj	_	_
+3	États-Unis	États-Unis	PROPN	_	Number=Plur	4	subj	_	Gender[lex]=Masc
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	déclaré	déclarer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Tense[denom]=Past
 6	qu'	que	SCONJ	_	_	5	comp:obj	_	SpaceAfter=No
@@ -1522,7 +1523,7 @@
 # text = Donc l'Autriche a tout à fait le droit de former un gouvernement et le Président de la Commission a parfaitement le droit, et a même le devoir, de présenter ses meilleurs voeux à l'Autriche.
 1	Donc	donc	ADV	_	_	4	mod	_	_
 2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-3	Autriche	Autriche	PROPN	_	Gender=Fem|Number=Sing	4	subj	_	_
+3	Autriche	Autriche	PROPN	_	Number=Sing	4	subj	_	Gender[lex]=Fem
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	tout	tout	ADV	_	ExtPos=ADV	4	mod	_	Idiom=Yes
 6	à	à	ADP	_	_	5	unk	_	InIdiom=Yes
@@ -1557,7 +1558,7 @@
 35	voeux	voeu	NOUN	_	Number=Plur	32	comp:obj	_	Gender[lex]=Masc
 36	à	à	ADP	_	_	32	comp:obl	_	_
 37	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	38	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-38	Autriche	Autriche	PROPN	_	Gender=Fem|Number=Sing	36	comp:obj	_	SpaceAfter=No
+38	Autriche	Autriche	PROPN	_	Number=Sing	36	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 39	.	.	PUNCT	_	Shared=Yes	20	punct	_	_
 
 # sent_id = Europar.550_00046
@@ -1597,7 +1598,7 @@
 33	d'	de	ADP	_	_	32	udep	_	SpaceAfter=No
 34	immigrés	immigré	NOUN	_	Number=Plur	33	comp:obj	_	Gender[lex]=Masc
 35	en	en	ADP	_	_	27	mod	_	_
-36	France	France	PROPN	_	Gender=Fem|Number=Sing	35	comp:obj	_	SpaceAfter=No
+36	France	France	PROPN	_	Number=Sing	35	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 37	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Europar.550_00047
@@ -1712,7 +1713,7 @@
 1-2	Aux	_	_	_	_	_	_	_	_
 1	À	à	ADP	_	_	10	mod	_	_
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
-3	États-Unis	États-Unis	PROPN	_	Gender=Masc|Number=Plur	1	comp:obj	_	SpaceAfter=No
+3	États-Unis	États-Unis	PROPN	_	Number=Plur	1	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	traité	traité	NOUN	_	Number=Sing	10	subj	_	Gender[lex]=Masc
@@ -1754,7 +1755,7 @@
 # sent_id = Europar.550_00051
 # text = L'UE doit aussi avancer dans son travail législatif conformément à ce qui a été convenu à l'OMPI.
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	UE	UE	PROPN	_	Gender=Fem|Number=Sing	3	subj	_	_
+2	UE	UE	PROPN	_	Number=Sing	3	subj	_	Gender[lex]=Fem
 3	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	aussi	aussi	ADV	_	_	3	mod	_	_
 5	avancer	avancer	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=SubjRaising
@@ -1860,7 +1861,7 @@
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	culture	culture	NOUN	_	Number=Sing	9	comp:obj	_	Gender[lex]=Fem
 12	en	en	ADP	_	_	8	udep	_	_
-13	Europe	Europe	PROPN	_	Gender=Fem|Number=Sing	12	comp:obj	_	SpaceAfter=No
+13	Europe	Europe	PROPN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	bien	bien	ADV	_	_	16	mod	_	_
 16-17	au	_	_	_	_	_	_	_	_
@@ -1943,7 +1944,7 @@
 9	recommandation	recommandation	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Fem
 10	de	de	ADP	_	_	9	udep	_	_
 11	Mme	madame	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Fem
-12	Charlotte	Charlotte	PROPN	_	Gender=Fem|Number=Sing	11	flat@name	_	_
+12	Charlotte	Charlotte	PROPN	_	Number=Sing	11	flat@name	_	Gender[lex]=Fem
 13	Cederschiöld	Cederschiöld	PROPN	_	_	12	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	qui	qui	PRON	_	PronType=Rel	16	subj	_	_
@@ -2800,7 +2801,7 @@
 16	dirigeants	dirigeant	NOUN	_	Number=Plur	13	comp:obj	_	Gender[lex]=Masc
 17	de	de	ADP	_	_	16	udep	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	RDA	RDA	PROPN	_	Gender=Fem|Number=Sing	17	comp:obj	_	SpaceAfter=No
+19	RDA	RDA	PROPN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 20	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Europar.550_00087
@@ -2943,7 +2944,7 @@
 29	Kosovars	kosovar	ADJ	_	Gender=Masc|Number=Plur	28	mod	_	_
 30	albanais	albanais	ADJ	_	Gender=Masc	28	mod	_	Number[ctxt]=Plur
 31	en	en	ADP	_	_	28	udep	_	_
-32	Serbie	Serbie	PROPN	_	Gender=Fem|Number=Sing	31	comp:obj	_	SpaceAfter=No
+32	Serbie	Serbie	PROPN	_	Number=Sing	31	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 33	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -3183,7 +3184,7 @@
 
 # sent_id = Europar.550_00105
 # text = Flora Brovina, la docteur albanaise condamnée le 13 janvier à Nis, est maintenant gravement malade et mise sous surveillance dans une clinique de la même ville.
-1	Flora	Flora	PROPN	_	Gender=Fem|Number=Sing	14	subj	_	_
+1	Flora	Flora	PROPN	_	Number=Sing	14	subj	_	Gender[lex]=Fem
 2	Brovina	Brovina	PROPN	_	_	1	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -3501,7 +3502,7 @@
 6	villes	ville	NOUN	_	Number=Plur	5	comp:obj	_	Gender[lex]=Fem
 7	divisées	diviser	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	6	mod	_	Tense[denom]=Past
 8	en	en	ADP	_	_	2	mod	_	_
-9	Europe	Europe	PROPN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
+9	Europe	Europe	PROPN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Fem
 10	et	et	CCONJ	_	_	13	cc	_	_
 11	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	13	subj	_	_
 12	en	en	PRON	_	Person=3|PronType=Prs	13	comp:obj	_	_
@@ -3524,7 +3525,7 @@
 # text = Si la KFOR est attaquée, je ne puis que dire que ce sont nos fils et que nous les avons envoyés pour aider les Albanais et les Serbes, et qui que ce soit d'autre qui vit au Kosovo.
 1	Si	si	SCONJ	_	_	9	mod	_	_
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	KFOR	KFOR	PROPN	_	Gender=Fem|Number=Sing	4	subj@pass	_	_
+3	KFOR	KFOR	PROPN	_	Number=Sing	4	subj@pass	_	Gender[lex]=Fem
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 5	attaquée	attaquer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	comp:aux@pass	_	SpaceAfter=No|Tense[denom]=Past
 6	,	,	PUNCT	_	_	1	punct	_	_
@@ -3613,7 +3614,7 @@
 19	troupes	troupe	NOUN	_	Number=Plur	17	comp:obj	_	Gender[lex]=Fem
 20	de	de	ADP	_	_	19	udep	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	KFOR	KFOR	PROPN	_	Gender=Fem|Number=Sing	20	comp:obj	_	_
+22	KFOR	KFOR	PROPN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Fem
 23	en	en	ADP	_	_	17	comp:pred	_	_
 24	paix	paix	NOUN	_	_	23	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 25	.	.	PUNCT	_	_	5	punct	_	_
@@ -3689,7 +3690,7 @@
 12	de	de	ADP	_	_	11	udep	_	_
 13	terrible	terrible	ADJ	_	Number=Sing	12	comp:obj	_	Gender[ctxt]=Masc
 14	en	en	ADP	_	_	8	mod	_	_
-15	Serbie	Serbie	PROPN	_	Gender=Fem|Number=Sing	14	comp:obj	_	SpaceAfter=No
+15	Serbie	Serbie	PROPN	_	Number=Sing	14	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 16	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Europar.550_00130
@@ -3719,7 +3720,7 @@
 23	qui	qui	PRON	_	PronType=Rel	24	subj	_	_
 24	restait	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	mod@relcl	_	_
 25	en	en	ADP	_	_	24	comp:obl	_	_
-26	Serbie	Serbie	PROPN	_	Gender=Fem|Number=Sing	25	comp:obj	_	SpaceAfter=No
+26	Serbie	Serbie	PROPN	_	Number=Sing	25	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 27	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = Europar.550_00131
@@ -3840,7 +3841,7 @@
 # sent_id = Europar.550_00137
 # text = La Russie est membre permanent du Conseil de sécurité de l'ONU, membre à part entière du Conseil de l'Europe et de l'OSCE, invitée du G7, cliente du FMI et de la Banque mondiale.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	Russie	Russie	PROPN	_	Gender=Fem|Number=Sing	3	subj	_	_
+2	Russie	Russie	PROPN	_	Number=Sing	3	subj	_	Gender[lex]=Fem
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	membre	membre	NOUN	_	Number=Sing	3	comp:pred	_	Gender[lex]=Masc
 5	permanent	permanent	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	_
@@ -3852,7 +3853,7 @@
 10	sécurité	sécurité	NOUN	_	Number=Sing	9	comp:obj	_	Gender[lex]=Fem
 11	de	de	ADP	_	_	8	udep	_	_
 12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-13	ONU	ONU	PROPN	_	Gender=Fem|Number=Sing	11	comp:obj	_	SpaceAfter=No
+13	ONU	ONU	PROPN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	membre	membre	NOUN	_	Number=Sing	4	conj:coord	_	Gender[lex]=Masc
 16	à	à	ADP	_	ExtPos=ADJ	15	mod	_	Idiom=Yes
@@ -3864,7 +3865,7 @@
 21	Conseil	conseil	NOUN	_	Number=Sing	19	comp:obj	_	Gender[lex]=Masc
 22	de	de	ADP	_	_	21	udep	_	_
 23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-24	Europe	Europe	PROPN	_	Gender=Fem|Number=Sing	22	comp:obj	_	_
+24	Europe	Europe	PROPN	_	Number=Sing	22	comp:obj	_	Gender[lex]=Fem
 25	et	et	CCONJ	_	_	26	cc	_	_
 26	de	de	ADP	_	_	19	conj:coord	_	_
 27	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
@@ -3874,7 +3875,7 @@
 31-32	du	_	_	_	_	_	_	_	_
 31	de	de	ADP	_	_	30	udep	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	G7	G7	PROPN	_	Gender=Masc	31	comp:obj	_	SpaceAfter=No
+33	G7	G7	PROPN	_	_	31	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 34	,	,	PUNCT	_	_	35	punct	_	_
 35	cliente	client	NOUN	_	Number=Sing	30	conj:coord	_	Gender[lex]=Fem
 36-37	du	_	_	_	_	_	_	_	_
@@ -4365,7 +4366,7 @@
 13	visite	visite	NOUN	_	Number=Sing	24	subj@pass	_	Gender[lex]=Fem
 14	de	de	ADP	_	_	13	udep	_	_
 15	M.	monsieur	NOUN	_	Number=Sing	14	comp:obj	_	Gender[lex]=Masc
-16	Herman	Herman	PROPN	_	Gender=Masc|Number=Sing	15	flat@name	_	_
+16	Herman	Herman	PROPN	_	Number=Sing	15	flat@name	_	Gender[lex]=Masc
 17	De	de	ADP	_	_	15	udep	_	_
 18	Croo	Croo	PROPN	_	_	17	comp:obj	_	Gender[lex]=Unknown
 19	et	et	CCONJ	_	_	20	cc	_	_
@@ -4607,7 +4608,7 @@
 39	rapport	rapport	NOUN	_	Number=Sing	37	comp:obj	_	Gender[lex]=Masc
 40	de	de	ADP	_	_	39	udep	_	_
 41	MM.	monsieur	NOUN	_	Number=Plur	40	comp:obj	_	Gender[lex]=Masc
-42	Duff	Duff	PROPN	_	Gender=Masc|Number=Sing	41	flat@name	_	_
+42	Duff	Duff	PROPN	_	Number=Sing	41	flat@name	_	Gender[lex]=Masc
 43	et	et	CCONJ	_	_	44	cc	_	_
 44	Voggenhuber	Voggenhuber	PROPN	_	_	41	conj:coord	_	Gender[lex]=Unknown|SpaceAfter=No
 45	-	-	PUNCT	_	Shared=Yes	30	punct	_	SpaceAfter=No
@@ -5536,7 +5537,7 @@
 30	,	,	PUNCT	_	_	37	punct	_	_
 31	ou	ou	CCONJ	_	_	37	cc	_	_
 32	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	33	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-33	Europe	Europe	PROPN	_	Gender=Fem|Number=Sing	37	subj@pass	_	_
+33	Europe	Europe	PROPN	_	Number=Sing	37	subj@pass	_	Gender[lex]=Fem
 34-35	des	_	_	_	_	_	_	_	_
 34	de	de	ADP	_	_	33	udep	_	_
 35	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	36	det	_	_
@@ -6089,7 +6090,7 @@
 39	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
 40	convention	convention	NOUN	_	Number=Sing	36	comp:obj	_	Gender[lex]=Fem
 41	de	de	ADP	_	_	40	udep	_	_
-42	Dublin	Dublin	PROPN	_	Gender=Masc|Number=Sing	41	comp:obj	_	SpaceAfter=No
+42	Dublin	Dublin	PROPN	_	Number=Sing	41	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 43	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Europar.550_00196
@@ -6645,7 +6646,7 @@
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	convention	convention	NOUN	_	Number=Sing	13	comp:obj	_	Gender[lex]=Fem
 16	de	de	ADP	_	_	15	udep	_	_
-17	Dublin	Dublin	PROPN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
+17	Dublin	Dublin	PROPN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Masc
 18	elle-même	lui-même	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	15	mod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -6674,7 +6675,7 @@
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	convention	convention	NOUN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Fem
 23	de	de	ADP	_	_	22	udep	_	_
-24	Dublin	Dublin	PROPN	_	Gender=Masc|Number=Sing	23	comp:obj	_	_
+24	Dublin	Dublin	PROPN	_	Number=Sing	23	comp:obj	_	Gender[lex]=Masc
 25	actuelle	actuel	ADJ	_	Gender=Fem|Number=Sing	22	mod	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -7009,7 +7010,7 @@
 22	aide	aide	NOUN	_	Number=Sing	21	comp:obj	_	Gender[lex]=Fem
 23	à	à	ADP	_	_	20	comp:obl	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	Mongolie	Mongolie	PROPN	_	Gender=Fem|Number=Sing	23	comp:obj	_	SpaceAfter=No
+25	Mongolie	Mongolie	PROPN	_	Number=Sing	23	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 26	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Europar.550_00226
@@ -7173,13 +7174,13 @@
 11	sécurité	sécurité	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Fem
 12	-	-	PUNCT	_	_	14	punct	_	SpaceAfter=No
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	France	France	PROPN	_	Gender=Fem|Number=Sing	6	conj:appos	_	SpaceAfter=No
+14	France	France	PROPN	_	Number=Sing	6	conj:appos	_	Gender[lex]=Fem|SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	Chine	Chine	PROPN	_	Gender=Fem|Number=Sing	14	conj:coord	_	SpaceAfter=No
+17	Chine	Chine	PROPN	_	Number=Sing	14	conj:coord	_	Gender[lex]=Fem|SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	Russie	Russie	PROPN	_	Gender=Fem|Number=Sing	17	conj:coord	_	SpaceAfter=No
+20	Russie	Russie	PROPN	_	Number=Sing	17	conj:coord	_	Gender[lex]=Fem|SpaceAfter=No
 21	-	-	PUNCT	_	_	14	punct	_	_
 22	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 23	désormais	désormais	ADV	_	_	22	mod	_	_
@@ -7197,7 +7198,7 @@
 35	imposé	imposer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	34	mod	_	Tense[denom]=Past
 36	à	à	ADP	_	_	35	comp:obl	_	_
 37	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	38	det	_	Gender[ctxt]=Masc|SpaceAfter=No
-38	Irak	Irak	PROPN	_	Gender=Masc|Number=Sing	36	comp:obj	_	_
+38	Irak	Irak	PROPN	_	Number=Sing	36	comp:obj	_	Gender[lex]=Masc
 39	depuis	depuis	ADP	_	_	35	mod	_	_
 40	bientôt	bientôt	ADV	_	_	39	mod	_	_
 41	dix	dix	NUM	_	ExtPos=DET|NumType=Card	42	det	_	Number[lex]=Plur
@@ -7224,13 +7225,13 @@
 2	inspecteurs	inspecteur	NOUN	_	Number=Plur	12	subj	_	Gender[lex]=Masc
 3	de	de	ADP	_	_	2	udep	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-5	ONU	ONU	PROPN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
+5	ONU	ONU	PROPN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Fem
 6	pour	pour	ADP	_	_	2	udep	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	désarmement	désarmement	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Masc
 9	de	de	ADP	_	_	8	udep	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	Gender[ctxt]=Masc|SpaceAfter=No
-11	Irak	Irak	PROPN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
+11	Irak	Irak	PROPN	_	Number=Sing	9	comp:obj	_	Gender[lex]=Masc
 12	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	détruit	détruire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	12	comp:aux@tense	_	Tense[denom]=Past
 14	ou	ou	CCONJ	_	_	15	cc	_	_
@@ -7266,7 +7267,7 @@
 4	assurés	assurer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	3	comp:aux@tense	_	Tense[denom]=Past
 5	que	que	SCONJ	_	_	4	comp:obl	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Gender[ctxt]=Masc|SpaceAfter=No
-7	Irak	Irak	PROPN	_	Gender=Masc|Number=Sing	9	subj	_	_
+7	Irak	Irak	PROPN	_	Number=Sing	9	subj	_	Gender[lex]=Masc
 8	ne	ne	ADV	_	Polarity=Neg	9	mod	_	_
 9	dispose	disposer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
 10	d'	de	ADP	_	_	9	comp:obl	_	SpaceAfter=No
@@ -7301,7 +7302,7 @@
 16	,	,	PUNCT	_	_	11	punct	_	_
 17	que	que	SCONJ	_	_	9	comp:obj	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	Gender[ctxt]=Masc|SpaceAfter=No
-19	Irak	Irak	PROPN	_	Gender=Masc|Number=Sing	21	subj	_	_
+19	Irak	Irak	PROPN	_	Number=Sing	21	subj	_	Gender[lex]=Masc
 20	ne	ne	ADV	_	Polarity=Neg	21	mod	_	_
 21	possède	posséder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
 22	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	23	det	_	_
@@ -7329,7 +7330,7 @@
 43	experts	expert	NOUN	_	Number=Plur	42	comp:obj	_	_
 44	sur	sur	ADP	_	_	43	udep	_	_
 45	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	46	det	_	Gender[ctxt]=Masc|SpaceAfter=No
-46	Irak	Irak	PROPN	_	Gender=Masc|Number=Sing	44	comp:obj	_	SpaceAfter=No
+46	Irak	Irak	PROPN	_	Number=Sing	44	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 47	,	,	PUNCT	_	_	48	punct	_	_
 48	comme	comme	SCONJ	_	_	32	mod	_	_
 49	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	50	comp:obj	_	_
@@ -7371,7 +7372,7 @@
 6-7	des	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	5	udep	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
-8	États-Unis	États-Unis	PROPN	_	Gender=Masc|Number=Plur	6	comp:obj	_	_
+8	États-Unis	États-Unis	PROPN	_	Number=Plur	6	comp:obj	_	Gender[lex]=Masc
 9	refuse	refuser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	de	de	ADP	_	_	9	comp:obj	_	_
 11	lever	lever	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=SubjRaising
@@ -7383,7 +7384,7 @@
 17	prétexte	prétexte	NOUN	_	Number=Sing	16	comp:obj	_	_
 18	que	que	SCONJ	_	_	17	mod	_	_
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	Gender[ctxt]=Masc|SpaceAfter=No
-20	Irak	Irak	PROPN	_	Gender=Masc|Number=Sing	22	subj	_	_
+20	Irak	Irak	PROPN	_	Number=Sing	22	subj	_	Gender[lex]=Masc
 21	n'	ne	ADV	_	Polarity=Neg	22	mod	_	SpaceAfter=No
 22	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	comp:obj	_	_
 23	pas	pas	ADV	_	Polarity=Neg	22	mod	_	_
@@ -7400,12 +7401,12 @@
 4	moindre	moindre	ADJ	_	Number=Sing	5	mod	_	Gender[ctxt]=Fem
 5	preuve	preuve	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
-7	Washington	Washington	PROPN	_	Gender=Masc|Number=Sing	8	subj	_	_
+7	Washington	Washington	PROPN	_	Number=Sing	8	subj	_	Gender[lex]=Masc
 8	continue	continuer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	d'	de	ADP	_	_	8	comp:obj	_	SpaceAfter=No
 10	accuser	accuser	VERB	_	VerbForm=Inf	9	comp:obj	_	Subject=SubjRaising
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	Gender[ctxt]=Masc|SpaceAfter=No
-12	Irak	Irak	PROPN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
+12	Irak	Irak	PROPN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Masc
 13	de	de	ADP	_	_	10	comp:obl	_	_
 14	fabriquer	fabriquer	VERB	_	VerbForm=Inf	13	comp:obj	_	Subject=ObjRaising
 15	secrètement	secrètement	ADV	_	_	14	mod	_	_
@@ -7433,7 +7434,7 @@
 13	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	1	punct	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	France	France	PROPN	_	Gender=Fem|Number=Sing	17	subj	_	_
+16	France	France	PROPN	_	Number=Sing	17	subj	_	Gender[lex]=Fem
 17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 18	proposé	proposer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	17	comp:aux@tense	_	Tense[denom]=Past
 19-20	au	_	_	_	_	_	_	_	_
@@ -7472,7 +7473,7 @@
 
 # sent_id = Europar.550_00239
 # text = Washington a aussi refusé cette proposition, créant ainsi une situation qui nuit surtout au peuple irakien, et non à ses dirigeants.
-1	Washington	Washington	PROPN	_	Gender=Masc|Number=Sing	2	subj	_	_
+1	Washington	Washington	PROPN	_	Number=Sing	2	subj	_	Gender[lex]=Masc
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	aussi	aussi	ADV	_	_	2	mod	_	_
 4	refusé	refuser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Tense[denom]=Past
@@ -7507,7 +7508,7 @@
 4	humanitaires	humanitaire	ADJ	_	Number=Plur	3	mod	_	Gender[ctxt]=Fem
 5	de	de	ADP	_	_	3	udep	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-7	ONU	ONU	PROPN	_	Gender=Fem|Number=Sing	5	comp:obj	_	SpaceAfter=No
+7	ONU	ONU	PROPN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 8	,	,	PUNCT	_	_	1	punct	_	_
 9	plusieurs	plusieurs	DET	_	Number=Plur|PronType=Ind	10	det	_	_
 10	centaines	centaine	NOUN	_	Number=Plur	21	subj	_	Gender[lex]=Fem
@@ -7576,7 +7577,7 @@
 28	voyage	voyage	NOUN	_	Number=Sing	26	comp:obj	_	Gender[lex]=Masc
 29	effectué	effectuer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	28	mod	_	Tense[denom]=Past
 30	en	en	ADP	_	_	29	mod	_	_
-31	Irak	Irak	PROPN	_	Gender=Masc|Number=Sing	30	comp:obj	_	SpaceAfter=No
+31	Irak	Irak	PROPN	_	Number=Sing	30	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 32	,	,	PUNCT	_	_	23	punct	_	_
 33	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	rapport	rapport	NOUN	_	Number=Sing	18	comp:obj	_	Gender[lex]=Masc
@@ -7633,12 +7634,12 @@
 # sent_id = Europar.550_00243
 # text = M. Eric Rouleau, ex-ambassadeur de France, parle, lui, d'un génocide au ralenti.
 1	M.	monsieur	NOUN	_	Number=Sing	9	subj	_	Gender[lex]=Masc
-2	Eric	Eric	PROPN	_	Gender=Masc|Number=Sing	1	flat@name	_	_
+2	Eric	Eric	PROPN	_	Number=Sing	1	flat@name	_	Gender[lex]=Masc
 3	Rouleau	Rouleau	PROPN	_	_	2	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	ex-ambassadeur	ex-ambassadeur	NOUN	_	Number=Sing	1	conj:appos	_	Gender[lex]=Masc
 6	de	de	ADP	_	_	5	udep	_	_
-7	France	France	PROPN	_	Gender=Fem|Number=Sing	6	comp:obj	_	SpaceAfter=No
+7	France	France	PROPN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
@@ -7786,8 +7787,8 @@
 37	régime	régime	NOUN	_	Number=Sing	35	comp:obj	_	Gender[lex]=Masc
 38	dictatorial	dictatorial	ADJ	_	Gender=Masc|Number=Sing	37	mod	_	_
 39	de	de	ADP	_	_	37	udep	_	_
-40	Saddam	Saddam	PROPN	_	Gender=Masc|Number=Sing	39	comp:obj	_	_
-41	Hussein	Hussein	PROPN	_	Gender=Masc|Number=Sing	40	flat@name	_	SpaceAfter=No
+40	Saddam	Saddam	PROPN	_	Number=Sing	39	comp:obj	_	Gender[lex]=Masc
+41	Hussein	Hussein	PROPN	_	Number=Sing	40	flat@name	_	Gender[lex]=Masc|SpaceAfter=No
 42	.	.	PUNCT	_	Shared=Yes	24	punct	_	_
 
 # sent_id = Europar.550_00250
@@ -7815,7 +7816,7 @@
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	situation	situation	NOUN	_	Number=Sing	19	comp:obj	_	Gender[lex]=Fem
 22	en	en	ADP	_	_	21	udep	_	_
-23	Irak	Irak	PROPN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
+23	Irak	Irak	PROPN	_	Number=Sing	22	comp:obj	_	Gender[lex]=Masc
 24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	_
 25	été	être	AUX	_	VerbForm=Part	24	comp:aux@tense	_	Tense[denom]=Past
 26	retiré	retirer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	25	comp:aux@pass	_	SpaceAfter=No|Tense[denom]=Past
@@ -8130,7 +8131,7 @@
 4	tout	tout	ADV	_	_	5	mod	_	_
 5	comme	comme	ADP	_	_	2	mod	_	_
 6	Mme	madame	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Fem
-7	Evans	Evans	PROPN	_	Gender=Masc|Number=Sing	6	flat@name	_	SpaceAfter=No
+7	Evans	Evans	PROPN	_	Number=Sing	6	flat@name	_	Gender[lex]=Masc|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	que	que	SCONJ	_	_	2	comp:obj	_	_
 10	ceci	ceci	PRON	_	Number=Sing|Person=3|PronType=Dem	12	subj	_	_
@@ -8211,7 +8212,7 @@
 4	sois	être	AUX	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 5	originaire	originaire	ADJ	_	Number=Sing	4	comp:pred	_	Gender[ctxt]=Masc
 6	d'	de	ADP	_	_	5	comp:obl	_	SpaceAfter=No
-7	Écosse	Écosse	PROPN	_	Gender=Fem|Number=Sing	6	comp:obj	_	SpaceAfter=No
+7	Écosse	Écosse	PROPN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 8	,	,	PUNCT	_	_	1	punct	_	_
 9	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	10	subj	_	_
 10	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8237,7 +8238,7 @@
 30-31	du	_	_	_	_	_	_	_	_
 30	de	de	ADP	_	_	29	udep	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	Royaume-Uni	Royaume-Uni	PROPN	_	Gender=Masc|Number=Sing	30	comp:obj	_	_
+32	Royaume-Uni	Royaume-Uni	PROPN	_	Number=Sing	30	comp:obj	_	Gender[lex]=Masc
 33	mais	mais	CCONJ	_	_	35	cc	_	_
 34	également	également	ADV	_	_	33	mod	_	_
 35	pour	pour	ADP	_	_	23	conj:coord	_	_
@@ -8269,7 +8270,7 @@
 8	prochain	prochain	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
 9	débutera	débuter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 10	en	en	ADP	_	_	9	mod	_	_
-11	Iran	Iran	PROPN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
+11	Iran	Iran	PROPN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Masc
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	procès	procès	NOUN	_	_	9	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 14	à	à	ADP	_	_	13	udep	_	_
@@ -8302,10 +8303,10 @@
 15-16	des	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	14	udep	_	_
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
-17	États-Unis	États-Unis	PROPN	_	Gender=Masc|Number=Plur	15	comp:obj	_	_
+17	États-Unis	États-Unis	PROPN	_	Number=Plur	15	comp:obj	_	Gender[lex]=Masc
 18	et	et	CCONJ	_	_	19	cc	_	_
 19	d'	de	ADP	_	_	15	conj:coord	_	SpaceAfter=No
-20	Israël	Israël	PROPN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
+20	Israël	Israël	PROPN	_	Number=Sing	19	comp:obj	_	Gender[lex]=Masc
 21	-	-	PUNCT	_	_	23	punct	_	SpaceAfter=No
 22	lesquels	lequel	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	23	subj	_	_
 23	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	_
@@ -8530,7 +8531,7 @@
 9	soir	soir	NOUN	_	Number=Sing	8	mod	_	Gender[lex]=Masc
 10	que	que	SCONJ	_	_	7	comp:obj	_	_
 11	M.	monsieur	NOUN	_	Number=Sing	30	subj@pass	_	Gender[lex]=Masc
-12	Akim	Akim	PROPN	_	Gender=Masc|Number=Sing	11	flat@name	_	_
+12	Akim	Akim	PROPN	_	Number=Sing	11	flat@name	_	Gender[lex]=Masc
 13	Birdal	Birdal	PROPN	_	_	12	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	Gender[ctxt]=Masc|SpaceAfter=No
@@ -8548,7 +8549,7 @@
 25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 26	homme	homme	NOUN	_	Number=Sing	24	comp:obj	_	Gender[lex]=Masc
 27	de	de	ADP	_	_	26	udep	_	_
-28	Turquie	Turquie	PROPN	_	Gender=Fem|Number=Sing	27	comp:obj	_	SpaceAfter=No
+28	Turquie	Turquie	PROPN	_	Number=Sing	27	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 29	,	,	PUNCT	_	_	17	punct	_	_
 30	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
 31	été	être	AUX	_	VerbForm=Part	30	comp:aux@tense	_	Tense[denom]=Past
@@ -8686,7 +8687,7 @@
 13	convenu	convenir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	12	comp:aux@tense	_	Tense[denom]=Past
 14	que	que	SCONJ	_	_	13	comp:obl	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	Zimbabwe	Zimbabwe	PROPN	_	Gender=Masc|Number=Sing	17	subj	_	_
+16	Zimbabwe	Zimbabwe	PROPN	_	Number=Sing	17	subj	_	Gender[lex]=Masc
 17	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 19	cinquième	cinquième	ADJ	_	Number=Sing|NumType=Ord	20	mod	_	Gender[ctxt]=Masc
@@ -8865,7 +8866,7 @@
 53-54	du	_	_	_	_	_	_	_	_
 53	de	de	ADP	_	_	52	udep	_	_
 54	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
-55	Royaume-Uni	Royaume-Uni	PROPN	_	Gender=Masc|Number=Sing	53	comp:obj	_	SpaceAfter=No
+55	Royaume-Uni	Royaume-Uni	PROPN	_	Number=Sing	53	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 56	,	,	PUNCT	_	_	30	punct	_	_
 57	cela	cela	PRON	_	Number=Sing|Person=3|PronType=Dem	58	subj	_	_
 58	facilitera	faciliter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	29	comp:obj	_	_
@@ -9559,7 +9560,7 @@
 13	que	que	SCONJ	_	Shared=Yes	11	comp:obj	_	_
 14	dans	dans	ADP	_	_	23	mod	_	_
 15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	Europe	Europe	PROPN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
+16	Europe	Europe	PROPN	_	Number=Sing	14	comp:obj	_	Gender[lex]=Fem
 17	de	de	ADP	_	_	16	udep	_	_
 18	quinze	quinze	NUM	_	ExtPos=DET|NumType=Card	19	det	_	Number[lex]=Plur
 19	États	état	NOUN	_	Number=Plur	17	comp:obj	_	Gender[lex]=Masc
@@ -9912,8 +9913,8 @@
 14	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	13	comp:obj	_	InIdiom=Yes
 15	à	à	ADP	_	_	7	conj:coord	_	_
 16	M.	monsieur	NOUN	_	Number=Sing	15	comp:obj	_	Gender[lex]=Masc
-17	Da	Da	PROPN	_	Gender=Masc|Number=Sing	16	flat@name	_	_
-18	Costa	Costa	PROPN	_	Gender=Masc|Number=Sing	17	flat@name	_	_
+17	Da	Da	PROPN	_	Number=Sing	16	flat@name	_	Gender[lex]=Masc
+18	Costa	Costa	PROPN	_	Number=Sing	17	flat@name	_	Gender[lex]=Masc
 19	pour	pour	ADP	_	_	15	orphan	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	collaboration	collaboration	NOUN	_	Number=Sing	19	comp:obj	_	Gender[lex]=Fem
@@ -10132,7 +10133,7 @@
 # text = Le Traité UE stipule très clairement que le Parlement européen donne décharge à la Commission pour l'exécution du budget.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Traité	traité	NOUN	_	Number=Sing	4	subj	_	Gender[lex]=Masc
-3	UE	UE	PROPN	_	Gender=Fem|Number=Sing	2	mod	_	_
+3	UE	UE	PROPN	_	Number=Sing	2	mod	_	Gender[lex]=Fem
 4	stipule	stipuler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	très	très	ADV	_	_	6	mod	_	_
 6	clairement	clairement	ADV	_	_	4	mod	_	_
@@ -10451,7 +10452,7 @@
 16	de	de	ADP	_	_	15	udep	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	budget	budget	NOUN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Masc
-19	UE	UE	PROPN	_	Gender=Fem|Number=Sing	18	mod	_	SpaceAfter=No
+19	UE	UE	PROPN	_	Number=Sing	18	mod	_	Gender[lex]=Fem|SpaceAfter=No
 20	,	,	PUNCT	_	_	4	punct	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	coopération	coopération	NOUN	_	Number=Sing	28	subj	_	Gender[lex]=Fem
@@ -10546,7 +10547,7 @@
 4	,	,	PUNCT	_	_	12	punct	_	_
 5	famine	famine	NOUN	_	Number=Sing	12	dislocated	_	Gender[lex]=Fem
 6	et	et	CCONJ	_	_	7	cc	_	_
-7	Éthiopie	Éthiopie	PROPN	_	Gender=Fem|Number=Sing	5	conj:coord	_	SpaceAfter=No
+7	Éthiopie	Éthiopie	PROPN	_	Number=Sing	5	conj:coord	_	Gender[lex]=Fem|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	ces	ce	DET	_	Number=Plur|PronType=Dem	11	det	_	_
 10	deux	deux	NUM	_	ExtPos=DET|NumType=Card	11	mod	_	Number[lex]=Plur
@@ -10567,7 +10568,7 @@
 3	corne	corne	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Fem
 4	de	de	ADP	_	_	3	udep	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-6	Afrique	Afrique	PROPN	_	Gender=Fem|Number=Sing	4	comp:obj	_	SpaceAfter=No
+6	Afrique	Afrique	PROPN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	devenue	devenir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	3	mod	_	Tense[denom]=Past
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -10588,7 +10589,7 @@
 24	dont	dont	CCONJ	_	_	25	udep	_	_
 25	8	8	NUM	_	ExtPos=PRON|NumType=Card	17	conj:appos	_	Number[lex]=Plur
 26	en	en	ADP	_	_	25	udep	_	_
-27	Éthiopie	Éthiopie	PROPN	_	Gender=Fem|Number=Sing	26	comp:obj	_	SpaceAfter=No
+27	Éthiopie	Éthiopie	PROPN	_	Number=Sing	26	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 28	,	,	PUNCT	_	_	25	punct	_	_
 29	attendent	attendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 30	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
@@ -10612,7 +10613,7 @@
 12	sud-est	sud-est	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Masc
 13	de	de	ADP	_	_	12	udep	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-15	Éthiopie	Éthiopie	PROPN	_	Gender=Fem|Number=Sing	13	comp:obj	_	SpaceAfter=No
+15	Éthiopie	Éthiopie	PROPN	_	Number=Sing	13	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 16	,	,	PUNCT	_	_	1	punct	_	_
 17	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	subj@expl	_	_
 18	n'	ne	ADV	_	Polarity=Neg	19	mod	_	SpaceAfter=No
@@ -10837,11 +10838,11 @@
 3	exiger	exiger	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising
 4	de	de	ADP	_	_	3	comp:obl	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-6	Érythrée	Érythrée	PROPN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
+6	Érythrée	Érythrée	PROPN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Fem
 7	et	et	CCONJ	_	_	8	cc	_	_
 8	de	de	ADP	_	_	4	conj:coord	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-10	Éthiopie	Éthiopie	PROPN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
+10	Éthiopie	Éthiopie	PROPN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Fem
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	gel	gel	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Masc
 13-14	des	_	_	_	_	_	_	_	_
@@ -11575,7 +11576,7 @@
 38	élevés	élevé	ADJ	_	Gender=Masc|Number=Plur	35	comp:pred	_	_
 39	pour	pour	ADP	_	_	35	mod	_	_
 40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	det	_	_
-41	Balkans	Balkans	PROPN	_	Gender=Masc|Number=Plur	39	comp:obj	_	_
+41	Balkans	Balkans	PROPN	_	Number=Plur	39	comp:obj	_	Gender[lex]=Masc
 42	occidentaux	occidental	ADJ	_	Gender=Masc|Number=Plur	41	mod	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	44	punct	_	_
 44	dans	dans	ADP	_	_	35	mod	_	_
@@ -11589,10 +11590,10 @@
 51	pré-adhésion	pré-adhésion	NOUN	_	Number=Sing	50	comp:obj	_	Gender[lex]=Fem
 52	pour	pour	ADP	_	_	49	udep	_	_
 53	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
-54	Bulgarie	Bulgarie	PROPN	_	Gender=Fem|Number=Sing	52	comp:obj	_	_
+54	Bulgarie	Bulgarie	PROPN	_	Number=Sing	52	comp:obj	_	Gender[lex]=Fem
 55	et	et	CCONJ	_	_	57	cc	_	_
 56	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
-57	Roumanie	Roumanie	PROPN	_	Gender=Fem|Number=Sing	54	conj:coord	_	SpaceAfter=No
+57	Roumanie	Roumanie	PROPN	_	Number=Sing	54	conj:coord	_	Gender[lex]=Fem|SpaceAfter=No
 58	,	,	PUNCT	_	_	79	punct	_	_
 59	et	et	CCONJ	_	_	79	cc	_	_
 60	selon	selon	ADP	_	_	79	mod	_	_
@@ -11790,7 +11791,7 @@
 17	engagement	engagement	NOUN	_	Number=Sing	15	comp:obj	_	Gender[lex]=Masc
 18	de	de	ADP	_	_	17	udep	_	_
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-20	Europe	Europe	PROPN	_	Gender=Fem|Number=Sing	18	comp:obj	_	SpaceAfter=No
+20	Europe	Europe	PROPN	_	Number=Sing	18	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	à	à	ADP	_	_	2	mod	_	_
 23	prendre	prendre	VERB	_	VerbForm=Inf	22	comp:obj	_	Subject=Instantiated
@@ -11840,7 +11841,7 @@
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	région	région	NOUN	_	Number=Sing	28	comp:obj	_	Gender[lex]=Fem
 31	de	de	ADP	_	_	30	udep	_	_
-32	Sarajevo	Sarajevo	PROPN	_	Gender=Masc|Number=Sing	31	comp:obj	_	_
+32	Sarajevo	Sarajevo	PROPN	_	Number=Sing	31	comp:obj	_	Gender[lex]=Masc
 33	et	et	CCONJ	_	_	34	cc	_	_
 34	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	conj:coord	_	_
 35	décédés	décéder	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	34	comp:aux@tense	_	SpaceAfter=No|Tense[denom]=Past
@@ -12204,7 +12205,7 @@
 12	plan	plan	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Masc
 13	dans	dans	ADP	_	_	4	mod	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
-15	Balkans	Balkans	PROPN	_	Gender=Masc|Number=Plur	13	comp:obj	_	SpaceAfter=No
+15	Balkans	Balkans	PROPN	_	Number=Plur	13	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 16	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Europar.550_00374
@@ -12608,8 +12609,8 @@
 
 # sent_id = Europar.550_00386
 # text = John Kenneth Galbraith a dénoncé l'illusion selon laquelle argent et intelligence seraient des facteurs liés.
-1	John	John	PROPN	_	Gender=Masc|Number=Sing	4	subj	_	_
-2	Kenneth	Kenneth	PROPN	_	Gender=Masc|Number=Sing	1	flat@name	_	_
+1	John	John	PROPN	_	Number=Sing	4	subj	_	Gender[lex]=Masc
+2	Kenneth	Kenneth	PROPN	_	Number=Sing	1	flat@name	_	Gender[lex]=Masc
 3	Galbraith	Galbraith	PROPN	_	_	1	mod	_	Gender[lex]=Unknown
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	dénoncé	dénoncer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Tense[denom]=Past
@@ -12739,10 +12740,10 @@
 # sent_id = Europar.550_00391
 # text = La Finlande et le Royaume-Uni en ont tiré des conséquences et ont instauré une autorité prudentielle unique pour tout le secteur.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	Finlande	Finlande	PROPN	_	Gender=Fem|Number=Sing	7	subj	_	_
+2	Finlande	Finlande	PROPN	_	Number=Sing	7	subj	_	Gender[lex]=Fem
 3	et	et	CCONJ	_	_	5	cc	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	Royaume-Uni	Royaume-Uni	PROPN	_	Gender=Masc|Number=Sing	2	conj:coord	_	_
+5	Royaume-Uni	Royaume-Uni	PROPN	_	Number=Sing	2	conj:coord	_	Gender[lex]=Masc
 6	en	en	PRON	_	Person=3|PronType=Prs	8	comp:obl	_	_
 7	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	tiré	tirer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	7	comp:aux@tense	_	Tense[denom]=Past
@@ -12782,7 +12783,7 @@
 16	confier	confier	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising
 17	à	à	ADP	_	_	16	comp:obl	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	B.C.E.	B.C.E.	PROPN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
+19	B.C.E.	B.C.E.	PROPN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Fem
 20	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	21	det	_	_
 21	missions	mission	NOUN	_	Number=Plur	16	comp:obj	_	Gender[lex]=Fem
 22	spécifiques	spécifique	ADJ	_	Number=Plur	21	mod	_	Gender[ctxt]=Fem
@@ -12845,7 +12846,7 @@
 21	confier	confier	VERB	_	VerbForm=Inf	20	comp:obj	_	Subject=SubjRaising
 22	à	à	ADP	_	_	21	comp:obl	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	B.C.E.	B.C.E.	PROPN	_	Gender=Fem|Number=Sing	22	comp:obj	_	_
+24	B.C.E.	B.C.E.	PROPN	_	Number=Sing	22	comp:obj	_	Gender[lex]=Fem
 25	certaines	certains	DET	_	Gender=Fem|PronType=Ind	26	det	_	Number[lex]=Plur
 26	missions	mission	NOUN	_	Number=Plur	21	comp:obj	_	Gender[lex]=Fem
 27	spécifiques	spécifique	ADJ	_	Number=Plur	26	mod	_	Gender[ctxt]=Fem|SpaceAfter=No
@@ -13816,7 +13817,7 @@
 33	,	,	PUNCT	_	_	35	punct	_	_
 34	tant	tant	ADV	_	_	35	mod	_	_
 35	en	en	ADP	_	_	21	mod	_	_
-36	France	France	PROPN	_	Gender=Fem|Number=Sing	35	comp:obj	_	_
+36	France	France	PROPN	_	Number=Sing	35	comp:obj	_	Gender[lex]=Fem
 37	que	que	SCONJ	_	_	35	unk	_	_
 38	dans	dans	ADP	_	_	37	comp:obj	_	_
 39	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	42	det	_	_
@@ -14791,7 +14792,7 @@
 27-28	du	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	_	25	udep	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	Zimbabwe	Zimbabwe	PROPN	_	Gender=Masc|Number=Sing	27	comp:obj	_	_
+29	Zimbabwe	Zimbabwe	PROPN	_	Number=Sing	27	comp:obj	_	Gender[lex]=Masc
 30	réside	résider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
 31	dans	dans	ADP	_	_	30	comp:obl	_	_
 32	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	33	det	_	Gender[ctxt]=Fem|SpaceAfter=No
@@ -14865,7 +14866,7 @@
 16-17	au	_	_	_	_	_	_	_	_
 16	à	à	ADP	_	_	15	comp:obl	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	Zimbabwe	Zimbabwe	PROPN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
+18	Zimbabwe	Zimbabwe	PROPN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Masc
 19	dès	dès	ADP	_	_	14	mod	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	début	début	NOUN	_	Number=Sing	19	comp:obj	_	Gender[lex]=Masc
@@ -14933,7 +14934,7 @@
 9-10	au	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	5	comp:obl	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	Zimbabwe	Zimbabwe	PROPN	_	Gender=Masc|Number=Sing	9	comp:obj	_	SpaceAfter=No
+11	Zimbabwe	Zimbabwe	PROPN	_	Number=Sing	9	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	si	si	SCONJ	_	ExtPos=ADV	15	mod	_	Idiom=Yes
 14	possible	possible	ADJ	_	Number=Sing	13	unk	_	Gender[ctxt]=Masc|InIdiom=Yes
@@ -14964,7 +14965,7 @@
 3	durant	durant	ADP	_	_	7	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-6	Europe	Europe	PROPN	_	Gender=Fem|Number=Sing	7	subj	_	_
+6	Europe	Europe	PROPN	_	Number=Sing	7	subj	_	Gender[lex]=Fem
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	tenté	tenter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	7	comp:aux@tense	_	Tense[denom]=Past
 9	d'	de	ADP	_	_	8	comp:obj	_	SpaceAfter=No
@@ -14986,7 +14987,7 @@
 24	etc.	etc.	ADV	_	_	10	mod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	en	en	ADP	_	_	10	mod	_	_
-27	Afrique	Afrique	PROPN	_	Gender=Fem|Number=Sing	26	comp:obj	_	_
+27	Afrique	Afrique	PROPN	_	Number=Sing	26	comp:obj	_	Gender[lex]=Fem
 28	australe	austral	ADJ	_	Gender=Fem|Number=Sing	27	mod	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -15036,7 +15037,7 @@
 10-11	au	_	_	_	_	_	_	_	_
 10	à	à	ADP	_	_	9	udep	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	Zimbabwe	Zimbabwe	PROPN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
+12	Zimbabwe	Zimbabwe	PROPN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Masc
 13	ne	ne	ADV	_	Polarity=Neg	15	mod	_	_
 14	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	15	comp@expl	_	_
 15	déroulaient	dérouler	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	comp:obj	_	_
@@ -15105,7 +15106,7 @@
 31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	convention	convention	NOUN	_	Number=Sing	30	comp:obj	_	Gender[lex]=Fem
 33	de	de	ADP	_	_	32	udep	_	_
-34	Lomé	Lomé	PROPN	_	Gender=Masc|Number=Sing	33	comp:obj	_	_
+34	Lomé	Lomé	PROPN	_	Number=Sing	33	comp:obj	_	Gender[lex]=Masc
 35	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 36	être	être	AUX	_	VerbForm=Inf	35	comp:obj	_	Subject=SubjRaising
 37	supprimée	supprimer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	36	comp:aux@pass	_	SpaceAfter=No|Tense[denom]=Past
@@ -15137,7 +15138,7 @@
 21	reste	reste	NOUN	_	Number=Sing	19	comp:obj	_	Gender[lex]=Masc
 22	de	de	ADP	_	_	21	udep	_	_
 23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-24	Afrique	Afrique	PROPN	_	Gender=Fem|Number=Sing	22	comp:obj	_	_
+24	Afrique	Afrique	PROPN	_	Number=Sing	22	comp:obj	_	Gender[lex]=Fem
 25	australe	austral	ADJ	_	Gender=Fem|Number=Sing	24	mod	_	_
 26	et	et	CCONJ	_	_	27	cc	_	_
 27	entraîner	entraîner	VERB	_	VerbForm=Inf	18	conj:coord	_	Subject=Instantiated
@@ -15158,7 +15159,7 @@
 42	reste	reste	NOUN	_	Number=Sing	39	comp:obj	_	Gender[lex]=Masc
 43	de	de	ADP	_	_	42	udep	_	_
 44	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	45	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-45	Afrique	Afrique	PROPN	_	Gender=Fem|Number=Sing	43	comp:obj	_	SpaceAfter=No
+45	Afrique	Afrique	PROPN	_	Number=Sing	43	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 46	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = Europar.550_00476
@@ -15185,7 +15186,7 @@
 6	que	que	SCONJ	_	_	5	unk	_	InIdiom=Yes
 7	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	8	subj	_	_
 8	félicite	féliciter	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
-9	Konstantinos	Konstantinos	PROPN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
+9	Konstantinos	Konstantinos	PROPN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Masc
 10	Alyssandrakis	Alyssandrakis	PROPN	_	_	9	flat@name	_	Gender[lex]=Unknown
 11	pour	pour	ADP	_	_	8	comp:obl	_	_
 12	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	13	det	_	_
@@ -15249,7 +15250,7 @@
 23	,	,	PUNCT	_	_	38	punct	_	_
 24	et	et	CCONJ	_	_	38	cc	_	_
 25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-26	Europe	Europe	PROPN	_	Gender=Fem|Number=Sing	38	subj	_	SpaceAfter=No
+26	Europe	Europe	PROPN	_	Number=Sing	38	subj	_	Gender[lex]=Fem|SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	avec	avec	ADP	_	_	26	udep	_	_
 29	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	30	det	_	_
@@ -15458,8 +15459,8 @@
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	astronaute	astronaute	NOUN	_	Number=Sing	6	conj:appos	_	_
-11	John	John	PROPN	_	Gender=Masc|Number=Sing	10	mod	_	_
-12	Glenn	Glenn	PROPN	_	Gender=Masc|Number=Sing	11	flat@name	_	SpaceAfter=No
+11	John	John	PROPN	_	Number=Sing	10	mod	_	Gender[lex]=Masc
+12	Glenn	Glenn	PROPN	_	Number=Sing	11	flat@name	_	Gender[lex]=Masc|SpaceAfter=No
 13	,	,	PUNCT	_	_	10	punct	_	_
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	parti	partir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	14	comp:aux@tense	_	Tense[denom]=Past
@@ -15555,7 +15556,7 @@
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	déclaration	déclaration	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Fem
 10	de	de	ADP	_	_	9	udep	_	_
-11	Robert	Robert	PROPN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
+11	Robert	Robert	PROPN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Masc
 12	Schuman	Schuman	PROPN	_	_	11	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
 13	,	,	PUNCT	_	_	17	punct	_	_
 14	que	que	PRON	_	PronType=Rel	20	comp:obj	_	_
@@ -15675,16 +15676,16 @@
 38	par	par	ADP	_	_	32	comp:obl@agent	_	_
 39	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	40	det	_	_
 40	prédécesseurs	prédécesseur	NOUN	_	Number=Plur	38	comp:obj	_	Gender[lex]=Masc
-41	Enrique	Enrique	PROPN	_	Gender=Masc|Number=Sing	40	mod	_	_
+41	Enrique	Enrique	PROPN	_	Number=Sing	40	mod	_	Gender[lex]=Masc
 42	Barón	Barón	PROPN	_	_	41	flat@name	_	Gender[lex]=Unknown
 43	Crespo	Crespo	PROPN	_	_	41	mod	_	Gender[lex]=Unknown|SpaceAfter=No
 44	,	,	PUNCT	_	_	45	punct	_	_
-45	Klaus	Klaus	PROPN	_	Gender=Masc|Number=Sing	41	conj:coord	_	_
+45	Klaus	Klaus	PROPN	_	Number=Sing	41	conj:coord	_	Gender[lex]=Masc
 46	Hänsch	Hänsch	PROPN	_	_	45	flat@name	_	Gender[lex]=Unknown
 47	et	et	CCONJ	_	_	48	cc	_	_
-48	José	José	PROPN	_	Gender=Masc|Number=Sing	45	conj:coord	_	_
-49	Maria	Maria	PROPN	_	Gender=Fem|Number=Sing	48	flat@name	_	_
-50	Gil	Gil	PROPN	_	Gender=Masc|Number=Sing	48	mod	_	_
+48	José	José	PROPN	_	Number=Sing	45	conj:coord	_	Gender[lex]=Masc
+49	Maria	Maria	PROPN	_	Number=Sing	48	flat@name	_	Gender[lex]=Fem
+50	Gil	Gil	PROPN	_	Number=Sing	48	mod	_	Gender[lex]=Masc
 51	Robles	Robles	PROPN	_	_	48	mod	_	Gender[lex]=Unknown|SpaceAfter=No
 52	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -15781,7 +15782,7 @@
 86	appartenance	appartenance	NOUN	_	Number=Sing	84	comp:obj	_	Gender[lex]=Fem
 87	à	à	ADP	_	_	86	udep	_	_
 88	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	89	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-89	Europe	Europe	PROPN	_	Gender=Fem|Number=Sing	87	comp:obj	_	SpaceAfter=No
+89	Europe	Europe	PROPN	_	Number=Sing	87	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 90	.	.	PUNCT	_	Shared=Yes	32	punct	_	_
 
 # sent_id = Europar.550_00497
@@ -15911,7 +15912,7 @@
 34	devise	devise	NOUN	_	Number=Sing	32	comp:obj	_	Gender[lex]=Fem
 35	pour	pour	ADP	_	_	31	udep	_	_
 36	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	37	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-37	Europe	Europe	PROPN	_	Gender=Fem|Number=Sing	35	comp:obj	_	_
+37	Europe	Europe	PROPN	_	Number=Sing	35	comp:obj	_	Gender[lex]=Fem
 38	et	et	CCONJ	_	_	39	cc	_	_
 39	que	que	SCONJ	_	_	8	conj:coord	_	_
 40	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
@@ -16161,7 +16162,7 @@
 5	nuit	nuit	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Fem
 6	dernière	dernier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	5	mod	_	_
 7	à	à	ADP	_	_	2	udep	_	_
-8	Copenhague	Copenhague	PROPN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
+8	Copenhague	Copenhague	PROPN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Masc
 9	soulignent	souligner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	à	à	ADP	_	_	14	mod	_	_
 11	quel	quel	DET	_	Gender=Masc|Number=Sing|PronType=Int	12	det	_	_
@@ -16210,7 +16211,7 @@
 14	rencontres	rencontre	NOUN	_	Number=Plur	12	subj	_	Gender[lex]=Fem
 15	de	de	ADP	_	_	14	udep	_	_
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	Gender[ctxt]=Masc|SpaceAfter=No
-17	Euro	Euro	PROPN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
+17	Euro	Euro	PROPN	_	Number=Sing	15	comp:obj	_	Gender[lex]=Masc
 18	2000	2000	NUM	_	ExtPos=PROPN|NumType=Card	17	mod	_	Number[lex]=Sing|SpaceAfter=No
 19	,	,	PUNCT	_	_	1	punct	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -16827,7 +16828,7 @@
 17-18	au	_	_	_	_	_	_	_	_
 17	à	à	ADP	_	_	16	comp:obl	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	Pays	Pays	PROPN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
+19	Pays	Pays	PROPN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Masc
 20	basque	basque	ADJ	_	Number=Sing	19	mod	_	Gender[ctxt]=Masc
 21	afin	afin	ADV	_	_	16	mod	_	_
 22	de	de	ADP	_	_	21	comp:obj	_	_
@@ -16900,7 +16901,7 @@
 1	Nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	2	subj	_	_
 2	devons	devoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	à	à	ADP	_	_	2	comp:obl	_	_
-4	Nelson	Nelson	PROPN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
+4	Nelson	Nelson	PROPN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Masc
 5	Mandela	Mandela	PROPN	_	_	4	flat@name	_	Gender[lex]=Unknown
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	respect	respect	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Masc
@@ -16914,7 +16915,7 @@
 2	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	pu	pouvoir	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Tense[denom]=Past
 4	écouter	écouter	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=SubjRaising
-5	Nelson	Nelson	PROPN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
+5	Nelson	Nelson	PROPN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Masc
 6	Mandela	Mandela	PROPN	_	_	5	flat@name	_	Gender[lex]=Unknown
 7-8	au	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	4	mod	_	_
@@ -17109,15 +17110,15 @@
 18	grande	grand	ADJ	_	Gender=Fem|Number=Sing	19	mod	_	_
 19	instance	instance	NOUN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Fem
 20	de	de	ADP	_	_	16	udep	_	_
-21	Berlin	Berlin	PROPN	_	Gender=Fem|Number=Sing	20	comp:obj	_	_
+21	Berlin	Berlin	PROPN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Fem
 22	de	de	ADP	_	_	8	udep	_	_
 23	lever	lever	VERB	_	VerbForm=Inf	22	comp:obj	_	Subject=Generic
 24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 25	immunité	immunité	NOUN	_	Number=Sing	23	comp:obj	_	Gender[lex]=Fem
 26	de	de	ADP	_	_	25	udep	_	_
 27	M.	monsieur	NOUN	_	Number=Sing	26	comp:obj	_	Gender[lex]=Masc
-28	André	André	PROPN	_	Gender=Masc|Number=Sing	27	flat@name	_	_
-29	Brie	Brie	PROPN	_	Gender=Masc|Number=Sing	28	flat@name	_	SpaceAfter=No
+28	André	André	PROPN	_	Number=Sing	27	flat@name	_	Gender[lex]=Masc
+29	Brie	Brie	PROPN	_	Number=Sing	28	flat@name	_	Gender[lex]=Masc|SpaceAfter=No
 30	,	,	PUNCT	_	_	32	punct	_	_
 31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	membre	membre	NOUN	_	Number=Sing	27	conj:appos	_	Gender[lex]=Masc
@@ -17175,7 +17176,7 @@
 6	organisée	organiser	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	mod	_	Tense[denom]=Past
 7	par	par	ADP	_	_	6	comp:obl@agent	_	_
 8	M.	monsieur	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Masc
-9	Brie	Brie	PROPN	_	Gender=Masc|Number=Sing	8	flat@name	_	_
+9	Brie	Brie	PROPN	_	Number=Sing	8	flat@name	_	Gender[lex]=Masc
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
 12	partisans	partisan	NOUN	_	Number=Plur	8	conj:coord	_	Gender[lex]=Masc
@@ -17199,9 +17200,9 @@
 30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	Porte	porte	NOUN	_	Number=Sing	29	comp:obj	_	Gender[lex]=Fem
 32	de	de	ADP	_	_	31	udep	_	_
-33	Brandebourg	Brandebourg	PROPN	_	Gender=Masc|Number=Sing	32	comp:obj	_	_
+33	Brandebourg	Brandebourg	PROPN	_	Number=Sing	32	comp:obj	_	Gender[lex]=Masc
 34	à	à	ADP	_	_	31	udep	_	_
-35	Berlin	Berlin	PROPN	_	Gender=Fem|Number=Sing	34	comp:obj	_	_
+35	Berlin	Berlin	PROPN	_	Number=Sing	34	comp:obj	_	Gender[lex]=Fem
 36	pour	pour	ADP	_	Shared=Yes	26	mod	_	_
 37	protester	protester	VERB	_	VerbForm=Inf	36	comp:obj	_	Subject=Instantiated
 38	contre	contre	ADP	_	_	37	comp:obl	_	_
@@ -17376,7 +17377,7 @@
 36	sauf	sauf	CCONJ	_	_	23	conj:appos	_	_
 37	si	si	SCONJ	_	_	36	comp:obj	_	_
 38	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-39	Bundestag	Bundestag	PROPN	_	Gender=Masc|Number=Sing	41	subj	_	_
+39	Bundestag	Bundestag	PROPN	_	Number=Sing	41	subj	_	Gender[lex]=Masc
 40	en	en	PRON	_	Person=3|PronType=Prs	43	udep	_	_
 41	donne	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	comp:obj	_	_
 42	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
@@ -17412,7 +17413,7 @@
 8	que	que	SCONJ	_	_	6	comp:obj@agent	_	_
 9	si	si	SCONJ	_	_	19	mod	_	_
 10	M.	monsieur	NOUN	_	Number=Sing	12	subj	_	Gender[lex]=Masc
-11	Brie	Brie	PROPN	_	Gender=Masc|Number=Sing	10	flat@name	_	_
+11	Brie	Brie	PROPN	_	Number=Sing	10	flat@name	_	Gender[lex]=Masc
 12	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	comp:obj	_	_
 13	député	député	NOUN	_	Number=Sing	12	comp:pred	_	Gender[lex]=Masc
 14-15	au	_	_	_	_	_	_	_	_
@@ -17773,7 +17774,7 @@
 17	exemption	exemption	NOUN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Fem
 18	pour	pour	ADP	_	Shared=Yes	15	udep	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	Grèce	Grèce	PROPN	_	Gender=Fem|Number=Sing	18	comp:obj	_	SpaceAfter=No
+20	Grèce	Grèce	PROPN	_	Number=Sing	18	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	par	par	ADP	_	_	18	mod	_	_
 23	exemple	exemple	NOUN	_	Number=Sing	22	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
@@ -17822,7 +17823,7 @@
 17	exportations	exportation	NOUN	_	Number=Plur	15	comp:obj	_	Gender[lex]=Fem
 18	de	de	ADP	_	_	17	udep	_	_
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-20	Europe	Europe	PROPN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
+20	Europe	Europe	PROPN	_	Number=Sing	18	comp:obj	_	Gender[lex]=Fem
 21	vers	vers	ADP	_	_	17	udep	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
 23	pays	pays	NOUN	_	_	21	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
