@@ -1835,7 +1835,7 @@
 7	présent	présent	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	_
 8	résumé	résumé	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Masc
 9	:	:	PUNCT	_	_	10	punct	_	_
-10	09-2008	09-2008	NOUN	_	NumType=Card	2	mod	_	SpaceAfter=No
+10	09-2008	09-2008	NUM	_	ExtPos=PROPN|NumType=Card	2	mod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = emea-fr-test_00064
@@ -2855,7 +2855,7 @@
 
 # sent_id = emea-fr-test_00110
 # text = Aclasta n'est pas recommandé chez les patients atteints d'insuffisance rénale sévère (clairance de la créatinine < 35 ml/min) en raison d'une expérience clinique limitée dans cette population.
-1	Aclasta	Aclasta	PROPN	_	_	3	subj@pass	_	_
+1	Aclasta	Aclasta	PROPN	_	_	3	subj@pass	_	Gender[lex]=Unknown
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
@@ -3478,7 +3478,7 @@
 15-16	du	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	14	udep	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	possible	possible	NOUN	_	Number=Sing	15	comp:obj	_	_
+17	possible	possible	NOUN	_	Number=Sing	15	comp:obj	_	Gender[lex]=Masc
 18	toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	19	det	_	_
 19	intervention	intervention	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Fem
 20	dentaire	dentaire	ADJ	_	Number=Sing	19	mod	_	Gender[ctxt]=Fem
@@ -5614,7 +5614,7 @@
 54	de	de	ADP	_	_	53	udep	_	_
 55	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
 56	fémur	fémur	NOUN	_	Number=Sing	54	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
-57	-1,5	-1,5	NOUN	_	NumType=Card	50	mod	_	_
+57	-1,5	-1,5	NUM	_	ExtPos=PROPN|NumType=Card	50	mod	_	_
 58	et	et	CCONJ	_	_	63	cc	_	_
 59-60	au	_	_	_	_	_	_	_	_
 59	à	à	ADP	_	ExtPos=ADV	58	mod	_	Idiom=Yes
@@ -5899,7 +5899,7 @@
 9	plus	plus	ADV	_	_	7	conj:coord	_	_
 10	traitées	traiter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	3	mod	_	Tense[denom]=Past
 11	par	par	ADP	_	_	10	mod	_	_
-12	Aclasta	Aclasta	PROPN	_	_	11	comp:obj	_	SpaceAfter=No
+12	Aclasta	Aclasta	PROPN	_	_	11	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 13	,	,	PUNCT	_	_	1	punct	_	_
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	réduction	réduction	NOUN	_	Number=Sing	25	subj@pass	_	Gender[lex]=Fem
@@ -6736,7 +6736,7 @@
 # text = Le groupe Aclasta a montré une perte de taille moindre de 2,5 mm environ par rapport au placebo ((IC à 95% : 1,6 mm, 3,5 mm) [p < 0,0001].
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	groupe	groupe	NOUN	_	Number=Sing	4	subj	_	Gender[lex]=Masc
-3	Aclasta	Aclasta	PROPN	_	_	2	mod	_	_
+3	Aclasta	Aclasta	PROPN	_	_	2	mod	_	Gender[lex]=Unknown
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	montré	montrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Tense[denom]=Past
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -6756,7 +6756,7 @@
 19	placebo	placebo	NOUN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Masc
 20	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
 21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
-22	IC	IC	PROPN	_	_	5	parataxis:insert	_	_
+22	IC	IC	PROPN	_	_	5	parataxis:insert	_	Gender[lex]=Unknown
 23	à	à	ADP	_	_	22	udep	_	_
 24	95	95	NUM	_	ExtPos=DET|NumType=Card	25	det	_	SpaceAfter=No
 25	%	%	SYM	_	ExtPos=NOUN|Number=Plur	23	comp:obj	_	_
@@ -6822,7 +6822,7 @@
 
 # sent_id = emea-fr-test_00252
 # text = Aclasta a également réduit significativement le nombre moyen de jours d'activité limitée et de jours d'alitement du fait de fractures de 2,9 jours par rapport à 0,5 jours dans le groupe placebo (p < 0,01 pour toutes les valeurs).
-1	Aclasta	Aclasta	PROPN	_	_	2	subj	_	_
+1	Aclasta	Aclasta	PROPN	_	_	2	subj	_	Gender[lex]=Unknown
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	également	également	ADV	_	_	2	mod	_	_
 4	réduit	réduire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Tense[denom]=Past
@@ -7005,7 +7005,7 @@
 30	fémoral	fémoral	ADJ	_	Gender=Masc|Number=Sing	29	mod	_	_
 31	supérieur	supérieur	ADJ	_	Gender=Masc|Number=Sing	26	mod	_	_
 32	à	à	ADP	_	_	31	comp:obl	_	SpaceAfter=No
-33	-2,5	-2,5	NOUN	_	NumType=Card	32	comp:obj	_	SpaceAfter=No
+33	-2,5	-2,5	NUM	_	ExtPos=PROPN|NumType=Card	32	comp:obj	_	SpaceAfter=No
 34	.	.	PUNCT	_	Shared=Yes	24	punct	_	_
 
 # sent_id = emea-fr-test_00256
@@ -7773,7 +7773,7 @@
 2	6	6	NUM	_	ExtPos=DET|NumType=Card	3	det	_	_
 3	mois	mois	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	Aclasta	Aclasta	PROPN	_	_	6	subj	_	_
+5	Aclasta	Aclasta	PROPN	_	_	6	subj	_	Gender[lex]=Unknown
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	montré	montrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	6	comp:aux@tense	_	Tense[denom]=Past
 8	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
@@ -7796,26 +7796,26 @@
 24	96	96	NUM	_	ExtPos=DET|NumType=Card	25	det	_	SpaceAfter=No
 25	%	%	SYM	_	ExtPos=NOUN|Number=Plur	23	comp:obj	_	_
 26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
-27	169/176	169/176	NOUN	_	NumType=Card	25	conj:appos	_	SpaceAfter=No
+27	169/176	169/176	NUM	_	ExtPos=PROPN|NumType=Card	25	conj:appos	_	SpaceAfter=No
 28	)	)	PUNCT	_	_	27	punct	_	_
 29	et	et	CCONJ	_	_	31	cc	_	_
 30	89	89	NUM	_	ExtPos=DET|NumType=Card	31	det	_	SpaceAfter=No
 31	%	%	SYM	_	ExtPos=NOUN|Number=Plur	25	conj:coord	_	_
 32	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
-33	156/176	156/176	NOUN	_	NumType=Card	31	conj:appos	_	SpaceAfter=No
+33	156/176	156/176	NUM	_	ExtPos=PROPN|NumType=Card	31	conj:appos	_	SpaceAfter=No
 34	)	)	PUNCT	_	_	33	punct	_	_
 35	comparé	comparer	VERB	_	Gender=Masc|Number=Sing|Typo=Yes|VerbForm=Part|Voice=Pass	9	mod	_	CorrectForm=comparés|CorrectNumber=Plur|Tense[denom]=Past
 36	à	à	ADP	_	_	35	comp:obl	_	_
 37	74	74	NUM	_	ExtPos=DET|NumType=Card	38	det	_	SpaceAfter=No
 38	%	%	SYM	_	ExtPos=NOUN|Number=Plur	36	comp:obj	_	_
 39	(	(	PUNCT	_	_	40	punct	_	SpaceAfter=No
-40	127/171	127/171	NOUN	_	NumType=Card	38	conj:appos	_	SpaceAfter=No
+40	127/171	127/171	NUM	_	ExtPos=PROPN|NumType=Card	38	conj:appos	_	SpaceAfter=No
 41	)	)	PUNCT	_	_	40	punct	_	_
 42	et	et	CCONJ	_	_	44	cc	_	_
 43	58	58	NUM	_	ExtPos=DET|NumType=Card	44	det	_	SpaceAfter=No
 44	%	%	SYM	_	ExtPos=NOUN|Number=Plur	38	conj:coord	_	_
 45	(	(	PUNCT	_	_	46	punct	_	SpaceAfter=No
-46	99/171	99/171	NOUN	_	NumType=Card	44	conj:appos	_	SpaceAfter=No
+46	99/171	99/171	NUM	_	ExtPos=PROPN|NumType=Card	44	conj:appos	_	SpaceAfter=No
 47	)	)	PUNCT	_	_	46	punct	_	_
 48	pour	pour	ADP	_	Shared=Yes	44	udep	_	_
 49	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
@@ -11069,7 +11069,7 @@
 
 # sent_id = emea-fr-test_00516
 # text = Aclasta n'est pas recommandé chez des patients présentant une atteinte rénale sévère (clairance de la créatinine < 35 ml/min) en raison d'un manque d'expérience clinique suffisante dans cette population.
-1	Aclasta	Aclasta	PROPN	_	_	3	subj@pass	_	_
+1	Aclasta	Aclasta	PROPN	_	_	3	subj@pass	_	Gender[lex]=Unknown
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
@@ -11692,7 +11692,7 @@
 12-13	des	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	11	udep	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
-14	enfants	enfant	NOUN	_	Number=Plur	12	comp:obj	_	SpaceAfter=No
+14	enfants	enfant	NOUN	_	Number=Plur	12	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = emea-fr-test_00540

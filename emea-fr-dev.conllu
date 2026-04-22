@@ -1699,7 +1699,7 @@
 # text = EU / 1/04/289/001
 1	EU	EU	NOUN	_	_	0	root	_	_
 2	/	/	SYM	_	_	1	unk	_	_
-3	1/04/289/001	1/04/289/001	NOUN	_	NumType=Card	1	mod	_	_
+3	1/04/289/001	1/04/289/001	NUM	_	ExtPos=PROPN|NumType=Card	1	mod	_	_
 
 # sent_id = emea-fr-dev_00074
 # text = Angiox
@@ -1745,7 +1745,7 @@
 # text = EU / 1/04/289/002
 1	EU	EU	NOUN	_	_	0	root	_	_
 2	/	/	SYM	_	_	1	unk	_	_
-3	1/04/289/002	1/04/289/002	NOUN	_	NumType=Card	1	mod	_	_
+3	1/04/289/002	1/04/289/002	NUM	_	ExtPos=PROPN|NumType=Card	1	mod	_	_
 
 # sent_id = emea-fr-dev_00081
 # text = 2 flacons
@@ -2920,7 +2920,7 @@
 
 # sent_id = emea-fr-dev_00134
 # text = Angiox est contre-indiqué chez les patients atteints d'insuffisance rénale sévère (TFG < 30 ml/min) ainsi que chez les patients sous dialyse (voir rubrique 4.3).
-1	Angiox	Angiox	PROPN	_	_	2	subj@pass	_	_
+1	Angiox	Angiox	PROPN	_	_	2	subj@pass	_	Gender[lex]=Unknown
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	contre-indiqué	contre-indiquer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	comp:aux@pass	_	Tense[denom]=Past
 4	chez	chez	ADP	_	_	3	mod	_	_
@@ -2932,7 +2932,7 @@
 10	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	9	mod	_	_
 11	sévère	sévère	ADJ	_	Number=Sing	9	mod	_	Gender[ctxt]=Fem
 12	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
-13	TFG	TFG	PROPN	_	_	14	subj	_	_
+13	TFG	TFG	NOUN	_	_	14	subj	_	_
 14	<	<	SYM	_	ExtPos=ADP	9	parataxis:insert	_	_
 15	30	30	NUM	_	ExtPos=DET|NumType=Card	16	det	_	_
 16	ml	ml	NOUN	_	_	14	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
@@ -3254,7 +3254,7 @@
 4	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	3	mod	_	_
 5	sévère	sévère	ADJ	_	Number=Sing	3	mod	_	Gender[ctxt]=Fem
 6	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
-7	TFG	TFG	PROPN	_	_	8	subj	_	_
+7	TFG	TFG	NOUN	_	_	8	subj	_	_
 8	<	<	SYM	_	ExtPos=ADP	3	parataxis:insert	_	_
 9	30	30	NUM	_	ExtPos=DET|NumType=Card	10	det	_	_
 10	ml	ml	NOUN	_	_	8	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
@@ -5979,7 +5979,7 @@
 10	code	code	NOUN	_	Number=Sing	1	mod	_	Gender[lex]=Masc
 11	ATC	ATC	PROPN	_	_	10	mod	_	Gender[lex]=Unknown
 12	:	:	PUNCT	_	_	13	punct	_	_
-13	B01AE06	B01AE06	NOUN	_	_	10	conj:appos	_	SpaceAfter=No
+13	B01AE06	B01AE06	X	_	ExtPos=NOUN	10	conj:appos	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = emea-fr-dev_00293
@@ -9318,7 +9318,7 @@
 10-11	des	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	9	udep	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
-12	enfants	enfant	NOUN	_	Number=Plur	10	comp:obj	_	SpaceAfter=No
+12	enfants	enfant	NOUN	_	Number=Plur	10	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 13	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = emea-fr-dev_00431
@@ -11356,7 +11356,7 @@
 10-11	des	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	9	udep	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
-12	enfants	enfant	NOUN	_	Number=Plur	10	comp:obj	_	SpaceAfter=No
+12	enfants	enfant	NOUN	_	Number=Plur	10	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 13	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = emea-fr-dev_00557

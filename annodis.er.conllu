@@ -1192,7 +1192,7 @@
 # sent_id = annodis.er_00039
 # text = Les enfants et les pêcheurs
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
-2	enfants	enfant	NOUN	_	Number=Plur	0	root	_	_
+2	enfants	enfant	NOUN	_	Number=Plur	0	root	_	Gender[lex]=Unknown
 3	et	et	CCONJ	_	_	5	cc	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	pêcheurs	pêcheur	NOUN	_	Number=Plur	2	conj:coord	_	Gender[lex]=Masc
@@ -1432,7 +1432,7 @@
 # sent_id = annodis.er_00045
 # text = Les enfants fêtent saint Honoré
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
-2	enfants	enfant	NOUN	_	Number=Plur	3	subj	_	_
+2	enfants	enfant	NOUN	_	Number=Plur	3	subj	_	Gender[lex]=Unknown
 3	fêtent	fêter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	saint	saint	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Masc
 5	Honoré	Honoré	PROPN	_	Number=Sing	4	mod	_	Gender[lex]=Masc
@@ -1710,7 +1710,7 @@
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	formation	formation	NOUN	_	Number=Sing	26	comp:obj	_	Gender[lex]=Fem
 29	de	de	ADP	_	_	28	udep	_	_
-30	Laneuville	Laneuville	PROPN	_	_	29	comp:obj	_	SpaceAfter=No
+30	Laneuville	Laneuville	PROPN	_	_	29	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 31	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = annodis.er_00058
@@ -1736,9 +1736,9 @@
 # sent_id = annodis.er_00060
 # text = Les cyclistes et vététistes peuvent se réunir ce matin, à 9h, place Jacques-Bailleurs, à l'occasion d'une sortie d'entraînement.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
-2	cyclistes	cycliste	NOUN	_	Number=Plur	5	subj	_	_
+2	cyclistes	cycliste	NOUN	_	Number=Plur	5	subj	_	Gender[lex]=Unknown
 3	et	et	CCONJ	_	_	4	cc	_	_
-4	vététistes	vététiste	NOUN	_	Number=Plur	2	conj:coord	_	_
+4	vététistes	vététiste	NOUN	_	Number=Plur	2	conj:coord	_	Gender[lex]=Unknown
 5	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	comp@expl	_	_
 7	réunir	réunir	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=SubjRaising
@@ -1750,7 +1750,7 @@
 13	h	h	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	place	place	NOUN	_	Number=Sing	7	mod	_	Gender[lex]=Fem
-16	Jacques-Bailleurs	Jacques-Bailleurs	PROPN	_	_	15	mod	_	SpaceAfter=No
+16	Jacques-Bailleurs	Jacques-Bailleurs	PROPN	_	_	15	mod	_	Gender[lex]=Unknown|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	à	à	ADP	_	_	7	mod	_	_
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	Gender[ctxt]=Fem|SpaceAfter=No
@@ -1803,7 +1803,7 @@
 17	h	h	NOUN	_	Number=Sing	15	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	salle	salle	NOUN	_	Number=Sing	6	mod	_	Gender[lex]=Fem
-20	Jean-Mathieu	Jean-Mathieu	PROPN	_	_	19	mod	_	SpaceAfter=No
+20	Jean-Mathieu	Jean-Mathieu	PROPN	_	_	19	mod	_	Gender[lex]=Unknown|SpaceAfter=No
 21	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = annodis.er_00064
@@ -2217,7 +2217,7 @@
 2	condoléances	condoléances	NOUN	_	Number=Plur	0	root	_	Gender[lex]=Fem
 3	à	à	ADP	_	_	2	udep	_	_
 4	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	5	det	_	_
-5	enfants	enfant	NOUN	_	Number=Plur	3	comp:obj	_	SpaceAfter=No
+5	enfants	enfant	NOUN	_	Number=Plur	3	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = annodis.er_00083
@@ -3811,7 +3811,7 @@
 11-12	du	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	10	udep	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	livre	livre	NOUN	_	Number=Sing	11	comp:obj	_	_
+13	livre	livre	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Masc
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	en	en	PRON	_	Person=3|PronType=Prs	17	comp:obl	_	_
 16	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj:coord	_	_
@@ -3982,7 +3982,7 @@
 6	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	5	mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	1	punct	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
-9	enfants	enfant	NOUN	_	Number=Plur	15	subj	_	_
+9	enfants	enfant	NOUN	_	Number=Plur	15	subj	_	Gender[lex]=Unknown
 10	de	de	ADP	_	_	9	udep	_	_
 11	CE2	CE2	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Masc
 12	de	de	ADP	_	_	9	udep	_	_
@@ -4031,7 +4031,7 @@
 2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	comp@expl	_	SpaceAfter=No
 3	exprimer	exprimer	VERB	_	VerbForm=Inf	1	comp:aux@caus	_	Subject=ObjRaising
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
-5	enfants	enfant	NOUN	_	Number=Plur	1	comp:obj@agent	_	_
+5	enfants	enfant	NOUN	_	Number=Plur	1	comp:obj@agent	_	Gender[lex]=Unknown
 6	à	à	ADP	_	ExtPos=ADP	1	mod	_	Idiom=Yes
 7	travers	travers	NOUN	_	_	6	unk	_	Gender[lex]=Masc|InIdiom=Yes
 8	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
@@ -4434,7 +4434,7 @@
 19	famille	famille	NOUN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Fem
 20	de	de	ADP	_	_	19	udep	_	_
 21	cinq	cinq	NUM	_	ExtPos=DET|NumType=Card	22	det	_	Number[lex]=Plur
-22	enfants	enfant	NOUN	_	Number=Plur	20	comp:obj	_	SpaceAfter=No
+22	enfants	enfant	NOUN	_	Number=Plur	20	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 23	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = annodis.er_00164
@@ -4515,7 +4515,7 @@
 2	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=3|PronType=Prs	3	comp:obl	_	_
 3	donna	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	sept	sept	NUM	_	ExtPos=DET|NumType=Card	5	det	_	Number[lex]=Plur
-5	enfants	enfant	NOUN	_	Number=Plur	3	comp:obj	_	_
+5	enfants	enfant	NOUN	_	Number=Plur	3	comp:obj	_	Gender[lex]=Unknown
 6	avant	avant	ADP	_	_	3	mod	_	_
 7	que	que	SCONJ	_	_	6	comp:obj	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -4645,7 +4645,7 @@
 12	accompagnée	accompagner	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	6	mod	_	Tense[denom]=Past
 13	de	de	ADP	_	_	12	comp:obl@agent	_	_
 14	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	15	det	_	_
-15	enfants	enfant	NOUN	_	Number=Plur	13	comp:obj	_	SpaceAfter=No
+15	enfants	enfant	NOUN	_	Number=Plur	13	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	à	à	ADP	_	_	6	mod	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -4726,7 +4726,7 @@
 14	en	en	ADP	_	_	3	mod	_	_
 15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 16	église	église	NOUN	_	Number=Sing	14	comp:obj	_	Gender[lex]=Fem
-17	Saint-Etienne	Saint-Etienne	PROPN	_	_	16	mod	_	_
+17	Saint-Etienne	Saint-Etienne	PROPN	_	_	16	mod	_	Gender[lex]=Unknown
 18	de	de	ADP	_	_	16	udep	_	_
 19	Bar-le-Duc	Bar-le-Duc	PROPN	_	Number=Sing	18	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 20	.	.	PUNCT	_	_	3	punct	_	_
@@ -5246,7 +5246,7 @@
 9	que	que	PRON	_	PronType=Rel	10	comp:obj	_	_
 10	côtoient	côtoyer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
 11	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	12	det	_	_
-12	enfants	enfant	NOUN	_	Number=Plur	10	subj	_	_
+12	enfants	enfant	NOUN	_	Number=Plur	10	subj	_	Gender[lex]=Unknown
 13	en	en	ADP	_	_	10	mod	_	_
 14	attendant	attendre	VERB	_	VerbForm=Part	13	comp:obj	_	Tense[denom]=Pres
 15	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	16	det	_	_
@@ -5321,7 +5321,7 @@
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Pré	pré	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Masc
 8	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
-9	Evêque	Evêque	NOUN	_	Number=Sing	7	mod	_	_
+9	Evêque	évêque	NOUN	_	Number=Sing	7	mod	_	Gender[lex]=Masc
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	prés	pré	NOUN	_	Number=Plur	7	conj:coord	_	Gender[lex]=Masc
@@ -5372,7 +5372,7 @@
 5	après-midi	après-midi	NOUN	_	Number=Sing	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
 7	quelques	quelques	DET	_	Definite=Ind|PronType=Ind	8	det	_	Number[lex]=Plur
-8	enfants	enfant	NOUN	_	Number=Plur	10	subj	_	_
+8	enfants	enfant	NOUN	_	Number=Plur	10	subj	_	Gender[lex]=Unknown
 9	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	10	comp@expl	_	SpaceAfter=No
 10	adonnaient	adonner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 11	à	à	ADP	_	_	10	comp:obl	_	_
@@ -5516,7 +5516,7 @@
 2	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	nombreux	nombreux	ADJ	_	Gender=Masc	2	comp:pred	_	Number[ctxt]=Plur
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
-5	Brasiliens	Brasilien	NOUN	_	Number=Plur	2	dislocated	_	_
+5	Brasiliens	brasilien	NOUN	_	Number=Plur	2	dislocated	_	Gender[lex]=Masc
 6	présents	présent	ADJ	_	Gender=Masc|Number=Plur	5	mod	_	_
 7	lors	lors	ADV	_	_	2	mod	_	_
 8	de	de	ADP	_	_	7	comp:obl	_	_
@@ -5847,7 +5847,7 @@
 13	finalement	finalement	ADV	_	_	14	mod	_	_
 14	céder	céder	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=Instantiated
 15	par	par	ADP	_	_	14	mod	_	_
-16	36-32	36-32	NOUN	_	NumType=Card	15	comp:obj	_	SpaceAfter=No
+16	36-32	36-32	NUM	_	ExtPos=PROPN|NumType=Card	15	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = annodis.er_00224
@@ -5892,7 +5892,7 @@
 25	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	26	comp@expl	_	SpaceAfter=No
 26	emportèrent	emporter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	conj:coord	_	_
 27	par	par	ADP	_	_	26	comp:obl	_	_
-28	45-36	45-36	NOUN	_	NumType=Card	27	comp:obj	_	SpaceAfter=No
+28	45-36	45-36	NUM	_	ExtPos=PROPN|NumType=Card	27	comp:obj	_	SpaceAfter=No
 29	.	.	PUNCT	_	Shared=Yes	26	punct	_	_
 
 # sent_id = annodis.er_00226
@@ -5949,7 +5949,7 @@
 5	devant	devant	ADP	_	_	4	mod	_	_
 6	Joeuf	Joeuf	PROPN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Masc
 7	par	par	ADP	_	_	4	mod	_	_
-8	70-61	70-61	NOUN	_	NumType=Card	7	comp:obj	_	SpaceAfter=No
+8	70-61	70-61	NUM	_	ExtPos=PROPN|NumType=Card	7	comp:obj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = annodis.er_00229
@@ -7082,7 +7082,7 @@
 25-26	des	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	24	udep	_	_
 26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	_
-27	sommes	somme	NOUN	_	Number=Plur	25	comp:obj	_	_
+27	sommes	somme	NOUN	_	Number=Plur	25	comp:obj	_	Gender[lex]=Fem
 28	dues	devoir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	27	mod	_	Tense[denom]=Past
 29	à	à	ADP	_	_	28	comp:obl	_	_
 30	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	31	det	_	_
@@ -7758,7 +7758,7 @@
 # sent_id = annodis.er_00300
 # text = Premier tour des "Petits Tigres".
 1	Premier	premier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	2	mod	_	_
-2	tour	tour	NOUN	_	Number=Sing	0	root	_	_
+2	tour	tour	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Masc
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
@@ -7910,10 +7910,10 @@
 5	dirigé	diriger	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	mod	_	Tense[denom]=Past
 6	par	par	ADP	_	_	5	comp:obl@agent	_	_
 7	Frédéric	Frédéric	PROPN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Masc
-8	Pierlot	Pierlot	PROPN	_	_	7	flat@name	_	_
+8	Pierlot	Pierlot	PROPN	_	_	7	flat@name	_	Gender[lex]=Unknown
 9	de	de	ADP	_	_	7	udep	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
-11	OFP	OFP	PROPN	_	Number=Sing	9	comp:obj	_	SpaceAfter=No
+11	OFP	OFP	PROPN	_	Number=Sing	9	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 12	,	,	PUNCT	_	_	1	punct	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	responsables	responsable	NOUN	_	Number=Plur	50	subj	_	_
@@ -7943,15 +7943,15 @@
 37	,	,	PUNCT	_	_	38	punct	_	_
 38	Nomeny	Nomeny	PROPN	_	Number=Sing	36	conj:coord	_	Gender[lex]=Masc|SpaceAfter=No
 39	,	,	PUNCT	_	_	40	punct	_	_
-40	Thiaucourt	Thiaucourt	PROPN	_	_	38	conj:coord	_	SpaceAfter=No
+40	Thiaucourt	Thiaucourt	PROPN	_	_	38	conj:coord	_	Gender[lex]=Unknown|SpaceAfter=No
 41	,	,	PUNCT	_	_	42	punct	_	_
 42	3	3	NUM	_	ExtPos=PROPN|NumType=Card	40	conj:coord	_	_
-43	Vallées	Vallées	PROPN	_	_	42	flat@name	_	SpaceAfter=No
+43	Vallées	Vallées	PROPN	_	_	42	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
 44	,	,	PUNCT	_	_	45	punct	_	_
-45	Bouxières-aux-Dames	Bouxières-aux-Dames	PROPN	_	_	42	conj:coord	_	_
+45	Bouxières-aux-Dames	Bouxières-aux-Dames	PROPN	_	_	42	conj:coord	_	Gender[lex]=Unknown
 46	et	et	CCONJ	_	_	48	cc	_	_
 47	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	48	det	_	SpaceAfter=No
-48	OFP	OFP	PROPN	_	Number=Sing	45	conj:coord	_	SpaceAfter=No
+48	OFP	OFP	PROPN	_	Number=Sing	45	conj:coord	_	Gender[lex]=Unknown|SpaceAfter=No
 49	,	,	PUNCT	_	_	50	punct	_	_
 50	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 51	encouragé	encourager	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	50	comp:aux@tense	_	Tense[denom]=Past
@@ -8041,7 +8041,7 @@
 13	d'	de	ADP	_	_	12	comp:obj	_	SpaceAfter=No
 14	encourager	encourager	VERB	_	VerbForm=Inf	13	comp:obj	_	Subject=SubjRaising
 15	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	16	det	_	_
-16	enfants	enfant	NOUN	_	Number=Plur	14	comp:obj	_	_
+16	enfants	enfant	NOUN	_	Number=Plur	14	comp:obj	_	Gender[lex]=Unknown
 17	ou	ou	CCONJ	_	_	18	cc	_	_
 18	de	de	ADP	_	_	13	conj:coord	_	_
 19	parfois	parfois	ADV	_	_	20	mod	_	_
@@ -8309,7 +8309,7 @@
 16	MJC	MJC	NOUN	_	Number=Sing	17	subj	_	Gender[lex]=Fem
 17	accueillera	accueillir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
-19	enfants	enfant	NOUN	_	Number=Plur	17	comp:obj	_	SpaceAfter=No
+19	enfants	enfant	NOUN	_	Number=Plur	17	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 20	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = annodis.er_00319
@@ -8386,7 +8386,7 @@
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	services	service	NOUN	_	Number=Plur	5	subj	_	Gender[lex]=Masc
 3	d'	de	ADP	_	_	2	udep	_	SpaceAfter=No
-4	EDF-GDF	EDF-GDF	PROPN	_	_	3	comp:obj	_	_
+4	EDF-GDF	EDF-GDF	PROPN	_	_	3	comp:obj	_	Gender[lex]=Unknown
 5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	pu	pouvoir	VERB	_	VerbForm=Part|Voice=Act	5	comp:aux@tense	_	Tense[denom]=Past
 7	rétablir	rétablir	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
@@ -8435,8 +8435,8 @@
 11	poussait	pousser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	maire	maire	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Masc
-14	Martial	Martial	PROPN	_	_	13	mod	_	_
-15	Bourquin	Bourquin	PROPN	_	_	14	flat@name	_	_
+14	Martial	Martial	PROPN	_	_	13	mod	_	Gender[lex]=Unknown
+15	Bourquin	Bourquin	PROPN	_	_	14	flat@name	_	Gender[lex]=Unknown
 16	à	à	ADP	_	_	11	comp:obl	_	_
 17	envisager	envisager	VERB	_	VerbForm=Inf	16	comp:obj	_	Subject=ObjRaising
 18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -9450,7 +9450,7 @@
 10	majoritaire	majoritaire	ADJ	_	Number=Sing	8	mod	_	Gender[ctxt]=Masc
 11	à	à	ADP	_	_	8	udep	_	_
 12	deux	deux	NUM	_	ExtPos=DET|NumType=Card	13	det	_	Number[lex]=Plur
-13	tours	tour	NOUN	_	Number=Plur	11	comp:obj	_	_
+13	tours	tour	NOUN	_	Number=Plur	11	comp:obj	_	Gender[lex]=Masc
 14	ne	ne	ADV	_	Polarity=Neg	15	mod	_	_
 15	permettait	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 16	que	que	ADV	_	Polarity=Neg	18	mod	_	_
@@ -9722,7 +9722,7 @@
 22	,	,	PUNCT	_	_	10	punct	_	_
 23	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis:insert	_	_
 24	Marie-Jo	Marie-Jo	PROPN	_	_	23	subj	_	_
-25	Zimmermann	Zimmermann	PROPN	_	_	24	flat@name	_	SpaceAfter=No
+25	Zimmermann	Zimmermann	PROPN	_	_	24	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
 26	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = annodis.er_00370
@@ -10173,7 +10173,7 @@
 12	famille	famille	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Fem
 13	de	de	ADP	_	_	12	udep	_	_
 14	huit	huit	NUM	_	ExtPos=DET|NumType=Card	15	det	_	Number[lex]=Plur
-15	enfants	enfant	NOUN	_	Number=Plur	13	comp:obj	_	SpaceAfter=No
+15	enfants	enfant	NOUN	_	Number=Plur	13	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = annodis.er_00392
@@ -10356,7 +10356,7 @@
 12	temps	temps	NOUN	_	_	10	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 13	avec	avec	ADP	_	_	10	comp:obl	_	_
 14	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	15	det	_	_
-15	enfants	enfant	NOUN	_	Number=Plur	13	comp:obj	_	SpaceAfter=No
+15	enfants	enfant	NOUN	_	Number=Plur	13	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 16	,	,	PUNCT	_	_	19	punct	_	_
 17	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	19	det	_	_
 18	sept	sept	NUM	_	ExtPos=DET|NumType=Card	19	mod	_	Number[lex]=Plur
@@ -10479,7 +10479,7 @@
 2	obsèques	obsèque	NOUN	_	Number=Plur	6	subj@pass	_	Gender[lex]=Fem
 3	de	de	ADP	_	_	2	udep	_	_
 4	Denise	Denise	PROPN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Fem
-5	Jacquin	Jacquin	PROPN	_	_	4	flat@name	_	_
+5	Jacquin	Jacquin	PROPN	_	_	4	flat@name	_	Gender[lex]=Unknown
 6	seront	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 7	célébrées	célébrer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	6	comp:aux@pass	_	Tense[denom]=Past
 8	vendredi	vendredi	NOUN	_	Number=Sing	6	mod	_	Gender[lex]=Masc
@@ -10494,7 +10494,7 @@
 17	église	église	NOUN	_	Number=Sing	15	comp:obj	_	Gender[lex]=Fem
 18	de	de	ADP	_	_	17	udep	_	_
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
-20	Isle-sur-le-Doubs	Isle-sur-le-Doubs	PROPN	_	Number=Sing	18	comp:obj	_	SpaceAfter=No
+20	Isle-sur-le-Doubs	Isle-sur-le-Doubs	PROPN	_	Number=Sing	18	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 21	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = annodis.er_00405
@@ -10505,7 +10505,7 @@
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	à	à	ADP	_	_	1	conj:coord	_	_
 6	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	_
-7	enfants	enfant	NOUN	_	Number=Plur	5	comp:obj	_	SpaceAfter=No
+7	enfants	enfant	NOUN	_	Number=Plur	5	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	ainsi	ainsi	ADV	_	ExtPos=CCONJ	11	cc	_	Idiom=Yes
 10	qu'	que	SCONJ	_	_	9	unk	_	InIdiom=Yes|SpaceAfter=No
@@ -10953,7 +10953,7 @@
 4	fait	faire	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	3	comp:aux@tense	_	Tense[denom]=Past
 5	jouer	jouer	VERB	_	VerbForm=Inf	4	comp:aux@caus	_	Subject=ObjRaising
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-7	enfants	enfant	NOUN	_	Number=Plur	4	comp:obj@agent	_	SpaceAfter=No
+7	enfants	enfant	NOUN	_	Number=Plur	4	comp:obj@agent	_	Gender[lex]=Unknown|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = annodis.er_00421
@@ -10994,7 +10994,7 @@
 4	qui	qui	PRON	_	PronType=Rel	5	subj	_	_
 5	attendait	attendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	mod@relcl	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-7	enfants	enfant	NOUN	_	Number=Plur	5	comp:obj	_	_
+7	enfants	enfant	NOUN	_	Number=Plur	5	comp:obj	_	Gender[lex]=Unknown
 8	dès	dès	ADP	_	_	5	mod	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	matin	matin	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
@@ -11284,7 +11284,7 @@
 4	fait	faire	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	3	comp:aux@tense	_	Tense[denom]=Past
 5	participer	participer	VERB	_	VerbForm=Inf	4	comp:aux@caus	_	Subject=ObjRaising
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-7	enfants	enfant	NOUN	_	Number=Plur	4	comp:obj@agent	_	_
+7	enfants	enfant	NOUN	_	Number=Plur	4	comp:obj@agent	_	Gender[lex]=Unknown
 8-9	au	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	5	comp:obl	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -11949,7 +11949,7 @@
 19-20	des	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	18	udep	_	_
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
-21	enfants	enfant	NOUN	_	Number=Plur	19	comp:obj	_	_
+21	enfants	enfant	NOUN	_	Number=Plur	19	comp:obj	_	Gender[lex]=Unknown
 22	dans	dans	ADP	_	_	11	udep	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	regroupement	regroupement	NOUN	_	Number=Sing	22	comp:obj	_	Gender[lex]=Masc
@@ -12529,7 +12529,7 @@
 36	32	32	NUM	_	ExtPos=PROPN|NumType=Card	35	mod	_	_
 37	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
 38	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	39	det	_	SpaceAfter=No
-39	Est	Est	PROPN	_	Number=Sing	6	parataxis:insert	_	_
+39	Est	Est	PROPN	_	Number=Sing	6	parataxis:insert	_	Gender[lex]=Unknown
 40	Républicain	républicain	ADJ	_	Gender=Masc|Number=Sing	39	mod	_	_
 41-42	du	_	_	_	_	_	_	_	_
 41	de	de	ADP	_	_	39	udep	_	_
@@ -13186,7 +13186,7 @@
 44	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
 45	tribunal	tribunal	NOUN	_	Number=Sing	43	comp:obj	_	Gender[lex]=Masc
 46	pour	pour	ADP	_	_	45	udep	_	_
-47	enfants	enfant	NOUN	_	Number=Plur	46	comp:obj	_	SpaceAfter=No
+47	enfants	enfant	NOUN	_	Number=Plur	46	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 48	,	,	PUNCT	_	_	50	punct	_	_
 49	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
 50	5	5	NUM	_	ExtPos=PROPN|NumType=Card	42	mod	_	Number[lex]=Sing
@@ -13588,7 +13588,7 @@
 7	jour	jour	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Masc
 8	à	à	ADP	_	_	5	comp:obl	_	_
 9	trois	trois	NUM	_	ExtPos=DET|NumType=Card	10	det	_	Number[lex]=Plur
-10	enfants	enfant	NOUN	_	Number=Plur	8	comp:obj	_	SpaceAfter=No
+10	enfants	enfant	NOUN	_	Number=Plur	8	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	dont	dont	CCONJ	_	_	13	udep	_	_
 13	Mimi	Mimi	PROPN	_	Number=Sing	10	conj:appos	_	Gender[lex]=Fem|SpaceAfter=No

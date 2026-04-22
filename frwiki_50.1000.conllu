@@ -126,7 +126,7 @@
 63	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
 64	village	village	NOUN	_	Number=Sing	62	comp:obj	_	Gender[lex]=Masc
 65	de	de	ADP	_	_	64	udep	_	_
-66	Souain	Souain	PROPN	_	_	65	comp:obj	_	SpaceAfter=No
+66	Souain	Souain	PROPN	_	_	65	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 67	.	.	PUNCT	_	_	42	punct	_	_
 
 # sent_id = frwiki_50.1000_00005
@@ -738,7 +738,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	2	2	NUM	_	ExtPos=DET|NumType=Card	7	det	_	Number[lex]=Plur
-7	enfants	enfant	NOUN	_	Number=Plur	5	comp:obj	_	_
+7	enfants	enfant	NOUN	_	Number=Plur	5	comp:obj	_	Gender[lex]=Unknown
 8	;	;	PUNCT	_	_	5	punct	_	_
 
 # sent_id = frwiki_50.1000_00023
@@ -1546,7 +1546,7 @@
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 9	exemple	exemple	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 10	-	-	PUNCT	_	_	2	punct	_	_
-11	1914-1915	1914-1915	NOUN	_	NumType=Card	2	mod	_	SpaceAfter=No
+11	1914-1915	1914-1915	NUM	_	ExtPos=PROPN|NumType=Card	2	mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	Éditions	édition	NOUN	_	Number=Plur	2	mod	_	Gender[lex]=Masc
 14	Tallandier	Tallandier	PROPN	_	_	13	mod	_	Gender[lex]=Unknown|SpaceAfter=No
@@ -2660,7 +2660,7 @@
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	dans	dans	ADP	_	_	3	mod	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
-12	Agence	agence	NOUN	_	Number=Sing	10	comp:obj	_	_
+12	Agence	agence	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Fem
 13	de	de	ADP	_	_	12	udep	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 15	Information	information	NOUN	_	Number=Sing	13	comp:obj	_	Gender[lex]=Fem
@@ -2895,7 +2895,7 @@
 15	The	The	X	_	Foreign=Yes	8	parataxis	_	Lang=en
 16	Guardian	Guardian	X	_	Foreign=Yes	15	flat@name	_	Lang=en|SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
-18	December	December	NOUN	_	_	15	parataxis	_	_
+18	December	December	X	_	Foreign=Yes	15	parataxis	_	Lang=en
 19	5	5	NUM	_	ExtPos=PROPN|NumType=Card	18	parataxis	_	Number[lex]=Sing|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	2002	2002	NUM	_	ExtPos=PROPN|NumType=Card	19	parataxis	_	Number[lex]=Sing|SpaceAfter=No
@@ -2952,7 +2952,7 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Koweït	Koweït	PROPN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Masc
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	1990-1991	1990-1991	NOUN	_	NumType=Card	2	mod	_	SpaceAfter=No
+7	1990-1991	1990-1991	NUM	_	ExtPos=PROPN|NumType=Card	2	mod	_	SpaceAfter=No
 8	)	)	PUNCT	_	_	7	punct	_	_
 
 # sent_id = frwiki_50.1000_00122
@@ -3887,7 +3887,7 @@
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	8	udep	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	livre	livre	NOUN	_	Number=Sing	9	comp:obj	_	_
+11	livre	livre	NOUN	_	Number=Sing	9	comp:obj	_	Gender[lex]=Masc
 12	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	manipulation	manipulation	NOUN	_	Number=Sing	11	mod	_	Gender[lex]=Fem
 14-15	aux	_	_	_	_	_	_	_	_
@@ -4050,7 +4050,7 @@
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	femmes	femme	NOUN	_	Number=Plur	7	conj:coord	_	Gender[lex]=Fem|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
-11	enfants	enfant	NOUN	_	Number=Plur	9	conj:coord	_	SpaceAfter=No
+11	enfants	enfant	NOUN	_	Number=Plur	9	conj:coord	_	Gender[lex]=Unknown|SpaceAfter=No
 12	)	)	PUNCT	_	_	7	punct	_	_
 13	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	lieu	lieu	NOUN	_	Number=Sing	13	comp:obj	_	Gender[lex]=Masc
@@ -4617,7 +4617,7 @@
 
 # sent_id = frwiki_50.1000_00183
 # text = Livres, films et opéra sur l'affaire des démons de Loudun
-1	Livres	livre	NOUN	_	Number=Plur	0	root	_	SpaceAfter=No
+1	Livres	livre	NOUN	_	Number=Plur	0	root	_	Gender[lex]=Masc|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	films	film	NOUN	_	Number=Plur	1	conj:coord	_	Gender[lex]=Masc
 4	et	et	CCONJ	_	_	5	cc	_	_
@@ -4634,7 +4634,7 @@
 
 # sent_id = frwiki_50.1000_00184
 # text = Livres
-1	Livres	livre	NOUN	_	Number=Plur	0	root	_	_
+1	Livres	livre	NOUN	_	Number=Plur	0	root	_	Gender[lex]=Masc
 
 # sent_id = frwiki_50.1000_00185
 # text = - Les diables de Loudun (The devils of Loudun) (1952), de Aldous Huxley
@@ -5367,7 +5367,7 @@
 54	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	mod@relcl	_	_
 55	impliqué	impliquer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	54	comp:aux@pass	_	Tense[denom]=Past
 56	Alain	Alain	PROPN	_	Number=Sing	54	subj@pass	_	Gender[lex]=Masc
-57	Juppé	Juppé	PROPN	_	_	56	flat@name	_	SpaceAfter=No
+57	Juppé	Juppé	PROPN	_	_	56	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
 58	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = frwiki_50.1000_00216
@@ -6587,11 +6587,11 @@
 9	réquisitoire	réquisitoire	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Masc
 10	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 11	170	170	NUM	_	ExtPos=DET|NumType=Card	12	det	_	Number[lex]=Plur
-12	pages	page	NOUN	_	Number=Plur	9	conj:appos	_	_
+12	pages	page	NOUN	_	Number=Plur	9	conj:appos	_	Gender[lex]=Fem
 13	plus	plus	ADP	_	_	12	udep	_	_
 14	quelque	quelque	ADV	_	_	16	mod	_	_
 15	500	500	NUM	_	ExtPos=DET|NumType=Card	16	det	_	Number[lex]=Plur
-16	pages	page	NOUN	_	Number=Plur	13	comp:obj	_	_
+16	pages	page	NOUN	_	Number=Plur	13	comp:obj	_	Gender[lex]=Fem
 17	d'	de	ADP	_	_	16	udep	_	SpaceAfter=No
 18	annexes	annexe	NOUN	_	Number=Plur	17	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 19	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
@@ -7740,7 +7740,7 @@
 44	"	"	PUNCT	_	_	45	punct	_	SpaceAfter=No
 45	A	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 46	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	47	det	_	_
-47	enfants	enfant	NOUN	_	Number=Plur	45	comp:obj	_	_
+47	enfants	enfant	NOUN	_	Number=Plur	45	comp:obj	_	Gender[lex]=Unknown
 48	dans	dans	ADP	_	_	45	comp:obl	_	_
 49	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
 50	jésuitière	jésuitière	NOUN	_	Number=Sing	48	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
@@ -9252,7 +9252,7 @@
 7	de	de	ADP	_	_	6	udep	_	_
 8	fiches	fiche	NOUN	_	Number=Plur	7	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	1900-1904	1900-1904	NOUN	_	NumType=Card	2	mod	_	_
+10	1900-1904	1900-1904	NUM	_	ExtPos=PROPN|NumType=Card	2	mod	_	_
 11	chronique	chronique	NOUN	_	Number=Sing	2	mod	_	Gender[lex]=Fem
 12	d'	de	ADP	_	_	11	udep	_	SpaceAfter=No
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -9267,7 +9267,7 @@
 22	1989	1989	NUM	_	ExtPos=PROPN|NumType=Card	2	mod	_	Number[lex]=Sing|SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	ISBN	ISBN	NOUN	_	_	2	mod	_	_
-25	2-7113-0389-6	2-7113-0389-6	NOUN	_	NumType=Card	24	mod	_	SpaceAfter=No
+25	2-7113-0389-6	2-7113-0389-6	NUM	_	ExtPos=PROPN|NumType=Card	24	mod	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = frwiki_50.1000_00323
@@ -9802,7 +9802,7 @@
 3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	distribué	distribuer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	3	comp:aux@tense	_	Tense[denom]=Past
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
-6	sommes	somme	NOUN	_	Number=Plur	4	comp:obj	_	_
+6	sommes	somme	NOUN	_	Number=Plur	4	comp:obj	_	Gender[lex]=Fem
 7	que	que	PRON	_	PronType=Rel	12	comp:obj	_	_
 8	Roland	Roland	PROPN	_	Number=Sing	10	subj	_	Gender[lex]=Masc
 9	Dumas	Dumas	PROPN	_	_	8	flat@name	_	Gender[lex]=Unknown
@@ -10208,7 +10208,7 @@
 15	successifs	successif	ADJ	_	Gender=Masc|Number=Plur	14	mod	_	_
 16	de	de	ADP	_	_	14	udep	_	_
 17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
-18	Économie	économie	NOUN	_	Number=Sing	16	comp:obj	_	SpaceAfter=No
+18	Économie	économie	NOUN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 19	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = frwiki_50.1000_00358
@@ -12947,7 +12947,7 @@
 23	ministre	ministre	NOUN	_	Number=Sing	21	comp:obj	_	Gender[lex]=Masc
 24	de	de	ADP	_	_	23	udep	_	_
 25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
-26	Économie	économie	NOUN	_	Number=Sing	24	comp:obj	_	_
+26	Économie	économie	NOUN	_	Number=Sing	24	comp:obj	_	Gender[lex]=Fem
 27	Laurent	Laurent	PROPN	_	Number=Sing	23	mod	_	Gender[lex]=Masc
 28	Fabius	Fabius	PROPN	_	Number=Sing	27	flat@name	_	Gender[lex]=Masc
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
@@ -13295,7 +13295,7 @@
 35	ministère	ministère	NOUN	_	Number=Sing	33	comp:obj	_	Gender[lex]=Masc
 36	de	de	ADP	_	_	35	udep	_	_
 37	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
-38	Économie	économie	NOUN	_	Number=Sing	36	comp:obj	_	_
+38	Économie	économie	NOUN	_	Number=Sing	36	comp:obj	_	Gender[lex]=Fem
 39	et	et	CCONJ	_	_	40	cc	_	_
 40-41	des	_	_	_	_	_	_	_	_
 40	de	de	ADP	_	_	36	conj:coord	_	_
@@ -15043,7 +15043,7 @@
 
 # sent_id = frwiki_50.1000_00535
 # text = Livres
-1	Livres	livre	NOUN	_	Number=Plur	0	root	_	_
+1	Livres	livre	NOUN	_	Number=Plur	0	root	_	Gender[lex]=Masc
 
 # sent_id = frwiki_50.1000_00536
 # text = - Karl Laske, Ils se croyaient intouchables, Albin Michel (1 septembre 2000).
@@ -15101,7 +15101,7 @@
 # sent_id = frwiki_50.1000_00539
 # text = ISBN 220725478X
 1	ISBN	ISBN	NOUN	_	_	0	root	_	_
-2	220725478X	220725478X	NOUN	_	_	1	mod	_	_
+2	220725478X	220725478X	X	_	ExtPos=NOUN	1	mod	_	_
 
 # sent_id = frwiki_50.1000_00540
 # text = - Thierry Jean-Pierre, Taïwan Connection.
@@ -15140,7 +15140,7 @@
 1	Broché	broché	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	-	-	PUNCT	_	_	4	punct	_	_
 3	285	285	NUM	_	ExtPos=DET|NumType=Card	4	det	_	Number[lex]=Plur
-4	pages	page	NOUN	_	Number=Plur	1	mod	_	SpaceAfter=No
+4	pages	page	NOUN	_	Number=Plur	1	mod	_	Gender[lex]=Fem|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = frwiki_50.1000_00543
@@ -15174,7 +15174,7 @@
 1	Broché	broché	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	SpaceAfter=No
 2	-	-	PUNCT	_	_	4	punct	_	_
 3	437	437	NUM	_	ExtPos=DET|NumType=Card	4	det	_	Number[lex]=Plur
-4	pages	page	NOUN	_	Number=Plur	0	root	_	SpaceAfter=No
+4	pages	page	NOUN	_	Number=Plur	0	root	_	Gender[lex]=Fem|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = frwiki_50.1000_00546
@@ -16552,7 +16552,7 @@
 121-122	du	_	_	_	_	_	_	_	_
 121	de	de	ADP	_	_	120	udep	_	_
 122	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	123	det	_	_
-123	25/01/06	25/01/06	NOUN	_	NumType=Card	121	comp:obj	_	SpaceAfter=No
+123	25/01/06	25/01/06	NUM	_	ExtPos=PROPN|NumType=Card	121	comp:obj	_	SpaceAfter=No
 124	)	)	PUNCT	_	_	117	punct	_	SpaceAfter=No
 125	.	.	PUNCT	_	_	34	punct	_	_
 
@@ -17460,7 +17460,7 @@
 12	face	face	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 13	,	,	PUNCT	_	_	11	punct	_	_
 14	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
-15	sommes	somme	NOUN	_	Number=Plur	9	comp:obj	_	SpaceAfter=No
+15	sommes	somme	NOUN	_	Number=Plur	9	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 16	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = frwiki_50.1000_00632
@@ -17846,7 +17846,7 @@
 36	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
 37	passé	passer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	36	comp:aux@tense	_	Tense[denom]=Past
 38	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	39	det	_	_
-39	pages	page	NOUN	_	Number=Plur	37	comp:obj	_	_
+39	pages	page	NOUN	_	Number=Plur	37	comp:obj	_	Gender[lex]=Fem
 40	de	de	ADP	_	_	39	udep	_	_
 41	publicité	publicité	NOUN	_	Number=Sing	40	comp:obj	_	Gender[lex]=Fem
 42	pour	pour	ADP	_	_	36	mod	_	_
@@ -18988,7 +18988,7 @@
 # sent_id = frwiki_50.1000_00685
 # text = - 2002-2004 : successeur d'Éric Halphen, le juge d'instruction Armand Riberolles s'est évertué à reprendre les actes annulés par la cour d'appel de Paris.
 1	-	-	PUNCT	_	_	2	punct	_	_
-2	2002-2004	2002-2004	NOUN	_	NumType=Card	17	mod	_	_
+2	2002-2004	2002-2004	NUM	_	ExtPos=PROPN|NumType=Card	17	mod	_	_
 3	:	:	PUNCT	_	_	4	punct	_	_
 4	successeur	successeur	NOUN	_	Number=Sing	17	mod	_	Gender[lex]=Masc
 5	d'	de	ADP	_	_	4	udep	_	SpaceAfter=No
@@ -20076,7 +20076,7 @@
 15	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
 16	Libération	Libération	PROPN	_	_	2	parataxis	_	Gender[lex]=Unknown|SpaceAfter=No
 17	-	-	PUNCT	_	_	16	punct	_	_
-18	23/12/2006	23/12/2006	NOUN	_	NumType=Card	2	mod	_	_
+18	23/12/2006	23/12/2006	NUM	_	ExtPos=PROPN|NumType=Card	2	mod	_	_
 
 # sent_id = frwiki_50.1000_00718
 # text = - Le Monde du 22 septembre 2000
@@ -22010,7 +22010,7 @@
 20	dello	dello	X	_	_	19	flat@name	_	_
 21	Sport	Sport	X	_	_	20	flat@name	_	_
 22	et	et	CCONJ	_	_	23	cc	_	_
-23	Il	Il	PROPN	_	_	18	conj:coord	_	Gender[lex]=Unknown
+23	Il	Il	X	_	_	18	conj:coord	_	_
 24	Corriere	Corriere	X	_	_	23	flat@name	_	_
 25	della	della	X	_	_	24	flat@name	_	_
 26	Sera	Sera	X	_	_	25	flat@name	_	SpaceAfter=No
@@ -22406,9 +22406,9 @@
 13	de	de	ADP	_	_	12	comp:obl	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 15	saisons	saison	NOUN	_	Number=Plur	13	comp:obj	_	Gender[lex]=Fem
-16	2004-2005	2004-2005	NOUN	_	NumType=Card	15	mod	_	_
+16	2004-2005	2004-2005	NUM	_	ExtPos=PROPN|NumType=Card	15	mod	_	_
 17	et	et	CCONJ	_	_	18	cc	_	_
-18	2005-2006	2005-2006	NOUN	_	NumType=Card	15	conj:coord	_	_
+18	2005-2006	2005-2006	NUM	_	ExtPos=PROPN|NumType=Card	15	conj:coord	_	_
 19	et	et	CCONJ	_	_	21	cc	_	_
 20	ne	ne	ADV	_	Polarity=Neg	21	mod	_	_
 21	pourra	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj:coord	_	_
@@ -22417,7 +22417,7 @@
 24	à	à	ADP	_	_	22	comp:obl	_	_
 25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 26	édition	édition	NOUN	_	Number=Sing	24	comp:obj	_	Gender[lex]=Fem
-27	2006-2007	2006-2007	NOUN	_	NumType=Card	26	mod	_	_
+27	2006-2007	2006-2007	NUM	_	ExtPos=PROPN|NumType=Card	26	mod	_	_
 28	de	de	ADP	_	_	26	udep	_	_
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	Ligue	Ligue	PROPN	_	Number=Sing	28	comp:obj	_	Gender[lex]=Fem
@@ -22604,7 +22604,7 @@
 29-30	au	_	_	_	_	_	_	_	_
 29	à	à	ADP	_	_	28	comp:obl	_	_
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	tour	tour	NOUN	_	Number=Sing	29	comp:obj	_	_
+31	tour	tour	NOUN	_	Number=Sing	29	comp:obj	_	Gender[lex]=Masc
 32	préliminaire	préliminaire	ADJ	_	Number=Sing	31	mod	_	Gender[ctxt]=Masc
 33	de	de	ADP	_	_	31	udep	_	_
 34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
@@ -22929,11 +22929,11 @@
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	Liban	Liban	PROPN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
-24	Jean-Paul	Jean-Paul	PROPN	_	_	18	conj:appos	_	_
-25	Kauffmann	Kauffmann	PROPN	_	_	24	flat@name	_	SpaceAfter=No
+24	Jean-Paul	Jean-Paul	PROPN	_	_	18	conj:appos	_	Gender[lex]=Masc
+25	Kauffmann	Kauffmann	PROPN	_	_	24	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
 27	Marcel	Marcel	PROPN	_	Number=Sing	24	conj:coord	_	Gender[lex]=Masc
-28	Carton	Carton	PROPN	_	_	27	flat@name	_	_
+28	Carton	Carton	PROPN	_	_	27	flat@name	_	Gender[lex]=Unknown
 29	et	et	CCONJ	_	_	30	cc	_	_
 30	Marcel	Marcel	PROPN	_	Number=Sing	27	conj:coord	_	Gender[lex]=Masc
 31	Fontaine	Fontaine	PROPN	_	Number=Sing	30	flat@name	_	Gender[lex]=Masc|SpaceAfter=No
@@ -22954,7 +22954,7 @@
 46	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	47	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 47	aéroport	aéroport	NOUN	_	Number=Sing	45	comp:obj	_	Gender[lex]=Masc
 48	de	de	ADP	_	_	47	udep	_	_
-49	Villacoublay	Villacoublay	PROPN	_	_	48	comp:obj	_	_
+49	Villacoublay	Villacoublay	PROPN	_	_	48	comp:obj	_	Gender[lex]=Unknown
 50	où	où	ADV	_	PronType=Rel	52	mod	_	_
 51	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	52	subj@pass	_	_
 52	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	47	mod@relcl	_	_
@@ -22964,7 +22964,7 @@
 56	Chirac	Chirac	PROPN	_	Number=Sing	55	flat@name	_	Gender[lex]=Masc
 57	et	et	CCONJ	_	_	58	cc	_	_
 58	Charles	Charles	PROPN	_	Number=Sing	55	conj:coord	_	Gender[lex]=Masc
-59	Pasqua	Pasqua	PROPN	_	_	58	flat@name	_	SpaceAfter=No
+59	Pasqua	Pasqua	PROPN	_	_	58	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
 60	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = frwiki_50.1000_00837
@@ -23369,7 +23369,7 @@
 42	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 43	Liban	Liban	PROPN	_	Number=Sing	41	comp:obj	_	Gender[lex]=Masc
 44	(	(	PUNCT	_	_	45	punct	_	SpaceAfter=No
-45	1985-1988	1985-1988	NOUN	_	NumType=Card	36	mod	_	SpaceAfter=No
+45	1985-1988	1985-1988	NUM	_	ExtPos=PROPN|NumType=Card	36	mod	_	SpaceAfter=No
 46	)	)	PUNCT	_	_	45	punct	_	_
 47	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	comp:obj	_	_
 48	fait	faire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	47	comp:aux@tense	_	Tense[denom]=Past
@@ -23571,7 +23571,7 @@
 1	Puis	puis	CCONJ	_	_	5	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
-4	sommes	somme	NOUN	_	Number=Plur	5	subj@pass	_	_
+4	sommes	somme	NOUN	_	Number=Plur	5	subj@pass	_	Gender[lex]=Fem
 5	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	retirées	retirer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	5	comp:aux@pass	_	Tense[denom]=Past
 7	par	par	ADP	_	_	6	comp:obl@agent	_	_
@@ -24695,7 +24695,7 @@
 7-8	du	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	6	udep	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	11.01.02.	11.01.02.	NOUN	_	NumType=Card	7	comp:obj	_	SpaceAfter=No
+9	11.01.02.	11.01.02.	NUM	_	ExtPos=NOUN|NumType=Card	7	comp:obj	_	SpaceAfter=No
 10	)	)	PUNCT	_	_	2	punct	_	_
 
 # sent_id = frwiki_50.1000_00895
@@ -25299,7 +25299,7 @@
 1	Page	page	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Fem
 2	accédé	accéder	VERB	_	Gender=Masc|Number=Sing|Typo=Yes|VerbForm=Part|Voice=Pass	1	mod	_	CorrectForm=accédée|CorrectGender=Fem|Tense[denom]=Past
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	2006-08-07	2006-08-07	NOUN	_	Number=Sing|NumType=Card	2	mod	_	Gender[lex]=Masc|SpaceAfter=No
+4	2006-08-07	2006-08-07	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	2	mod	_	Gender[lex]=Masc|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = frwiki_50.1000_00922
@@ -25329,7 +25329,7 @@
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	URL	URL	NOUN	_	Number=Sing	3	comp:obj	_	_
 6	:	:	PUNCT	_	_	7	punct	_	_
-7	2006-08-07	2006-08-07	NOUN	_	NumType=Card	2	mod	_	SpaceAfter=No
+7	2006-08-07	2006-08-07	NUM	_	ExtPos=PROPN|NumType=Card	2	mod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = frwiki_50.1000_00925
@@ -25359,7 +25359,7 @@
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	URL	URL	NOUN	_	Number=Sing	3	comp:obj	_	_
 6	:	:	PUNCT	_	_	7	punct	_	_
-7	2006-08-07	2006-08-07	NOUN	_	NumType=Card	2	mod	_	SpaceAfter=No
+7	2006-08-07	2006-08-07	NUM	_	ExtPos=PROPN|NumType=Card	2	mod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = frwiki_50.1000_00928
@@ -25388,7 +25388,7 @@
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	URL	URL	NOUN	_	Number=Sing	3	comp:obj	_	_
 6	:	:	PUNCT	_	_	7	punct	_	_
-7	2006-08-08	2006-08-08	NOUN	_	NumType=Card	2	mod	_	SpaceAfter=No
+7	2006-08-08	2006-08-08	NUM	_	ExtPos=PROPN|NumType=Card	2	mod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = frwiki_50.1000_00931
@@ -25417,7 +25417,7 @@
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	URL	URL	NOUN	_	Number=Sing	3	comp:obj	_	_
 6	:	:	PUNCT	_	_	7	punct	_	_
-7	2006-08-07	2006-08-07	NOUN	_	NumType=Card	2	mod	_	SpaceAfter=No
+7	2006-08-07	2006-08-07	NUM	_	ExtPos=PROPN|NumType=Card	2	mod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = frwiki_50.1000_00934
@@ -25444,7 +25444,7 @@
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	URL	URL	NOUN	_	Number=Sing	3	comp:obj	_	_
 6	:	:	PUNCT	_	_	7	punct	_	_
-7	2006-08-07	2006-08-07	NOUN	_	NumType=Card	2	mod	_	SpaceAfter=No
+7	2006-08-07	2006-08-07	NUM	_	ExtPos=PROPN|NumType=Card	2	mod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = frwiki_50.1000_00936
@@ -25474,7 +25474,7 @@
 1	Page	page	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Fem
 2	accédé	accéder	VERB	_	Gender=Masc|Number=Sing|Typo=Yes|VerbForm=Part|Voice=Pass	1	mod	_	CorrectForm=accédée|CorrectGender=Fem|Tense[denom]=Past
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	2006-08-07	2006-08-07	NOUN	_	Number=Sing|NumType=Card	2	mod	_	Gender[lex]=Masc|SpaceAfter=No
+4	2006-08-07	2006-08-07	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	2	mod	_	Gender[lex]=Masc|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = frwiki_50.1000_00938
@@ -25504,7 +25504,7 @@
 1	Page	page	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Fem
 2	accédé	accéder	VERB	_	Gender=Masc|Number=Sing|Typo=Yes|VerbForm=Part|Voice=Pass	1	mod	_	CorrectForm=accédée|CorrectGender=Fem|Tense[denom]=Past
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	2006-08-07	2006-08-07	NOUN	_	Number=Sing|NumType=Card	2	mod	_	Gender[lex]=Masc|SpaceAfter=No
+4	2006-08-07	2006-08-07	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	2	mod	_	Gender[lex]=Masc|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = frwiki_50.1000_00940
@@ -25822,7 +25822,7 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	trafic	trafic	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Masc
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	1948-1953	1948-1953	NOUN	_	NumType=Card	2	mod	_	SpaceAfter=No
+4	1948-1953	1948-1953	NUM	_	ExtPos=PROPN|NumType=Card	2	mod	_	SpaceAfter=No
 5	)	)	PUNCT	_	_	4	punct	_	_
 
 # sent_id = frwiki_50.1000_00954
@@ -25967,7 +25967,7 @@
 26	de	de	ADP	_	_	25	udep	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 28	premier	premier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	29	mod	_	_
-29	livre	livre	NOUN	_	Number=Sing	26	comp:obj	_	_
+29	livre	livre	NOUN	_	Number=Sing	26	comp:obj	_	Gender[lex]=Masc
 30	sur	sur	ADP	_	_	29	udep	_	_
 31	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	32	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 32	affaire	affaire	NOUN	_	Number=Sing	30	comp:obj	_	Gender[lex]=Fem
@@ -26167,7 +26167,7 @@
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	jusqu'	jusque	ADP	_	_	12	mod	_	SpaceAfter=No
 22	en	en	ADP	_	_	21	comp:obj	_	_
-23	1952-1953	1952-1953	NOUN	_	NumType=Card	22	comp:obj	_	_
+23	1952-1953	1952-1953	NUM	_	ExtPos=PROPN|NumType=Card	22	comp:obj	_	_
 24	où	où	ADV	_	PronType=Rel	27	mod	_	_
 25	l'on	on	PRON	_	Number=Sing|Person=3|PronType=Ind	27	subj	_	wordform=on
 26	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	27	comp@expl	_	_
@@ -26732,7 +26732,7 @@
 30	3	3	NUM	_	ExtPos=PROPN|NumType=Card	29	mod	_	Number[lex]=Sing|SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	_
 32	pp.	page	NOUN	_	Number=Plur	23	mod	_	Gender[lex]=Fem
-33	571-597	571-597	NOUN	_	NumType=Card	32	mod	_	SpaceAfter=No
+33	571-597	571-597	NUM	_	ExtPos=PROPN|NumType=Card	32	mod	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	35	punct	_	_
 35	septembre	septembre	NOUN	_	Number=Sing	23	mod	_	Gender[lex]=Masc
 36	1986	1986	NUM	_	ExtPos=PROPN|NumType=Card	35	mod	_	Number[lex]=Sing
@@ -26763,7 +26763,7 @@
 21	No.	No.	NOUN	_	Number=Sing	15	mod	_	Gender[lex]=Masc
 22	3	3	NUM	_	ExtPos=PROPN|NumType=Card	21	mod	_	Number[lex]=Sing
 23	pp.	page	NOUN	_	Number=Plur	21	mod	_	Gender[lex]=Fem
-24	546-571	546-571	NOUN	_	NumType=Card	21	mod	_	SpaceAfter=No
+24	546-571	546-571	NUM	_	ExtPos=PROPN|NumType=Card	21	mod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	septembre	septembre	NOUN	_	Number=Sing	15	mod	_	Gender[lex]=Masc
 27	1987	1987	NUM	_	ExtPos=PROPN|NumType=Card	26	mod	_	Number[lex]=Sing|SpaceAfter=No
