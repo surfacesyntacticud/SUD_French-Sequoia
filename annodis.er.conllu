@@ -885,7 +885,7 @@
 12	de	de	ADP	_	_	11	udep	_	_
 13	parents	parent	NOUN	_	Number=Plur	12	comp:obj	_	Gender[lex]=Masc
 14	d'	de	ADP	_	_	13	udep	_	SpaceAfter=No
-15	élèves	élève	NOUN	_	Number=Plur	14	comp:obj	_	SpaceAfter=No
+15	élèves	élève	NOUN	_	Number=Plur	14	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	sous	sous	ADP	_	_	4	mod	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -1203,12 +1203,12 @@
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	finalement	finalement	ADV	_	_	2	mod	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
-5	élèves	élève	NOUN	_	Number=Plur	2	comp:pred	_	_
+5	élèves	élève	NOUN	_	Number=Plur	2	comp:pred	_	Gender[lex]=Unknown
 6	de	de	ADP	_	_	5	udep	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	classe	classe	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Fem
 9	de	de	ADP	_	_	8	udep	_	_
-10	CM2	CM2	NOUN	_	Number=Sing	9	comp:obj	_	_
+10	CM2	CM2	NOUN	_	Number=Sing	9	comp:obj	_	Gender[lex]=Unknown
 11	de	de	ADP	_	_	8	udep	_	_
 12	Jacky	Jacky	PROPN	_	_	11	comp:obj	_	Gender[lex]=Unknown
 13	Hedin	Hedin	PROPN	_	_	12	flat@name	_	Gender[lex]=Unknown
@@ -1240,7 +1240,7 @@
 38	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	jeu	jeu	NOUN	_	Number=Sing	37	comp:obj	_	Gender[lex]=Masc
 40	de	de	ADP	_	_	39	udep	_	_
-41	plein-air	plein-air	NOUN	_	Number=Sing	40	comp:obj	_	SpaceAfter=No
+41	plein-air	plein-air	NOUN	_	Number=Sing	40	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 42	,	,	PUNCT	_	_	43	punct	_	_
 43	laissant	laisser	VERB	_	VerbForm=Part	17	mod	_	Tense[denom]=Pres
 44-45	au	_	_	_	_	_	_	_	_
@@ -1493,7 +1493,7 @@
 # sent_id = annodis.er_00049
 # text = Les élèves de la classe de CE1 de l'école Notre-Dame ont pris part aux festivités.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
-2	élèves	élève	NOUN	_	Number=Plur	12	subj	_	_
+2	élèves	élève	NOUN	_	Number=Plur	12	subj	_	Gender[lex]=Unknown
 3	de	de	ADP	_	_	2	udep	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	classe	classe	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Fem
@@ -1682,11 +1682,11 @@
 # text = L'équipe B, chez les seniors, évoluera à partir de 15h, sur la pelouse du terrain d'honneur, face à la formation de Laneuville.
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	équipe	équipe	NOUN	_	Number=Sing	9	subj	_	Gender[lex]=Fem
-3	B	B	NOUN	_	_	2	mod	_	SpaceAfter=No
+3	B	B	NOUN	_	_	2	mod	_	Gender[lex]=Unknown|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	chez	chez	ADP	_	_	9	mod	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-7	seniors	senior	NOUN	_	Number=Plur	5	comp:obj	_	SpaceAfter=No
+7	seniors	senior	NOUN	_	Number=Plur	5	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	évoluera	évoluer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 10	à	à	ADP	_	ExtPos=ADV	9	mod	_	Idiom=Yes
@@ -2009,7 +2009,7 @@
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	poste	poste	NOUN	_	Number=Sing	15	comp:obj	_	_
 18	de	de	ADP	_	_	17	udep	_	_
-19	chef	chef	NOUN	_	Number=Sing	18	comp:obj	_	_
+19	chef	chef	NOUN	_	Number=Sing	18	comp:obj	_	Gender[lex]=Unknown
 20	magasinier	magasinier	NOUN	_	Number=Sing	19	mod	_	Gender[lex]=Masc
 21	où	où	ADV	_	PronType=Rel	23	mod	_	_
 22	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	subj	_	_
@@ -2370,7 +2370,7 @@
 18	su	savoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	17	comp:aux@tense	_	Tense[denom]=Past
 19	rassembler	rassembler	VERB	_	VerbForm=Inf	18	comp:obj	_	Subject=SubjRaising
 20	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	21	det	_	_
-21	bénévoles	bénévole	NOUN	_	Number=Plur	19	comp:obj	_	_
+21	bénévoles	bénévole	NOUN	_	Number=Plur	19	comp:obj	_	Gender[lex]=Unknown
 22	aussi	aussi	ADV	_	_	23	mod	_	_
 23	passionnés	passionné	ADJ	_	Gender=Masc|Number=Plur	21	mod	_	_
 24	que	que	SCONJ	_	_	23	unk	_	_
@@ -2459,7 +2459,7 @@
 16	,	,	PUNCT	_	_	21	punct	_	_
 17	et	et	CCONJ	_	_	21	cc	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
-19	spécialistes	spécialiste	NOUN	_	Number=Plur	21	subj	_	_
+19	spécialistes	spécialiste	NOUN	_	Number=Plur	21	subj	_	Gender[lex]=Unknown
 20	n'	ne	ADV	_	Polarity=Neg	21	mod	_	SpaceAfter=No
 21	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj:coord	_	_
 22	pas	pas	ADV	_	Polarity=Neg	21	mod	_	_
@@ -2988,7 +2988,7 @@
 29	niveau	niveau	NOUN	_	Number=Sing	27	comp:obj	_	Gender[lex]=Masc
 30	de	de	ADP	_	_	29	udep	_	_
 31	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
-32	A36	A36	NOUN	_	Number=Sing	30	comp:obj	_	SpaceAfter=No
+32	A36	A36	NOUN	_	Number=Sing	30	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 33	.	.	PUNCT	_	Shared=Yes	25	punct	_	_
 
 # sent_id = annodis.er_00109
@@ -3011,7 +3011,7 @@
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	sur	sur	ADP	_	_	3	mod	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
-19	A36	A36	NOUN	_	Number=Sing	17	comp:obj	_	SpaceAfter=No
+19	A36	A36	NOUN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 20	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = annodis.er_00110
@@ -3666,7 +3666,7 @@
 # sent_id = annodis.er_00133
 # text = Les jeunes intéressés peuvent s'inscrire dès maintenant.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
-2	jeunes	jeune	NOUN	_	Number=Plur	4	subj	_	_
+2	jeunes	jeune	NOUN	_	Number=Plur	4	subj	_	Gender[lex]=Unknown
 3	intéressés	intéresser	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	2	mod	_	Tense[denom]=Past
 4	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	comp:obj	_	SpaceAfter=No
@@ -3687,7 +3687,7 @@
 7-8	des	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	6	udep	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
-9	élèves	élève	NOUN	_	Number=Plur	7	comp:obj	_	_
+9	élèves	élève	NOUN	_	Number=Plur	7	comp:obj	_	Gender[lex]=Unknown
 10	de	de	ADP	_	_	9	udep	_	_
 11	Jules-Romains	Jules-Romains	PROPN	_	_	10	comp:obj	_	Gender[lex]=Unknown
 
@@ -3740,7 +3740,7 @@
 4	oeuvre	oeuvre	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-7	élèves	élève	NOUN	_	Number=Plur	16	subj	_	_
+7	élèves	élève	NOUN	_	Number=Plur	16	subj	_	Gender[lex]=Unknown
 8	de	de	ADP	_	_	7	udep	_	_
 9	CM2	CM2	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Masc
 10	de	de	ADP	_	_	7	udep	_	_
@@ -3946,7 +3946,7 @@
 7	naturelle	naturel	ADJ	_	Gender=Fem|Number=Sing	5	mod	_	_
 8	que	que	SCONJ	_	_	2	comp:cleft	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
-10	élèves	élève	NOUN	_	Number=Plur	12	subj	_	_
+10	élèves	élève	NOUN	_	Number=Plur	12	subj	_	Gender[lex]=Unknown
 11	apprentis-acteurs	apprenti-acteur	NOUN	_	Number=Plur	10	mod	_	Gender[lex]=Masc
 12	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	Filler=mod
 13	joué	jouer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	12	comp:aux@tense	_	SpaceAfter=No|Tense[denom]=Past
@@ -4236,7 +4236,7 @@
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	13	conj:coord	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
-19	touristes	touriste	NOUN	_	Number=Plur	17	comp:obj	_	SpaceAfter=No
+19	touristes	touriste	NOUN	_	Number=Plur	17	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 20	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = annodis.er_00157
@@ -4526,11 +4526,11 @@
 13	agrandisse	agrandir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	comp:obj	_	_
 14	de	de	ADP	_	_	13	comp:obl	_	_
 15	quinze	quinze	NUM	_	ExtPos=DET|NumType=Card	16	det	_	Number[lex]=Plur
-16	petits-enfants	petit-enfant	NOUN	_	Number=Plur	14	comp:obj	_	_
+16	petits-enfants	petit-enfant	NOUN	_	Number=Plur	14	comp:obj	_	Gender[lex]=Unknown
 17	et	et	CCONJ	_	_	18	cc	_	_
 18	de	de	ADP	_	_	14	conj:coord	_	_
 19	quatorze	quatorze	NUM	_	ExtPos=DET|NumType=Card	20	det	_	Number[lex]=Plur
-20	arrière-petits-enfants	arrière-petit-enfant	NOUN	_	Number=Plur	18	comp:obj	_	SpaceAfter=No
+20	arrière-petits-enfants	arrière-petit-enfant	NOUN	_	Number=Plur	18	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 21	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = annodis.er_00168
@@ -4872,7 +4872,7 @@
 12-13	des	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	11	udep	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
-14	démissionnaires	démissionnaire	NOUN	_	Number=Plur	12	comp:obj	_	SpaceAfter=No
+14	démissionnaires	démissionnaire	NOUN	_	Number=Plur	12	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 15	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = annodis.er_00182
@@ -4958,7 +4958,7 @@
 # text = Selon les démissionnaires, il ne reste plus aujourd'hui que trois clairons et un tambour au sein de la batterie.
 1	Selon	selon	ADP	_	_	7	mod	_	_
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
-3	démissionnaires	démissionnaire	NOUN	_	Number=Plur	1	comp:obj	_	SpaceAfter=No
+3	démissionnaires	démissionnaire	NOUN	_	Number=Plur	1	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
 6	ne	ne	ADV	_	Polarity=Neg	7	mod	_	_
@@ -5112,9 +5112,9 @@
 15	lampadaires	lampadaire	NOUN	_	Number=Plur	11	conj:coord	_	Gender[lex]=Masc
 16	pour	pour	ADP	_	_	15	mod	_	_
 17	que	que	SCONJ	_	_	16	comp:obj	_	_
-18	scolaires	scolaire	NOUN	_	Number=Plur	24	subj	_	SpaceAfter=No
+18	scolaires	scolaire	NOUN	_	Number=Plur	24	subj	_	Gender[lex]=Unknown|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
-20	usagés	usagé	NOUN	_	Number=Plur	18	conj:coord	_	_
+20	usagés	usagé	NOUN	_	Number=Plur	18	conj:coord	_	Gender[lex]=Masc
 21	et	et	CCONJ	_	_	22	cc	_	_
 22	conducteurs	conducteur	NOUN	_	Number=Plur	20	conj:coord	_	Gender[lex]=Masc
 23	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	24	comp:obj	_	_
@@ -5145,7 +5145,7 @@
 18-19	du	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	17	udep	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	Champ	champ	NOUN	_	_	18	comp:obj	_	SpaceAfter=No
+20	Champ	champ	NOUN	_	_	18	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 21	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = annodis.er_00194
@@ -5187,7 +5187,7 @@
 8-9	des	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	7	udep	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
-10	Rapides	rapide	NOUN	_	_	8	comp:obj	_	SpaceAfter=No
+10	Rapides	rapide	NOUN	_	_	8	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	subj@expl	_	_
 13	vous	vous	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=2|PronType=Prs	15	comp:obl	_	_
@@ -5369,7 +5369,7 @@
 2	en	en	ADP	_	_	10	mod	_	_
 3	milieu	milieu	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Masc
 4	d'	de	ADP	_	_	3	udep	_	SpaceAfter=No
-5	après-midi	après-midi	NOUN	_	Number=Sing	4	comp:obj	_	SpaceAfter=No
+5	après-midi	après-midi	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
 7	quelques	quelques	DET	_	Definite=Ind|PronType=Ind	8	det	_	Number[lex]=Plur
 8	enfants	enfant	NOUN	_	Number=Plur	10	subj	_	Gender[lex]=Unknown
@@ -5405,7 +5405,7 @@
 4	effervescence	effervescence	NOUN	_	Number=Sing	2	comp:pred	_	Gender[lex]=Fem
 5	parmi	parmi	ADP	_	_	2	mod	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-7	bénévoles	bénévole	NOUN	_	Number=Plur	5	comp:obj	_	_
+7	bénévoles	bénévole	NOUN	_	Number=Plur	5	comp:obj	_	Gender[lex]=Unknown
 8	préparant	préparer	VERB	_	VerbForm=Part	7	mod	_	Tense[denom]=Pres
 9	en	en	ADP	_	_	8	mod	_	_
 10	coulisses	coulisse	NOUN	_	Number=Plur	9	comp:obj	_	Gender[lex]=Fem
@@ -5449,7 +5449,7 @@
 18	près	près	ADV	_	ExtPos=PRON	11	comp:obj	_	_
 19	de	de	ADP	_	_	18	comp:obl	_	_
 20	700	700	NUM	_	ExtPos=DET|NumType=Card	21	det	_	Number[lex]=Plur
-21	jeunes	jeune	NOUN	_	Number=Plur	19	comp:obj	_	_
+21	jeunes	jeune	NOUN	_	Number=Plur	19	comp:obj	_	Gender[lex]=Unknown
 22	venus	venir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	21	mod	_	Tense[denom]=Past
 23-24	des	_	_	_	_	_	_	_	_
 23	de	de	ADP	_	_	22	comp:obl	_	_
@@ -5550,7 +5550,7 @@
 8-9	des	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	6	udep	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
-10	jeunes	jeune	NOUN	_	Number=Plur	8	comp:obj	_	_
+10	jeunes	jeune	NOUN	_	Number=Plur	8	comp:obj	_	Gender[lex]=Unknown
 11	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 12	mis	mettre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	11	comp:aux@tense	_	Tense[denom]=Past
 13	en	en	ADP	_	_	12	comp:obl	_	_
@@ -5560,7 +5560,7 @@
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	16	udep	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
-19	adultes	adulte	NOUN	_	Number=Plur	17	comp:obj	_	_
+19	adultes	adulte	NOUN	_	Number=Plur	17	comp:obj	_	Gender[lex]=Unknown
 20	pour	pour	ADP	_	_	16	udep	_	_
 21	ces	ce	DET	_	Number=Plur|PronType=Dem	22	det	_	_
 22	activités	activité	NOUN	_	Number=Plur	20	comp:obj	_	Gender[lex]=Fem
@@ -5697,7 +5697,7 @@
 19	Dominique	Dominique	PROPN	_	Number=Sing	18	subj	_	Gender[lex]=Unknown
 20	Richard	Richard	PROPN	_	Number=Sing	19	flat@name	_	Gender[lex]=Masc|SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
-22	responsable	responsable	NOUN	_	Number=Sing	19	conj:appos	_	_
+22	responsable	responsable	NOUN	_	Number=Sing	19	conj:appos	_	Gender[lex]=Unknown
 23-24	des	_	_	_	_	_	_	_	_
 23	de	de	ADP	_	_	22	udep	_	_
 24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
@@ -5898,7 +5898,7 @@
 # sent_id = annodis.er_00226
 # text = L'après-midi, rencontre entre Lorrains pour la 3e place contre les voisins de Joeuf, mais la fatigue commençait à se faire sentir.
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	après-midi	après-midi	NOUN	_	Number=Sing	0	root	_	SpaceAfter=No
+2	après-midi	après-midi	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Unknown|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	rencontre	rencontre	NOUN	_	Number=Sing	2	mod	_	Gender[lex]=Fem
 5	entre	entre	ADP	_	_	4	udep	_	_
@@ -5933,7 +5933,7 @@
 6	et	et	CCONJ	_	_	12	cc	_	_
 7	sur	sur	ADP	_	_	12	mod	_	_
 8	ces	ce	DET	_	Number=Plur|PronType=Dem	9	det	_	_
-9	mini-rencontres	mini-rencontre	NOUN	_	Number=Plur	7	comp:obj	_	_
+9	mini-rencontres	mini-rencontre	NOUN	_	Number=Plur	7	comp:obj	_	Gender[lex]=Fem
 10	cela	cela	PRON	_	Number=Sing|Person=3|PronType=Dem	12	subj	_	_
 11	ne	ne	ADV	_	Polarity=Neg	12	mod	_	_
 12	pardonne	pardonner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:coord	_	_
@@ -6124,7 +6124,7 @@
 9-10	des	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	8	udep	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
-11	protagonistes	protagoniste	NOUN	_	Number=Plur	9	comp:obj	_	_
+11	protagonistes	protagoniste	NOUN	_	Number=Plur	9	comp:obj	_	Gender[lex]=Unknown
 12	de	de	ADP	_	_	11	udep	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	rixe	rixe	NOUN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Fem
@@ -6195,7 +6195,7 @@
 23	1,74	1,74	NUM	_	ExtPos=DET|NumType=Card	24	det	_	Number[lex]=Plur
 24	gramme	gramme	NOUN	_	Number=Sing	22	comp:obj	_	Gender[lex]=Masc
 25	par	par	ADP	_	_	24	udep	_	_
-26	litre	litre	NOUN	_	Number=Sing	25	comp:obj	_	_
+26	litre	litre	NOUN	_	Number=Sing	25	comp:obj	_	Gender[lex]=Masc
 27	de	de	ADP	_	_	26	udep	_	_
 28	sang	sang	NOUN	_	Number=Sing	27	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 29	.	.	PUNCT	_	Shared=Yes	9	punct	_	_
@@ -6550,7 +6550,7 @@
 10	salle	salle	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Fem
 11	deux	deux	NUM	_	ExtPos=DET|NumType=Card	12	det	_	Number[lex]=Plur
 12	mercredis	mercredi	NOUN	_	Number=Plur	7	mod	_	Gender[lex]=Masc
-13	après-midi	après-midi	NOUN	_	Number=Sing	12	mod	_	_
+13	après-midi	après-midi	NOUN	_	Number=Sing	12	mod	_	Gender[lex]=Unknown
 14	par	par	ADP	_	_	12	udep	_	_
 15	mois	mois	NOUN	_	_	14	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 16	,	,	PUNCT	_	_	7	punct	_	_
@@ -6654,7 +6654,7 @@
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	16	udep	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
-19	bénévoles	bénévole	NOUN	_	Number=Plur	17	comp:obj	_	_
+19	bénévoles	bénévole	NOUN	_	Number=Plur	17	comp:obj	_	Gender[lex]=Unknown
 20	de	de	ADP	_	_	19	udep	_	_
 21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 22	association	association	NOUN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Fem
@@ -6742,7 +6742,7 @@
 
 # sent_id = annodis.er_00260
 # text = secrétaire : Colette Mermet.
-1	secrétaire	secrétaire	NOUN	_	Number=Sing	0	root	_	_
+1	secrétaire	secrétaire	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Unknown
 2	:	:	PUNCT	_	_	3	punct	_	_
 3	Colette	Colette	PROPN	_	Number=Sing	1	conj:appos	_	Gender[lex]=Fem
 4	Mermet	Mermet	PROPN	_	_	3	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
@@ -6769,7 +6769,7 @@
 2	Brandt	Brandt	PROPN	_	Number=Sing	1	flat@name	_	Gender[lex]=Masc
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
-5	actionnaire	actionnaire	NOUN	_	Number=Sing	3	comp:pred	_	_
+5	actionnaire	actionnaire	NOUN	_	Number=Sing	3	comp:pred	_	Gender[lex]=Unknown
 6	majoritaire	majoritaire	ADJ	_	Number=Sing	5	mod	_	Gender[ctxt]=Masc
 7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	à	à	ADP	_	_	5	udep	_	_
@@ -6885,7 +6885,7 @@
 14	plaques	plaque	NOUN	_	Number=Plur	13	comp:obj	_	Gender[lex]=Fem
 15	offset	offset	NOUN	_	Number=Sing	14	mod	_	Gender[lex]=Masc
 16	en	en	ADP	_	_	14	udep	_	_
-17	numérique	numérique	NOUN	_	Number=Sing	16	comp:obj	_	SpaceAfter=No
+17	numérique	numérique	NOUN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	_
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	technologie	technologie	NOUN	_	Number=Sing	12	conj:appos	_	Gender[lex]=Fem
@@ -7605,7 +7605,7 @@
 # sent_id = annodis.er_00291
 # text = l'Association d'entraide des veuves et orphelins de guerre ;
 1	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	Association	association	NOUN	_	Number=Sing	0	root	_	_
+2	Association	association	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Fem
 3	d'	de	ADP	_	_	2	udep	_	SpaceAfter=No
 4	entraide	entraide	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Fem
 5-6	des	_	_	_	_	_	_	_	_
@@ -7636,7 +7636,7 @@
 # sent_id = annodis.er_00293
 # text = l'Association nationale des anciens combattants de la Résistance ;
 1	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	Association	association	NOUN	_	Number=Sing	0	root	_	_
+2	Association	association	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Fem
 3	nationale	national	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	_
 4-5	des	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	2	udep	_	_
@@ -7651,7 +7651,7 @@
 # sent_id = annodis.er_00294
 # text = l'Associations des anciennes internées et déportées de la Résistance ;
 1	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	Associations	association	NOUN	_	Number=Plur|Typo=Yes	0	root	_	CorrectForm=Association|CorrectNumber=Sing
+2	Associations	association	NOUN	_	Number=Plur|Typo=Yes	0	root	_	CorrectForm=Association|CorrectNumber=Sing|Gender[lex]=Fem
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
@@ -7699,7 +7699,7 @@
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	résistants	résistant	NOUN	_	Number=Plur	8	conj:coord	_	Gender[lex]=Masc
 11	et	et	CCONJ	_	_	12	cc	_	_
-12	patriotes	patriote	NOUN	_	Number=Plur	10	conj:coord	_	_
+12	patriotes	patriote	NOUN	_	Number=Plur	10	conj:coord	_	Gender[lex]=Unknown
 13	;	;	PUNCT	_	_	2	punct	_	_
 
 # sent_id = annodis.er_00297
@@ -7714,7 +7714,7 @@
 7	volontaires	volontaire	ADJ	_	Number=Plur	6	mod	_	Gender[ctxt]=Masc
 8	de	de	ADP	_	_	6	udep	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	Résistance	résistance	NOUN	_	Number=Sing	8	comp:obj	_	_
+10	Résistance	résistance	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Fem
 11	;	;	PUNCT	_	_	2	punct	_	_
 
 # sent_id = annodis.er_00298
@@ -7739,7 +7739,7 @@
 1	enfin	enfin	ADV	_	_	4	mod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
-4	Association	association	NOUN	_	Number=Sing	0	root	_	_
+4	Association	association	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Fem
 5	nationale	national	ADJ	_	Gender=Fem|Number=Sing	4	mod	_	_
 6-7	des	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	4	udep	_	_
@@ -7748,7 +7748,7 @@
 9	de	de	ADP	_	_	8	udep	_	_
 10	fusillés	fusillé	NOUN	_	Number=Plur	9	comp:obj	_	Gender[lex]=Masc
 11	et	et	CCONJ	_	_	12	cc	_	_
-12	massacrés	massacré	NOUN	_	Number=Plur	10	conj:coord	_	_
+12	massacrés	massacré	NOUN	_	Number=Plur	10	conj:coord	_	Gender[lex]=Masc
 13	de	de	ADP	_	Shared=Yes	12	udep	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Résistance	résistance	NOUN	_	Number=Sing	13	comp:obj	_	Gender[lex]=Fem
@@ -7811,7 +7811,7 @@
 5	tous	tout	ADJ	_	Gender=Masc|Number=Plur	8	mod	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 7	petits	petit	ADJ	_	Gender=Masc|Number=Plur	8	mod	_	_
-8	judokas	judoka	NOUN	_	Number=Plur	4	comp:obj	_	_
+8	judokas	judoka	NOUN	_	Number=Plur	4	comp:obj	_	Gender[lex]=Unknown
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	8	udep	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -7836,7 +7836,7 @@
 3	pour	pour	ADP	_	_	2	udep	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 5	nombreux	nombreux	ADJ	_	Gender=Masc	6	mod	_	Number[ctxt]=Plur
-6	bénévoles	bénévole	NOUN	_	Number=Plur	3	comp:obj	_	_
+6	bénévoles	bénévole	NOUN	_	Number=Plur	3	comp:obj	_	Gender[lex]=Unknown
 7	de	de	ADP	_	_	6	udep	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	section	section	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Fem
@@ -7916,7 +7916,7 @@
 11	OFP	OFP	PROPN	_	Number=Sing	9	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 12	,	,	PUNCT	_	_	1	punct	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
-14	responsables	responsable	NOUN	_	Number=Plur	50	subj	_	_
+14	responsables	responsable	NOUN	_	Number=Plur	50	subj	_	Gender[lex]=Unknown
 15-16	des	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	14	udep	_	_
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
@@ -7959,7 +7959,7 @@
 53	conseillé	conseiller	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	51	conj:coord	_	Tense[denom]=Past
 54	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	56	det	_	_
 55	petits	petit	ADJ	_	Gender=Masc|Number=Plur	56	mod	_	_
-56	judokas	judoka	NOUN	_	Number=Plur|Shared=Yes	53	comp:obj	_	SpaceAfter=No
+56	judokas	judoka	NOUN	_	Number=Plur|Shared=Yes	53	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 57	.	.	PUNCT	_	Shared=Yes	53	punct	_	_
 
 # sent_id = annodis.er_00306
@@ -8411,7 +8411,7 @@
 6-7	des	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	5	udep	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
-8	locataires	locataire	NOUN	_	Number=Plur	6	comp:obj	_	_
+8	locataires	locataire	NOUN	_	Number=Plur	6	comp:obj	_	Gender[lex]=Unknown
 9	qui	qui	PRON	_	PronType=Rel	10	subj	_	_
 10	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
 11	pu	pouvoir	VERB	_	VerbForm=Part|Voice=Act	10	comp:aux@tense	_	Tense[denom]=Past
@@ -8471,7 +8471,7 @@
 2	température	température	NOUN	_	Number=Sing	3	subj	_	Gender[lex]=Fem
 3	affichant	afficher	VERB	_	VerbForm=Part	8	mod	_	Tense[denom]=Pres
 4	-6	-6	NUM	_	ExtPos=DET|NumType=Card	5	det	_	Number[lex]=Plur|SpaceAfter=No
-5	°C	°C	NOUN	_	_	3	comp:obj	_	SpaceAfter=No
+5	°C	°C	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
 8	emmenait	emmener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -8485,7 +8485,7 @@
 16-17	des	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	15	udep	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
-18	pompiers	pompier	NOUN	_	Number=Plur	16	comp:obj	_	SpaceAfter=No
+18	pompiers	pompier	NOUN	_	Number=Plur	16	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 19	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = annodis.er_00328
@@ -8575,13 +8575,13 @@
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	16	udep	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
-19	CRS	CRS	NOUN	_	Number=Plur	17	comp:obj	_	_
+19	CRS	CRS	NOUN	_	Number=Plur	17	comp:obj	_	Gender[lex]=Unknown
 20	sur	sur	ADP	_	_	16	udep	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	quartier	quartier	NOUN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Masc
 23	dans	dans	ADP	_	_	16	udep	_	_
 24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
-25	après-midi	après-midi	NOUN	_	Number=Sing	23	comp:obj	_	SpaceAfter=No
+25	après-midi	après-midi	NOUN	_	Number=Sing	23	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 26	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = annodis.er_00333
@@ -8642,7 +8642,7 @@
 # sent_id = annodis.er_00335
 # text = "Pompiers et policiers effectueront des rondes toute la nuit.
 1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
-2	Pompiers	pompier	NOUN	_	Number=Plur	5	subj	_	_
+2	Pompiers	pompier	NOUN	_	Number=Plur	5	subj	_	Gender[lex]=Masc
 3	et	et	CCONJ	_	_	4	cc	_	_
 4	policiers	policier	NOUN	_	Number=Plur	2	conj:coord	_	Gender[lex]=Masc
 5	effectueront	effectuer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -8819,7 +8819,7 @@
 34	en	en	ADP	_	_	15	mod	_	_
 35	début	début	NOUN	_	Number=Sing	34	comp:obj	_	Gender[lex]=Masc
 36	d'	de	ADP	_	_	35	udep	_	SpaceAfter=No
-37	après-midi	après-midi	NOUN	_	Number=Sing	36	comp:obj	_	SpaceAfter=No
+37	après-midi	après-midi	NOUN	_	Number=Sing	36	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 38	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = annodis.er_00342
@@ -9248,7 +9248,7 @@
 35	celle	celui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	34	comp:obj	_	_
 36	qui	qui	PRON	_	PronType=Rel	37	subj	_	_
 37	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	35	mod@relcl	_	_
-38	secrétaire	secrétaire	NOUN	_	Number=Sing	37	comp:pred	_	_
+38	secrétaire	secrétaire	NOUN	_	Number=Sing	37	comp:pred	_	Gender[lex]=Unknown
 39	d'	de	ADP	_	_	38	udep	_	SpaceAfter=No
 40	Etat	état	NOUN	_	Number=Sing	39	comp:obj	_	Gender[lex]=Masc
 41	à	à	ADP	_	_	38	udep	_	_
@@ -9394,7 +9394,7 @@
 1-2	Aux	_	_	_	_	_	_	_	_
 1	À	à	ADP	_	_	33	mod	_	_
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
-3	sénatoriales	sénatoriale	NOUN	_	Number=Plur	1	comp:obj	_	_
+3	sénatoriales	sénatoriale	NOUN	_	Number=Plur	1	comp:obj	_	Gender[lex]=Fem
 4	de	de	ADP	_	_	3	udep	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 6	même	même	ADJ	_	Number=Sing	7	mod	_	Gender[ctxt]=Fem
@@ -10080,7 +10080,7 @@
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	recherches	recherche	NOUN	_	Number=Plur	8	comp:obj	_	Gender[lex]=Fem
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
-12	après-midi	après-midi	NOUN	_	Number=Sing	8	mod	_	SpaceAfter=No
+12	après-midi	après-midi	NOUN	_	Number=Sing	8	mod	_	Gender[lex]=Unknown|SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = annodis.er_00388
@@ -10360,11 +10360,11 @@
 16	,	,	PUNCT	_	_	19	punct	_	_
 17	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	19	det	_	_
 18	sept	sept	NUM	_	ExtPos=DET|NumType=Card	19	mod	_	Number[lex]=Plur
-19	petits-enfants	petit-enfant	NOUN	_	Number=Plur	15	conj:coord	_	_
+19	petits-enfants	petit-enfant	NOUN	_	Number=Plur	15	conj:coord	_	Gender[lex]=Unknown
 20	et	et	CCONJ	_	_	23	cc	_	_
 21	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	23	det	_	_
 22	sept	sept	NUM	_	ExtPos=DET|NumType=Card	23	mod	_	Number[lex]=Plur
-23	arrière-petits-enfants	arrière-petit-enfant	NOUN	_	Number=Plur	19	conj:coord	_	SpaceAfter=No
+23	arrière-petits-enfants	arrière-petit-enfant	NOUN	_	Number=Plur	19	conj:coord	_	Gender[lex]=Unknown|SpaceAfter=No
 24	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = annodis.er_00400
@@ -10400,7 +10400,7 @@
 9-10	des	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	8	udep	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
-11	pompiers	pompier	NOUN	_	Number=Plur	9	comp:obj	_	_
+11	pompiers	pompier	NOUN	_	Number=Plur	9	comp:obj	_	Gender[lex]=Masc
 12	de	de	ADP	_	_	11	udep	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
 14	Isle-sur-le-Doubs	Isle-sur-le-Doubs	PROPN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
@@ -10781,7 +10781,7 @@
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	passionnés	passionné	NOUN	_	Number=Plur	3	comp:obj	_	Gender[lex]=Masc
 6	et	et	CCONJ	_	_	7	cc	_	_
-7	amateurs	amateur	NOUN	_	Number=Plur	5	conj:coord	_	_
+7	amateurs	amateur	NOUN	_	Number=Plur	5	conj:coord	_	Gender[lex]=Masc
 8	reposant	reposer	VERB	_	VerbForm=Part	1	mod	_	Tense[denom]=Pres
 9	sur	sur	ADP	_	_	8	comp:obl	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -10961,7 +10961,7 @@
 1	Dernièrement	dernièrement	ADV	_	_	9	mod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
-4	élèves	élève	NOUN	_	Number=Plur	9	subj	_	_
+4	élèves	élève	NOUN	_	Number=Plur	9	subj	_	Gender[lex]=Unknown
 5	de	de	ADP	_	_	4	udep	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 7	école	école	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Fem
@@ -11362,7 +11362,7 @@
 26-27	du	_	_	_	_	_	_	_	_
 26	de	de	ADP	_	_	25	udep	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	commissaire	commissaire	NOUN	_	Number=Sing	26	comp:obj	_	_
+28	commissaire	commissaire	NOUN	_	Number=Sing	26	comp:obj	_	Gender[lex]=Unknown
 29	enquêteur	enquêteur	NOUN	_	Number=Sing	28	mod	_	Gender[lex]=Masc
 30	suite	suite	NOUN	_	ExtPos=ADV|Number=Sing	17	mod	_	Gender[lex]=Fem
 31	à	à	ADP	_	_	30	comp:obl	_	_
@@ -11562,7 +11562,7 @@
 25	présentées	présenter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	24	mod	_	Tense[denom]=Past
 26	par	par	ADP	_	_	25	comp:obl@agent	_	_
 27	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
-28	architecte	architecte	NOUN	_	Number=Sing	26	comp:obj	_	_
+28	architecte	architecte	NOUN	_	Number=Sing	26	comp:obj	_	Gender[lex]=Unknown
 29	n'	ne	ADV	_	Polarity=Neg	30	mod	_	SpaceAfter=No
 30	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 31	pas	pas	ADV	_	Polarity=Neg	30	mod	_	_
@@ -11614,7 +11614,7 @@
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	lot	lot	NOUN	_	Number=Sing	25	subj	_	Gender[lex]=Masc
 23	gros	gros	ADJ	_	Gender=Masc	24	mod	_	Number[ctxt]=Sing
-24	oeuvre	oeuvre	NOUN	_	Number=Sing	22	mod	_	_
+24	oeuvre	oeuvre	NOUN	_	Number=Sing	22	mod	_	Gender[lex]=Fem
 25	devra	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	comp:obj	_	_
 26	probablement	probablement	ADV	_	_	25	mod	_	_
 27	être	être	AUX	_	VerbForm=Inf	25	comp:obj	_	Subject=SubjRaising
@@ -11685,7 +11685,7 @@
 9	réalisée	réaliser	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	6	mod	_	Tense[denom]=Past
 10	par	par	ADP	_	_	9	comp:obl@agent	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
-12	Amicale	amicale	NOUN	_	Number=Sing	10	comp:obj	_	_
+12	Amicale	amicale	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Fem
 13-14	des	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	12	udep	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
@@ -11763,7 +11763,7 @@
 14	vendanges	vendange	NOUN	_	Number=Plur	12	comp:obj	_	Gender[lex]=Fem
 15	et	et	CCONJ	_	_	16	cc	_	_
 16	en	en	ADP	_	_	9	conj:coord	_	_
-17	période	période	NOUN	_	Number=Sing	16	comp:obj	_	_
+17	période	période	NOUN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Fem
 18	hivernale	hivernal	ADJ	_	Gender=Fem|Number=Sing	17	mod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -12059,7 +12059,7 @@
 2	en	en	ADP	_	_	8	mod	_	_
 3	fin	fin	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Fem
 4	d'	de	ADP	_	_	3	udep	_	SpaceAfter=No
-5	après-midi	après-midi	NOUN	_	Number=Sing	4	comp:obj	_	SpaceAfter=No
+5	après-midi	après-midi	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
 7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -12335,7 +12335,7 @@
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	place	place	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Fem
 14	de	de	ADP	_	_	13	udep	_	_
-15	titulaire	titulaire	NOUN	_	Number=Sing	14	comp:obj	_	_
+15	titulaire	titulaire	NOUN	_	Number=Sing	14	comp:obj	_	Gender[lex]=Unknown
 16	:	:	PUNCT	_	_	20	punct	_	_
 17	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
 18	Je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	20	subj	_	_
@@ -12683,7 +12683,7 @@
 13-14	des	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	12	udep	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
-15	pompiers	pompier	NOUN	_	Number=Plur	13	comp:obj	_	_
+15	pompiers	pompier	NOUN	_	Number=Plur	13	comp:obj	_	Gender[lex]=Masc
 16	de	de	ADP	_	_	15	udep	_	_
 17	Montreux-Château	Montreux-Château	PROPN	_	_	16	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
@@ -12749,7 +12749,7 @@
 1	En	en	ADP	_	_	12	mod	_	_
 2	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	dimanche	dimanche	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc
-4	après-midi	après-midi	NOUN	_	Number=Sing	3	mod	_	SpaceAfter=No
+4	après-midi	après-midi	NOUN	_	Number=Sing	3	mod	_	Gender[lex]=Unknown|SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Belfortain	belfortain	NOUN	_	Number=Sing	12	subj	_	Gender[lex]=Masc
@@ -12969,7 +12969,7 @@
 # text = Le passager avant de la voiture en a également profité pour voler l'argent que contenait le porte-monnaie du propriétaire du véhicule, à savoir... 30 F.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	passager	passager	NOUN	_	Number=Sing	8	subj	_	Gender[lex]=Masc
-3	avant	avant	NOUN	_	Number=Sing	2	mod	_	_
+3	avant	avant	NOUN	_	Number=Sing	2	mod	_	Gender[lex]=Masc
 4	de	de	ADP	_	_	2	udep	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	voiture	voiture	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Fem
@@ -12988,7 +12988,7 @@
 19-20	du	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	18	udep	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	propriétaire	propriétaire	NOUN	_	Number=Sing	19	comp:obj	_	_
+21	propriétaire	propriétaire	NOUN	_	Number=Sing	19	comp:obj	_	Gender[lex]=Unknown
 22-23	du	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	21	udep	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
@@ -13170,7 +13170,7 @@
 28	avec	avec	ADP	_	_	24	mod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	_
 30	en	en	ADP	_	_	28	mod	_	_
-31	poche	poche	NOUN	_	Number=Sing	30	comp:obj	_	SpaceAfter=No
+31	poche	poche	NOUN	_	Number=Sing	30	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 32	,	,	PUNCT	_	_	30	punct	_	_
 33	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	convocation	convocation	NOUN	_	Number=Sing	28	comp:obj	_	Gender[lex]=Fem
@@ -13255,7 +13255,7 @@
 # sent_id = annodis.er_00512
 # text = Les pensionnaires de la maison Belot nés en avril fêtaient mardi leur anniversaire.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
-2	pensionnaires	pensionnaire	NOUN	_	Number=Plur	10	subj	_	_
+2	pensionnaires	pensionnaire	NOUN	_	Number=Plur	10	subj	_	Gender[lex]=Unknown
 3	de	de	ADP	_	_	2	udep	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	maison	maison	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Fem
@@ -13465,7 +13465,7 @@
 15	avant	avant	ADP	_	_	11	mod	_	_
 16	de	de	ADP	_	_	15	comp:obj	_	_
 17	devenir	devenir	VERB	_	VerbForm=Inf	16	comp:obj	_	Subject=Instantiated
-18	pensionnaire	pensionnaire	NOUN	_	Number=Sing	17	comp:pred	_	_
+18	pensionnaire	pensionnaire	NOUN	_	Number=Sing	17	comp:pred	_	Gender[lex]=Unknown
 19	à	à	ADP	_	_	18	udep	_	_
 20	Bavilliers	Bavilliers	PROPN	_	Number=Sing	19	comp:obj	_	Gender[lex]=Masc
 21	de	de	ADP	_	_	18	udep	_	_

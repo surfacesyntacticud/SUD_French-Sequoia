@@ -850,7 +850,7 @@
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	_
 6	chers	cher	ADJ	_	Gender=Masc|Number=Plur	7	mod	_	_
-7	collègues	collègue	NOUN	_	Number=Plur	1	conj:coord	_	SpaceAfter=No
+7	collègues	collègue	NOUN	_	Number=Plur	1	conj:coord	_	Gender[lex]=Unknown|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	10	subj	_	_
 10	croyions	croire	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1579,7 +1579,7 @@
 14	longtemps	longtemps	ADV	_	_	11	mod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	11	punct	_	_
 16	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
-17	collègues	collègue	NOUN	_	Number=Plur	27	subj	_	_
+17	collègues	collègue	NOUN	_	Number=Plur	27	subj	_	Gender[lex]=Unknown
 18	de	de	ADP	_	_	17	udep	_	_
 19	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	20	det	_	_
 20	parti	parti	NOUN	_	Number=Sing	18	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
@@ -1901,7 +1901,7 @@
 26	transférer	transférer	VERB	_	VerbForm=Inf	25	comp:obj	_	Subject=Instantiated
 27	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	29	det	_	_
 28	vieilles	vieux	ADJ	_	Gender=Fem|Number=Plur	29	mod	_	_
-29	parts	part	NOUN	_	Number=Plur	26	comp:obj	_	_
+29	parts	part	NOUN	_	Number=Plur	26	comp:obj	_	Gender[lex]=Fem
 30	de	de	ADP	_	_	29	udep	_	_
 31	marché	marché	NOUN	_	Number=Sing	30	comp:obj	_	Gender[lex]=Masc
 32	de	de	ADP	_	_	29	udep	_	_
@@ -2143,7 +2143,7 @@
 28	directement	directement	ADV	_	_	12	mod	_	_
 29	de	de	ADP	_	_	12	comp:obl	_	_
 30	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
-31	artiste	artiste	NOUN	_	Number=Sing	29	comp:obj	_	_
+31	artiste	artiste	NOUN	_	Number=Sing	29	comp:obj	_	Gender[lex]=Unknown
 32	à	à	ADP	_	_	29	comp:obl	_	_
 33	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	34	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 34	utilisateur	utilisateur	NOUN	_	Number=Sing	32	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
@@ -2215,7 +2215,7 @@
 # sent_id = Europar.550_00065
 # text = (EN) J'ai voté en faveur du rapport de Mme Stenzel sur l'initiative EQUAL car je pense qu'il est essentiel de poursuivre le travail qui a été entamé avec les précédentes composantes NOW, Horizon, Youthstart et Integra des initiatives ADAPT et Employment.
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	EN	EN	NOUN	_	_	5	mod	_	SpaceAfter=No
+2	EN	EN	NOUN	_	_	5	mod	_	Gender[lex]=Unknown|SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
 4	J'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	subj	_	SpaceAfter=No
 5	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2361,7 +2361,7 @@
 12	de	de	ADP	_	_	6	conj:coord	_	_
 13	réunir	réunir	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=Generic
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
-15	partenaires	partenaire	NOUN	_	Number=Plur	13	comp:obj	_	_
+15	partenaires	partenaire	NOUN	_	Number=Plur	13	comp:obj	_	Gender[lex]=Unknown
 16	dans	dans	ADP	_	_	15	udep	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	recherche	recherche	NOUN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Fem
@@ -2629,7 +2629,7 @@
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
-5	partenaires	partenaire	NOUN	_	Number=Plur	3	comp:obj	_	_
+5	partenaires	partenaire	NOUN	_	Number=Plur	3	comp:obj	_	Gender[lex]=Unknown
 6	sociaux	social	ADJ	_	Gender=Masc|Number=Plur	5	mod	_	_
 7	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	aussi	aussi	ADV	_	_	7	mod	_	_
@@ -2728,7 +2728,7 @@
 3	Président	président	NOUN	_	Number=Sing	1	mod	_	Gender[lex]=Masc|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	chers	cher	ADJ	_	Gender=Masc|Number=Plur	6	mod	_	_
-6	collègues	collègue	NOUN	_	Number=Plur	1	conj:coord	_	SpaceAfter=No
+6	collègues	collègue	NOUN	_	Number=Plur	1	conj:coord	_	Gender[lex]=Unknown|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	Monsieur	monsieur	NOUN	_	Number=Sing	6	conj:coord	_	Gender[lex]=Masc
 9	Sakellariou	Sakellariou	PROPN	_	_	8	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
@@ -3318,7 +3318,7 @@
 9	aucun	aucun	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	15	subj	_	_
 10	de	de	ADP	_	_	9	udep	_	_
 11	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	12	det	_	_
-12	responsables	responsable	NOUN	_	Number=Plur	10	comp:obj	_	_
+12	responsables	responsable	NOUN	_	Number=Plur	10	comp:obj	_	Gender[lex]=Unknown
 13	ne	ne	ADV	_	Polarity=Neg	15	mod	_	_
 14	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	15	comp:obj	_	_
 15	entend	entendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:coord	_	SpaceAfter=No
@@ -3410,7 +3410,7 @@
 6	exiger	exiger	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=SubjRaising
 7	que	que	SCONJ	_	_	6	comp:obj	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
-9	Serbes	serbe	NOUN	_	Number=Plur	11	subj	_	_
+9	Serbes	serbe	NOUN	_	Number=Plur	11	subj	_	Gender[lex]=Unknown
 10	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	11	comp@expl	_	_
 11	comportent	comporter	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
 12	correctement	correctement	ADV	_	_	11	comp:obl	_	SpaceAfter=No
@@ -3551,7 +3551,7 @@
 26	Albanais	albanais	NOUN	_	Number=Plur	24	comp:obj	_	Gender[lex]=Masc
 27	et	et	CCONJ	_	_	29	cc	_	_
 28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	det	_	_
-29	Serbes	serbe	NOUN	_	Number=Plur	26	conj:coord@emb	_	SpaceAfter=No
+29	Serbes	serbe	NOUN	_	Number=Plur	26	conj:coord@emb	_	Gender[lex]=Unknown|SpaceAfter=No
 30	,	,	PUNCT	_	Shared=Yes	29	punct	_	_
 31	et	et	CCONJ	_	_	32	cc	_	_
 32	qui	qui	PRON	_	ExtPos=PRON|PronType=Rel	26	conj:coord	_	Idiom=Yes
@@ -3921,7 +3921,7 @@
 20	travaillant	travailler	VERB	_	VerbForm=Part	19	comp:obj	_	Tense[denom]=Pres
 21	avec	avec	ADP	_	_	20	mod	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
-23	Russes	russe	NOUN	_	Number=Plur	21	comp:obj	_	_
+23	Russes	russe	NOUN	_	Number=Plur	21	comp:obj	_	Gender[lex]=Unknown
 24	comme	comme	ADP	_	ExtPos=ADV	20	mod	_	Idiom=Yes
 25	si	si	SCONJ	_	_	24	unk	_	InIdiom=Yes
 26	de	de	ADP	_	_	25	unk	_	InIdiom=Yes
@@ -4191,7 +4191,7 @@
 38	précisément	précisément	ADV	_	_	39	mod	_	_
 39	à	à	ADP	_	_	29	mod	_	_
 40	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	41	det	_	_
-41	périodes	période	NOUN	_	Number=Plur	39	comp:obj	_	_
+41	périodes	période	NOUN	_	Number=Plur	39	comp:obj	_	Gender[lex]=Fem
 42	de	de	ADP	_	_	41	udep	_	_
 43	paralysie	paralysie	NOUN	_	Number=Sing	42	comp:obj	_	Gender[lex]=Fem
 44	ou	ou	CCONJ	_	_	45	cc	_	_
@@ -4373,7 +4373,7 @@
 20	de	de	ADP	_	_	14	conj:coord	_	_
 21	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	23	det	_	_
 22	deux	deux	NUM	_	ExtPos=DET|NumType=Card	23	mod	_	Number[lex]=Plur
-23	collègues	collègue	NOUN	_	Number=Plur	20	comp:obj	_	_
+23	collègues	collègue	NOUN	_	Number=Plur	20	comp:obj	_	Gender[lex]=Unknown
 24	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
 25	couronnée	couronner	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	24	comp:aux@pass	_	Tense[denom]=Past
 26	de	de	ADP	_	_	25	comp:obl	_	_
@@ -5319,7 +5319,7 @@
 14-15	des	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	13	udep	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
-16	socialistes	socialiste	NOUN	_	Number=Plur	14	comp:obj	_	_
+16	socialistes	socialiste	NOUN	_	Number=Plur	14	comp:obj	_	Gender[lex]=Unknown
 17	européens	européen	ADJ	_	Gender=Masc|Number=Plur	16	mod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	5	punct	_	_
 19	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	20	subj	_	_
@@ -5903,7 +5903,7 @@
 11-12	aux	_	_	_	_	_	_	_	_
 11	à	à	ADP	_	_	10	comp:obl	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
-13	collègues	collègue	NOUN	_	Number=Plur	11	comp:obj	_	_
+13	collègues	collègue	NOUN	_	Number=Plur	11	comp:obj	_	Gender[lex]=Unknown
 14	qu'	que	SCONJ	_	_	10	comp:obj	_	SpaceAfter=No
 15	on	on	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=3|PronType=Ind	16	subj	_	_
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
@@ -6086,7 +6086,7 @@
 35	pour	pour	ADP	_	_	33	comp:obl	_	_
 36	mettre	mettre	VERB	_	VerbForm=Inf	35	comp:obj	_	_
 37	en	en	ADP	_	_	36	comp:obl	_	_
-38	oeuvre	oeuvre	NOUN	_	Number=Sing	37	comp:obj	_	_
+38	oeuvre	oeuvre	NOUN	_	Number=Sing	37	comp:obj	_	Gender[lex]=Fem
 39	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
 40	convention	convention	NOUN	_	Number=Sing	36	comp:obj	_	Gender[lex]=Fem
 41	de	de	ADP	_	_	40	udep	_	_
@@ -6798,7 +6798,7 @@
 14	de	de	ADP	_	_	13	udep	_	_
 15	mise	mise	NOUN	_	Number=Sing	14	comp:obj	_	Gender[lex]=Fem
 16	en	en	ADP	_	_	15	udep	_	_
-17	oeuvre	oeuvre	NOUN	_	Number=Sing	16	comp:obj	_	_
+17	oeuvre	oeuvre	NOUN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Fem
 18-19	du	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	15	udep	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
@@ -6826,7 +6826,7 @@
 17	de	de	ADP	_	_	16	udep	_	_
 18	mise	mise	NOUN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Fem
 19	en	en	ADP	_	_	18	udep	_	_
-20	oeuvre	oeuvre	NOUN	_	Number=Sing	19	comp:obj	_	_
+20	oeuvre	oeuvre	NOUN	_	Number=Sing	19	comp:obj	_	Gender[lex]=Fem
 21-22	au	_	_	_	_	_	_	_	_
 21	à	à	ADP	_	_	14	mod	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
@@ -6857,7 +6857,7 @@
 14	de	de	ADP	_	_	13	udep	_	_
 15	mise	mise	NOUN	_	Number=Sing	14	comp:obj	_	Gender[lex]=Fem
 16	en	en	ADP	_	_	15	udep	_	_
-17	oeuvre	oeuvre	NOUN	_	Number=Sing	16	comp:obj	_	_
+17	oeuvre	oeuvre	NOUN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Fem
 18-19	du	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	15	udep	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
@@ -7327,7 +7327,7 @@
 40	trois	trois	NUM	_	ExtPos=DET|NumType=Card	41	mod	_	Number[lex]=Plur
 41	groupes	groupe	NOUN	_	Number=Plur	38	comp:obj	_	Gender[lex]=Masc
 42	d'	de	ADP	_	_	41	udep	_	SpaceAfter=No
-43	experts	expert	NOUN	_	Number=Plur	42	comp:obj	_	_
+43	experts	expert	NOUN	_	Number=Plur	42	comp:obj	_	Gender[lex]=Unknown
 44	sur	sur	ADP	_	_	43	udep	_	_
 45	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	46	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 46	Irak	Irak	PROPN	_	Number=Sing	44	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
@@ -7381,7 +7381,7 @@
 14	embargo	embargo	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	sous	sous	ADP	_	_	9	mod	_	_
-17	prétexte	prétexte	NOUN	_	Number=Sing	16	comp:obj	_	_
+17	prétexte	prétexte	NOUN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Masc
 18	que	que	SCONJ	_	_	17	mod	_	_
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 20	Irak	Irak	PROPN	_	Number=Sing	22	subj	_	Gender[lex]=Masc
@@ -7430,7 +7430,7 @@
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	selon	selon	ADP	_	_	8	mod	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
-12	experts	expert	NOUN	_	Number=Plur	10	comp:obj	_	SpaceAfter=No
+12	experts	expert	NOUN	_	Number=Plur	10	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 13	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	1	punct	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -7561,7 +7561,7 @@
 13	conseillers	conseiller	NOUN	_	Number=Plur	12	comp:obj	_	Gender[lex]=Masc
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	de	de	ADP	_	_	12	conj:coord	_	_
-16	parlementaires	parlementaire	NOUN	_	Number=Plur	15	comp:obj	_	_
+16	parlementaires	parlementaire	NOUN	_	Number=Plur	15	comp:obj	_	Gender[lex]=Unknown
 17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 18	publié	publier	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	17	comp:aux@tense	_	Tense[denom]=Past
 19	hier	hier	ADV	_	_	18	mod	_	_
@@ -8230,7 +8230,7 @@
 22	inquiétude	inquiétude	NOUN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Fem
 23	pour	pour	ADP	_	_	15	mod	_	_
 24	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	25	det	_	_
-25	collègues	collègue	NOUN	_	Number=Plur	23	comp:obj	_	_
+25	collègues	collègue	NOUN	_	Number=Plur	23	comp:obj	_	Gender[lex]=Unknown
 26	sociaux-démocrates	social-démocrate	NOUN	_	Number=Plur	25	mod	_	Gender[lex]=Masc
 27	d'	de	ADP	_	_	25	udep	_	SpaceAfter=No
 28	autres	autre	ADJ	_	Number=Plur	29	mod	_	Gender[ctxt]=Fem
@@ -8973,7 +8973,7 @@
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	mise	mise	NOUN	_	Number=Sing	19	comp:obj	_	Gender[lex]=Fem
 22	en	en	ADP	_	_	21	udep	_	_
-23	oeuvre	oeuvre	NOUN	_	Number=Sing	22	comp:obj	_	_
+23	oeuvre	oeuvre	NOUN	_	Number=Sing	22	comp:obj	_	Gender[lex]=Fem
 24	globale	global	ADJ	_	Gender=Fem|Number=Sing	21	mod	_	_
 25	d'	de	ADP	_	_	21	udep	_	SpaceAfter=No
 26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
@@ -9006,7 +9006,7 @@
 17	Commissaire	commissaire	NOUN	_	Number=Sing	15	mod	_	Gender[lex]=Masc|SpaceAfter=No
 18	,	,	PUNCT	_	_	15	punct	_	_
 19	chers	cher	ADJ	_	Gender=Masc|Number=Plur	20	mod	_	_
-20	collègues	collègue	NOUN	_	Number=Plur	15	conj:coord	_	SpaceAfter=No
+20	collègues	collègue	NOUN	_	Number=Plur	15	conj:coord	_	Gender[lex]=Unknown|SpaceAfter=No
 21	,	,	PUNCT	_	_	20	punct	_	_
 22	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	23	subj	_	_
 23	voici	voici	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	_
@@ -9387,7 +9387,7 @@
 8	Présidente	président	NOUN	_	Number=Sing	6	mod	_	Gender[lex]=Fem|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	chers	cher	ADJ	_	Gender=Masc|Number=Plur	11	mod	_	_
-11	collègues	collègue	NOUN	_	Number=Plur	6	conj:coord	_	SpaceAfter=No
+11	collègues	collègue	NOUN	_	Number=Plur	6	conj:coord	_	Gender[lex]=Unknown|SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 14	Union	union	NOUN	_	Number=Sing	17	subj	_	Gender[lex]=Fem
@@ -9926,7 +9926,7 @@
 27-28	au	_	_	_	_	_	_	_	_
 27	à	à	ADP	_	_	15	conj:coord	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	commissaire	commissaire	NOUN	_	Number=Sing	27	comp:obj	_	SpaceAfter=No
+29	commissaire	commissaire	NOUN	_	Number=Sing	27	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	_
 31	M.	monsieur	NOUN	_	Number=Sing	29	conj:appos	_	Gender[lex]=Masc
 32	Barnier	Barnier	PROPN	_	_	31	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
@@ -9937,7 +9937,7 @@
 37	à	à	ADP	_	_	34	conj:coord	_	_
 38	tous	tout	ADJ	_	Gender=Masc|Number=Plur	40	mod	_	_
 39	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	40	det	_	_
-40	collègues	collègue	NOUN	_	Number=Plur	37	comp:obj	_	_
+40	collègues	collègue	NOUN	_	Number=Plur	37	comp:obj	_	Gender[lex]=Unknown
 41	et	et	CCONJ	_	_	46	cc	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	43	punct	_	_
 43	bien	bien	ADV	_	ExtPos=ADV	41	mod	_	Idiom=Yes
@@ -9987,7 +9987,7 @@
 83-84	aux	_	_	_	_	_	_	_	_
 83	à	à	ADP	_	_	69	conj:coord	_	_
 84	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	85	det	_	_
-85	interprètes	interprète	NOUN	_	Number=Plur	83	comp:obj	_	_
+85	interprètes	interprète	NOUN	_	Number=Plur	83	comp:obj	_	Gender[lex]=Unknown
 86	qui	qui	PRON	_	PronType=Rel	87	subj	_	_
 87	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	85	mod@relcl	_	_
 88	bien	bien	ADV	_	_	89	mod	_	_
@@ -10077,7 +10077,7 @@
 5-6	au	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	3	udep	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	commissaire	commissaire	NOUN	_	Number=Sing	5	comp:obj	_	_
+7	commissaire	commissaire	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Unknown
 8	Barnier	Barnier	PROPN	_	_	7	mod	_	Gender[lex]=Unknown
 9	pour	pour	ADP	_	_	3	udep	_	_
 10	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	11	det	_	_
@@ -10087,7 +10087,7 @@
 14	également	également	ADV	_	_	13	mod	_	_
 15	à	à	ADP	_	_	13	udep	_	_
 16	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	17	det	_	_
-17	collègue	collègue	NOUN	_	Number=Sing	15	comp:obj	_	_
+17	collègue	collègue	NOUN	_	Number=Sing	15	comp:obj	_	Gender[lex]=Unknown
 18	Vitorino	Vitorino	PROPN	_	_	17	mod	_	Gender[lex]=Unknown|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	en	en	ADP	_	ExtPos=ADV	13	mod	_	Idiom=Yes
@@ -10760,7 +10760,7 @@
 10	mettent	mettre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 11	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	comp:obj	_	_
 12	en	en	ADP	_	_	10	comp:obl	_	_
-13	oeuvre	oeuvre	NOUN	_	Number=Sing	12	comp:obj	_	_
+13	oeuvre	oeuvre	NOUN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Fem
 14	pour	pour	ADP	_	_	10	mod	_	_
 15	faciliter	faciliter	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=Instantiated
 16	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
@@ -11489,7 +11489,7 @@
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	commissaire	commissaire	NOUN	_	Number=Sing	6	comp:obj	_	_
+8	commissaire	commissaire	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Unknown
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	donc	donc	ADV	_	_	9	mod	_	_
 11	de	de	ADP	_	_	9	comp:pred	_	_
@@ -12126,7 +12126,7 @@
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	3	comp:obl	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	commissaire	commissaire	NOUN	_	Number=Sing	6	comp:obj	_	SpaceAfter=No
+8	commissaire	commissaire	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Europar.550_00371
@@ -12249,7 +12249,7 @@
 3	Président	président	NOUN	_	Number=Sing	1	mod	_	Gender[lex]=Masc|SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
-6	socialistes	socialiste	NOUN	_	Number=Plur	7	subj	_	_
+6	socialistes	socialiste	NOUN	_	Number=Plur	7	subj	_	Gender[lex]=Unknown
 7	appuient	appuyer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	efforts	effort	NOUN	_	Number=Plur	7	comp:obj	_	Gender[lex]=Masc
@@ -12299,7 +12299,7 @@
 21	et	et	CCONJ	_	_	22	cc	_	_
 22	de	de	ADP	_	_	18	conj:coord	_	_
 23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
-24	intermédiation	intermédiation	NOUN	_	Number=Sing	22	comp:obj	_	_
+24	intermédiation	intermédiation	NOUN	_	Number=Sing	22	comp:obj	_	Gender[lex]=Fem
 25	financière	financier	ADJ	_	Gender=Fem|Number=Sing	24	mod	_	_
 26	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	comp:obj	_	_
 27	aussi	aussi	ADV	_	_	28	mod	_	_
@@ -12514,7 +12514,7 @@
 22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	exercice	exercice	NOUN	_	Number=Sing	21	comp:obj	_	Gender[lex]=Masc
 24	pour	pour	ADP	_	_	23	udep	_	_
-25	technocrates	technocrate	NOUN	_	Number=Plur	24	comp:obj	_	_
+25	technocrates	technocrate	NOUN	_	Number=Plur	24	comp:obj	_	Gender[lex]=Unknown
 26	incontrôlés	incontrôlé	ADJ	_	Gender=Masc|Number=Plur	25	mod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -13600,7 +13600,7 @@
 26	soient	être	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	comp:obj	_	_
 27	mis	mettre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Pass	26	comp:aux@pass	_	Tense[denom]=Past
 28	en	en	ADP	_	_	27	comp:obl	_	_
-29	oeuvre	oeuvre	NOUN	_	Number=Sing	28	comp:obj	_	_
+29	oeuvre	oeuvre	NOUN	_	Number=Sing	28	comp:obj	_	Gender[lex]=Fem
 30	plus	plus	ADV	_	_	31	mod	_	_
 31	rapidement	rapidement	ADV	_	_	26	mod	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	19	punct	_	_
@@ -13788,7 +13788,7 @@
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	_
 6	chers	cher	ADJ	_	Gender=Masc|Number=Plur	7	mod	_	_
-7	collègues	collègue	NOUN	_	Number=Plur	1	conj:coord	_	SpaceAfter=No
+7	collègues	collègue	NOUN	_	Number=Plur	1	conj:coord	_	Gender[lex]=Unknown|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	développement	développement	NOUN	_	Number=Sing	21	subj	_	Gender[lex]=Masc
@@ -14297,7 +14297,7 @@
 3	Président	président	NOUN	_	Number=Sing	1	mod	_	Gender[lex]=Masc|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	chers	cher	ADJ	_	Gender=Masc|Number=Plur	6	mod	_	_
-6	collègues	collègue	NOUN	_	Number=Plur	1	conj:coord	_	SpaceAfter=No
+6	collègues	collègue	NOUN	_	Number=Plur	1	conj:coord	_	Gender[lex]=Unknown|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	Madame	madame	NOUN	_	Number=Sing	6	conj:coord	_	Gender[lex]=Fem
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -14446,7 +14446,7 @@
 16	efficace	efficace	ADJ	_	Number=Sing	15	mod	_	Gender[ctxt]=Fem
 17	contre	contre	ADP	_	_	15	udep	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
-19	ESB	ESB	NOUN	_	Number=Sing	17	comp:obj	_	SpaceAfter=No
+19	ESB	ESB	NOUN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 20	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = Europar.550_00451
@@ -14455,7 +14455,7 @@
 2	donc	donc	ADV	_	_	1	mod	_	_
 3	à	à	ADP	_	_	1	comp:obl	_	_
 4	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	5	det	_	_
-5	collègues	collègue	NOUN	_	Number=Plur	3	comp:obj	_	_
+5	collègues	collègue	NOUN	_	Number=Plur	3	comp:obj	_	Gender[lex]=Unknown
 6	écossais	écossais	ADJ	_	Gender=Masc	5	mod	_	Number[ctxt]=Plur
 7	et	et	CCONJ	_	_	8	cc	_	_
 8	gallois	gallois	ADJ	_	Gender=Masc	6	conj:coord	_	Number[ctxt]=Plur|SpaceAfter=No
@@ -15254,7 +15254,7 @@
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	avec	avec	ADP	_	_	26	udep	_	_
 29	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	30	det	_	_
-30	scientifiques	scientifique	NOUN	_	Number=Plur	28	comp:obj	_	SpaceAfter=No
+30	scientifiques	scientifique	NOUN	_	Number=Plur	28	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	_
 32	avec	avec	ADP	_	_	26	udep	_	_
 33	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	34	det	_	_
@@ -15458,7 +15458,7 @@
 7	américain	américain	ADJ	_	Gender=Masc|Number=Sing	6	mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
-10	astronaute	astronaute	NOUN	_	Number=Sing	6	conj:appos	_	_
+10	astronaute	astronaute	NOUN	_	Number=Sing	6	conj:appos	_	Gender[lex]=Unknown
 11	John	John	PROPN	_	Number=Sing	10	mod	_	Gender[lex]=Masc
 12	Glenn	Glenn	PROPN	_	Number=Sing	11	flat@name	_	Gender[lex]=Masc|SpaceAfter=No
 13	,	,	PUNCT	_	_	10	punct	_	_
@@ -15502,7 +15502,7 @@
 6	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	subj	_	_
 7	pourrais	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 8	devenir	devenir	VERB	_	VerbForm=Inf	7	comp:obj	_	Subject=SubjRaising
-9	astronaute	astronaute	NOUN	_	Number=Sing	8	comp:pred	_	SpaceAfter=No
+9	astronaute	astronaute	NOUN	_	Number=Sing	8	comp:pred	_	Gender[lex]=Unknown|SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 12	premier	premier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	13	mod	_	_
@@ -15890,7 +15890,7 @@
 13	semaines	semaine	NOUN	_	Number=Plur	11	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 14	,	,	PUNCT	_	_	11	punct	_	_
 15	80 000	80 000	NUM	_	ExtPos=DET	16	det	_	Number[lex]=Plur
-16	jeunes	jeune	NOUN	_	Number=Plur	24	subj	_	_
+16	jeunes	jeune	NOUN	_	Number=Plur	24	subj	_	Gender[lex]=Unknown
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	16	udep	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
@@ -16493,7 +16493,7 @@
 35-36	des	_	_	_	_	_	_	_	_
 35	de	de	ADP	_	_	34	udep	_	_
 36	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	37	det	_	_
-37	esclaves	esclave	NOUN	_	Number=Plur	35	comp:obj	_	_
+37	esclaves	esclave	NOUN	_	Number=Plur	35	comp:obj	_	Gender[lex]=Unknown
 38	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	comp:obj	_	_
 39	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
 40	réalité	réalité	NOUN	_	Number=Sing	38	comp:pred	_	Gender[lex]=Fem
@@ -16557,7 +16557,7 @@
 21	pas	pas	ADV	_	Polarity=Neg	20	mod	_	_
 22	de	de	ADP	_	_	20	comp:obl	_	_
 23	femmes	femme	NOUN	_	Number=Plur	22	comp:obj	_	Gender[lex]=Fem
-24	adultes	adulte	NOUN	_	Number=Plur	23	mod	_	SpaceAfter=No
+24	adultes	adulte	NOUN	_	Number=Plur	23	mod	_	Gender[lex]=Unknown|SpaceAfter=No
 25	,	,	PUNCT	_	_	28	punct	_	_
 26	mais	mais	CCONJ	_	_	28	cc	_	_
 27	quasiment	quasiment	ADV	_	_	26	mod	_	_
@@ -16769,7 +16769,7 @@
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	tous	tout	ADJ	_	Gender=Masc|Number=Plur	9	mod	_	_
 8	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	9	det	_	_
-9	collègues	collègue	NOUN	_	Number=Plur	6	comp:obj	_	_
+9	collègues	collègue	NOUN	_	Number=Plur	6	comp:obj	_	Gender[lex]=Unknown
 10	pour	pour	ADP	_	_	5	mod	_	_
 11	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	12	comp:obj	_	_
 12	encourager	encourager	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=Instantiated
@@ -17215,10 +17215,10 @@
 45	société	société	NOUN	_	Number=Sing	43	comp:obj	_	Gender[lex]=Fem
 46	entre	entre	ADP	_	_	42	mod	_	_
 47	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	48	det	_	_
-48	riches	riche	NOUN	_	Number=Plur	46	comp:obj	_	_
+48	riches	riche	NOUN	_	Number=Plur	46	comp:obj	_	Gender[lex]=Unknown
 49	et	et	CCONJ	_	_	51	cc	_	_
 50	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	51	det	_	_
-51	pauvres	pauvre	NOUN	_	Number=Plur	48	conj:coord	_	SpaceAfter=No
+51	pauvres	pauvre	NOUN	_	Number=Plur	48	conj:coord	_	Gender[lex]=Unknown|SpaceAfter=No
 52	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Europar.550_00541
@@ -17438,7 +17438,7 @@
 # sent_id = Europar.550_00546
 # text = Par conséquent, conformément à la législation européenne, il jouit, en tant que membre de cette Assemblée, de l'immunité mais le Parlement peut décider de lever cette immunité.
 1	Par	par	ADP	_	_	11	mod	_	_
-2	conséquent	conséquent	NOUN	_	_	1	comp:obj	_	SpaceAfter=No
+2	conséquent	conséquent	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	conformément	conformément	ADV	_	_	11	mod	_	_
 5	à	à	ADP	_	_	4	comp:obl	_	_
@@ -17706,7 +17706,7 @@
 10	légale	légal	ADJ	_	Gender=Fem|Number=Sing	9	mod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	3	punct	_	_
 12	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	13	det	_	_
-13	collègue	collègue	NOUN	_	Number=Sing	15	subj	_	_
+13	collègue	collègue	NOUN	_	Number=Sing	15	subj	_	Gender[lex]=Unknown
 14	Lechner	Lechner	PROPN	_	_	13	mod	_	Gender[lex]=Unknown
 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	déjà	déjà	ADV	_	_	15	mod	_	_
