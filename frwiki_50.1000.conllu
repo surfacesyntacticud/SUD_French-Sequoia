@@ -2745,7 +2745,7 @@
 13	The	The	X	_	Foreign=Yes	9	parataxis	_	Lang=en
 14	Guardian	Guardian	X	_	Foreign=Yes	13	flat@foreign	_	Lang=en|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	October	October	NOUN	_	_	13	parataxis	_	_
+16	October	October	X	_	Foreign=Yes	13	parataxis	_	Lang=en
 17	4	4	NUM	_	ExtPos=PROPN|NumType=Card	16	mod	_	Number[lex]=Sing|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	2001	2001	NUM	_	ExtPos=PROPN|NumType=Card	16	parataxis	_	Number[lex]=Sing|SpaceAfter=No
@@ -2921,7 +2921,7 @@
 16	Asia	Asia	PROPN	_	Number=Sing	5	parataxis	_	Gender[lex]=Unknown
 17	Times	Times	PROPN	_	_	16	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	Nov	Nov	NOUN	_	_	16	parataxis	_	_
+19	Nov	Nov	X	_	Foreign=Yes	16	parataxis	_	Lang=en
 20	13	13	NUM	_	ExtPos=PROPN|NumType=Card	19	mod	_	Number[lex]=Sing|SpaceAfter=No
 21	,	,	PUNCT	_	_	20	punct	_	_
 22	2002	2002	NUM	_	ExtPos=PROPN|NumType=Card	19	parataxis	_	Number[lex]=Sing|SpaceAfter=No
@@ -3527,7 +3527,7 @@
 16-17	du	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	15	udep	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	mode	mode	NOUN	_	Number=Sing	16	comp:obj	_	_
+18	mode	mode	NOUN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Masc
 19	de	de	ADP	_	_	18	udep	_	_
 20	vie	vie	NOUN	_	Number=Sing	19	comp:obj	_	Gender[lex]=Fem
 21-22	du	_	_	_	_	_	_	_	_
@@ -7589,7 +7589,7 @@
 11	mentions	mention	NOUN	_	Number=Plur	9	comp:obj	_	Gender[lex]=Fem
 12	comme	comme	ADP	_	_	11	udep	_	_
 13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
-14	VLM	VLM	NOUN	_	_	12	comp:obj	_	SpaceAfter=No
+14	VLM	VLM	NOUN	_	_	12	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 15	"	"	PUNCT	_	_	14	punct	_	_
 16	pour	pour	ADP	_	_	14	udep	_	_
 17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
@@ -7600,7 +7600,7 @@
 22	"	"	PUNCT	_	_	18	punct	_	_
 23	ou	ou	CCONJ	_	_	25	cc	_	_
 24	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
-25	VLM	VLM	NOUN	_	_	14	conj:coord	_	_
+25	VLM	VLM	NOUN	_	_	14	conj:coord	_	Gender[lex]=Unknown
 26	AL	AL	NOUN	_	_	25	mod	_	Gender[lex]=Unknown|SpaceAfter=No
 27	"	"	PUNCT	_	_	25	punct	_	_
 28	pour	pour	ADP	_	_	25	udep	_	_
@@ -8181,7 +8181,7 @@
 91-92	des	_	_	_	_	_	_	_	_
 91	de	de	ADP	_	_	90	udep	_	_
 92	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	93	det	_	_
-93	Kadosh	Kadosh	NOUN	_	_	91	comp:obj	_	SpaceAfter=No
+93	Kadosh	Kadosh	NOUN	_	_	91	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 94	"	"	PUNCT	_	_	90	punct	_	SpaceAfter=No
 95	.	.	PUNCT	_	Shared=Yes	12	punct	_	_
 
@@ -8685,7 +8685,7 @@
 21-22	des	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	20	comp:obl	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
-23	postes	poste	NOUN	_	Number=Plur	21	comp:obj	_	_
+23	postes	poste	NOUN	_	Number=Plur	21	comp:obj	_	Gender[lex]=Masc
 24	importants	important	ADJ	_	Gender=Masc|Number=Plur	23	mod	_	_
 25	de	de	ADP	_	_	23	udep	_	_
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	Gender[ctxt]=Fem|SpaceAfter=No
@@ -9753,7 +9753,7 @@
 34	et	et	CCONJ	_	_	36	cc	_	_
 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	réseau	réseau	NOUN	_	Number=Sing	30	conj:coord	_	Gender[lex]=Masc
-37	C	C	NOUN	_	_	36	mod	_	SpaceAfter=No
+37	C	C	NOUN	_	_	36	mod	_	Gender[lex]=Unknown|SpaceAfter=No
 38	,	,	PUNCT	_	_	39	punct	_	_
 39	animé	animer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	36	mod	_	Tense[denom]=Past
 40	par	par	ADP	_	_	39	comp:obl@agent	_	_
@@ -10744,7 +10744,7 @@
 # sent_id = frwiki_50.1000_00376
 # text = Réseau C (Alfred Sirven)
 1	Réseau	réseau	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Masc
-2	C	C	NOUN	_	_	1	mod	_	_
+2	C	C	NOUN	_	_	1	mod	_	Gender[lex]=Unknown
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	Alfred	Alfred	PROPN	_	Number=Sing	1	mod	_	Gender[lex]=Masc
 5	Sirven	Sirven	PROPN	_	_	4	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
@@ -10754,7 +10754,7 @@
 # text = Le réseau C repose sur Edmond Kwan et Alfred Sirven, dirigeant d'Elf.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	réseau	réseau	NOUN	_	Number=Sing	4	subj	_	Gender[lex]=Masc
-3	C	C	NOUN	_	_	2	mod	_	_
+3	C	C	NOUN	_	_	2	mod	_	Gender[lex]=Unknown
 4	repose	reposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	sur	sur	ADP	_	_	4	comp:obl	_	_
 6	Edmond	Edmond	PROPN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Masc
@@ -11034,7 +11034,7 @@
 22	de	de	ADP	_	_	21	udep	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	réseau	réseau	NOUN	_	Number=Sing	22	comp:obj	_	Gender[lex]=Masc
-25	C	C	NOUN	_	_	24	mod	_	SpaceAfter=No
+25	C	C	NOUN	_	_	24	mod	_	Gender[lex]=Unknown|SpaceAfter=No
 26	,	,	PUNCT	_	_	30	punct	_	_
 27	derrière	derrière	ADP	_	_	30	mod	_	_
 28	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	27	comp:obj	_	_
@@ -11913,7 +11913,7 @@
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	ouverte	ouvrir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	mod	_	Tense[denom]=Past
 8	contre	contre	ADP	_	_	7	mod	_	_
-9	X	X	NOUN	_	_	8	comp:obj	_	_
+9	X	X	NOUN	_	_	8	comp:obj	_	Gender[lex]=Unknown
 10	en	en	ADP	_	_	7	mod	_	_
 11	juin	juin	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Masc
 12	2001	2001	NUM	_	ExtPos=PROPN|NumType=Card	11	mod	_	Number[lex]=Sing|SpaceAfter=No
@@ -12619,7 +12619,7 @@
 3	information	information	NOUN	_	Number=Sing	7	subj@pass	_	Gender[lex]=Fem
 4	judiciaire	judiciaire	ADJ	_	Number=Sing	3	mod	_	Gender[ctxt]=Fem
 5	contre	contre	ADP	_	_	3	udep	_	_
-6	X	X	NOUN	_	_	5	comp:obj	_	_
+6	X	X	NOUN	_	_	5	comp:obj	_	Gender[lex]=Unknown
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	été	être	AUX	_	VerbForm=Part	7	comp:aux@tense	_	Tense[denom]=Past
 9	ouverte	ouvrir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	8	comp:aux@pass	_	Tense[denom]=Past
@@ -17244,7 +17244,7 @@
 1	Ces	ce	DET	_	Number=Plur|PronType=Dem	2	det	_	_
 2	secrétaires	secrétaire	NOUN	_	Number=Plur	3	subj	_	Gender[lex]=Unknown
 3	auraient	avoir	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	parallèlement	parallèlement	ADV	_	_	3	mod	_	_
+4	parallèlement	parallèlement	ADV	_	_	3	mod	_	
 5	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	3	comp:aux@tense	_	Tense[denom]=Past
 6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
 7	salaires	salaire	NOUN	_	Number=Plur	5	comp:obj	_	Gender[lex]=Masc
@@ -21774,7 +21774,7 @@
 27-28	au	_	_	_	_	_	_	_	_
 27	à	à	ADP	_	_	8	udep	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	poste	poste	NOUN	_	Number=Sing	27	comp:obj	_	_
+29	poste	poste	NOUN	_	Number=Sing	27	comp:obj	_	Gender[lex]=Masc
 30	de	de	ADP	_	_	29	udep	_	_
 31	procureur	procureur	NOUN	_	Number=Sing	30	comp:obj	_	Gender[lex]=Masc
 32	général	général	ADJ	_	Gender=Masc|Number=Sing	31	mod	_	_
@@ -24339,7 +24339,7 @@
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	placé	placer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	comp:aux@pass	_	Tense[denom]=Past
 7	en	en	ADP	_	_	6	comp:obl	_	_
-8	garde	garde	NOUN	_	Number=Sing	7	comp:obj	_	_
+8	garde	garde	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Fem
 9	à	à	ADP	_	_	8	udep	_	_
 10	vue	vue	NOUN	_	Number=Sing	9	comp:obj	_	Gender[lex]=Fem
 11	et	et	CCONJ	_	_	12	cc	_	_
@@ -25957,7 +25957,7 @@
 17	à	à	ADP	_	_	16	comp:obl	_	_
 18	environ	environ	ADV	_	_	20	mod	_	_
 19	8,50	8,50	NUM	_	ExtPos=DET|NumType=Card	20	det	_	Number[lex]=Plur
-20	F	F	NOUN	_	_	17	comp:obj	_	_
+20	F	F	NOUN	_	_	17	comp:obj	_	Gender[lex]=Masc
 21	selon	selon	ADP	_	_	16	mod	_	_
 22	Jacques	Jacques	PROPN	_	Number=Sing	21	comp:obj	_	Gender[lex]=Masc
 23	Despuech	Despuech	PROPN	_	_	22	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No

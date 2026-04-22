@@ -281,7 +281,7 @@
 53	de	de	ADP	_	_	52	udep	_	_
 54	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
 55	segment	segment	NOUN	_	Number=Sing	53	comp:obj	_	Gender[lex]=Masc
-56	ST	ST	NOUN	_	_	55	mod	_	SpaceAfter=No
+56	ST	ST	NOUN	_	_	55	mod	_	Gender[lex]=Unknown|SpaceAfter=No
 57	"	"	PUNCT	_	_	52	punct	_	_
 58	(	(	PUNCT	_	_	59	punct	_	SpaceAfter=No
 59	relevé	relevé	NOUN	_	Number=Sing	52	conj:appos	_	Gender[lex]=Masc
@@ -290,7 +290,7 @@
 62	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	63	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 63	électrocardiogramme	électrocardiogramme	NOUN	_	Number=Sing	61	comp:obj	_	Gender[lex]=Masc
 64	ou	ou	CCONJ	_	_	65	cc	_	_
-65	ECG	ECG	NOUN	_	Number=Sing	63	conj:coord	_	SpaceAfter=No
+65	ECG	ECG	NOUN	_	Number=Sing	63	conj:coord	_	Gender[lex]=Masc|SpaceAfter=No
 66	)	)	PUNCT	_	_	59	punct	_	SpaceAfter=No
 67	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -909,7 +909,7 @@
 36	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
 37	inhibiteur	inhibiteur	NOUN	_	Number=Sing	31	conj:appos	_	Gender[lex]=Masc
 38	de	de	ADP	_	_	37	udep	_	_
-39	GP	GP	NOUN	_	_	38	comp:obj	_	SpaceAfter=No
+39	GP	GP	NOUN	_	_	38	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 40	,	,	PUNCT	_	_	43	punct	_	_
 41	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 42	autre	autre	ADJ	_	Number=Sing	43	mod	_	Gender[ctxt]=Masc
@@ -944,7 +944,7 @@
 71	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	72	det	_	_
 72	inhibiteur	inhibiteur	NOUN	_	Number=Sing	64	conj:coord	_	Gender[lex]=Masc
 73	de	de	ADP	_	_	72	udep	_	_
-74	GP	GP	NOUN	_	_	73	comp:obj	_	SpaceAfter=No
+74	GP	GP	NOUN	_	_	73	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 75	.	.	PUNCT	_	Shared=Yes	19	punct	_	_
 
 # sent_id = emea-fr-dev_00041
@@ -1039,7 +1039,7 @@
 35	,	,	PUNCT	_	_	36	punct	_	_
 36	comme	comme	ADP	_	_	32	mod	_	_
 37	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
-38	abciximab	abciximab	NOUN	_	Number=Sing	36	comp:obj	_	SpaceAfter=No
+38	abciximab	abciximab	NOUN	_	Number=Sing	36	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 39	,	,	PUNCT	_	_	41	punct	_	_
 40	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	41	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 41	aspirine	aspirine	NOUN	_	Number=Sing	38	conj:coord	_	Gender[lex]=Fem|SpaceAfter=No
@@ -1149,7 +1149,7 @@
 17	sans	sans	ADP	_	_	15	conj:coord	_	_
 18	inhibiteur	inhibiteur	NOUN	_	Number=Sing|Shared=Yes	17	comp:obj	_	Gender[lex]=Masc
 19	de	de	ADP	_	_	18	udep	_	_
-20	GP	GP	NOUN	_	_	19	comp:obj	_	SpaceAfter=No
+20	GP	GP	NOUN	_	_	19	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 21	,	,	PUNCT	_	_	14	punct	_	_
 22	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 23	été	être	AUX	_	VerbForm=Part	22	comp:aux@tense	_	Tense[denom]=Past
@@ -1216,7 +1216,7 @@
 6	sans	sans	ADP	_	_	3	mod	_	_
 7	inhibiteur	inhibiteur	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Masc
 8	de	de	ADP	_	_	7	udep	_	_
-9	GP	GP	NOUN	_	_	8	comp:obj	_	_
+9	GP	GP	NOUN	_	_	8	comp:obj	_	Gender[lex]=Fem
 10	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	également	également	ADV	_	_	10	mod	_	_
 12	présenté	présenter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	10	comp:aux@tense	_	Tense[denom]=Past
@@ -1697,7 +1697,7 @@
 
 # sent_id = emea-fr-dev_00073
 # text = EU / 1/04/289/001
-1	EU	EU	NOUN	_	_	0	root	_	_
+1	EU	EU	NOUN	_	_	0	root	_	Gender[lex]=Unknown
 2	/	/	SYM	_	_	1	unk	_	_
 3	1/04/289/001	1/04/289/001	NUM	_	ExtPos=PROPN|NumType=Card	1	mod	_	_
 
@@ -1743,7 +1743,7 @@
 
 # sent_id = emea-fr-dev_00080
 # text = EU / 1/04/289/002
-1	EU	EU	NOUN	_	_	0	root	_	_
+1	EU	EU	NOUN	_	_	0	root	_	Gender[lex]=Unknown
 2	/	/	SYM	_	_	1	unk	_	_
 3	1/04/289/002	1/04/289/002	NUM	_	ExtPos=PROPN|NumType=Card	1	mod	_	_
 
@@ -1926,9 +1926,9 @@
 22	de	de	ADP	_	_	20	udep	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	segment	segment	NOUN	_	Number=Sing	22	comp:obj	_	Gender[lex]=Masc
-25	ST	ST	NOUN	_	_	24	mod	_	_
+25	ST	ST	NOUN	_	_	24	mod	_	Gender[lex]=Unknown
 26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
-27	AI	AI	NOUN	_	Shared=Yes	15	conj:appos	_	_
+27	AI	AI	NOUN	_	Shared=Yes	15	conj:appos	_	Gender[lex]=Unknown
 28	/	/	SYM	_	ExtPos=CCONJ	29	cc	_	_
 29	IDM	IDM	X	_	_	27	conj:coord	_	_
 30	ST-	ST-	X	_	_	29	flat@name	_	SpaceAfter=No
@@ -1979,7 +1979,7 @@
 # text = Posologie et mode d'administration
 1	Posologie	posologie	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Fem
 2	et	et	CCONJ	_	_	3	cc	_	_
-3	mode	mode	NOUN	_	Number=Sing	1	conj:coord	_	_
+3	mode	mode	NOUN	_	Number=Sing	1	conj:coord	_	Gender[lex]=Masc
 4	d'	de	ADP	_	_	3	udep	_	SpaceAfter=No
 5	administration	administration	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Fem
 
@@ -2193,7 +2193,7 @@
 7	pontage	pontage	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Masc
 8	aorto-coronaire	aorto-coronaire	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
 9	sans	sans	ADP	_	_	7	udep	_	_
-10	CEC	CEC	NOUN	_	_	9	comp:obj	_	SpaceAfter=No
+10	CEC	CEC	NOUN	_	_	9	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 11	,	,	PUNCT	_	_	1	punct	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	perfusion	perfusion	NOUN	_	Number=Sing	16	subj	_	Gender[lex]=Fem
@@ -2253,7 +2253,7 @@
 7	pontage	pontage	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Masc
 8	aorto-coronaire	aorto-coronaire	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
 9	avec	avec	ADP	_	_	7	udep	_	_
-10	CEC	CEC	NOUN	_	_	9	comp:obj	_	SpaceAfter=No
+10	CEC	CEC	NOUN	_	_	9	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 11	,	,	PUNCT	_	_	1	punct	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	perfusion	perfusion	NOUN	_	Number=Sing	16	subj	_	Gender[lex]=Fem
@@ -3274,7 +3274,7 @@
 # text = Mises en garde spéciales et précautions particulières d'emploi
 1	Mises	mise	NOUN	_	Number=Plur	0	root	_	Gender[lex]=Fem
 2	en	en	ADP	_	_	1	udep	_	_
-3	garde	garde	NOUN	_	Number=Sing	2	comp:obj	_	_
+3	garde	garde	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Fem
 4	spéciales	spécial	ADJ	_	Gender=Fem|Number=Plur	1	mod	_	_
 5	et	et	CCONJ	_	_	6	cc	_	_
 6	précautions	précaution	NOUN	_	Number=Plur	1	conj:coord	_	Gender[lex]=Fem
@@ -3842,7 +3842,7 @@
 23	clopidogrel	clopidogrel	NOUN	_	Number=Sing	20	conj:coord	_	Gender[lex]=Masc|SpaceAfter=No
 24	,	,	PUNCT	_	_	26	punct	_	_
 25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
-26	abciximab	abciximab	NOUN	_	Number=Sing	23	conj:coord	_	SpaceAfter=No
+26	abciximab	abciximab	NOUN	_	Number=Sing	23	conj:coord	_	Gender[lex]=Masc|SpaceAfter=No
 27	,	,	PUNCT	_	_	29	punct	_	_
 28	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
 29	eptifibatide	eptifibatide	NOUN	_	Number=Sing	26	conj:coord	_	Gender[lex]=Masc
@@ -4533,7 +4533,7 @@
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	randomisation	randomisation	NOUN	_	Number=Sing	26	comp:obj	_	Gender[lex]=Fem
 29	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
-30	n	n	NOUN	_	_	31	subj	_	_
+30	n	n	NOUN	_	_	31	subj	_	Gender[lex]=Unknown
 31	=	=	SYM	_	ExtPos=VERB	6	parataxis:insert	_	_
 32	2078	2078	NUM	_	ExtPos=PROPN|NumType=Card	31	comp:obj	_	SpaceAfter=No
 33	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
@@ -4799,9 +4799,9 @@
 57	en	en	ADP	_	_	56	udep	_	_
 58	hémoglobine	hémoglobine	NOUN	_	Number=Sing	57	comp:obj	_	Gender[lex]=Fem
 59	4	4	NUM	_	ExtPos=DET|NumType=Card	60	det	_	Number[lex]=Plur
-60	g	g	NOUN	_	_	56	mod	_	SpaceAfter=No
+60	g	g	NOUN	_	_	56	mod	_	Gender[lex]=Masc|SpaceAfter=No
 61	/	/	SYM	_	ExtPos=ADP	60	udep	_	SpaceAfter=No
-62	dL	dL	NOUN	_	_	61	comp:obj	_	Gender[lex]=Unknown
+62	dL	dL	NOUN	_	_	61	comp:obj	_	Gender[lex]=Masc
 63	sans	sans	ADP	_	_	53	udep	_	_
 64	source	source	NOUN	_	Number=Sing	63	comp:obj	_	Gender[lex]=Fem
 65	manifeste	manifeste	ADJ	_	Number=Sing	64	mod	_	Gender[ctxt]=Fem
@@ -4815,9 +4815,9 @@
 73	en	en	ADP	_	_	72	udep	_	_
 74	hémoglobine	hémoglobine	NOUN	_	Number=Sing	73	comp:obj	_	Gender[lex]=Fem
 75	3	3	NUM	_	ExtPos=DET|NumType=Card	76	det	_	Number[lex]=Plur
-76	g	g	NOUN	_	_	72	mod	_	SpaceAfter=No
+76	g	g	NOUN	_	_	72	mod	_	Gender[lex]=Masc|SpaceAfter=No
 77	/	/	SYM	_	ExtPos=ADP	76	udep	_	SpaceAfter=No
-78	dL	dL	NOUN	_	_	77	comp:obj	_	Gender[lex]=Unknown
+78	dL	dL	NOUN	_	_	77	comp:obj	_	Gender[lex]=Masc
 79	avec	avec	ADP	_	_	69	udep	_	_
 80	source	source	NOUN	_	Number=Sing	79	comp:obj	_	Gender[lex]=Fem
 81	manifeste	manifeste	ADJ	_	Number=Sing	80	mod	_	Gender[ctxt]=Fem
@@ -4865,9 +4865,9 @@
 22	en	en	ADP	_	_	21	udep	_	_
 23	hémoglobine	hémoglobine	NOUN	_	Number=Sing	22	comp:obj	_	Gender[lex]=Fem
 24	5	5	NUM	_	ExtPos=DET|NumType=Card	25	det	_	Number[lex]=Plur
-25	g	g	NOUN	_	_	21	mod	_	SpaceAfter=No
+25	g	g	NOUN	_	_	21	mod	_	Gender[lex]=Masc|SpaceAfter=No
 26	/	/	SYM	_	ExtPos=ADP	25	udep	_	SpaceAfter=No
-27	dL	dL	NOUN	_	_	26	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
+27	dL	dL	NOUN	_	_	26	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 28	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = emea-fr-dev_00228
@@ -5384,9 +5384,9 @@
 56	plus	plus	ADV	_	ExtPos=PRON	55	comp:obj	_	_
 57	de	de	ADP	_	_	56	comp:obl	_	_
 58	3	3	NUM	_	ExtPos=DET|NumType=Card	59	det	_	Number[lex]=Plur
-59	g	g	NOUN	_	_	57	comp:obj	_	SpaceAfter=No
+59	g	g	NOUN	_	_	57	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 60	/	/	SYM	_	ExtPos=ADP	59	udep	_	SpaceAfter=No
-61	dl	dl	NOUN	_	_	60	comp:obj	_	_
+61	dl	dl	NOUN	_	_	60	comp:obj	_	Gender[lex]=Masc
 62	ou	ou	CCONJ	_	_	64	cc	_	_
 63	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	64	det	_	_
 64	chute	chute	NOUN	_	Number=Sing	51	conj:coord	_	Gender[lex]=Fem
@@ -5396,9 +5396,9 @@
 68	supérieure	supérieur	ADJ	_	Gender=Fem|Number=Sing	64	mod	_	_
 69	à	à	ADP	_	_	68	comp:obl	_	_
 70	4	4	NUM	_	ExtPos=DET|NumType=Card	71	det	_	Number[lex]=Plur
-71	g	g	NOUN	_	_	69	comp:obj	_	SpaceAfter=No
+71	g	g	NOUN	_	_	69	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 72	/	/	SYM	_	ExtPos=ADP	71	udep	_	SpaceAfter=No
-73	dl	dl	NOUN	_	_	72	comp:obj	_	_
+73	dl	dl	NOUN	_	_	72	comp:obj	_	Gender[lex]=Masc
 74	(	(	PUNCT	_	_	77	punct	_	SpaceAfter=No
 75	ou	ou	CCONJ	_	_	77	cc	_	_
 76	12	12	NUM	_	ExtPos=DET|NumType=Card	77	det	_	Number[lex]=Plur|SpaceAfter=No
@@ -5641,7 +5641,7 @@
 
 # sent_id = emea-fr-dev_00264
 # text = GP IIb/IIIa
-1	GP	GP	NOUN	_	_	0	root	_	_
+1	GP	GP	NOUN	_	_	0	root	_	Gender[lex]=Fem
 2	IIb/IIIa	IIb/IIIa	PROPN	_	_	1	mod	_	Gender[lex]=Unknown
 
 # sent_id = emea-fr-dev_00265
@@ -6338,7 +6338,7 @@
 29	de	de	ADP	_	_	28	udep	_	_
 30	thrombine	thrombine	NOUN	_	Number=Sing	29	comp:obj	_	Gender[lex]=Fem
 31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
-32	TT	TT	NOUN	_	_	28	conj:appos	_	SpaceAfter=No
+32	TT	TT	NOUN	_	_	28	conj:appos	_	Gender[lex]=Unknown|SpaceAfter=No
 33	)	)	PUNCT	_	_	32	punct	_	_
 34	et	et	CCONJ	_	_	36	cc	_	_
 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
@@ -6440,7 +6440,7 @@
 46-47	du	_	_	_	_	_	_	_	_
 46	de	de	ADP	_	_	42	conj:coord	_	_
 47	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
-48	TT	TT	NOUN	_	Number=Sing	46	comp:obj	_	SpaceAfter=No
+48	TT	TT	NOUN	_	Number=Sing	46	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 49	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = emea-fr-dev_00303
@@ -6479,7 +6479,7 @@
 13	mesures	mesure	NOUN	_	Number=Plur	11	comp:obj	_	Gender[lex]=Fem
 14	de	de	ADP	_	_	13	udep	_	_
 15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
-16	anticoagulation	anticoagulation	NOUN	_	Number=Sing	14	comp:obj	_	SpaceAfter=No
+16	anticoagulation	anticoagulation	NOUN	_	Number=Sing	14	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
 18	notamment	notamment	ADV	_	_	20	mod	_	_
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
@@ -6594,7 +6594,7 @@
 29	bras	bras	NOUN	_	_	16	conj:appos	_	Gender[lex]=Masc|Number[ctxt]=Sing
 30	B	B	NOUN	_	_	29	mod	_	Gender[lex]=Unknown
 31	et	et	CCONJ	_	_	32	cc	_	_
-32	C	C	NOUN	_	_	30	conj:coord	_	SpaceAfter=No
+32	C	C	NOUN	_	_	30	conj:coord	_	Gender[lex]=Unknown|SpaceAfter=No
 33	)	)	PUNCT	_	_	29	punct	_	_
 34	et	et	CCONJ	_	_	36	cc	_	_
 35	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
@@ -6656,7 +6656,7 @@
 11	bras	bras	NOUN	_	_	8	conj:appos	_	Gender[lex]=Masc|Number[ctxt]=Sing
 12	B	B	NOUN	_	_	11	mod	_	Gender[lex]=Unknown
 13	et	et	CCONJ	_	_	14	cc	_	_
-14	C	C	NOUN	_	_	12	conj:coord	_	SpaceAfter=No
+14	C	C	NOUN	_	_	12	conj:coord	_	Gender[lex]=Unknown|SpaceAfter=No
 15	)	)	PUNCT	_	_	11	punct	_	_
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -6826,7 +6826,7 @@
 11	dans	dans	ADP	_	_	10	mod	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	bras	bras	NOUN	_	_	11	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
-14	C	C	NOUN	_	_	13	mod	_	_
+14	C	C	NOUN	_	_	13	mod	_	Gender[lex]=Unknown
 15	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	également	également	ADV	_	_	15	mod	_	_
 17	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	15	comp:aux@tense	_	Tense[denom]=Past
@@ -6900,7 +6900,7 @@
 18	dynamiques	dynamique	ADJ	_	Number=Plur	17	mod	_	Gender[ctxt]=Masc
 19	de	de	ADP	_	_	17	udep	_	_
 20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
-21	ECG	ECG	NOUN	_	Number=Sing	19	comp:obj	_	_
+21	ECG	ECG	NOUN	_	Number=Sing	19	comp:obj	_	Gender[lex]=Masc
 22	ou	ou	CCONJ	_	_	25	cc	_	_
 23	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	25	det	_	_
 24	bio	bio	ADJ	_	_	25	mod	_	Gender[ctxt]=Masc|Number[ctxt]=Plur
@@ -7073,7 +7073,7 @@
 31	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	clopidogrel	clopidogrel	NOUN	_	Number=Sing	29	conj:coord	_	Gender[lex]=Masc
 33	per	per	ADP	_	_	24	udep	_	_
-34	protocol	protocol	NOUN	_	_	33	comp:obj	_	_
+34	protocol	protocol	NOUN	_	_	33	comp:obj	_	Gender[lex]=Unknown
 35	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 36	présentés	présenter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	35	comp:aux@pass	_	Tense[denom]=Past
 37	dans	dans	ADP	_	_	36	comp:obl	_	_
@@ -7146,9 +7146,9 @@
 57	en	en	ADP	_	_	56	udep	_	_
 58	hémoglobine	hémoglobine	NOUN	_	Number=Sing	57	comp:obj	_	Gender[lex]=Fem
 59	4	4	NUM	_	ExtPos=DET|NumType=Card	60	det	_	Number[lex]=Plur
-60	g	g	NOUN	_	_	56	mod	_	SpaceAfter=No
+60	g	g	NOUN	_	_	56	mod	_	Gender[lex]=Masc|SpaceAfter=No
 61	/	/	SYM	_	ExtPos=ADP	60	udep	_	SpaceAfter=No
-62	dL	dL	NOUN	_	_	61	comp:obj	_	Gender[lex]=Unknown
+62	dL	dL	NOUN	_	_	61	comp:obj	_	Gender[lex]=Masc
 63	sans	sans	ADP	_	_	53	udep	_	_
 64	source	source	NOUN	_	Number=Sing	63	comp:obj	_	Gender[lex]=Fem
 65	manifeste	manifeste	ADJ	_	Number=Sing	64	mod	_	Gender[ctxt]=Fem
@@ -7162,9 +7162,9 @@
 73	en	en	ADP	_	_	72	udep	_	_
 74	hémoglobine	hémoglobine	NOUN	_	Number=Sing	73	comp:obj	_	Gender[lex]=Fem
 75	3	3	NUM	_	ExtPos=DET|NumType=Card	76	det	_	Number[lex]=Plur
-76	g	g	NOUN	_	_	72	mod	_	SpaceAfter=No
+76	g	g	NOUN	_	_	72	mod	_	Gender[lex]=Masc|SpaceAfter=No
 77	/	/	SYM	_	ExtPos=ADP	76	udep	_	SpaceAfter=No
-78	dL	dL	NOUN	_	_	77	comp:obj	_	Gender[lex]=Unknown
+78	dL	dL	NOUN	_	_	77	comp:obj	_	Gender[lex]=Masc
 79	avec	avec	ADP	_	_	69	udep	_	_
 80	source	source	NOUN	_	Number=Sing	79	comp:obj	_	Gender[lex]=Fem
 81	manifeste	manifeste	ADJ	_	Number=Sing	80	mod	_	Gender[ctxt]=Fem
@@ -8967,7 +8967,7 @@
 2	titulaire	titulaire	NOUN	_	Number=Sing	7	subj	_	Gender[lex]=Masc
 3	de	de	ADP	_	_	2	udep	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
-5	AMM	AMM	NOUN	_	Number=Sing	3	comp:obj	_	_
+5	AMM	AMM	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Unknown
 6	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	comp@expl	_	SpaceAfter=No
 7	engage	engager	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	à	à	ADP	_	_	7	comp:obl	_	_
@@ -9004,7 +9004,7 @@
 37	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	38	det	_	_
 38	risques	risque	NOUN	_	Number=Plur	36	comp:obj	_	Gender[lex]=Masc
 39	(	(	PUNCT	_	_	40	punct	_	SpaceAfter=No
-40	PGR	PGR	NOUN	_	_	33	conj:appos	_	SpaceAfter=No
+40	PGR	PGR	NOUN	_	_	33	conj:appos	_	Gender[lex]=Masc|SpaceAfter=No
 41	)	)	PUNCT	_	_	40	punct	_	_
 42	présenté	présenter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	33	mod	_	Tense[denom]=Past
 43	dans	dans	ADP	_	_	42	mod	_	_
@@ -9027,7 +9027,7 @@
 60-61	du	_	_	_	_	_	_	_	_
 60	de	de	ADP	_	_	57	udep	_	_
 61	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
-62	PGR	PGR	NOUN	_	Number=Sing	60	comp:obj	_	_
+62	PGR	PGR	NOUN	_	Number=Sing	60	comp:obj	_	Gender[lex]=Masc
 63	autorisées	autoriser	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	57	mod	_	Tense[denom]=Past
 64	par	par	ADP	_	_	63	comp:obl@agent	_	_
 65	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	66	det	_	_
@@ -9085,7 +9085,7 @@
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	5	udep	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	PGR	PGR	NOUN	_	Number=Sing	8	comp:obj	_	_
+10	PGR	PGR	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Masc
 11	devra	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 12	être	être	AUX	_	VerbForm=Inf	11	comp:obj	_	Subject=SubjRaising
 13	soumise	soumettre	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	12	comp:aux@pass	_	Tense[denom]=Past
@@ -9259,7 +9259,7 @@
 
 # sent_id = emea-fr-dev_00426
 # text = MODE ET VOIE(S) D'ADMINISTRATION
-1	MODE	mode	NOUN	_	Number=Sing	0	root	_	_
+1	MODE	mode	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Masc
 2	ET	et	CCONJ	_	_	3	cc	_	_
 3	VOIE(S)	voie	NOUN	_	_	1	conj:coord	_	Gender[lex]=Fem
 4	D'	de	ADP	_	Shared=Yes	3	udep	_	SpaceAfter=No
@@ -9326,7 +9326,7 @@
 1	AUTRE(S)	autre	ADJ	_	_	2	mod	_	Gender[ctxt]=Fem
 2	MISE(S)	mise	NOUN	_	_	0	root	_	Gender[lex]=Fem
 3	EN	en	ADP	_	_	2	udep	_	_
-4	GARDE	garde	NOUN	_	Number=Sing	3	comp:obj	_	_
+4	GARDE	garde	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Fem
 5	SPECIALE(S)	spécial	ADJ	_	Gender=Fem	2	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	SI	si	SCONJ	_	_	2	mod	_	_
@@ -9620,7 +9620,7 @@
 
 # sent_id = emea-fr-dev_00456
 # text = MODE D'ADMINISTRATION
-1	MODE	mode	NOUN	_	Number=Sing	0	root	_	_
+1	MODE	mode	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Masc
 2	D'	de	ADP	_	_	1	udep	_	SpaceAfter=No
 3	ADMINISTRATION	administration	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Fem
 

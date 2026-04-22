@@ -947,7 +947,7 @@
 7	élève	élever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	à	à	ADP	_	_	7	comp:obl	_	_
 9	2.700.000	2.700.000	NUM	_	ExtPos=DET|NumType=Card	10	det	_	Number[lex]=Plur
-10	F	F	NOUN	_	Number=Plur|Shared=Yes	8	comp:obj	_	SpaceAfter=No
+10	F	F	NOUN	_	Number=Plur|Shared=Yes	8	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	dont	dont	CCONJ	_	_	14	udep	_	_
 13	40	40	NUM	_	ExtPos=DET|NumType=Card	14	det	_	Number[lex]=Plur|SpaceAfter=No
@@ -1267,7 +1267,7 @@
 4	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	comp@expl	_	_
 5	déroulait	dérouler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	en	en	ADP	_	_	5	mod	_	_
-7	parallèle	parallèle	NOUN	_	Number=Sing	6	comp:obj	_	_
+7	parallèle	parallèle	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Unknown
 8	sur	sur	ADP	_	_	5	mod	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	territoire	territoire	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Masc
@@ -2007,7 +2007,7 @@
 15-16	au	_	_	_	_	_	_	_	_
 15	à	à	ADP	_	_	10	udep	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	poste	poste	NOUN	_	Number=Sing	15	comp:obj	_	_
+17	poste	poste	NOUN	_	Number=Sing	15	comp:obj	_	Gender[lex]=Masc
 18	de	de	ADP	_	_	17	udep	_	_
 19	chef	chef	NOUN	_	Number=Sing	18	comp:obj	_	Gender[lex]=Unknown
 20	magasinier	magasinier	NOUN	_	Number=Sing	19	mod	_	Gender[lex]=Masc
@@ -3619,7 +3619,7 @@
 2	,	,	PUNCT	_	_	29	punct	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	jour	jour	NOUN	_	Number=Sing	29	mod	_	Gender[lex]=Masc
-5	J	J	NOUN	_	_	4	mod	_	SpaceAfter=No
+5	J	J	NOUN	_	_	4	mod	_	Gender[lex]=Unknown|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	dans	dans	ADP	_	_	29	mod	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -4702,7 +4702,7 @@
 25	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	exercice	exercice	NOUN	_	Number=Sing	22	conj:appos	_	Gender[lex]=Masc
 27	de	de	ADP	_	_	26	udep	_	_
-28	mémoire	mémoire	NOUN	_	Number=Sing	27	comp:obj	_	_
+28	mémoire	mémoire	NOUN	_	Number=Sing	27	comp:obj	_	Gender[lex]=Fem
 29	qu'	que	PRON	_	PronType=Rel	31	comp:obj	_	SpaceAfter=No
 30	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	subj	_	_
 31	affectionnait	affectionner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	mod@relcl	_	SpaceAfter=No
@@ -5825,7 +5825,7 @@
 26	telle	tel	ADJ	_	Gender=Fem|Number=Sing	22	mod	_	_
 27	Utrecht	Utrecht	PROPN	_	_	26	mod	_	Gender[lex]=Unknown
 28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
-29	N1	N1	NOUN	_	Number=Sing	27	mod	_	_
+29	N1	N1	NOUN	_	Number=Sing	27	mod	_	Gender[lex]=Unknown
 30	hollandaise	hollandais	ADJ	_	Gender=Fem|Number=Sing	29	mod	_	SpaceAfter=No
 31	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	6	punct	_	_
@@ -5836,7 +5836,7 @@
 2	abord	abord	NOUN	_	Number=Sing	1	unk	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
-5	Mirecurtiens	Mirecurtien	NOUN	_	Number=Plur	6	subj	_	_
+5	Mirecurtiens	mirecurtien	NOUN	_	Number=Plur	6	subj	_	Gender[lex]=Masc
 6	rencontrèrent	rencontrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 7	Utrecht	Utrecht	PROPN	_	_	6	comp:obj	_	Gender[lex]=Unknown
 8	qu'	que	PRON	_	PronType=Rel	10	comp:obj	_	SpaceAfter=No
@@ -5858,7 +5858,7 @@
 4	contre	contre	ADP	_	_	2	udep	_	_
 5	Sarrelouis	Sarrelouis	PROPN	_	_	4	comp:obj	_	Gender[lex]=Unknown
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	N2	N2	NOUN	_	Number=Sing	5	mod	_	_
+7	N2	N2	NOUN	_	Number=Sing	5	mod	_	Gender[lex]=Unknown
 8	allemande	allemand	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	SpaceAfter=No
 9	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
@@ -7860,7 +7860,7 @@
 4	qui	qui	PRON	_	PronType=Rel	5	subj	_	_
 5	comporte	comporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	_
 6	trois	trois	NUM	_	ExtPos=DET|NumType=Card	7	det	_	Number[lex]=Plur
-7	tours	tour	NOUN	_	Number=Plur	5	comp:obj	_	SpaceAfter=No
+7	tours	tour	NOUN	_	Number=Plur	5	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	dont	dont	PRON	_	PronType=Rel	11	unk	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -8713,7 +8713,7 @@
 
 # sent_id = annodis.er_00338
 # text = C.L.
-1	C.L.	c.l.	NOUN	_	_	0	root	_	_
+1	C.L.	c.l.	NOUN	_	_	0	root	_	Gender[lex]=Unknown
 
 # sent_id = annodis.er_00339
 # text = Milutinovic devant le TPI.
@@ -9157,7 +9157,7 @@
 10	européennes	européen	NOUN	_	Number=Plur	8	comp:obj	_	Gender[lex]=Fem
 11	et	et	CCONJ	_	_	13	cc	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
-13	régionales	régionale	NOUN	_	Number=Plur	10	conj:coord	_	_
+13	régionales	régionale	NOUN	_	Number=Plur	10	conj:coord	_	Gender[lex]=Fem
 14	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 15	adoptées	adopter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	14	comp:aux@pass	_	Tense[denom]=Past
 16	telles	tel	ADJ	_	Gender=Fem|Number=Plur	14	mod	_	_
@@ -9307,7 +9307,7 @@
 44	de	de	ADP	_	_	43	udep	_	_
 45	revoir	revoir	VERB	_	VerbForm=Inf	44	comp:obj	_	Subject=Generic
 46	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	47	det	_	_
-47	modes	mode	NOUN	_	Number=Plur	45	comp:obj	_	_
+47	modes	mode	NOUN	_	Number=Plur	45	comp:obj	_	Gender[lex]=Masc
 48	de	de	ADP	_	_	47	udep	_	_
 49	scrutin	scrutin	NOUN	_	Number=Sing	48	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 50	,	,	PUNCT	_	_	51	punct	_	_
@@ -9676,7 +9676,7 @@
 6-7	aux	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
-8	régionales	régionale	NOUN	_	Number=Plur	6	comp:obj	_	_
+8	régionales	régionale	NOUN	_	Number=Plur	6	comp:obj	_	Gender[lex]=Fem
 9	si	si	SCONJ	_	_	5	mod	_	_
 10	chaque	chaque	DET	_	Number=Sing|PronType=Ind	11	det	_	_
 11	liste	liste	NOUN	_	Number=Sing	12	subj@pass	_	Gender[lex]=Fem
@@ -13154,7 +13154,7 @@
 12	été	être	AUX	_	VerbForm=Part	11	comp:aux@tense	_	Tense[denom]=Past
 13	placés	placer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	12	comp:aux@pass	_	Tense[denom]=Past
 14	en	en	ADP	_	_	13	comp:obl	_	_
-15	garde	garde	NOUN	_	Number=Sing	14	comp:obj	_	_
+15	garde	garde	NOUN	_	Number=Sing	14	comp:obj	_	Gender[lex]=Fem
 16	à	à	ADP	_	_	15	udep	_	_
 17	vue	vue	NOUN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Fem
 18	à	à	ADP	_	_	15	udep	_	_
