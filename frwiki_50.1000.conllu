@@ -17244,7 +17244,7 @@
 1	Ces	ce	DET	_	Number=Plur|PronType=Dem	2	det	_	_
 2	secrétaires	secrétaire	NOUN	_	Number=Plur	3	subj	_	Gender[lex]=Unknown
 3	auraient	avoir	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	parallèlement	parallèlement	ADV	_	_	3	mod	_	
+4	parallèlement	parallèlement	ADV	_	_	3	mod	_	_
 5	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	3	comp:aux@tense	_	Tense[denom]=Past
 6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
 7	salaires	salaire	NOUN	_	Number=Plur	5	comp:obj	_	Gender[lex]=Masc
