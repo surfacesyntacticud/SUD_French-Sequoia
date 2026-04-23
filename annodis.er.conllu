@@ -9721,7 +9721,7 @@
 21	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	10	punct	_	_
 23	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis:insert	_	_
-24	Marie-Jo	Marie-Jo	PROPN	_	_	23	subj	_	_
+24	Marie-Jo	Marie-Jo	PROPN	_	_	23	subj	_	Gender[lex]=Unknown
 25	Zimmermann	Zimmermann	PROPN	_	_	24	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
 26	.	.	PUNCT	_	_	10	punct	_	_
 
