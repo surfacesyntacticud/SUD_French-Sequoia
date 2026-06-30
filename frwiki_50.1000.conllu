@@ -330,7 +330,7 @@
 23	:	:	PUNCT	_	_	33	punct	_	_
 24	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	général	général	NOUN	_	Number=Sing	33	subj	_	Gender[lex]=Masc
-26	Réveilhac	Réveilhac	PROPN	_	_	25	mod	_	Gender[lex]=Unknown|SpaceAfter=No
+26	Réveilhac	Réveilhac	PROPN	_	_	25	conj:appos	_	Gender[lex]=Unknown|SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	ordonnateur	ordonnateur	NOUN	_	Number=Sing	25	conj:appos	_	Gender[lex]=Masc
 29	de	de	ADP	_	_	28	udep	_	_
@@ -374,7 +374,7 @@
 11	,	,	PUNCT	_	_	1	punct	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	général	général	NOUN	_	Number=Sing	15	subj	_	Gender[lex]=Masc
-14	Réveilhac	Réveilhac	PROPN	_	_	13	mod	_	Gender[lex]=Unknown
+14	Réveilhac	Réveilhac	PROPN	_	_	13	conj:appos	_	Gender[lex]=Unknown
 15	exige	exiger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
 17	sanctions	sanction	NOUN	_	Number=Plur	15	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
@@ -479,7 +479,7 @@
 18	par	par	ADP	_	_	17	comp:obl@agent	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	général	général	NOUN	_	Number=Sing	18	comp:obj	_	Gender[lex]=Masc
-21	Réveilhac	Réveilhac	PROPN	_	_	20	mod	_	Gender[lex]=Unknown
+21	Réveilhac	Réveilhac	PROPN	_	_	20	conj:appos	_	Gender[lex]=Unknown
 22	avec	avec	ADP	_	_	17	mod	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	motif	motif	NOUN	_	Number=Sing	22	comp:obj	_	Gender[lex]=Masc
@@ -1537,7 +1537,7 @@
 # text = - Général André Bach, Fusillés pour l'exemple- 1914-1915, Éditions Tallandier, 2003).
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	Général	général	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Masc
-3	André	André	PROPN	_	Number=Sing	2	mod	_	Gender[lex]=Masc
+3	André	André	PROPN	_	Number=Sing	2	conj:appos	_	Gender[lex]=Masc
 4	Bach	Bach	PROPN	_	Number=Sing	3	flat@name	_	Gender[lex]=Masc|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	Fusillés	fusillé	NOUN	_	Number=Plur	2	mod	_	Gender[lex]=Masc
@@ -7228,7 +7228,7 @@
 # text = Le général André est nommé en 1900 ministre de la guerre, pour remplacer le général de Galliffet démissionnaire, dans le gouvernement de défense républicaine de Waldeck-Rousseau, puis reconduit dans celui d'Émile Combes, après le triomphe du bloc des gauches aux élections de 1902.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	général	général	NOUN	_	Number=Sing	4	subj@pass	_	Gender[lex]=Masc
-3	André	André	PROPN	_	Number=Sing	2	mod	_	Gender[lex]=Masc
+3	André	André	PROPN	_	Number=Sing	2	conj:appos	_	Gender[lex]=Masc
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	nommé	nommer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	comp:aux@pass	_	Tense[denom]=Past
 6	en	en	ADP	_	_	5	mod	_	_
@@ -7879,7 +7879,7 @@
 60	de	de	ADP	_	_	58	udep	_	_
 61	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
 62	général	général	NOUN	_	Number=Sing	60	comp:obj	_	Gender[lex]=Masc
-63	André	André	PROPN	_	_	62	mod	_	Gender[lex]=Unknown|SpaceAfter=No
+63	André	André	PROPN	_	_	62	conj:appos	_	Gender[lex]=Unknown|SpaceAfter=No
 64	,	,	PUNCT	_	Shared=Yes	58	punct	_	_
 65	et	et	CCONJ	_	_	68	cc	_	_
 66	dont	dont	PRON	_	PronType=Rel	71	udep	_	_
@@ -8277,7 +8277,7 @@
 75	,	,	PUNCT	_	_	27	punct	_	_
 76	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	77	det	_	_
 77	général	général	NOUN	_	Number=Sing	79	subj	_	Gender[lex]=Masc
-78	André	André	PROPN	_	Number=Sing	77	mod	_	Gender[lex]=Masc
+78	André	André	PROPN	_	Number=Sing	77	conj:appos	_	Gender[lex]=Masc
 79	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 80	paradoxalement	paradoxalement	ADV	_	_	79	mod	_	_
 81	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	82	det	_	_
@@ -8933,7 +8933,7 @@
 84	ou	ou	CCONJ	_	_	86	cc	_	_
 85	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	86	det	_	_
 86	général	général	NOUN	_	Number=Sing	82	conj:coord	_	Gender[lex]=Masc
-87	Joffre	Joffre	PROPN	_	_	86	mod	_	Gender[lex]=Unknown|SpaceAfter=No
+87	Joffre	Joffre	PROPN	_	_	86	conj:appos	_	Gender[lex]=Unknown|SpaceAfter=No
 88	.	.	PUNCT	_	_	30	punct	_	_
 
 # sent_id = frwiki_50.1000_00316
@@ -8993,7 +8993,7 @@
 5	que	que	SCONJ	_	_	2	comp:obj@agent	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	général	général	NOUN	_	Number=Sing	10	subj	_	Gender[lex]=Masc
-8	André	André	PROPN	_	Number=Sing	7	mod	_	Gender[lex]=Masc
+8	André	André	PROPN	_	Number=Sing	7	conj:appos	_	Gender[lex]=Masc
 9	ne	ne	ADV	_	Polarity=Neg	10	mod	_	_
 10	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	comp:obj	_	_
 11	jamais	jamais	ADV	_	Polarity=Neg	10	mod	_	SpaceAfter=No
@@ -9098,7 +9098,7 @@
 12	de	de	ADP	_	_	11	udep	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	général	général	NOUN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Masc
-15	André	André	PROPN	_	Number=Sing	14	mod	_	Gender[lex]=Masc|SpaceAfter=No
+15	André	André	PROPN	_	Number=Sing	14	conj:appos	_	Gender[lex]=Masc|SpaceAfter=No
 16	,	,	PUNCT	_	_	48	punct	_	_
 17	qui	qui	PRON	_	PronType=Rel	48	subj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
@@ -14599,7 +14599,7 @@
 6	de	de	ADP	_	_	5	udep	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	général	général	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Masc
-9	Imbot	Imbot	PROPN	_	_	8	mod	_	Gender[lex]=Unknown|SpaceAfter=No
+9	Imbot	Imbot	PROPN	_	_	8	conj:appos	_	Gender[lex]=Unknown|SpaceAfter=No
 10	,	,	PUNCT	_	_	5	punct	_	_
 11	ancien	ancien	ADJ	_	Gender=Masc|Number=Sing	21	mod	_	_
 12	de	de	ADP	_	_	11	mod	_	_
@@ -26081,7 +26081,7 @@
 17	,	,	PUNCT	_	_	19	punct	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 19	généraux	général	NOUN	_	Number=Plur	14	conj:coord	_	Gender[lex]=Masc
-20	Charles	Charles	PROPN	_	Number=Sing	19	mod	_	Gender[lex]=Masc
+20	Charles	Charles	PROPN	_	Number=Sing	19	conj:appos	_	Gender[lex]=Masc
 21	Mast	Mast	PROPN	_	_	20	flat@name	_	Gender[lex]=Unknown
 22	et	et	CCONJ	_	_	23	cc	_	_
 23	Revers	Revers	PROPN	_	_	20	conj:coord	_	Gender[lex]=Unknown|SpaceAfter=No
