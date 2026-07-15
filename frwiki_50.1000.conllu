@@ -18119,7 +18119,7 @@
 20	office	office	NOUN	_	Number=Sing	18	comp	_	Gender[lex]=Masc
 21	HLM	HLM	NOUN	_	_	20	mod	_	Gender[lex]=Unknown
 22	de	de	ADP	_	_	20	udep	_	_
-23	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	22	unk@scrap	_	_
+23	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	22	unk	_	Scrap=Yes
 24	Paris	Paris	PROPN	_	Number=Sing	22	comp	_	Gender[lex]=Masc
 25-26	au	_	_	_	_	_	_	_	_
 25	à	à	ADP	_	_	17	udep	_	_
