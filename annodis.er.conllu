@@ -683,9 +683,9 @@
 2	tous	tout	ADJ	_	Gender=Masc|Number=Plur	4	mod	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	jours	jour	NOUN	_	Number=Plur	1	mod	_	Gender[lex]=Masc
-5	sauf	sauf	CCONJ	_	_	4	conj:appos	_	_
+5	sauf	sauf	CCONJ	_	_	7	cc	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	lundi	lundi	NOUN	_	Number=Sing	5	comp	_	Gender[lex]=Masc
+7	lundi	lundi	NOUN	_	Number=Sing	4	conj:appos	_	Gender[lex]=Masc
 8	de	de	ADP	_	_	1	udep	_	_
 9	14	14	NUM	_	ExtPos=PROPN|NumType=Card	10	mod	_	SpaceAfter=No
 10	h	h	NOUN	_	Number=Sing	8	comp	_	Gender[lex]=Fem|SpaceAfter=No
@@ -1531,7 +1531,7 @@
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	pâte	pâte	NOUN	_	Number=Sing	15	comp:obj	_	Gender[lex]=Fem
 18	afin	afin	ADV	_	_	15	mod	_	_
-19	de	de	ADP	_	_	18	comp:obj	_	_
+19	de	de	ADP	_	_	18	comp:obl	_	_
 20	confectionner	confectionner	VERB	_	VerbForm=Inf	19	comp	_	Subject=Instantiated
 21	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	23	det	_	_
 22	délicieux	délicieux	ADJ	_	Gender=Masc	23	mod	_	Number[ctxt]=Plur
@@ -6265,7 +6265,7 @@
 13	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	14	comp@pass	_	_
 14	poursuit	poursuivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	afin	afin	ADV	_	_	14	mod	_	_
-16	de	de	ADP	_	_	15	comp:obj	_	_
+16	de	de	ADP	_	_	15	comp:obl	_	_
 17	savoir	savoir	VERB	_	VerbForm=Inf	16	comp	_	Subject=Generic
 18	qui	qui	PRON	_	PronType=Int	19	subj	_	_
 19	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
@@ -8531,7 +8531,7 @@
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	enquête	enquête	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Fem
 7	afin	afin	ADV	_	_	3	mod	_	_
-8	de	de	ADP	_	_	7	comp:obj	_	_
+8	de	de	ADP	_	_	7	comp:obl	_	_
 9	déterminer	déterminer	VERB	_	VerbForm=Inf	8	comp	_	Subject=Instantiated
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	causes	cause	NOUN	_	Number=Plur	9	comp:obj	_	Gender[lex]=Fem
@@ -9458,9 +9458,9 @@
 19	incitatives	incitatif	ADJ	_	Gender=Fem|Number=Plur	18	mod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	24	punct	_	_
 21	à	à	ADP	_	ExtPos=CCONJ	24	cc	_	Idiom=Yes
-22	savoir	savoir	VERB	_	VerbForm=Inf	21	unk	_	InIdiom=Yes|Subject=Generic
+22	savoir	savoir	VERB	_	VerbForm=Inf	21	comp:obj	_	InIdiom=Yes|Subject=Generic
 23	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
-24	pénalités	pénalité	NOUN	_	Number=Plur	18	conj:coord	_	Gender[lex]=Fem
+24	pénalités	pénalité	NOUN	_	Number=Plur	18	conj:appos	_	Gender[lex]=Fem
 25	financières	financier	ADJ	_	Gender=Fem|Number=Plur	24	mod	_	_
 26	portant	porter	VERB	_	VerbForm=Part	24	mod	_	Tense[denom]=Pres
 27	sur	sur	ADP	_	_	26	comp:obl	_	_
@@ -10575,7 +10575,7 @@
 28	Maxéville	Maxéville	PROPN	_	_	27	comp	_	Gender[lex]=Unknown|SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	_
 30	afin	afin	ADV	_	_	6	mod	_	_
-31	de	de	ADP	_	_	30	comp:obj	_	_
+31	de	de	ADP	_	_	30	comp:obl	_	_
 32	revenir	revenir	VERB	_	VerbForm=Inf	31	comp	_	Subject=Instantiated
 33	sur	sur	ADP	_	_	32	comp:obl	_	_
 34	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	35	det	_	_
@@ -11002,7 +11002,7 @@
 # sent_id = annodis.er_00423
 # text = Afin de raconter l'histoire qu'ils ont découverte, les petits et moyens de la classe de Chantal Hetzel, directrice, ont rédigé ce texte eux-mêmes.
 1	Afin	afin	ADV	_	_	24	mod	_	_
-2	de	de	ADP	_	_	1	comp:obj	_	_
+2	de	de	ADP	_	_	1	comp:obl	_	_
 3	raconter	raconter	VERB	_	VerbForm=Inf	2	comp	_	Subject=Instantiated
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 5	histoire	histoire	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Fem
@@ -11546,7 +11546,7 @@
 11	seuil	seuil	NOUN	_	Number=Sing	9	comp	_	Gender[lex]=Masc
 12	en-dessous	en-dessous	ADV	_	_	21	comp:obl	_	_
 13-14	duquel	_	_	_	_	_	_	_	_
-13	de	de	ADP	_	_	12	comp:obj	_	_
+13	de	de	ADP	_	_	12	comp:obl	_	_
 14	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	13	comp	_	_
 15	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj@expl	_	_
 16	ne	ne	ADV	_	Polarity=Neg	17	mod	_	_
@@ -12994,10 +12994,10 @@
 24	véhicule	véhicule	NOUN	_	Number=Sing	22	comp	_	Gender[lex]=Masc|SpaceAfter=No
 25	,	,	PUNCT	_	_	30	punct	_	_
 26	à	à	ADP	_	ExtPos=CCONJ	30	cc	_	Idiom=Yes
-27	savoir	savoir	VERB	_	VerbForm=Inf	26	unk	_	InIdiom=Yes|SpaceAfter=No|Subject=Generic
+27	savoir	savoir	VERB	_	VerbForm=Inf	26	comp:obj	_	InIdiom=Yes|SpaceAfter=No|Subject=Generic
 28	...	...	PUNCT	_	_	26	punct	_	_
 29	30	30	NUM	_	ExtPos=DET|NumType=Card	30	det	_	Number[lex]=Plur
-30	F	F	NOUN	_	Number=Plur	14	conj:coord	_	Gender[lex]=Masc|SpaceAfter=No
+30	F	F	NOUN	_	Number=Plur	14	conj:appos	_	Gender[lex]=Masc|SpaceAfter=No
 31	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = annodis.er_00501
