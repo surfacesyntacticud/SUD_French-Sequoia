@@ -1801,7 +1801,7 @@
 21	à	à	ADP	_	_	5	comp:obl	_	_
 22	Novartis	Novartis	PROPN	_	_	21	comp	_	Gender[lex]=Unknown
 23	Europharm	Europharm	PROPN	_	_	22	flat@name	_	Gender[lex]=Unknown
-24	Limited	Limited	X	_	Foreign=Yes	21	flat@name	_	Lang=en|SpaceAfter=No
+24	Limited	Limited	X	_	Foreign=Yes	23	flat@name	_	Lang=en|SpaceAfter=No
 25	,	,	PUNCT	_	_	27	punct	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	15	15	NUM	_	ExtPos=PROPN|NumType=Card	4	mod	_	Number[lex]=Sing

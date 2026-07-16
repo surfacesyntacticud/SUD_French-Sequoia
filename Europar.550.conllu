@@ -16546,7 +16546,7 @@
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	d'	de	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes|SpaceAfter=No
 13	autant	autant	ADV	_	_	12	unk	_	InIdiom=Yes
-14	que	que	SCONJ	_	_	12	comp	_	_
+14	que	que	SCONJ	_	_	12	comp:obj	_	_
 15	bien	bien	ADV	_	_	16	mod	_	_
 16	souvent	souvent	ADV	_	_	20	mod	_	_
 17	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	subj@expl	_	_
@@ -17384,7 +17384,7 @@
 44	,	,	PUNCT	_	_	45	punct	_	_
 45	à	à	ADP	_	ExtPos=ADV	23	mod	_	Idiom=Yes
 46	moins	moins	ADV	_	_	45	unk	_	InIdiom=Yes
-47	qu'	que	SCONJ	_	_	45	comp	_	SpaceAfter=No
+47	qu'	que	SCONJ	_	_	45	comp:obj	_	SpaceAfter=No
 48	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	50	subj@pass	_	_
 49	ne	ne	ADV	_	Polarity=Neg	50	mod	_	_
 50	soient	être	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	47	comp	_	_
