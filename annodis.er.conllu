@@ -9458,7 +9458,7 @@
 19	incitatives	incitatif	ADJ	_	Gender=Fem|Number=Plur	18	mod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	24	punct	_	_
 21	à	à	ADP	_	ExtPos=CCONJ	24	cc	_	Idiom=Yes
-22	savoir	savoir	VERB	_	VerbForm=Inf	21	comp:obj	_	InIdiom=Yes|Subject=Generic
+22	savoir	savoir	VERB	_	VerbForm=Inf	21	comp	_	InIdiom=Yes|Subject=Generic
 23	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
 24	pénalités	pénalité	NOUN	_	Number=Plur	18	conj:appos	_	Gender[lex]=Fem
 25	financières	financier	ADJ	_	Gender=Fem|Number=Plur	24	mod	_	_
@@ -12994,7 +12994,7 @@
 24	véhicule	véhicule	NOUN	_	Number=Sing	22	comp	_	Gender[lex]=Masc|SpaceAfter=No
 25	,	,	PUNCT	_	_	30	punct	_	_
 26	à	à	ADP	_	ExtPos=CCONJ	30	cc	_	Idiom=Yes
-27	savoir	savoir	VERB	_	VerbForm=Inf	26	comp:obj	_	InIdiom=Yes|SpaceAfter=No|Subject=Generic
+27	savoir	savoir	VERB	_	VerbForm=Inf	26	comp	_	InIdiom=Yes|SpaceAfter=No|Subject=Generic
 28	...	...	PUNCT	_	_	26	punct	_	_
 29	30	30	NUM	_	ExtPos=DET|NumType=Card	30	det	_	Number[lex]=Plur
 30	F	F	NOUN	_	Number=Plur	14	conj:appos	_	Gender[lex]=Masc|SpaceAfter=No
