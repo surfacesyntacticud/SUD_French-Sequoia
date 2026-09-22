@@ -202,7 +202,7 @@
 14	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
 15	durer	durer	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising
 16	au	au	ADP	_	ExtPos=ADV	19	mod	_	Idiom=Yes
-17	moins	moins	ADV	_	_	16	unk	_	InIdiom=Yes
+17	moins	moins	ADV	_	_	16	comp	_	InIdiom=Yes
 18	15	15	NUM	_	ExtPos=DET|NumType=Card	19	det	_	Number[lex]=Plur
 19	minutes	minute	NOUN	_	Number=Plur	15	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 20	.	.	PUNCT	_	_	2	punct	_	_
@@ -240,7 +240,7 @@
 9	doivent	devoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	attendre	attendre	VERB	_	VerbForm=Inf	9	comp:obj	_	Subject=SubjRaising
 11	au	au	ADP	_	ExtPos=ADV	13	mod	_	Idiom=Yes
-12	moins	moins	ADV	_	_	11	unk	_	InIdiom=Yes
+12	moins	moins	ADV	_	_	11	comp	_	InIdiom=Yes
 13	deux	deux	NUM	_	ExtPos=DET|NumType=Card	14	det	_	Number[lex]=Plur
 14	semaines	semaine	NOUN	_	Number=Plur	15	mod	_	Gender[lex]=Fem
 15	après	après	ADP	_	_	10	mod	_	_
@@ -280,7 +280,7 @@
 2	perfusion	perfusion	NOUN	_	Number=Sing	3	subj	_	Gender[lex]=Fem
 3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	au	au	ADP	_	ExtPos=ADV	7	mod	_	Idiom=Yes
-5	moins	moins	ADV	_	_	4	unk	_	InIdiom=Yes
+5	moins	moins	ADV	_	_	4	comp	_	InIdiom=Yes
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	an	an	NOUN	_	Number=Sing	3	mod	_	Gender[lex]=Masc|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
@@ -341,7 +341,7 @@
 12	doivent	devoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	prendre	prendre	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=SubjRaising
 14	au	au	ADP	_	ExtPos=ADV	17	mod	_	Idiom=Yes
-15	moins	moins	ADV	_	_	14	unk	_	InIdiom=Yes
+15	moins	moins	ADV	_	_	14	comp	_	InIdiom=Yes
 16	500	500	NUM	_	ExtPos=DET|NumType=Card	17	det	_	Number[lex]=Plur
 17	mg	mg	NOUN	_	_	13	comp:obj	_	Gender[lex]=Masc
 18	de	de	ADP	_	_	17	udep	_	_
@@ -352,7 +352,7 @@
 23	jour	jour	NOUN	_	Number=Sing	22	comp	_	Gender[lex]=Masc
 24	pendant	pendant	ADP	_	_	13	mod	_	_
 25	au	au	ADP	_	ExtPos=ADV	28	mod	_	Idiom=Yes
-26	moins	moins	ADV	_	_	25	unk	_	InIdiom=Yes
+26	moins	moins	ADV	_	_	25	comp	_	InIdiom=Yes
 27	10	10	NUM	_	ExtPos=DET|NumType=Card	28	det	_	Number[lex]=Plur
 28	jours	jour	NOUN	_	Number=Plur	24	comp	_	Gender[lex]=Masc
 29	après	après	ADP	_	_	28	udep	_	_
@@ -997,7 +997,7 @@
 39	redescendu	redescendre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	38	comp:aux@tense	_	Tense[denom]=Past
 40	d'	de	ADP	_	_	39	comp:obl	_	SpaceAfter=No
 41	au	au	ADP	_	ExtPos=ADV	44	mod	_	Idiom=Yes
-42	moins	moins	ADV	_	_	41	unk	_	InIdiom=Yes
+42	moins	moins	ADV	_	_	41	comp	_	InIdiom=Yes
 43	75	75	NUM	_	ExtPos=DET|NumType=Card	44	det	_	Number[lex]=Plur|SpaceAfter=No
 44	%	%	SYM	_	ExtPos=NOUN|Number=Plur	40	comp	_	_
 45	pour	pour	ADP	_	_	38	mod	_	_
@@ -2371,7 +2371,7 @@
 30	calcium-élément	calcium-élément	NOUN	_	Number=Sing	29	comp	_	Gender[lex]=Masc
 31	d'	de	ADP	_	_	28	udep	_	SpaceAfter=No
 32	au	au	ADP	_	ExtPos=ADV	35	mod	_	Idiom=Yes
-33	moins	moins	ADV	_	_	32	unk	_	InIdiom=Yes
+33	moins	moins	ADV	_	_	32	comp	_	InIdiom=Yes
 34	500	500	NUM	_	ExtPos=DET|NumType=Card	35	det	_	Number[lex]=Plur
 35	mg	mg	NOUN	_	_	31	comp	_	Gender[lex]=Masc
 36	deux	deux	NUM	_	ExtPos=DET|NumType=Card	37	det	_	Number[lex]=Plur
@@ -2381,7 +2381,7 @@
 40	,	,	PUNCT	_	_	41	punct	_	_
 41	pendant	pendant	ADP	_	_	19	mod	_	_
 42	au	au	ADP	_	ExtPos=ADV	41	mod	_	Idiom=Yes
-43	moins	moins	ADV	_	_	42	unk	_	InIdiom=Yes
+43	moins	moins	ADV	_	_	42	comp	_	InIdiom=Yes
 44	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	46	det	_	_
 45	10	10	NUM	_	ExtPos=DET|NumType=Card	46	mod	_	Number[lex]=Plur
 46	jours	jour	NOUN	_	Number=Plur	41	comp	_	Gender[lex]=Masc
@@ -2733,7 +2733,7 @@
 11	administrée	administrer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	comp:aux@pass	_	Tense[denom]=Past
 12	pendant	pendant	ADP	_	_	10	mod	_	_
 13	au	au	ADP	_	ExtPos=ADV	16	mod	_	Idiom=Yes
-14	moins	moins	ADV	_	_	13	unk	_	InIdiom=Yes
+14	moins	moins	ADV	_	_	13	comp	_	InIdiom=Yes
 15	15	15	NUM	_	ExtPos=DET|NumType=Card	16	det	_	Number[lex]=Plur
 16	minutes	minute	NOUN	_	Number=Plur	12	comp	_	Gender[lex]=Fem|SpaceAfter=No
 17	.	.	PUNCT	_	_	9	punct	_	_
@@ -3032,7 +3032,7 @@
 29	calcium-élément	calcium-élément	NOUN	_	Number=Sing	28	comp	_	Gender[lex]=Masc
 30	d'	de	ADP	_	_	27	udep	_	SpaceAfter=No
 31	au	au	ADP	_	ExtPos=ADV	34	mod	_	Idiom=Yes
-32	moins	moins	ADV	_	_	31	unk	_	InIdiom=Yes
+32	moins	moins	ADV	_	_	31	comp	_	InIdiom=Yes
 33	500	500	NUM	_	ExtPos=DET|NumType=Card	34	det	_	Number[lex]=Plur
 34	mg	mg	NOUN	_	_	30	comp	_	Gender[lex]=Masc
 35	deux	deux	NUM	_	ExtPos=DET|NumType=Card	36	det	_	Number[lex]=Plur
@@ -3041,7 +3041,7 @@
 38	jour	jour	NOUN	_	Number=Sing	37	comp	_	Gender[lex]=Masc
 39	pendant	pendant	ADP	_	_	18	mod	_	_
 40	au	au	ADP	_	ExtPos=ADV	39	mod	_	Idiom=Yes
-41	moins	moins	ADV	_	_	40	unk	_	InIdiom=Yes
+41	moins	moins	ADV	_	_	40	comp	_	InIdiom=Yes
 42	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	44	det	_	_
 43	10	10	NUM	_	ExtPos=DET|NumType=Card	44	mod	_	Number[lex]=Plur
 44	jours	jour	NOUN	_	Number=Plur	39	comp	_	Gender[lex]=Masc
@@ -5251,7 +5251,7 @@
 11	osseux	osseux	ADJ	_	Gender=Masc	10	mod	_	Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	à	à	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes
-14	partir	partir	VERB	_	VerbForm=Inf	13	unk	_	InIdiom=Yes|Subject=Generic
+14	partir	partir	VERB	_	VerbForm=Inf	13	comp	_	InIdiom=Yes|Subject=Generic
 15	de	de	ADP	_	_	14	comp:obl	_	_
 16	taux	taux	NOUN	_	_	15	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur
 17	post-ménopausiques	post-ménopausique	ADJ	_	Gender=Masc|Number=Plur	16	mod	_	_
@@ -5398,7 +5398,7 @@
 55	-1,5	-1,5	NUM	_	ExtPos=PROPN|NumType=Card	50	mod	_	_
 56	et	et	CCONJ	_	_	60	cc	_	_
 57	au	au	ADP	_	ExtPos=ADV	56	mod	_	Idiom=Yes
-58	moins	moins	ADV	_	_	57	unk	_	InIdiom=Yes
+58	moins	moins	ADV	_	_	57	comp	_	InIdiom=Yes
 59	deux	deux	NUM	_	ExtPos=DET|NumType=Card	60	det	_	Number[lex]=Plur
 60	fractures	fracture	NOUN	_	Number=Plur	41	conj:coord	_	Gender[lex]=Fem
 61	vertébrales	vertébral	ADJ	_	Gender=Fem|Number=Plur	60	mod	_	_
@@ -5609,7 +5609,7 @@
 # sent_id = emea-fr-test_00216
 # text = Au moins une nouvelle fracture vertébrale (0-1 an)
 1	Au	au	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes|wordform=au
-2	moins	moins	ADV	_	_	1	unk	_	InIdiom=Yes
+2	moins	moins	ADV	_	_	1	comp	_	InIdiom=Yes
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 4	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	5	mod	_	_
 5	fracture	fracture	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Fem
@@ -5622,7 +5622,7 @@
 # sent_id = emea-fr-test_00217
 # text = Au moins une nouvelle fracture vertébrale (0-2 ans)
 1	Au	au	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes|wordform=au
-2	moins	moins	ADV	_	_	1	unk	_	InIdiom=Yes
+2	moins	moins	ADV	_	_	1	comp	_	InIdiom=Yes
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 4	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	5	mod	_	_
 5	fracture	fracture	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Fem
@@ -5635,7 +5635,7 @@
 # sent_id = emea-fr-test_00218
 # text = Au moins une nouvelle fracture vertébrale (0-3 ans)
 1	Au	au	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes|wordform=au
-2	moins	moins	ADV	_	_	1	unk	_	InIdiom=Yes
+2	moins	moins	ADV	_	_	1	comp	_	InIdiom=Yes
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 4	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	5	mod	_	_
 5	fracture	fracture	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Fem
@@ -6686,7 +6686,7 @@
 7	par	par	ADP	_	_	6	udep	_	_
 8	an	an	NOUN	_	Number=Sing	7	comp	_	Gender[lex]=Masc
 9	au	au	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes
-10	moins	moins	ADV	_	_	9	unk	_	InIdiom=Yes
+10	moins	moins	ADV	_	_	9	comp	_	InIdiom=Yes
 11	jusqu'	jusque	ADP	_	_	2	mod	_	SpaceAfter=No
 12	à	à	ADP	_	_	11	comp	_	_
 13	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	comp	_	_
@@ -7560,7 +7560,7 @@
 23	de	de	ADP	_	_	22	udep	_	_
 24	suivi	suivi	NOUN	_	Number=Sing	23	comp	_	Gender[lex]=Masc
 25	à	à	ADP	_	ExtPos=ADV	22	mod	_	Idiom=Yes
-26	partir	partir	VERB	_	VerbForm=Inf	25	unk	_	InIdiom=Yes|Subject=Generic
+26	partir	partir	VERB	_	VerbForm=Inf	25	comp	_	InIdiom=Yes|Subject=Generic
 27	de	de	ADP	_	_	26	comp:obl	_	_
 28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	perfusion	perfusion	NOUN	_	Number=Sing	27	comp	_	Gender[lex]=Fem
@@ -8269,7 +8269,7 @@
 12	estrogènes	estrogène	NOUN	_	Number=Plur	7	conj:appos	_	Gender[lex]=Masc
 13	convertis	convertir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	12	mod	_	Tense[denom]=Past
 14	à	à	ADP	_	ExtPos=ADV	13	mod	_	Idiom=Yes
-15	partir	partir	VERB	_	VerbForm=Inf	14	unk	_	InIdiom=Yes|Subject=Generic
+15	partir	partir	VERB	_	VerbForm=Inf	14	comp	_	InIdiom=Yes|Subject=Generic
 16	des	de	ADP	_	_	15	comp:obl	_	_
 17	androgènes	androgène	NOUN	_	Number=Plur	16	comp	_	Gender[lex]=Masc|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
@@ -8852,7 +8852,7 @@
 5	suffisamment	suffisamment	ADV	_	_	4	mod	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	au	au	ADP	_	ExtPos=ADV	12	mod	_	Idiom=Yes
-8	moins	moins	ADV	_	_	7	unk	_	InIdiom=Yes
+8	moins	moins	ADV	_	_	7	comp	_	InIdiom=Yes
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 10	à	à	ADP	_	_	9	mod	_	_
 11	deux	deux	NUM	_	ExtPos=DET|NumType=Card	10	comp	_	Number[lex]=Plur
@@ -9049,7 +9049,7 @@
 2	perfusion	perfusion	NOUN	_	Number=Sing	3	subj	_	Gender[lex]=Fem
 3	durera	durer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	au	au	ADP	_	ExtPos=ADV	7	mod	_	Idiom=Yes
-5	moins	moins	ADV	_	_	4	unk	_	InIdiom=Yes
+5	moins	moins	ADV	_	_	4	comp	_	InIdiom=Yes
 6	15	15	NUM	_	ExtPos=DET|NumType=Card	7	det	_	Number[lex]=Plur
 7	minutes	minute	NOUN	_	Number=Plur	3	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
@@ -9192,7 +9192,7 @@
 2	perfusion	perfusion	NOUN	_	Number=Sing	3	subj	_	Gender[lex]=Fem
 3	durera	durer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	au	au	ADP	_	ExtPos=ADV	7	mod	_	Idiom=Yes
-5	moins	moins	ADV	_	_	4	unk	_	InIdiom=Yes
+5	moins	moins	ADV	_	_	4	comp	_	InIdiom=Yes
 6	15	15	NUM	_	ExtPos=DET|NumType=Card	7	det	_	Number[lex]=Plur
 7	minutes	minute	NOUN	_	Number=Plur	3	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
@@ -9255,7 +9255,7 @@
 24	)	)	PUNCT	_	_	20	punct	_	_
 25	pendant	pendant	ADP	_	_	7	mod	_	_
 26	au	au	ADP	_	ExtPos=ADV	31	mod	_	Idiom=Yes
-27	moins	moins	ADV	_	_	26	unk	_	InIdiom=Yes
+27	moins	moins	ADV	_	_	26	comp	_	InIdiom=Yes
 28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	_
 29	10	10	NUM	_	ExtPos=DET|NumType=Card	31	mod	_	Number[lex]=Plur
 30	premiers	premier	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	31	mod	_	_
@@ -10583,7 +10583,7 @@
 13	15	15	NUM	_	ExtPos=DET|NumType=Card	14	det	_	Number[lex]=Plur
 14	minutes	minute	NOUN	_	Number=Plur	12	comp	_	Gender[lex]=Fem
 15	au	au	ADP	_	ExtPos=ADV	14	mod	_	Idiom=Yes
-16	moins	moins	ADV	_	_	15	unk	_	InIdiom=Yes|SpaceAfter=No
+16	moins	moins	ADV	_	_	15	comp	_	InIdiom=Yes|SpaceAfter=No
 17	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = emea-fr-test_00516
@@ -10929,7 +10929,7 @@
 29	calcium-élément	calcium-élément	NOUN	_	Number=Sing	28	comp	_	Gender[lex]=Masc
 30	d'	de	ADP	_	_	29	udep	_	SpaceAfter=No
 31	au	au	ADP	_	ExtPos=ADV	34	mod	_	Idiom=Yes
-32	moins	moins	ADV	_	_	31	unk	_	InIdiom=Yes
+32	moins	moins	ADV	_	_	31	comp	_	InIdiom=Yes
 33	500	500	NUM	_	ExtPos=DET|NumType=Card	34	det	_	Number[lex]=Plur
 34	mg	mg	NOUN	_	_	30	comp	_	Gender[lex]=Masc
 35	deux	deux	NUM	_	ExtPos=DET|NumType=Card	36	det	_	Number[lex]=Plur
@@ -10939,7 +10939,7 @@
 39	,	,	PUNCT	_	_	40	punct	_	_
 40	pendant	pendant	ADP	_	_	27	udep	_	_
 41	au	au	ADP	_	ExtPos=ADV	45	mod	_	Idiom=Yes
-42	moins	moins	ADV	_	_	41	unk	_	InIdiom=Yes
+42	moins	moins	ADV	_	_	41	comp	_	InIdiom=Yes
 43	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	45	det	_	_
 44	10	10	NUM	_	ExtPos=DET|NumType=Card	45	mod	_	Number[lex]=Plur
 45	jours	jour	NOUN	_	Number=Plur	40	comp	_	Gender[lex]=Masc

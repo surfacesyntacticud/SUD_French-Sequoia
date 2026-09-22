@@ -1589,7 +1589,7 @@
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	évoluera	évoluer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 10	à	à	ADP	_	ExtPos=ADV	9	mod	_	Idiom=Yes
-11	partir	partir	VERB	_	VerbForm=Inf	10	unk	_	InIdiom=Yes|Subject=Generic
+11	partir	partir	VERB	_	VerbForm=Inf	10	comp	_	InIdiom=Yes|Subject=Generic
 12	de	de	ADP	_	_	11	comp:obl	_	_
 13	15	15	NUM	_	ExtPos=PROPN|NumType=Card	14	mod	_	SpaceAfter=No
 14	h	h	NOUN	_	Number=Sing	12	comp	_	Gender[lex]=Fem|SpaceAfter=No
@@ -1711,7 +1711,7 @@
 6	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	rendez-vous	rendez-vous	NOUN	_	_	6	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 8	à	à	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes
-9	partir	partir	VERB	_	VerbForm=Inf	8	unk	_	InIdiom=Yes|Subject=Generic
+9	partir	partir	VERB	_	VerbForm=Inf	8	comp	_	InIdiom=Yes|Subject=Generic
 10	de	de	ADP	_	_	9	comp:obl	_	_
 11	9	9	NUM	_	ExtPos=PROPN|NumType=Card	12	mod	_	SpaceAfter=No
 12	h	h	NOUN	_	Number=Sing	10	comp	_	Gender[lex]=Fem|SpaceAfter=No
@@ -1748,7 +1748,7 @@
 8	aujourd'hui	aujourd'hui	ADV	_	_	6	mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	à	à	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes
-11	partir	partir	VERB	_	VerbForm=Inf	10	unk	_	InIdiom=Yes|Subject=Generic
+11	partir	partir	VERB	_	VerbForm=Inf	10	comp	_	InIdiom=Yes|Subject=Generic
 12	de	de	ADP	_	_	11	comp:obl	_	_
 13	9	9	NUM	_	ExtPos=PROPN|NumType=Card	14	mod	_	SpaceAfter=No
 14	h	h	NOUN	_	Number=Sing	12	comp	_	Gender[lex]=Fem|SpaceAfter=No
@@ -4602,7 +4602,7 @@
 11	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	12	subj	_	SpaceAfter=No
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis:insert	_	_
 13	du	du	ADP	_	ExtPos=ADV	12	mod	_	Idiom=Yes
-14	moins	moins	ADV	_	_	13	unk	_	InIdiom=Yes
+14	moins	moins	ADV	_	_	13	comp	_	InIdiom=Yes
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	nombre	nombre	NOUN	_	Number=Sing	12	comp:pred	_	Gender[lex]=Masc
 17	qu'	que	PRON	_	PronType=Rel	19	comp:obj	_	SpaceAfter=No
@@ -4690,7 +4690,7 @@
 14	batterie	batterie	NOUN	_	Number=Sing	12	comp	_	Gender[lex]=Fem
 15	depuis	depuis	ADP	_	_	10	mod	_	_
 16	au	au	ADP	_	ExtPos=ADV	19	mod	_	Idiom=Yes
-17	moins	moins	ADV	_	_	16	unk	_	InIdiom=Yes
+17	moins	moins	ADV	_	_	16	comp	_	InIdiom=Yes
 18	trente	trente	NUM	_	ExtPos=DET|NumType=Card	19	det	_	Number[lex]=Plur
 19	ans	an	NOUN	_	Number=Plur	15	comp	_	Gender[lex]=Masc|SpaceAfter=No
 20	.	.	PUNCT	_	_	1	punct	_	_
@@ -8168,8 +8168,8 @@
 6	commune	commune	NOUN	_	Number=Sing	4	comp	_	Gender[lex]=Fem
 7	n'	ne	ADV	_	Polarity=Neg	8	mod	_	SpaceAfter=No
 8	écartait	écarter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-9	d'	de	ADP	_	_	8	mod	_	SpaceAfter=No
-10	ailleurs	ailleurs	ADV	_	_	9	comp	_	_
+9	d'	de	ADP	_	_	8	mod	_	Idiom=Yes|SpaceAfter=No
+10	ailleurs	ailleurs	ADV	_	_	9	comp	_	InIdiom=Yes
 11	pas	pas	ADV	_	Polarity=Neg	8	mod	_	_
 12	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
 13	thèse	thèse	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Fem
@@ -9926,8 +9926,8 @@
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
 7	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-8	d'	de	ADP	_	_	7	mod	_	SpaceAfter=No
-9	ailleurs	ailleurs	ADV	_	_	8	comp	_	_
+8	d'	de	ADP	_	ExtPos=ADV	7	mod	_	Idiom=Yes|SpaceAfter=No
+9	ailleurs	ailleurs	ADV	_	_	8	comp	_	InIdiom=Yes
 10	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	7	comp:aux@tense	_	Tense[denom]=Past
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	médaille	médaille	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Fem
@@ -10840,8 +10840,8 @@
 20	qui	qui	PRON	_	PronType=Rel	21	subj	_	_
 21	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	mod@relcl	_	_
 22	prendre	prendre	VERB	_	VerbForm=Inf	21	comp:obj	_	Subject=SubjRaising
-23	d'	de	ADP	_	_	22	mod	_	SpaceAfter=No
-24	ailleurs	ailleurs	ADV	_	_	23	comp	_	_
+23	d'	de	ADP	_	ExtPos=ADV	22	mod	_	Idiom=Yes|SpaceAfter=No
+24	ailleurs	ailleurs	ADV	_	_	23	comp	_	InIdiom=Yes
 25	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	26	det	_	_
 26	formes	forme	NOUN	_	Number=Plur	22	comp:obj	_	Gender[lex]=Fem
 27	diverses	divers	ADJ	_	Gender=Fem|Number=Plur	26	mod	_	SpaceAfter=No

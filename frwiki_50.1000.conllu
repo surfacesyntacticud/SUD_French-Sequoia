@@ -2522,8 +2522,8 @@
 
 # sent_id = frwiki_50.1000_00105
 # text = Par ailleurs, le gouvernement américain aurait selon plusieurs sources [4] payé 14 millions de dollars à cette compagnie pour l'avoir aidée à médiatiser la guerre du Golfe sous un jour favorable à l'intervention occidentale.
-1	Par	par	ADP	_	_	7	mod	_	_
-2	ailleurs	ailleurs	ADV	_	_	1	comp	_	SpaceAfter=No
+1	Par	par	ADP	_	ExtPos=ADV	7	mod	_	Idiom=Yes
+2	ailleurs	ailleurs	ADV	_	_	1	comp	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	gouvernement	gouvernement	NOUN	_	Number=Sing	7	subj	_	Gender[lex]=Masc
@@ -3215,7 +3215,7 @@
 # sent_id = frwiki_50.1000_00133
 # text = À partir de ce jour, Valéry Giscard d'Estaing ne lira plus Le Monde, blessé par les accusations fondées sur les seules informations du Canard enchaîné, et par la mise en cause de son père et de ses cousins dans des activités liées à l'Afrique mais qui n'avaient rien à voir avec Bokassa et son cadeau.
 1	À	à	ADP	_	ExtPos=ADV	12	mod	_	Idiom=Yes
-2	partir	partir	VERB	_	VerbForm=Inf	1	unk	_	InIdiom=Yes|Subject=Generic
+2	partir	partir	VERB	_	VerbForm=Inf	1	comp	_	InIdiom=Yes|Subject=Generic
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 5	jour	jour	NOUN	_	Number=Sing	3	comp	_	Gender[lex]=Masc|SpaceAfter=No
@@ -3326,8 +3326,8 @@
 
 # sent_id = frwiki_50.1000_00136
 # text = D'ailleurs, au-delà du don des diamants, c'est l'ensemble du mode de vie du Président et de sa famille qui est critiqué.
-1	D'	de	ADP	_	_	11	mod	_	SpaceAfter=No
-2	ailleurs	ailleurs	ADV	_	_	1	comp	_	SpaceAfter=No
+1	D'	de	ADP	_	ExtPos=ADV	11	mod	_	Idiom=Yes|SpaceAfter=No
+2	ailleurs	ailleurs	ADV	_	_	1	comp	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	au-delà	au-delà	ADV	_	_	11	mod	_	_
 5	du	du	ADP	_	_	4	comp:obl	_	_
@@ -3881,7 +3881,7 @@
 # sent_id = frwiki_50.1000_00158
 # text = A partir de ce moment, toutes les traces seront perdues.
 1	A	à	ADP	_	ExtPos=ADV	10	mod	_	Idiom=Yes
-2	partir	partir	VERB	_	VerbForm=Inf	1	unk	_	InIdiom=Yes|Subject=Generic
+2	partir	partir	VERB	_	VerbForm=Inf	1	comp	_	InIdiom=Yes|Subject=Generic
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 5	moment	moment	NOUN	_	Number=Sing	3	comp	_	Gender[lex]=Masc|SpaceAfter=No
@@ -4850,8 +4850,8 @@
 9	Jean-François	Jean-François	PROPN	_	_	2	mod	_	Gender[lex]=Unknown
 10	Burgelin	Burgelin	PROPN	_	_	9	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	par	par	ADP	_	_	2	mod	_	_
-13	ailleurs	ailleurs	ADV	_	_	12	comp	_	_
+12	par	par	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes
+13	ailleurs	ailleurs	ADV	_	_	12	comp	_	InIdiom=Yes
 14	proche	proche	ADJ	_	Number=Sing	2	mod	_	Gender[ctxt]=Masc
 15	du	du	ADP	_	_	14	comp:obl	_	_
 16	Chef	chef	NOUN	_	Number=Sing	15	comp	_	Gender[lex]=Unknown
@@ -7774,7 +7774,7 @@
 57	politiques	politique	ADJ	_	Number=Plur	56	mod	_	Gender[ctxt]=Fem
 58	-	-	PUNCT	_	_	62	punct	_	SpaceAfter=No
 59	du	du	ADP	_	ExtPos=ADV	62	mod	_	Idiom=Yes
-60	moins	moins	ADV	_	_	59	unk	_	InIdiom=Yes
+60	moins	moins	ADV	_	_	59	comp	_	InIdiom=Yes
 61	pas	pas	ADV	_	Polarity=Neg	62	mod	_	_
 62	au	au	ADP	_	_	53	mod	_	_
 63	sens	sens	NOUN	_	_	62	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
@@ -7796,7 +7796,7 @@
 79	droit	droit	NOUN	_	Number=Sing	76	comp:obj	_	Gender[lex]=Masc
 80	-	-	PUNCT	_	_	83	punct	_	SpaceAfter=No
 81	du	du	ADP	_	ExtPos=ADV	83	mod	_	Idiom=Yes
-82	moins	moins	ADV	_	_	81	unk	_	InIdiom=Yes
+82	moins	moins	ADV	_	_	81	comp	_	InIdiom=Yes
 83	dans	dans	ADP	_	_	79	udep	_	_
 84	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	85	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 85	idée	idée	NOUN	_	Number=Sing	83	comp	_	Gender[lex]=Fem
@@ -8368,8 +8368,8 @@
 55	de	de	ADP	_	_	54	udep	_	_
 56	prestige	prestige	NOUN	_	Number=Sing	55	comp	_	Gender[lex]=Masc|SpaceAfter=No
 57	,	,	PUNCT	_	_	61	punct	_	_
-58	d'	de	ADP	_	_	61	mod	_	SpaceAfter=No
-59	ailleurs	ailleurs	ADV	_	_	58	comp	_	_
+58	d'	de	ADP	_	ExtPos=ADV	61	mod	_	Idiom=Yes|SpaceAfter=No
+59	ailleurs	ailleurs	ADV	_	_	58	comp	_	InIdiom=Yes
 60	très	très	ADV	_	_	61	mod	_	_
 61	modérée	modéré	ADJ	_	Gender=Fem|Number=Sing	54	mod	_	SpaceAfter=No
 62	,	,	PUNCT	_	_	63	punct	_	_
@@ -11124,8 +11124,8 @@
 1	Ces	ce	DET	_	Number=Plur|PronType=Dem	2	det	_	_
 2	commissions	commission	NOUN	_	Number=Plur	3	subj	_	Gender[lex]=Fem
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	par	par	ADP	_	_	3	mod	_	_
-5	ailleurs	ailleurs	ADV	_	_	4	comp	_	_
+4	par	par	ADP	_	ExtPos=ADV	3	mod	_	Idiom=Yes
+5	ailleurs	ailleurs	ADV	_	_	4	comp	_	InIdiom=Yes
 6	déductibles	déductible	ADJ	_	Number=Plur	3	comp:pred	_	Gender[ctxt]=Fem
 7	d'	de	ADP	_	_	6	comp:obl	_	SpaceAfter=No
 8	impôt	impôt	NOUN	_	Number=Sing	7	comp	_	Gender[lex]=Masc
@@ -19793,7 +19793,7 @@
 8	Armand	Armand	PROPN	_	Number=Sing	7	mod	_	Gender[lex]=Masc
 9	Riberolles	Riberolles	PROPN	_	_	8	flat@name	_	Gender[lex]=Unknown
 10	à	à	ADP	_	ExtPos=ADV	3	mod	_	Idiom=Yes
-11	partir	partir	VERB	_	VerbForm=Inf	10	unk	_	InIdiom=Yes|Subject=Generic
+11	partir	partir	VERB	_	VerbForm=Inf	10	comp	_	InIdiom=Yes|Subject=Generic
 12	de	de	ADP	_	_	11	comp:obl	_	_
 13	1997	1997	NUM	_	ExtPos=PROPN|NumType=Card	12	comp	_	Number[lex]=Sing|SpaceAfter=No
 14	.	.	PUNCT	_	_	3	punct	_	_
@@ -20377,7 +20377,7 @@
 7	en	en	ADP	_	_	6	udep	_	_
 8	appel	appel	NOUN	_	Number=Sing	7	comp	_	Gender[lex]=Masc
 9	à	à	ADP	_	ExtPos=ADV	3	mod	_	Idiom=Yes
-10	partir	partir	VERB	_	VerbForm=Inf	9	unk	_	InIdiom=Yes|Subject=Generic
+10	partir	partir	VERB	_	VerbForm=Inf	9	comp	_	InIdiom=Yes|Subject=Generic
 11	du	du	ADP	_	_	10	comp:obl	_	_
 12	17	17	NUM	_	ExtPos=PROPN|NumType=Card	11	comp	_	Number[lex]=Sing
 13	octobre	octobre	NOUN	_	Number=Sing	12	mod	_	Gender[lex]=Masc
@@ -22580,8 +22580,8 @@
 4	The	The	X	_	Foreign=Yes	3	comp	_	Lang=en
 5	Observer	Observer	X	_	Foreign=Yes	4	flat@foreign	_	Lang=en
 6	retrace	retracer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	d'	de	ADP	_	_	6	mod	_	SpaceAfter=No
-8	ailleurs	ailleurs	ADV	_	_	7	comp	_	_
+7	d'	de	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes|SpaceAfter=No
+8	ailleurs	ailleurs	ADV	_	_	7	comp	_	InIdiom=Yes
 9	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
 10	affaire	affaire	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 11	,	,	PUNCT	_	_	19	punct	_	_
@@ -24595,7 +24595,7 @@
 43	en	en	ADP	_	_	42	comp:obl	_	_
 44	place	place	NOUN	_	Number=Sing	43	comp	_	Gender[lex]=Fem
 45	à	à	ADP	_	ExtPos=ADV	42	mod	_	Idiom=Yes
-46	partir	partir	VERB	_	VerbForm=Inf	45	unk	_	InIdiom=Yes|Subject=Generic
+46	partir	partir	VERB	_	VerbForm=Inf	45	comp	_	InIdiom=Yes|Subject=Generic
 47	de	de	ADP	_	_	46	comp:obl	_	_
 48	1948	1948	NUM	_	ExtPos=PROPN|NumType=Card	47	comp	_	Number[lex]=Sing|SpaceAfter=No
 49	.	.	PUNCT	_	_	42	punct	_	_
@@ -24655,7 +24655,7 @@
 7	Colonies	colonie	NOUN	_	Number=Plur	6	comp	_	Gender[lex]=Fem
 8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
 9	à	à	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes
-10	partir	partir	VERB	_	VerbForm=Inf	9	unk	_	InIdiom=Yes|Subject=Generic
+10	partir	partir	VERB	_	VerbForm=Inf	9	comp	_	InIdiom=Yes|Subject=Generic
 11	de	de	ADP	_	_	10	comp:obl	_	_
 12	1950	1950	NUM	_	ExtPos=PROPN|NumType=Card	11	comp	_	Number[lex]=Sing|SpaceAfter=No
 13	)	)	PUNCT	_	_	9	punct	_	_
@@ -24887,7 +24887,7 @@
 11	à	à	ADP	_	_	10	comp:obj	_	_
 12	sauver	sauver	VERB	_	VerbForm=Inf	11	comp	_	Subject=SubjRaising
 13	au	au	ADP	_	ExtPos=ADV	12	mod	_	Idiom=Yes
-14	moins	moins	ADV	_	_	13	unk	_	InIdiom=Yes
+14	moins	moins	ADV	_	_	13	comp	_	InIdiom=Yes
 15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
 16	Institut	Institut	PROPN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Unknown
 17	d'	de	ADP	_	_	16	udep	_	SpaceAfter=No

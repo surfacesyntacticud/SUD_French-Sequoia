@@ -7915,8 +7915,8 @@
 20	-	-	PUNCT	_	_	22	punct	_	SpaceAfter=No
 21	lesquels	lequel	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	22	subj	_	_
 22	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	mod@relcl	_	_
-23	par	par	ADP	_	_	22	mod	_	_
-24	ailleurs	ailleurs	ADV	_	_	23	comp	_	_
+23	par	par	ADP	_	Idiom=Yes|ExtPos=ADV	22	mod	_	_
+24	ailleurs	ailleurs	ADV	_	_	23	comp	_	InIdiom=Yes
 25	démenti	démentir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	22	comp:aux@tense	_	Tense[denom]=Past
 26	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	27	det	_	_
 27	lien	lien	NOUN	_	Number=Sing	25	comp:obj	_	Gender[lex]=Masc
@@ -9203,7 +9203,7 @@
 1	Celle-ci	celui-ci	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	11	subj	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	5	punct	_	_
 3	du	du	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes
-4	moins	moins	ADV	_	_	3	unk	_	InIdiom=Yes
+4	moins	moins	ADV	_	_	3	comp	_	InIdiom=Yes
 5	telle	tel	ADJ	_	Gender=Fem|Number=Sing	1	mod	_	_
 6	que	que	SCONJ	_	_	5	unk	_	_
 7	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	9	subj	_	_
@@ -9296,7 +9296,7 @@
 31	souhaitent	souhaiter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	comp	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	35	punct	_	_
 33	du	du	ADP	_	ExtPos=ADV	35	mod	_	Idiom=Yes
-34	moins	moins	ADV	_	_	33	unk	_	InIdiom=Yes
+34	moins	moins	ADV	_	_	33	comp	_	InIdiom=Yes
 35	dans	dans	ADP	_	_	31	mod	_	_
 36	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 37	premier	premier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	38	mod	_	_
@@ -10187,8 +10187,8 @@
 # text = Je remercie d'ailleurs le Conseil et la Commission pour ce qu'ils ont déjà entrepris et pour les précisions qu'ils nous ont apportées tout à l'heure.
 1	Je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	remercie	remercier	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	d'	de	ADP	_	_	2	mod	_	SpaceAfter=No
-4	ailleurs	ailleurs	ADV	_	_	3	comp	_	_
+3	d'	de	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes|SpaceAfter=No
+4	ailleurs	ailleurs	ADV	_	_	3	comp	_	InIdiom=Yes
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Conseil	conseil	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Masc
 7	et	et	CCONJ	_	_	9	cc	_	_
@@ -10922,7 +10922,7 @@
 34	encore	encore	ADV	_	_	32	mod	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	38	punct	_	_
 36	du	du	ADP	_	ExtPos=ADV	38	mod	_	Idiom=Yes
-37	moins	moins	ADV	_	_	36	unk	_	InIdiom=Yes
+37	moins	moins	ADV	_	_	36	comp	_	InIdiom=Yes
 38	à	à	ADP	_	_	32	mod	_	_
 39	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	40	det	_	Gender[ctxt]=Masc
 40	avis	avis	NOUN	_	_	38	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
@@ -13245,8 +13245,8 @@
 
 # sent_id = Europar.550_00429
 # text = Par ailleurs, nous souhaitons la transparence des appels d'offres lors des lancements de partenariats publics et privés afin que tous puissent réellement participer au développement des réseaux.
-1	Par	par	ADP	_	_	5	mod	_	_
-2	ailleurs	ailleurs	ADV	_	_	1	comp	_	SpaceAfter=No
+1	Par	par	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes
+2	ailleurs	ailleurs	ADV	_	_	1	comp	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	5	subj	_	_
 5	souhaitons	souhaiter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -15476,8 +15476,8 @@
 
 # sent_id = Europar.550_00512
 # text = Par ailleurs, la délégation britannique, composée actuellement de 36 députés, a présenté à nouveau la résolution dans sa forme originale.
-1	Par	par	ADP	_	_	14	mod	_	_
-2	ailleurs	ailleurs	ADV	_	_	1	comp	_	SpaceAfter=No
+1	Par	par	ADP	_	ExtPos=ADV	14	mod	_	Idiom=Yes
+2	ailleurs	ailleurs	ADV	_	_	1	comp	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	délégation	délégation	NOUN	_	Number=Sing	14	subj	_	Gender[lex]=Fem
