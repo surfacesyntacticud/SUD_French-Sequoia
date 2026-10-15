@@ -8168,7 +8168,7 @@
 6	commune	commune	NOUN	_	Number=Sing	4	comp	_	Gender[lex]=Fem
 7	n'	ne	ADV	_	Polarity=Neg	8	mod	_	SpaceAfter=No
 8	écartait	écarter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-9	d'	de	ADP	_	_	8	mod	_	Idiom=Yes|SpaceAfter=No
+9	d'	de	ADP	_	ExtPos=ADV	8	mod	_	Idiom=Yes|SpaceAfter=No
 10	ailleurs	ailleurs	ADV	_	_	9	comp	_	InIdiom=Yes
 11	pas	pas	ADV	_	Polarity=Neg	8	mod	_	_
 12	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
