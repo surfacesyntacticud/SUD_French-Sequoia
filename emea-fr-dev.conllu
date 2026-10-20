@@ -1586,7 +1586,7 @@
 # sent_id = emea-fr-dev_00066
 # text = Numéro UE
 1	Numéro	numéro	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Masc
-2	UE	UE	NOUN	_	_	1	mod	_	Gender[lex]=Unknown
+2	UE	UE	PROPN	_	_	1	mod	_	Gender[lex]=Fem
 
 # sent_id = emea-fr-dev_00067
 # text = Nom de fantaisie
@@ -6536,8 +6536,8 @@
 29	angor	angor	NOUN	_	Number=Sing	28	comp	_	Gender[lex]=Masc
 30	instable	instable	ADJ	_	Number=Sing	29	mod	_	Gender[ctxt]=Masc
 31	ou	ou	CCONJ	_	_	32	cc	_	_
-32	IDM	IDM	NOUN	_	_	29	conj:coord	_	Gender[lex]=Unknown
-33	ST-	ST-	ADJ	_	Gender=Masc|Number=Sing	32	mod	_	SpaceAfter=No
+32	IDM	IDM	X	_	_	29	conj:coord	_	_
+33	ST-	ST-	X	_	_	32	flat@name	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = emea-fr-dev_00313
